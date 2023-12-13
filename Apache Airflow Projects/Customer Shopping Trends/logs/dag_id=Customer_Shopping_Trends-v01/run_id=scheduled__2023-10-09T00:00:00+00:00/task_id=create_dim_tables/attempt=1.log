@@ -1,0 +1,16 @@
+[2023-12-10T01:40:26.429+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Customer_Shopping_Trends-v01.create_dim_tables scheduled__2023-10-09T00:00:00+00:00 [queued]>
+[2023-12-10T01:40:26.434+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Customer_Shopping_Trends-v01.create_dim_tables scheduled__2023-10-09T00:00:00+00:00 [queued]>
+[2023-12-10T01:40:26.434+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-10T01:40:26.439+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): create_dim_tables> on 2023-10-09 00:00:00+00:00
+[2023-12-10T01:40:26.441+0000] {standard_task_runner.py:57} INFO - Started process 633 to run task
+[2023-12-10T01:40:26.443+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Customer_Shopping_Trends-v01', 'create_dim_tables', 'scheduled__2023-10-09T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/Customer_Shopping_Trends.py', '--cfg-path', '/tmp/tmplkxymptg']
+[2023-12-10T01:40:26.445+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask create_dim_tables
+[2023-12-10T01:40:26.472+0000] {task_command.py:416} INFO - Running <TaskInstance: Customer_Shopping_Trends-v01.create_dim_tables scheduled__2023-10-09T00:00:00+00:00 [running]> on host f356af1a326f
+[2023-12-10T01:40:26.510+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Customer_Shopping_Trends-v01' AIRFLOW_CTX_TASK_ID='create_dim_tables' AIRFLOW_CTX_EXECUTION_DATE='2023-10-09T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-10-09T00:00:00+00:00'
+[2023-12-10T01:40:26.513+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-10T01:40:26.526+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-10-09T00:00:00+00:00
+[2023-12-10T01:41:26.619+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-10T01:41:26.636+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-10T01:41:26.649+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Customer_Shopping_Trends-v01, task_id=create_dim_tables, execution_date=20231009T000000, start_date=20231210T014026, end_date=20231210T014126
+[2023-12-10T01:41:26.669+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-10T01:41:26.697+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

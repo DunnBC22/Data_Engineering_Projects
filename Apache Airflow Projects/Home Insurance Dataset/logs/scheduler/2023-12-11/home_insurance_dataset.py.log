@@ -1,0 +1,1274 @@
+[2023-12-11T19:48:51.867+0000] {processor.py:157} INFO - Started process (PID=168) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:48:51.872+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:48:51.875+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:48:51.874+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:48:51.925+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:48:51.918+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:48:51.927+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:48:51.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.085 seconds
+[2023-12-11T19:49:22.988+0000] {processor.py:157} INFO - Started process (PID=215) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:49:22.995+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:49:23.007+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:49:23.001+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:49:23.168+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:49:23.137+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:49:23.183+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:49:23.233+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.347 seconds
+[2023-12-11T19:49:53.332+0000] {processor.py:157} INFO - Started process (PID=265) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:49:53.334+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:49:53.335+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:49:53.334+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:49:53.347+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:49:53.345+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:49:53.348+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:49:53.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T19:50:23.756+0000] {processor.py:157} INFO - Started process (PID=309) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:50:23.756+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:50:23.757+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:50:23.757+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:50:23.769+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:50:23.767+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:50:23.769+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:50:23.783+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.031 seconds
+[2023-12-11T19:50:54.332+0000] {processor.py:157} INFO - Started process (PID=356) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:50:54.334+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:50:54.335+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:50:54.335+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:50:54.349+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:50:54.348+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:50:54.350+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:50:54.367+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T19:51:24.951+0000] {processor.py:157} INFO - Started process (PID=403) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:51:24.952+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:51:24.954+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:51:24.953+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:51:24.970+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:51:24.969+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:51:24.971+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:51:24.987+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T19:51:55.476+0000] {processor.py:157} INFO - Started process (PID=450) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:51:55.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:51:55.479+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:51:55.478+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:51:55.493+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:51:55.492+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:51:55.494+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:51:55.511+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T19:52:26.032+0000] {processor.py:157} INFO - Started process (PID=497) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:52:26.034+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:52:26.035+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:52:26.035+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:52:26.049+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:52:26.048+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:52:26.050+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:52:26.067+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T19:52:56.657+0000] {processor.py:157} INFO - Started process (PID=544) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:52:56.658+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:52:56.659+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:52:56.659+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:52:56.674+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:52:56.672+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:52:56.675+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:52:56.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.039 seconds
+[2023-12-11T19:53:27.231+0000] {processor.py:157} INFO - Started process (PID=591) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:53:27.231+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:53:27.232+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:53:27.232+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:53:27.241+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:53:27.240+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:53:27.241+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:53:27.253+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.025 seconds
+[2023-12-11T19:53:57.878+0000] {processor.py:157} INFO - Started process (PID=638) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:53:57.879+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:53:57.881+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:53:57.880+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:53:57.894+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:53:57.893+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:53:57.895+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:53:57.911+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.038 seconds
+[2023-12-11T19:54:28.543+0000] {processor.py:157} INFO - Started process (PID=685) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:54:28.544+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:54:28.546+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:54:28.545+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:54:28.560+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:54:28.559+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:54:28.561+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:54:28.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T19:54:59.197+0000] {processor.py:157} INFO - Started process (PID=732) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:54:59.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:54:59.198+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:54:59.198+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:54:59.207+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:54:59.205+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:54:59.207+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:54:59.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.027 seconds
+[2023-12-11T19:55:29.809+0000] {processor.py:157} INFO - Started process (PID=779) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:55:29.810+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:55:29.810+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:55:29.810+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:55:29.819+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:55:29.818+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:55:29.819+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:55:29.832+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.025 seconds
+[2023-12-11T19:56:00.433+0000] {processor.py:157} INFO - Started process (PID=826) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:56:00.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:56:00.437+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:56:00.436+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:56:00.453+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:56:00.451+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:56:00.454+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:56:00.471+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.043 seconds
+[2023-12-11T19:56:31.127+0000] {processor.py:157} INFO - Started process (PID=873) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:56:31.129+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:56:31.130+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:56:31.130+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:56:31.144+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:56:31.143+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:56:31.145+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:56:31.162+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T19:57:01.774+0000] {processor.py:157} INFO - Started process (PID=920) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:57:01.776+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:57:01.777+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:57:01.776+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:57:01.791+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:57:01.789+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:57:01.792+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:57:01.807+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.038 seconds
+[2023-12-11T19:57:32.384+0000] {processor.py:157} INFO - Started process (PID=967) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:57:32.385+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:57:32.386+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:57:32.386+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:57:32.401+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:57:32.400+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:57:32.402+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:57:32.418+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T19:58:03.101+0000] {processor.py:157} INFO - Started process (PID=1014) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:58:03.102+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:58:03.104+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:58:03.103+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:58:03.119+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:58:03.117+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:58:03.119+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:58:03.136+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T19:58:33.770+0000] {processor.py:157} INFO - Started process (PID=1061) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:58:33.771+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:58:33.772+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:58:33.772+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:58:33.787+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:58:33.785+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:58:33.787+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:58:33.804+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.039 seconds
+[2023-12-11T19:59:04.458+0000] {processor.py:157} INFO - Started process (PID=1108) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:59:04.459+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:59:04.461+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:59:04.461+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:59:04.476+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:59:04.474+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:59:04.477+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:59:04.493+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T19:59:35.012+0000] {processor.py:157} INFO - Started process (PID=1155) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:59:35.014+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T19:59:35.015+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:59:35.015+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:59:35.030+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:59:35.028+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:59:35.030+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T19:59:35.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:00:05.695+0000] {processor.py:157} INFO - Started process (PID=1202) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:00:05.697+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:00:05.698+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:00:05.698+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:00:05.713+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:00:05.712+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:00:05.714+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:00:05.731+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T20:00:36.354+0000] {processor.py:157} INFO - Started process (PID=1249) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:00:36.355+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:00:36.356+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:00:36.356+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:00:36.371+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:00:36.370+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:00:36.372+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:00:36.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T20:01:06.999+0000] {processor.py:157} INFO - Started process (PID=1296) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:01:07.001+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:01:07.002+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:01:07.002+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:01:07.019+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:01:07.018+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:01:07.020+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:01:07.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.042 seconds
+[2023-12-11T20:01:37.669+0000] {processor.py:157} INFO - Started process (PID=1343) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:01:37.671+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:01:37.672+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:01:37.672+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:01:37.687+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:01:37.685+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:01:37.687+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:01:37.704+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:02:08.326+0000] {processor.py:157} INFO - Started process (PID=1390) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:02:08.327+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:02:08.329+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:02:08.328+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:02:08.343+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:02:08.342+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:02:08.344+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:02:08.361+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:02:39.020+0000] {processor.py:157} INFO - Started process (PID=1437) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:02:39.021+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:02:39.022+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:02:39.022+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:02:39.038+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:02:39.036+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:02:39.038+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:02:39.054+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:03:09.660+0000] {processor.py:157} INFO - Started process (PID=1484) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:03:09.662+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:03:09.663+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:03:09.662+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:03:09.676+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:03:09.674+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:03:09.676+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:03:09.692+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.035 seconds
+[2023-12-11T20:03:40.285+0000] {processor.py:157} INFO - Started process (PID=1531) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:03:40.287+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:03:40.288+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:03:40.287+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:03:40.303+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:03:40.301+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:03:40.304+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:03:40.320+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T20:04:10.997+0000] {processor.py:157} INFO - Started process (PID=1578) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:04:10.998+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:04:10.999+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:04:10.999+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:04:11.011+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:04:11.010+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:04:11.012+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:04:11.027+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.034 seconds
+[2023-12-11T20:04:41.681+0000] {processor.py:157} INFO - Started process (PID=1625) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:04:41.682+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:04:41.684+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:04:41.683+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:04:41.699+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:04:41.697+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:04:41.699+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:04:41.717+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T20:05:12.339+0000] {processor.py:157} INFO - Started process (PID=1672) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:05:12.340+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:05:12.341+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:05:12.341+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:05:12.352+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:05:12.350+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:05:12.352+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:05:12.366+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.030 seconds
+[2023-12-11T20:05:42.983+0000] {processor.py:157} INFO - Started process (PID=1719) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:05:42.985+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:05:42.986+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:05:42.986+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:05:43.001+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:05:42.999+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:05:43.002+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:05:43.019+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T20:06:13.641+0000] {processor.py:157} INFO - Started process (PID=1766) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:06:13.642+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:06:13.643+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:06:13.643+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:06:13.658+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:06:13.656+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:06:13.659+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:06:13.675+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:06:44.309+0000] {processor.py:157} INFO - Started process (PID=1813) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:06:44.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:06:44.312+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:06:44.312+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:06:44.327+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:06:44.325+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:06:44.327+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:06:44.344+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:07:14.920+0000] {processor.py:157} INFO - Started process (PID=1867) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:07:14.921+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:07:14.922+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:07:14.922+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:07:14.935+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:07:14.933+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:07:14.936+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:07:14.951+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.035 seconds
+[2023-12-11T20:07:45.585+0000] {processor.py:157} INFO - Started process (PID=1914) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:07:45.586+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:07:45.588+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:07:45.587+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:07:45.603+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:07:45.601+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:07:45.604+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:07:45.620+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:08:16.294+0000] {processor.py:157} INFO - Started process (PID=1961) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:08:16.295+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:08:16.296+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:08:16.296+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:08:16.312+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:08:16.310+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:08:16.312+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:08:16.329+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:08:46.909+0000] {processor.py:157} INFO - Started process (PID=2008) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:08:46.910+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:08:46.911+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:08:46.911+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:08:46.926+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:08:46.924+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:08:46.927+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:08:46.943+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:09:17.602+0000] {processor.py:157} INFO - Started process (PID=2055) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:09:17.603+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:09:17.604+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:09:17.604+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:09:17.619+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:09:17.617+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:09:17.619+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:09:17.636+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.039 seconds
+[2023-12-11T20:09:48.317+0000] {processor.py:157} INFO - Started process (PID=2102) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:09:48.319+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:09:48.320+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:09:48.320+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:09:48.336+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:09:48.334+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:09:48.337+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:09:48.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T20:10:19.005+0000] {processor.py:157} INFO - Started process (PID=2149) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:10:19.007+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:10:19.008+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:10:19.008+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:10:19.024+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:10:19.022+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:10:19.024+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:10:19.041+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:10:49.671+0000] {processor.py:157} INFO - Started process (PID=2196) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:10:49.672+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:10:49.673+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:10:49.673+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:10:49.687+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:10:49.686+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:10:49.688+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:10:49.704+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.037 seconds
+[2023-12-11T20:11:20.334+0000] {processor.py:157} INFO - Started process (PID=2243) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:11:20.336+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:11:20.337+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:11:20.337+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:11:20.353+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:11:20.352+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:11:20.354+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:11:20.371+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.042 seconds
+[2023-12-11T20:11:51.037+0000] {processor.py:157} INFO - Started process (PID=2290) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:11:51.038+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:11:51.039+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:11:51.039+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:11:51.054+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:11:51.052+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:11:51.055+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:11:51.071+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.039 seconds
+[2023-12-11T20:12:21.706+0000] {processor.py:157} INFO - Started process (PID=2337) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:12:21.707+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:12:21.709+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:12:21.708+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:12:21.724+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:12:21.723+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:12:21.725+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:12:21.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T20:12:52.320+0000] {processor.py:157} INFO - Started process (PID=2384) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:12:52.321+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:12:52.322+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:12:52.322+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:12:52.333+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:12:52.331+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:12:52.333+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:12:52.347+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.030 seconds
+[2023-12-11T20:13:23.025+0000] {processor.py:157} INFO - Started process (PID=2431) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:13:23.027+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:13:23.028+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:13:23.028+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:13:23.043+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:13:23.041+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:13:23.044+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:13:23.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:13:53.694+0000] {processor.py:157} INFO - Started process (PID=2478) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:13:53.695+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:13:53.696+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:13:53.696+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:13:53.708+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:13:53.707+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:13:53.709+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:13:53.723+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.033 seconds
+[2023-12-11T20:14:24.330+0000] {processor.py:157} INFO - Started process (PID=2525) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:14:24.331+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:14:24.332+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:14:24.332+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:14:24.345+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:14:24.344+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:14:24.346+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:14:24.361+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.034 seconds
+[2023-12-11T20:14:55.004+0000] {processor.py:157} INFO - Started process (PID=2572) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:14:55.006+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:14:55.007+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:14:55.007+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:14:55.022+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:14:55.021+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:14:55.023+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:14:55.040+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T20:15:25.650+0000] {processor.py:157} INFO - Started process (PID=2619) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:15:25.651+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:15:25.652+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:15:25.652+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:15:25.667+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:15:25.665+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:15:25.667+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:15:25.684+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:15:56.323+0000] {processor.py:157} INFO - Started process (PID=2666) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:15:56.324+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:15:56.326+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:15:56.325+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:15:56.341+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:15:56.339+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:15:56.341+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:15:56.358+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.039 seconds
+[2023-12-11T20:16:26.911+0000] {processor.py:157} INFO - Started process (PID=2713) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:16:26.913+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:16:26.914+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:16:26.913+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:16:26.928+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:16:26.926+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:16:26.929+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:16:26.945+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.038 seconds
+[2023-12-11T20:16:57.598+0000] {processor.py:157} INFO - Started process (PID=2760) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:16:57.599+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:16:57.600+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:16:57.600+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:16:57.615+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:16:57.614+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:16:57.616+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:16:57.632+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.039 seconds
+[2023-12-11T20:17:28.283+0000] {processor.py:157} INFO - Started process (PID=2807) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:17:28.284+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:17:28.285+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:17:28.285+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:17:28.300+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:17:28.299+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:17:28.301+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:17:28.317+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.039 seconds
+[2023-12-11T20:17:58.826+0000] {processor.py:157} INFO - Started process (PID=2854) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:17:58.827+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:17:58.828+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:17:58.828+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:17:58.844+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:17:58.842+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:17:58.844+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:17:58.860+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.040 seconds
+[2023-12-11T20:18:29.501+0000] {processor.py:157} INFO - Started process (PID=2901) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:18:29.503+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:18:29.504+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:18:29.503+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:18:29.518+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:18:29.517+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:18:29.519+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:18:29.535+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.039 seconds
+[2023-12-11T20:19:00.199+0000] {processor.py:157} INFO - Started process (PID=2948) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:19:00.201+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:19:00.202+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:19:00.202+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:19:00.216+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:19:00.215+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:19:00.217+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:19:00.234+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.039 seconds
+[2023-12-11T20:19:30.883+0000] {processor.py:157} INFO - Started process (PID=2995) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:19:30.884+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:19:30.885+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:19:30.885+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:19:30.900+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:19:30.898+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:19:30.900+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:19:30.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.039 seconds
+[2023-12-11T20:20:01.561+0000] {processor.py:157} INFO - Started process (PID=3042) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:20:01.563+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:20:01.565+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:20:01.564+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:20:01.580+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:20:01.579+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:20:01.581+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:20:01.597+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.041 seconds
+[2023-12-11T20:20:32.224+0000] {processor.py:157} INFO - Started process (PID=3089) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:20:32.225+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:20:32.226+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:20:32.226+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:20:32.238+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:20:32.237+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:20:32.239+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:20:32.255+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.036 seconds
+[2023-12-11T20:21:02.874+0000] {processor.py:157} INFO - Started process (PID=3136) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:21:02.875+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:21:02.876+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:21:02.876+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:21:02.888+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:21:02.887+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:21:02.889+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:21:02.903+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.033 seconds
+[2023-12-11T20:21:33.434+0000] {processor.py:157} INFO - Started process (PID=3183) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:21:33.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:21:33.437+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:21:33.436+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:21:33.450+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:21:33.449+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 53, in <module>
+    import sub_dag_generate_month_dom_year as gen_dmy
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:21:33.451+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:21:33.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.038 seconds
+[2023-12-11T20:22:03.979+0000] {processor.py:157} INFO - Started process (PID=3235) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:22:03.981+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:22:03.982+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:22:03.982+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:22:04.015+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:22:04.014+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 136, in <module>
+    subdag=rmc.sub_dag_remove_multiple_columns(
+  File "/opt/airflow/dags/sub_dag_remove_multiple_columns.py", line 69, in sub_dag_remove_multiple_columns
+    assert not(isinstance(table_name, str)), \
+AssertionError: home_insurance_ds_pipeline has to be a string, but what is entered is not a string
+[2023-12-11T20:22:04.016+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:22:04.029+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.054 seconds
+[2023-12-11T20:22:34.538+0000] {processor.py:157} INFO - Started process (PID=3282) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:22:34.540+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:22:34.541+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:22:34.541+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:22:34.565+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:22:34.563+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 136, in <module>
+    subdag=rmc.sub_dag_remove_multiple_columns(
+  File "/opt/airflow/dags/sub_dag_remove_multiple_columns.py", line 69, in sub_dag_remove_multiple_columns
+    assert not(isinstance(table_name, str)), \
+AssertionError: home_insurance_ds_pipeline has to be a string, but what is entered is not a string
+[2023-12-11T20:22:34.565+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:22:34.580+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.047 seconds
+[2023-12-11T20:23:01.175+0000] {processor.py:157} INFO - Started process (PID=3344) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:23:01.176+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:23:01.177+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:23:01.177+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:23:01.900+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:23:01.899+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 472, in <module>
+    subdag=cuassc.sub_dag_star_schema_clean_up(
+  File "/opt/airflow/dags/clean_up_after_star_schema_creation.py", line 101, in sub_dag_star_schema_clean_up
+    "column_name": col['col_name']
+TypeError: string indices must be integers
+[2023-12-11T20:23:01.901+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:23:01.904+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.733 seconds
+[2023-12-11T20:23:32.451+0000] {processor.py:157} INFO - Started process (PID=3392) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:23:32.452+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:23:32.453+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:23:32.453+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:23:32.723+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:23:32.721+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/home_insurance_dataset.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/home_insurance_dataset.py", line 472, in <module>
+    subdag=cuassc.sub_dag_star_schema_clean_up(
+  File "/opt/airflow/dags/clean_up_after_star_schema_creation.py", line 101, in sub_dag_star_schema_clean_up
+    "column_name": col['col_name']
+TypeError: string indices must be integers
+[2023-12-11T20:23:32.723+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:23:32.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.281 seconds
+[2023-12-11T20:24:03.151+0000] {processor.py:157} INFO - Started process (PID=3450) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:24:03.152+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:24:03.153+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.153+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:24:03.446+0000] {processor.py:839} INFO - DAG(s) dict_keys(['home_insurance_ds-v01.remove_unnecessary_columns', 'home_insurance_ds-v01.remove_samples_with_outliers', 'home_insurance_ds-v01.generate_date_parts', 'home_insurance_ds-v01.create_dim_tables', 'home_insurance_ds-v01.insert_fk_into_fact_table', 'home_insurance_ds-v01.remove_replaced_dim_cols', 'home_insurance_ds-v01']) retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:24:03.703+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.703+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-11T20:24:03.710+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.710+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-11T20:24:03.718+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.717+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-11T20:24:03.718+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.718+0000] {dag.py:2941} INFO - Sync 7 DAGs
+[2023-12-11T20:24:03.724+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.724+0000] {dag.py:2963} INFO - Creating ORM DAG for home_insurance_ds-v01.create_dim_tables
+[2023-12-11T20:24:03.725+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.725+0000] {dag.py:2963} INFO - Creating ORM DAG for home_insurance_ds-v01.remove_replaced_dim_cols
+[2023-12-11T20:24:03.726+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.726+0000] {dag.py:2963} INFO - Creating ORM DAG for home_insurance_ds-v01.generate_date_parts
+[2023-12-11T20:24:03.727+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.727+0000] {dag.py:2963} INFO - Creating ORM DAG for home_insurance_ds-v01.remove_unnecessary_columns
+[2023-12-11T20:24:03.727+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.727+0000] {dag.py:2963} INFO - Creating ORM DAG for home_insurance_ds-v01
+[2023-12-11T20:24:03.728+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.728+0000] {dag.py:2963} INFO - Creating ORM DAG for home_insurance_ds-v01.remove_samples_with_outliers
+[2023-12-11T20:24:03.729+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.729+0000] {dag.py:2963} INFO - Creating ORM DAG for home_insurance_ds-v01.insert_fk_into_fact_table
+[2023-12-11T20:24:03.737+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.737+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:24:03.738+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.738+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:24:03.738+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.738+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:24:03.739+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.739+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:24:03.739+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.739+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:24:03.739+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.739+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:24:03.740+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.739+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:24:03.751+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.750+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:24:03.756+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.756+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:24:03.758+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.758+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:24:03.760+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.759+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:24:03.760+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.760+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:24:03.761+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.761+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:24:03.762+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:03.761+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:24:03.772+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.626 seconds
+[2023-12-11T20:24:34.268+0000] {processor.py:157} INFO - Started process (PID=3498) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:24:34.270+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:24:34.271+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.271+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:24:34.559+0000] {processor.py:839} INFO - DAG(s) dict_keys(['home_insurance_ds-v01.remove_unnecessary_columns', 'home_insurance_ds-v01.remove_samples_with_outliers', 'home_insurance_ds-v01.generate_date_parts', 'home_insurance_ds-v01.create_dim_tables', 'home_insurance_ds-v01.insert_fk_into_fact_table', 'home_insurance_ds-v01.remove_replaced_dim_cols', 'home_insurance_ds-v01']) retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:24:34.696+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.696+0000] {dag.py:2941} INFO - Sync 7 DAGs
+[2023-12-11T20:24:34.705+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.705+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:24:34.707+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.707+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:24:34.707+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.707+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:24:34.708+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.708+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:24:34.708+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.708+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:24:34.709+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.709+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:24:34.709+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.709+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:24:34.713+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.713+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:24:34.715+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.715+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:24:34.716+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.716+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:24:34.716+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.716+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:24:34.716+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.716+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:24:34.716+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.716+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:24:34.717+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:34.717+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:24:34.722+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.459 seconds
+[2023-12-11T20:25:04.802+0000] {processor.py:157} INFO - Started process (PID=3546) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:25:04.804+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:25:04.805+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:04.805+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:25:05.093+0000] {processor.py:839} INFO - DAG(s) dict_keys(['home_insurance_ds-v01.remove_unnecessary_columns', 'home_insurance_ds-v01.remove_samples_with_outliers', 'home_insurance_ds-v01.generate_date_parts', 'home_insurance_ds-v01.create_dim_tables', 'home_insurance_ds-v01.insert_fk_into_fact_table', 'home_insurance_ds-v01.remove_replaced_dim_cols', 'home_insurance_ds-v01']) retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:25:05.235+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.235+0000] {dag.py:2941} INFO - Sync 7 DAGs
+[2023-12-11T20:25:05.247+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.247+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:25:05.249+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.249+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:25:05.250+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.250+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:25:05.251+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.251+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:25:05.252+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.252+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:25:05.253+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.252+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:25:05.254+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.254+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:25:05.259+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.259+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:25:05.263+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.262+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:25:05.263+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.263+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:25:05.263+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.263+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:25:05.263+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.263+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:25:05.264+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.264+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:25:05.264+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:05.264+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:25:05.271+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.474 seconds
+[2023-12-11T20:25:35.316+0000] {processor.py:157} INFO - Started process (PID=3594) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:25:35.317+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:25:35.318+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.317+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:25:35.659+0000] {processor.py:839} INFO - DAG(s) dict_keys(['home_insurance_ds-v01.remove_unnecessary_columns', 'home_insurance_ds-v01.remove_samples_with_outliers', 'home_insurance_ds-v01.generate_date_parts', 'home_insurance_ds-v01.create_dim_tables', 'home_insurance_ds-v01.insert_fk_into_fact_table', 'home_insurance_ds-v01.remove_replaced_dim_cols', 'home_insurance_ds-v01']) retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:25:35.799+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.799+0000] {dag.py:2941} INFO - Sync 7 DAGs
+[2023-12-11T20:25:35.808+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.808+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:25:35.810+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.810+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:25:35.810+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.810+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:25:35.811+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.811+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:25:35.811+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.811+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:25:35.812+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.812+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:25:35.813+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.813+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:25:35.816+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.816+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:25:35.819+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.819+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:25:35.819+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.819+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:25:35.819+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.819+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:25:35.819+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.819+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:25:35.820+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.820+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:25:35.820+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:35.820+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:25:35.826+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.512 seconds
+[2023-12-11T20:26:05.892+0000] {processor.py:157} INFO - Started process (PID=3645) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:26:05.893+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:26:05.893+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:05.893+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:26:06.189+0000] {processor.py:839} INFO - DAG(s) dict_keys(['home_insurance_ds-v01.remove_unnecessary_columns', 'home_insurance_ds-v01.remove_samples_with_outliers', 'home_insurance_ds-v01.generate_date_parts', 'home_insurance_ds-v01.create_dim_tables', 'home_insurance_ds-v01.insert_fk_into_fact_table', 'home_insurance_ds-v01.remove_replaced_dim_cols', 'home_insurance_ds-v01']) retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:26:06.334+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.334+0000] {dag.py:2941} INFO - Sync 7 DAGs
+[2023-12-11T20:26:06.343+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.343+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01 to None, run_after=None
+[2023-12-11T20:26:06.345+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.345+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:26:06.345+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.345+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:26:06.346+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.346+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:26:06.347+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.347+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:26:06.347+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.347+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:26:06.348+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.348+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:26:06.352+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.352+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:26:06.354+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.354+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:26:06.355+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.355+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:26:06.355+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.355+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:26:06.355+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.355+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:26:06.355+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.355+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:26:06.356+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:06.356+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:26:06.362+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.471 seconds
+[2023-12-11T20:26:36.439+0000] {processor.py:157} INFO - Started process (PID=3693) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:26:36.440+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:26:36.441+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.441+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:26:36.732+0000] {processor.py:839} INFO - DAG(s) dict_keys(['home_insurance_ds-v01.remove_unnecessary_columns', 'home_insurance_ds-v01.remove_samples_with_outliers', 'home_insurance_ds-v01.generate_date_parts', 'home_insurance_ds-v01.create_dim_tables', 'home_insurance_ds-v01.insert_fk_into_fact_table', 'home_insurance_ds-v01.remove_replaced_dim_cols', 'home_insurance_ds-v01']) retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:26:36.881+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.881+0000] {dag.py:2941} INFO - Sync 7 DAGs
+[2023-12-11T20:26:36.890+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.890+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01 to None, run_after=None
+[2023-12-11T20:26:36.892+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.892+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:26:36.893+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.893+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:26:36.894+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.894+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:26:36.894+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.894+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:26:36.895+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.895+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:26:36.896+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.896+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:26:36.900+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.900+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:26:36.902+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.902+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:26:36.903+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.903+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:26:36.903+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.903+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:26:36.903+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.903+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:26:36.903+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.903+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:26:36.903+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:36.903+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:26:36.909+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.473 seconds
+[2023-12-11T20:27:06.987+0000] {processor.py:157} INFO - Started process (PID=3741) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:27:06.989+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:27:06.990+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:06.990+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:27:07.283+0000] {processor.py:839} INFO - DAG(s) dict_keys(['home_insurance_ds-v01.remove_unnecessary_columns', 'home_insurance_ds-v01.remove_samples_with_outliers', 'home_insurance_ds-v01.generate_date_parts', 'home_insurance_ds-v01.create_dim_tables', 'home_insurance_ds-v01.insert_fk_into_fact_table', 'home_insurance_ds-v01.remove_replaced_dim_cols', 'home_insurance_ds-v01']) retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:27:07.423+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.423+0000] {dag.py:2941} INFO - Sync 7 DAGs
+[2023-12-11T20:27:07.432+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.432+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01 to None, run_after=None
+[2023-12-11T20:27:07.434+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.434+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:27:07.435+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.435+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:27:07.435+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.435+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:27:07.436+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.436+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:27:07.437+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.436+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:27:07.437+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.437+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:27:07.441+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.441+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:27:07.443+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.443+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:27:07.444+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.444+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:27:07.444+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.444+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:27:07.444+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.444+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:27:07.444+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.444+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:27:07.445+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:07.445+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:27:07.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.469 seconds
+[2023-12-11T20:27:37.521+0000] {processor.py:157} INFO - Started process (PID=3789) to work on /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:27:37.522+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/home_insurance_dataset.py for tasks to queue
+[2023-12-11T20:27:37.523+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.523+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:27:37.816+0000] {processor.py:839} INFO - DAG(s) dict_keys(['home_insurance_ds-v01.remove_unnecessary_columns', 'home_insurance_ds-v01.remove_samples_with_outliers', 'home_insurance_ds-v01.generate_date_parts', 'home_insurance_ds-v01.create_dim_tables', 'home_insurance_ds-v01.insert_fk_into_fact_table', 'home_insurance_ds-v01.remove_replaced_dim_cols', 'home_insurance_ds-v01']) retrieved from /opt/airflow/dags/home_insurance_dataset.py
+[2023-12-11T20:27:37.952+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.952+0000] {dag.py:2941} INFO - Sync 7 DAGs
+[2023-12-11T20:27:37.961+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.961+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01 to None, run_after=None
+[2023-12-11T20:27:37.962+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.962+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:27:37.963+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.963+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:27:37.964+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.964+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:27:37.964+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.964+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:27:37.965+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.965+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:27:37.965+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.965+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:27:37.969+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.969+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:27:37.971+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.971+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:27:37.972+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.971+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.generate_date_parts to None, run_after=None
+[2023-12-11T20:27:37.972+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.972+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:27:37.972+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.972+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:27:37.972+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.972+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:27:37.972+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:37.972+0000] {dag.py:3722} INFO - Setting next_dagrun for home_insurance_ds-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:27:37.978+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/home_insurance_dataset.py took 0.463 seconds

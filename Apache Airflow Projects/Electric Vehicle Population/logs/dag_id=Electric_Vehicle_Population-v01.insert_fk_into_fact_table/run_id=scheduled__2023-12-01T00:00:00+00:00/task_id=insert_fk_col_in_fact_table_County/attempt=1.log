@@ -1,0 +1,51 @@
+[2023-12-11T05:51:11.739+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Electric_Vehicle_Population-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_County scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T05:51:11.753+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Electric_Vehicle_Population-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_County scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T05:51:11.756+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T05:51:11.775+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_County> on 2023-12-01 00:00:00+00:00
+[2023-12-11T05:51:11.791+0000] {standard_task_runner.py:57} INFO - Started process 739 to run task
+[2023-12-11T05:51:11.801+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Electric_Vehicle_Population-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_County', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '28', '--raw', '--subdir', 'DAGS_FOLDER/EV_Population.py', '--cfg-path', '/tmp/tmp7oc68avz']
+[2023-12-11T05:51:11.806+0000] {standard_task_runner.py:85} INFO - Job 28: Subtask insert_fk_col_in_fact_table_County
+[2023-12-11T05:51:11.885+0000] {task_command.py:416} INFO - Running <TaskInstance: Electric_Vehicle_Population-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_County scheduled__2023-12-01T00:00:00+00:00 [running]> on host c7d0b77d8cb9
+[2023-12-11T05:51:11.993+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Electric_Vehicle_Population-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_County' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T05:51:11.994+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE ev_pop_pipe
+ADD COLUMN County_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE ev_pop_pipe
+SET County_id = dimension_table_County.id
+FROM dimension_table_County
+WHERE COALESCE(ev_pop_pipe.County::text, '') = COALESCE(dimension_table_County.County::text, '');
+[2023-12-11T05:51:12.009+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T05:51:12.019+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T05:51:12.038+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE ev_pop_pipe
+ADD COLUMN County_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE ev_pop_pipe
+SET County_id = dimension_table_County.id
+FROM dimension_table_County
+WHERE COALESCE(ev_pop_pipe.County::text, '') = COALESCE(dimension_table_County.County::text, '');, parameters: None
+[2023-12-11T05:51:17.988+0000] {sql.py:427} INFO - Rows affected: 150137
+[2023-12-11T05:51:18.016+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Electric_Vehicle_Population-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_County, execution_date=20231201T000000, start_date=20231211T055111, end_date=20231211T055118
+[2023-12-11T05:51:18.068+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T05:51:18.085+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,30 @@
+[2023-12-08T17:46:51.282+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts manual__2023-12-08T17:42:45.621722+00:00 [queued]>
+[2023-12-08T17:46:51.286+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts manual__2023-12-08T17:42:45.621722+00:00 [queued]>
+[2023-12-08T17:46:51.286+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T17:46:51.292+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): generate_date_parts> on 2023-12-08 17:42:45.621722+00:00
+[2023-12-08T17:46:51.295+0000] {standard_task_runner.py:57} INFO - Started process 5576 to run task
+[2023-12-08T17:46:51.297+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01', 'generate_date_parts', 'manual__2023-12-08T17:42:45.621722+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpl519as6k']
+[2023-12-08T17:46:51.298+0000] {standard_task_runner.py:85} INFO - Job 72: Subtask generate_date_parts
+[2023-12-08T17:46:51.326+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts manual__2023-12-08T17:42:45.621722+00:00 [running]> on host 1fc866509645
+[2023-12-08T17:46:51.371+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01' AIRFLOW_CTX_TASK_ID='generate_date_parts' AIRFLOW_CTX_EXECUTION_DATE='2023-12-08T17:42:45.621722+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-12-08T17:42:45.621722+00:00'
+[2023-12-08T17:46:51.375+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-08T17:46:51.381+0000] {subdag.py:174} INFO - Found existing DagRun: backfill__2023-12-08T17:42:45.621722+00:00
+[2023-12-08T18:00:39.783+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2023-12-08T18:00:39.792+0000] {process_utils.py:131} INFO - Sending 15 to group 5576. PIDs of all processes in the group: [5576]
+[2023-12-08T18:00:39.793+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 5576
+[2023-12-08T18:00:39.794+0000] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-12-08T18:00:39.810+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-12-08T18:00:39.815+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Allegheny_Co_Property_Sale_Transactions-v01, task_id=generate_date_parts, execution_date=20231208T174245, start_date=20231208T174651, end_date=20231208T180039
+[2023-12-08T18:00:39.827+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 72 for task generate_date_parts ((psycopg2.errors.ForeignKeyViolation) insert or update on table "task_fail" violates foreign key constraint "task_fail_ti_fkey"
+DETAIL:  Key (dag_id, task_id, run_id, map_index)=(Allegheny_Co_Property_Sale_Transactions-v01, generate_date_parts, manual__2023-12-08T17:42:45.621722+00:00, -1) is not present in table "task_instance".
+
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (%(task_id)s, %(dag_id)s, %(run_id)s, %(map_index)s, %(start_date)s, %(end_date)s, %(duration)s) RETURNING task_fail.id]
+[parameters: {'task_id': 'generate_date_parts', 'dag_id': 'Allegheny_Co_Property_Sale_Transactions-v01', 'run_id': 'manual__2023-12-08T17:42:45.621722+00:00', 'map_index': -1, 'start_date': datetime.datetime(2023, 12, 8, 17, 46, 51, 282808, tzinfo=Timezone('UTC')), 'end_date': datetime.datetime(2023, 12, 8, 18, 0, 39, 814203, tzinfo=Timezone('UTC')), 'duration': 828}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 5576)
+[2023-12-08T18:00:39.846+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=5576, status='terminated', exitcode=1, started='17:46:51') (5576) terminated with exit code 1

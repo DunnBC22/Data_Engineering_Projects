@@ -1,0 +1,20 @@
+[2023-12-12T00:11:07.800+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Online_Shopping_Dataset-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_record_id_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T00:11:07.804+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Online_Shopping_Dataset-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_record_id_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T00:11:07.804+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-12T00:11:07.812+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_unnecessary_columns.remove_record_id_col> on 2023-12-01 00:00:00+00:00
+[2023-12-12T00:11:07.816+0000] {standard_task_runner.py:57} INFO - Started process 475 to run task
+[2023-12-12T00:11:07.820+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Online_Shopping_Dataset-v01.remove_unnecessary_columns', 'remove_unnecessary_columns.remove_record_id_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/Online_Shopping_Dataset.py', '--cfg-path', '/tmp/tmpg99wm27j']
+[2023-12-12T00:11:07.823+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask remove_unnecessary_columns.remove_record_id_col
+[2023-12-12T00:11:07.867+0000] {task_command.py:416} INFO - Running <TaskInstance: Online_Shopping_Dataset-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_record_id_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 79f7e52c702e
+[2023-12-12T00:11:07.925+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Online_Shopping_Dataset-v01.remove_unnecessary_columns' AIRFLOW_CTX_TASK_ID='remove_unnecessary_columns.remove_record_id_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-12T00:11:07.927+0000] {sql.py:274} INFO - Executing: -- table_name, column_name
+ALTER TABLE online_shopping_dataset_pipe
+DROP COLUMN record_id;
+[2023-12-12T00:11:07.934+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T00:11:07.942+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T00:11:07.948+0000] {sql.py:418} INFO - Running statement: -- table_name, column_name
+ALTER TABLE online_shopping_dataset_pipe
+DROP COLUMN record_id;, parameters: None
+[2023-12-12T00:11:07.957+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Online_Shopping_Dataset-v01.remove_unnecessary_columns, task_id=remove_unnecessary_columns.remove_record_id_col, execution_date=20231201T000000, start_date=20231212T001107, end_date=20231212T001107
+[2023-12-12T00:11:07.993+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T00:11:08.012+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,248 @@
+[2023-12-11T03:16:27.552+0000] {processor.py:157} INFO - Started process (PID=168) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:16:27.553+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:16:27.554+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:27.554+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:16:28.333+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:16:28.445+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.444+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-11T03:16:28.449+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.449+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-11T03:16:28.451+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.451+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-11T03:16:28.452+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.451+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:16:28.458+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.457+0000] {dag.py:2963} INFO - Creating ORM DAG for Healthcare_Insurance-v01.create_dim_tables
+[2023-12-11T03:16:28.458+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.458+0000] {dag.py:2963} INFO - Creating ORM DAG for Healthcare_Insurance-v01
+[2023-12-11T03:16:28.458+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.458+0000] {dag.py:2963} INFO - Creating ORM DAG for Healthcare_Insurance-v01.insert_fk_into_fact_table
+[2023-12-11T03:16:28.459+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.459+0000] {dag.py:2963} INFO - Creating ORM DAG for Healthcare_Insurance-v01.remove_replaced_dim_cols
+[2023-12-11T03:16:28.459+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.459+0000] {dag.py:2963} INFO - Creating ORM DAG for Healthcare_Insurance-v01.remove_samples_with_outliers
+[2023-12-11T03:16:28.470+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.470+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T03:16:28.472+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.472+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:16:28.473+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.473+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:16:28.473+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.473+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:16:28.474+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.474+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:16:28.489+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.489+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:16:28.493+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.492+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:16:28.496+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.496+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:16:28.497+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.497+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:16:28.499+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:28.498+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:16:28.517+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.969 seconds
+[2023-12-11T03:16:58.903+0000] {processor.py:157} INFO - Started process (PID=221) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:16:58.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:16:58.904+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:58.904+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:16:59.174+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:16:59.200+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.200+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:16:59.209+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.209+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T03:16:59.211+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.211+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:16:59.212+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.212+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:16:59.212+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.212+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:16:59.213+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.213+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:16:59.217+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.217+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:16:59.220+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.220+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:16:59.220+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.220+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:16:59.220+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.220+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:16:59.220+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:16:59.220+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:16:59.226+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.326 seconds
+[2023-12-11T03:17:29.299+0000] {processor.py:157} INFO - Started process (PID=254) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:17:29.300+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:17:29.302+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.301+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:17:29.576+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:17:29.598+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.598+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:17:29.608+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.608+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T03:17:29.610+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.610+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:17:29.611+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.611+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:17:29.611+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.611+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:17:29.612+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.612+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:17:29.616+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.616+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:17:29.618+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.618+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:17:29.618+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.618+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:17:29.619+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.619+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:17:29.619+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:29.619+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:17:29.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.330 seconds
+[2023-12-11T03:17:59.743+0000] {processor.py:157} INFO - Started process (PID=287) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:17:59.744+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:17:59.745+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:17:59.745+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:18:00.026+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:18:00.048+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.048+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:18:00.058+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.058+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T03:18:00.060+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.060+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:18:00.060+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.060+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:18:00.061+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.061+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:18:00.061+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.061+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:18:00.065+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.065+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:18:00.067+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.067+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:18:00.068+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.068+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:18:00.068+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.068+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:18:00.068+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:00.068+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:18:00.073+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.334 seconds
+[2023-12-11T03:18:30.192+0000] {processor.py:157} INFO - Started process (PID=320) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:18:30.193+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:18:30.194+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.194+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:18:30.450+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:18:30.472+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.472+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:18:30.482+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.481+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T03:18:30.483+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.483+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:18:30.484+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.484+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:18:30.484+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.484+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:18:30.485+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.485+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:18:30.489+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.489+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:18:30.491+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.491+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:18:30.491+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.491+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:18:30.491+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.491+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:18:30.492+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:18:30.492+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:18:30.497+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.310 seconds
+[2023-12-11T03:19:00.619+0000] {processor.py:157} INFO - Started process (PID=365) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:19:00.620+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:19:00.621+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.621+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:19:00.868+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:19:00.890+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.890+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:19:00.899+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.899+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to None, run_after=None
+[2023-12-11T03:19:00.900+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.900+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:19:00.901+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.901+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:19:00.901+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.901+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:19:00.902+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.902+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:19:00.905+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.905+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:19:00.908+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.908+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:19:00.908+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.908+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:19:00.908+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.908+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:19:00.908+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:00.908+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:19:00.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.300 seconds
+[2023-12-11T03:19:31.063+0000] {processor.py:157} INFO - Started process (PID=398) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:19:31.065+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:19:31.066+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.065+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:19:31.310+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:19:31.332+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.332+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:19:31.341+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.341+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to None, run_after=None
+[2023-12-11T03:19:31.342+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.342+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:19:31.343+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.343+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:19:31.344+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.344+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:19:31.344+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.344+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:19:31.348+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.348+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:19:31.351+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.350+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:19:31.351+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.351+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:19:31.351+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.351+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:19:31.351+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:19:31.351+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:19:31.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.297 seconds
+[2023-12-11T03:20:01.465+0000] {processor.py:157} INFO - Started process (PID=446) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:20:01.467+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:20:01.468+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.467+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:20:01.750+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:20:01.773+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.772+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:20:01.782+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.782+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to None, run_after=None
+[2023-12-11T03:20:01.784+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.784+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:20:01.784+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.784+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:20:01.785+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.785+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:20:01.786+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.786+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:20:01.790+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.790+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:20:01.793+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.793+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:20:01.793+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.793+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:20:01.794+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.793+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:20:01.794+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:01.794+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:20:01.799+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.339 seconds
+[2023-12-11T03:20:31.953+0000] {processor.py:157} INFO - Started process (PID=479) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:20:31.955+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:20:31.956+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:31.956+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:20:32.204+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:20:32.225+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.225+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:20:32.234+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.234+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to None, run_after=None
+[2023-12-11T03:20:32.236+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.236+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:20:32.237+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.236+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:20:32.237+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.237+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:20:32.238+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.238+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:20:32.241+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.241+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:20:32.243+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.243+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:20:32.244+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.244+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:20:32.244+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.244+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:20:32.244+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:20:32.244+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:20:32.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.300 seconds
+[2023-12-11T03:21:02.354+0000] {processor.py:157} INFO - Started process (PID=524) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:21:02.355+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:21:02.357+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.356+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:21:02.603+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:21:02.625+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.625+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:21:02.634+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.634+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to None, run_after=None
+[2023-12-11T03:21:02.635+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.635+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:21:02.636+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.636+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:21:02.637+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.637+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:21:02.637+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.637+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:21:02.641+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.641+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:21:02.643+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.643+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:21:02.643+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.643+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:21:02.643+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.643+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:21:02.644+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:02.644+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:21:02.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.299 seconds
+[2023-12-11T03:21:32.785+0000] {processor.py:157} INFO - Started process (PID=557) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:21:32.786+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:21:32.786+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:32.786+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:21:33.024+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:21:33.046+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.046+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:21:33.054+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.054+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to None, run_after=None
+[2023-12-11T03:21:33.056+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.056+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:21:33.056+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.056+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:21:33.057+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.057+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:21:33.058+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.057+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:21:33.061+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.061+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:21:33.063+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.063+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:21:33.064+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.064+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:21:33.064+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.064+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:21:33.064+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:21:33.064+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:21:33.069+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.286 seconds
+[2023-12-11T03:22:03.210+0000] {processor.py:157} INFO - Started process (PID=602) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:22:03.211+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:22:03.211+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.211+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:22:03.457+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:22:03.480+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.479+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:22:03.489+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.489+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to None, run_after=None
+[2023-12-11T03:22:03.491+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.491+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:22:03.491+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.491+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:22:03.492+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.492+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:22:03.492+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.492+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:22:03.497+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.497+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:22:03.500+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.499+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:22:03.500+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.500+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:22:03.500+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.500+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:22:03.500+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:03.500+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:22:03.505+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.297 seconds
+[2023-12-11T03:22:33.638+0000] {processor.py:157} INFO - Started process (PID=635) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:22:33.639+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:22:33.640+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.640+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:22:33.885+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:22:33.907+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.907+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:22:33.916+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.916+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to None, run_after=None
+[2023-12-11T03:22:33.918+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.917+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:22:33.918+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.918+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:22:33.919+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.919+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:22:33.919+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.919+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:22:33.923+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.923+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:22:33.925+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.925+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:22:33.925+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.925+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:22:33.926+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.926+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:22:33.926+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:22:33.926+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:22:33.931+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.297 seconds
+[2023-12-11T03:23:04.031+0000] {processor.py:157} INFO - Started process (PID=668) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:23:04.032+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:23:04.033+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.033+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:23:04.274+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:23:04.295+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.295+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:23:04.304+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.304+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to None, run_after=None
+[2023-12-11T03:23:04.306+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.305+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:23:04.306+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.306+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:23:04.307+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.307+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:23:04.307+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.307+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:23:04.311+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.311+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:23:04.313+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.313+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:23:04.313+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.313+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:23:04.314+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.314+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:23:04.314+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:04.314+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:23:04.319+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.291 seconds
+[2023-12-11T03:23:34.505+0000] {processor.py:157} INFO - Started process (PID=701) to work on /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:23:34.506+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Healthcare_Insurance.py for tasks to queue
+[2023-12-11T03:23:34.507+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.507+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:23:34.754+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Healthcare_Insurance-v01.remove_samples_with_outliers', 'Healthcare_Insurance-v01.create_dim_tables', 'Healthcare_Insurance-v01.insert_fk_into_fact_table', 'Healthcare_Insurance-v01.remove_replaced_dim_cols', 'Healthcare_Insurance-v01']) retrieved from /opt/airflow/dags/Healthcare_Insurance.py
+[2023-12-11T03:23:34.776+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.775+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T03:23:34.784+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.784+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01 to None, run_after=None
+[2023-12-11T03:23:34.785+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.785+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:23:34.786+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.786+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:23:34.787+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.787+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:23:34.787+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.787+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:23:34.791+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.791+0000] {dag.py:2941} INFO - Sync 4 DAGs
+[2023-12-11T03:23:34.793+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.793+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.create_dim_tables to None, run_after=None
+[2023-12-11T03:23:34.793+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.793+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T03:23:34.793+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.793+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T03:23:34.794+0000] {logging_mixin.py:154} INFO - [2023-12-11T03:23:34.794+0000] {dag.py:3722} INFO - Setting next_dagrun for Healthcare_Insurance-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T03:23:34.799+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Healthcare_Insurance.py took 0.298 seconds

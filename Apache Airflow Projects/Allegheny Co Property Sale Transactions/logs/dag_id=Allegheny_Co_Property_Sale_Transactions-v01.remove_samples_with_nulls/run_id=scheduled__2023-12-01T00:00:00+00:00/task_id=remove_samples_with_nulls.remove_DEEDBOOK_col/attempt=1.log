@@ -1,0 +1,82 @@
+[2023-12-08T17:14:38.867+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_DEEDBOOK_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:14:38.872+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_DEEDBOOK_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:14:38.873+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T17:14:38.886+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_with_nulls.remove_DEEDBOOK_col> on 2023-12-01 00:00:00+00:00
+[2023-12-08T17:14:38.890+0000] {standard_task_runner.py:57} INFO - Started process 2853 to run task
+[2023-12-08T17:14:38.896+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls', 'remove_samples_with_nulls.remove_DEEDBOOK_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '16', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpj39o_l2s']
+[2023-12-08T17:14:38.898+0000] {standard_task_runner.py:85} INFO - Job 16: Subtask remove_samples_with_nulls.remove_DEEDBOOK_col
+[2023-12-08T17:14:38.944+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_DEEDBOOK_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T17:14:39.008+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls' AIRFLOW_CTX_TASK_ID='remove_samples_with_nulls.remove_DEEDBOOK_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T17:14:39.010+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE DEEDBOOK is NULL;
+[2023-12-08T17:14:39.023+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:14:39.035+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:14:39.044+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE DEEDBOOK is NULL;, parameters: None
+[2023-12-08T17:14:40.067+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.DeadlockDetected: deadlock detected
+DETAIL:  Process 79175 waits for ShareLock on transaction 1684; blocked by process 79176.
+Process 79176 waits for ShareLock on transaction 1685; blocked by process 79177.
+Process 79177 waits for ShareLock on transaction 1683; blocked by process 79175.
+HINT:  See server log for query details.
+CONTEXT:  while deleting tuple (1229,23) in relation "allegheny_co_property_sale_transactions"
+
+[2023-12-08T17:14:40.083+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls, task_id=remove_samples_with_nulls.remove_DEEDBOOK_col, execution_date=20231201T000000, start_date=20231208T171438, end_date=20231208T171440
+[2023-12-08T17:14:40.097+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 16 for task remove_samples_with_nulls.remove_DEEDBOOK_col (deadlock detected
+DETAIL:  Process 79175 waits for ShareLock on transaction 1684; blocked by process 79176.
+Process 79176 waits for ShareLock on transaction 1685; blocked by process 79177.
+Process 79177 waits for ShareLock on transaction 1683; blocked by process 79175.
+HINT:  See server log for query details.
+CONTEXT:  while deleting tuple (1229,23) in relation "allegheny_co_property_sale_transactions"
+; 2853)
+[2023-12-08T17:14:40.132+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-08T17:14:40.152+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-08T18:02:01.090+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_DEEDBOOK_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:02:01.098+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_DEEDBOOK_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:02:01.100+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T18:02:01.123+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_with_nulls.remove_DEEDBOOK_col> on 2023-12-01 00:00:00+00:00
+[2023-12-08T18:02:01.127+0000] {standard_task_runner.py:57} INFO - Started process 6851 to run task
+[2023-12-08T18:02:01.129+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls', 'remove_samples_with_nulls.remove_DEEDBOOK_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpbq0idop8']
+[2023-12-08T18:02:01.134+0000] {standard_task_runner.py:85} INFO - Job 84: Subtask remove_samples_with_nulls.remove_DEEDBOOK_col
+[2023-12-08T18:02:01.222+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_DEEDBOOK_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T18:02:01.319+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls' AIRFLOW_CTX_TASK_ID='remove_samples_with_nulls.remove_DEEDBOOK_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T18:02:01.322+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE DEEDBOOK is NULL;
+[2023-12-08T18:02:01.338+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:02:01.352+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:02:01.364+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE DEEDBOOK is NULL;, parameters: None
+[2023-12-08T18:02:03.419+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.DeadlockDetected: deadlock detected
+DETAIL:  Process 80395 waits for ShareLock on transaction 1776; blocked by process 80397.
+Process 80397 waits for ShareLock on transaction 1772; blocked by process 80395.
+HINT:  See server log for query details.
+CONTEXT:  while deleting tuple (673,2) in relation "allegheny_co_property_sale_transactions"
+
+[2023-12-08T18:02:03.445+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls, task_id=remove_samples_with_nulls.remove_DEEDBOOK_col, execution_date=20231201T000000, start_date=20231208T180201, end_date=20231208T180203
+[2023-12-08T18:02:03.459+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 84 for task remove_samples_with_nulls.remove_DEEDBOOK_col (deadlock detected
+DETAIL:  Process 80395 waits for ShareLock on transaction 1776; blocked by process 80397.
+Process 80397 waits for ShareLock on transaction 1772; blocked by process 80395.
+HINT:  See server log for query details.
+CONTEXT:  while deleting tuple (673,2) in relation "allegheny_co_property_sale_transactions"
+; 6851)
+[2023-12-08T18:02:03.466+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-08T18:02:03.494+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,516 @@
+[2023-12-11T19:25:00.458+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-11T19:25:00.459+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-11T19:25:00.459+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-11T19:25:00.459+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T19:25:00.468+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T19:25:00.566+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0
+/opt/airflow/dags/House Price Prediction.py                 170  0.03s             0           0
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.05s           2023-12-11T19:25:00
+================================================================================
+[2023-12-11T19:25:30.927+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-11T19:25:01
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:25:01
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:25:01
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:25:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-11T19:25:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    210  0.01s             0           0  0.05s           2023-12-11T19:25:00
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.99s           2023-12-11T19:25:01
+================================================================================
+[2023-12-11T19:26:01.517+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-11T19:25:32
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:25:32
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:25:32
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:25:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T19:25:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    253  0.01s             0           0  0.05s           2023-12-11T19:25:30
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.42s           2023-12-11T19:25:32
+================================================================================
+[2023-12-11T19:26:31.997+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-11T19:26:02
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:26:02
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:26:02
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:26:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T19:26:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    317  0.01s             0           0  0.06s           2023-12-11T19:26:01
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.39s           2023-12-11T19:26:02
+================================================================================
+[2023-12-11T19:27:02.548+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-11T19:26:33
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:26:33
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:26:33
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:26:33
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T19:26:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    360  0.01s             0           0  0.05s           2023-12-11T19:26:32
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.44s           2023-12-11T19:26:33
+================================================================================
+[2023-12-11T19:27:33.175+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-11T19:27:03
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:27:03
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:27:03
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:27:03
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T19:27:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    418  0.01s             0           0  0.06s           2023-12-11T19:27:02
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.38s           2023-12-11T19:27:29
+================================================================================
+[2023-12-11T19:28:03.550+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:27:34
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:27:34
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:27:34
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:27:34
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:27:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    461  0.01s             0           0  0.06s           2023-12-11T19:27:33
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.33s           2023-12-11T19:27:34
+================================================================================
+[2023-12-11T19:28:33.946+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:28:04
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:28:04
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:28:04
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:28:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:28:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    513  0.01s             0           0  0.06s           2023-12-11T19:28:03
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.33s           2023-12-11T19:28:05
+================================================================================
+[2023-12-11T19:29:04.353+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:28:35
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:28:35
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:28:35
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:28:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-11T19:28:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    556  0.01s             0           0  0.06s           2023-12-11T19:28:33
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.34s           2023-12-11T19:28:35
+================================================================================
+[2023-12-11T19:29:34.719+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:29:05
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:29:05
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:29:05
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:29:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:29:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    626  0.00s             0           0  0.06s           2023-12-11T19:29:04
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.33s           2023-12-11T19:29:05
+================================================================================
+[2023-12-11T19:30:01.057+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T19:30:01.081+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T19:30:05.166+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:29:35
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:29:35
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-11T19:29:35
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:29:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:29:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    669  0.01s             0           0  0.03s           2023-12-11T19:29:34
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.35s           2023-12-11T19:29:36
+================================================================================
+[2023-12-11T19:30:35.554+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-11T19:30:06
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.04s           2023-12-11T19:30:06
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:30:06
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-11T19:30:06
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-11T19:30:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    739  0.01s             0           0  0.05s           2023-12-11T19:30:05
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.45s           2023-12-11T19:30:06
+================================================================================
+[2023-12-11T19:31:05.729+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-11T19:30:36
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.05s           2023-12-11T19:30:36
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.06s           2023-12-11T19:30:36
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.06s           2023-12-11T19:30:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:30:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    782  0.03s             0           0  0.06s           2023-12-11T19:30:35
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.68s           2023-12-11T19:30:37
+================================================================================
+[2023-12-11T19:31:35.895+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-11T19:31:06
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.04s           2023-12-11T19:31:06
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-11T19:31:06
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-11T19:31:06
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:31:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    828  0.01s             0           0  0.08s           2023-12-11T19:31:05
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.73s           2023-12-11T19:31:08
+================================================================================
+[2023-12-11T19:32:06.298+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-11T19:31:36
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:31:36
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:31:37
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:31:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T19:31:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    871  0.01s             0           0  0.10s           2023-12-11T19:31:35
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.44s           2023-12-11T19:31:39
+================================================================================
+[2023-12-11T19:32:36.322+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:32:07
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.04s           2023-12-11T19:32:07
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.05s           2023-12-11T19:32:07
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-11T19:32:07
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:32:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.06s           2023-12-11T19:32:06
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.62s           2023-12-11T19:32:10
+================================================================================
+[2023-12-11T19:33:06.965+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-11T19:32:37
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.04s           2023-12-11T19:32:37
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-11T19:32:37
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-11T19:32:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:32:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py    957  0.03s             0           0  0.09s           2023-12-11T19:32:36
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.72s           2023-12-11T19:32:41
+================================================================================
+[2023-12-11T19:33:37.433+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:33:08
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.05s           2023-12-11T19:33:08
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-11T19:33:08
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-11T19:33:08
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-11T19:33:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1000  0.02s             0           0  0.10s           2023-12-11T19:33:07
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.55s           2023-12-11T19:33:12
+================================================================================
+[2023-12-11T19:34:07.873+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-11T19:33:38
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:33:38
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:33:38
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:33:38
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:33:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1043  0.02s             0           0  0.10s           2023-12-11T19:33:37
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.51s           2023-12-11T19:33:44
+================================================================================
+[2023-12-11T19:34:38.309+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:34:08
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:34:08
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-11T19:34:09
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-11T19:34:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-11T19:34:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1086  0.02s             0           0  0.08s           2023-12-11T19:34:07
+/opt/airflow/dags/House Price Prediction.py                                        7           0  1.02s           2023-12-11T19:34:16
+================================================================================
+[2023-12-11T19:35:01.088+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T19:35:01.116+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T19:35:08.779+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:34:39
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:34:39
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:34:39
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:34:39
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:34:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1129  0.01s             0           0  0.07s           2023-12-11T19:34:38
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.43s           2023-12-11T19:34:46
+================================================================================
+[2023-12-11T19:35:39.179+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:35:09
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:35:09
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:35:09
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:35:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:35:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1172  0.01s             0           0  0.05s           2023-12-11T19:35:08
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.37s           2023-12-11T19:35:18
+================================================================================
+[2023-12-11T19:36:09.632+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:35:40
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:35:40
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:35:40
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:35:40
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:35:40
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1215  0.01s             0           0  0.06s           2023-12-11T19:35:39
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.37s           2023-12-11T19:35:48
+================================================================================
+[2023-12-11T19:36:40.113+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-11T19:36:10
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:36:10
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:36:10
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:36:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-11T19:36:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1258  0.01s             0           0  0.05s           2023-12-11T19:36:09
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.37s           2023-12-11T19:36:19
+================================================================================
+[2023-12-11T19:37:10.659+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:36:41
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:36:41
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-11T19:36:41
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:36:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:36:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1301  0.01s             0           0  0.06s           2023-12-11T19:36:40
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.37s           2023-12-11T19:36:49
+================================================================================
+[2023-12-11T19:37:41.172+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:37:11
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:37:11
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:37:11
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:37:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:37:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1344  0.01s             0           0  0.06s           2023-12-11T19:37:10
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.37s           2023-12-11T19:37:20
+================================================================================
+[2023-12-11T19:38:11.712+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:37:42
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:37:42
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:37:42
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:37:42
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:37:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1387  0.01s             0           0  0.06s           2023-12-11T19:37:41
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.40s           2023-12-11T19:37:50
+================================================================================
+[2023-12-11T19:38:42.131+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:38:12
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:38:12
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:38:12
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:38:12
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:38:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1430  0.01s             0           0  0.06s           2023-12-11T19:38:11
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.38s           2023-12-11T19:38:21
+================================================================================
+[2023-12-11T19:39:12.574+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:38:43
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:38:43
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:38:43
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:38:43
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:38:43
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1473  0.00s             0           0  0.06s           2023-12-11T19:38:42
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.43s           2023-12-11T19:38:51
+================================================================================
+[2023-12-11T19:39:42.997+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-11T19:39:13
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:39:13
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:39:13
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:39:13
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-11T19:39:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1516  0.00s             0           0  0.05s           2023-12-11T19:39:12
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.37s           2023-12-11T19:39:22
+================================================================================
+[2023-12-11T19:40:01.318+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T19:40:01.343+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T19:40:13.507+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-11T19:39:44
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.02s           2023-12-11T19:39:44
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:39:44
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:39:44
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-11T19:39:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1559  0.01s             0           0  0.05s           2023-12-11T19:39:43
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.38s           2023-12-11T19:39:52
+================================================================================
+[2023-12-11T19:40:43.955+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:40:14
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:40:14
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:40:14
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:40:14
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:40:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1602  0.01s             0           0  0.06s           2023-12-11T19:40:13
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.37s           2023-12-11T19:40:23
+================================================================================
+[2023-12-11T19:41:14.468+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:40:45
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:40:45
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:40:45
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:40:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:40:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1645  0.01s             0           0  0.04s           2023-12-11T19:40:43
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.38s           2023-12-11T19:40:53
+================================================================================
+[2023-12-11T19:41:44.900+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-11T19:41:15
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:41:15
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:41:15
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:41:15
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T19:41:15
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1715  0.01s             0           0  0.05s           2023-12-11T19:41:14
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.41s           2023-12-11T19:41:24
+================================================================================
+[2023-12-11T19:42:15.359+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-11T19:41:45
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.02s           2023-12-11T19:41:45
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T19:41:46
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:41:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-11T19:41:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1758  0.01s             0           0  0.06s           2023-12-11T19:41:44
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.37s           2023-12-11T19:41:54
+================================================================================
+[2023-12-11T19:42:45.812+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-11T19:42:16
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T19:42:16
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T19:42:16
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-11T19:42:16
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-11T19:42:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py   1801  0.01s             0           0  0.06s           2023-12-11T19:42:15
+/opt/airflow/dags/House Price Prediction.py                                        7           0  0.37s           2023-12-11T19:42:24
+================================================================================
+[2023-12-11T19:42:57.014+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

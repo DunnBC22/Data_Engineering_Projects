@@ -1,0 +1,20 @@
+[2023-12-12T21:46:20.418+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: home_insurance_ds-v01.remove_replaced_dim_cols.remove_original_CONTENTS_COVER_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T21:46:20.425+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: home_insurance_ds-v01.remove_replaced_dim_cols.remove_original_CONTENTS_COVER_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T21:46:20.425+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-12T21:46:20.435+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_original_CONTENTS_COVER_in_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-12T21:46:20.441+0000] {standard_task_runner.py:57} INFO - Started process 3980 to run task
+[2023-12-12T21:46:20.448+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'home_insurance_ds-v01.remove_replaced_dim_cols', 'remove_original_CONTENTS_COVER_in_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '102', '--raw', '--subdir', 'DAGS_FOLDER/home_insurance_dataset.py', '--cfg-path', '/tmp/tmps6hd8f69']
+[2023-12-12T21:46:20.452+0000] {standard_task_runner.py:85} INFO - Job 102: Subtask remove_original_CONTENTS_COVER_in_fact_table
+[2023-12-12T21:46:20.581+0000] {task_command.py:416} INFO - Running <TaskInstance: home_insurance_ds-v01.remove_replaced_dim_cols.remove_original_CONTENTS_COVER_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 7a94ca99eac6
+[2023-12-12T21:46:20.732+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='home_insurance_ds-v01.remove_replaced_dim_cols' AIRFLOW_CTX_TASK_ID='remove_original_CONTENTS_COVER_in_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-12T21:46:20.740+0000] {sql.py:274} INFO - Executing: -- table_name, column_name
+ALTER TABLE home_insurance_ds_pipeline
+DROP COLUMN CONTENTS_COVER;
+[2023-12-12T21:46:20.759+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T21:46:20.777+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T21:46:20.792+0000] {sql.py:418} INFO - Running statement: -- table_name, column_name
+ALTER TABLE home_insurance_ds_pipeline
+DROP COLUMN CONTENTS_COVER;, parameters: None
+[2023-12-12T21:46:20.815+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=home_insurance_ds-v01.remove_replaced_dim_cols, task_id=remove_original_CONTENTS_COVER_in_fact_table, execution_date=20231201T000000, start_date=20231212T214620, end_date=20231212T214620
+[2023-12-12T21:46:20.868+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T21:46:20.981+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

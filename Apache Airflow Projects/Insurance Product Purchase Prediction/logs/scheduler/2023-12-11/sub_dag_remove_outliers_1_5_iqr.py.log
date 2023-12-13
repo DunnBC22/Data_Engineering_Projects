@@ -1,0 +1,42 @@
+[2023-12-11T20:36:01.978+0000] {processor.py:157} INFO - Started process (PID=171) to work on /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+[2023-12-11T20:36:01.980+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-11T20:36:01.983+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:36:01.981+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+[2023-12-11T20:36:02.002+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:36:01.996+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py", line 26, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:36:02.004+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+[2023-12-11T20:36:02.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py took 0.068 seconds
+[2023-12-11T20:36:32.793+0000] {processor.py:157} INFO - Started process (PID=198) to work on /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+[2023-12-11T20:36:32.794+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-11T20:36:32.800+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:36:32.799+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+[2023-12-11T20:36:32.841+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:36:32.831+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py", line 26, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:36:32.843+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+[2023-12-11T20:36:32.915+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py took 0.129 seconds
+[2023-12-11T20:37:03.608+0000] {processor.py:157} INFO - Started process (PID=225) to work on /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+[2023-12-11T20:37:03.609+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-11T20:37:03.609+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:37:03.609+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+[2023-12-11T20:37:03.619+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:37:03.616+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py", line 26, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:37:03.620+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py
+[2023-12-11T20:37:03.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_outliers_1_5_iqr.py took 0.045 seconds

@@ -1,0 +1,21 @@
+[2023-12-12T17:52:55.020+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: ppp_via_foia-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_LoanStatusDate_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T17:52:55.047+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: ppp_via_foia-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_LoanStatusDate_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T17:52:55.052+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-12T17:52:55.074+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_with_nulls.remove_LoanStatusDate_col> on 2023-12-01 00:00:00+00:00
+[2023-12-12T17:52:55.083+0000] {standard_task_runner.py:57} INFO - Started process 1172 to run task
+[2023-12-12T17:52:55.090+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'ppp_via_foia-v01.remove_samples_with_nulls', 'remove_samples_with_nulls.remove_LoanStatusDate_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/ppp_via_foia.py', '--cfg-path', '/tmp/tmpyhjena_4']
+[2023-12-12T17:52:55.103+0000] {standard_task_runner.py:85} INFO - Job 37: Subtask remove_samples_with_nulls.remove_LoanStatusDate_col
+[2023-12-12T17:52:55.190+0000] {task_command.py:416} INFO - Running <TaskInstance: ppp_via_foia-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_LoanStatusDate_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host edee10095410
+[2023-12-12T17:52:55.286+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='ppp_via_foia-v01.remove_samples_with_nulls' AIRFLOW_CTX_TASK_ID='remove_samples_with_nulls.remove_LoanStatusDate_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-12T17:52:55.289+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+DELETE FROM ppp_via_foia_pipe
+WHERE LoanStatusDate is NULL;
+[2023-12-12T17:52:55.312+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T17:52:55.326+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T17:52:55.335+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+DELETE FROM ppp_via_foia_pipe
+WHERE LoanStatusDate is NULL;, parameters: None
+[2023-12-12T17:52:58.815+0000] {sql.py:427} INFO - Rows affected: 44220
+[2023-12-12T17:52:58.830+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=ppp_via_foia-v01.remove_samples_with_nulls, task_id=remove_samples_with_nulls.remove_LoanStatusDate_col, execution_date=20231201T000000, start_date=20231212T175255, end_date=20231212T175258
+[2023-12-12T17:52:58.858+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T17:52:58.881+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

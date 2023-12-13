@@ -1,0 +1,516 @@
+[2023-12-11T05:57:56.662+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-11T05:57:56.663+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-11T05:57:56.663+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-11T05:57:56.663+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T05:57:56.674+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T05:57:56.755+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0
+/opt/airflow/dags/Diff_Store_Sales.py                       171  0.02s             0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0
+/opt/airflow/dags/create_star_schema_part_2.py              168  0.03s             0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0
+================================================================================
+[2023-12-11T05:58:26.980+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        214  0.00s             0           0  0.03s           2023-12-11T05:57:56
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T05:57:56
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T05:57:56
+/opt/airflow/dags/create_star_schema_part_2.py              211  0.01s             0           0  0.04s           2023-12-11T05:57:56
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T05:57:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T05:57:56
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.97s           2023-12-11T05:57:57
+================================================================================
+[2023-12-11T05:58:57.463+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        257  0.00s             0           0  0.04s           2023-12-11T05:58:27
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T05:58:27
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T05:58:27
+/opt/airflow/dags/create_star_schema_part_2.py              254  0.02s             0           0  0.04s           2023-12-11T05:58:27
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T05:58:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-11T05:58:27
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.37s           2023-12-11T05:58:28
+================================================================================
+[2023-12-11T05:59:27.942+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        300  0.01s             0           0  0.05s           2023-12-11T05:58:57
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T05:58:57
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T05:58:57
+/opt/airflow/dags/create_star_schema_part_2.py              297  0.02s             0           0  0.06s           2023-12-11T05:58:57
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T05:58:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T05:58:57
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.32s           2023-12-11T05:58:58
+================================================================================
+[2023-12-11T05:59:58.370+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        343  0.01s             0           0  0.05s           2023-12-11T05:59:27
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T05:59:28
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T05:59:28
+/opt/airflow/dags/create_star_schema_part_2.py              340  0.02s             0           0  0.06s           2023-12-11T05:59:27
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T05:59:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T05:59:28
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.36s           2023-12-11T05:59:29
+================================================================================
+[2023-12-11T06:00:28.823+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        386  0.00s             0           0  0.04s           2023-12-11T05:59:58
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T05:59:58
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T05:59:58
+/opt/airflow/dags/create_star_schema_part_2.py              383  0.02s             0           0  0.05s           2023-12-11T05:59:58
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T05:59:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.04s           2023-12-11T05:59:58
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.37s           2023-12-11T05:59:59
+================================================================================
+[2023-12-11T06:00:59.311+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        429  0.00s             0           0  0.05s           2023-12-11T06:00:28
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:00:28
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:00:28
+/opt/airflow/dags/create_star_schema_part_2.py              426  0.02s             0           0  0.06s           2023-12-11T06:00:28
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:00:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:00:28
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.37s           2023-12-11T06:00:30
+================================================================================
+[2023-12-11T06:01:29.726+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        472  0.00s             0           0  0.04s           2023-12-11T06:00:59
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:00:59
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:00:59
+/opt/airflow/dags/create_star_schema_part_2.py              469  0.01s             0           0  0.05s           2023-12-11T06:00:59
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:00:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:00:59
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.40s           2023-12-11T06:01:00
+================================================================================
+[2023-12-11T06:02:00.136+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        520  0.00s             0           0  0.04s           2023-12-11T06:01:29
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.04s           2023-12-11T06:01:29
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:01:29
+/opt/airflow/dags/create_star_schema_part_2.py              517  0.01s             0           0  0.04s           2023-12-11T06:01:29
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:01:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:01:29
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.36s           2023-12-11T06:01:31
+================================================================================
+[2023-12-11T06:02:30.640+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        570  0.00s             0           0  0.04s           2023-12-11T06:02:00
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:02:00
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:02:00
+/opt/airflow/dags/create_star_schema_part_2.py              567  0.01s             0           0  0.03s           2023-12-11T06:02:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:02:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:02:00
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.58s           2023-12-11T06:02:01
+================================================================================
+[2023-12-11T06:02:57.094+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T06:02:57.131+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T06:03:01.193+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        616  0.00s             0           0  0.03s           2023-12-11T06:02:30
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.02s           2023-12-11T06:02:30
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:02:30
+/opt/airflow/dags/create_star_schema_part_2.py              613  0.01s             0           0  0.03s           2023-12-11T06:02:30
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:02:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:02:30
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.35s           2023-12-11T06:02:33
+================================================================================
+[2023-12-11T06:03:31.718+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        665  0.01s             0           0  0.03s           2023-12-11T06:03:01
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:03:01
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:03:01
+/opt/airflow/dags/create_star_schema_part_2.py              662  0.02s             0           0  0.03s           2023-12-11T06:03:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:03:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:03:01
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.41s           2023-12-11T06:03:03
+================================================================================
+[2023-12-11T06:04:02.261+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        708  0.00s             0           0  0.05s           2023-12-11T06:03:31
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:03:31
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:03:31
+/opt/airflow/dags/create_star_schema_part_2.py              705  0.02s             0           0  0.06s           2023-12-11T06:03:31
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:03:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:03:31
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.35s           2023-12-11T06:03:34
+================================================================================
+[2023-12-11T06:04:32.717+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        760  0.01s             0           0  0.05s           2023-12-11T06:04:02
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:04:02
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:04:02
+/opt/airflow/dags/create_star_schema_part_2.py              757  0.02s             0           0  0.06s           2023-12-11T06:04:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:04:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:04:02
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.35s           2023-12-11T06:04:04
+================================================================================
+[2023-12-11T06:05:03.189+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        803  0.00s             0           0  0.05s           2023-12-11T06:04:32
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:04:32
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:04:32
+/opt/airflow/dags/create_star_schema_part_2.py              800  0.01s             0           0  0.06s           2023-12-11T06:04:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:04:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:04:32
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.33s           2023-12-11T06:04:35
+================================================================================
+[2023-12-11T06:05:33.615+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        867  0.00s             0           0  0.03s           2023-12-11T06:05:03
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.02s           2023-12-11T06:05:03
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:05:03
+/opt/airflow/dags/create_star_schema_part_2.py              864  0.01s             0           0  0.03s           2023-12-11T06:05:03
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:05:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:05:03
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.35s           2023-12-11T06:05:05
+================================================================================
+[2023-12-11T06:06:04.055+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        910  0.00s             0           0  0.05s           2023-12-11T06:05:33
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:05:33
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:05:33
+/opt/airflow/dags/create_star_schema_part_2.py              907  0.01s             0           0  0.05s           2023-12-11T06:05:33
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:05:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:05:33
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.34s           2023-12-11T06:05:36
+================================================================================
+[2023-12-11T06:06:34.486+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py        974  0.00s             0           0  0.03s           2023-12-11T06:06:04
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:06:04
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:06:04
+/opt/airflow/dags/create_star_schema_part_2.py              971  0.01s             0           0  0.04s           2023-12-11T06:06:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:06:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-11T06:06:04
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.32s           2023-12-11T06:06:06
+================================================================================
+[2023-12-11T06:07:04.935+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1017  0.01s             0           0  0.03s           2023-12-11T06:06:34
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:06:34
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:06:34
+/opt/airflow/dags/create_star_schema_part_2.py             1014  0.02s             0           0  0.04s           2023-12-11T06:06:34
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:06:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-11T06:06:34
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.33s           2023-12-11T06:06:36
+================================================================================
+[2023-12-11T06:07:35.392+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1081  0.01s             0           0  0.04s           2023-12-11T06:07:04
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:07:05
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:07:05
+/opt/airflow/dags/create_star_schema_part_2.py             1078  0.02s             0           0  0.05s           2023-12-11T06:07:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:07:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-11T06:07:05
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.61s           2023-12-11T06:07:07
+================================================================================
+[2023-12-11T06:07:57.755+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T06:07:57.790+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T06:08:05.922+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1124  0.01s             0           0  0.05s           2023-12-11T06:07:35
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:07:35
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:07:35
+/opt/airflow/dags/create_star_schema_part_2.py             1121  0.02s             0           0  0.06s           2023-12-11T06:07:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:07:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:07:35
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.35s           2023-12-11T06:07:38
+================================================================================
+[2023-12-11T06:08:36.350+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1167  0.00s             0           0  0.04s           2023-12-11T06:08:05
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:08:05
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:08:06
+/opt/airflow/dags/create_star_schema_part_2.py             1164  0.02s             0           0  0.07s           2023-12-11T06:08:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:08:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:08:06
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.36s           2023-12-11T06:08:09
+================================================================================
+[2023-12-11T06:09:06.791+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1210  0.00s             0           0  0.05s           2023-12-11T06:08:36
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:08:36
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:08:36
+/opt/airflow/dags/create_star_schema_part_2.py             1207  0.02s             0           0  0.05s           2023-12-11T06:08:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:08:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:08:36
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.37s           2023-12-11T06:08:39
+================================================================================
+[2023-12-11T06:09:37.229+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1253  0.00s             0           0  0.05s           2023-12-11T06:09:06
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:09:06
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:09:06
+/opt/airflow/dags/create_star_schema_part_2.py             1250  0.02s             0           0  0.06s           2023-12-11T06:09:06
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:09:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:09:06
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.34s           2023-12-11T06:09:10
+================================================================================
+[2023-12-11T06:10:07.711+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1296  0.00s             0           0  0.05s           2023-12-11T06:09:37
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:09:37
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:09:37
+/opt/airflow/dags/create_star_schema_part_2.py             1293  0.01s             0           0  0.05s           2023-12-11T06:09:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:09:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:09:37
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.34s           2023-12-11T06:09:40
+================================================================================
+[2023-12-11T06:10:38.193+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1339  0.01s             0           0  0.04s           2023-12-11T06:10:07
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:10:07
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:10:07
+/opt/airflow/dags/create_star_schema_part_2.py             1336  0.02s             0           0  0.05s           2023-12-11T06:10:07
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:10:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:10:07
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.36s           2023-12-11T06:10:11
+================================================================================
+[2023-12-11T06:11:08.690+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1382  0.00s             0           0  0.06s           2023-12-11T06:10:38
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:10:38
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:10:38
+/opt/airflow/dags/create_star_schema_part_2.py             1379  0.02s             0           0  0.07s           2023-12-11T06:10:38
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:10:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:10:38
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.37s           2023-12-11T06:10:41
+================================================================================
+[2023-12-11T06:11:39.159+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1425  0.01s             0           0  0.05s           2023-12-11T06:11:08
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.04s           2023-12-11T06:11:08
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:11:08
+/opt/airflow/dags/create_star_schema_part_2.py             1422  0.02s             0           0  0.05s           2023-12-11T06:11:08
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:11:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:11:08
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.40s           2023-12-11T06:11:12
+================================================================================
+[2023-12-11T06:12:09.648+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1468  0.01s             0           0  0.06s           2023-12-11T06:11:39
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:11:39
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:11:39
+/opt/airflow/dags/create_star_schema_part_2.py             1465  0.02s             0           0  0.06s           2023-12-11T06:11:39
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:11:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:11:39
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.37s           2023-12-11T06:11:42
+================================================================================
+[2023-12-11T06:12:40.166+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1511  0.01s             0           0  0.06s           2023-12-11T06:12:09
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:12:09
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:12:09
+/opt/airflow/dags/create_star_schema_part_2.py             1508  0.02s             0           0  0.06s           2023-12-11T06:12:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:12:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:12:09
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.37s           2023-12-11T06:12:13
+================================================================================
+[2023-12-11T06:12:57.819+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T06:12:57.851+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T06:13:10.571+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1554  0.00s             0           0  0.05s           2023-12-11T06:12:40
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:12:40
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:12:40
+/opt/airflow/dags/create_star_schema_part_2.py             1551  0.01s             0           0  0.06s           2023-12-11T06:12:40
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:12:40
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:12:40
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.35s           2023-12-11T06:12:43
+================================================================================
+[2023-12-11T06:13:41.005+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1597  0.01s             0           0  0.04s           2023-12-11T06:13:10
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:13:10
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:13:10
+/opt/airflow/dags/create_star_schema_part_2.py             1594  0.02s             0           0  0.04s           2023-12-11T06:13:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:13:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:13:10
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.36s           2023-12-11T06:13:14
+================================================================================
+[2023-12-11T06:14:11.473+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1640  0.00s             0           0  0.05s           2023-12-11T06:13:41
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:13:41
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:13:41
+/opt/airflow/dags/create_star_schema_part_2.py             1637  0.01s             0           0  0.06s           2023-12-11T06:13:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:13:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:13:41
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.37s           2023-12-11T06:13:44
+================================================================================
+[2023-12-11T06:14:41.949+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1683  0.01s             0           0  0.03s           2023-12-11T06:14:11
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.02s           2023-12-11T06:14:11
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:14:11
+/opt/airflow/dags/create_star_schema_part_2.py             1680  0.02s             0           0  0.03s           2023-12-11T06:14:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:14:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:14:11
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.36s           2023-12-11T06:14:14
+================================================================================
+[2023-12-11T06:15:12.417+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1726  0.00s             0           0  0.04s           2023-12-11T06:14:41
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:14:42
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-11T06:14:42
+/opt/airflow/dags/create_star_schema_part_2.py             1723  0.02s             0           0  0.05s           2023-12-11T06:14:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:14:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:14:42
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.36s           2023-12-11T06:14:45
+================================================================================
+[2023-12-11T06:15:42.811+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py       1769  0.00s             0           0  0.05s           2023-12-11T06:15:12
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.03s           2023-12-11T06:15:12
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-11T06:15:12
+/opt/airflow/dags/create_star_schema_part_2.py             1766  0.01s             0           0  0.06s           2023-12-11T06:15:12
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-11T06:15:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-11T06:15:12
+/opt/airflow/dags/Diff_Store_Sales.py                                              7           0  0.36s           2023-12-11T06:15:15
+================================================================================
+[2023-12-11T06:15:44.029+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

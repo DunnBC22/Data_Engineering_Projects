@@ -1,0 +1,20 @@
+[2023-12-09T19:38:21.532+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: california_housing_data-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_index_id_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-09T19:38:21.544+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: california_housing_data-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_index_id_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-09T19:38:21.549+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-09T19:38:21.565+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_unnecessary_columns.remove_index_id_col> on 2023-12-01 00:00:00+00:00
+[2023-12-09T19:38:21.573+0000] {standard_task_runner.py:57} INFO - Started process 389 to run task
+[2023-12-09T19:38:21.582+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'california_housing_data-v01.remove_unnecessary_columns', 'remove_unnecessary_columns.remove_index_id_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/ca_housing_data.py', '--cfg-path', '/tmp/tmpxim093v3']
+[2023-12-09T19:38:21.593+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask remove_unnecessary_columns.remove_index_id_col
+[2023-12-09T19:38:21.787+0000] {task_command.py:416} INFO - Running <TaskInstance: california_housing_data-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_index_id_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host d5ea29713edc
+[2023-12-09T19:38:21.984+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='california_housing_data-v01.remove_unnecessary_columns' AIRFLOW_CTX_TASK_ID='remove_unnecessary_columns.remove_index_id_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-09T19:38:21.989+0000] {sql.py:274} INFO - Executing: -- table_name, column_name
+ALTER TABLE pipeline_ca_housing
+DROP COLUMN index_id;
+[2023-12-09T19:38:22.023+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-09T19:38:22.043+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-09T19:38:22.073+0000] {sql.py:418} INFO - Running statement: -- table_name, column_name
+ALTER TABLE pipeline_ca_housing
+DROP COLUMN index_id;, parameters: None
+[2023-12-09T19:38:22.119+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=california_housing_data-v01.remove_unnecessary_columns, task_id=remove_unnecessary_columns.remove_index_id_col, execution_date=20231201T000000, start_date=20231209T193821, end_date=20231209T193822
+[2023-12-09T19:38:22.173+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-09T19:38:22.294+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

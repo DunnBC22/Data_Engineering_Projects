@@ -1,0 +1,24 @@
+[2023-12-12T21:22:20.264+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: home_insurance_ds-v01.create_dim_tables scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T21:22:20.268+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: home_insurance_ds-v01.create_dim_tables scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T21:22:20.269+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-12T21:22:20.274+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): create_dim_tables> on 2023-12-01 00:00:00+00:00
+[2023-12-12T21:22:20.277+0000] {standard_task_runner.py:57} INFO - Started process 1443 to run task
+[2023-12-12T21:22:20.279+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'home_insurance_ds-v01', 'create_dim_tables', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/home_insurance_dataset.py', '--cfg-path', '/tmp/tmph8u2xour']
+[2023-12-12T21:22:20.280+0000] {standard_task_runner.py:85} INFO - Job 20: Subtask create_dim_tables
+[2023-12-12T21:22:20.308+0000] {task_command.py:416} INFO - Running <TaskInstance: home_insurance_ds-v01.create_dim_tables scheduled__2023-12-01T00:00:00+00:00 [running]> on host 7a94ca99eac6
+[2023-12-12T21:22:20.346+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='home_insurance_ds-v01' AIRFLOW_CTX_TASK_ID='create_dim_tables' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-12T21:22:20.349+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-12T21:22:20.354+0000] {subdag.py:174} INFO - Found existing DagRun: backfill__2023-12-01T00:00:00+00:00
+[2023-12-12T21:25:20.493+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 257, in execute
+    raise e
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 239, in execute
+    poke_return = self.poke(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/subdag.py", line 181, in poke
+    return dag_run.state != DagRunState.RUNNING
+AttributeError: 'NoneType' object has no attribute 'state'
+[2023-12-12T21:25:20.504+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=home_insurance_ds-v01, task_id=create_dim_tables, execution_date=20231201T000000, start_date=20231212T212220, end_date=20231212T212520
+[2023-12-12T21:25:20.512+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 20 for task create_dim_tables ('NoneType' object has no attribute 'state'; 1443)
+[2023-12-12T21:25:20.522+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-12T21:25:20.554+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

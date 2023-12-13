@@ -1,0 +1,47 @@
+[2023-12-09T19:41:27.896+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: california_housing_data-v01.create_dim_tables.create_dim_SALE_TYPE_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-09T19:41:27.903+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: california_housing_data-v01.create_dim_tables.create_dim_SALE_TYPE_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-09T19:41:27.903+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-09T19:41:27.913+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_dim_SALE_TYPE_table> on 2023-12-01 00:00:00+00:00
+[2023-12-09T19:41:27.919+0000] {standard_task_runner.py:57} INFO - Started process 760 to run task
+[2023-12-09T19:41:27.924+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'california_housing_data-v01.create_dim_tables', 'create_dim_SALE_TYPE_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/ca_housing_data.py', '--cfg-path', '/tmp/tmp1qechqh3']
+[2023-12-09T19:41:27.928+0000] {standard_task_runner.py:85} INFO - Job 42: Subtask create_dim_SALE_TYPE_table
+[2023-12-09T19:41:28.017+0000] {task_command.py:416} INFO - Running <TaskInstance: california_housing_data-v01.create_dim_tables.create_dim_SALE_TYPE_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host d5ea29713edc
+[2023-12-09T19:41:28.094+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='california_housing_data-v01.create_dim_tables' AIRFLOW_CTX_TASK_ID='create_dim_SALE_TYPE_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-09T19:41:28.096+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_SALE_TYPE AS
+SELECT DISTINCT SALE_TYPE FROM pipeline_ca_housing;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_SALE_TYPE;
+CREATE TABLE dimension_table_SALE_TYPE (
+    id SERIAL PRIMARY KEY,
+    SALE_TYPE VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_SALE_TYPE (SALE_TYPE)
+SELECT * FROM unique_values_SALE_TYPE;
+[2023-12-09T19:41:28.106+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-09T19:41:28.114+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-09T19:41:28.127+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_SALE_TYPE AS
+SELECT DISTINCT SALE_TYPE FROM pipeline_ca_housing;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_SALE_TYPE;
+CREATE TABLE dimension_table_SALE_TYPE (
+    id SERIAL PRIMARY KEY,
+    SALE_TYPE VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_SALE_TYPE (SALE_TYPE)
+SELECT * FROM unique_values_SALE_TYPE;, parameters: None
+[2023-12-09T19:41:28.137+0000] {sql.py:427} INFO - Rows affected: 3
+[2023-12-09T19:41:28.152+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=california_housing_data-v01.create_dim_tables, task_id=create_dim_SALE_TYPE_table, execution_date=20231201T000000, start_date=20231209T194127, end_date=20231209T194128
+[2023-12-09T19:41:28.177+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-09T19:41:28.219+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

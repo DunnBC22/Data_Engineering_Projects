@@ -1,0 +1,1780 @@
+[2023-12-11T21:55:48.625+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-11T21:55:48.626+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-11T21:55:48.626+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-11T21:55:48.626+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T21:55:48.637+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T21:55:48.740+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    171  0.03s             0           0
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  168  0.04s             0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0
+================================================================================
+[2023-12-11T21:56:19.289+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T21:55:48
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    213  0.01s             0           0  0.05s           2023-12-11T21:55:48
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-11T21:55:48
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.04s           2023-12-11T21:55:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T21:55:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.04s           2023-12-11T21:55:48
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  210  0.02s             7           0  0.33s           2023-12-11T21:55:49
+================================================================================
+[2023-12-11T21:56:49.803+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T21:56:19
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    257  0.00s             0           0  0.04s           2023-12-11T21:56:19
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T21:56:19
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T21:56:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T21:56:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T21:56:19
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  254  0.01s             7           0  0.18s           2023-12-11T21:56:19
+================================================================================
+[2023-12-11T21:57:20.466+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.07s           2023-12-11T21:56:49
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    323  0.00s             0           0  0.06s           2023-12-11T21:56:49
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-11T21:56:50
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.04s           2023-12-11T21:56:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.04s           2023-12-11T21:56:49
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T21:56:50
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  320  0.02s             7           0  0.28s           2023-12-11T21:56:50
+================================================================================
+[2023-12-11T21:57:50.969+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T21:57:20
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    365  0.01s             0           0  0.04s           2023-12-11T21:57:20
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T21:57:20
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T21:57:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T21:57:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T21:57:20
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  362  0.02s             7           0  0.18s           2023-12-11T21:57:20
+================================================================================
+[2023-12-11T21:58:21.419+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T21:57:51
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    411  0.00s             0           0  0.05s           2023-12-11T21:57:51
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T21:57:51
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T21:57:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T21:57:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T21:57:51
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  408  0.01s             7           0  0.18s           2023-12-11T21:57:51
+================================================================================
+[2023-12-11T21:58:51.884+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T21:58:21
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    453  0.00s             0           0  0.04s           2023-12-11T21:58:21
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T21:58:21
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T21:58:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T21:58:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T21:58:21
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  450  0.01s             7           0  0.16s           2023-12-11T21:58:21
+================================================================================
+[2023-12-11T21:59:22.359+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T21:58:51
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    519  0.00s             0           0  0.03s           2023-12-11T21:58:51
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T21:58:52
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T21:58:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T21:58:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T21:58:51
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  516  0.02s             7           0  0.16s           2023-12-11T21:58:52
+================================================================================
+[2023-12-11T21:59:52.926+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T21:59:22
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    561  0.01s             0           0  0.04s           2023-12-11T21:59:22
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T21:59:22
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T21:59:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T21:59:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T21:59:22
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  558  0.02s             7           0  0.18s           2023-12-11T21:59:22
+================================================================================
+[2023-12-11T22:00:23.479+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T21:59:52
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    603  0.01s             0           0  0.04s           2023-12-11T21:59:52
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T21:59:53
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T21:59:53
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T21:59:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T21:59:53
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  600  0.02s             7           0  0.18s           2023-12-11T21:59:53
+================================================================================
+[2023-12-11T22:00:48.931+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:00:48.957+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:00:54.051+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:00:23
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    645  0.00s             0           0  0.04s           2023-12-11T22:00:23
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:00:23
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:00:23
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:00:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:00:23
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  642  0.01s             7           0  0.18s           2023-12-11T22:00:23
+================================================================================
+[2023-12-11T22:01:24.535+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:00:54
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    699  0.00s             0           0  0.04s           2023-12-11T22:00:54
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:00:54
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:00:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:00:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:00:54
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  696  0.01s             7           0  0.17s           2023-12-11T22:00:54
+================================================================================
+[2023-12-11T22:01:55.101+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:01:24
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    743  0.00s             0           0  0.04s           2023-12-11T22:01:24
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:01:24
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.04s           2023-12-11T22:01:24
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:01:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.04s           2023-12-11T22:01:24
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  740  0.01s             7           0  0.19s           2023-12-11T22:01:24
+================================================================================
+[2023-12-11T22:02:25.627+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:01:55
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    785  0.01s             0           0  0.03s           2023-12-11T22:01:55
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:01:55
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:01:55
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:01:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:01:55
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  782  0.02s             7           0  0.16s           2023-12-11T22:01:55
+================================================================================
+[2023-12-11T22:02:56.198+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:02:25
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    827  0.01s             0           0  0.04s           2023-12-11T22:02:25
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:02:25
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:02:25
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:02:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:02:25
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  824  0.02s             7           0  0.18s           2023-12-11T22:02:25
+================================================================================
+[2023-12-11T22:03:26.766+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:02:56
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    871  0.00s             0           0  0.05s           2023-12-11T22:02:56
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:02:56
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:02:56
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:02:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:02:56
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  868  0.02s             7           0  0.18s           2023-12-11T22:02:56
+================================================================================
+[2023-12-11T22:03:57.299+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:03:26
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    913  0.00s             0           0  0.04s           2023-12-11T22:03:26
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:03:26
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:03:26
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:03:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:03:26
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  910  0.01s             7           0  0.18s           2023-12-11T22:03:26
+================================================================================
+[2023-12-11T22:04:27.828+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:03:57
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    967  0.00s             0           0  0.04s           2023-12-11T22:03:57
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:03:57
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:03:57
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:03:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:03:57
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                  964  0.02s             7           0  0.17s           2023-12-11T22:03:57
+================================================================================
+[2023-12-11T22:04:58.408+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:04:27
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1009  0.00s             0           0  0.04s           2023-12-11T22:04:27
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:04:28
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:04:27
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:04:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:04:27
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1006  0.02s             7           0  0.18s           2023-12-11T22:04:27
+================================================================================
+[2023-12-11T22:05:28.954+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:04:58
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1063  0.00s             0           0  0.04s           2023-12-11T22:04:58
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:04:58
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:04:58
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:04:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:04:58
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1060  0.01s             7           0  0.18s           2023-12-11T22:04:58
+================================================================================
+[2023-12-11T22:05:49.292+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:05:49.320+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:05:59.469+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:05:29
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1105  0.00s             0           0  0.03s           2023-12-11T22:05:28
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:05:29
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:05:29
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:05:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:05:29
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1102  0.01s             7           0  0.16s           2023-12-11T22:05:29
+================================================================================
+[2023-12-11T22:06:30.048+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:05:59
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1159  0.00s             0           0  0.03s           2023-12-11T22:05:59
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:05:59
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:05:59
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:05:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:05:59
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1156  0.02s             7           0  0.17s           2023-12-11T22:05:59
+================================================================================
+[2023-12-11T22:07:00.607+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:06:30
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1201  0.00s             0           0  0.04s           2023-12-11T22:06:30
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:06:30
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:06:30
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:06:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:06:30
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1198  0.01s             7           0  0.18s           2023-12-11T22:06:30
+================================================================================
+[2023-12-11T22:07:31.211+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:07:00
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1243  0.01s             0           0  0.03s           2023-12-11T22:07:00
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:07:00
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:07:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:07:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:07:00
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1240  0.02s             7           0  0.16s           2023-12-11T22:07:00
+================================================================================
+[2023-12-11T22:08:01.868+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:07:31
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1285  0.01s             0           0  0.04s           2023-12-11T22:07:31
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:07:31
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:07:31
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:07:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:07:31
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1282  0.02s             7           0  0.18s           2023-12-11T22:07:31
+================================================================================
+[2023-12-11T22:08:32.501+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:08:01
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1327  0.01s             0           0  0.04s           2023-12-11T22:08:01
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:08:02
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:08:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:08:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:08:01
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1324  0.02s             7           0  0.18s           2023-12-11T22:08:02
+================================================================================
+[2023-12-11T22:09:03.155+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:08:32
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1369  0.01s             0           0  0.05s           2023-12-11T22:08:32
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:08:32
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:08:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:08:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:08:32
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1366  0.02s             7           0  0.18s           2023-12-11T22:08:32
+================================================================================
+[2023-12-11T22:09:33.834+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:09:03
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1411  0.01s             0           0  0.05s           2023-12-11T22:09:03
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:09:03
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:09:03
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:09:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:09:03
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1408  0.02s             7           0  0.18s           2023-12-11T22:09:03
+================================================================================
+[2023-12-11T22:10:04.452+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:09:33
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1453  0.01s             0           0  0.05s           2023-12-11T22:09:33
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:09:34
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:09:33
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:09:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:09:33
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1450  0.02s             7           0  0.19s           2023-12-11T22:09:33
+================================================================================
+[2023-12-11T22:10:35.024+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:10:04
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1495  0.00s             0           0  0.05s           2023-12-11T22:10:04
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:10:04
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:10:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:10:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:10:04
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1492  0.02s             7           0  0.18s           2023-12-11T22:10:04
+================================================================================
+[2023-12-11T22:10:49.381+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:10:49.420+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:11:05.734+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:10:35
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1537  0.00s             0           0  0.04s           2023-12-11T22:10:35
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:10:35
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:10:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:10:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:10:35
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1534  0.01s             7           0  0.18s           2023-12-11T22:10:35
+================================================================================
+[2023-12-11T22:11:36.365+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:11:05
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1579  0.00s             0           0  0.04s           2023-12-11T22:11:05
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:11:05
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:11:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:11:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:11:05
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1576  0.02s             7           0  0.17s           2023-12-11T22:11:05
+================================================================================
+[2023-12-11T22:12:07.020+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:11:36
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1621  0.00s             0           0  0.04s           2023-12-11T22:11:36
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:11:36
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:11:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:11:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:11:36
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1618  0.02s             7           0  0.18s           2023-12-11T22:11:36
+================================================================================
+[2023-12-11T22:12:37.662+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:12:07
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1663  0.01s             0           0  0.04s           2023-12-11T22:12:07
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:12:07
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:12:07
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:12:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:12:07
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1660  0.02s             7           0  0.18s           2023-12-11T22:12:07
+================================================================================
+[2023-12-11T22:13:08.337+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:12:37
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1705  0.01s             0           0  0.04s           2023-12-11T22:12:37
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:12:37
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:12:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:12:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:12:37
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1702  0.02s             7           0  0.18s           2023-12-11T22:12:37
+================================================================================
+[2023-12-11T22:13:38.988+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:13:08
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1747  0.01s             0           0  0.04s           2023-12-11T22:13:08
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:13:08
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:13:08
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:13:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:13:08
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1744  0.02s             7           0  0.18s           2023-12-11T22:13:08
+================================================================================
+[2023-12-11T22:14:09.629+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:13:39
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1789  0.01s             0           0  0.05s           2023-12-11T22:13:39
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:13:39
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:13:39
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:13:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:13:39
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1786  0.02s             7           0  0.18s           2023-12-11T22:13:39
+================================================================================
+[2023-12-11T22:14:40.189+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:14:09
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1831  0.00s             0           0  0.04s           2023-12-11T22:14:09
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:14:09
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:14:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:14:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:14:09
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1828  0.01s             7           0  0.18s           2023-12-11T22:14:09
+================================================================================
+[2023-12-11T22:15:10.913+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:14:40
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1873  0.01s             0           0  0.04s           2023-12-11T22:14:40
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:14:40
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:14:40
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:14:40
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:14:40
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1870  0.02s             7           0  0.17s           2023-12-11T22:14:40
+================================================================================
+[2023-12-11T22:15:41.514+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:15:10
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1915  0.00s             0           0  0.04s           2023-12-11T22:15:10
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:15:11
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:15:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:15:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:15:11
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1912  0.02s             7           0  0.18s           2023-12-11T22:15:11
+================================================================================
+[2023-12-11T22:15:49.783+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:15:49.819+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:16:12.203+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:15:41
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1957  0.01s             0           0  0.04s           2023-12-11T22:15:41
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:15:41
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:15:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:15:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:15:41
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1954  0.02s             7           0  0.18s           2023-12-11T22:15:41
+================================================================================
+[2023-12-11T22:16:42.862+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:16:12
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1999  0.00s             0           0  0.04s           2023-12-11T22:16:12
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:16:12
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:16:12
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:16:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:16:12
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 1996  0.02s             7           0  0.18s           2023-12-11T22:16:12
+================================================================================
+[2023-12-11T22:17:13.561+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:16:42
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2041  0.01s             0           0  0.04s           2023-12-11T22:16:42
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:16:43
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:16:43
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:16:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:16:42
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2038  0.02s             7           0  0.18s           2023-12-11T22:16:43
+================================================================================
+[2023-12-11T22:17:44.236+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:17:13
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2083  0.00s             0           0  0.04s           2023-12-11T22:17:13
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:17:13
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:17:13
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:17:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:17:13
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2080  0.02s             7           0  0.18s           2023-12-11T22:17:13
+================================================================================
+[2023-12-11T22:18:14.892+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:17:44
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2125  0.01s             0           0  0.04s           2023-12-11T22:17:44
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:17:44
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:17:44
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:17:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:17:44
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2122  0.02s             7           0  0.18s           2023-12-11T22:17:44
+================================================================================
+[2023-12-11T22:18:45.529+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:18:14
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2174  0.01s             0           0  0.04s           2023-12-11T22:18:14
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:18:15
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:18:15
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:18:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:18:15
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2171  0.02s             7           0  0.18s           2023-12-11T22:18:15
+================================================================================
+[2023-12-11T22:19:16.139+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:18:45
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2216  0.00s             0           0  0.04s           2023-12-11T22:18:45
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:18:45
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:18:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:18:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:18:45
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2213  0.02s             7           0  0.18s           2023-12-11T22:18:45
+================================================================================
+[2023-12-11T22:19:46.823+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:19:16
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2258  0.01s             0           0  0.04s           2023-12-11T22:19:16
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:19:16
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:19:16
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:19:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:19:16
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2255  0.02s             7           0  0.18s           2023-12-11T22:19:16
+================================================================================
+[2023-12-11T22:20:17.465+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:19:46
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2300  0.01s             0           0  0.04s           2023-12-11T22:19:46
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:19:47
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:19:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:19:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:19:46
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2297  0.02s             7           0  0.18s           2023-12-11T22:19:46
+================================================================================
+[2023-12-11T22:20:48.126+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:20:17
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2342  0.00s             0           0  0.04s           2023-12-11T22:20:17
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:20:17
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:20:17
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:20:17
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:20:17
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2339  0.02s             7           0  0.18s           2023-12-11T22:20:17
+================================================================================
+[2023-12-11T22:20:50.312+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:20:50.351+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:21:18.812+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:20:48
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2384  0.01s             0           0  0.04s           2023-12-11T22:20:48
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:20:48
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:20:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:20:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:20:48
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2381  0.02s             7           0  0.18s           2023-12-11T22:20:48
+================================================================================
+[2023-12-11T22:21:49.393+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:21:18
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2426  0.00s             0           0  0.04s           2023-12-11T22:21:18
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:21:18
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:21:18
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:21:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:21:18
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2423  0.01s             7           0  0.18s           2023-12-11T22:21:18
+================================================================================
+[2023-12-11T22:22:20.065+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:21:49
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2468  0.00s             0           0  0.04s           2023-12-11T22:21:49
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:21:49
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:21:49
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:21:49
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:21:49
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2465  0.02s             7           0  0.16s           2023-12-11T22:21:49
+================================================================================
+[2023-12-11T22:22:50.722+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:22:20
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2510  0.01s             0           0  0.04s           2023-12-11T22:22:20
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:22:20
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:22:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:22:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:22:20
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2507  0.02s             7           0  0.18s           2023-12-11T22:22:20
+================================================================================
+[2023-12-11T22:23:21.388+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:22:50
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2552  0.01s             0           0  0.04s           2023-12-11T22:22:50
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:22:50
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:22:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:22:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:22:50
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2549  0.02s             7           0  0.18s           2023-12-11T22:22:50
+================================================================================
+[2023-12-11T22:23:52.093+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:23:21
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2594  0.01s             0           0  0.04s           2023-12-11T22:23:21
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:23:21
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:23:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:23:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:23:21
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2591  0.02s             7           0  0.18s           2023-12-11T22:23:21
+================================================================================
+[2023-12-11T22:24:22.761+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:23:52
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2636  0.00s             0           0  0.04s           2023-12-11T22:23:52
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:23:52
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:23:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:23:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:23:52
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2633  0.02s             7           0  0.18s           2023-12-11T22:23:52
+================================================================================
+[2023-12-11T22:24:53.407+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:24:22
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2678  0.00s             0           0  0.04s           2023-12-11T22:24:22
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:24:22
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:24:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:24:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:24:22
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2675  0.02s             7           0  0.18s           2023-12-11T22:24:22
+================================================================================
+[2023-12-11T22:25:24.016+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:24:53
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2720  0.00s             0           0  0.05s           2023-12-11T22:24:53
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:24:53
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:24:53
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:24:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:24:53
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2717  0.01s             7           0  0.18s           2023-12-11T22:24:53
+================================================================================
+[2023-12-11T22:25:50.580+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:25:50.616+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:25:54.725+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:25:24
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2762  0.00s             0           0  0.03s           2023-12-11T22:25:24
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:25:24
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:25:24
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:25:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:25:24
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2759  0.02s             7           0  0.15s           2023-12-11T22:25:24
+================================================================================
+[2023-12-11T22:26:25.398+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:25:54
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2804  0.00s             0           0  0.04s           2023-12-11T22:25:54
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:25:54
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:25:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:25:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:25:54
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2801  0.01s             7           0  0.18s           2023-12-11T22:25:54
+================================================================================
+[2023-12-11T22:26:56.013+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:26:25
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2846  0.01s             0           0  0.03s           2023-12-11T22:26:25
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:26:25
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:26:25
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:26:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:26:25
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2843  0.02s             7           0  0.16s           2023-12-11T22:26:25
+================================================================================
+[2023-12-11T22:27:26.668+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:26:56
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2888  0.00s             0           0  0.04s           2023-12-11T22:26:56
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:26:56
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:26:56
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:26:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:26:56
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2885  0.02s             7           0  0.17s           2023-12-11T22:26:56
+================================================================================
+[2023-12-11T22:27:57.288+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:27:26
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2930  0.01s             0           0  0.04s           2023-12-11T22:27:26
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:27:26
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:27:26
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:27:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:27:26
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2927  0.02s             7           0  0.18s           2023-12-11T22:27:26
+================================================================================
+[2023-12-11T22:28:27.937+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:27:57
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2972  0.01s             0           0  0.05s           2023-12-11T22:27:57
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:27:57
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:27:57
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:27:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:27:57
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 2969  0.02s             7           0  0.18s           2023-12-11T22:27:57
+================================================================================
+[2023-12-11T22:28:58.618+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:28:28
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3014  0.01s             0           0  0.04s           2023-12-11T22:28:27
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:28:28
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:28:28
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:28:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:28:28
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3011  0.02s             7           0  0.18s           2023-12-11T22:28:28
+================================================================================
+[2023-12-11T22:29:29.272+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:28:58
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3056  0.01s             0           0  0.04s           2023-12-11T22:28:58
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:28:58
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:28:58
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:28:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:28:58
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3053  0.02s             7           0  0.18s           2023-12-11T22:28:58
+================================================================================
+[2023-12-11T22:29:59.881+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:29:29
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3098  0.00s             0           0  0.05s           2023-12-11T22:29:29
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:29:29
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:29:29
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:29:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:29:29
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3095  0.01s             7           0  0.18s           2023-12-11T22:29:29
+================================================================================
+[2023-12-11T22:30:30.543+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:29:59
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3140  0.00s             0           0  0.04s           2023-12-11T22:29:59
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:30:00
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:30:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:29:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:29:59
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3137  0.01s             7           0  0.17s           2023-12-11T22:30:00
+================================================================================
+[2023-12-11T22:30:51.017+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:30:51.053+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:31:01.259+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:30:30
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3182  0.00s             0           0  0.04s           2023-12-11T22:30:30
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:30:30
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:30:30
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:30:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:30:30
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3179  0.02s             7           0  0.17s           2023-12-11T22:30:30
+================================================================================
+[2023-12-11T22:31:31.872+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:31:01
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3224  0.00s             0           0  0.05s           2023-12-11T22:31:01
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:31:01
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:31:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:31:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:31:01
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3221  0.02s             7           0  0.18s           2023-12-11T22:31:01
+================================================================================
+[2023-12-11T22:32:02.505+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:31:31
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3266  0.01s             0           0  0.04s           2023-12-11T22:31:31
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:31:32
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:31:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:31:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:31:31
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3263  0.02s             7           0  0.17s           2023-12-11T22:31:32
+================================================================================
+[2023-12-11T22:32:33.170+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:32:02
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3308  0.00s             0           0  0.04s           2023-12-11T22:32:02
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:32:02
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:32:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:32:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:32:02
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3305  0.02s             7           0  0.18s           2023-12-11T22:32:02
+================================================================================
+[2023-12-11T22:33:03.873+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:32:33
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3350  0.01s             0           0  0.04s           2023-12-11T22:32:33
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:32:33
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:32:33
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:32:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:32:33
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3347  0.02s             7           0  0.18s           2023-12-11T22:32:33
+================================================================================
+[2023-12-11T22:33:34.425+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:33:03
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3392  0.00s             0           0  0.05s           2023-12-11T22:33:03
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:33:04
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:33:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:33:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:33:03
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3389  0.01s             7           0  0.18s           2023-12-11T22:33:04
+================================================================================
+[2023-12-11T22:34:05.082+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:33:34
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3434  0.00s             0           0  0.03s           2023-12-11T22:33:34
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:33:34
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:33:34
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:33:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:33:34
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3431  0.01s             7           0  0.16s           2023-12-11T22:33:34
+================================================================================
+[2023-12-11T22:34:35.733+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:34:05
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3476  0.00s             0           0  0.03s           2023-12-11T22:34:05
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:34:05
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:34:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:34:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:34:05
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3473  0.02s             7           0  0.15s           2023-12-11T22:34:05
+================================================================================
+[2023-12-11T22:35:06.328+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:34:35
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3518  0.00s             0           0  0.04s           2023-12-11T22:34:35
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:34:35
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:34:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:34:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:34:35
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3515  0.01s             7           0  0.18s           2023-12-11T22:34:35
+================================================================================
+[2023-12-11T22:35:37.014+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:35:06
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3560  0.01s             0           0  0.04s           2023-12-11T22:35:06
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:35:06
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:35:06
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:35:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:35:06
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3557  0.02s             7           0  0.16s           2023-12-11T22:35:06
+================================================================================
+[2023-12-11T22:35:51.380+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:35:51.416+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:36:07.711+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:35:37
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3602  0.00s             0           0  0.04s           2023-12-11T22:35:37
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:35:37
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:35:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:35:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:35:37
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3599  0.01s             7           0  0.18s           2023-12-11T22:35:37
+================================================================================
+[2023-12-11T22:36:38.368+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:36:07
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3644  0.01s             0           0  0.04s           2023-12-11T22:36:07
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:36:07
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:36:07
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:36:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:36:07
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3641  0.02s             7           0  0.17s           2023-12-11T22:36:07
+================================================================================
+[2023-12-11T22:37:09.021+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:36:38
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3686  0.01s             0           0  0.04s           2023-12-11T22:36:38
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:36:38
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:36:38
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:36:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:36:38
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3683  0.02s             7           0  0.18s           2023-12-11T22:36:38
+================================================================================
+[2023-12-11T22:37:39.683+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:37:09
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3728  0.00s             0           0  0.04s           2023-12-11T22:37:09
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:37:09
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:37:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:37:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:37:09
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3725  0.01s             7           0  0.18s           2023-12-11T22:37:09
+================================================================================
+[2023-12-11T22:38:10.289+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:37:39
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3770  0.01s             0           0  0.04s           2023-12-11T22:37:39
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:37:39
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:37:39
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:37:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:37:39
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3767  0.02s             7           0  0.17s           2023-12-11T22:37:39
+================================================================================
+[2023-12-11T22:38:40.924+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:38:10
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3812  0.00s             0           0  0.04s           2023-12-11T22:38:10
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:38:10
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:38:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:38:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:38:10
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3809  0.01s             7           0  0.18s           2023-12-11T22:38:10
+================================================================================
+[2023-12-11T22:39:11.534+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:38:40
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3854  0.01s             0           0  0.04s           2023-12-11T22:38:40
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:38:41
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:38:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:38:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:38:41
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3851  0.02s             7           0  0.17s           2023-12-11T22:38:41
+================================================================================
+[2023-12-11T22:39:42.179+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:39:11
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3896  0.00s             0           0  0.05s           2023-12-11T22:39:11
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:39:11
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:39:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:39:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:39:11
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3893  0.02s             7           0  0.18s           2023-12-11T22:39:11
+================================================================================
+[2023-12-11T22:40:12.855+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:39:42
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3938  0.01s             0           0  0.04s           2023-12-11T22:39:42
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:39:42
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:39:42
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:39:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:39:42
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3935  0.02s             7           0  0.18s           2023-12-11T22:39:42
+================================================================================
+[2023-12-11T22:40:43.465+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:40:12
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   3980  0.01s             0           0  0.04s           2023-12-11T22:40:12
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:40:13
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:40:13
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:40:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:40:12
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 3977  0.02s             7           0  0.18s           2023-12-11T22:40:13
+================================================================================
+[2023-12-11T22:40:51.735+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:40:51.771+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:41:14.147+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:40:43
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4022  0.01s             0           0  0.04s           2023-12-11T22:40:43
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:40:43
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:40:43
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:40:43
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:40:43
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4019  0.02s             7           0  0.18s           2023-12-11T22:40:43
+================================================================================
+[2023-12-11T22:41:44.807+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:41:14
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4064  0.01s             0           0  0.05s           2023-12-11T22:41:14
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:41:14
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:41:14
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:41:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:41:14
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4061  0.02s             7           0  0.18s           2023-12-11T22:41:14
+================================================================================
+[2023-12-11T22:42:15.441+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:41:44
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4106  0.01s             0           0  0.05s           2023-12-11T22:41:44
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:41:44
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:41:44
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:41:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:41:44
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4103  0.02s             7           0  0.18s           2023-12-11T22:41:44
+================================================================================
+[2023-12-11T22:42:46.050+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:42:15
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4148  0.01s             0           0  0.04s           2023-12-11T22:42:15
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:42:15
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:42:15
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:42:15
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:42:15
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4145  0.02s             7           0  0.18s           2023-12-11T22:42:15
+================================================================================
+[2023-12-11T22:43:16.741+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:42:46
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4190  0.01s             0           0  0.05s           2023-12-11T22:42:46
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:42:46
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:42:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:42:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:42:46
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4187  0.02s             7           0  0.18s           2023-12-11T22:42:46
+================================================================================
+[2023-12-11T22:43:47.337+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:43:16
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4232  0.00s             0           0  0.04s           2023-12-11T22:43:16
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:43:16
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:43:16
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:43:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:43:16
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4229  0.01s             7           0  0.18s           2023-12-11T22:43:16
+================================================================================
+[2023-12-11T22:44:18.036+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:43:47
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4274  0.01s             0           0  0.04s           2023-12-11T22:43:47
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:43:47
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:43:47
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:43:47
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:43:47
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4271  0.02s             7           0  0.16s           2023-12-11T22:43:47
+================================================================================
+[2023-12-11T22:44:48.682+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:44:18
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4323  0.00s             0           0  0.04s           2023-12-11T22:44:18
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:44:18
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:44:18
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:44:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:44:18
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4320  0.01s             7           0  0.18s           2023-12-11T22:44:18
+================================================================================
+[2023-12-11T22:45:19.333+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:44:48
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4365  0.00s             0           0  0.04s           2023-12-11T22:44:48
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:44:48
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:44:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:44:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:44:48
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4362  0.02s             7           0  0.17s           2023-12-11T22:44:48
+================================================================================
+[2023-12-11T22:45:50.016+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:45:19
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4407  0.00s             0           0  0.04s           2023-12-11T22:45:19
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:45:19
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:45:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:45:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:45:19
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4404  0.01s             7           0  0.17s           2023-12-11T22:45:19
+================================================================================
+[2023-12-11T22:45:52.196+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:45:52.213+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:46:20.717+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:45:50
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4449  0.01s             0           0  0.04s           2023-12-11T22:45:50
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:45:50
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:45:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:45:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:45:50
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4446  0.02s             7           0  0.17s           2023-12-11T22:45:50
+================================================================================
+[2023-12-11T22:46:51.331+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:46:20
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4491  0.01s             0           0  0.04s           2023-12-11T22:46:20
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:46:20
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:46:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:46:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:46:20
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4488  0.02s             7           0  0.18s           2023-12-11T22:46:20
+================================================================================
+[2023-12-11T22:47:21.972+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:46:51
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4533  0.00s             0           0  0.04s           2023-12-11T22:46:51
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:46:51
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:46:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:46:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:46:51
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4530  0.02s             7           0  0.18s           2023-12-11T22:46:51
+================================================================================
+[2023-12-11T22:47:52.615+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:47:22
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4575  0.00s             0           0  0.03s           2023-12-11T22:47:21
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:47:22
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:47:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:47:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:47:22
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4572  0.02s             7           0  0.16s           2023-12-11T22:47:22
+================================================================================
+[2023-12-11T22:48:23.258+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:47:52
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4617  0.00s             0           0  0.04s           2023-12-11T22:47:52
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:47:52
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:47:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:47:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:47:52
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4614  0.01s             7           0  0.17s           2023-12-11T22:47:52
+================================================================================
+[2023-12-11T22:48:53.896+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:48:23
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4659  0.01s             0           0  0.04s           2023-12-11T22:48:23
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:48:23
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:48:23
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:48:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:48:23
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4656  0.02s             7           0  0.17s           2023-12-11T22:48:23
+================================================================================
+[2023-12-11T22:49:24.587+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:48:53
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4701  0.01s             0           0  0.04s           2023-12-11T22:48:53
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:48:54
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:48:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:48:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:48:54
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4698  0.02s             7           0  0.18s           2023-12-11T22:48:54
+================================================================================
+[2023-12-11T22:49:55.222+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:49:24
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4743  0.01s             0           0  0.05s           2023-12-11T22:49:24
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:49:24
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:49:24
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:49:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:49:24
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4740  0.02s             7           0  0.19s           2023-12-11T22:49:24
+================================================================================
+[2023-12-11T22:50:25.783+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:49:55
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4785  0.01s             0           0  0.04s           2023-12-11T22:49:55
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:49:55
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:49:55
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:49:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:49:55
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4782  0.02s             7           0  0.18s           2023-12-11T22:49:55
+================================================================================
+[2023-12-11T22:50:52.315+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:50:52.347+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:50:56.460+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:50:25
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4827  0.00s             0           0  0.04s           2023-12-11T22:50:25
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:50:25
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:50:25
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:50:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-11T22:50:25
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4824  0.02s             7           0  0.17s           2023-12-11T22:50:25
+================================================================================
+[2023-12-11T22:51:27.134+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:50:56
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4869  0.01s             0           0  0.04s           2023-12-11T22:50:56
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:50:56
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:50:56
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:50:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:50:56
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4866  0.02s             7           0  0.18s           2023-12-11T22:50:56
+================================================================================
+[2023-12-11T22:51:57.744+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:51:27
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4911  0.01s             0           0  0.04s           2023-12-11T22:51:27
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:51:27
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:51:27
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:51:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:51:27
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4908  0.02s             7           0  0.18s           2023-12-11T22:51:27
+================================================================================
+[2023-12-11T22:52:28.429+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:51:57
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4953  0.00s             0           0  0.04s           2023-12-11T22:51:57
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:51:57
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:51:57
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:51:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:51:57
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4950  0.01s             7           0  0.18s           2023-12-11T22:51:57
+================================================================================
+[2023-12-11T22:52:59.057+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:52:28
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   4995  0.01s             0           0  0.04s           2023-12-11T22:52:28
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:52:28
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:52:28
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:52:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:52:28
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 4992  0.02s             7           0  0.17s           2023-12-11T22:52:28
+================================================================================
+[2023-12-11T22:53:29.724+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:52:59
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5037  0.00s             0           0  0.04s           2023-12-11T22:52:59
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:52:59
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:52:59
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:52:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:52:59
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5034  0.01s             7           0  0.18s           2023-12-11T22:52:59
+================================================================================
+[2023-12-11T22:54:00.344+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:53:29
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5079  0.01s             0           0  0.04s           2023-12-11T22:53:29
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:53:29
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:53:29
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:53:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:53:29
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5076  0.02s             7           0  0.17s           2023-12-11T22:53:29
+================================================================================
+[2023-12-11T22:54:30.993+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:54:00
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5121  0.01s             0           0  0.04s           2023-12-11T22:54:00
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:54:00
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:54:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:54:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:54:00
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5118  0.02s             7           0  0.18s           2023-12-11T22:54:00
+================================================================================
+[2023-12-11T22:55:01.650+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:54:31
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5163  0.00s             0           0  0.04s           2023-12-11T22:54:31
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:54:31
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:54:31
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:54:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:54:31
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5160  0.01s             7           0  0.18s           2023-12-11T22:54:31
+================================================================================
+[2023-12-11T22:55:32.272+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:55:01
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5205  0.01s             0           0  0.04s           2023-12-11T22:55:01
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:55:01
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:55:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:55:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:55:01
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5202  0.02s             7           0  0.17s           2023-12-11T22:55:01
+================================================================================
+[2023-12-11T22:55:52.747+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T22:55:52.759+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-11T22:56:02.952+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:55:32
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5247  0.00s             0           0  0.04s           2023-12-11T22:55:32
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:55:32
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:55:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:55:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:55:32
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5244  0.02s             7           0  0.18s           2023-12-11T22:55:32
+================================================================================
+[2023-12-11T22:56:33.636+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:56:03
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5289  0.01s             0           0  0.04s           2023-12-11T22:56:02
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:56:03
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:56:03
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:56:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:56:03
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5286  0.02s             7           0  0.18s           2023-12-11T22:56:03
+================================================================================
+[2023-12-11T22:57:04.292+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:56:33
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5331  0.01s             0           0  0.04s           2023-12-11T22:56:33
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:56:33
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:56:33
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:56:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:56:33
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5328  0.02s             7           0  0.18s           2023-12-11T22:56:33
+================================================================================
+[2023-12-11T22:57:34.883+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:57:04
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5373  0.01s             0           0  0.04s           2023-12-11T22:57:04
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:57:04
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:57:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:57:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:57:04
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5370  0.02s             7           0  0.18s           2023-12-11T22:57:04
+================================================================================
+[2023-12-11T22:58:05.497+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:57:34
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5415  0.00s             0           0  0.04s           2023-12-11T22:57:34
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:57:35
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:57:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:57:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:57:35
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5412  0.01s             7           0  0.18s           2023-12-11T22:57:35
+================================================================================
+[2023-12-11T22:58:36.174+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:58:05
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5457  0.01s             0           0  0.04s           2023-12-11T22:58:05
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-11T22:58:05
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:58:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T22:58:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:58:05
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5454  0.02s             7           0  0.17s           2023-12-11T22:58:05
+================================================================================
+[2023-12-11T22:59:06.821+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                                     0           0  0.03s           2023-12-11T22:58:36
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   5499  0.00s             0           0  0.05s           2023-12-11T22:58:36
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T22:58:36
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-11T22:58:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T22:58:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T22:58:36
+/opt/airflow/dags/NY_Motor_Vehicle_Collisions.py                 5496  0.01s             7           0  0.19s           2023-12-11T22:58:36
+================================================================================
+[2023-12-11T22:59:33.909+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

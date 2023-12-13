@@ -1,0 +1,32 @@
+[2023-12-11T20:52:19.996+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:52:20.006+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:52:20.007+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T20:52:20.019+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): insert_fk_into_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-11T20:52:20.025+0000] {standard_task_runner.py:57} INFO - Started process 1312 to run task
+[2023-12-11T20:52:20.029+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Insurance_Prod_Purchase_Pred-v01', 'insert_fk_into_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '18', '--raw', '--subdir', 'DAGS_FOLDER/Insurance_Product_Purchase_Pred.py', '--cfg-path', '/tmp/tmpnue2a9qd']
+[2023-12-11T20:52:20.032+0000] {standard_task_runner.py:85} INFO - Job 18: Subtask insert_fk_into_fact_table
+[2023-12-11T20:52:20.079+0000] {task_command.py:416} INFO - Running <TaskInstance: Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 290fb0bf7dfd
+[2023-12-11T20:52:20.138+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Insurance_Prod_Purchase_Pred-v01' AIRFLOW_CTX_TASK_ID='insert_fk_into_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T20:52:20.143+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-11T20:52:20.169+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-11T20:53:20.257+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-11T20:53:20.269+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-11T20:53:20.280+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Insurance_Prod_Purchase_Pred-v01, task_id=insert_fk_into_fact_table, execution_date=20231201T000000, start_date=20231211T205219, end_date=20231211T205320
+[2023-12-11T20:53:20.306+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T20:53:20.329+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-12-11T20:57:36.039+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:57:36.043+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:57:36.043+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T20:57:36.048+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): insert_fk_into_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-11T20:57:36.051+0000] {standard_task_runner.py:57} INFO - Started process 1735 to run task
+[2023-12-11T20:57:36.053+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Insurance_Prod_Purchase_Pred-v01', 'insert_fk_into_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/Insurance_Product_Purchase_Pred.py', '--cfg-path', '/tmp/tmpsrwqxkyp']
+[2023-12-11T20:57:36.055+0000] {standard_task_runner.py:85} INFO - Job 30: Subtask insert_fk_into_fact_table
+[2023-12-11T20:57:36.085+0000] {task_command.py:416} INFO - Running <TaskInstance: Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 290fb0bf7dfd
+[2023-12-11T20:57:36.122+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Insurance_Prod_Purchase_Pred-v01' AIRFLOW_CTX_TASK_ID='insert_fk_into_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T20:57:36.126+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-11T20:57:36.131+0000] {subdag.py:174} INFO - Found existing DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-11T20:57:36.136+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-11T20:57:36.141+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-11T20:57:36.147+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Insurance_Prod_Purchase_Pred-v01, task_id=insert_fk_into_fact_table, execution_date=20231201T000000, start_date=20231211T205736, end_date=20231211T205736
+[2023-12-11T20:57:36.192+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T20:57:36.208+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,46 @@
+[2023-12-08T17:17:38.400+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_w_invalid_dates scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:17:38.404+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_w_invalid_dates scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:17:38.404+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T17:17:38.410+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_w_invalid_dates> on 2023-12-01 00:00:00+00:00
+[2023-12-08T17:17:38.412+0000] {standard_task_runner.py:57} INFO - Started process 3088 to run task
+[2023-12-08T17:17:38.414+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01', 'remove_samples_w_invalid_dates', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmphnp9q8p1']
+[2023-12-08T17:17:38.415+0000] {standard_task_runner.py:85} INFO - Job 24: Subtask remove_samples_w_invalid_dates
+[2023-12-08T17:17:38.445+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_w_invalid_dates scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T17:17:38.486+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01' AIRFLOW_CTX_TASK_ID='remove_samples_w_invalid_dates' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T17:17:38.486+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE RECORDDATE IS NOT NULL
+    AND RECORDDATE::date IS NULL;
+[2023-12-08T17:17:38.492+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:17:38.498+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:17:38.503+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE RECORDDATE IS NOT NULL
+    AND RECORDDATE::date IS NULL;, parameters: None
+[2023-12-08T17:17:38.572+0000] {sql.py:427} INFO - Rows affected: 0
+[2023-12-08T17:17:38.581+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01, task_id=remove_samples_w_invalid_dates, execution_date=20231201T000000, start_date=20231208T171738, end_date=20231208T171738
+[2023-12-08T17:17:38.594+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T17:17:38.616+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-12-08T18:05:00.528+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_w_invalid_dates scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:05:00.533+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_w_invalid_dates scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:05:00.533+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T18:05:00.538+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_w_invalid_dates> on 2023-12-01 00:00:00+00:00
+[2023-12-08T18:05:00.540+0000] {standard_task_runner.py:57} INFO - Started process 7109 to run task
+[2023-12-08T18:05:00.542+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01', 'remove_samples_w_invalid_dates', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '93', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpxys2o5d3']
+[2023-12-08T18:05:00.544+0000] {standard_task_runner.py:85} INFO - Job 93: Subtask remove_samples_w_invalid_dates
+[2023-12-08T18:05:00.574+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_w_invalid_dates scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T18:05:00.613+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01' AIRFLOW_CTX_TASK_ID='remove_samples_w_invalid_dates' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T18:05:00.613+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE RECORDDATE IS NOT NULL
+    AND RECORDDATE::date IS NULL;
+[2023-12-08T18:05:00.618+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:05:00.624+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:05:00.629+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE RECORDDATE IS NOT NULL
+    AND RECORDDATE::date IS NULL;, parameters: None
+[2023-12-08T18:05:00.696+0000] {sql.py:427} INFO - Rows affected: 0
+[2023-12-08T18:05:00.704+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01, task_id=remove_samples_w_invalid_dates, execution_date=20231201T000000, start_date=20231208T180500, end_date=20231208T180500
+[2023-12-08T18:05:00.726+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T18:05:00.747+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

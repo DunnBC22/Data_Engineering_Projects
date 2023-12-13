@@ -1,0 +1,86 @@
+[2023-12-08T17:17:40.604+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts.generate-date-parts-of-RECORDDATE scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:17:40.608+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts.generate-date-parts-of-RECORDDATE scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:17:40.608+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T17:17:40.614+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): generate-date-parts-of-RECORDDATE> on 2023-12-01 00:00:00+00:00
+[2023-12-08T17:17:40.616+0000] {standard_task_runner.py:57} INFO - Started process 3094 to run task
+[2023-12-08T17:17:40.618+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts', 'generate-date-parts-of-RECORDDATE', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpopy4whqg']
+[2023-12-08T17:17:40.620+0000] {standard_task_runner.py:85} INFO - Job 27: Subtask generate-date-parts-of-RECORDDATE
+[2023-12-08T17:17:40.650+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts.generate-date-parts-of-RECORDDATE scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T17:17:40.695+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts' AIRFLOW_CTX_TASK_ID='generate-date-parts-of-RECORDDATE' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T17:17:40.696+0000] {sql.py:274} INFO - Executing: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN IF NOT EXISTS RECORDDATE_month INTEGER, 
+ADD COLUMN IF NOT EXISTS RECORDDATE_year INTEGER, 
+ADD COLUMN IF NOT EXISTS RECORDDATE_day_of_month INTEGER;
+
+-- Fill columns with their proper values
+UPDATE allegheny_co_property_sale_transactions
+SET 
+    RECORDDATE_month = EXTRACT(MONTH FROM RECORDDATE),
+    RECORDDATE_year = EXTRACT(YEAR FROM RECORDDATE),
+    RECORDDATE_day_of_month = EXTRACT(DAY FROM RECORDDATE);
+[2023-12-08T17:17:40.701+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:17:40.708+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:17:40.713+0000] {sql.py:418} INFO - Running statement: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN IF NOT EXISTS RECORDDATE_month INTEGER, 
+ADD COLUMN IF NOT EXISTS RECORDDATE_year INTEGER, 
+ADD COLUMN IF NOT EXISTS RECORDDATE_day_of_month INTEGER;
+
+-- Fill columns with their proper values
+UPDATE allegheny_co_property_sale_transactions
+SET 
+    RECORDDATE_month = EXTRACT(MONTH FROM RECORDDATE),
+    RECORDDATE_year = EXTRACT(YEAR FROM RECORDDATE),
+    RECORDDATE_day_of_month = EXTRACT(DAY FROM RECORDDATE);, parameters: None
+[2023-12-08T17:17:43.482+0000] {sql.py:427} INFO - Rows affected: 303837
+[2023-12-08T17:17:43.509+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts, task_id=generate-date-parts-of-RECORDDATE, execution_date=20231201T000000, start_date=20231208T171740, end_date=20231208T171743
+[2023-12-08T17:17:43.569+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T17:17:43.606+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-08T18:05:02.712+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts.generate-date-parts-of-RECORDDATE scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:05:02.717+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts.generate-date-parts-of-RECORDDATE scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:05:02.717+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T18:05:02.723+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): generate-date-parts-of-RECORDDATE> on 2023-12-01 00:00:00+00:00
+[2023-12-08T18:05:02.725+0000] {standard_task_runner.py:57} INFO - Started process 7119 to run task
+[2023-12-08T18:05:02.728+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts', 'generate-date-parts-of-RECORDDATE', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '95', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpqtypksdl']
+[2023-12-08T18:05:02.730+0000] {standard_task_runner.py:85} INFO - Job 95: Subtask generate-date-parts-of-RECORDDATE
+[2023-12-08T18:05:02.760+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts.generate-date-parts-of-RECORDDATE scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T18:05:02.804+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts' AIRFLOW_CTX_TASK_ID='generate-date-parts-of-RECORDDATE' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T18:05:02.805+0000] {sql.py:274} INFO - Executing: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN IF NOT EXISTS RECORDDATE_month INTEGER, 
+ADD COLUMN IF NOT EXISTS RECORDDATE_year INTEGER, 
+ADD COLUMN IF NOT EXISTS RECORDDATE_day_of_month INTEGER;
+
+-- Fill columns with their proper values
+UPDATE allegheny_co_property_sale_transactions
+SET 
+    RECORDDATE_month = EXTRACT(MONTH FROM RECORDDATE),
+    RECORDDATE_year = EXTRACT(YEAR FROM RECORDDATE),
+    RECORDDATE_day_of_month = EXTRACT(DAY FROM RECORDDATE);
+[2023-12-08T18:05:02.810+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:05:02.817+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:05:02.823+0000] {sql.py:418} INFO - Running statement: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN IF NOT EXISTS RECORDDATE_month INTEGER, 
+ADD COLUMN IF NOT EXISTS RECORDDATE_year INTEGER, 
+ADD COLUMN IF NOT EXISTS RECORDDATE_day_of_month INTEGER;
+
+-- Fill columns with their proper values
+UPDATE allegheny_co_property_sale_transactions
+SET 
+    RECORDDATE_month = EXTRACT(MONTH FROM RECORDDATE),
+    RECORDDATE_year = EXTRACT(YEAR FROM RECORDDATE),
+    RECORDDATE_day_of_month = EXTRACT(DAY FROM RECORDDATE);, parameters: None
+[2023-12-08T18:05:04.465+0000] {sql.py:427} INFO - Rows affected: 303837
+[2023-12-08T18:05:04.474+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.generate_date_parts, task_id=generate-date-parts-of-RECORDDATE, execution_date=20231201T000000, start_date=20231208T180502, end_date=20231208T180504
+[2023-12-08T18:05:04.492+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T18:05:04.513+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

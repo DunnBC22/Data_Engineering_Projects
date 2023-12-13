@@ -1,0 +1,940 @@
+[2023-12-12T19:31:45.733+0000] {processor.py:157} INFO - Started process (PID=181) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:31:45.734+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:31:45.735+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:31:45.734+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:31:45.738+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:31:45.748+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.017 seconds
+[2023-12-12T19:32:16.226+0000] {processor.py:157} INFO - Started process (PID=218) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:32:16.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:32:16.227+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:32:16.227+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:32:16.230+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:32:16.239+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:32:46.677+0000] {processor.py:157} INFO - Started process (PID=255) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:32:46.677+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:32:46.678+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:32:46.678+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:32:46.681+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:32:46.690+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:33:17.114+0000] {processor.py:157} INFO - Started process (PID=302) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:33:17.115+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:33:17.116+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:33:17.115+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:33:17.119+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:33:17.127+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:33:47.596+0000] {processor.py:157} INFO - Started process (PID=339) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:33:47.596+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:33:47.597+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:33:47.597+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:33:47.600+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:33:47.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:34:18.046+0000] {processor.py:157} INFO - Started process (PID=388) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:34:18.047+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:34:18.047+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:34:18.047+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:34:18.051+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:34:18.059+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:34:48.555+0000] {processor.py:157} INFO - Started process (PID=425) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:34:48.556+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:34:48.557+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:34:48.556+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:34:48.560+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:34:48.569+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:35:19.063+0000] {processor.py:157} INFO - Started process (PID=490) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:35:19.064+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:35:19.064+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:35:19.064+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:35:19.068+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:35:19.077+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:35:49.510+0000] {processor.py:157} INFO - Started process (PID=527) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:35:49.510+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:35:49.511+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:35:49.511+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:35:49.514+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:35:49.523+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:36:19.905+0000] {processor.py:157} INFO - Started process (PID=592) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:36:19.905+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:36:19.906+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:36:19.906+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:36:19.909+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:36:19.919+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:36:50.354+0000] {processor.py:157} INFO - Started process (PID=629) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:36:50.355+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:36:50.356+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:36:50.356+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:36:50.359+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:36:50.370+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.018 seconds
+[2023-12-12T19:37:20.840+0000] {processor.py:157} INFO - Started process (PID=666) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:37:20.841+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:37:20.842+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:37:20.842+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:37:20.845+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:37:20.854+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:37:51.380+0000] {processor.py:157} INFO - Started process (PID=703) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:37:51.381+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:37:51.381+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:37:51.381+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:37:51.385+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:37:51.394+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:38:21.931+0000] {processor.py:157} INFO - Started process (PID=768) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:38:21.932+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:38:21.933+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:38:21.932+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:38:21.937+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:38:21.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.017 seconds
+[2023-12-12T19:38:52.483+0000] {processor.py:157} INFO - Started process (PID=805) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:38:52.483+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:38:52.484+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:38:52.484+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:38:52.487+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:38:52.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:39:22.982+0000] {processor.py:157} INFO - Started process (PID=842) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:39:22.982+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:39:22.983+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:39:22.983+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:39:22.986+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:39:22.995+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:39:53.546+0000] {processor.py:157} INFO - Started process (PID=879) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:39:53.547+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:39:53.547+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:39:53.547+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:39:53.551+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:39:53.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:40:24.043+0000] {processor.py:157} INFO - Started process (PID=916) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:40:24.044+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:40:24.045+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:40:24.045+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:40:24.048+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:40:24.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:40:54.587+0000] {processor.py:157} INFO - Started process (PID=953) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:40:54.587+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:40:54.588+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:40:54.588+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:40:54.592+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:40:54.603+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.018 seconds
+[2023-12-12T19:41:25.110+0000] {processor.py:157} INFO - Started process (PID=990) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:41:25.111+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:41:25.111+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:41:25.111+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:41:25.115+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:41:25.124+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:41:55.646+0000] {processor.py:157} INFO - Started process (PID=1027) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:41:55.647+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:41:55.648+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:41:55.648+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:41:55.651+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:41:55.660+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:42:26.225+0000] {processor.py:157} INFO - Started process (PID=1064) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:42:26.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:42:26.227+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:42:26.226+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:42:26.230+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:42:26.239+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:42:56.774+0000] {processor.py:157} INFO - Started process (PID=1101) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:42:56.774+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:42:56.775+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:42:56.775+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:42:56.778+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:42:56.787+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:43:27.316+0000] {processor.py:157} INFO - Started process (PID=1138) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:43:27.316+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:43:27.317+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:43:27.317+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:43:27.320+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:43:27.329+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:43:57.819+0000] {processor.py:157} INFO - Started process (PID=1175) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:43:57.820+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:43:57.821+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:43:57.821+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:43:57.824+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:43:57.833+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:44:28.365+0000] {processor.py:157} INFO - Started process (PID=1212) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:44:28.365+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:44:28.366+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:44:28.366+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:44:28.369+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:44:28.378+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:44:58.929+0000] {processor.py:157} INFO - Started process (PID=1249) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:44:58.930+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:44:58.931+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:44:58.930+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:44:58.934+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:44:58.943+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:45:29.454+0000] {processor.py:157} INFO - Started process (PID=1286) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:45:29.455+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:45:29.455+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:45:29.455+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:45:29.458+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:45:29.467+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:46:00.027+0000] {processor.py:157} INFO - Started process (PID=1323) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:46:00.028+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:46:00.028+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:46:00.028+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:46:00.031+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:46:00.040+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:46:30.565+0000] {processor.py:157} INFO - Started process (PID=1360) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:46:30.566+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:46:30.566+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:46:30.566+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:46:30.569+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:46:30.578+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:47:01.162+0000] {processor.py:157} INFO - Started process (PID=1397) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:47:01.162+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:47:01.163+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:47:01.163+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:47:01.166+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:47:01.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:47:31.743+0000] {processor.py:157} INFO - Started process (PID=1434) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:47:31.743+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:47:31.744+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:47:31.744+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:47:31.747+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:47:31.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:48:02.297+0000] {processor.py:157} INFO - Started process (PID=1471) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:48:02.298+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:48:02.299+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:48:02.298+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:48:02.302+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:48:02.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:48:32.894+0000] {processor.py:157} INFO - Started process (PID=1508) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:48:32.895+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:48:32.896+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:48:32.896+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:48:32.899+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:48:32.908+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:49:03.481+0000] {processor.py:157} INFO - Started process (PID=1545) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:49:03.481+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:49:03.482+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:49:03.482+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:49:03.485+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:49:03.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:49:34.127+0000] {processor.py:157} INFO - Started process (PID=1582) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:49:34.128+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:49:34.128+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:49:34.128+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:49:34.131+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:49:34.140+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:50:04.633+0000] {processor.py:157} INFO - Started process (PID=1619) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:50:04.634+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:50:04.634+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:50:04.634+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:50:04.637+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:50:04.646+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:50:35.258+0000] {processor.py:157} INFO - Started process (PID=1656) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:50:35.259+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:50:35.259+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:50:35.259+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:50:35.262+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:50:35.271+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:51:05.852+0000] {processor.py:157} INFO - Started process (PID=1693) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:51:05.853+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:51:05.853+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:51:05.853+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:51:05.856+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:51:05.865+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:51:36.476+0000] {processor.py:157} INFO - Started process (PID=1730) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:51:36.477+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:51:36.477+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:51:36.477+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:51:36.480+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:51:36.489+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:52:07.142+0000] {processor.py:157} INFO - Started process (PID=1767) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:52:07.143+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:52:07.144+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:52:07.143+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:52:07.147+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:52:07.155+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:52:37.755+0000] {processor.py:157} INFO - Started process (PID=1804) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:52:37.755+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:52:37.756+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:52:37.755+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:52:37.759+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:52:37.768+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:53:08.406+0000] {processor.py:157} INFO - Started process (PID=1841) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:53:08.406+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:53:08.407+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:53:08.407+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:53:08.410+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:53:08.419+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:53:39.037+0000] {processor.py:157} INFO - Started process (PID=1878) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:53:39.037+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:53:39.038+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:53:39.038+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:53:39.041+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:53:39.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:54:09.687+0000] {processor.py:157} INFO - Started process (PID=1915) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:54:09.688+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:54:09.689+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:54:09.688+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:54:09.692+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:54:09.701+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:54:40.298+0000] {processor.py:157} INFO - Started process (PID=1952) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:54:40.299+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:54:40.299+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:54:40.299+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:54:40.302+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:54:40.311+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:55:10.907+0000] {processor.py:157} INFO - Started process (PID=1989) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:55:10.908+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:55:10.909+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:55:10.908+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:55:10.912+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:55:10.921+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:55:41.524+0000] {processor.py:157} INFO - Started process (PID=2026) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:55:41.525+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:55:41.525+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:55:41.525+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:55:41.528+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:55:41.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T19:56:12.162+0000] {processor.py:157} INFO - Started process (PID=2063) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:56:12.162+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:56:12.163+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:56:12.163+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:56:12.166+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:56:12.175+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:56:42.787+0000] {processor.py:157} INFO - Started process (PID=2107) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:56:42.787+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:56:42.788+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:56:42.788+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:56:42.791+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:56:42.800+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:57:13.379+0000] {processor.py:157} INFO - Started process (PID=2144) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:57:13.380+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:57:13.380+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:57:13.380+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:57:13.383+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:57:13.392+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:57:43.970+0000] {processor.py:157} INFO - Started process (PID=2181) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:57:43.970+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:57:43.971+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:57:43.971+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:57:43.974+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:57:43.983+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:58:14.615+0000] {processor.py:157} INFO - Started process (PID=2218) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:58:14.615+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:58:14.616+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:58:14.616+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:58:14.619+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:58:14.628+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:58:45.230+0000] {processor.py:157} INFO - Started process (PID=2255) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:58:45.231+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:58:45.231+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:58:45.231+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:58:45.234+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:58:45.243+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:59:15.802+0000] {processor.py:157} INFO - Started process (PID=2292) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:59:15.802+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:59:15.803+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:59:15.803+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:59:15.806+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:59:15.815+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T19:59:46.428+0000] {processor.py:157} INFO - Started process (PID=2329) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:59:46.429+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T19:59:46.429+0000] {logging_mixin.py:154} INFO - [2023-12-12T19:59:46.429+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:59:46.432+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T19:59:46.441+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:00:17.000+0000] {processor.py:157} INFO - Started process (PID=2366) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:00:17.000+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:00:17.001+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:00:17.001+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:00:17.004+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:00:17.013+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:00:47.623+0000] {processor.py:157} INFO - Started process (PID=2403) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:00:47.624+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:00:47.624+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:00:47.624+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:00:47.627+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:00:47.636+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:01:18.292+0000] {processor.py:157} INFO - Started process (PID=2440) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:01:18.292+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:01:18.293+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:01:18.293+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:01:18.296+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:01:18.305+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:01:48.915+0000] {processor.py:157} INFO - Started process (PID=2477) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:01:48.916+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:01:48.916+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:01:48.916+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:01:48.919+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:01:48.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:02:19.570+0000] {processor.py:157} INFO - Started process (PID=2514) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:02:19.570+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:02:19.571+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:02:19.571+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:02:19.574+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:02:19.583+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:02:50.153+0000] {processor.py:157} INFO - Started process (PID=2551) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:02:50.154+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:02:50.155+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:02:50.154+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:02:50.158+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:02:50.167+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:03:20.782+0000] {processor.py:157} INFO - Started process (PID=2588) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:03:20.783+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:03:20.783+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:03:20.783+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:03:20.787+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:03:20.795+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:03:51.378+0000] {processor.py:157} INFO - Started process (PID=2625) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:03:51.379+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:03:51.379+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:03:51.379+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:03:51.382+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:03:51.391+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:04:21.953+0000] {processor.py:157} INFO - Started process (PID=2662) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:04:21.953+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:04:21.954+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:04:21.954+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:04:21.957+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:04:21.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:04:52.534+0000] {processor.py:157} INFO - Started process (PID=2699) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:04:52.535+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:04:52.536+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:04:52.535+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:04:52.538+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:04:52.548+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:05:23.168+0000] {processor.py:157} INFO - Started process (PID=2736) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:05:23.169+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:05:23.169+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:05:23.169+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:05:23.172+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:05:23.181+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:05:53.742+0000] {processor.py:157} INFO - Started process (PID=2773) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:05:53.743+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:05:53.743+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:05:53.743+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:05:53.746+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:05:53.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:06:24.284+0000] {processor.py:157} INFO - Started process (PID=2810) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:06:24.285+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:06:24.285+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:06:24.285+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:06:24.288+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:06:24.298+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:06:54.907+0000] {processor.py:157} INFO - Started process (PID=2847) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:06:54.907+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:06:54.908+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:06:54.908+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:06:54.912+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:06:54.921+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.017 seconds
+[2023-12-12T20:07:25.557+0000] {processor.py:157} INFO - Started process (PID=2884) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:07:25.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:07:25.558+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:07:25.558+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:07:25.561+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:07:25.570+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:07:56.183+0000] {processor.py:157} INFO - Started process (PID=2921) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:07:56.184+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:07:56.184+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:07:56.184+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:07:56.187+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:07:56.196+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:08:26.765+0000] {processor.py:157} INFO - Started process (PID=2958) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:08:26.765+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:08:26.766+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:08:26.766+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:08:26.769+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:08:26.778+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:08:57.354+0000] {processor.py:157} INFO - Started process (PID=2995) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:08:57.355+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:08:57.355+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:08:57.355+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:08:57.358+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:08:57.367+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:09:28.021+0000] {processor.py:157} INFO - Started process (PID=3032) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:09:28.021+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:09:28.022+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:09:28.022+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:09:28.025+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:09:28.034+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:09:58.615+0000] {processor.py:157} INFO - Started process (PID=3069) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:09:58.616+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:09:58.616+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:09:58.616+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:09:58.619+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:09:58.629+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:10:29.262+0000] {processor.py:157} INFO - Started process (PID=3106) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:10:29.263+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:10:29.263+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:10:29.263+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:10:29.266+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:10:29.275+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:10:59.904+0000] {processor.py:157} INFO - Started process (PID=3143) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:10:59.905+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:10:59.905+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:10:59.905+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:10:59.908+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:10:59.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:11:30.529+0000] {processor.py:157} INFO - Started process (PID=3180) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:11:30.530+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:11:30.531+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:11:30.530+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:11:30.534+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:11:30.543+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:12:01.142+0000] {processor.py:157} INFO - Started process (PID=3217) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:12:01.142+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:12:01.143+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:12:01.143+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:12:01.146+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:12:01.155+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:12:31.777+0000] {processor.py:157} INFO - Started process (PID=3254) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:12:31.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:12:31.778+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:12:31.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:12:31.781+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:12:31.790+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:13:02.344+0000] {processor.py:157} INFO - Started process (PID=3291) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:13:02.345+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:13:02.345+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:13:02.345+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:13:02.348+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:13:02.357+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:13:32.903+0000] {processor.py:157} INFO - Started process (PID=3328) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:13:32.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:13:32.904+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:13:32.904+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:13:32.907+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:13:32.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:14:03.510+0000] {processor.py:157} INFO - Started process (PID=3365) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:14:03.510+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:14:03.511+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:14:03.511+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:14:03.514+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:14:03.523+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:14:34.126+0000] {processor.py:157} INFO - Started process (PID=3402) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:14:34.126+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:14:34.127+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:14:34.127+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:14:34.130+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:14:34.139+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:15:04.748+0000] {processor.py:157} INFO - Started process (PID=3439) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:15:04.749+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:15:04.749+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:15:04.749+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:15:04.752+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:15:04.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:15:35.317+0000] {processor.py:157} INFO - Started process (PID=3476) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:15:35.317+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:15:35.318+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:15:35.318+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:15:35.321+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:15:35.330+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:16:05.906+0000] {processor.py:157} INFO - Started process (PID=3513) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:16:05.906+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:16:05.907+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:16:05.906+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:16:05.910+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:16:05.919+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:16:36.498+0000] {processor.py:157} INFO - Started process (PID=3550) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:16:36.499+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:16:36.500+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:16:36.499+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:16:36.503+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:16:36.512+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:17:07.151+0000] {processor.py:157} INFO - Started process (PID=3587) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:17:07.152+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:17:07.152+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:17:07.152+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:17:07.155+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:17:07.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:17:37.715+0000] {processor.py:157} INFO - Started process (PID=3624) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:17:37.715+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:17:37.716+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:17:37.716+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:17:37.719+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:17:37.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:18:08.330+0000] {processor.py:157} INFO - Started process (PID=3661) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:18:08.331+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:18:08.331+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:18:08.331+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:18:08.334+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:18:08.343+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:18:38.961+0000] {processor.py:157} INFO - Started process (PID=3698) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:18:38.962+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:18:38.963+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:18:38.962+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:18:38.966+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:18:38.975+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:19:09.611+0000] {processor.py:157} INFO - Started process (PID=3735) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:19:09.612+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:19:09.613+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:19:09.612+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:19:09.615+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:19:09.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:19:40.204+0000] {processor.py:157} INFO - Started process (PID=3772) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:19:40.204+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:19:40.205+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:19:40.205+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:19:40.208+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:19:40.217+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:20:10.847+0000] {processor.py:157} INFO - Started process (PID=3809) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:20:10.848+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:20:10.848+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:20:10.848+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:20:10.851+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:20:10.861+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:20:41.483+0000] {processor.py:157} INFO - Started process (PID=3846) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:20:41.483+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:20:41.484+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:20:41.484+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:20:41.487+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:20:41.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:21:12.090+0000] {processor.py:157} INFO - Started process (PID=3883) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:21:12.091+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:21:12.091+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:21:12.091+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:21:12.094+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:21:12.103+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:21:42.640+0000] {processor.py:157} INFO - Started process (PID=3920) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:21:42.641+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:21:42.641+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:21:42.641+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:21:42.644+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:21:42.653+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:22:13.255+0000] {processor.py:157} INFO - Started process (PID=3957) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:22:13.256+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:22:13.256+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:22:13.256+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:22:13.259+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:22:13.268+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:22:43.867+0000] {processor.py:157} INFO - Started process (PID=3994) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:22:43.868+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:22:43.868+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:22:43.868+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:22:43.871+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:22:43.880+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:23:14.489+0000] {processor.py:157} INFO - Started process (PID=4031) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:23:14.489+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:23:14.490+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:23:14.490+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:23:14.493+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:23:14.502+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:23:45.080+0000] {processor.py:157} INFO - Started process (PID=4068) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:23:45.081+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:23:45.081+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:23:45.081+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:23:45.084+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:23:45.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:24:15.693+0000] {processor.py:157} INFO - Started process (PID=4105) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:24:15.693+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:24:15.694+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:24:15.694+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:24:15.697+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:24:15.706+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:24:46.281+0000] {processor.py:157} INFO - Started process (PID=4149) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:24:46.281+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:24:46.282+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:24:46.282+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:24:46.285+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:24:46.294+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:25:16.904+0000] {processor.py:157} INFO - Started process (PID=4186) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:25:16.905+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:25:16.905+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:25:16.905+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:25:16.908+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:25:16.917+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:25:47.539+0000] {processor.py:157} INFO - Started process (PID=4223) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:25:47.540+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:25:47.540+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:25:47.540+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:25:47.543+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:25:47.552+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:26:18.181+0000] {processor.py:157} INFO - Started process (PID=4260) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:26:18.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:26:18.182+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:26:18.182+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:26:18.185+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:26:18.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:26:48.728+0000] {processor.py:157} INFO - Started process (PID=4297) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:26:48.729+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:26:48.729+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:26:48.729+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:26:48.732+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:26:48.742+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:27:19.382+0000] {processor.py:157} INFO - Started process (PID=4334) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:27:19.383+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:27:19.383+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:27:19.383+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:27:19.386+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:27:19.395+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:27:49.996+0000] {processor.py:157} INFO - Started process (PID=4371) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:27:49.997+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:27:49.997+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:27:49.997+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:27:50.000+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:27:50.009+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:28:20.657+0000] {processor.py:157} INFO - Started process (PID=4408) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:28:20.658+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:28:20.658+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:28:20.658+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:28:20.661+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:28:20.670+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:28:51.235+0000] {processor.py:157} INFO - Started process (PID=4445) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:28:51.235+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:28:51.236+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:28:51.236+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:28:51.239+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:28:51.248+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:29:21.899+0000] {processor.py:157} INFO - Started process (PID=4482) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:29:21.900+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:29:21.900+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:29:21.900+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:29:21.903+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:29:21.912+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:29:52.541+0000] {processor.py:157} INFO - Started process (PID=4519) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:29:52.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:29:52.542+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:29:52.542+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:29:52.545+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:29:52.554+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:30:23.151+0000] {processor.py:157} INFO - Started process (PID=4556) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:30:23.152+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:30:23.152+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:30:23.152+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:30:23.155+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:30:23.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:30:53.685+0000] {processor.py:157} INFO - Started process (PID=4593) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:30:53.685+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:30:53.686+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:30:53.686+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:30:53.689+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:30:53.698+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:31:24.299+0000] {processor.py:157} INFO - Started process (PID=4630) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:31:24.299+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:31:24.300+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:31:24.300+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:31:24.303+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:31:24.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:31:55.027+0000] {processor.py:157} INFO - Started process (PID=4667) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:31:55.028+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:31:55.028+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:31:55.028+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:31:55.031+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:31:55.040+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:32:25.635+0000] {processor.py:157} INFO - Started process (PID=4704) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:32:25.635+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:32:25.636+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:32:25.636+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:32:25.639+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:32:25.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:32:56.278+0000] {processor.py:157} INFO - Started process (PID=4741) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:32:56.279+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:32:56.279+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:32:56.279+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:32:56.282+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:32:56.291+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:33:26.903+0000] {processor.py:157} INFO - Started process (PID=4778) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:33:26.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:33:26.904+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:33:26.904+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:33:26.907+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:33:26.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:33:57.519+0000] {processor.py:157} INFO - Started process (PID=4815) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:33:57.520+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:33:57.520+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:33:57.520+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:33:57.523+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:33:57.532+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:34:28.074+0000] {processor.py:157} INFO - Started process (PID=4852) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:34:28.074+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:34:28.075+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:34:28.075+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:34:28.078+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:34:28.087+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:34:58.670+0000] {processor.py:157} INFO - Started process (PID=4889) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:34:58.670+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:34:58.671+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:34:58.671+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:34:58.674+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:34:58.683+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:35:29.280+0000] {processor.py:157} INFO - Started process (PID=4926) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:35:29.281+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:35:29.281+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:35:29.281+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:35:29.284+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:35:29.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:35:59.928+0000] {processor.py:157} INFO - Started process (PID=4963) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:35:59.928+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:35:59.929+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:35:59.929+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:35:59.932+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:35:59.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:36:30.465+0000] {processor.py:157} INFO - Started process (PID=5000) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:36:30.466+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:36:30.466+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:36:30.466+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:36:30.469+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:36:30.479+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:37:01.097+0000] {processor.py:157} INFO - Started process (PID=5037) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:37:01.097+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:37:01.098+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:37:01.098+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:37:01.101+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:37:01.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:37:31.718+0000] {processor.py:157} INFO - Started process (PID=5074) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:37:31.719+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:37:31.720+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:37:31.719+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:37:31.723+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:37:31.735+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.019 seconds
+[2023-12-12T20:38:02.313+0000] {processor.py:157} INFO - Started process (PID=5111) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:38:02.314+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:38:02.314+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:38:02.314+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:38:02.317+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:38:02.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:38:32.882+0000] {processor.py:157} INFO - Started process (PID=5148) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:38:32.883+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:38:32.883+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:38:32.883+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:38:32.886+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:38:32.895+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:39:03.549+0000] {processor.py:157} INFO - Started process (PID=5185) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:39:03.550+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:39:03.551+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:39:03.550+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:39:03.554+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:39:03.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:39:34.184+0000] {processor.py:157} INFO - Started process (PID=5222) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:39:34.184+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:39:34.185+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:39:34.185+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:39:34.188+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:39:34.197+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:40:04.792+0000] {processor.py:157} INFO - Started process (PID=5259) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:40:04.793+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:40:04.793+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:40:04.793+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:40:04.796+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:40:04.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:40:35.350+0000] {processor.py:157} INFO - Started process (PID=5296) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:40:35.350+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:40:35.351+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:40:35.350+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:40:35.353+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:40:35.362+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:41:05.946+0000] {processor.py:157} INFO - Started process (PID=5333) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:41:05.946+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:41:05.947+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:41:05.947+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:41:05.950+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:41:05.959+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:41:36.557+0000] {processor.py:157} INFO - Started process (PID=5370) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:41:36.558+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:41:36.558+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:41:36.558+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:41:36.561+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:41:36.570+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:42:07.253+0000] {processor.py:157} INFO - Started process (PID=5407) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:42:07.254+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:42:07.254+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:42:07.254+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:42:07.257+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:42:07.267+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:42:37.789+0000] {processor.py:157} INFO - Started process (PID=5444) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:42:37.789+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:42:37.790+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:42:37.790+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:42:37.793+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:42:37.802+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:43:08.424+0000] {processor.py:157} INFO - Started process (PID=5481) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:43:08.424+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:43:08.425+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:43:08.425+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:43:08.428+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:43:08.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:43:39.015+0000] {processor.py:157} INFO - Started process (PID=5518) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:43:39.016+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:43:39.016+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:43:39.016+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:43:39.019+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:43:39.028+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:44:09.611+0000] {processor.py:157} INFO - Started process (PID=5555) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:44:09.611+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:44:09.612+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:44:09.612+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:44:09.615+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:44:09.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:44:40.240+0000] {processor.py:157} INFO - Started process (PID=5592) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:44:40.241+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:44:40.242+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:44:40.241+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:44:40.245+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:44:40.254+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:45:10.813+0000] {processor.py:157} INFO - Started process (PID=5629) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:45:10.814+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:45:10.814+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:45:10.814+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:45:10.817+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:45:10.827+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:45:41.432+0000] {processor.py:157} INFO - Started process (PID=5666) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:45:41.433+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:45:41.433+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:45:41.433+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:45:41.437+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:45:41.446+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:46:12.014+0000] {processor.py:157} INFO - Started process (PID=5703) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:46:12.014+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:46:12.015+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:46:12.015+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:46:12.018+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:46:12.027+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:46:42.594+0000] {processor.py:157} INFO - Started process (PID=5740) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:46:42.595+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:46:42.595+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:46:42.595+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:46:42.598+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:46:42.607+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:47:13.259+0000] {processor.py:157} INFO - Started process (PID=5777) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:47:13.259+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:47:13.260+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:47:13.260+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:47:13.263+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:47:13.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:47:43.834+0000] {processor.py:157} INFO - Started process (PID=5814) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:47:43.835+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:47:43.835+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:47:43.835+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:47:43.838+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:47:43.848+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:48:14.455+0000] {processor.py:157} INFO - Started process (PID=5851) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:48:14.456+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:48:14.456+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:48:14.456+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:48:14.459+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:48:14.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:48:45.101+0000] {processor.py:157} INFO - Started process (PID=5888) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:48:45.102+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:48:45.102+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:48:45.102+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:48:45.105+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:48:45.114+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:49:15.717+0000] {processor.py:157} INFO - Started process (PID=5925) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:49:15.717+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:49:15.718+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:49:15.718+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:49:15.721+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:49:15.730+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:49:46.347+0000] {processor.py:157} INFO - Started process (PID=5962) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:49:46.348+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:49:46.348+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:49:46.348+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:49:46.351+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:49:46.360+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:50:16.887+0000] {processor.py:157} INFO - Started process (PID=5999) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:50:16.888+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:50:16.888+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:50:16.888+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:50:16.891+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:50:16.901+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:50:47.526+0000] {processor.py:157} INFO - Started process (PID=6036) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:50:47.527+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:50:47.527+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:50:47.527+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:50:47.530+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:50:47.539+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:51:18.134+0000] {processor.py:157} INFO - Started process (PID=6073) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:51:18.134+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:51:18.135+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:51:18.135+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:51:18.138+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:51:18.147+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:51:48.732+0000] {processor.py:157} INFO - Started process (PID=6110) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:51:48.733+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:51:48.733+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:51:48.733+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:51:48.736+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:51:48.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:52:19.406+0000] {processor.py:157} INFO - Started process (PID=6147) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:52:19.407+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:52:19.408+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:52:19.407+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:52:19.411+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:52:19.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:52:49.999+0000] {processor.py:157} INFO - Started process (PID=6191) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:52:50.000+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:52:50.000+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:52:50.000+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:52:50.003+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:52:50.013+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:53:20.596+0000] {processor.py:157} INFO - Started process (PID=6228) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:53:20.597+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:53:20.597+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:53:20.597+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:53:20.600+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:53:20.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:53:51.195+0000] {processor.py:157} INFO - Started process (PID=6265) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:53:51.195+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:53:51.196+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:53:51.196+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:53:51.199+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:53:51.208+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:54:21.802+0000] {processor.py:157} INFO - Started process (PID=6302) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:54:21.803+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:54:21.803+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:54:21.803+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:54:21.806+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:54:21.816+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:54:52.407+0000] {processor.py:157} INFO - Started process (PID=6339) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:54:52.408+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:54:52.408+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:54:52.408+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:54:52.411+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:54:52.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:55:22.986+0000] {processor.py:157} INFO - Started process (PID=6376) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:55:22.986+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:55:22.987+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:55:22.987+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:55:22.991+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:55:23.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.017 seconds
+[2023-12-12T20:55:53.565+0000] {processor.py:157} INFO - Started process (PID=6413) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:55:53.566+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:55:53.566+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:55:53.566+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:55:53.569+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:55:53.579+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:56:24.189+0000] {processor.py:157} INFO - Started process (PID=6450) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:56:24.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:56:24.190+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:56:24.190+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:56:24.193+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:56:24.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:56:54.815+0000] {processor.py:157} INFO - Started process (PID=6487) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:56:54.815+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:56:54.816+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:56:54.816+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:56:54.819+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:56:54.828+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:57:25.437+0000] {processor.py:157} INFO - Started process (PID=6524) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:57:25.438+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:57:25.438+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:57:25.438+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:57:25.441+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:57:25.451+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:57:55.997+0000] {processor.py:157} INFO - Started process (PID=6561) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:57:55.998+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:57:55.999+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:57:55.998+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:57:56.001+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:57:56.011+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T20:58:26.592+0000] {processor.py:157} INFO - Started process (PID=6598) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:58:26.593+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:58:26.593+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:58:26.593+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:58:26.596+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:58:26.605+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:58:57.210+0000] {processor.py:157} INFO - Started process (PID=6635) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:58:57.211+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:58:57.211+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:58:57.211+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:58:57.214+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:58:57.223+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:59:27.831+0000] {processor.py:157} INFO - Started process (PID=6672) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:59:27.832+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:59:27.832+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:59:27.832+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:59:27.835+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:59:27.844+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T20:59:58.410+0000] {processor.py:157} INFO - Started process (PID=6709) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:59:58.411+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T20:59:58.411+0000] {logging_mixin.py:154} INFO - [2023-12-12T20:59:58.411+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:59:58.414+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T20:59:58.424+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T21:00:29.042+0000] {processor.py:157} INFO - Started process (PID=6746) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:00:29.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:00:29.043+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:00:29.043+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:00:29.046+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:00:29.056+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:00:59.628+0000] {processor.py:157} INFO - Started process (PID=6783) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:00:59.629+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:00:59.629+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:00:59.629+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:00:59.632+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:00:59.642+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.016 seconds
+[2023-12-12T21:01:30.267+0000] {processor.py:157} INFO - Started process (PID=6820) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:01:30.268+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:01:30.268+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:01:30.268+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:01:30.271+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:01:30.280+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:02:00.820+0000] {processor.py:157} INFO - Started process (PID=6857) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:02:00.821+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:02:00.821+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:02:00.821+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:02:00.824+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:02:00.834+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:02:31.447+0000] {processor.py:157} INFO - Started process (PID=6894) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:02:31.447+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:02:31.448+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:02:31.448+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:02:31.450+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:02:31.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:03:02.089+0000] {processor.py:157} INFO - Started process (PID=6931) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:03:02.090+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:03:02.090+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:03:02.090+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:03:02.093+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:03:02.102+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:03:32.699+0000] {processor.py:157} INFO - Started process (PID=6968) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:03:32.699+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:03:32.700+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:03:32.700+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:03:32.703+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:03:32.712+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:04:03.333+0000] {processor.py:157} INFO - Started process (PID=7005) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:04:03.334+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:04:03.334+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:04:03.334+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:04:03.337+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:04:03.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:04:33.928+0000] {processor.py:157} INFO - Started process (PID=7042) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:04:33.929+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:04:33.929+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:04:33.929+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:04:33.932+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:04:33.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:05:04.547+0000] {processor.py:157} INFO - Started process (PID=7079) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:05:04.547+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:05:04.548+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:05:04.548+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:05:04.551+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:05:04.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:05:35.102+0000] {processor.py:157} INFO - Started process (PID=7116) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:05:35.102+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:05:35.103+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:05:35.103+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:05:35.106+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:05:35.115+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:06:05.610+0000] {processor.py:157} INFO - Started process (PID=7153) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:06:05.611+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:06:05.611+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:06:05.611+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:06:05.614+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:06:05.623+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:06:36.115+0000] {processor.py:157} INFO - Started process (PID=7190) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:06:36.115+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:06:36.116+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:06:36.116+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:06:36.119+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:06:36.128+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds
+[2023-12-12T21:07:06.664+0000] {processor.py:157} INFO - Started process (PID=7227) to work on /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:07:06.664+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py for tasks to queue
+[2023-12-12T21:07:06.665+0000] {logging_mixin.py:154} INFO - [2023-12-12T21:07:06.665+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:07:06.668+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py
+[2023-12-12T21:07:06.677+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py took 0.015 seconds

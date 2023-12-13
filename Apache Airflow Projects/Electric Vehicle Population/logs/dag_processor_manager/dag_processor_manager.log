@@ -1,0 +1,296 @@
+[2023-12-11T05:44:19.826+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-11T05:44:19.827+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-11T05:44:19.827+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-11T05:44:19.828+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T05:44:19.837+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-12-11T05:44:19.942+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0
+/opt/airflow/dags/create_star_schema_part_2.py                    171  0.03s             0           0
+/opt/airflow/dags/EV_Population.py                                168  0.03s             0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0
+================================================================================
+[2023-12-11T05:44:50.405+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:44:20
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-11T05:44:20
+/opt/airflow/dags/create_star_schema_part_2.py                    208  0.00s             0           0  0.06s           2023-12-11T05:44:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.04s           2023-12-11T05:44:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.04s           2023-12-11T05:44:20
+/opt/airflow/dags/EV_Population.py                                205  0.02s             6           0  0.34s           2023-12-11T05:44:20
+================================================================================
+[2023-12-11T05:45:20.931+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:44:50
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:44:50
+/opt/airflow/dags/create_star_schema_part_2.py                    245  0.00s             0           0  0.05s           2023-12-11T05:44:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:44:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:44:50
+/opt/airflow/dags/EV_Population.py                                242  0.02s             6           0  0.18s           2023-12-11T05:44:50
+================================================================================
+[2023-12-11T05:45:51.432+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:45:20
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:45:21
+/opt/airflow/dags/create_star_schema_part_2.py                    282  0.00s             0           0  0.04s           2023-12-11T05:45:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:45:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:45:21
+/opt/airflow/dags/EV_Population.py                                279  0.02s             6           0  0.17s           2023-12-11T05:45:21
+================================================================================
+[2023-12-11T05:46:21.967+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:45:51
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:45:51
+/opt/airflow/dags/create_star_schema_part_2.py                    319  0.01s             0           0  0.05s           2023-12-11T05:45:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:45:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:45:51
+/opt/airflow/dags/EV_Population.py                                316  0.02s             6           0  0.19s           2023-12-11T05:45:51
+================================================================================
+[2023-12-11T05:46:52.428+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-11T05:46:22
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:46:22
+/opt/airflow/dags/create_star_schema_part_2.py                    356  0.00s             0           0  0.04s           2023-12-11T05:46:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:46:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:46:22
+/opt/airflow/dags/EV_Population.py                                353  0.02s             6           0  0.19s           2023-12-11T05:46:22
+================================================================================
+[2023-12-11T05:47:22.933+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:46:52
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:46:52
+/opt/airflow/dags/create_star_schema_part_2.py                    393  0.00s             0           0  0.04s           2023-12-11T05:46:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T05:46:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:46:52
+/opt/airflow/dags/EV_Population.py                                390  0.02s             6           0  0.17s           2023-12-11T05:46:52
+================================================================================
+[2023-12-11T05:47:53.431+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:47:23
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:47:23
+/opt/airflow/dags/create_star_schema_part_2.py                    430  0.00s             0           0  0.05s           2023-12-11T05:47:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:47:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:47:23
+/opt/airflow/dags/EV_Population.py                                427  0.02s             6           0  0.19s           2023-12-11T05:47:23
+================================================================================
+[2023-12-11T05:48:23.904+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:47:53
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:47:53
+/opt/airflow/dags/create_star_schema_part_2.py                    479  0.00s             0           0  0.05s           2023-12-11T05:47:53
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T05:47:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:47:53
+/opt/airflow/dags/EV_Population.py                                476  0.02s             6           0  0.18s           2023-12-11T05:47:53
+================================================================================
+[2023-12-11T05:48:54.406+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:48:23
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:48:24
+/opt/airflow/dags/create_star_schema_part_2.py                    516  0.01s             0           0  0.04s           2023-12-11T05:48:23
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:48:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:48:24
+/opt/airflow/dags/EV_Population.py                                513  0.02s             6           0  0.18s           2023-12-11T05:48:24
+================================================================================
+[2023-12-11T05:49:20.787+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T05:49:20.805+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-12-11T05:49:24.863+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:48:54
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:48:54
+/opt/airflow/dags/create_star_schema_part_2.py                    565  0.00s             0           0  0.04s           2023-12-11T05:48:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:48:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:48:54
+/opt/airflow/dags/EV_Population.py                                562  0.01s             6           0  0.19s           2023-12-11T05:48:54
+================================================================================
+[2023-12-11T05:49:55.323+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:49:24
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:49:25
+/opt/airflow/dags/create_star_schema_part_2.py                    602  0.00s             0           0  0.04s           2023-12-11T05:49:24
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:49:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:49:24
+/opt/airflow/dags/EV_Population.py                                599  0.01s             6           0  0.17s           2023-12-11T05:49:25
+================================================================================
+[2023-12-11T05:50:25.760+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:49:55
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:49:55
+/opt/airflow/dags/create_star_schema_part_2.py                    659  0.01s             0           0  0.03s           2023-12-11T05:49:55
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:49:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:49:55
+/opt/airflow/dags/EV_Population.py                                656  0.02s             6           0  0.17s           2023-12-11T05:49:55
+================================================================================
+[2023-12-11T05:50:56.199+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:50:25
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:50:25
+/opt/airflow/dags/create_star_schema_part_2.py                    696  0.00s             0           0  0.05s           2023-12-11T05:50:25
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:50:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:50:25
+/opt/airflow/dags/EV_Population.py                                693  0.01s             6           0  0.19s           2023-12-11T05:50:25
+================================================================================
+[2023-12-11T05:51:26.631+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:50:56
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:50:56
+/opt/airflow/dags/create_star_schema_part_2.py                    753  0.01s             0           0  0.04s           2023-12-11T05:50:56
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:50:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:50:56
+/opt/airflow/dags/EV_Population.py                                750  0.02s             6           0  0.18s           2023-12-11T05:50:56
+================================================================================
+[2023-12-11T05:51:57.108+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:51:26
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:51:26
+/opt/airflow/dags/create_star_schema_part_2.py                    790  0.00s             0           0  0.05s           2023-12-11T05:51:26
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:51:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:51:26
+/opt/airflow/dags/EV_Population.py                                787  0.02s             6           0  0.19s           2023-12-11T05:51:26
+================================================================================
+[2023-12-11T05:52:27.605+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:51:57
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:51:57
+/opt/airflow/dags/create_star_schema_part_2.py                    847  0.00s             0           0  0.04s           2023-12-11T05:51:57
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:51:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:51:57
+/opt/airflow/dags/EV_Population.py                                844  0.02s             6           0  0.17s           2023-12-11T05:51:57
+================================================================================
+[2023-12-11T05:52:58.128+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:52:27
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:52:27
+/opt/airflow/dags/create_star_schema_part_2.py                    884  0.00s             0           0  0.05s           2023-12-11T05:52:27
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:52:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:52:27
+/opt/airflow/dags/EV_Population.py                                881  0.01s             6           0  0.18s           2023-12-11T05:52:27
+================================================================================
+[2023-12-11T05:53:28.654+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:52:58
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:52:58
+/opt/airflow/dags/create_star_schema_part_2.py                    921  0.00s             0           0  0.04s           2023-12-11T05:52:58
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:52:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:52:58
+/opt/airflow/dags/EV_Population.py                                918  0.02s             6           0  0.17s           2023-12-11T05:52:58
+================================================================================
+[2023-12-11T05:53:59.166+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:53:28
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:53:28
+/opt/airflow/dags/create_star_schema_part_2.py                    958  0.00s             0           0  0.04s           2023-12-11T05:53:28
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:53:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:53:28
+/opt/airflow/dags/EV_Population.py                                955  0.02s             6           0  0.17s           2023-12-11T05:53:28
+================================================================================
+[2023-12-11T05:54:21.559+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-11T05:54:21.591+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-12-11T05:54:29.711+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:53:59
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:53:59
+/opt/airflow/dags/create_star_schema_part_2.py                    995  0.00s             0           0  0.04s           2023-12-11T05:53:59
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-11T05:53:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:53:59
+/opt/airflow/dags/EV_Population.py                                992  0.02s             6           0  0.18s           2023-12-11T05:53:59
+================================================================================
+[2023-12-11T05:55:00.206+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-11T05:54:29
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-11T05:54:29
+/opt/airflow/dags/create_star_schema_part_2.py                   1032  0.00s             0           0  0.05s           2023-12-11T05:54:29
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-11T05:54:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-11T05:54:29
+/opt/airflow/dags/EV_Population.py                               1029  0.02s             6           0  0.18s           2023-12-11T05:54:29
+================================================================================
+[2023-12-11T05:55:25.850+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

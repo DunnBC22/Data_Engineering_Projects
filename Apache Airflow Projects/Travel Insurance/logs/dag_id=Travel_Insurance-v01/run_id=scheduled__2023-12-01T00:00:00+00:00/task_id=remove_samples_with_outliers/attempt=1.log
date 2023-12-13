@@ -1,0 +1,16 @@
+[2023-12-13T02:24:29.581+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Travel_Insurance-v01.remove_samples_with_outliers scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-13T02:24:29.585+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Travel_Insurance-v01.remove_samples_with_outliers scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-13T02:24:29.585+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-13T02:24:29.590+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): remove_samples_with_outliers> on 2023-12-01 00:00:00+00:00
+[2023-12-13T02:24:29.594+0000] {standard_task_runner.py:57} INFO - Started process 853 to run task
+[2023-12-13T02:24:29.596+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Travel_Insurance-v01', 'remove_samples_with_outliers', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/travel_insurance.py', '--cfg-path', '/tmp/tmpdu5nkp1y']
+[2023-12-13T02:24:29.597+0000] {standard_task_runner.py:85} INFO - Job 9: Subtask remove_samples_with_outliers
+[2023-12-13T02:24:29.627+0000] {task_command.py:416} INFO - Running <TaskInstance: Travel_Insurance-v01.remove_samples_with_outliers scheduled__2023-12-01T00:00:00+00:00 [running]> on host 6ed43b55b006
+[2023-12-13T02:24:29.720+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Travel_Insurance-v01' AIRFLOW_CTX_TASK_ID='remove_samples_with_outliers' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-13T02:24:29.739+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-13T02:24:29.774+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-13T02:25:29.857+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-13T02:25:29.871+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-13T02:25:29.881+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Travel_Insurance-v01, task_id=remove_samples_with_outliers, execution_date=20231201T000000, start_date=20231213T022429, end_date=20231213T022529
+[2023-12-13T02:25:29.934+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-13T02:25:29.962+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

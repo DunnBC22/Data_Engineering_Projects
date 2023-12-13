@@ -1,0 +1,46 @@
+[2023-12-11T20:53:20.998+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:53:21.008+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:53:21.009+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T20:53:21.017+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): remove_replaced_dim_cols> on 2023-12-01 00:00:00+00:00
+[2023-12-11T20:53:21.022+0000] {standard_task_runner.py:57} INFO - Started process 1400 to run task
+[2023-12-11T20:53:21.026+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Insurance_Prod_Purchase_Pred-v01', 'remove_replaced_dim_cols', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/Insurance_Product_Purchase_Pred.py', '--cfg-path', '/tmp/tmpgt96cpqv']
+[2023-12-11T20:53:21.029+0000] {standard_task_runner.py:85} INFO - Job 22: Subtask remove_replaced_dim_cols
+[2023-12-11T20:53:21.078+0000] {task_command.py:416} INFO - Running <TaskInstance: Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [running]> on host 290fb0bf7dfd
+[2023-12-11T20:53:21.144+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Insurance_Prod_Purchase_Pred-v01' AIRFLOW_CTX_TASK_ID='remove_replaced_dim_cols' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T20:53:21.148+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-11T20:53:21.158+0000] {subdag.py:174} INFO - Found existing DagRun: backfill__2023-12-01T00:00:00+00:00
+[2023-12-11T20:57:08.194+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to None. Terminating instance.
+[2023-12-11T20:57:08.198+0000] {process_utils.py:131} INFO - Sending 15 to group 1400. PIDs of all processes in the group: [1400]
+[2023-12-11T20:57:08.198+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 1400
+[2023-12-11T20:57:08.199+0000] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-12-11T20:57:08.216+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-12-11T20:57:08.221+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Insurance_Prod_Purchase_Pred-v01, task_id=remove_replaced_dim_cols, execution_date=20231201T000000, start_date=20231211T205320, end_date=20231211T205708
+[2023-12-11T20:57:08.232+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 22 for task remove_replaced_dim_cols ((psycopg2.errors.ForeignKeyViolation) insert or update on table "task_fail" violates foreign key constraint "task_fail_ti_fkey"
+DETAIL:  Key (dag_id, task_id, run_id, map_index)=(Insurance_Prod_Purchase_Pred-v01, remove_replaced_dim_cols, scheduled__2023-12-01T00:00:00+00:00, -1) is not present in table "task_instance".
+
+[SQL: INSERT INTO task_fail (task_id, dag_id, run_id, map_index, start_date, end_date, duration) VALUES (%(task_id)s, %(dag_id)s, %(run_id)s, %(map_index)s, %(start_date)s, %(end_date)s, %(duration)s) RETURNING task_fail.id]
+[parameters: {'task_id': 'remove_replaced_dim_cols', 'dag_id': 'Insurance_Prod_Purchase_Pred-v01', 'run_id': 'scheduled__2023-12-01T00:00:00+00:00', 'map_index': -1, 'start_date': datetime.datetime(2023, 12, 11, 20, 53, 20, 999185, tzinfo=Timezone('UTC')), 'end_date': datetime.datetime(2023, 12, 11, 20, 57, 8, 220014, tzinfo=Timezone('UTC')), 'duration': 227}]
+(Background on this error at: https://sqlalche.me/e/14/gkpj); 1400)
+[2023-12-11T20:57:08.252+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1400, status='terminated', exitcode=1, started='20:53:20') (1400) terminated with exit code 1
+[2023-12-11T20:57:36.669+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:57:36.673+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:57:36.673+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T20:57:36.679+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): remove_replaced_dim_cols> on 2023-12-01 00:00:00+00:00
+[2023-12-11T20:57:36.682+0000] {standard_task_runner.py:57} INFO - Started process 1738 to run task
+[2023-12-11T20:57:36.684+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Insurance_Prod_Purchase_Pred-v01', 'remove_replaced_dim_cols', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '31', '--raw', '--subdir', 'DAGS_FOLDER/Insurance_Product_Purchase_Pred.py', '--cfg-path', '/tmp/tmp1bn4r7yv']
+[2023-12-11T20:57:36.685+0000] {standard_task_runner.py:85} INFO - Job 31: Subtask remove_replaced_dim_cols
+[2023-12-11T20:57:36.715+0000] {task_command.py:416} INFO - Running <TaskInstance: Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [running]> on host 290fb0bf7dfd
+[2023-12-11T20:57:36.753+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Insurance_Prod_Purchase_Pred-v01' AIRFLOW_CTX_TASK_ID='remove_replaced_dim_cols' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T20:57:36.756+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-11T20:57:36.772+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-11T20:58:36.833+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-11T20:58:36.842+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-11T20:58:36.850+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Insurance_Prod_Purchase_Pred-v01, task_id=remove_replaced_dim_cols, execution_date=20231201T000000, start_date=20231211T205736, end_date=20231211T205836
+[2023-12-11T20:58:36.897+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T20:58:36.909+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

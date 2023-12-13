@@ -1,0 +1,635 @@
+[2023-12-11T21:53:20.327+0000] {processor.py:157} INFO - Started process (PID=3994) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:53:20.328+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:53:20.329+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:53:20.329+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:53:20.337+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:53:20.355+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.031 seconds
+[2023-12-11T21:53:50.805+0000] {processor.py:157} INFO - Started process (PID=4036) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:53:50.807+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:53:50.808+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:53:50.807+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:53:50.815+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:53:50.828+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.027 seconds
+[2023-12-11T21:55:48.926+0000] {processor.py:157} INFO - Started process (PID=196) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:55:48.927+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:55:48.928+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:55:48.927+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:55:48.936+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:55:48.949+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.026 seconds
+[2023-12-11T21:56:19.446+0000] {processor.py:157} INFO - Started process (PID=240) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:56:19.447+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:56:19.447+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:56:19.447+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:56:19.452+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:56:19.462+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.018 seconds
+[2023-12-11T21:56:50.067+0000] {processor.py:157} INFO - Started process (PID=282) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:56:50.068+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:56:50.069+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:56:50.068+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:56:50.075+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:56:50.088+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.023 seconds
+[2023-12-11T21:57:20.631+0000] {processor.py:157} INFO - Started process (PID=350) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:57:20.632+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:57:20.633+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:57:20.632+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:57:20.636+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:57:20.646+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T21:57:51.134+0000] {processor.py:157} INFO - Started process (PID=392) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:57:51.135+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:57:51.135+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:57:51.135+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:57:51.139+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:57:51.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T21:58:21.573+0000] {processor.py:157} INFO - Started process (PID=438) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:58:21.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:58:21.574+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:58:21.574+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:58:21.578+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:58:21.587+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T21:58:52.034+0000] {processor.py:157} INFO - Started process (PID=480) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:58:52.034+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:58:52.035+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:58:52.035+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:58:52.038+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:58:52.047+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T21:59:22.523+0000] {processor.py:157} INFO - Started process (PID=546) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:59:22.524+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:59:22.524+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:59:22.524+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:59:22.528+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:59:22.537+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T21:59:53.083+0000] {processor.py:157} INFO - Started process (PID=588) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:59:53.084+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T21:59:53.084+0000] {logging_mixin.py:154} INFO - [2023-12-11T21:59:53.084+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:59:53.088+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T21:59:53.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:00:23.638+0000] {processor.py:157} INFO - Started process (PID=630) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:00:23.638+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:00:23.639+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:00:23.639+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:00:23.642+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:00:23.651+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:00:54.214+0000] {processor.py:157} INFO - Started process (PID=672) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:00:54.215+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:00:54.215+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:00:54.215+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:00:54.219+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:00:54.228+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:01:24.734+0000] {processor.py:157} INFO - Started process (PID=726) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:01:24.734+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:01:24.735+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:01:24.735+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:01:24.739+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:01:24.750+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.020 seconds
+[2023-12-11T22:01:55.256+0000] {processor.py:157} INFO - Started process (PID=770) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:01:55.256+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:01:55.257+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:01:55.256+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:01:55.261+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:01:55.271+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.018 seconds
+[2023-12-11T22:02:25.787+0000] {processor.py:157} INFO - Started process (PID=812) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:02:25.788+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:02:25.788+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:02:25.788+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:02:25.792+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:02:25.801+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T22:02:56.362+0000] {processor.py:157} INFO - Started process (PID=854) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:02:56.363+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:02:56.363+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:02:56.363+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:02:56.367+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:02:56.376+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:03:26.927+0000] {processor.py:157} INFO - Started process (PID=898) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:03:26.928+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:03:26.928+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:03:26.928+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:03:26.932+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:03:26.941+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:03:57.455+0000] {processor.py:157} INFO - Started process (PID=940) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:03:57.456+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:03:57.456+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:03:57.456+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:03:57.460+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:03:57.469+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:04:27.989+0000] {processor.py:157} INFO - Started process (PID=994) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:04:27.990+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:04:27.990+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:04:27.990+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:04:27.994+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:04:28.003+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:04:58.570+0000] {processor.py:157} INFO - Started process (PID=1036) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:04:58.571+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:04:58.572+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:04:58.571+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:04:58.575+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:04:58.584+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:05:29.105+0000] {processor.py:157} INFO - Started process (PID=1090) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:05:29.105+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:05:29.106+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:05:29.106+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:05:29.109+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:05:29.119+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:05:59.626+0000] {processor.py:157} INFO - Started process (PID=1132) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:05:59.627+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:05:59.627+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:05:59.627+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:05:59.631+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:05:59.640+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.017 seconds
+[2023-12-11T22:06:30.209+0000] {processor.py:157} INFO - Started process (PID=1186) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:06:30.210+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:06:30.210+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:06:30.210+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:06:30.214+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:06:30.223+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:07:00.759+0000] {processor.py:157} INFO - Started process (PID=1228) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:07:00.760+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:07:00.760+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:07:00.760+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:07:00.764+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:07:00.773+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:07:31.371+0000] {processor.py:157} INFO - Started process (PID=1270) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:07:31.372+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:07:31.372+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:07:31.372+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:07:31.375+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:07:31.385+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:08:02.028+0000] {processor.py:157} INFO - Started process (PID=1312) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:08:02.028+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:08:02.029+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:08:02.029+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:08:02.032+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:08:02.041+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:08:32.664+0000] {processor.py:157} INFO - Started process (PID=1354) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:08:32.665+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:08:32.665+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:08:32.665+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:08:32.668+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:08:32.678+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:09:03.322+0000] {processor.py:157} INFO - Started process (PID=1396) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:09:03.322+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:09:03.323+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:09:03.323+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:09:03.326+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:09:03.336+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:09:33.999+0000] {processor.py:157} INFO - Started process (PID=1438) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:09:33.999+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:09:34.000+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:09:34.000+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:09:34.003+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:09:34.013+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:10:04.618+0000] {processor.py:157} INFO - Started process (PID=1480) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:10:04.618+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:10:04.619+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:10:04.618+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:10:04.623+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:10:04.632+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.017 seconds
+[2023-12-11T22:10:35.184+0000] {processor.py:157} INFO - Started process (PID=1522) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:10:35.185+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:10:35.186+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:10:35.185+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:10:35.189+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:10:35.198+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:11:05.895+0000] {processor.py:157} INFO - Started process (PID=1564) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:11:05.895+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:11:05.896+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:11:05.895+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:11:05.899+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:11:05.908+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:11:36.525+0000] {processor.py:157} INFO - Started process (PID=1606) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:11:36.526+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:11:36.526+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:11:36.526+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:11:36.530+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:11:36.539+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T22:12:07.183+0000] {processor.py:157} INFO - Started process (PID=1648) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:12:07.184+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:12:07.184+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:12:07.184+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:12:07.188+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:12:07.197+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:12:37.823+0000] {processor.py:157} INFO - Started process (PID=1690) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:12:37.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:12:37.824+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:12:37.824+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:12:37.828+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:12:37.837+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:13:08.499+0000] {processor.py:157} INFO - Started process (PID=1732) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:13:08.500+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:13:08.500+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:13:08.500+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:13:08.504+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:13:08.513+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:13:39.150+0000] {processor.py:157} INFO - Started process (PID=1774) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:13:39.151+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:13:39.151+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:13:39.151+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:13:39.155+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:13:39.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:14:09.789+0000] {processor.py:157} INFO - Started process (PID=1816) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:14:09.789+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:14:09.790+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:14:09.790+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:14:09.793+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:14:09.802+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:14:40.350+0000] {processor.py:157} INFO - Started process (PID=1858) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:14:40.350+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:14:40.351+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:14:40.351+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:14:40.354+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:14:40.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:15:11.074+0000] {processor.py:157} INFO - Started process (PID=1900) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:15:11.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:15:11.076+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:15:11.075+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:15:11.079+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:15:11.088+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:15:41.676+0000] {processor.py:157} INFO - Started process (PID=1942) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:15:41.676+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:15:41.677+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:15:41.677+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:15:41.680+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:15:41.690+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:16:12.362+0000] {processor.py:157} INFO - Started process (PID=1984) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:16:12.363+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:16:12.363+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:16:12.363+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:16:12.367+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:16:12.376+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T22:16:43.022+0000] {processor.py:157} INFO - Started process (PID=2026) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:16:43.023+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:16:43.023+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:16:43.023+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:16:43.027+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:16:43.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:17:13.723+0000] {processor.py:157} INFO - Started process (PID=2068) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:17:13.724+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:17:13.725+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:17:13.724+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:17:13.728+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:17:13.738+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:17:44.398+0000] {processor.py:157} INFO - Started process (PID=2110) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:17:44.399+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:17:44.399+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:17:44.399+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:17:44.403+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:17:44.412+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:18:15.058+0000] {processor.py:157} INFO - Started process (PID=2159) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:18:15.058+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:18:15.059+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:18:15.058+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:18:15.062+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:18:15.071+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:18:45.693+0000] {processor.py:157} INFO - Started process (PID=2201) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:18:45.693+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:18:45.693+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:18:45.693+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:18:45.697+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:18:45.706+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T22:19:16.300+0000] {processor.py:157} INFO - Started process (PID=2243) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:19:16.301+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:19:16.301+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:19:16.301+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:19:16.305+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:19:16.314+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:19:46.985+0000] {processor.py:157} INFO - Started process (PID=2285) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:19:46.985+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:19:46.986+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:19:46.986+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:19:46.989+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:19:46.998+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T22:20:17.626+0000] {processor.py:157} INFO - Started process (PID=2327) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:20:17.627+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:20:17.627+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:20:17.627+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:20:17.631+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:20:17.640+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:20:48.287+0000] {processor.py:157} INFO - Started process (PID=2369) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:20:48.287+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:20:48.288+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:20:48.288+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:20:48.291+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:20:48.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:21:18.972+0000] {processor.py:157} INFO - Started process (PID=2411) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:21:18.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:21:18.973+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:21:18.973+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:21:18.977+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:21:18.986+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:21:49.548+0000] {processor.py:157} INFO - Started process (PID=2453) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:21:49.548+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:21:49.549+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:21:49.549+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:21:49.552+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:21:49.562+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:22:20.228+0000] {processor.py:157} INFO - Started process (PID=2495) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:22:20.229+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:22:20.229+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:22:20.229+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:22:20.233+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:22:20.242+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:22:50.882+0000] {processor.py:157} INFO - Started process (PID=2537) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:22:50.883+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:22:50.883+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:22:50.883+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:22:50.887+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:22:50.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:23:21.549+0000] {processor.py:157} INFO - Started process (PID=2579) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:23:21.550+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:23:21.550+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:23:21.550+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:23:21.554+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:23:21.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:23:52.259+0000] {processor.py:157} INFO - Started process (PID=2621) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:23:52.259+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:23:52.260+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:23:52.260+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:23:52.263+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:23:52.272+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:24:22.923+0000] {processor.py:157} INFO - Started process (PID=2663) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:24:22.923+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:24:22.924+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:24:22.924+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:24:22.927+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:24:22.936+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T22:24:53.570+0000] {processor.py:157} INFO - Started process (PID=2705) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:24:53.571+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:24:53.571+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:24:53.571+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:24:53.575+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:24:53.584+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T22:25:24.165+0000] {processor.py:157} INFO - Started process (PID=2747) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:25:24.165+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:25:24.166+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:25:24.166+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:25:24.169+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:25:24.179+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:25:54.886+0000] {processor.py:157} INFO - Started process (PID=2789) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:25:54.887+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:25:54.887+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:25:54.887+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:25:54.891+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:25:54.900+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:26:25.551+0000] {processor.py:157} INFO - Started process (PID=2831) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:26:25.552+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:26:25.552+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:26:25.552+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:26:25.556+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:26:25.565+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:26:56.172+0000] {processor.py:157} INFO - Started process (PID=2873) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:26:56.172+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:26:56.173+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:26:56.172+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:26:56.176+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:26:56.185+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:27:26.828+0000] {processor.py:157} INFO - Started process (PID=2915) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:27:26.829+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:27:26.829+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:27:26.829+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:27:26.833+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:27:26.842+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:27:57.452+0000] {processor.py:157} INFO - Started process (PID=2957) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:27:57.453+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:27:57.453+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:27:57.453+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:27:57.457+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:27:57.466+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:28:28.098+0000] {processor.py:157} INFO - Started process (PID=2999) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:28:28.098+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:28:28.099+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:28:28.099+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:28:28.103+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:28:28.112+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:28:58.778+0000] {processor.py:157} INFO - Started process (PID=3041) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:28:58.779+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:28:58.779+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:28:58.779+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:28:58.783+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:28:58.792+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:29:29.435+0000] {processor.py:157} INFO - Started process (PID=3083) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:29:29.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:29:29.436+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:29:29.436+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:29:29.439+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:29:29.449+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:30:00.038+0000] {processor.py:157} INFO - Started process (PID=3125) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:30:00.039+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:30:00.039+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:30:00.039+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:30:00.043+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:30:00.053+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:30:30.699+0000] {processor.py:157} INFO - Started process (PID=3167) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:30:30.700+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:30:30.700+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:30:30.700+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:30:30.703+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:30:30.713+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:31:01.423+0000] {processor.py:157} INFO - Started process (PID=3209) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:31:01.423+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:31:01.424+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:31:01.424+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:31:01.427+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:31:01.437+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:31:32.032+0000] {processor.py:157} INFO - Started process (PID=3251) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:31:32.032+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:31:32.033+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:31:32.033+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:31:32.036+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:31:32.046+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:32:02.665+0000] {processor.py:157} INFO - Started process (PID=3293) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:32:02.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:32:02.666+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:32:02.666+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:32:02.670+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:32:02.679+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:32:33.332+0000] {processor.py:157} INFO - Started process (PID=3335) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:32:33.333+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:32:33.333+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:32:33.333+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:32:33.337+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:32:33.346+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:33:04.036+0000] {processor.py:157} INFO - Started process (PID=3377) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:33:04.036+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:33:04.037+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:33:04.037+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:33:04.040+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:33:04.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:33:34.587+0000] {processor.py:157} INFO - Started process (PID=3417) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:33:34.588+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:33:34.588+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:33:34.588+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:33:34.592+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:33:34.601+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:34:05.236+0000] {processor.py:157} INFO - Started process (PID=3461) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:34:05.237+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:34:05.237+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:34:05.237+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:34:05.241+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:34:05.251+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.017 seconds
+[2023-12-11T22:34:35.903+0000] {processor.py:157} INFO - Started process (PID=3503) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:34:35.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:34:35.904+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:34:35.904+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:34:35.908+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:34:35.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.017 seconds
+[2023-12-11T22:35:06.482+0000] {processor.py:157} INFO - Started process (PID=3545) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:35:06.482+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:35:06.483+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:35:06.483+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:35:06.486+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:35:06.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:35:37.175+0000] {processor.py:157} INFO - Started process (PID=3587) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:35:37.175+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:35:37.176+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:35:37.176+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:35:37.179+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:35:37.189+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:36:07.868+0000] {processor.py:157} INFO - Started process (PID=3629) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:36:07.869+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:36:07.870+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:36:07.869+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:36:07.873+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:36:07.882+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:36:38.537+0000] {processor.py:157} INFO - Started process (PID=3671) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:36:38.538+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:36:38.539+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:36:38.538+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:36:38.542+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:36:38.551+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:37:09.180+0000] {processor.py:157} INFO - Started process (PID=3713) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:37:09.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:37:09.181+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:37:09.181+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:37:09.184+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:37:09.193+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T22:37:39.840+0000] {processor.py:157} INFO - Started process (PID=3755) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:37:39.840+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:37:39.841+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:37:39.840+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:37:39.844+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:37:39.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:38:10.449+0000] {processor.py:157} INFO - Started process (PID=3797) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:38:10.449+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:38:10.450+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:38:10.449+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:38:10.453+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:38:10.462+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:38:41.081+0000] {processor.py:157} INFO - Started process (PID=3839) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:38:41.082+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:38:41.082+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:38:41.082+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:38:41.085+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:38:41.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:39:11.695+0000] {processor.py:157} INFO - Started process (PID=3881) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:39:11.696+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:39:11.696+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:39:11.696+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:39:11.700+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:39:11.709+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:39:42.340+0000] {processor.py:157} INFO - Started process (PID=3923) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:39:42.340+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:39:42.341+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:39:42.341+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:39:42.344+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:39:42.354+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:40:13.016+0000] {processor.py:157} INFO - Started process (PID=3965) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:40:13.016+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:40:13.017+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:40:13.017+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:40:13.020+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:40:13.029+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:40:43.626+0000] {processor.py:157} INFO - Started process (PID=4007) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:40:43.627+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:40:43.627+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:40:43.627+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:40:43.631+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:40:43.640+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:41:14.307+0000] {processor.py:157} INFO - Started process (PID=4049) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:41:14.308+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:41:14.309+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:41:14.308+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:41:14.312+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:41:14.321+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:41:44.970+0000] {processor.py:157} INFO - Started process (PID=4091) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:41:44.971+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:41:44.971+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:41:44.971+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:41:44.975+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:41:44.984+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:42:15.603+0000] {processor.py:157} INFO - Started process (PID=4133) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:42:15.603+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:42:15.604+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:42:15.604+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:42:15.607+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:42:15.617+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:42:46.214+0000] {processor.py:157} INFO - Started process (PID=4175) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:42:46.214+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:42:46.215+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:42:46.215+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:42:46.218+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:42:46.228+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:43:16.900+0000] {processor.py:157} INFO - Started process (PID=4217) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:43:16.901+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:43:16.902+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:43:16.901+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:43:16.905+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:43:16.914+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:43:47.492+0000] {processor.py:157} INFO - Started process (PID=4259) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:43:47.492+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:43:47.493+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:43:47.493+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:43:47.496+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:43:47.506+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:44:18.199+0000] {processor.py:157} INFO - Started process (PID=4301) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:44:18.199+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:44:18.200+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:44:18.200+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:44:18.203+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:44:18.212+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:44:48.839+0000] {processor.py:157} INFO - Started process (PID=4350) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:44:48.839+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:44:48.840+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:44:48.840+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:44:48.843+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:44:48.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:45:19.493+0000] {processor.py:157} INFO - Started process (PID=4392) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:45:19.494+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:45:19.494+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:45:19.494+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:45:19.498+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:45:19.507+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:45:50.174+0000] {processor.py:157} INFO - Started process (PID=4434) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:45:50.175+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:45:50.175+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:45:50.175+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:45:50.178+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:45:50.188+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:46:20.876+0000] {processor.py:157} INFO - Started process (PID=4476) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:46:20.877+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:46:20.877+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:46:20.877+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:46:20.881+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:46:20.890+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:46:51.493+0000] {processor.py:157} INFO - Started process (PID=4518) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:46:51.493+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:46:51.494+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:46:51.494+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:46:51.497+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:46:51.507+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:47:22.123+0000] {processor.py:157} INFO - Started process (PID=4560) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:47:22.124+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:47:22.124+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:47:22.124+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:47:22.128+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:47:22.137+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:47:52.775+0000] {processor.py:157} INFO - Started process (PID=4602) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:47:52.776+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:47:52.776+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:47:52.776+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:47:52.780+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:47:52.789+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:48:23.418+0000] {processor.py:157} INFO - Started process (PID=4644) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:48:23.419+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:48:23.419+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:48:23.419+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:48:23.423+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:48:23.432+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:48:54.056+0000] {processor.py:157} INFO - Started process (PID=4686) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:48:54.057+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:48:54.057+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:48:54.057+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:48:54.061+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:48:54.070+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:49:24.756+0000] {processor.py:157} INFO - Started process (PID=4728) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:49:24.756+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:49:24.757+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:49:24.757+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:49:24.760+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:49:24.770+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:49:55.386+0000] {processor.py:157} INFO - Started process (PID=4770) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:49:55.386+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:49:55.387+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:49:55.387+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:49:55.390+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:49:55.399+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T22:50:25.941+0000] {processor.py:157} INFO - Started process (PID=4812) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:50:25.942+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:50:25.942+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:50:25.942+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:50:25.945+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:50:25.955+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:50:56.621+0000] {processor.py:157} INFO - Started process (PID=4854) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:50:56.621+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:50:56.622+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:50:56.622+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:50:56.626+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:50:56.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:51:27.298+0000] {processor.py:157} INFO - Started process (PID=4896) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:51:27.299+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:51:27.299+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:51:27.299+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:51:27.303+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:51:27.312+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:51:57.904+0000] {processor.py:157} INFO - Started process (PID=4938) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:51:57.904+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:51:57.905+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:51:57.905+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:51:57.908+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:51:57.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:52:28.588+0000] {processor.py:157} INFO - Started process (PID=4980) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:52:28.589+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:52:28.589+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:52:28.589+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:52:28.593+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:52:28.602+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:52:59.216+0000] {processor.py:157} INFO - Started process (PID=5022) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:52:59.217+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:52:59.217+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:52:59.217+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:52:59.221+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:52:59.230+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:53:29.881+0000] {processor.py:157} INFO - Started process (PID=5064) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:53:29.881+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:53:29.882+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:53:29.882+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:53:29.885+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:53:29.894+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:54:00.504+0000] {processor.py:157} INFO - Started process (PID=5106) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:54:00.504+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:54:00.505+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:54:00.505+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:54:00.508+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:54:00.517+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:54:31.153+0000] {processor.py:157} INFO - Started process (PID=5148) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:54:31.154+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:54:31.154+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:54:31.154+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:54:31.157+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:54:31.167+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:55:01.807+0000] {processor.py:157} INFO - Started process (PID=5190) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:55:01.807+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:55:01.808+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:55:01.807+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:55:01.811+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:55:01.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:55:32.434+0000] {processor.py:157} INFO - Started process (PID=5232) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:55:32.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:55:32.435+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:55:32.435+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:55:32.439+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:55:32.448+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:56:03.112+0000] {processor.py:157} INFO - Started process (PID=5274) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:56:03.113+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:56:03.113+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:56:03.113+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:56:03.117+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:56:03.126+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:56:33.797+0000] {processor.py:157} INFO - Started process (PID=5316) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:56:33.798+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:56:33.798+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:56:33.798+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:56:33.801+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:56:33.811+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:57:04.451+0000] {processor.py:157} INFO - Started process (PID=5358) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:57:04.451+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:57:04.452+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:57:04.452+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:57:04.455+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:57:04.464+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:57:35.044+0000] {processor.py:157} INFO - Started process (PID=5400) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:57:35.045+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:57:35.045+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:57:35.045+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:57:35.049+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:57:35.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:58:05.654+0000] {processor.py:157} INFO - Started process (PID=5442) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:58:05.655+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:58:05.655+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:58:05.655+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:58:05.659+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:58:05.667+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.015 seconds
+[2023-12-11T22:58:36.339+0000] {processor.py:157} INFO - Started process (PID=5484) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:58:36.339+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:58:36.340+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:58:36.340+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:58:36.343+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:58:36.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds
+[2023-12-11T22:59:06.979+0000] {processor.py:157} INFO - Started process (PID=5526) to work on /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:59:06.980+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/create_star_schema_part_1.py for tasks to queue
+[2023-12-11T22:59:06.980+0000] {logging_mixin.py:154} INFO - [2023-12-11T22:59:06.980+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:59:06.984+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/create_star_schema_part_1.py
+[2023-12-11T22:59:06.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/create_star_schema_part_1.py took 0.016 seconds

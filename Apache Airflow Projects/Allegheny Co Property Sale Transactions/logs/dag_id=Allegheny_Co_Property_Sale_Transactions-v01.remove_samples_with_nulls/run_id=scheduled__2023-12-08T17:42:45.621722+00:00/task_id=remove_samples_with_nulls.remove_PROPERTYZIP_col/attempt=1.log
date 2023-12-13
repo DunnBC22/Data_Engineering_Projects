@@ -1,0 +1,21 @@
+[2023-12-08T17:43:50.056+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_PROPERTYZIP_col scheduled__2023-12-08T17:42:45.621722+00:00 [queued]>
+[2023-12-08T17:43:50.070+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_PROPERTYZIP_col scheduled__2023-12-08T17:42:45.621722+00:00 [queued]>
+[2023-12-08T17:43:50.071+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T17:43:50.085+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_with_nulls.remove_PROPERTYZIP_col> on 2023-12-08 17:42:45.621722+00:00
+[2023-12-08T17:43:50.089+0000] {standard_task_runner.py:57} INFO - Started process 5318 to run task
+[2023-12-08T17:43:50.092+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls', 'remove_samples_with_nulls.remove_PROPERTYZIP_col', 'scheduled__2023-12-08T17:42:45.621722+00:00', '--job-id', '64', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmp77ig7adg']
+[2023-12-08T17:43:50.097+0000] {standard_task_runner.py:85} INFO - Job 64: Subtask remove_samples_with_nulls.remove_PROPERTYZIP_col
+[2023-12-08T17:43:50.147+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_PROPERTYZIP_col scheduled__2023-12-08T17:42:45.621722+00:00 [running]> on host 1fc866509645
+[2023-12-08T17:43:50.209+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls' AIRFLOW_CTX_TASK_ID='remove_samples_with_nulls.remove_PROPERTYZIP_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-08T17:42:45.621722+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-08T17:42:45.621722+00:00'
+[2023-12-08T17:43:50.212+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE PROPERTYZIP is NULL;
+[2023-12-08T17:43:50.221+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:43:50.235+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:43:50.253+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE PROPERTYZIP is NULL;, parameters: None
+[2023-12-08T17:43:50.321+0000] {sql.py:427} INFO - Rows affected: 0
+[2023-12-08T17:43:50.331+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls, task_id=remove_samples_with_nulls.remove_PROPERTYZIP_col, execution_date=20231208T174245, start_date=20231208T174350, end_date=20231208T174350
+[2023-12-08T17:43:50.350+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T17:43:50.372+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

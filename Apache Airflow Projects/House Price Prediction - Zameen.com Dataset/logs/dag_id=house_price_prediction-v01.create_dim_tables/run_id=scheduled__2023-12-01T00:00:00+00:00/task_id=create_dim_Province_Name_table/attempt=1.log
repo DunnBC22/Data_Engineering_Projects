@@ -1,0 +1,47 @@
+[2023-12-11T19:29:28.755+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: house_price_prediction-v01.create_dim_tables.create_dim_Province_Name_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T19:29:28.768+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: house_price_prediction-v01.create_dim_tables.create_dim_Province_Name_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T19:29:28.770+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T19:29:28.785+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_dim_Province_Name_table> on 2023-12-01 00:00:00+00:00
+[2023-12-11T19:29:28.790+0000] {standard_task_runner.py:57} INFO - Started process 620 to run task
+[2023-12-11T19:29:28.798+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'house_price_prediction-v01.create_dim_tables', 'create_dim_Province_Name_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '19', '--raw', '--subdir', 'DAGS_FOLDER/House Price Prediction.py', '--cfg-path', '/tmp/tmpcbb0odxn']
+[2023-12-11T19:29:28.802+0000] {standard_task_runner.py:85} INFO - Job 19: Subtask create_dim_Province_Name_table
+[2023-12-11T19:29:28.903+0000] {task_command.py:416} INFO - Running <TaskInstance: house_price_prediction-v01.create_dim_tables.create_dim_Province_Name_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 10d408a63f6e
+[2023-12-11T19:29:29.005+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='house_price_prediction-v01.create_dim_tables' AIRFLOW_CTX_TASK_ID='create_dim_Province_Name_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T19:29:29.007+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_Province_Name AS
+SELECT DISTINCT Province_Name FROM house_price_pred_pipe;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_Province_Name;
+CREATE TABLE dimension_table_Province_Name (
+    id SERIAL PRIMARY KEY,
+    Province_Name VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_Province_Name (Province_Name)
+SELECT * FROM unique_values_Province_Name;
+[2023-12-11T19:29:29.028+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T19:29:29.054+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T19:29:29.069+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_Province_Name AS
+SELECT DISTINCT Province_Name FROM house_price_pred_pipe;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_Province_Name;
+CREATE TABLE dimension_table_Province_Name (
+    id SERIAL PRIMARY KEY,
+    Province_Name VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_Province_Name (Province_Name)
+SELECT * FROM unique_values_Province_Name;, parameters: None
+[2023-12-11T19:29:29.111+0000] {sql.py:427} INFO - Rows affected: 3
+[2023-12-11T19:29:29.136+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=house_price_prediction-v01.create_dim_tables, task_id=create_dim_Province_Name_table, execution_date=20231201T000000, start_date=20231211T192928, end_date=20231211T192929
+[2023-12-11T19:29:29.178+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T19:29:29.231+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

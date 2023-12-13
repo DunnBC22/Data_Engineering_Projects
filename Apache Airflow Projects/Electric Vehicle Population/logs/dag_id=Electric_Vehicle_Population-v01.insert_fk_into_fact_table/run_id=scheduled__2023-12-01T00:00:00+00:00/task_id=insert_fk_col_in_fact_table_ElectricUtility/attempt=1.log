@@ -1,0 +1,51 @@
+[2023-12-11T05:51:11.754+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Electric_Vehicle_Population-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_ElectricUtility scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T05:51:11.762+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Electric_Vehicle_Population-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_ElectricUtility scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T05:51:11.765+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T05:51:11.783+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_ElectricUtility> on 2023-12-01 00:00:00+00:00
+[2023-12-11T05:51:11.793+0000] {standard_task_runner.py:57} INFO - Started process 741 to run task
+[2023-12-11T05:51:11.798+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Electric_Vehicle_Population-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_ElectricUtility', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/EV_Population.py', '--cfg-path', '/tmp/tmpz2c4v9we']
+[2023-12-11T05:51:11.802+0000] {standard_task_runner.py:85} INFO - Job 32: Subtask insert_fk_col_in_fact_table_ElectricUtility
+[2023-12-11T05:51:11.879+0000] {task_command.py:416} INFO - Running <TaskInstance: Electric_Vehicle_Population-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_ElectricUtility scheduled__2023-12-01T00:00:00+00:00 [running]> on host c7d0b77d8cb9
+[2023-12-11T05:51:11.983+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Electric_Vehicle_Population-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_ElectricUtility' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T05:51:11.984+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE ev_pop_pipe
+ADD COLUMN ElectricUtility_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE ev_pop_pipe
+SET ElectricUtility_id = dimension_table_ElectricUtility.id
+FROM dimension_table_ElectricUtility
+WHERE COALESCE(ev_pop_pipe.ElectricUtility::text, '') = COALESCE(dimension_table_ElectricUtility.ElectricUtility::text, '');
+[2023-12-11T05:51:11.999+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T05:51:12.010+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T05:51:12.025+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE ev_pop_pipe
+ADD COLUMN ElectricUtility_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE ev_pop_pipe
+SET ElectricUtility_id = dimension_table_ElectricUtility.id
+FROM dimension_table_ElectricUtility
+WHERE COALESCE(ev_pop_pipe.ElectricUtility::text, '') = COALESCE(dimension_table_ElectricUtility.ElectricUtility::text, '');, parameters: None
+[2023-12-11T05:51:13.991+0000] {sql.py:427} INFO - Rows affected: 150137
+[2023-12-11T05:51:14.015+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Electric_Vehicle_Population-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_ElectricUtility, execution_date=20231201T000000, start_date=20231211T055111, end_date=20231211T055114
+[2023-12-11T05:51:14.056+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T05:51:14.077+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

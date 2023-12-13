@@ -1,0 +1,43 @@
+[2023-12-11T21:57:59.428+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NY_Motor_Vehicle_Collisions-v01.generate_date_parts.generate-date-parts-of-CRASH_DATE scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T21:57:59.432+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NY_Motor_Vehicle_Collisions-v01.generate_date_parts.generate-date-parts-of-CRASH_DATE scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T21:57:59.433+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T21:57:59.439+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): generate-date-parts-of-CRASH_DATE> on 2023-12-01 00:00:00+00:00
+[2023-12-11T21:57:59.442+0000] {standard_task_runner.py:57} INFO - Started process 400 to run task
+[2023-12-11T21:57:59.444+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NY_Motor_Vehicle_Collisions-v01.generate_date_parts', 'generate-date-parts-of-CRASH_DATE', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/NY_Motor_Vehicle_Collisions.py', '--cfg-path', '/tmp/tmpol9k7t6j']
+[2023-12-11T21:57:59.445+0000] {standard_task_runner.py:85} INFO - Job 17: Subtask generate-date-parts-of-CRASH_DATE
+[2023-12-11T21:57:59.478+0000] {task_command.py:416} INFO - Running <TaskInstance: NY_Motor_Vehicle_Collisions-v01.generate_date_parts.generate-date-parts-of-CRASH_DATE scheduled__2023-12-01T00:00:00+00:00 [running]> on host bebedc023197
+[2023-12-11T21:57:59.518+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='NY_Motor_Vehicle_Collisions-v01.generate_date_parts' AIRFLOW_CTX_TASK_ID='generate-date-parts-of-CRASH_DATE' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T21:57:59.519+0000] {sql.py:274} INFO - Executing: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE ny_vehicle_colls_pipe
+ADD COLUMN IF NOT EXISTS CRASH_DATE_month INTEGER, 
+ADD COLUMN IF NOT EXISTS CRASH_DATE_year INTEGER, 
+ADD COLUMN IF NOT EXISTS CRASH_DATE_day_of_month INTEGER;
+
+-- fill columns with their proper values
+UPDATE ny_vehicle_colls_pipe
+SET 
+    CRASH_DATE_month = EXTRACT(MONTH FROM CRASH_DATE),
+    CRASH_DATE_year = EXTRACT(YEAR FROM CRASH_DATE),
+    CRASH_DATE_day_of_month = EXTRACT(DAY FROM CRASH_DATE);
+[2023-12-11T21:57:59.524+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T21:57:59.530+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T21:57:59.541+0000] {sql.py:418} INFO - Running statement: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE ny_vehicle_colls_pipe
+ADD COLUMN IF NOT EXISTS CRASH_DATE_month INTEGER, 
+ADD COLUMN IF NOT EXISTS CRASH_DATE_year INTEGER, 
+ADD COLUMN IF NOT EXISTS CRASH_DATE_day_of_month INTEGER;
+
+-- fill columns with their proper values
+UPDATE ny_vehicle_colls_pipe
+SET 
+    CRASH_DATE_month = EXTRACT(MONTH FROM CRASH_DATE),
+    CRASH_DATE_year = EXTRACT(YEAR FROM CRASH_DATE),
+    CRASH_DATE_day_of_month = EXTRACT(DAY FROM CRASH_DATE);, parameters: None
+[2023-12-11T21:58:12.867+0000] {sql.py:427} INFO - Rows affected: 2034019
+[2023-12-11T21:58:12.897+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=NY_Motor_Vehicle_Collisions-v01.generate_date_parts, task_id=generate-date-parts-of-CRASH_DATE, execution_date=20231201T000000, start_date=20231211T215759, end_date=20231211T215812
+[2023-12-11T21:58:12.950+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T21:58:12.981+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

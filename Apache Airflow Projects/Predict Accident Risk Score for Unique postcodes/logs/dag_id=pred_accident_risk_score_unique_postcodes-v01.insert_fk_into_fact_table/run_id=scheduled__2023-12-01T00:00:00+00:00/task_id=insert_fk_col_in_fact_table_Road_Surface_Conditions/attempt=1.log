@@ -1,0 +1,51 @@
+[2023-12-12T19:36:06.122+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: pred_accident_risk_score_unique_postcodes-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Road_Surface_Conditions scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T19:36:06.137+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: pred_accident_risk_score_unique_postcodes-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Road_Surface_Conditions scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T19:36:06.140+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-12T19:36:06.159+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_Road_Surface_Conditions> on 2023-12-01 00:00:00+00:00
+[2023-12-12T19:36:06.170+0000] {standard_task_runner.py:57} INFO - Started process 562 to run task
+[2023-12-12T19:36:06.176+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'pred_accident_risk_score_unique_postcodes-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_Road_Surface_Conditions', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '32', '--raw', '--subdir', 'DAGS_FOLDER/Predict_Accident_Risk_Score_For_Unique_Postcodes.py', '--cfg-path', '/tmp/tmpw6y5du48']
+[2023-12-12T19:36:06.185+0000] {standard_task_runner.py:85} INFO - Job 32: Subtask insert_fk_col_in_fact_table_Road_Surface_Conditions
+[2023-12-12T19:36:06.263+0000] {task_command.py:416} INFO - Running <TaskInstance: pred_accident_risk_score_unique_postcodes-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Road_Surface_Conditions scheduled__2023-12-01T00:00:00+00:00 [running]> on host 79e6b838224c
+[2023-12-12T19:36:06.379+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='pred_accident_risk_score_unique_postcodes-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_Road_Surface_Conditions' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-12T19:36:06.386+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE predict_accident_risk_pipe
+ADD COLUMN Road_Surface_Conditions_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE predict_accident_risk_pipe
+SET Road_Surface_Conditions_id = dimension_table_Road_Surface_Conditions.id
+FROM dimension_table_Road_Surface_Conditions
+WHERE COALESCE(predict_accident_risk_pipe.Road_Surface_Conditions::text, '') = COALESCE(dimension_table_Road_Surface_Conditions.Road_Surface_Conditions::text, '');
+[2023-12-12T19:36:06.404+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T19:36:06.420+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T19:36:06.430+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE predict_accident_risk_pipe
+ADD COLUMN Road_Surface_Conditions_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE predict_accident_risk_pipe
+SET Road_Surface_Conditions_id = dimension_table_Road_Surface_Conditions.id
+FROM dimension_table_Road_Surface_Conditions
+WHERE COALESCE(predict_accident_risk_pipe.Road_Surface_Conditions::text, '') = COALESCE(dimension_table_Road_Surface_Conditions.Road_Surface_Conditions::text, '');, parameters: None
+[2023-12-12T19:36:17.529+0000] {sql.py:427} INFO - Rows affected: 478212
+[2023-12-12T19:36:17.556+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=pred_accident_risk_score_unique_postcodes-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_Road_Surface_Conditions, execution_date=20231201T000000, start_date=20231212T193606, end_date=20231212T193617
+[2023-12-12T19:36:17.573+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T19:36:17.591+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

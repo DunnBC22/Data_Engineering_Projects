@@ -1,0 +1,136 @@
+[2023-12-08T17:19:42.919+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_MUNIDESC scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:19:42.929+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_MUNIDESC scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:19:42.930+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T17:19:42.943+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_MUNIDESC> on 2023-12-01 00:00:00+00:00
+[2023-12-08T17:19:42.947+0000] {standard_task_runner.py:57} INFO - Started process 3286 to run task
+[2023-12-08T17:19:42.951+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_MUNIDESC', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmphen48z4o']
+[2023-12-08T17:19:42.954+0000] {standard_task_runner.py:85} INFO - Job 43: Subtask insert_fk_col_in_fact_table_MUNIDESC
+[2023-12-08T17:19:43.037+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_MUNIDESC scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T17:19:43.152+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_MUNIDESC' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T17:19:43.156+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN MUNIDESC_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE allegheny_co_property_sale_transactions
+SET MUNIDESC_id = dimension_table_MUNIDESC.id
+FROM dimension_table_MUNIDESC
+WHERE COALESCE(allegheny_co_property_sale_transactions.MUNIDESC::text, '') = COALESCE(dimension_table_MUNIDESC.MUNIDESC::text, '');
+
+
+/*
+-- this could be the template code for step 4 above to manage columns with both integer & varchar dtypes
+UPDATE your_table
+SET your_column =
+  CASE
+    WHEN pg_attribute.attnum > 0 AND pg_attribute.atttypid = 'integer'::regtype THEN your_column::integer + 1
+    WHEN pg_attribute.attnum > 0 AND pg_attribute.atttypid = 'character varying'::regtype THEN your_column || '_updated'
+    ELSE your_column
+  END
+FROM pg_attribute
+WHERE
+  pg_attribute.attname = 'your_column'
+  AND pg_attribute.attrelid = 'your_table'::regclass;
+
+*/
+[2023-12-08T17:19:43.170+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:19:43.191+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:19:43.218+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN MUNIDESC_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE allegheny_co_property_sale_transactions
+SET MUNIDESC_id = dimension_table_MUNIDESC.id
+FROM dimension_table_MUNIDESC
+WHERE COALESCE(allegheny_co_property_sale_transactions.MUNIDESC::text, '') = COALESCE(dimension_table_MUNIDESC.MUNIDESC::text, '');
+
+
+/*
+-- this could be the template code for step 4 above to manage columns with both integer & varchar dtypes
+UPDATE your_table
+SET your_column =
+  CASE
+    WHEN pg_attribute.attnum > 0 AND pg_attribute.atttypid = 'integer'::regtype THEN your_column::integer + 1
+    WHEN pg_attribute.attnum > 0 AND pg_attribute.atttypid = 'character varying'::regtype THEN your_column || '_updated'
+    ELSE your_column
+  END
+FROM pg_attribute
+WHERE
+  pg_attribute.attname = 'your_column'
+  AND pg_attribute.attrelid = 'your_table'::regclass;
+
+*/, parameters: None
+[2023-12-08T17:19:44.393+0000] {sql.py:427} INFO - Rows affected: 303837
+[2023-12-08T17:19:44.419+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_MUNIDESC, execution_date=20231201T000000, start_date=20231208T171942, end_date=20231208T171944
+[2023-12-08T17:19:44.447+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T17:19:44.462+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-08T18:07:05.968+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_MUNIDESC scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:07:05.985+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_MUNIDESC scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:07:05.985+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T18:07:05.997+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_MUNIDESC> on 2023-12-01 00:00:00+00:00
+[2023-12-08T18:07:05.999+0000] {standard_task_runner.py:57} INFO - Started process 7331 to run task
+[2023-12-08T18:07:06.002+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_MUNIDESC', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '116', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpn6m2da63']
+[2023-12-08T18:07:06.009+0000] {standard_task_runner.py:85} INFO - Job 116: Subtask insert_fk_col_in_fact_table_MUNIDESC
+[2023-12-08T18:07:06.090+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_MUNIDESC scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T18:07:06.198+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_MUNIDESC' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T18:07:06.200+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN MUNIDESC_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE allegheny_co_property_sale_transactions
+SET MUNIDESC_id = dimension_table_MUNIDESC.id
+FROM dimension_table_MUNIDESC
+WHERE COALESCE(allegheny_co_property_sale_transactions.MUNIDESC::text, '') = COALESCE(dimension_table_MUNIDESC.MUNIDESC::text, '');
+[2023-12-08T18:07:06.218+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:07:06.232+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:07:06.241+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN MUNIDESC_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE allegheny_co_property_sale_transactions
+SET MUNIDESC_id = dimension_table_MUNIDESC.id
+FROM dimension_table_MUNIDESC
+WHERE COALESCE(allegheny_co_property_sale_transactions.MUNIDESC::text, '') = COALESCE(dimension_table_MUNIDESC.MUNIDESC::text, '');, parameters: None
+[2023-12-08T18:07:17.351+0000] {sql.py:427} INFO - Rows affected: 303837
+[2023-12-08T18:07:17.377+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_MUNIDESC, execution_date=20231201T000000, start_date=20231208T180705, end_date=20231208T180717
+[2023-12-08T18:07:17.401+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T18:07:17.419+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

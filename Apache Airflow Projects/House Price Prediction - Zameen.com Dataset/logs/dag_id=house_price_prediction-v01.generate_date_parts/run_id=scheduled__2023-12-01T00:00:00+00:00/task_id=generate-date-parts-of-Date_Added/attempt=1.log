@@ -1,0 +1,43 @@
+[2023-12-11T19:28:26.403+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: house_price_prediction-v01.generate_date_parts.generate-date-parts-of-Date_Added scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T19:28:26.407+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: house_price_prediction-v01.generate_date_parts.generate-date-parts-of-Date_Added scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T19:28:26.407+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T19:28:26.413+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): generate-date-parts-of-Date_Added> on 2023-12-01 00:00:00+00:00
+[2023-12-11T19:28:26.415+0000] {standard_task_runner.py:57} INFO - Started process 512 to run task
+[2023-12-11T19:28:26.417+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'house_price_prediction-v01.generate_date_parts', 'generate-date-parts-of-Date_Added', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/House Price Prediction.py', '--cfg-path', '/tmp/tmpboocxtxd']
+[2023-12-11T19:28:26.419+0000] {standard_task_runner.py:85} INFO - Job 15: Subtask generate-date-parts-of-Date_Added
+[2023-12-11T19:28:26.450+0000] {task_command.py:416} INFO - Running <TaskInstance: house_price_prediction-v01.generate_date_parts.generate-date-parts-of-Date_Added scheduled__2023-12-01T00:00:00+00:00 [running]> on host 10d408a63f6e
+[2023-12-11T19:28:26.490+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='house_price_prediction-v01.generate_date_parts' AIRFLOW_CTX_TASK_ID='generate-date-parts-of-Date_Added' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T19:28:26.491+0000] {sql.py:274} INFO - Executing: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE house_price_pred_pipe
+ADD COLUMN IF NOT EXISTS Date_Added_month INTEGER, 
+ADD COLUMN IF NOT EXISTS Date_Added_year INTEGER, 
+ADD COLUMN IF NOT EXISTS Date_Added_day_of_month INTEGER;
+
+-- fill columns with their proper values
+UPDATE house_price_pred_pipe
+SET 
+    Date_Added_month = EXTRACT(MONTH FROM Date_Added),
+    Date_Added_year = EXTRACT(YEAR FROM Date_Added),
+    Date_Added_day_of_month = EXTRACT(DAY FROM Date_Added);
+[2023-12-11T19:28:26.497+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T19:28:26.502+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T19:28:26.507+0000] {sql.py:418} INFO - Running statement: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE house_price_pred_pipe
+ADD COLUMN IF NOT EXISTS Date_Added_month INTEGER, 
+ADD COLUMN IF NOT EXISTS Date_Added_year INTEGER, 
+ADD COLUMN IF NOT EXISTS Date_Added_day_of_month INTEGER;
+
+-- fill columns with their proper values
+UPDATE house_price_pred_pipe
+SET 
+    Date_Added_month = EXTRACT(MONTH FROM Date_Added),
+    Date_Added_year = EXTRACT(YEAR FROM Date_Added),
+    Date_Added_day_of_month = EXTRACT(DAY FROM Date_Added);, parameters: None
+[2023-12-11T19:28:27.130+0000] {sql.py:427} INFO - Rows affected: 162004
+[2023-12-11T19:28:27.157+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=house_price_prediction-v01.generate_date_parts, task_id=generate-date-parts-of-Date_Added, execution_date=20231201T000000, start_date=20231211T192826, end_date=20231211T192827
+[2023-12-11T19:28:27.202+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T19:28:27.234+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

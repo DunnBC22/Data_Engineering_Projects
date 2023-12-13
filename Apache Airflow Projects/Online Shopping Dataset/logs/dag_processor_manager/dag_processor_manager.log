@@ -1,0 +1,288 @@
+[2023-12-12T00:07:51.971+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-12T00:07:51.971+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-12T00:07:51.972+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-12T00:07:51.972+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-12T00:07:51.980+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-12T00:07:52.064+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/Online_Shopping_Dataset.py                      167  0.03s             0           0
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              170  0.02s             0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0
+================================================================================
+[2023-12-12T00:08:22.317+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    213  0.01s             0           0  0.03s           2023-12-12T00:07:52
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:07:52
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:07:52
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:07:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              210  0.02s             0           0  0.04s           2023-12-12T00:07:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:07:52
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.95s           2023-12-12T00:07:52
+================================================================================
+[2023-12-12T00:08:52.815+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    256  0.01s             0           0  0.05s           2023-12-12T00:08:22
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:08:22
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:08:22
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:08:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              253  0.02s             0           0  0.06s           2023-12-12T00:08:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-12T00:08:22
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.38s           2023-12-12T00:08:23
+================================================================================
+[2023-12-12T00:09:23.309+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    302  0.01s             0           0  0.05s           2023-12-12T00:08:52
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:08:52
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:08:52
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:08:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              299  0.02s             0           0  0.06s           2023-12-12T00:08:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-12T00:08:52
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.39s           2023-12-12T00:08:54
+================================================================================
+[2023-12-12T00:09:53.861+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    345  0.01s             0           0  0.05s           2023-12-12T00:09:23
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:09:23
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:09:23
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:09:23
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              342  0.02s             0           0  0.06s           2023-12-12T00:09:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-12T00:09:23
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.38s           2023-12-12T00:09:24
+================================================================================
+[2023-12-12T00:10:24.263+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    388  0.00s             0           0  0.05s           2023-12-12T00:09:53
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:09:53
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:09:53
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:09:53
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              385  0.02s             0           0  0.06s           2023-12-12T00:09:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:09:53
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.39s           2023-12-12T00:09:55
+================================================================================
+[2023-12-12T00:10:54.722+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    431  0.00s             0           0  0.05s           2023-12-12T00:10:24
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:10:24
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:10:24
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:10:24
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              428  0.02s             0           0  0.06s           2023-12-12T00:10:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:10:24
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.48s           2023-12-12T00:10:25
+================================================================================
+[2023-12-12T00:11:25.147+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    486  0.01s             0           0  0.05s           2023-12-12T00:10:54
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:10:54
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:10:54
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:10:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              483  0.02s             0           0  0.06s           2023-12-12T00:10:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:10:54
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.42s           2023-12-12T00:10:56
+================================================================================
+[2023-12-12T00:11:55.604+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    529  0.01s             0           0  0.05s           2023-12-12T00:11:25
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:11:25
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:11:25
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:11:25
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              526  0.02s             0           0  0.06s           2023-12-12T00:11:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:11:25
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.42s           2023-12-12T00:11:26
+================================================================================
+[2023-12-12T00:12:25.923+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    581  0.00s             0           0  0.05s           2023-12-12T00:11:55
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:11:55
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:11:55
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:11:55
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              578  0.01s             0           0  0.06s           2023-12-12T00:11:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-12T00:11:55
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.37s           2023-12-12T00:11:57
+================================================================================
+[2023-12-12T00:12:52.286+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-12T00:12:52.311+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-12T00:12:56.382+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    624  0.00s             0           0  0.03s           2023-12-12T00:12:25
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:12:25
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:12:26
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:12:26
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              621  0.02s             0           0  0.03s           2023-12-12T00:12:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:12:26
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.39s           2023-12-12T00:12:28
+================================================================================
+[2023-12-12T00:13:26.827+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    720  0.00s             0           0  0.05s           2023-12-12T00:12:56
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:12:56
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:12:56
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:12:56
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              717  0.02s             0           0  0.06s           2023-12-12T00:12:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:12:56
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.61s           2023-12-12T00:12:59
+================================================================================
+[2023-12-12T00:13:57.229+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    763  0.00s             0           0  0.04s           2023-12-12T00:13:26
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:13:26
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-12T00:13:26
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:13:26
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              760  0.02s             0           0  0.07s           2023-12-12T00:13:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:13:26
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.45s           2023-12-12T00:13:30
+================================================================================
+[2023-12-12T00:14:27.581+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    833  0.01s             0           0  0.05s           2023-12-12T00:13:57
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:13:57
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:13:57
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:13:57
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              830  0.02s             0           0  0.06s           2023-12-12T00:13:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:13:57
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.42s           2023-12-12T00:14:01
+================================================================================
+[2023-12-12T00:14:57.978+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    876  0.00s             0           0  0.06s           2023-12-12T00:14:27
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:14:27
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:14:27
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:14:27
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              873  0.02s             0           0  0.06s           2023-12-12T00:14:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:14:27
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.41s           2023-12-12T00:14:33
+================================================================================
+[2023-12-12T00:15:28.361+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    946  0.01s             0           0  0.04s           2023-12-12T00:14:58
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:14:58
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:14:58
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:14:58
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              943  0.01s             0           0  0.05s           2023-12-12T00:14:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:14:58
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.41s           2023-12-12T00:15:03
+================================================================================
+[2023-12-12T00:15:58.760+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    989  0.00s             0           0  0.05s           2023-12-12T00:15:28
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:15:28
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:15:28
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:15:28
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              986  0.01s             0           0  0.06s           2023-12-12T00:15:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:15:28
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.40s           2023-12-12T00:15:34
+================================================================================
+[2023-12-12T00:16:29.197+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1059  0.00s             0           0  0.04s           2023-12-12T00:15:58
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:15:58
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:15:58
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:15:58
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1056  0.01s             0           0  0.05s           2023-12-12T00:15:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:15:58
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.41s           2023-12-12T00:16:05
+================================================================================
+[2023-12-12T00:16:59.666+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1102  0.00s             0           0  0.03s           2023-12-12T00:16:29
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:16:29
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-12T00:16:29
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:16:29
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1099  0.01s             0           0  0.04s           2023-12-12T00:16:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-12T00:16:29
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.42s           2023-12-12T00:16:35
+================================================================================
+[2023-12-12T00:17:30.146+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1145  0.01s             0           0  0.05s           2023-12-12T00:16:59
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-12T00:16:59
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-12T00:16:59
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-12T00:16:59
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1142  0.02s             0           0  0.06s           2023-12-12T00:16:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-12T00:16:59
+/opt/airflow/dags/Online_Shopping_Dataset.py                                             7           0  0.42s           2023-12-12T00:17:06
+================================================================================
+[2023-12-12T00:17:41.151+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

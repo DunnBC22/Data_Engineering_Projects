@@ -1,0 +1,46 @@
+[2023-12-11T20:48:08.097+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.isolate_hour_of_day scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:48:08.101+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.isolate_hour_of_day scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:48:08.101+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 6
+[2023-12-11T20:48:08.107+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): isolate_hour_of_day> on 2023-12-01 00:00:00+00:00
+[2023-12-11T20:48:08.110+0000] {standard_task_runner.py:57} INFO - Started process 958 to run task
+[2023-12-11T20:48:08.112+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Insurance_Prod_Purchase_Pred-v01', 'isolate_hour_of_day', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/Insurance_Product_Purchase_Pred.py', '--cfg-path', '/tmp/tmpmbpy7eao']
+[2023-12-11T20:48:08.113+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask isolate_hour_of_day
+[2023-12-11T20:48:08.144+0000] {task_command.py:416} INFO - Running <TaskInstance: Insurance_Prod_Purchase_Pred-v01.isolate_hour_of_day scheduled__2023-12-01T00:00:00+00:00 [running]> on host 290fb0bf7dfd
+[2023-12-11T20:48:08.184+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Insurance_Prod_Purchase_Pred-v01' AIRFLOW_CTX_TASK_ID='isolate_hour_of_day' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T20:48:08.185+0000] {sql.py:274} INFO - Executing: -- params: table_name, col_name, hour_of_day_col_name
+
+-- Add column
+ALTER TABLE insurance_prod_pur_pred
+ADD COLUMN IF NOT EXISTS hour_of_day INTEGER;
+
+-- fill column with their proper value
+UPDATE insurance_prod_pur_pred
+SET 
+    hour_of_day = EXTRACT(MONTH FROM time_of_day);
+[2023-12-11T20:48:08.190+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T20:48:08.195+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T20:48:08.200+0000] {sql.py:418} INFO - Running statement: -- params: table_name, col_name, hour_of_day_col_name
+
+-- Add column
+ALTER TABLE insurance_prod_pur_pred
+ADD COLUMN IF NOT EXISTS hour_of_day INTEGER;
+
+-- fill column with their proper value
+UPDATE insurance_prod_pur_pred
+SET 
+    hour_of_day = EXTRACT(MONTH FROM time_of_day);, parameters: None
+[2023-12-11T20:48:08.206+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.InvalidParameterValue: "time" units "month" not recognized
+
+[2023-12-11T20:48:08.212+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Insurance_Prod_Purchase_Pred-v01, task_id=isolate_hour_of_day, execution_date=20231201T000000, start_date=20231211T204808, end_date=20231211T204808
+[2023-12-11T20:48:08.216+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 8 for task isolate_hour_of_day ("time" units "month" not recognized
+; 958)
+[2023-12-11T20:48:08.256+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-11T20:48:08.273+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

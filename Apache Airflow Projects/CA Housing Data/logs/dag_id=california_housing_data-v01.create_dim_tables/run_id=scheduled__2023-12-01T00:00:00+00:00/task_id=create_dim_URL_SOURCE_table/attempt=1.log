@@ -1,0 +1,47 @@
+[2023-12-09T19:41:27.896+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: california_housing_data-v01.create_dim_tables.create_dim_URL_SOURCE_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-09T19:41:27.902+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: california_housing_data-v01.create_dim_tables.create_dim_URL_SOURCE_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-09T19:41:27.903+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-09T19:41:27.911+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_dim_URL_SOURCE_table> on 2023-12-01 00:00:00+00:00
+[2023-12-09T19:41:27.918+0000] {standard_task_runner.py:57} INFO - Started process 759 to run task
+[2023-12-09T19:41:27.925+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'california_housing_data-v01.create_dim_tables', 'create_dim_URL_SOURCE_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/ca_housing_data.py', '--cfg-path', '/tmp/tmpj0mtrn42']
+[2023-12-09T19:41:27.928+0000] {standard_task_runner.py:85} INFO - Job 40: Subtask create_dim_URL_SOURCE_table
+[2023-12-09T19:41:28.018+0000] {task_command.py:416} INFO - Running <TaskInstance: california_housing_data-v01.create_dim_tables.create_dim_URL_SOURCE_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host d5ea29713edc
+[2023-12-09T19:41:28.100+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='california_housing_data-v01.create_dim_tables' AIRFLOW_CTX_TASK_ID='create_dim_URL_SOURCE_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-09T19:41:28.101+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_URL_SOURCE AS
+SELECT DISTINCT URL_SOURCE FROM pipeline_ca_housing;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_URL_SOURCE;
+CREATE TABLE dimension_table_URL_SOURCE (
+    id SERIAL PRIMARY KEY,
+    URL_SOURCE VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_URL_SOURCE (URL_SOURCE)
+SELECT * FROM unique_values_URL_SOURCE;
+[2023-12-09T19:41:28.111+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-09T19:41:28.122+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-09T19:41:28.133+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_URL_SOURCE AS
+SELECT DISTINCT URL_SOURCE FROM pipeline_ca_housing;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_URL_SOURCE;
+CREATE TABLE dimension_table_URL_SOURCE (
+    id SERIAL PRIMARY KEY,
+    URL_SOURCE VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_URL_SOURCE (URL_SOURCE)
+SELECT * FROM unique_values_URL_SOURCE;, parameters: None
+[2023-12-09T19:41:28.147+0000] {sql.py:427} INFO - Rows affected: 25
+[2023-12-09T19:41:28.160+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=california_housing_data-v01.create_dim_tables, task_id=create_dim_URL_SOURCE_table, execution_date=20231201T000000, start_date=20231209T194127, end_date=20231209T194128
+[2023-12-09T19:41:28.177+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-09T19:41:28.232+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,145 @@
+[2023-12-10T01:33:48.777+0000] {processor.py:157} INFO - Started process (PID=187) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:33:48.777+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:33:48.778+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:33:48.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:33:48.782+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:33:48.794+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.020 seconds
+[2023-12-10T01:34:19.848+0000] {processor.py:157} INFO - Started process (PID=220) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:34:19.853+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:34:19.855+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:34:19.855+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:34:19.877+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:34:19.894+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.049 seconds
+[2023-12-10T01:34:50.276+0000] {processor.py:157} INFO - Started process (PID=252) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:34:50.278+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:34:50.281+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:34:50.280+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:34:50.285+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:34:50.295+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.022 seconds
+[2023-12-10T01:35:20.580+0000] {processor.py:157} INFO - Started process (PID=283) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:35:20.581+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:35:20.582+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:35:20.582+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:35:20.589+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:35:20.601+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.023 seconds
+[2023-12-10T01:35:51.035+0000] {processor.py:157} INFO - Started process (PID=321) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:35:51.035+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:35:51.036+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:35:51.035+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:35:51.039+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:35:51.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.016 seconds
+[2023-12-10T01:36:21.581+0000] {processor.py:157} INFO - Started process (PID=358) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:36:21.581+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:36:21.582+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:36:21.582+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:36:21.585+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:36:21.595+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.016 seconds
+[2023-12-10T01:36:52.036+0000] {processor.py:157} INFO - Started process (PID=390) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:36:52.037+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:36:52.037+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:36:52.037+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:36:52.042+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:36:52.052+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.018 seconds
+[2023-12-10T01:37:22.400+0000] {processor.py:157} INFO - Started process (PID=422) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:37:22.401+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:37:22.401+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:37:22.401+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:37:22.404+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:37:22.414+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.016 seconds
+[2023-12-10T01:37:52.836+0000] {processor.py:157} INFO - Started process (PID=459) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:37:52.837+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:37:52.837+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:37:52.837+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:37:52.840+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:37:52.850+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.015 seconds
+[2023-12-10T01:38:17.148+0000] {processor.py:157} INFO - Started process (PID=471) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:38:17.150+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:38:17.151+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:38:17.151+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:38:17.162+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:38:17.180+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.037 seconds
+[2023-12-10T01:38:20.230+0000] {processor.py:157} INFO - Started process (PID=479) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:38:20.231+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:38:20.232+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:38:20.232+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:38:20.236+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:38:20.248+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.020 seconds
+[2023-12-10T01:38:50.760+0000] {processor.py:157} INFO - Started process (PID=513) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:38:50.761+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:38:50.763+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:38:50.762+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:38:50.770+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:38:50.787+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.032 seconds
+[2023-12-10T01:39:21.234+0000] {processor.py:157} INFO - Started process (PID=545) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:39:21.235+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:39:21.236+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:39:21.236+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:39:21.243+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:39:21.260+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.032 seconds
+[2023-12-10T01:39:51.577+0000] {processor.py:157} INFO - Started process (PID=581) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:39:51.578+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:39:51.580+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:39:51.580+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:39:51.586+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:39:51.599+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.026 seconds
+[2023-12-10T01:40:21.920+0000] {processor.py:157} INFO - Started process (PID=612) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:40:21.920+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:40:21.921+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:40:21.921+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:40:21.924+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:40:21.934+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.018 seconds
+[2023-12-10T01:40:52.343+0000] {processor.py:157} INFO - Started process (PID=646) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:40:52.345+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:40:52.346+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:40:52.346+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:40:52.353+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:40:52.368+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.030 seconds
+[2023-12-10T01:41:22.845+0000] {processor.py:157} INFO - Started process (PID=678) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:41:22.846+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:41:22.847+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:41:22.847+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:41:22.854+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:41:22.870+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.031 seconds
+[2023-12-10T01:41:53.252+0000] {processor.py:157} INFO - Started process (PID=712) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:41:53.254+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:41:53.256+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:41:53.255+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:41:53.263+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:41:53.281+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.036 seconds
+[2023-12-10T01:42:23.654+0000] {processor.py:157} INFO - Started process (PID=744) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:42:23.655+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:42:23.655+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:42:23.655+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:42:23.659+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:42:23.668+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.016 seconds
+[2023-12-10T01:42:54.068+0000] {processor.py:157} INFO - Started process (PID=778) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:42:54.070+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:42:54.071+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:42:54.070+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:42:54.078+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:42:54.093+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.029 seconds
+[2023-12-10T01:43:24.476+0000] {processor.py:157} INFO - Started process (PID=810) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:43:24.477+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:43:24.478+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:43:24.478+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:43:24.486+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:43:24.502+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.032 seconds
+[2023-12-10T01:43:54.896+0000] {processor.py:157} INFO - Started process (PID=842) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:43:54.897+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:43:54.899+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:43:54.898+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:43:54.906+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:43:54.924+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.033 seconds
+[2023-12-10T01:44:25.287+0000] {processor.py:157} INFO - Started process (PID=874) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:44:25.288+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:44:25.289+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:44:25.289+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:44:25.294+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:44:25.306+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.025 seconds
+[2023-12-10T01:44:55.667+0000] {processor.py:157} INFO - Started process (PID=906) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:44:55.669+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:44:55.670+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:44:55.669+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:44:55.676+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:44:55.691+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.028 seconds
+[2023-12-10T01:45:26.108+0000] {processor.py:157} INFO - Started process (PID=938) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:45:26.109+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:45:26.110+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:45:26.110+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:45:26.117+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:45:26.134+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.032 seconds
+[2023-12-10T01:45:56.537+0000] {processor.py:157} INFO - Started process (PID=970) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:45:56.538+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:45:56.540+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:45:56.539+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:45:56.547+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:45:56.565+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.036 seconds
+[2023-12-10T01:46:27.010+0000] {processor.py:157} INFO - Started process (PID=1002) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:46:27.011+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:46:27.012+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:46:27.012+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:46:27.020+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:46:27.037+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.033 seconds
+[2023-12-10T01:46:57.481+0000] {processor.py:157} INFO - Started process (PID=1034) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:46:57.483+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:46:57.484+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:46:57.484+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:46:57.491+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:46:57.507+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.033 seconds
+[2023-12-10T01:47:27.894+0000] {processor.py:157} INFO - Started process (PID=1066) to work on /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:47:27.895+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_remove_multiple_columns.py for tasks to queue
+[2023-12-10T01:47:27.896+0000] {logging_mixin.py:154} INFO - [2023-12-10T01:47:27.896+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:47:27.900+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_remove_multiple_columns.py
+[2023-12-10T01:47:27.913+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_remove_multiple_columns.py took 0.023 seconds

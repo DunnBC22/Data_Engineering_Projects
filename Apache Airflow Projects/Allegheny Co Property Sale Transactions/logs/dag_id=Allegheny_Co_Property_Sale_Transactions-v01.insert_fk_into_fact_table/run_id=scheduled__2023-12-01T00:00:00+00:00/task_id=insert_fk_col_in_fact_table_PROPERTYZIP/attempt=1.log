@@ -1,0 +1,136 @@
+[2023-12-08T17:19:42.940+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PROPERTYZIP scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:19:42.955+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PROPERTYZIP scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:19:42.956+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T17:19:42.974+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_PROPERTYZIP> on 2023-12-01 00:00:00+00:00
+[2023-12-08T17:19:42.981+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_PROPERTYZIP', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpsmp7xwbw']
+[2023-12-08T17:19:42.987+0000] {standard_task_runner.py:85} INFO - Job 45: Subtask insert_fk_col_in_fact_table_PROPERTYZIP
+[2023-12-08T17:19:42.978+0000] {standard_task_runner.py:57} INFO - Started process 3288 to run task
+[2023-12-08T17:19:43.075+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PROPERTYZIP scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T17:19:43.164+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_PROPERTYZIP' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T17:19:43.168+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN PROPERTYZIP_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE allegheny_co_property_sale_transactions
+SET PROPERTYZIP_id = dimension_table_PROPERTYZIP.id
+FROM dimension_table_PROPERTYZIP
+WHERE COALESCE(allegheny_co_property_sale_transactions.PROPERTYZIP::text, '') = COALESCE(dimension_table_PROPERTYZIP.PROPERTYZIP::text, '');
+
+
+/*
+-- this could be the template code for step 4 above to manage columns with both integer & varchar dtypes
+UPDATE your_table
+SET your_column =
+  CASE
+    WHEN pg_attribute.attnum > 0 AND pg_attribute.atttypid = 'integer'::regtype THEN your_column::integer + 1
+    WHEN pg_attribute.attnum > 0 AND pg_attribute.atttypid = 'character varying'::regtype THEN your_column || '_updated'
+    ELSE your_column
+  END
+FROM pg_attribute
+WHERE
+  pg_attribute.attname = 'your_column'
+  AND pg_attribute.attrelid = 'your_table'::regclass;
+
+*/
+[2023-12-08T17:19:43.187+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:19:43.220+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:19:43.246+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN PROPERTYZIP_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE allegheny_co_property_sale_transactions
+SET PROPERTYZIP_id = dimension_table_PROPERTYZIP.id
+FROM dimension_table_PROPERTYZIP
+WHERE COALESCE(allegheny_co_property_sale_transactions.PROPERTYZIP::text, '') = COALESCE(dimension_table_PROPERTYZIP.PROPERTYZIP::text, '');
+
+
+/*
+-- this could be the template code for step 4 above to manage columns with both integer & varchar dtypes
+UPDATE your_table
+SET your_column =
+  CASE
+    WHEN pg_attribute.attnum > 0 AND pg_attribute.atttypid = 'integer'::regtype THEN your_column::integer + 1
+    WHEN pg_attribute.attnum > 0 AND pg_attribute.atttypid = 'character varying'::regtype THEN your_column || '_updated'
+    ELSE your_column
+  END
+FROM pg_attribute
+WHERE
+  pg_attribute.attname = 'your_column'
+  AND pg_attribute.attrelid = 'your_table'::regclass;
+
+*/, parameters: None
+[2023-12-08T17:19:49.637+0000] {sql.py:427} INFO - Rows affected: 303837
+[2023-12-08T17:19:49.656+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_PROPERTYZIP, execution_date=20231201T000000, start_date=20231208T171942, end_date=20231208T171949
+[2023-12-08T17:19:49.698+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T17:19:49.714+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-08T18:07:05.974+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PROPERTYZIP scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:07:05.992+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PROPERTYZIP scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:07:05.993+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T18:07:06.013+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_PROPERTYZIP> on 2023-12-01 00:00:00+00:00
+[2023-12-08T18:07:06.025+0000] {standard_task_runner.py:57} INFO - Started process 7334 to run task
+[2023-12-08T18:07:06.030+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_PROPERTYZIP', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '115', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpffqc9k6r']
+[2023-12-08T18:07:06.034+0000] {standard_task_runner.py:85} INFO - Job 115: Subtask insert_fk_col_in_fact_table_PROPERTYZIP
+[2023-12-08T18:07:06.114+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PROPERTYZIP scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T18:07:06.207+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_PROPERTYZIP' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T18:07:06.211+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN PROPERTYZIP_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE allegheny_co_property_sale_transactions
+SET PROPERTYZIP_id = dimension_table_PROPERTYZIP.id
+FROM dimension_table_PROPERTYZIP
+WHERE COALESCE(allegheny_co_property_sale_transactions.PROPERTYZIP::text, '') = COALESCE(dimension_table_PROPERTYZIP.PROPERTYZIP::text, '');
+[2023-12-08T18:07:06.231+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:07:06.246+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:07:06.253+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE allegheny_co_property_sale_transactions
+ADD COLUMN PROPERTYZIP_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE allegheny_co_property_sale_transactions
+SET PROPERTYZIP_id = dimension_table_PROPERTYZIP.id
+FROM dimension_table_PROPERTYZIP
+WHERE COALESCE(allegheny_co_property_sale_transactions.PROPERTYZIP::text, '') = COALESCE(dimension_table_PROPERTYZIP.PROPERTYZIP::text, '');, parameters: None
+[2023-12-08T18:07:18.676+0000] {sql.py:427} INFO - Rows affected: 303837
+[2023-12-08T18:07:18.701+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_PROPERTYZIP, execution_date=20231201T000000, start_date=20231208T180705, end_date=20231208T180718
+[2023-12-08T18:07:18.716+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T18:07:18.735+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

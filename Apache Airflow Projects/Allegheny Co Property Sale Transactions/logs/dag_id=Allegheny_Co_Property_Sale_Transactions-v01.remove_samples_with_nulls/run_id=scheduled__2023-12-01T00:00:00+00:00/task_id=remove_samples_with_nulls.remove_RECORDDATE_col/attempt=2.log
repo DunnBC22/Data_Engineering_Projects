@@ -1,0 +1,42 @@
+[2023-12-08T17:16:41.699+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_RECORDDATE_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:16:41.703+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_RECORDDATE_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:16:41.703+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 6
+[2023-12-08T17:16:41.708+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_with_nulls.remove_RECORDDATE_col> on 2023-12-01 00:00:00+00:00
+[2023-12-08T17:16:41.710+0000] {standard_task_runner.py:57} INFO - Started process 3017 to run task
+[2023-12-08T17:16:41.712+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls', 'remove_samples_with_nulls.remove_RECORDDATE_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmp6_j7ga21']
+[2023-12-08T17:16:41.714+0000] {standard_task_runner.py:85} INFO - Job 22: Subtask remove_samples_with_nulls.remove_RECORDDATE_col
+[2023-12-08T17:16:41.741+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_RECORDDATE_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T17:16:41.778+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls' AIRFLOW_CTX_TASK_ID='remove_samples_with_nulls.remove_RECORDDATE_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T17:16:41.779+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE RECORDDATE is NULL;
+[2023-12-08T17:16:41.784+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:16:41.790+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:16:41.795+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE RECORDDATE is NULL;, parameters: None
+[2023-12-08T17:16:41.855+0000] {sql.py:427} INFO - Rows affected: 975
+[2023-12-08T17:16:41.867+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls, task_id=remove_samples_with_nulls.remove_RECORDDATE_col, execution_date=20231201T000000, start_date=20231208T171641, end_date=20231208T171641
+[2023-12-08T17:16:41.895+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T17:16:41.912+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-08T18:04:03.612+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_RECORDDATE_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:04:03.616+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_RECORDDATE_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:04:03.617+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 6
+[2023-12-08T18:04:03.623+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_with_nulls.remove_RECORDDATE_col> on 2023-12-01 00:00:00+00:00
+[2023-12-08T18:04:03.625+0000] {standard_task_runner.py:57} INFO - Started process 7042 to run task
+[2023-12-08T18:04:03.627+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls', 'remove_samples_with_nulls.remove_RECORDDATE_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '91', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpvm6kx6qe']
+[2023-12-08T18:04:03.629+0000] {standard_task_runner.py:85} INFO - Job 91: Subtask remove_samples_with_nulls.remove_RECORDDATE_col
+[2023-12-08T18:04:03.658+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_RECORDDATE_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T18:04:03.700+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls' AIRFLOW_CTX_TASK_ID='remove_samples_with_nulls.remove_RECORDDATE_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T18:04:03.700+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE RECORDDATE is NULL;
+[2023-12-08T18:04:03.706+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:04:03.712+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:04:03.719+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+DELETE FROM allegheny_co_property_sale_transactions
+WHERE RECORDDATE is NULL;, parameters: None
+[2023-12-08T18:04:03.826+0000] {sql.py:427} INFO - Rows affected: 202
+[2023-12-08T18:04:03.834+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.remove_samples_with_nulls, task_id=remove_samples_with_nulls.remove_RECORDDATE_col, execution_date=20231201T000000, start_date=20231208T180403, end_date=20231208T180403
+[2023-12-08T18:04:03.847+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T18:04:03.865+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

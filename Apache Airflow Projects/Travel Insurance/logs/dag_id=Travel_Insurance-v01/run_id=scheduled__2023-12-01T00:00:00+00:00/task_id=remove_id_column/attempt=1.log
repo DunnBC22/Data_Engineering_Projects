@@ -1,0 +1,22 @@
+[2023-12-13T02:25:30.855+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Travel_Insurance-v01.remove_id_column scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-13T02:25:30.861+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Travel_Insurance-v01.remove_id_column scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-13T02:25:30.862+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-13T02:25:30.868+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_id_column> on 2023-12-01 00:00:00+00:00
+[2023-12-13T02:25:30.871+0000] {standard_task_runner.py:57} INFO - Started process 955 to run task
+[2023-12-13T02:25:30.873+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Travel_Insurance-v01', 'remove_id_column', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/travel_insurance.py', '--cfg-path', '/tmp/tmpaf6mltj1']
+[2023-12-13T02:25:30.876+0000] {standard_task_runner.py:85} INFO - Job 11: Subtask remove_id_column
+[2023-12-13T02:25:30.914+0000] {task_command.py:416} INFO - Running <TaskInstance: Travel_Insurance-v01.remove_id_column scheduled__2023-12-01T00:00:00+00:00 [running]> on host 6ed43b55b006
+[2023-12-13T02:25:30.957+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Travel_Insurance-v01' AIRFLOW_CTX_TASK_ID='remove_id_column' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-13T02:25:30.958+0000] {sql.py:274} INFO - Executing: 
+        ALTER TABLE travel_insurance_pipe
+        DROP COLUMN id_col;
+        
+[2023-12-13T02:25:30.965+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-13T02:25:30.970+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-13T02:25:30.976+0000] {sql.py:418} INFO - Running statement: 
+        ALTER TABLE travel_insurance_pipe
+        DROP COLUMN id_col;
+        , parameters: None
+[2023-12-13T02:25:30.986+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Travel_Insurance-v01, task_id=remove_id_column, execution_date=20231201T000000, start_date=20231213T022530, end_date=20231213T022530
+[2023-12-13T02:25:31.009+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-13T02:25:31.029+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

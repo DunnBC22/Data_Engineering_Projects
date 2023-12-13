@@ -1,0 +1,20 @@
+[2023-12-08T18:08:06.908+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_replaced_dim_cols.remove_original_PROPERTYADDRESSSUF_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:08:06.916+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_replaced_dim_cols.remove_original_PROPERTYADDRESSSUF_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:08:06.917+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T18:08:06.937+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_original_PROPERTYADDRESSSUF_in_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-08T18:08:06.943+0000] {standard_task_runner.py:57} INFO - Started process 7444 to run task
+[2023-12-08T18:08:06.946+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.remove_replaced_dim_cols', 'remove_original_PROPERTYADDRESSSUF_in_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '132', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpu54tyaya']
+[2023-12-08T18:08:06.953+0000] {standard_task_runner.py:85} INFO - Job 132: Subtask remove_original_PROPERTYADDRESSSUF_in_fact_table
+[2023-12-08T18:08:07.014+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_replaced_dim_cols.remove_original_PROPERTYADDRESSSUF_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T18:08:07.088+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.remove_replaced_dim_cols' AIRFLOW_CTX_TASK_ID='remove_original_PROPERTYADDRESSSUF_in_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T18:08:07.090+0000] {sql.py:274} INFO - Executing: -- table_name, column_name
+ALTER TABLE allegheny_co_property_sale_transactions
+DROP COLUMN PROPERTYADDRESSSUF;
+[2023-12-08T18:08:07.101+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:08:07.113+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:08:07.120+0000] {sql.py:418} INFO - Running statement: -- table_name, column_name
+ALTER TABLE allegheny_co_property_sale_transactions
+DROP COLUMN PROPERTYADDRESSSUF;, parameters: None
+[2023-12-08T18:08:07.129+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.remove_replaced_dim_cols, task_id=remove_original_PROPERTYADDRESSSUF_in_fact_table, execution_date=20231201T000000, start_date=20231208T180806, end_date=20231208T180807
+[2023-12-08T18:08:07.163+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T18:08:07.193+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

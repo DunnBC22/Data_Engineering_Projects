@@ -1,0 +1,47 @@
+[2023-12-11T20:51:20.473+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.create_dim_tables.create_dim_state_where_sale_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:51:20.478+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Insurance_Prod_Purchase_Pred-v01.create_dim_tables.create_dim_state_where_sale_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T20:51:20.478+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T20:51:20.485+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_dim_state_where_sale_table> on 2023-12-01 00:00:00+00:00
+[2023-12-11T20:51:20.490+0000] {standard_task_runner.py:57} INFO - Started process 1232 to run task
+[2023-12-11T20:51:20.493+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'create_dim_state_where_sale_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/Insurance_Product_Purchase_Pred.py', '--cfg-path', '/tmp/tmp2li9x017']
+[2023-12-11T20:51:20.496+0000] {standard_task_runner.py:85} INFO - Job 17: Subtask create_dim_state_where_sale_table
+[2023-12-11T20:51:20.537+0000] {task_command.py:416} INFO - Running <TaskInstance: Insurance_Prod_Purchase_Pred-v01.create_dim_tables.create_dim_state_where_sale_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 290fb0bf7dfd
+[2023-12-11T20:51:20.592+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Insurance_Prod_Purchase_Pred-v01.create_dim_tables' AIRFLOW_CTX_TASK_ID='create_dim_state_where_sale_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T20:51:20.593+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_state_where_sale AS
+SELECT DISTINCT state_where_sale FROM insurance_prod_pur_pred;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_state_where_sale;
+CREATE TABLE dimension_table_state_where_sale (
+    id SERIAL PRIMARY KEY,
+    state_where_sale VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_state_where_sale (state_where_sale)
+SELECT * FROM unique_values_state_where_sale;
+[2023-12-11T20:51:20.599+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T20:51:20.608+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T20:51:20.614+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_state_where_sale AS
+SELECT DISTINCT state_where_sale FROM insurance_prod_pur_pred;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_state_where_sale;
+CREATE TABLE dimension_table_state_where_sale (
+    id SERIAL PRIMARY KEY,
+    state_where_sale VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_state_where_sale (state_where_sale)
+SELECT * FROM unique_values_state_where_sale;, parameters: None
+[2023-12-11T20:51:20.742+0000] {sql.py:427} INFO - Rows affected: 36
+[2023-12-11T20:51:20.752+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Insurance_Prod_Purchase_Pred-v01.create_dim_tables, task_id=create_dim_state_where_sale_table, execution_date=20231201T000000, start_date=20231211T205120, end_date=20231211T205120
+[2023-12-11T20:51:20.792+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T20:51:20.813+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

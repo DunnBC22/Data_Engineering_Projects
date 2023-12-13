@@ -1,0 +1,37 @@
+[2023-12-12T22:46:24.656+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Cyclistic_Summary_Data-v01.calculate_date_range scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T22:46:24.661+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Cyclistic_Summary_Data-v01.calculate_date_range scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T22:46:24.661+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-12T22:46:24.666+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): calculate_date_range> on 2023-12-01 00:00:00+00:00
+[2023-12-12T22:46:24.669+0000] {standard_task_runner.py:57} INFO - Started process 1257 to run task
+[2023-12-12T22:46:24.671+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Cyclistic_Summary_Data-v01', 'calculate_date_range', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/Cyclistic_All_Year_Summary.py', '--cfg-path', '/tmp/tmpgmxy4_c4']
+[2023-12-12T22:46:24.673+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask calculate_date_range
+[2023-12-12T22:46:24.702+0000] {task_command.py:416} INFO - Running <TaskInstance: Cyclistic_Summary_Data-v01.calculate_date_range scheduled__2023-12-01T00:00:00+00:00 [running]> on host 858cc19b7838
+[2023-12-12T22:46:24.741+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Cyclistic_Summary_Data-v01' AIRFLOW_CTX_TASK_ID='calculate_date_range' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-12T22:46:24.742+0000] {sql.py:274} INFO - Executing: -- params: table_name, start_date_col, stop_date_col, date_range_col_name
+ALTER TABLE cyclistic_summary_data_pipe
+ADD COLUMN cyclic_days_length INTEGER;
+
+UPDATE cyclistic_summary_data_pipe
+SET cyclic_days_length = (
+    EXTRACT(
+        epoch FROM stop_day
+        ) - EXTRACT(
+            epoch FROM start_day)
+            ) / (24 * 3600);
+[2023-12-12T22:46:24.747+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T22:46:24.752+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T22:46:24.762+0000] {sql.py:418} INFO - Running statement: -- params: table_name, start_date_col, stop_date_col, date_range_col_name
+ALTER TABLE cyclistic_summary_data_pipe
+ADD COLUMN cyclic_days_length INTEGER;
+
+UPDATE cyclistic_summary_data_pipe
+SET cyclic_days_length = (
+    EXTRACT(
+        epoch FROM stop_day
+        ) - EXTRACT(
+            epoch FROM start_day)
+            ) / (24 * 3600);, parameters: None
+[2023-12-12T22:46:45.932+0000] {sql.py:427} INFO - Rows affected: 2238203
+[2023-12-12T22:46:45.962+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Cyclistic_Summary_Data-v01, task_id=calculate_date_range, execution_date=20231201T000000, start_date=20231212T224624, end_date=20231212T224645
+[2023-12-12T22:46:46.004+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T22:46:46.036+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

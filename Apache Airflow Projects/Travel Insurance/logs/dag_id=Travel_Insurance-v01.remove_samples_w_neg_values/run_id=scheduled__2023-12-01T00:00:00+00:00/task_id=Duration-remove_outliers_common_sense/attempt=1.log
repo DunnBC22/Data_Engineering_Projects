@@ -1,0 +1,21 @@
+[2023-12-13T02:23:27.873+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Travel_Insurance-v01.remove_samples_w_neg_values.Duration-remove_outliers_common_sense scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-13T02:23:27.878+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Travel_Insurance-v01.remove_samples_w_neg_values.Duration-remove_outliers_common_sense scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-13T02:23:27.878+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-13T02:23:27.884+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): Duration-remove_outliers_common_sense> on 2023-12-01 00:00:00+00:00
+[2023-12-13T02:23:27.887+0000] {standard_task_runner.py:57} INFO - Started process 751 to run task
+[2023-12-13T02:23:27.890+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Travel_Insurance-v01.remove_samples_w_neg_values', 'Duration-remove_outliers_common_sense', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/travel_insurance.py', '--cfg-path', '/tmp/tmpje646kvn']
+[2023-12-13T02:23:27.892+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask Duration-remove_outliers_common_sense
+[2023-12-13T02:23:27.926+0000] {task_command.py:416} INFO - Running <TaskInstance: Travel_Insurance-v01.remove_samples_w_neg_values.Duration-remove_outliers_common_sense scheduled__2023-12-01T00:00:00+00:00 [running]> on host 6ed43b55b006
+[2023-12-13T02:23:27.972+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Travel_Insurance-v01.remove_samples_w_neg_values' AIRFLOW_CTX_TASK_ID='Duration-remove_outliers_common_sense' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-13T02:23:27.972+0000] {sql.py:274} INFO - Executing: -- params: table_name, col_name, operator, comparison_value
+DELETE FROM travel_insurance_pipe
+WHERE Duration < 0
+[2023-12-13T02:23:27.979+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-13T02:23:27.985+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-13T02:23:27.992+0000] {sql.py:418} INFO - Running statement: -- params: table_name, col_name, operator, comparison_value
+DELETE FROM travel_insurance_pipe
+WHERE Duration < 0, parameters: None
+[2023-12-13T02:23:28.006+0000] {sql.py:427} INFO - Rows affected: 5
+[2023-12-13T02:23:28.014+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Travel_Insurance-v01.remove_samples_w_neg_values, task_id=Duration-remove_outliers_common_sense, execution_date=20231201T000000, start_date=20231213T022327, end_date=20231213T022328
+[2023-12-13T02:23:28.026+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-13T02:23:28.041+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

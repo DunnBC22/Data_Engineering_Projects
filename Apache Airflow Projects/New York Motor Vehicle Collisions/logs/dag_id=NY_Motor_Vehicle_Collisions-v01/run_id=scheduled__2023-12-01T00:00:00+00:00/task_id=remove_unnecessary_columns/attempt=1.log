@@ -1,0 +1,16 @@
+[2023-12-11T21:56:57.530+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NY_Motor_Vehicle_Collisions-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T21:56:57.533+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NY_Motor_Vehicle_Collisions-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T21:56:57.534+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T21:56:57.539+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): remove_unnecessary_columns> on 2023-12-01 00:00:00+00:00
+[2023-12-11T21:56:57.542+0000] {standard_task_runner.py:57} INFO - Started process 290 to run task
+[2023-12-11T21:56:57.543+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NY_Motor_Vehicle_Collisions-v01', 'remove_unnecessary_columns', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/NY_Motor_Vehicle_Collisions.py', '--cfg-path', '/tmp/tmp2unptfnc']
+[2023-12-11T21:56:57.545+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask remove_unnecessary_columns
+[2023-12-11T21:56:57.572+0000] {task_command.py:416} INFO - Running <TaskInstance: NY_Motor_Vehicle_Collisions-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [running]> on host bebedc023197
+[2023-12-11T21:56:57.611+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='NY_Motor_Vehicle_Collisions-v01' AIRFLOW_CTX_TASK_ID='remove_unnecessary_columns' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T21:56:57.614+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-11T21:56:57.630+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-11T21:57:57.723+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-11T21:57:57.739+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-11T21:57:57.751+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=NY_Motor_Vehicle_Collisions-v01, task_id=remove_unnecessary_columns, execution_date=20231201T000000, start_date=20231211T215657, end_date=20231211T215757
+[2023-12-11T21:57:57.803+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T21:57:57.834+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

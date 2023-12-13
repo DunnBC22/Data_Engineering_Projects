@@ -1,0 +1,918 @@
+[2023-12-11T20:36:01.972+0000] {processor.py:157} INFO - Started process (PID=168) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:36:01.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:36:01.976+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:36:01.975+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:36:01.995+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:36:01.991+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Insurance_Product_Purchase_Pred.py", line 47, in <module>
+    import remove_outliers_1_5_iqr as iqr
+ModuleNotFoundError: No module named 'remove_outliers_1_5_iqr'
+[2023-12-11T20:36:01.997+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:36:02.043+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.074 seconds
+[2023-12-11T20:36:32.770+0000] {processor.py:157} INFO - Started process (PID=195) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:36:32.776+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:36:32.780+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:36:32.779+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:36:32.841+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:36:32.831+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Insurance_Product_Purchase_Pred.py", line 47, in <module>
+    import remove_outliers_1_5_iqr as iqr
+ModuleNotFoundError: No module named 'remove_outliers_1_5_iqr'
+[2023-12-11T20:36:32.843+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:36:32.930+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.193 seconds
+[2023-12-11T20:37:03.605+0000] {processor.py:157} INFO - Started process (PID=222) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:37:03.607+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:37:03.608+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:37:03.607+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:37:03.619+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:37:03.617+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Insurance_Product_Purchase_Pred.py", line 47, in <module>
+    import remove_outliers_1_5_iqr as iqr
+ModuleNotFoundError: No module named 'remove_outliers_1_5_iqr'
+[2023-12-11T20:37:03.620+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:37:03.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.053 seconds
+[2023-12-11T20:37:33.905+0000] {processor.py:157} INFO - Started process (PID=249) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:37:33.906+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:37:33.907+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:37:33.907+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:37:33.937+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:37:33.936+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Insurance_Product_Purchase_Pred.py", line 48, in <module>
+    import create_star_schema_part_1 as css1
+ModuleNotFoundError: No module named 'create_star_schema_part_1'
+[2023-12-11T20:37:33.938+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:37:33.952+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.052 seconds
+[2023-12-11T20:38:04.353+0000] {processor.py:157} INFO - Started process (PID=271) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:38:04.355+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:38:04.356+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:04.356+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:38:04.417+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:04.416+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Insurance_Product_Purchase_Pred.py", line 138, in <module>
+    subdag=rmc.sub_dag_remove_multiple_columns(
+  File "/opt/airflow/dags/sub_dag_remove_multiple_columns.py", line 69, in sub_dag_remove_multiple_columns
+    assert not(isinstance(table_name, str)), \
+AssertionError: insurance_prod_pur_pred has to be a string, but what is entered is not a string
+[2023-12-11T20:38:04.417+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:38:04.429+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.081 seconds
+[2023-12-11T20:38:34.853+0000] {processor.py:157} INFO - Started process (PID=298) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:38:34.854+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:38:34.854+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:34.854+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:38:35.779+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.779+0000] {templater.py:76} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 74, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /sql/insert_fk_col_in_fact_table.sql
+[2023-12-11T20:38:35.780+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.779+0000] {templater.py:76} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 74, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /sql/insert_fk_col_in_fact_table.sql
+[2023-12-11T20:38:35.780+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.780+0000] {templater.py:76} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 74, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /sql/insert_fk_col_in_fact_table.sql
+[2023-12-11T20:38:35.781+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:38:35.890+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.890+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-11T20:38:35.895+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.895+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-11T20:38:35.898+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.897+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-11T20:38:35.898+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.898+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:38:35.903+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.903+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns
+[2023-12-11T20:38:35.903+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.903+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table
+[2023-12-11T20:38:35.904+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.904+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Prod_Purchase_Pred-v01.create_dim_tables
+[2023-12-11T20:38:35.904+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.904+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers
+[2023-12-11T20:38:35.904+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.904+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Prod_Purchase_Pred-v01
+[2023-12-11T20:38:35.904+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.904+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols
+[2023-12-11T20:38:35.909+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.909+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:38:35.909+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.909+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:38:35.909+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.909+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:38:35.910+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.910+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:38:35.910+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.910+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:38:35.910+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.910+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:38:35.918+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.918+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:38:35.921+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.921+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:38:35.922+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.922+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:38:35.922+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.922+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:38:35.923+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.923+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:38:35.923+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:38:35.923+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:38:35.929+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 1.079 seconds
+[2023-12-11T20:39:06.287+0000] {processor.py:157} INFO - Started process (PID=321) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:39:06.288+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:39:06.289+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.289+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:39:06.552+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.551+0000] {templater.py:76} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 74, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /sql/create_dim_table.sql
+[2023-12-11T20:39:06.552+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.552+0000] {templater.py:76} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 74, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /sql/create_dim_table.sql
+[2023-12-11T20:39:06.553+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.552+0000] {templater.py:76} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 74, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /sql/create_dim_table.sql
+[2023-12-11T20:39:06.553+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.553+0000] {templater.py:76} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 74, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /sql/insert_fk_col_in_fact_table.sql
+[2023-12-11T20:39:06.553+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.553+0000] {templater.py:76} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 74, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /sql/insert_fk_col_in_fact_table.sql
+[2023-12-11T20:39:06.554+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.554+0000] {templater.py:76} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 74, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: /sql/insert_fk_col_in_fact_table.sql
+[2023-12-11T20:39:06.555+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:39:06.610+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.610+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:39:06.620+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.619+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:39:06.621+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.621+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:39:06.622+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.622+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:39:06.622+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.622+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:39:06.623+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.623+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:39:06.624+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.624+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:39:06.629+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.629+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:39:06.632+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.632+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:39:06.632+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.632+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:39:06.632+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.632+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:39:06.632+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.632+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:39:06.633+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:06.633+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:39:06.637+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.355 seconds
+[2023-12-11T20:39:37.648+0000] {processor.py:157} INFO - Started process (PID=339) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:39:37.650+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:39:37.651+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.651+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:39:37.906+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:39:37.961+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.960+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:39:37.968+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.968+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:39:37.970+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.970+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:39:37.970+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.970+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:39:37.971+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.971+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:39:37.972+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.972+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:39:37.972+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.972+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:39:37.978+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.978+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:39:37.980+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.980+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:39:37.980+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.980+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:39:37.980+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.980+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:39:37.981+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.981+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:39:37.981+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:39:37.981+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:39:37.986+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.342 seconds
+[2023-12-11T20:40:08.039+0000] {processor.py:157} INFO - Started process (PID=357) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:40:08.040+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:40:08.041+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.041+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:40:08.306+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:40:08.330+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.330+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:40:08.339+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.339+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:40:08.341+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.341+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:40:08.341+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.341+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:40:08.342+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.342+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:40:08.343+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.342+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:40:08.343+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.343+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:40:08.347+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.347+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:40:08.349+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.349+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:40:08.349+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.349+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:40:08.349+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.349+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:40:08.350+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.350+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:40:08.350+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:08.350+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:40:08.356+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.322 seconds
+[2023-12-11T20:40:10.406+0000] {processor.py:157} INFO - Started process (PID=363) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:40:10.408+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:40:10.410+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.409+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:40:10.684+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:40:10.710+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.709+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:40:10.719+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.719+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:40:10.721+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.721+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:40:10.721+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.721+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:40:10.722+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.722+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:40:10.722+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.722+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:40:10.723+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.723+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:40:10.728+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.727+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:40:10.730+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.730+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:40:10.730+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.730+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:40:10.730+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.730+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:40:10.731+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.730+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:40:10.731+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:10.731+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:40:10.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.336 seconds
+[2023-12-11T20:40:41.751+0000] {processor.py:157} INFO - Started process (PID=381) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:40:41.753+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:40:41.754+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:41.753+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:40:42.005+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:40:42.028+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.028+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:40:42.037+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.037+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:40:42.038+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.038+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:40:42.039+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.039+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:40:42.040+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.040+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:40:42.040+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.040+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:40:42.041+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.041+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:40:42.044+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.044+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:40:42.047+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.047+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:40:42.047+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.047+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:40:42.047+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.047+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:40:42.047+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.047+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:40:42.048+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:40:42.047+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:40:42.052+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.305 seconds
+[2023-12-11T20:41:12.193+0000] {processor.py:157} INFO - Started process (PID=419) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:41:12.194+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:41:12.196+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.196+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:41:12.457+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:41:12.480+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.480+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:41:12.489+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.489+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:41:12.490+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.490+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:41:12.491+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.491+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:41:12.491+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.491+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:41:12.492+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.492+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:41:12.493+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.492+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:41:12.496+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.496+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:41:12.499+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.499+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:41:12.499+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.499+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:41:12.500+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.500+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:41:12.500+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.500+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:41:12.500+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:12.500+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:41:12.505+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.318 seconds
+[2023-12-11T20:41:42.685+0000] {processor.py:157} INFO - Started process (PID=457) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:41:42.687+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:41:42.688+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.687+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:41:42.937+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:41:42.959+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.959+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:41:42.968+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.968+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:41:42.970+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.970+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:41:42.971+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.970+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:41:42.971+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.971+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:41:42.972+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.972+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:41:42.972+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.972+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:41:42.976+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.976+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:41:42.978+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.978+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:41:42.979+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.978+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:41:42.979+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.979+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:41:42.979+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.979+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:41:42.979+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:41:42.979+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:41:42.984+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.304 seconds
+[2023-12-11T20:42:13.188+0000] {processor.py:157} INFO - Started process (PID=495) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:42:13.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:42:13.191+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.191+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:42:13.441+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:42:13.464+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.463+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:42:13.473+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.472+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:42:13.474+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.474+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:42:13.475+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.475+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:42:13.475+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.475+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:42:13.476+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.476+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:42:13.476+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.476+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:42:13.480+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.480+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:42:13.482+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.482+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:42:13.483+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.482+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:42:13.483+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.483+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:42:13.483+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.483+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:42:13.483+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:13.483+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:42:13.488+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.304 seconds
+[2023-12-11T20:42:43.669+0000] {processor.py:157} INFO - Started process (PID=533) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:42:43.670+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:42:43.671+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.671+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:42:43.920+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:42:43.943+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.943+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:42:43.951+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.951+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:42:43.953+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.952+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:42:43.953+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.953+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:42:43.954+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.954+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:42:43.954+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.954+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:42:43.955+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.955+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:42:43.958+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.958+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:42:43.960+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.960+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:42:43.961+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.961+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:42:43.961+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.961+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:42:43.961+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.961+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:42:43.961+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:42:43.961+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:42:43.966+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.302 seconds
+[2023-12-11T20:43:14.055+0000] {processor.py:157} INFO - Started process (PID=580) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:43:14.056+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:43:14.056+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.056+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:43:14.425+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:43:14.469+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.468+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:43:14.485+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.485+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:43:14.488+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.488+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:43:14.490+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.490+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:43:14.491+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.491+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:43:14.492+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.492+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:43:14.494+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.494+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:43:14.502+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.501+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:43:14.509+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.509+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:43:14.510+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.510+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:43:14.510+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.510+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:43:14.510+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.510+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:43:14.511+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:14.511+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:43:14.517+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.465 seconds
+[2023-12-11T20:43:45.494+0000] {processor.py:157} INFO - Started process (PID=618) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:43:45.495+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:43:45.496+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.496+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:43:45.755+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:43:45.778+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.778+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:43:45.787+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.787+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:43:45.789+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.789+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:43:45.790+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.790+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:43:45.791+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.791+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:43:45.791+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.791+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:43:45.792+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.792+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:43:45.796+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.796+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:43:45.798+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.798+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:43:45.799+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.799+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:43:45.799+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.799+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:43:45.799+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.799+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:43:45.799+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:43:45.799+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:43:45.805+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.315 seconds
+[2023-12-11T20:44:15.944+0000] {processor.py:157} INFO - Started process (PID=656) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:44:15.946+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:44:15.947+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:15.946+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:44:16.203+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:44:16.226+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.226+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:44:16.236+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.236+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:44:16.238+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.238+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:44:16.239+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.238+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:44:16.239+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.239+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:44:16.240+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.240+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:44:16.240+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.240+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:44:16.244+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.244+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:44:16.246+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.246+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:44:16.247+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.247+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:44:16.247+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.247+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:44:16.247+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.247+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:44:16.247+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:16.247+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:44:16.252+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.312 seconds
+[2023-12-11T20:44:46.434+0000] {processor.py:157} INFO - Started process (PID=694) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:44:46.435+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:44:46.436+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.436+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:44:46.685+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:44:46.709+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.708+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:44:46.718+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.718+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:44:46.719+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.719+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:44:46.720+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.720+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:44:46.721+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.721+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:44:46.721+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.721+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:44:46.722+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.722+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:44:46.726+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.726+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:44:46.728+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.728+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:44:46.728+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.728+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:44:46.729+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.729+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:44:46.729+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.729+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:44:46.729+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:44:46.729+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:44:46.734+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.305 seconds
+[2023-12-11T20:45:16.859+0000] {processor.py:157} INFO - Started process (PID=740) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:45:16.860+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:45:16.860+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:16.860+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:45:17.120+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:45:17.175+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.175+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:45:17.184+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.184+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:45:17.186+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.186+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:45:17.186+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.186+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:45:17.187+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.187+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:45:17.187+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.187+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:45:17.188+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.188+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:45:17.193+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.193+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:45:17.196+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.196+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:45:17.196+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.196+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:45:17.196+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.196+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:45:17.196+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.196+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:45:17.197+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:17.197+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:45:17.202+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.347 seconds
+[2023-12-11T20:45:47.260+0000] {processor.py:157} INFO - Started process (PID=778) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:45:47.261+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:45:47.262+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.262+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:45:47.512+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:45:47.535+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.535+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:45:47.544+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.544+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:45:47.546+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.546+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:45:47.547+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.547+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:45:47.547+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.547+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:45:47.548+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.548+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:45:47.548+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.548+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:45:47.552+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.552+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:45:47.554+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.554+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:45:47.555+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.555+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:45:47.555+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.555+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:45:47.555+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.555+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:45:47.555+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:45:47.555+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:45:47.560+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.305 seconds
+[2023-12-11T20:46:17.772+0000] {processor.py:157} INFO - Started process (PID=819) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:46:17.773+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:46:17.774+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:17.774+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:46:18.047+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:46:18.071+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.071+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:46:18.081+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.080+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:46:18.082+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.082+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:46:18.083+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.083+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:46:18.083+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.083+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:46:18.084+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.084+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:46:18.085+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.085+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:46:18.089+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.089+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:46:18.091+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.091+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:46:18.091+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.091+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:46:18.092+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.092+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:46:18.092+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.092+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:46:18.092+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:18.092+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:46:18.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.329 seconds
+[2023-12-11T20:46:48.241+0000] {processor.py:157} INFO - Started process (PID=857) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:46:48.242+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:46:48.243+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.242+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:46:48.499+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:46:48.523+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.523+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:46:48.532+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.532+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:46:48.534+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.533+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:46:48.534+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.534+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:46:48.535+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.535+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:46:48.535+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.535+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:46:48.536+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.536+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:46:48.540+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.540+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:46:48.542+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.542+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:46:48.542+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.542+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:46:48.543+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.543+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:46:48.543+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.543+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:46:48.543+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:46:48.543+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:46:48.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.312 seconds
+[2023-12-11T20:47:18.645+0000] {processor.py:157} INFO - Started process (PID=895) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:47:18.646+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:47:18.646+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.646+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:47:18.889+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:47:18.912+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.912+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:47:18.921+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.921+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:47:18.922+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.922+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:47:18.923+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.923+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:47:18.923+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.923+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:47:18.924+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.924+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:47:18.925+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.924+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:47:18.928+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.928+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:47:18.930+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.930+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:47:18.931+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.931+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:47:18.931+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.931+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:47:18.931+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.931+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:47:18.931+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:18.931+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:47:18.936+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.295 seconds
+[2023-12-11T20:47:34.928+0000] {processor.py:157} INFO - Started process (PID=912) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:47:34.929+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:47:34.931+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:34.930+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:47:35.185+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:47:35.248+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.248+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:47:35.258+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.257+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:47:35.259+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.259+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:47:35.260+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.260+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:47:35.260+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.260+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:47:35.261+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.261+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:47:35.262+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.262+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:47:35.268+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.268+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:47:35.271+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.271+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:47:35.271+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.271+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:47:35.271+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.271+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:47:35.271+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.271+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:47:35.272+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:47:35.271+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:47:35.277+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.354 seconds
+[2023-12-11T20:48:05.430+0000] {processor.py:157} INFO - Started process (PID=950) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:48:05.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:48:05.433+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.433+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:48:05.688+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:48:05.712+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.711+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:48:05.721+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.721+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:48:05.722+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.722+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:48:05.723+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.723+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:48:05.724+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.724+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:48:05.724+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.724+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:48:05.725+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.725+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:48:05.728+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.728+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:48:05.731+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.731+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:48:05.731+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.731+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:48:05.731+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.731+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:48:05.732+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.731+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:48:05.732+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:05.732+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:48:05.736+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.310 seconds
+[2023-12-11T20:48:35.846+0000] {processor.py:157} INFO - Started process (PID=991) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:48:35.847+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:48:35.848+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:35.847+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:48:36.114+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:48:36.137+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.137+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:48:36.146+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.146+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:48:36.148+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.148+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:48:36.148+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.148+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:48:36.149+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.149+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:48:36.149+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.149+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:48:36.150+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.150+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:48:36.154+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.154+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:48:36.156+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.156+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:48:36.156+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.156+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:48:36.157+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.157+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:48:36.157+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.157+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:48:36.157+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:48:36.157+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:48:36.162+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.319 seconds
+[2023-12-11T20:49:06.327+0000] {processor.py:157} INFO - Started process (PID=1029) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:49:06.328+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:49:06.330+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.329+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:49:06.593+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:49:06.617+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.617+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:49:06.626+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.626+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:49:06.627+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.627+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:49:06.628+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.628+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:49:06.628+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.628+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:49:06.629+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.629+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:49:06.630+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.630+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:49:06.633+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.633+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:49:06.636+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.635+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:49:06.636+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.636+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:49:06.636+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.636+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:49:06.636+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.636+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:49:06.636+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:06.636+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:49:06.641+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.319 seconds
+[2023-12-11T20:49:36.884+0000] {processor.py:157} INFO - Started process (PID=1067) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:49:36.885+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:49:36.886+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:36.886+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:49:37.136+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:49:37.160+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.160+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:49:37.168+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.168+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:49:37.170+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.170+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:49:37.171+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.171+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:49:37.171+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.171+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:49:37.172+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.172+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:49:37.172+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.172+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:49:37.176+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.176+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:49:37.179+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.179+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:49:37.179+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.179+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:49:37.179+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.179+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:49:37.180+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.180+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:49:37.180+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:49:37.180+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:49:37.185+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.305 seconds
+[2023-12-11T20:50:07.350+0000] {processor.py:157} INFO - Started process (PID=1105) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:50:07.352+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:50:07.354+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.353+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:50:07.656+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:50:07.716+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.716+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:50:07.727+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.727+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:50:07.728+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.728+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:50:07.729+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.729+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:50:07.729+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.729+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:50:07.730+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.730+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:50:07.731+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.731+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:50:07.736+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.736+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:50:07.740+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.740+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:50:07.741+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.741+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:50:07.741+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.741+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:50:07.741+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.741+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:50:07.741+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:07.741+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:50:07.746+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.402 seconds
+[2023-12-11T20:50:38.743+0000] {processor.py:157} INFO - Started process (PID=1155) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:50:38.744+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:50:38.746+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:38.746+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:50:39.031+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:50:39.058+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.057+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:50:39.070+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.070+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:50:39.073+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.073+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:50:39.074+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.074+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:50:39.075+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.075+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:50:39.075+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.075+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:50:39.076+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.076+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:50:39.080+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.080+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:50:39.082+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.082+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:50:39.083+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.083+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:50:39.083+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.083+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:50:39.083+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.083+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:50:39.083+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:50:39.083+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:50:39.091+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.354 seconds
+[2023-12-11T20:51:09.213+0000] {processor.py:157} INFO - Started process (PID=1193) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:51:09.215+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:51:09.216+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.215+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:51:09.504+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:51:09.532+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.532+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:51:09.543+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.543+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:51:09.544+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.544+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:51:09.545+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.545+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:51:09.546+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.546+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:51:09.547+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.547+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:51:09.547+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.547+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:51:09.551+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.551+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:51:09.556+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.556+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:51:09.556+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.556+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:51:09.556+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.556+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:51:09.557+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.557+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:51:09.557+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:09.557+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:51:09.563+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.355 seconds
+[2023-12-11T20:51:39.669+0000] {processor.py:157} INFO - Started process (PID=1246) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:51:39.671+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:51:39.672+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:39.672+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:51:40.200+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:51:40.253+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.253+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:51:40.276+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.276+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:51:40.281+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.281+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:51:40.283+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.283+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:51:40.286+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.286+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:51:40.288+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.288+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:51:40.290+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.290+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:51:40.302+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.302+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:51:40.310+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.310+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:51:40.311+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.311+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:51:40.312+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.311+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:51:40.312+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.312+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:51:40.312+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:51:40.312+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:51:40.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.662 seconds
+[2023-12-11T20:52:10.764+0000] {processor.py:157} INFO - Started process (PID=1284) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:52:10.765+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:52:10.766+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:10.766+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:52:11.148+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:52:11.187+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.186+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:52:11.204+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.203+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:52:11.207+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.207+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:52:11.209+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.209+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:52:11.210+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.210+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:52:11.212+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.212+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:52:11.213+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.213+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:52:11.221+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.221+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:52:11.227+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.227+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:52:11.227+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.227+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:52:11.228+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.228+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:52:11.228+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.228+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:52:11.229+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:11.229+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:52:11.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.480 seconds
+[2023-12-11T20:52:42.203+0000] {processor.py:157} INFO - Started process (PID=1334) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:52:42.205+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:52:42.206+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.206+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:52:42.663+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:52:42.700+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.699+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:52:42.717+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.717+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:52:42.720+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.720+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:52:42.722+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.722+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:52:42.724+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.724+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:52:42.726+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.726+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:52:42.728+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.727+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:52:42.735+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.735+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:52:42.741+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.741+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:52:42.742+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.742+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:52:42.742+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.742+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:52:42.743+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.743+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:52:42.743+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:52:42.743+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:52:42.754+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.554 seconds
+[2023-12-11T20:53:12.861+0000] {processor.py:157} INFO - Started process (PID=1392) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:53:12.862+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:53:12.863+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:12.863+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:53:13.261+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:53:13.299+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.299+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:53:13.316+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.316+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:53:13.319+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.319+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:53:13.321+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.321+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:53:13.323+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.323+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:53:13.325+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.324+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:53:13.326+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.326+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:53:13.332+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.332+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:53:13.337+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.337+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:53:13.338+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.338+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:53:13.339+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.339+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:53:13.340+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.340+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:53:13.341+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:13.341+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:53:13.352+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.493 seconds
+[2023-12-11T20:53:44.253+0000] {processor.py:157} INFO - Started process (PID=1433) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:53:44.255+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:53:44.256+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.256+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:53:44.673+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:53:44.722+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.722+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:53:44.743+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.743+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:53:44.746+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.746+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:53:44.748+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.748+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:53:44.750+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.750+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:53:44.751+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.751+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:53:44.753+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.753+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:53:44.764+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.764+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:53:44.772+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.772+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:53:44.773+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.773+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:53:44.773+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.773+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:53:44.774+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.773+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:53:44.774+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:53:44.774+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:53:44.786+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.538 seconds
+[2023-12-11T20:54:15.656+0000] {processor.py:157} INFO - Started process (PID=1471) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:54:15.657+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:54:15.657+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:15.657+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:54:16.019+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:54:16.053+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.053+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:54:16.071+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.071+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:54:16.074+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.074+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:54:16.076+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.076+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:54:16.077+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.077+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:54:16.078+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.078+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:54:16.079+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.079+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:54:16.085+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.085+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:54:16.092+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.092+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:54:16.093+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.092+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:54:16.093+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.093+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:54:16.093+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.093+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:54:16.094+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:16.094+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:54:16.103+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.451 seconds
+[2023-12-11T20:54:47.055+0000] {processor.py:157} INFO - Started process (PID=1509) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:54:47.056+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:54:47.056+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.056+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:54:47.287+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:54:47.312+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.312+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:54:47.321+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.321+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:54:47.323+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.323+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:54:47.324+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.324+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:54:47.324+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.324+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:54:47.325+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.325+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:54:47.325+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.325+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:54:47.329+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.329+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:54:47.332+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.332+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:54:47.332+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.332+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:54:47.333+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.333+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:54:47.333+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.333+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:54:47.333+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:54:47.333+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:54:47.338+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.285 seconds
+[2023-12-11T20:55:17.559+0000] {processor.py:157} INFO - Started process (PID=1547) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:55:17.561+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:55:17.562+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.561+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:55:17.821+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:55:17.849+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.848+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:55:17.860+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.860+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:55:17.861+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.861+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:55:17.862+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.862+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:55:17.863+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.863+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:55:17.863+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.863+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:55:17.864+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.864+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:55:17.868+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.868+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:55:17.870+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.870+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:55:17.871+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.871+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:55:17.871+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.871+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:55:17.871+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.871+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:55:17.871+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:17.871+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:55:17.877+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.323 seconds
+[2023-12-11T20:55:47.977+0000] {processor.py:157} INFO - Started process (PID=1585) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:55:47.978+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:55:47.979+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:47.979+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:55:48.295+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:55:48.321+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.321+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:55:48.331+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.331+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:55:48.335+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.335+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:55:48.339+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.339+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:55:48.343+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.343+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:55:48.344+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.344+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:55:48.345+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.344+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:55:48.350+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.350+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:55:48.353+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.353+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:55:48.353+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.353+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:55:48.353+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.353+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:55:48.354+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.354+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:55:48.354+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:55:48.354+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:55:48.361+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.390 seconds
+[2023-12-11T20:56:19.349+0000] {processor.py:157} INFO - Started process (PID=1623) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:56:19.351+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:56:19.352+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.351+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:56:19.607+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:56:19.632+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.632+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:56:19.648+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.647+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:56:19.661+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.661+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:56:19.670+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.669+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:56:19.673+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.673+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:56:19.675+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.675+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:56:19.683+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.682+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:56:19.691+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.691+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:56:19.695+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.695+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:56:19.696+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.696+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:56:19.696+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.696+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:56:19.696+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.696+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:56:19.697+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:19.697+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:56:19.705+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.359 seconds
+[2023-12-11T20:56:49.820+0000] {processor.py:157} INFO - Started process (PID=1661) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:56:49.821+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:56:49.822+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:49.822+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:56:50.120+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:56:50.146+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.145+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:56:50.156+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.156+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:56:50.157+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.157+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:56:50.158+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.158+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:56:50.159+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.159+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:56:50.159+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.159+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:56:50.160+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.160+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:56:50.164+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.164+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:56:50.167+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.167+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:56:50.167+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.167+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:56:50.167+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.167+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:56:50.167+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.167+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:56:50.168+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:56:50.168+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:56:50.173+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.356 seconds
+[2023-12-11T20:57:20.263+0000] {processor.py:157} INFO - Started process (PID=1699) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:57:20.265+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:57:20.266+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.266+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:57:20.578+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:57:20.602+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.602+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:57:20.612+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.612+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-11T20:57:20.613+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.613+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:57:20.614+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.614+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:57:20.615+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.615+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:57:20.615+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.615+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:57:20.616+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.616+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:57:20.620+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.620+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:57:20.623+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.623+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:57:20.623+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.623+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:57:20.624+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.623+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:57:20.624+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.624+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:57:20.624+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:20.624+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:57:20.629+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.370 seconds
+[2023-12-11T20:57:51.613+0000] {processor.py:157} INFO - Started process (PID=1773) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:57:51.614+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:57:51.615+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.615+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:57:51.887+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:57:51.920+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.920+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:57:51.930+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.930+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:57:51.931+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.931+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:57:51.932+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.932+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:57:51.933+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.933+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:57:51.933+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.933+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:57:51.934+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.934+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:57:51.939+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.938+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:57:51.941+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.941+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:57:51.942+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.942+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:57:51.942+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.942+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:57:51.942+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.942+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:57:51.942+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:57:51.942+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:57:51.947+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.338 seconds
+[2023-12-11T20:58:22.038+0000] {processor.py:157} INFO - Started process (PID=1818) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:58:22.039+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:58:22.040+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.040+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:58:22.297+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:58:22.321+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.321+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:58:22.331+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.331+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:58:22.333+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.333+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:58:22.333+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.333+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:58:22.334+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.334+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:58:22.334+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.334+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:58:22.335+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.335+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:58:22.340+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.339+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:58:22.342+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.342+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:58:22.342+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.342+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:58:22.343+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.343+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:58:22.343+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.343+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:58:22.343+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:22.343+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:58:22.349+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.315 seconds
+[2023-12-11T20:58:52.556+0000] {processor.py:157} INFO - Started process (PID=1856) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:58:52.557+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:58:52.558+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.558+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:58:52.809+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:58:52.833+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.832+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:58:52.841+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.841+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:58:52.843+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.843+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:58:52.844+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.843+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:58:52.844+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.844+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:58:52.845+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.845+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:58:52.845+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.845+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:58:52.849+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.849+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:58:52.851+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.851+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:58:52.851+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.851+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:58:52.852+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.852+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:58:52.852+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.852+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:58:52.852+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:58:52.852+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:58:52.857+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.306 seconds
+[2023-12-11T20:59:23.029+0000] {processor.py:157} INFO - Started process (PID=1894) to work on /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:59:23.030+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Product_Purchase_Pred.py for tasks to queue
+[2023-12-11T20:59:23.032+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.031+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:59:23.288+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns', 'Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers', 'Insurance_Prod_Purchase_Pred-v01.create_dim_tables', 'Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table', 'Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols', 'Insurance_Prod_Purchase_Pred-v01']) retrieved from /opt/airflow/dags/Insurance_Product_Purchase_Pred.py
+[2023-12-11T20:59:23.314+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.313+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-11T20:59:23.323+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.323+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01 to None, run_after=None
+[2023-12-11T20:59:23.325+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.324+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:59:23.325+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.325+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:59:23.326+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.326+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:59:23.326+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.326+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:59:23.327+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.327+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:59:23.331+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.331+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-11T20:59:23.333+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.333+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.create_dim_tables to None, run_after=None
+[2023-12-11T20:59:23.333+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.333+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-11T20:59:23.334+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.334+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-11T20:59:23.334+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.334+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-11T20:59:23.334+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:59:23.334+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Prod_Purchase_Pred-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-11T20:59:23.339+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Product_Purchase_Pred.py took 0.315 seconds

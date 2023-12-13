@@ -1,0 +1,20 @@
+[2023-12-11T20:36:02.074+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:36:02.075+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_create_dim_tables.py for tasks to queue
+[2023-12-11T20:36:02.075+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:36:02.075+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:36:02.087+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:36:02.112+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_create_dim_tables.py took 0.042 seconds
+[2023-12-11T20:36:32.951+0000] {processor.py:157} INFO - Started process (PID=205) to work on /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:36:32.953+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_create_dim_tables.py for tasks to queue
+[2023-12-11T20:36:32.955+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:36:32.954+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:36:32.972+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:36:32.999+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_create_dim_tables.py took 0.052 seconds
+[2023-12-11T20:37:03.670+0000] {processor.py:157} INFO - Started process (PID=232) to work on /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:37:03.670+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_create_dim_tables.py for tasks to queue
+[2023-12-11T20:37:03.671+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:37:03.671+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:37:03.675+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:37:03.687+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_create_dim_tables.py took 0.019 seconds
+[2023-12-11T20:37:33.907+0000] {processor.py:157} INFO - Started process (PID=252) to work on /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:37:33.908+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_create_dim_tables.py for tasks to queue
+[2023-12-11T20:37:33.909+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:37:33.908+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:37:33.913+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_create_dim_tables.py
+[2023-12-11T20:37:33.925+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_create_dim_tables.py took 0.020 seconds

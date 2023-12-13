@@ -1,0 +1,51 @@
+[2023-12-12T21:28:35.223+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: home_insurance_ds-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_HOME_EM_ADDON_POST_REN scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T21:28:35.228+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: home_insurance_ds-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_HOME_EM_ADDON_POST_REN scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T21:28:35.229+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-12T21:28:35.234+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_HOME_EM_ADDON_POST_REN> on 2023-12-01 00:00:00+00:00
+[2023-12-12T21:28:35.237+0000] {standard_task_runner.py:57} INFO - Started process 2208 to run task
+[2023-12-12T21:28:35.239+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'home_insurance_ds-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_HOME_EM_ADDON_POST_REN', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/home_insurance_dataset.py', '--cfg-path', '/tmp/tmpjv3e0pt8']
+[2023-12-12T21:28:35.241+0000] {standard_task_runner.py:85} INFO - Job 79: Subtask insert_fk_col_in_fact_table_HOME_EM_ADDON_POST_REN
+[2023-12-12T21:28:35.271+0000] {task_command.py:416} INFO - Running <TaskInstance: home_insurance_ds-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_HOME_EM_ADDON_POST_REN scheduled__2023-12-01T00:00:00+00:00 [running]> on host 7a94ca99eac6
+[2023-12-12T21:28:35.313+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='home_insurance_ds-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_HOME_EM_ADDON_POST_REN' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-12T21:28:35.314+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE home_insurance_ds_pipeline
+ADD COLUMN HOME_EM_ADDON_POST_REN_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE home_insurance_ds_pipeline
+SET HOME_EM_ADDON_POST_REN_id = dimension_table_HOME_EM_ADDON_POST_REN.id
+FROM dimension_table_HOME_EM_ADDON_POST_REN
+WHERE COALESCE(home_insurance_ds_pipeline.HOME_EM_ADDON_POST_REN::text, '') = COALESCE(dimension_table_HOME_EM_ADDON_POST_REN.HOME_EM_ADDON_POST_REN::text, '');
+[2023-12-12T21:28:35.320+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T21:28:35.325+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T21:28:35.329+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE home_insurance_ds_pipeline
+ADD COLUMN HOME_EM_ADDON_POST_REN_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE home_insurance_ds_pipeline
+SET HOME_EM_ADDON_POST_REN_id = dimension_table_HOME_EM_ADDON_POST_REN.id
+FROM dimension_table_HOME_EM_ADDON_POST_REN
+WHERE COALESCE(home_insurance_ds_pipeline.HOME_EM_ADDON_POST_REN::text, '') = COALESCE(dimension_table_HOME_EM_ADDON_POST_REN.HOME_EM_ADDON_POST_REN::text, '');, parameters: None
+[2023-12-12T21:29:07.386+0000] {sql.py:427} INFO - Rows affected: 183073
+[2023-12-12T21:29:07.414+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=home_insurance_ds-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_HOME_EM_ADDON_POST_REN, execution_date=20231201T000000, start_date=20231212T212835, end_date=20231212T212907
+[2023-12-12T21:29:07.430+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T21:29:07.456+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,51 @@
+[2023-12-11T22:05:15.344+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: NY_Motor_Vehicle_Collisions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_CONTRIBUTING_FACTOR_VEHICLE_1 scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T22:05:15.351+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: NY_Motor_Vehicle_Collisions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_CONTRIBUTING_FACTOR_VEHICLE_1 scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T22:05:15.352+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T22:05:15.359+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_CONTRIBUTING_FACTOR_VEHICLE_1> on 2023-12-01 00:00:00+00:00
+[2023-12-11T22:05:15.363+0000] {standard_task_runner.py:57} INFO - Started process 1055 to run task
+[2023-12-11T22:05:15.366+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'NY_Motor_Vehicle_Collisions-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_CONTRIBUTING_FACTOR_VEHICLE_1', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '47', '--raw', '--subdir', 'DAGS_FOLDER/NY_Motor_Vehicle_Collisions.py', '--cfg-path', '/tmp/tmpbz9x6cuj']
+[2023-12-11T22:05:15.368+0000] {standard_task_runner.py:85} INFO - Job 47: Subtask insert_fk_col_in_fact_table_CONTRIBUTING_FACTOR_VEHICLE_1
+[2023-12-11T22:05:15.410+0000] {task_command.py:416} INFO - Running <TaskInstance: NY_Motor_Vehicle_Collisions-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_CONTRIBUTING_FACTOR_VEHICLE_1 scheduled__2023-12-01T00:00:00+00:00 [running]> on host bebedc023197
+[2023-12-11T22:05:15.466+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='NY_Motor_Vehicle_Collisions-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_CONTRIBUTING_FACTOR_VEHICLE_1' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T22:05:15.468+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE ny_vehicle_colls_pipe
+ADD COLUMN CONTRIBUTING_FACTOR_VEHICLE_1_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE ny_vehicle_colls_pipe
+SET CONTRIBUTING_FACTOR_VEHICLE_1_id = dimension_table_CONTRIBUTING_FACTOR_VEHICLE_1.id
+FROM dimension_table_CONTRIBUTING_FACTOR_VEHICLE_1
+WHERE COALESCE(ny_vehicle_colls_pipe.CONTRIBUTING_FACTOR_VEHICLE_1::text, '') = COALESCE(dimension_table_CONTRIBUTING_FACTOR_VEHICLE_1.CONTRIBUTING_FACTOR_VEHICLE_1::text, '');
+[2023-12-11T22:05:15.476+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T22:05:15.486+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T22:05:15.498+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE ny_vehicle_colls_pipe
+ADD COLUMN CONTRIBUTING_FACTOR_VEHICLE_1_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE ny_vehicle_colls_pipe
+SET CONTRIBUTING_FACTOR_VEHICLE_1_id = dimension_table_CONTRIBUTING_FACTOR_VEHICLE_1.id
+FROM dimension_table_CONTRIBUTING_FACTOR_VEHICLE_1
+WHERE COALESCE(ny_vehicle_colls_pipe.CONTRIBUTING_FACTOR_VEHICLE_1::text, '') = COALESCE(dimension_table_CONTRIBUTING_FACTOR_VEHICLE_1.CONTRIBUTING_FACTOR_VEHICLE_1::text, '');, parameters: None
+[2023-12-11T22:05:21.687+0000] {sql.py:427} INFO - Rows affected: 1076745
+[2023-12-11T22:05:21.718+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=NY_Motor_Vehicle_Collisions-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_CONTRIBUTING_FACTOR_VEHICLE_1, execution_date=20231201T000000, start_date=20231211T220515, end_date=20231211T220521
+[2023-12-11T22:05:21.735+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T22:05:21.751+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

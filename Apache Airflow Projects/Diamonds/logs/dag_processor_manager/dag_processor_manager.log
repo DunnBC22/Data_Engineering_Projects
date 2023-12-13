@@ -1,0 +1,1384 @@
+[2023-12-09T23:41:49.484+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-09T23:41:49.484+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-09T23:41:49.484+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-09T23:41:49.485+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-09T23:41:49.492+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-09T23:41:49.572+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                171  0.02s             0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0
+/opt/airflow/dags/Diamonds.py                               168  0.03s             0           0
+================================================================================
+[2023-12-09T23:42:19.685+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                201  0.01s             0           0  0.04s           2023-12-09T23:41:49
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:41:49
+/opt/airflow/dags/create_star_schema_part_2.py              204  0.00s             0           0  0.03s           2023-12-09T23:41:49
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:41:49
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.89s           2023-12-09T23:41:50
+================================================================================
+[2023-12-09T23:42:50.107+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                234  0.02s             0           0  0.04s           2023-12-09T23:42:19
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:42:19
+/opt/airflow/dags/create_star_schema_part_2.py              237  0.00s             0           0  0.04s           2023-12-09T23:42:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:42:19
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-09T23:42:21
+================================================================================
+[2023-12-09T23:43:20.505+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                267  0.02s             0           0  0.05s           2023-12-09T23:42:50
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:42:50
+/opt/airflow/dags/create_star_schema_part_2.py              270  0.01s             0           0  0.04s           2023-12-09T23:42:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:42:50
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-09T23:42:51
+================================================================================
+[2023-12-09T23:43:50.957+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                300  0.02s             0           0  0.06s           2023-12-09T23:43:20
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:43:20
+/opt/airflow/dags/create_star_schema_part_2.py              303  0.00s             0           0  0.05s           2023-12-09T23:43:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:43:20
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.31s           2023-12-09T23:43:21
+================================================================================
+[2023-12-09T23:44:21.422+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                333  0.02s             0           0  0.06s           2023-12-09T23:43:50
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:43:51
+/opt/airflow/dags/create_star_schema_part_2.py              336  0.01s             0           0  0.05s           2023-12-09T23:43:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:43:51
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:43:52
+================================================================================
+[2023-12-09T23:44:51.868+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                365  0.02s             0           0  0.06s           2023-12-09T23:44:21
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:44:21
+/opt/airflow/dags/create_star_schema_part_2.py              368  0.01s             0           0  0.05s           2023-12-09T23:44:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:44:21
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:44:22
+================================================================================
+[2023-12-09T23:45:22.310+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                398  0.02s             0           0  0.06s           2023-12-09T23:44:51
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:44:51
+/opt/airflow/dags/create_star_schema_part_2.py              401  0.01s             0           0  0.05s           2023-12-09T23:44:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:44:51
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.31s           2023-12-09T23:44:53
+================================================================================
+[2023-12-09T23:45:52.755+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                431  0.01s             0           0  0.06s           2023-12-09T23:45:22
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:45:22
+/opt/airflow/dags/create_star_schema_part_2.py              434  0.00s             0           0  0.05s           2023-12-09T23:45:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:45:22
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-09T23:45:23
+================================================================================
+[2023-12-09T23:46:23.180+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                464  0.01s             0           0  0.05s           2023-12-09T23:45:52
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:45:52
+/opt/airflow/dags/create_star_schema_part_2.py              467  0.00s             0           0  0.04s           2023-12-09T23:45:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:45:52
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:45:54
+================================================================================
+[2023-12-09T23:46:49.527+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-09T23:46:49.547+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-09T23:46:53.614+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                497  0.02s             0           0  0.03s           2023-12-09T23:46:23
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-09T23:46:23
+/opt/airflow/dags/create_star_schema_part_2.py              500  0.01s             0           0  0.03s           2023-12-09T23:46:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:46:23
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:46:24
+================================================================================
+[2023-12-09T23:47:23.985+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                539  0.02s             0           0  0.04s           2023-12-09T23:46:53
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:46:53
+/opt/airflow/dags/create_star_schema_part_2.py              542  0.00s             0           0  0.04s           2023-12-09T23:46:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:46:53
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.30s           2023-12-09T23:46:54
+================================================================================
+[2023-12-09T23:47:54.419+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                572  0.02s             0           0  0.06s           2023-12-09T23:47:24
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.05s           2023-12-09T23:47:24
+/opt/airflow/dags/create_star_schema_part_2.py              575  0.00s             0           0  0.05s           2023-12-09T23:47:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:47:24
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-09T23:47:25
+================================================================================
+[2023-12-09T23:48:24.789+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                611  0.02s             0           0  0.05s           2023-12-09T23:47:54
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:47:54
+/opt/airflow/dags/create_star_schema_part_2.py              614  0.00s             0           0  0.05s           2023-12-09T23:47:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:47:54
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:47:55
+================================================================================
+[2023-12-09T23:48:55.228+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                644  0.02s             0           0  0.06s           2023-12-09T23:48:24
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:48:24
+/opt/airflow/dags/create_star_schema_part_2.py              647  0.01s             0           0  0.05s           2023-12-09T23:48:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:48:24
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-09T23:48:26
+================================================================================
+[2023-12-09T23:49:25.628+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                680  0.02s             0           0  0.06s           2023-12-09T23:48:55
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:48:55
+/opt/airflow/dags/create_star_schema_part_2.py              683  0.01s             0           0  0.05s           2023-12-09T23:48:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:48:55
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-09T23:48:56
+================================================================================
+[2023-12-09T23:49:56.057+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                713  0.02s             0           0  0.05s           2023-12-09T23:49:25
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:49:25
+/opt/airflow/dags/create_star_schema_part_2.py              716  0.01s             0           0  0.05s           2023-12-09T23:49:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:49:25
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.31s           2023-12-09T23:49:27
+================================================================================
+[2023-12-09T23:50:26.460+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                749  0.02s             0           0  0.06s           2023-12-09T23:49:56
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:49:56
+/opt/airflow/dags/create_star_schema_part_2.py              752  0.00s             0           0  0.05s           2023-12-09T23:49:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:49:56
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:49:57
+================================================================================
+[2023-12-09T23:50:56.872+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                782  0.02s             0           0  0.04s           2023-12-09T23:50:26
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:50:26
+/opt/airflow/dags/create_star_schema_part_2.py              785  0.00s             0           0  0.04s           2023-12-09T23:50:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:50:26
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-09T23:50:27
+================================================================================
+[2023-12-09T23:51:27.237+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                815  0.02s             0           0  0.04s           2023-12-09T23:50:56
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:50:56
+/opt/airflow/dags/create_star_schema_part_2.py              818  0.01s             0           0  0.04s           2023-12-09T23:50:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:50:56
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.31s           2023-12-09T23:50:58
+================================================================================
+[2023-12-09T23:51:49.531+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-09T23:51:49.563+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-09T23:51:57.663+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                848  0.01s             0           0  0.06s           2023-12-09T23:51:27
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:51:27
+/opt/airflow/dags/create_star_schema_part_2.py              851  0.00s             0           0  0.05s           2023-12-09T23:51:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:51:27
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-09T23:51:28
+================================================================================
+[2023-12-09T23:52:28.064+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                881  0.01s             0           0  0.04s           2023-12-09T23:51:57
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:51:57
+/opt/airflow/dags/create_star_schema_part_2.py              884  0.00s             0           0  0.04s           2023-12-09T23:51:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:51:57
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.36s           2023-12-09T23:51:59
+================================================================================
+[2023-12-09T23:52:58.456+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                914  0.02s             0           0  0.04s           2023-12-09T23:52:28
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:52:28
+/opt/airflow/dags/create_star_schema_part_2.py              917  0.01s             0           0  0.04s           2023-12-09T23:52:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:52:28
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:52:29
+================================================================================
+[2023-12-09T23:53:28.832+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                947  0.01s             0           0  0.06s           2023-12-09T23:52:58
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:52:58
+/opt/airflow/dags/create_star_schema_part_2.py              950  0.00s             0           0  0.05s           2023-12-09T23:52:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:52:58
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.41s           2023-12-09T23:52:59
+================================================================================
+[2023-12-09T23:53:59.219+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                980  0.03s             0           0  0.04s           2023-12-09T23:53:28
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:53:28
+/opt/airflow/dags/create_star_schema_part_2.py              983  0.01s             0           0  0.04s           2023-12-09T23:53:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:53:28
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-09T23:53:31
+================================================================================
+[2023-12-09T23:54:29.595+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1013  0.02s             0           0  0.07s           2023-12-09T23:53:59
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:53:59
+/opt/airflow/dags/create_star_schema_part_2.py             1016  0.01s             0           0  0.06s           2023-12-09T23:53:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:53:59
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.41s           2023-12-09T23:54:01
+================================================================================
+[2023-12-09T23:55:00.000+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1046  0.02s             0           0  0.06s           2023-12-09T23:54:29
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:54:29
+/opt/airflow/dags/create_star_schema_part_2.py             1049  0.00s             0           0  0.06s           2023-12-09T23:54:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:54:29
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.37s           2023-12-09T23:54:33
+================================================================================
+[2023-12-09T23:55:30.374+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1079  0.02s             0           0  0.05s           2023-12-09T23:55:00
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:55:00
+/opt/airflow/dags/create_star_schema_part_2.py             1082  0.01s             0           0  0.05s           2023-12-09T23:55:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:55:00
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.35s           2023-12-09T23:55:03
+================================================================================
+[2023-12-09T23:56:00.742+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1112  0.01s             0           0  0.06s           2023-12-09T23:55:30
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:55:30
+/opt/airflow/dags/create_star_schema_part_2.py             1115  0.00s             0           0  0.05s           2023-12-09T23:55:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:55:30
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.36s           2023-12-09T23:55:33
+================================================================================
+[2023-12-09T23:56:31.116+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1145  0.02s             0           0  0.03s           2023-12-09T23:56:00
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:56:00
+/opt/airflow/dags/create_star_schema_part_2.py             1148  0.01s             0           0  0.03s           2023-12-09T23:56:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:56:00
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.35s           2023-12-09T23:56:04
+================================================================================
+[2023-12-09T23:56:49.724+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-09T23:56:49.749+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-09T23:57:01.505+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1178  0.02s             0           0  0.05s           2023-12-09T23:56:31
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.05s           2023-12-09T23:56:31
+/opt/airflow/dags/create_star_schema_part_2.py             1181  0.01s             0           0  0.05s           2023-12-09T23:56:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:56:31
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.37s           2023-12-09T23:56:34
+================================================================================
+[2023-12-09T23:57:31.916+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1211  0.02s             0           0  0.06s           2023-12-09T23:57:01
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:57:01
+/opt/airflow/dags/create_star_schema_part_2.py             1214  0.01s             0           0  0.05s           2023-12-09T23:57:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:57:01
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.36s           2023-12-09T23:57:05
+================================================================================
+[2023-12-09T23:58:02.325+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1244  0.02s             0           0  0.06s           2023-12-09T23:57:31
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:57:31
+/opt/airflow/dags/create_star_schema_part_2.py             1247  0.00s             0           0  0.05s           2023-12-09T23:57:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:57:32
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.35s           2023-12-09T23:57:35
+================================================================================
+[2023-12-09T23:58:32.793+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1277  0.02s             0           0  0.06s           2023-12-09T23:58:02
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:58:02
+/opt/airflow/dags/create_star_schema_part_2.py             1280  0.00s             0           0  0.05s           2023-12-09T23:58:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:58:02
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:58:05
+================================================================================
+[2023-12-09T23:59:03.225+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1310  0.02s             0           0  0.06s           2023-12-09T23:58:32
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:58:32
+/opt/airflow/dags/create_star_schema_part_2.py             1313  0.00s             0           0  0.05s           2023-12-09T23:58:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-09T23:58:32
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:58:36
+================================================================================
+[2023-12-09T23:59:33.665+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1343  0.02s             0           0  0.06s           2023-12-09T23:59:03
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:59:03
+/opt/airflow/dags/create_star_schema_part_2.py             1346  0.00s             0           0  0.05s           2023-12-09T23:59:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:59:03
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:59:06
+================================================================================
+[2023-12-10T00:00:04.106+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1376  0.02s             0           0  0.06s           2023-12-09T23:59:33
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-09T23:59:33
+/opt/airflow/dags/create_star_schema_part_2.py             1379  0.00s             0           0  0.05s           2023-12-09T23:59:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-09T23:59:33
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-09T23:59:37
+================================================================================
+[2023-12-10T00:00:34.600+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1409  0.02s             0           0  0.05s           2023-12-10T00:00:04
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:00:04
+/opt/airflow/dags/create_star_schema_part_2.py             1412  0.01s             0           0  0.05s           2023-12-10T00:00:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:00:04
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:00:07
+================================================================================
+[2023-12-10T00:01:05.000+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1442  0.02s             0           0  0.06s           2023-12-10T00:00:34
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:00:34
+/opt/airflow/dags/create_star_schema_part_2.py             1445  0.01s             0           0  0.05s           2023-12-10T00:00:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:00:34
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:00:38
+================================================================================
+[2023-12-10T00:01:35.397+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1475  0.02s             0           0  0.06s           2023-12-10T00:01:05
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:01:05
+/opt/airflow/dags/create_star_schema_part_2.py             1478  0.01s             0           0  0.05s           2023-12-10T00:01:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:01:05
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.31s           2023-12-10T00:01:08
+================================================================================
+[2023-12-10T00:01:49.924+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-10T00:01:49.950+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-10T00:02:05.804+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1508  0.02s             0           0  0.06s           2023-12-10T00:01:35
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:01:35
+/opt/airflow/dags/create_star_schema_part_2.py             1511  0.01s             0           0  0.05s           2023-12-10T00:01:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:01:35
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:01:38
+================================================================================
+[2023-12-10T00:02:36.285+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1541  0.02s             0           0  0.06s           2023-12-10T00:02:05
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:02:05
+/opt/airflow/dags/create_star_schema_part_2.py             1544  0.01s             0           0  0.05s           2023-12-10T00:02:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:02:05
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:02:09
+================================================================================
+[2023-12-10T00:03:06.771+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1574  0.02s             0           0  0.06s           2023-12-10T00:02:36
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:02:36
+/opt/airflow/dags/create_star_schema_part_2.py             1577  0.00s             0           0  0.05s           2023-12-10T00:02:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:02:36
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:02:39
+================================================================================
+[2023-12-10T00:03:37.180+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1607  0.01s             0           0  0.05s           2023-12-10T00:03:06
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:03:06
+/opt/airflow/dags/create_star_schema_part_2.py             1610  0.00s             0           0  0.04s           2023-12-10T00:03:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:03:06
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:03:10
+================================================================================
+[2023-12-10T00:04:07.652+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1640  0.02s             0           0  0.05s           2023-12-10T00:03:37
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:03:37
+/opt/airflow/dags/create_star_schema_part_2.py             1643  0.01s             0           0  0.04s           2023-12-10T00:03:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:03:37
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:03:40
+================================================================================
+[2023-12-10T00:04:38.078+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1673  0.02s             0           0  0.06s           2023-12-10T00:04:07
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:04:07
+/opt/airflow/dags/create_star_schema_part_2.py             1676  0.00s             0           0  0.05s           2023-12-10T00:04:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:04:07
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:04:11
+================================================================================
+[2023-12-10T00:05:08.506+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1706  0.01s             0           0  0.06s           2023-12-10T00:04:38
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:04:38
+/opt/airflow/dags/create_star_schema_part_2.py             1709  0.00s             0           0  0.05s           2023-12-10T00:04:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:04:38
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.35s           2023-12-10T00:04:41
+================================================================================
+[2023-12-10T00:05:38.943+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1739  0.02s             0           0  0.05s           2023-12-10T00:05:08
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:05:08
+/opt/airflow/dags/create_star_schema_part_2.py             1742  0.00s             0           0  0.04s           2023-12-10T00:05:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:05:08
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.31s           2023-12-10T00:05:11
+================================================================================
+[2023-12-10T00:06:09.398+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1772  0.02s             0           0  0.06s           2023-12-10T00:05:38
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:05:39
+/opt/airflow/dags/create_star_schema_part_2.py             1775  0.01s             0           0  0.05s           2023-12-10T00:05:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:05:39
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:05:42
+================================================================================
+[2023-12-10T00:06:39.874+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1805  0.02s             0           0  0.05s           2023-12-10T00:06:09
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:06:09
+/opt/airflow/dags/create_star_schema_part_2.py             1808  0.01s             0           0  0.04s           2023-12-10T00:06:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:06:09
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:06:12
+================================================================================
+[2023-12-10T00:06:50.079+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-10T00:06:50.110+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-10T00:07:10.421+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1838  0.02s             0           0  0.06s           2023-12-10T00:06:39
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:06:39
+/opt/airflow/dags/create_star_schema_part_2.py             1841  0.01s             0           0  0.05s           2023-12-10T00:06:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:06:39
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:06:43
+================================================================================
+[2023-12-10T00:07:40.849+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1871  0.01s             0           0  0.06s           2023-12-10T00:07:10
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:07:10
+/opt/airflow/dags/create_star_schema_part_2.py             1874  0.00s             0           0  0.05s           2023-12-10T00:07:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:07:10
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:07:13
+================================================================================
+[2023-12-10T00:08:11.268+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1904  0.01s             0           0  0.03s           2023-12-10T00:07:40
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:07:40
+/opt/airflow/dags/create_star_schema_part_2.py             1907  0.00s             0           0  0.03s           2023-12-10T00:07:40
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:07:40
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:07:44
+================================================================================
+[2023-12-10T00:08:41.639+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1937  0.02s             0           0  0.03s           2023-12-10T00:08:11
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:08:11
+/opt/airflow/dags/create_star_schema_part_2.py             1940  0.00s             0           0  0.03s           2023-12-10T00:08:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:08:11
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.36s           2023-12-10T00:08:14
+================================================================================
+[2023-12-10T00:09:12.058+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1970  0.02s             0           0  0.05s           2023-12-10T00:08:41
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:08:41
+/opt/airflow/dags/create_star_schema_part_2.py             1973  0.00s             0           0  0.04s           2023-12-10T00:08:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:08:41
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-10T00:08:45
+================================================================================
+[2023-12-10T00:09:42.489+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2003  0.01s             0           0  0.05s           2023-12-10T00:09:12
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:09:12
+/opt/airflow/dags/create_star_schema_part_2.py             2006  0.00s             0           0  0.04s           2023-12-10T00:09:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:09:12
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.31s           2023-12-10T00:09:15
+================================================================================
+[2023-12-10T00:10:12.863+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2036  0.02s             0           0  0.04s           2023-12-10T00:09:42
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:09:42
+/opt/airflow/dags/create_star_schema_part_2.py             2039  0.01s             0           0  0.04s           2023-12-10T00:09:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:09:42
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.35s           2023-12-10T00:09:45
+================================================================================
+[2023-12-10T00:10:43.286+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2069  0.02s             0           0  0.06s           2023-12-10T00:10:12
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:10:12
+/opt/airflow/dags/create_star_schema_part_2.py             2072  0.00s             0           0  0.05s           2023-12-10T00:10:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:10:12
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-10T00:10:16
+================================================================================
+[2023-12-10T00:11:13.734+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2102  0.02s             0           0  0.06s           2023-12-10T00:10:43
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:10:43
+/opt/airflow/dags/create_star_schema_part_2.py             2105  0.01s             0           0  0.05s           2023-12-10T00:10:43
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:10:43
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.36s           2023-12-10T00:10:46
+================================================================================
+[2023-12-10T00:11:44.221+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2135  0.02s             0           0  0.05s           2023-12-10T00:11:13
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:11:13
+/opt/airflow/dags/create_star_schema_part_2.py             2138  0.00s             0           0  0.04s           2023-12-10T00:11:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:11:13
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:11:17
+================================================================================
+[2023-12-10T00:11:50.380+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-10T00:11:50.389+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-10T00:12:14.603+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2168  0.02s             0           0  0.05s           2023-12-10T00:11:44
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:11:44
+/opt/airflow/dags/create_star_schema_part_2.py             2171  0.01s             0           0  0.05s           2023-12-10T00:11:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:11:44
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:11:47
+================================================================================
+[2023-12-10T00:12:45.031+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2201  0.02s             0           0  0.06s           2023-12-10T00:12:14
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:12:14
+/opt/airflow/dags/create_star_schema_part_2.py             2204  0.01s             0           0  0.05s           2023-12-10T00:12:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:12:14
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-10T00:12:18
+================================================================================
+[2023-12-10T00:13:15.501+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2234  0.02s             0           0  0.06s           2023-12-10T00:12:45
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:12:45
+/opt/airflow/dags/create_star_schema_part_2.py             2237  0.00s             0           0  0.05s           2023-12-10T00:12:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:12:45
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:12:48
+================================================================================
+[2023-12-10T00:13:45.907+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2267  0.01s             0           0  0.06s           2023-12-10T00:13:15
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:13:15
+/opt/airflow/dags/create_star_schema_part_2.py             2270  0.00s             0           0  0.05s           2023-12-10T00:13:15
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:13:15
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:13:18
+================================================================================
+[2023-12-10T00:14:16.311+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2300  0.01s             0           0  0.04s           2023-12-10T00:13:45
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:13:45
+/opt/airflow/dags/create_star_schema_part_2.py             2303  0.00s             0           0  0.04s           2023-12-10T00:13:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:13:45
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:13:49
+================================================================================
+[2023-12-10T00:14:46.767+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2333  0.02s             0           0  0.05s           2023-12-10T00:14:16
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:14:16
+/opt/airflow/dags/create_star_schema_part_2.py             2336  0.00s             0           0  0.05s           2023-12-10T00:14:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:14:16
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-10T00:14:19
+================================================================================
+[2023-12-10T00:15:17.234+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2366  0.02s             0           0  0.06s           2023-12-10T00:14:46
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:14:46
+/opt/airflow/dags/create_star_schema_part_2.py             2369  0.00s             0           0  0.05s           2023-12-10T00:14:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:14:46
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:14:50
+================================================================================
+[2023-12-10T00:15:47.636+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2406  0.01s             0           0  0.06s           2023-12-10T00:15:17
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:15:17
+/opt/airflow/dags/create_star_schema_part_2.py             2409  0.00s             0           0  0.05s           2023-12-10T00:15:17
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:15:17
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:15:20
+================================================================================
+[2023-12-10T00:16:18.074+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2439  0.02s             0           0  0.03s           2023-12-10T00:15:47
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-10T00:15:47
+/opt/airflow/dags/create_star_schema_part_2.py             2442  0.00s             0           0  0.03s           2023-12-10T00:15:47
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:15:47
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:15:51
+================================================================================
+[2023-12-10T00:16:48.525+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2472  0.02s             0           0  0.06s           2023-12-10T00:16:18
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:16:18
+/opt/airflow/dags/create_star_schema_part_2.py             2475  0.00s             0           0  0.05s           2023-12-10T00:16:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:16:18
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:16:21
+================================================================================
+[2023-12-10T00:16:50.615+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-10T00:16:50.643+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-10T00:17:18.978+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2505  0.02s             0           0  0.05s           2023-12-10T00:16:48
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:16:48
+/opt/airflow/dags/create_star_schema_part_2.py             2508  0.00s             0           0  0.05s           2023-12-10T00:16:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:16:48
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:16:52
+================================================================================
+[2023-12-10T00:17:49.422+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2538  0.02s             0           0  0.06s           2023-12-10T00:17:19
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:17:19
+/opt/airflow/dags/create_star_schema_part_2.py             2541  0.00s             0           0  0.05s           2023-12-10T00:17:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:17:19
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:17:22
+================================================================================
+[2023-12-10T00:18:19.914+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2571  0.02s             0           0  0.06s           2023-12-10T00:17:49
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:17:49
+/opt/airflow/dags/create_star_schema_part_2.py             2574  0.01s             0           0  0.05s           2023-12-10T00:17:49
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:17:49
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:17:52
+================================================================================
+[2023-12-10T00:18:50.325+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2604  0.02s             0           0  0.06s           2023-12-10T00:18:19
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:18:19
+/opt/airflow/dags/create_star_schema_part_2.py             2607  0.01s             0           0  0.05s           2023-12-10T00:18:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:18:20
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:18:23
+================================================================================
+[2023-12-10T00:19:20.811+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2637  0.02s             0           0  0.06s           2023-12-10T00:18:50
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:18:50
+/opt/airflow/dags/create_star_schema_part_2.py             2640  0.01s             0           0  0.05s           2023-12-10T00:18:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:18:50
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.35s           2023-12-10T00:18:53
+================================================================================
+[2023-12-10T00:19:51.275+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2670  0.02s             0           0  0.05s           2023-12-10T00:19:20
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:19:20
+/opt/airflow/dags/create_star_schema_part_2.py             2673  0.01s             0           0  0.05s           2023-12-10T00:19:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:19:20
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:19:24
+================================================================================
+[2023-12-10T00:20:21.761+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2703  0.02s             0           0  0.06s           2023-12-10T00:19:51
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:19:51
+/opt/airflow/dags/create_star_schema_part_2.py             2706  0.01s             0           0  0.05s           2023-12-10T00:19:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:19:51
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:19:54
+================================================================================
+[2023-12-10T00:20:52.209+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2736  0.02s             0           0  0.06s           2023-12-10T00:20:21
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:20:21
+/opt/airflow/dags/create_star_schema_part_2.py             2739  0.01s             0           0  0.05s           2023-12-10T00:20:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:20:21
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:20:25
+================================================================================
+[2023-12-10T00:21:22.689+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2769  0.02s             0           0  0.06s           2023-12-10T00:20:52
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:20:52
+/opt/airflow/dags/create_star_schema_part_2.py             2772  0.00s             0           0  0.05s           2023-12-10T00:20:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:20:52
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:20:55
+================================================================================
+[2023-12-10T00:21:51.097+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-10T00:21:51.130+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-10T00:21:53.195+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2802  0.02s             0           0  0.06s           2023-12-10T00:21:22
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:21:22
+/opt/airflow/dags/create_star_schema_part_2.py             2805  0.00s             0           0  0.05s           2023-12-10T00:21:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:21:22
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:21:26
+================================================================================
+[2023-12-10T00:22:23.659+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2835  0.02s             0           0  0.06s           2023-12-10T00:21:53
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:21:53
+/opt/airflow/dags/create_star_schema_part_2.py             2838  0.01s             0           0  0.05s           2023-12-10T00:21:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:21:53
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:21:56
+================================================================================
+[2023-12-10T00:22:54.159+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2868  0.02s             0           0  0.06s           2023-12-10T00:22:23
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:22:23
+/opt/airflow/dags/create_star_schema_part_2.py             2871  0.00s             0           0  0.05s           2023-12-10T00:22:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:22:23
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:22:27
+================================================================================
+[2023-12-10T00:23:24.614+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2901  0.02s             0           0  0.06s           2023-12-10T00:22:54
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:22:54
+/opt/airflow/dags/create_star_schema_part_2.py             2904  0.01s             0           0  0.05s           2023-12-10T00:22:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:22:54
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:22:57
+================================================================================
+[2023-12-10T00:23:55.076+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2934  0.02s             0           0  0.05s           2023-12-10T00:23:24
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:23:24
+/opt/airflow/dags/create_star_schema_part_2.py             2937  0.01s             0           0  0.05s           2023-12-10T00:23:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:23:24
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:23:28
+================================================================================
+[2023-12-10T00:24:25.491+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2967  0.02s             0           0  0.06s           2023-12-10T00:23:55
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:23:55
+/opt/airflow/dags/create_star_schema_part_2.py             2970  0.01s             0           0  0.05s           2023-12-10T00:23:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:23:55
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:23:58
+================================================================================
+[2023-12-10T00:24:55.963+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3000  0.02s             0           0  0.05s           2023-12-10T00:24:25
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:24:25
+/opt/airflow/dags/create_star_schema_part_2.py             3003  0.00s             0           0  0.05s           2023-12-10T00:24:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:24:25
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:24:28
+================================================================================
+[2023-12-10T00:25:26.430+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3033  0.02s             0           0  0.06s           2023-12-10T00:24:55
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:24:56
+/opt/airflow/dags/create_star_schema_part_2.py             3036  0.01s             0           0  0.05s           2023-12-10T00:24:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:24:56
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:24:59
+================================================================================
+[2023-12-10T00:25:56.888+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3066  0.02s             0           0  0.06s           2023-12-10T00:25:26
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:25:26
+/opt/airflow/dags/create_star_schema_part_2.py             3069  0.01s             0           0  0.05s           2023-12-10T00:25:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:25:26
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-10T00:25:29
+================================================================================
+[2023-12-10T00:26:27.338+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3099  0.02s             0           0  0.06s           2023-12-10T00:25:56
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:25:56
+/opt/airflow/dags/create_star_schema_part_2.py             3102  0.01s             0           0  0.05s           2023-12-10T00:25:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:25:56
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:26:00
+================================================================================
+[2023-12-10T00:26:51.684+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-10T00:26:51.717+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-10T00:26:57.825+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3132  0.02s             0           0  0.06s           2023-12-10T00:26:27
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:26:27
+/opt/airflow/dags/create_star_schema_part_2.py             3135  0.00s             0           0  0.05s           2023-12-10T00:26:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:26:27
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-10T00:26:30
+================================================================================
+[2023-12-10T00:27:28.272+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3165  0.02s             0           0  0.06s           2023-12-10T00:26:57
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:26:57
+/opt/airflow/dags/create_star_schema_part_2.py             3168  0.01s             0           0  0.05s           2023-12-10T00:26:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:26:57
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:27:01
+================================================================================
+[2023-12-10T00:27:58.682+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3198  0.01s             0           0  0.05s           2023-12-10T00:27:28
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:27:28
+/opt/airflow/dags/create_star_schema_part_2.py             3201  0.00s             0           0  0.04s           2023-12-10T00:27:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:27:28
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-10T00:27:31
+================================================================================
+[2023-12-10T00:28:29.070+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3231  0.01s             0           0  0.05s           2023-12-10T00:27:58
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:27:58
+/opt/airflow/dags/create_star_schema_part_2.py             3234  0.00s             0           0  0.04s           2023-12-10T00:27:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:27:58
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.30s           2023-12-10T00:28:02
+================================================================================
+[2023-12-10T00:28:59.438+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3264  0.02s             0           0  0.05s           2023-12-10T00:28:29
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:28:29
+/opt/airflow/dags/create_star_schema_part_2.py             3267  0.01s             0           0  0.04s           2023-12-10T00:28:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:28:29
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:28:32
+================================================================================
+[2023-12-10T00:29:29.847+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3297  0.02s             0           0  0.05s           2023-12-10T00:28:59
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:28:59
+/opt/airflow/dags/create_star_schema_part_2.py             3300  0.01s             0           0  0.04s           2023-12-10T00:28:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:28:59
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.31s           2023-12-10T00:29:02
+================================================================================
+[2023-12-10T00:30:00.224+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3330  0.01s             0           0  0.06s           2023-12-10T00:29:29
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:29:29
+/opt/airflow/dags/create_star_schema_part_2.py             3333  0.00s             0           0  0.05s           2023-12-10T00:29:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:29:29
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-10T00:29:33
+================================================================================
+[2023-12-10T00:30:30.578+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3363  0.01s             0           0  0.04s           2023-12-10T00:30:00
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:30:00
+/opt/airflow/dags/create_star_schema_part_2.py             3366  0.00s             0           0  0.04s           2023-12-10T00:30:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:30:00
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.35s           2023-12-10T00:30:03
+================================================================================
+[2023-12-10T00:31:00.997+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3396  0.02s             0           0  0.04s           2023-12-10T00:30:30
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-10T00:30:30
+/opt/airflow/dags/create_star_schema_part_2.py             3399  0.01s             0           0  0.04s           2023-12-10T00:30:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.04s           2023-12-10T00:30:30
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.36s           2023-12-10T00:30:35
+================================================================================
+[2023-12-10T00:31:31.445+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3429  0.02s             0           0  0.04s           2023-12-10T00:31:01
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:31:01
+/opt/airflow/dags/create_star_schema_part_2.py             3432  0.01s             0           0  0.04s           2023-12-10T00:31:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:31:01
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:31:05
+================================================================================
+[2023-12-10T00:31:51.747+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-10T00:31:51.771+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-10T00:32:01.923+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3462  0.02s             0           0  0.06s           2023-12-10T00:31:31
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:31:31
+/opt/airflow/dags/create_star_schema_part_2.py             3465  0.01s             0           0  0.05s           2023-12-10T00:31:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:31:31
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:31:35
+================================================================================
+[2023-12-10T00:32:32.384+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3495  0.02s             0           0  0.06s           2023-12-10T00:32:01
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:32:01
+/opt/airflow/dags/create_star_schema_part_2.py             3498  0.01s             0           0  0.05s           2023-12-10T00:32:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:32:02
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-10T00:32:06
+================================================================================
+[2023-12-10T00:33:02.809+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3528  0.02s             0           0  0.04s           2023-12-10T00:32:32
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:32:32
+/opt/airflow/dags/create_star_schema_part_2.py             3531  0.01s             0           0  0.04s           2023-12-10T00:32:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:32:32
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.32s           2023-12-10T00:32:36
+================================================================================
+[2023-12-10T00:33:33.210+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3561  0.02s             0           0  0.06s           2023-12-10T00:33:02
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:33:02
+/opt/airflow/dags/create_star_schema_part_2.py             3564  0.00s             0           0  0.05s           2023-12-10T00:33:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:33:02
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:33:07
+================================================================================
+[2023-12-10T00:34:03.647+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3594  0.03s             0           0  0.06s           2023-12-10T00:33:33
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:33:33
+/opt/airflow/dags/create_star_schema_part_2.py             3597  0.01s             0           0  0.05s           2023-12-10T00:33:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:33:33
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.33s           2023-12-10T00:33:37
+================================================================================
+[2023-12-10T00:34:34.064+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3627  0.01s             0           0  0.06s           2023-12-10T00:34:03
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:34:03
+/opt/airflow/dags/create_star_schema_part_2.py             3630  0.00s             0           0  0.05s           2023-12-10T00:34:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-10T00:34:03
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.34s           2023-12-10T00:34:08
+================================================================================
+[2023-12-10T00:35:04.583+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3660  0.06s             0           0  0.05s           2023-12-10T00:34:34
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-10T00:34:34
+/opt/airflow/dags/create_star_schema_part_2.py             3663  0.00s             0           0  0.05s           2023-12-10T00:34:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:34:34
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.37s           2023-12-10T00:34:38
+================================================================================
+[2023-12-10T00:35:35.046+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3693  0.05s             0           0  0.09s           2023-12-10T00:35:04
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.05s           2023-12-10T00:35:04
+/opt/airflow/dags/create_star_schema_part_2.py             3695  0.01s             0           0  0.05s           2023-12-10T00:35:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:35:04
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.39s           2023-12-10T00:35:09
+================================================================================
+[2023-12-10T00:36:06.077+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  1.14s           2023-12-10T00:35:36
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.58s           2023-12-10T00:35:36
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  1.06s           2023-12-10T00:35:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.66s           2023-12-10T00:35:36
+/opt/airflow/dags/Diamonds.py                                                      5           0  4.11s           2023-12-10T00:35:43
+================================================================================
+[2023-12-10T00:36:36.755+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3759  0.01s             0           0  0.21s           2023-12-10T00:36:06
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.05s           2023-12-10T00:36:07
+/opt/airflow/dags/create_star_schema_part_2.py             3760  0.00s             0           0  0.08s           2023-12-10T00:36:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-10T00:36:07
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.67s           2023-12-10T00:36:14
+================================================================================
+[2023-12-10T00:36:51.994+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-10T00:36:52.016+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-10T00:37:07.202+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.66s           2023-12-10T00:36:37
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  1.14s           2023-12-10T00:36:38
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.66s           2023-12-10T00:36:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.87s           2023-12-10T00:36:38
+/opt/airflow/dags/Diamonds.py                                                      5           0  0.43s           2023-12-10T00:36:45
+================================================================================
+[2023-12-10T00:37:38.803+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               3822  0.02s             0           0  0.06s           2023-12-10T00:37:07
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.06s           2023-12-10T00:37:09
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.06s           2023-12-10T00:37:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.06s           2023-12-10T00:37:09
+/opt/airflow/dags/Diamonds.py                              3812  18.63s            5           0  0.43s           2023-12-10T00:36:45
+================================================================================
+[2023-12-10T00:38:09.296+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  3.38s           2023-12-10T00:37:42
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  1.48s           2023-12-10T00:37:52
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  6.84s           2023-12-10T00:37:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.11s           2023-12-10T00:37:52
+/opt/airflow/dags/Diamonds.py                                                      5           0  30.27s          2023-12-10T00:37:50
+================================================================================
+[2023-12-10T00:38:39.532+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                       0           0  0.06s           2023-12-10T00:38:12
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  3.15s           2023-12-10T00:38:32
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  6.01s           2023-12-10T00:38:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  2.99s           2023-12-10T00:38:36
+/opt/airflow/dags/Diamonds.py                                                      5           0  15.22s          2023-12-10T00:38:36
+================================================================================
+[2023-12-10T00:38:56.594+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

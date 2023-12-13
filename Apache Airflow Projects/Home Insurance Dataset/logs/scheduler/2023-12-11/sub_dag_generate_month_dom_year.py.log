@@ -1,0 +1,970 @@
+[2023-12-11T19:48:52.040+0000] {processor.py:157} INFO - Started process (PID=191) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:48:52.041+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:48:52.043+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:48:52.042+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:48:52.052+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:48:52.048+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:48:52.053+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:48:52.075+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.037 seconds
+[2023-12-11T19:49:23.604+0000] {processor.py:157} INFO - Started process (PID=238) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:49:23.612+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:49:23.623+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:49:23.621+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:49:23.690+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:49:23.681+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:49:23.693+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:49:23.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.134 seconds
+[2023-12-11T19:49:54.428+0000] {processor.py:157} INFO - Started process (PID=287) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:49:54.430+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:49:54.431+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:49:54.431+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:49:54.435+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:49:54.434+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:49:54.436+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:49:54.622+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.196 seconds
+[2023-12-11T19:50:24.897+0000] {processor.py:157} INFO - Started process (PID=334) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:50:24.898+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:50:24.899+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:50:24.899+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:50:24.904+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:50:24.903+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:50:24.904+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:50:24.923+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.028 seconds
+[2023-12-11T19:50:55.488+0000] {processor.py:157} INFO - Started process (PID=381) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:50:55.488+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:50:55.489+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:50:55.489+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:50:55.493+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:50:55.492+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:50:55.493+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:50:55.507+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.021 seconds
+[2023-12-11T19:51:26.106+0000] {processor.py:157} INFO - Started process (PID=428) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:51:26.106+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:51:26.107+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:51:26.107+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:51:26.110+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:51:26.110+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:51:26.111+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:51:26.123+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:51:56.590+0000] {processor.py:157} INFO - Started process (PID=475) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:51:56.591+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:51:56.591+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:51:56.591+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:51:56.595+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:51:56.594+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:51:56.595+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:51:56.608+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:52:27.185+0000] {processor.py:157} INFO - Started process (PID=522) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:52:27.186+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:52:27.187+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:52:27.187+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:52:27.190+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:52:27.189+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:52:27.190+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:52:27.203+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:52:57.811+0000] {processor.py:157} INFO - Started process (PID=569) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:52:57.812+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:52:57.813+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:52:57.812+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:52:57.816+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:52:57.815+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:52:57.817+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:52:57.829+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:53:28.368+0000] {processor.py:157} INFO - Started process (PID=616) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:53:28.369+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:53:28.370+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:53:28.369+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:53:28.373+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:53:28.372+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:53:28.373+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:53:28.386+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:53:59.020+0000] {processor.py:157} INFO - Started process (PID=663) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:53:59.021+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:53:59.021+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:53:59.021+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:53:59.024+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:53:59.024+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:53:59.025+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:53:59.038+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:54:29.704+0000] {processor.py:157} INFO - Started process (PID=710) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:54:29.704+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:54:29.705+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:54:29.705+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:54:29.708+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:54:29.707+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:54:29.709+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:54:29.721+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:55:00.340+0000] {processor.py:157} INFO - Started process (PID=757) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:55:00.340+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:55:00.341+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:55:00.341+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:55:00.344+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:55:00.343+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:55:00.345+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:55:00.357+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:55:30.926+0000] {processor.py:157} INFO - Started process (PID=804) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:55:30.926+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:55:30.927+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:55:30.927+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:55:30.931+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:55:30.930+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:55:30.931+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:55:30.944+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:56:01.566+0000] {processor.py:157} INFO - Started process (PID=851) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:56:01.567+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:56:01.567+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:56:01.567+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:56:01.570+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:56:01.570+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:56:01.570+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:56:01.583+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.019 seconds
+[2023-12-11T19:56:32.235+0000] {processor.py:157} INFO - Started process (PID=898) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:56:32.236+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:56:32.237+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:56:32.237+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:56:32.240+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:56:32.239+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:56:32.241+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:56:32.254+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:57:02.882+0000] {processor.py:157} INFO - Started process (PID=945) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:57:02.883+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:57:02.883+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:57:02.883+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:57:02.887+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:57:02.886+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:57:02.887+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:57:02.901+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.021 seconds
+[2023-12-11T19:57:33.540+0000] {processor.py:157} INFO - Started process (PID=992) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:57:33.541+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:57:33.541+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:57:33.541+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:57:33.545+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:57:33.544+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:57:33.545+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:57:33.558+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:58:04.253+0000] {processor.py:157} INFO - Started process (PID=1039) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:58:04.253+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:58:04.254+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:58:04.254+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:58:04.257+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:58:04.257+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:58:04.258+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:58:04.270+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:58:34.905+0000] {processor.py:157} INFO - Started process (PID=1086) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:58:34.906+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:58:34.907+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:58:34.906+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:58:34.910+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:58:34.909+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:58:34.910+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:58:34.923+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.019 seconds
+[2023-12-11T19:59:05.597+0000] {processor.py:157} INFO - Started process (PID=1133) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:59:05.598+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:59:05.598+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:59:05.598+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:59:05.602+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:59:05.601+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:59:05.602+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:59:05.615+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T19:59:36.168+0000] {processor.py:157} INFO - Started process (PID=1180) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:59:36.169+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T19:59:36.169+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:59:36.169+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:59:36.173+0000] {logging_mixin.py:154} INFO - [2023-12-11T19:59:36.172+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T19:59:36.173+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T19:59:36.186+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:00:06.857+0000] {processor.py:157} INFO - Started process (PID=1227) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:00:06.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:00:06.858+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:00:06.858+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:00:06.862+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:00:06.861+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:00:06.862+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:00:06.875+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:00:37.506+0000] {processor.py:157} INFO - Started process (PID=1274) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:00:37.507+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:00:37.507+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:00:37.507+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:00:37.511+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:00:37.510+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:00:37.511+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:00:37.524+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:01:08.159+0000] {processor.py:157} INFO - Started process (PID=1321) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:01:08.159+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:01:08.160+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:01:08.160+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:01:08.163+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:01:08.162+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:01:08.164+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:01:08.176+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:01:38.824+0000] {processor.py:157} INFO - Started process (PID=1368) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:01:38.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:01:38.825+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:01:38.825+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:01:38.828+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:01:38.828+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:01:38.829+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:01:38.841+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:02:09.474+0000] {processor.py:157} INFO - Started process (PID=1415) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:02:09.475+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:02:09.476+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:02:09.476+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:02:09.479+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:02:09.478+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:02:09.479+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:02:09.492+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:02:40.183+0000] {processor.py:157} INFO - Started process (PID=1462) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:02:40.184+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:02:40.184+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:02:40.184+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:02:40.188+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:02:40.187+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:02:40.188+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:02:40.201+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:03:10.813+0000] {processor.py:157} INFO - Started process (PID=1509) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:03:10.813+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:03:10.814+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:03:10.814+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:03:10.817+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:03:10.816+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:03:10.817+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:03:10.830+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.019 seconds
+[2023-12-11T20:03:41.432+0000] {processor.py:157} INFO - Started process (PID=1556) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:03:41.433+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:03:41.433+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:03:41.433+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:03:41.437+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:03:41.436+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:03:41.437+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:03:41.450+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:04:12.147+0000] {processor.py:157} INFO - Started process (PID=1603) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:04:12.147+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:04:12.148+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:04:12.148+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:04:12.151+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:04:12.150+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:04:12.152+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:04:12.164+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:04:42.836+0000] {processor.py:157} INFO - Started process (PID=1650) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:04:42.836+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:04:42.837+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:04:42.837+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:04:42.840+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:04:42.839+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:04:42.841+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:04:42.853+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:05:13.442+0000] {processor.py:157} INFO - Started process (PID=1697) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:05:13.443+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:05:13.444+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:05:13.443+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:05:13.447+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:05:13.446+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:05:13.447+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:05:13.460+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:05:44.139+0000] {processor.py:157} INFO - Started process (PID=1744) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:05:44.140+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:05:44.140+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:05:44.140+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:05:44.144+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:05:44.143+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:05:44.144+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:05:44.157+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:06:14.762+0000] {processor.py:157} INFO - Started process (PID=1798) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:06:14.763+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:06:14.763+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:06:14.763+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:06:14.767+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:06:14.766+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:06:14.767+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:06:14.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:06:45.467+0000] {processor.py:157} INFO - Started process (PID=1845) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:06:45.468+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:06:45.468+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:06:45.468+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:06:45.471+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:06:45.471+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:06:45.472+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:06:45.485+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:07:16.077+0000] {processor.py:157} INFO - Started process (PID=1892) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:07:16.077+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:07:16.078+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:07:16.078+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:07:16.081+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:07:16.080+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:07:16.081+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:07:16.094+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:07:46.743+0000] {processor.py:157} INFO - Started process (PID=1939) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:07:46.744+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:07:46.744+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:07:46.744+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:07:46.748+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:07:46.747+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:07:46.748+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:07:46.761+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:08:17.451+0000] {processor.py:157} INFO - Started process (PID=1986) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:08:17.451+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:08:17.452+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:08:17.452+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:08:17.455+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:08:17.454+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:08:17.456+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:08:17.468+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:08:48.064+0000] {processor.py:157} INFO - Started process (PID=2033) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:08:48.065+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:08:48.065+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:08:48.065+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:08:48.069+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:08:48.068+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:08:48.069+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:08:48.082+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:09:18.750+0000] {processor.py:157} INFO - Started process (PID=2080) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:09:18.750+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:09:18.751+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:09:18.751+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:09:18.754+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:09:18.754+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:09:18.755+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:09:18.767+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:09:49.476+0000] {processor.py:157} INFO - Started process (PID=2127) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:09:49.477+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:09:49.477+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:09:49.477+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:09:49.480+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:09:49.480+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:09:49.481+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:09:49.494+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:10:20.161+0000] {processor.py:157} INFO - Started process (PID=2174) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:10:20.162+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:10:20.162+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:10:20.162+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:10:20.165+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:10:20.165+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:10:20.166+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:10:20.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:10:50.822+0000] {processor.py:157} INFO - Started process (PID=2221) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:10:50.823+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:10:50.823+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:10:50.823+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:10:50.827+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:10:50.826+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:10:50.827+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:10:50.840+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:11:21.481+0000] {processor.py:157} INFO - Started process (PID=2268) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:11:21.482+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:11:21.483+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:11:21.482+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:11:21.486+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:11:21.485+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:11:21.486+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:11:21.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:11:52.193+0000] {processor.py:157} INFO - Started process (PID=2315) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:11:52.194+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:11:52.194+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:11:52.194+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:11:52.198+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:11:52.197+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:11:52.198+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:11:52.211+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:12:22.857+0000] {processor.py:157} INFO - Started process (PID=2362) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:12:22.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:12:22.858+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:12:22.858+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:12:22.862+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:12:22.861+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:12:22.862+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:12:22.875+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:12:53.461+0000] {processor.py:157} INFO - Started process (PID=2409) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:12:53.461+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:12:53.462+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:12:53.462+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:12:53.466+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:12:53.465+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:12:53.466+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:12:53.479+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:13:24.183+0000] {processor.py:157} INFO - Started process (PID=2456) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:13:24.183+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:13:24.184+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:13:24.184+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:13:24.187+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:13:24.186+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:13:24.187+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:13:24.200+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:13:54.852+0000] {processor.py:157} INFO - Started process (PID=2503) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:13:54.853+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:13:54.853+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:13:54.853+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:13:54.857+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:13:54.856+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:13:54.857+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:13:54.869+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.019 seconds
+[2023-12-11T20:14:25.465+0000] {processor.py:157} INFO - Started process (PID=2550) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:14:25.465+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:14:25.466+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:14:25.466+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:14:25.469+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:14:25.468+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:14:25.470+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:14:25.482+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.019 seconds
+[2023-12-11T20:14:56.161+0000] {processor.py:157} INFO - Started process (PID=2597) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:14:56.161+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:14:56.162+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:14:56.162+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:14:56.165+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:14:56.164+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:14:56.166+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:14:56.178+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:15:26.800+0000] {processor.py:157} INFO - Started process (PID=2644) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:15:26.801+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:15:26.802+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:15:26.802+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:15:26.805+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:15:26.804+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:15:26.805+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:15:26.818+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.019 seconds
+[2023-12-11T20:15:57.481+0000] {processor.py:157} INFO - Started process (PID=2691) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:15:57.482+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:15:57.482+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:15:57.482+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:15:57.486+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:15:57.485+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:15:57.486+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:15:57.498+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:16:28.066+0000] {processor.py:157} INFO - Started process (PID=2738) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:16:28.067+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:16:28.067+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:16:28.067+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:16:28.071+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:16:28.070+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:16:28.071+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:16:28.084+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:16:58.753+0000] {processor.py:157} INFO - Started process (PID=2785) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:16:58.754+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:16:58.755+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:16:58.754+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:16:58.758+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:16:58.757+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:16:58.758+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:16:58.771+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:17:29.438+0000] {processor.py:157} INFO - Started process (PID=2832) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:17:29.438+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:17:29.439+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:17:29.439+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:17:29.444+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:17:29.443+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:17:29.444+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:17:29.457+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.022 seconds
+[2023-12-11T20:17:59.971+0000] {processor.py:157} INFO - Started process (PID=2879) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:17:59.972+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:17:59.972+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:17:59.972+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:17:59.976+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:17:59.975+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:17:59.976+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:17:59.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:18:30.658+0000] {processor.py:157} INFO - Started process (PID=2926) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:18:30.659+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:18:30.659+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:18:30.659+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:18:30.662+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:18:30.662+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:18:30.663+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:18:30.675+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.019 seconds
+[2023-12-11T20:19:01.347+0000] {processor.py:157} INFO - Started process (PID=2973) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:19:01.348+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:19:01.348+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:19:01.348+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:19:01.351+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:19:01.350+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:19:01.352+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:19:01.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.019 seconds
+[2023-12-11T20:19:32.043+0000] {processor.py:157} INFO - Started process (PID=3020) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:19:32.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:19:32.044+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:19:32.044+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:19:32.047+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:19:32.046+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:19:32.047+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:19:32.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.019 seconds
+[2023-12-11T20:20:02.723+0000] {processor.py:157} INFO - Started process (PID=3067) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:20:02.724+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:20:02.724+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:20:02.724+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:20:02.728+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:20:02.727+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:20:02.728+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:20:02.740+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:20:33.376+0000] {processor.py:157} INFO - Started process (PID=3114) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:20:33.377+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:20:33.377+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:20:33.377+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:20:33.381+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:20:33.380+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:20:33.381+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:20:33.394+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:21:04.002+0000] {processor.py:157} INFO - Started process (PID=3161) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:21:04.003+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:21:04.004+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:21:04.004+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:21:04.007+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:21:04.006+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:21:04.007+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:21:04.020+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:21:34.571+0000] {processor.py:157} INFO - Started process (PID=3208) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:21:34.572+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:21:34.572+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:21:34.572+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:21:34.576+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:21:34.575+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-11T20:21:34.576+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:21:34.589+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.020 seconds
+[2023-12-11T20:21:47.775+0000] {processor.py:157} INFO - Started process (PID=3230) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:21:47.777+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:21:47.779+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:21:47.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:21:47.792+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:21:47.809+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.038 seconds
+[2023-12-11T20:22:18.325+0000] {processor.py:157} INFO - Started process (PID=3277) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:22:18.327+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:22:18.328+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:22:18.328+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:22:18.336+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:22:18.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.033 seconds
+[2023-12-11T20:22:48.861+0000] {processor.py:157} INFO - Started process (PID=3324) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:22:48.862+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:22:48.863+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:22:48.863+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:22:48.871+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:22:48.889+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.033 seconds
+[2023-12-11T20:23:19.266+0000] {processor.py:157} INFO - Started process (PID=3382) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:23:19.267+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:23:19.269+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:23:19.268+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:23:19.275+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:23:19.291+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.028 seconds
+[2023-12-11T20:23:49.877+0000] {processor.py:157} INFO - Started process (PID=3440) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:23:49.879+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:23:49.880+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:23:49.880+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:23:49.887+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:23:49.904+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.032 seconds
+[2023-12-11T20:24:20.077+0000] {processor.py:157} INFO - Started process (PID=3488) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:24:20.079+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:24:20.080+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:20.080+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:24:20.084+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:24:20.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.024 seconds
+[2023-12-11T20:24:50.597+0000] {processor.py:157} INFO - Started process (PID=3536) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:24:50.598+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:24:50.599+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:24:50.599+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:24:50.607+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:24:50.624+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.032 seconds
+[2023-12-11T20:25:21.113+0000] {processor.py:157} INFO - Started process (PID=3584) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:25:21.115+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:25:21.116+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:21.116+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:25:21.121+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:25:21.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.026 seconds
+[2023-12-11T20:25:51.695+0000] {processor.py:157} INFO - Started process (PID=3632) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:25:51.696+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:25:51.698+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:25:51.697+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:25:51.704+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:25:51.721+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.031 seconds
+[2023-12-11T20:26:22.225+0000] {processor.py:157} INFO - Started process (PID=3683) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:26:22.226+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:26:22.227+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:22.227+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:26:22.235+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:26:22.253+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.032 seconds
+[2023-12-11T20:26:52.743+0000] {processor.py:157} INFO - Started process (PID=3731) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:26:52.744+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:26:52.745+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:26:52.745+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:26:52.752+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:26:52.767+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.029 seconds
+[2023-12-11T20:27:23.257+0000] {processor.py:157} INFO - Started process (PID=3779) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:27:23.258+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-11T20:27:23.260+0000] {logging_mixin.py:154} INFO - [2023-12-11T20:27:23.259+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:27:23.268+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-11T20:27:23.287+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.035 seconds

@@ -1,0 +1,38 @@
+[2023-12-11T06:01:59.241+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Different_Store_Sales-v01.create_copy_of_postgres_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T06:01:59.245+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Different_Store_Sales-v01.create_copy_of_postgres_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-11T06:01:59.245+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-11T06:01:59.251+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_copy_of_postgres_table> on 2023-12-01 00:00:00+00:00
+[2023-12-11T06:01:59.255+0000] {standard_task_runner.py:57} INFO - Started process 514 to run task
+[2023-12-11T06:01:59.257+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Different_Store_Sales-v01', 'create_copy_of_postgres_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/Diff_Store_Sales.py', '--cfg-path', '/tmp/tmpv5spi0fs']
+[2023-12-11T06:01:59.259+0000] {standard_task_runner.py:85} INFO - Job 3: Subtask create_copy_of_postgres_table
+[2023-12-11T06:01:59.292+0000] {task_command.py:416} INFO - Running <TaskInstance: Different_Store_Sales-v01.create_copy_of_postgres_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 9b443e5c8ded
+[2023-12-11T06:01:59.338+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Different_Store_Sales-v01' AIRFLOW_CTX_TASK_ID='create_copy_of_postgres_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-11T06:01:59.338+0000] {sql.py:274} INFO - Executing: -- params: new_table_name, orig_table_name
+
+-- Drop the copy of the table, if it already exists
+DROP TABLE IF EXISTS dif_store_sales;
+
+-- Create copy of table
+CREATE TABLE dif_store_sales AS
+SELECT * 
+FROM diff_store_sales;
+
+-- Grant additional permissions on the table
+GRANT SELECT, INSERT, UPDATE, DELETE ON dif_store_sales TO ***;
+[2023-12-11T06:01:59.345+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T06:01:59.351+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-11T06:01:59.356+0000] {sql.py:418} INFO - Running statement: -- params: new_table_name, orig_table_name
+
+-- Drop the copy of the table, if it already exists
+DROP TABLE IF EXISTS dif_store_sales;
+
+-- Create copy of table
+CREATE TABLE dif_store_sales AS
+SELECT * 
+FROM diff_store_sales;
+
+-- Grant additional permissions on the table
+GRANT SELECT, INSERT, UPDATE, DELETE ON dif_store_sales TO ***;, parameters: None
+[2023-12-11T06:01:59.582+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Different_Store_Sales-v01, task_id=create_copy_of_postgres_table, execution_date=20231201T000000, start_date=20231211T060159, end_date=20231211T060159
+[2023-12-11T06:01:59.602+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-11T06:01:59.622+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

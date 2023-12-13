@@ -1,0 +1,51 @@
+[2023-12-12T00:15:15.398+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Online_Shopping_Dataset-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Customer_Location scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T00:15:15.405+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Online_Shopping_Dataset-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Customer_Location scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T00:15:15.408+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-12T00:15:15.424+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_Customer_Location> on 2023-12-01 00:00:00+00:00
+[2023-12-12T00:15:15.429+0000] {standard_task_runner.py:57} INFO - Started process 928 to run task
+[2023-12-12T00:15:15.435+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Online_Shopping_Dataset-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_Customer_Location', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/Online_Shopping_Dataset.py', '--cfg-path', '/tmp/tmpds98m_xp']
+[2023-12-12T00:15:15.439+0000] {standard_task_runner.py:85} INFO - Job 40: Subtask insert_fk_col_in_fact_table_Customer_Location
+[2023-12-12T00:15:15.527+0000] {task_command.py:416} INFO - Running <TaskInstance: Online_Shopping_Dataset-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Customer_Location scheduled__2023-12-01T00:00:00+00:00 [running]> on host 79f7e52c702e
+[2023-12-12T00:15:15.652+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Online_Shopping_Dataset-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_Customer_Location' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-12T00:15:15.658+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE online_shopping_dataset_pipe
+ADD COLUMN Customer_Location_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE online_shopping_dataset_pipe
+SET Customer_Location_id = dimension_table_Customer_Location.id
+FROM dimension_table_Customer_Location
+WHERE COALESCE(online_shopping_dataset_pipe.Customer_Location::text, '') = COALESCE(dimension_table_Customer_Location.Customer_Location::text, '');
+[2023-12-12T00:15:15.674+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T00:15:15.691+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T00:15:15.716+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE online_shopping_dataset_pipe
+ADD COLUMN Customer_Location_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE online_shopping_dataset_pipe
+SET Customer_Location_id = dimension_table_Customer_Location.id
+FROM dimension_table_Customer_Location
+WHERE COALESCE(online_shopping_dataset_pipe.Customer_Location::text, '') = COALESCE(dimension_table_Customer_Location.Customer_Location::text, '');, parameters: None
+[2023-12-12T00:15:15.894+0000] {sql.py:427} INFO - Rows affected: 37457
+[2023-12-12T00:15:15.904+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Online_Shopping_Dataset-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_Customer_Location, execution_date=20231201T000000, start_date=20231212T001515, end_date=20231212T001515
+[2023-12-12T00:15:15.936+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T00:15:15.958+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

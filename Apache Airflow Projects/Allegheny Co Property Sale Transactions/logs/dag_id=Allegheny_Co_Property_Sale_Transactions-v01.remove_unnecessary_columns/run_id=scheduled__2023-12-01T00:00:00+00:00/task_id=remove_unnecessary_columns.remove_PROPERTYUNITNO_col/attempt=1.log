@@ -1,0 +1,40 @@
+[2023-12-08T17:13:37.685+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_PROPERTYUNITNO_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:13:37.693+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_PROPERTYUNITNO_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T17:13:37.694+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T17:13:37.704+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_unnecessary_columns.remove_PROPERTYUNITNO_col> on 2023-12-01 00:00:00+00:00
+[2023-12-08T17:13:37.709+0000] {standard_task_runner.py:57} INFO - Started process 2763 to run task
+[2023-12-08T17:13:37.713+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns', 'remove_unnecessary_columns.remove_PROPERTYUNITNO_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmp2gqa56ad']
+[2023-12-08T17:13:37.717+0000] {standard_task_runner.py:85} INFO - Job 6: Subtask remove_unnecessary_columns.remove_PROPERTYUNITNO_col
+[2023-12-08T17:13:37.808+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_PROPERTYUNITNO_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T17:13:37.907+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns' AIRFLOW_CTX_TASK_ID='remove_unnecessary_columns.remove_PROPERTYUNITNO_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T17:13:37.910+0000] {sql.py:274} INFO - Executing: -- table_name, column_name
+ALTER TABLE allegheny_co_property_sale_transactions
+DROP COLUMN PROPERTYUNITNO;
+[2023-12-08T17:13:37.920+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:13:37.934+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T17:13:37.945+0000] {sql.py:418} INFO - Running statement: -- table_name, column_name
+ALTER TABLE allegheny_co_property_sale_transactions
+DROP COLUMN PROPERTYUNITNO;, parameters: None
+[2023-12-08T17:13:37.964+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns, task_id=remove_unnecessary_columns.remove_PROPERTYUNITNO_col, execution_date=20231201T000000, start_date=20231208T171337, end_date=20231208T171337
+[2023-12-08T17:13:38.008+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T17:13:38.043+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-08T18:01:00.306+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_PROPERTYUNITNO_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:01:00.314+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_PROPERTYUNITNO_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-08T18:01:00.315+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-08T18:01:00.328+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_unnecessary_columns.remove_PROPERTYUNITNO_col> on 2023-12-01 00:00:00+00:00
+[2023-12-08T18:01:00.332+0000] {standard_task_runner.py:57} INFO - Started process 6751 to run task
+[2023-12-08T18:01:00.340+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns', 'remove_unnecessary_columns.remove_PROPERTYUNITNO_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/Allegheny Co Property Sale Transactions.py', '--cfg-path', '/tmp/tmpz72_2gq5']
+[2023-12-08T18:01:00.343+0000] {standard_task_runner.py:85} INFO - Job 79: Subtask remove_unnecessary_columns.remove_PROPERTYUNITNO_col
+[2023-12-08T18:01:00.417+0000] {task_command.py:416} INFO - Running <TaskInstance: Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_PROPERTYUNITNO_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 1fc866509645
+[2023-12-08T18:01:00.497+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns' AIRFLOW_CTX_TASK_ID='remove_unnecessary_columns.remove_PROPERTYUNITNO_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-08T18:01:00.499+0000] {sql.py:274} INFO - Executing: -- table_name, column_name
+ALTER TABLE allegheny_co_property_sale_transactions
+DROP COLUMN PROPERTYUNITNO;
+[2023-12-08T18:01:00.510+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:01:00.523+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-08T18:01:00.537+0000] {sql.py:418} INFO - Running statement: -- table_name, column_name
+ALTER TABLE allegheny_co_property_sale_transactions
+DROP COLUMN PROPERTYUNITNO;, parameters: None
+[2023-12-08T18:01:00.552+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Allegheny_Co_Property_Sale_Transactions-v01.remove_unnecessary_columns, task_id=remove_unnecessary_columns.remove_PROPERTYUNITNO_col, execution_date=20231201T000000, start_date=20231208T180100, end_date=20231208T180100
+[2023-12-08T18:01:00.590+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-08T18:01:00.633+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

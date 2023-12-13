@@ -1,0 +1,47 @@
+[2023-12-12T21:27:28.703+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: home_insurance_ds-v01.create_dim_tables.create_dim_HOME_EM_ADDON_PRE_REN_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T21:27:28.717+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: home_insurance_ds-v01.create_dim_tables.create_dim_HOME_EM_ADDON_PRE_REN_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-12T21:27:28.721+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-12T21:27:28.734+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_dim_HOME_EM_ADDON_PRE_REN_table> on 2023-12-01 00:00:00+00:00
+[2023-12-12T21:27:28.741+0000] {standard_task_runner.py:57} INFO - Started process 2032 to run task
+[2023-12-12T21:27:28.747+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'home_insurance_ds-v01.create_dim_tables', 'create_dim_HOME_EM_ADDON_PRE_REN_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/home_insurance_dataset.py', '--cfg-path', '/tmp/tmpei0z8uj9']
+[2023-12-12T21:27:28.749+0000] {standard_task_runner.py:85} INFO - Job 55: Subtask create_dim_HOME_EM_ADDON_PRE_REN_table
+[2023-12-12T21:27:28.824+0000] {task_command.py:416} INFO - Running <TaskInstance: home_insurance_ds-v01.create_dim_tables.create_dim_HOME_EM_ADDON_PRE_REN_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 7a94ca99eac6
+[2023-12-12T21:27:28.924+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='home_insurance_ds-v01.create_dim_tables' AIRFLOW_CTX_TASK_ID='create_dim_HOME_EM_ADDON_PRE_REN_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-12T21:27:28.926+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_HOME_EM_ADDON_PRE_REN AS
+SELECT DISTINCT HOME_EM_ADDON_PRE_REN FROM home_insurance_ds_pipeline;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_HOME_EM_ADDON_PRE_REN;
+CREATE TABLE dimension_table_HOME_EM_ADDON_PRE_REN (
+    id SERIAL PRIMARY KEY,
+    HOME_EM_ADDON_PRE_REN VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_HOME_EM_ADDON_PRE_REN (HOME_EM_ADDON_PRE_REN)
+SELECT * FROM unique_values_HOME_EM_ADDON_PRE_REN;
+[2023-12-12T21:27:28.939+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T21:27:28.952+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-12T21:27:28.962+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_HOME_EM_ADDON_PRE_REN AS
+SELECT DISTINCT HOME_EM_ADDON_PRE_REN FROM home_insurance_ds_pipeline;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_HOME_EM_ADDON_PRE_REN;
+CREATE TABLE dimension_table_HOME_EM_ADDON_PRE_REN (
+    id SERIAL PRIMARY KEY,
+    HOME_EM_ADDON_PRE_REN VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_HOME_EM_ADDON_PRE_REN (HOME_EM_ADDON_PRE_REN)
+SELECT * FROM unique_values_HOME_EM_ADDON_PRE_REN;, parameters: None
+[2023-12-12T21:27:29.076+0000] {sql.py:427} INFO - Rows affected: 2
+[2023-12-12T21:27:29.091+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=home_insurance_ds-v01.create_dim_tables, task_id=create_dim_HOME_EM_ADDON_PRE_REN_table, execution_date=20231201T000000, start_date=20231212T212728, end_date=20231212T212729
+[2023-12-12T21:27:29.128+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-12T21:27:29.156+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

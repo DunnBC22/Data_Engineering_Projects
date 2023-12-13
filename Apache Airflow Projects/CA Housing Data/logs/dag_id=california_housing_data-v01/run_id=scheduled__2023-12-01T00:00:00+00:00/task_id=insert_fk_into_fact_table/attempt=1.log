@@ -1,0 +1,16 @@
+[2023-12-09T19:42:26.669+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: california_housing_data-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-09T19:42:26.675+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: california_housing_data-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-09T19:42:26.675+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-09T19:42:26.682+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): insert_fk_into_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-09T19:42:26.685+0000] {standard_task_runner.py:57} INFO - Started process 861 to run task
+[2023-12-09T19:42:26.688+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'california_housing_data-v01', 'insert_fk_into_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/ca_housing_data.py', '--cfg-path', '/tmp/tmpxdcmfznf']
+[2023-12-09T19:42:26.690+0000] {standard_task_runner.py:85} INFO - Job 44: Subtask insert_fk_into_fact_table
+[2023-12-09T19:42:26.724+0000] {task_command.py:416} INFO - Running <TaskInstance: california_housing_data-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host d5ea29713edc
+[2023-12-09T19:42:26.765+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='california_housing_data-v01' AIRFLOW_CTX_TASK_ID='insert_fk_into_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-09T19:42:26.769+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-09T19:42:26.788+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-09T19:43:26.828+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-09T19:43:26.839+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-09T19:43:26.849+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=california_housing_data-v01, task_id=insert_fk_into_fact_table, execution_date=20231201T000000, start_date=20231209T194226, end_date=20231209T194326
+[2023-12-09T19:43:26.885+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-09T19:43:26.902+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
