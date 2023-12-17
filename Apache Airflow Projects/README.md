@@ -13,6 +13,7 @@ To demonstrate my skill using Apache Airflow, I thought I would complete a pleth
 - I added a copy of the script that I use to retrieve the descriptive statistics of the output in teh `Assessment Script` subfolder.
 - Each project should also have the log files from when I ran them locally.
 - I did not normalize the data since there are a plethora of options to do so and they are dependent on which regression or classification algorithm you choose.
+- I did not remove class imbalance for any of the classification datasets with class imbalance.
 
 ## Project Listings
 
