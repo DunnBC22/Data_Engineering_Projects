@@ -1,0 +1,280 @@
+[2023-12-21T22:35:44.996+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-21T22:35:44.998+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-21T22:35:44.999+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-21T22:35:44.999+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T22:35:45.018+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2023-12-21T22:35:45.239+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0
+/opt/airflow/dags/market_seg.py                                   168  0.06s             0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              171  0.04s             0           0
+================================================================================
+[2023-12-21T22:36:16.164+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           1  0.04s           2023-12-21T22:35:45
+/opt/airflow/dags/market_seg.py                                   190  0.14s             0           1  0.08s           2023-12-21T22:35:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              191  0.03s             0           1  0.07s           2023-12-21T22:35:45
+================================================================================
+[2023-12-21T22:36:46.785+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           1  0.07s           2023-12-21T22:36:16
+/opt/airflow/dags/market_seg.py                                   212  0.01s             0           1  0.67s           2023-12-21T22:36:16
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              215  0.00s             0           1  0.57s           2023-12-21T22:36:16
+================================================================================
+[2023-12-21T22:37:16.977+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           1  0.03s           2023-12-21T22:36:46
+/opt/airflow/dags/market_seg.py                                   234  0.01s             0           1  0.06s           2023-12-21T22:36:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              237  0.00s             0           1  0.05s           2023-12-21T22:36:46
+================================================================================
+[2023-12-21T22:37:47.318+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           1  0.03s           2023-12-21T22:37:17
+/opt/airflow/dags/market_seg.py                                   256  0.02s             0           1  0.04s           2023-12-21T22:37:17
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              259  0.00s             0           1  0.04s           2023-12-21T22:37:17
+================================================================================
+[2023-12-21T22:38:17.682+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           1  0.03s           2023-12-21T22:37:47
+/opt/airflow/dags/market_seg.py                                   278  0.02s             0           1  0.07s           2023-12-21T22:37:47
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              281  0.01s             0           1  0.04s           2023-12-21T22:37:47
+================================================================================
+[2023-12-21T22:38:48.064+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           1  0.03s           2023-12-21T22:38:17
+/opt/airflow/dags/market_seg.py                                   300  0.02s             0           1  0.05s           2023-12-21T22:38:17
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              303  0.01s             0           1  0.05s           2023-12-21T22:38:17
+================================================================================
+[2023-12-21T22:39:18.427+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           1  0.03s           2023-12-21T22:38:48
+/opt/airflow/dags/market_seg.py                                   322  0.01s             0           1  0.07s           2023-12-21T22:38:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              325  0.00s             0           1  0.05s           2023-12-21T22:38:48
+================================================================================
+[2023-12-21T22:39:48.813+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           1  0.03s           2023-12-21T22:39:18
+/opt/airflow/dags/market_seg.py                                   344  0.01s             0           1  0.04s           2023-12-21T22:39:18
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              347  0.00s             0           1  0.04s           2023-12-21T22:39:18
+================================================================================
+[2023-12-21T22:40:19.220+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           1  0.03s           2023-12-21T22:39:48
+/opt/airflow/dags/market_seg.py                                   366  0.02s             0           1  0.05s           2023-12-21T22:39:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              369  0.01s             0           1  0.04s           2023-12-21T22:39:48
+================================================================================
+[2023-12-21T22:40:45.568+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T22:40:45.591+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2023-12-21T22:40:49.657+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    396  0.00s             0           1  0.03s           2023-12-21T22:40:19
+/opt/airflow/dags/market_seg.py                                   393  0.01s             0           1  0.07s           2023-12-21T22:40:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           1  0.06s           2023-12-21T22:40:36
+================================================================================
+[2023-12-21T22:41:20.037+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    418  0.01s             0           1  0.05s           2023-12-21T22:40:49
+/opt/airflow/dags/market_seg.py                                   415  0.02s             0           1  0.05s           2023-12-21T22:40:49
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           1  0.06s           2023-12-21T22:41:06
+================================================================================
+[2023-12-21T22:41:50.438+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    440  0.01s             0           0  0.05s           2023-12-21T22:41:20
+/opt/airflow/dags/market_seg.py                                   437  0.02s             0           1  0.10s           2023-12-21T22:41:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.05s           2023-12-21T22:41:37
+================================================================================
+[2023-12-21T22:42:20.920+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    464  0.01s             0           0  0.06s           2023-12-21T22:41:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.06s           2023-12-21T22:42:07
+/opt/airflow/dags/market_seg.py                                                          3           0  0.24s           2023-12-21T22:42:13
+================================================================================
+[2023-12-21T22:42:51.310+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    486  0.01s             0           0  0.06s           2023-12-21T22:42:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.06s           2023-12-21T22:42:38
+/opt/airflow/dags/market_seg.py                                                          3           0  0.10s           2023-12-21T22:42:43
+================================================================================
+[2023-12-21T22:43:21.671+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    514  0.01s             0           0  0.06s           2023-12-21T22:42:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.05s           2023-12-21T22:43:08
+/opt/airflow/dags/market_seg.py                                                          3           0  0.12s           2023-12-21T22:43:13
+================================================================================
+[2023-12-21T22:43:52.019+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    536  0.01s             0           0  0.06s           2023-12-21T22:43:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.04s           2023-12-21T22:43:38
+/opt/airflow/dags/market_seg.py                                                          3           0  0.11s           2023-12-21T22:43:43
+================================================================================
+[2023-12-21T22:44:22.454+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T22:44:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.05s           2023-12-21T22:44:09
+/opt/airflow/dags/market_seg.py                                                          3           0  0.11s           2023-12-21T22:44:14
+================================================================================
+[2023-12-21T22:44:52.801+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T22:44:49
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.06s           2023-12-21T22:44:39
+/opt/airflow/dags/market_seg.py                                                          3           0  0.14s           2023-12-21T22:44:44
+================================================================================
+[2023-12-21T22:45:23.145+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-21T22:45:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.06s           2023-12-21T22:45:10
+/opt/airflow/dags/market_seg.py                                                          3           0  0.10s           2023-12-21T22:45:15
+================================================================================
+[2023-12-21T22:45:46.393+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T22:45:46.417+0000] {manager.py:758} INFO - There are 3 files in /opt/airflow/dags
+[2023-12-21T22:45:53.533+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T22:45:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.04s           2023-12-21T22:45:40
+/opt/airflow/dags/market_seg.py                                                          3           0  0.09s           2023-12-21T22:45:45
+================================================================================
+[2023-12-21T22:46:23.955+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T22:46:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.06s           2023-12-21T22:46:10
+/opt/airflow/dags/market_seg.py                                                          3           0  0.11s           2023-12-21T22:46:15
+================================================================================
+[2023-12-21T22:46:54.331+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T22:46:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.06s           2023-12-21T22:46:41
+/opt/airflow/dags/market_seg.py                                                          3           0  0.12s           2023-12-21T22:46:46
+================================================================================
+[2023-12-21T22:47:24.660+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T22:47:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.05s           2023-12-21T22:47:11
+/opt/airflow/dags/market_seg.py                                                          3           0  0.10s           2023-12-21T22:47:16
+================================================================================
+[2023-12-21T22:47:55.002+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T22:47:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.05s           2023-12-21T22:47:41
+/opt/airflow/dags/market_seg.py                                                          3           0  0.10s           2023-12-21T22:47:47
+================================================================================
+[2023-12-21T22:48:25.333+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T22:48:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.06s           2023-12-21T22:48:12
+/opt/airflow/dags/market_seg.py                                                          3           0  0.11s           2023-12-21T22:48:17
+================================================================================
+[2023-12-21T22:48:55.658+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T22:48:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.04s           2023-12-21T22:48:42
+/opt/airflow/dags/market_seg.py                                                          3           0  0.11s           2023-12-21T22:48:47
+================================================================================
+[2023-12-21T22:49:14.466+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

@@ -1,0 +1,32 @@
+[2023-12-20T18:20:23.902+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Health_Insurance_Cross_Sell_Pred-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_id_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:20:23.905+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Health_Insurance_Cross_Sell_Pred-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_id_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:20:23.905+0000] {taskinstance.py:1361} INFO - Starting attempt 3 of 6
+[2023-12-20T18:20:23.911+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_unnecessary_columns.remove_id_col> on 2023-12-01 00:00:00+00:00
+[2023-12-20T18:20:23.913+0000] {standard_task_runner.py:57} INFO - Started process 791 to run task
+[2023-12-20T18:20:23.915+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Health_Insurance_Cross_Sell_Pred-v01.remove_unnecessary_columns', 'remove_unnecessary_columns.remove_id_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/Health_Insurance_Cross_Sell_Pred.py', '--cfg-path', '/tmp/tmp1ytg14f7']
+[2023-12-20T18:20:23.917+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask remove_unnecessary_columns.remove_id_col
+[2023-12-20T18:20:23.946+0000] {task_command.py:416} INFO - Running <TaskInstance: Health_Insurance_Cross_Sell_Pred-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_id_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 480138c1cef4
+[2023-12-20T18:20:23.985+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Health_Insurance_Cross_Sell_Pred-v01.remove_unnecessary_columns' AIRFLOW_CTX_TASK_ID='remove_unnecessary_columns.remove_id_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T18:20:23.986+0000] {sql.py:274} INFO - Executing: -- table_name, column_name
+ALTER TABLE ***_complaints
+DROP COLUMN id;
+[2023-12-20T18:20:23.991+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T18:20:23.996+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T18:20:24.001+0000] {sql.py:418} INFO - Running statement: -- table_name, column_name
+ALTER TABLE ***_complaints
+DROP COLUMN id;, parameters: None
+[2023-12-20T18:20:24.002+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedTable: relation "***_complaints" does not exist
+
+[2023-12-20T18:20:24.008+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Health_Insurance_Cross_Sell_Pred-v01.remove_unnecessary_columns, task_id=remove_unnecessary_columns.remove_id_col, execution_date=20231201T000000, start_date=20231220T182023, end_date=20231220T182024
+[2023-12-20T18:20:24.013+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 8 for task remove_unnecessary_columns.remove_id_col (relation "***_complaints" does not exist
+; 791)
+[2023-12-20T18:20:24.052+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-20T18:20:24.065+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

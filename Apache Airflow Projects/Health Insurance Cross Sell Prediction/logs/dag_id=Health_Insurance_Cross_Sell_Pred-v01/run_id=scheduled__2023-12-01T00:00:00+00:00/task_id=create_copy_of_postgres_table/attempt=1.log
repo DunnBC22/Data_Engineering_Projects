@@ -1,0 +1,58 @@
+[2023-12-20T18:14:16.982+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Health_Insurance_Cross_Sell_Pred-v01.create_copy_of_postgres_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:14:16.986+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Health_Insurance_Cross_Sell_Pred-v01.create_copy_of_postgres_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:14:16.987+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T18:14:16.992+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_copy_of_postgres_table> on 2023-12-01 00:00:00+00:00
+[2023-12-20T18:14:16.995+0000] {standard_task_runner.py:57} INFO - Started process 315 to run task
+[2023-12-20T18:14:16.999+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Health_Insurance_Cross_Sell_Pred-v01', 'create_copy_of_postgres_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/Health_Insurance_Cross_Sell_Pred.py', '--cfg-path', '/tmp/tmpeom3mquh']
+[2023-12-20T18:14:17.001+0000] {standard_task_runner.py:85} INFO - Job 3: Subtask create_copy_of_postgres_table
+[2023-12-20T18:14:17.037+0000] {task_command.py:416} INFO - Running <TaskInstance: Health_Insurance_Cross_Sell_Pred-v01.create_copy_of_postgres_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 480138c1cef4
+[2023-12-20T18:14:17.065+0000] {abstractoperator.py:709} ERROR - Exception rendering Jinja template for task 'create_copy_of_postgres_table', field 'sql'. Template: '-- params: new_table_name, orig_table_name\n\n-- Drop the copy of the table, if it already exists\nDROP TABLE IF EXISTS {{ params.new_table_name }};\n\n-- Create copy of table\nCREATE TABLE {{ params.new_table_name }} AS\nSELECT * \nFROM {{ params.orig_table_name }};\n\n-- Grant additional permissions on the table\nGRANT SELECT, INSERT, UPDATE, DELETE ON {{ params.new_table_name }} TO ***;'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 701, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 155, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 655, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 112, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 289, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 284, in render_template
+    return "".join(nodes)
+  File "<template>", line 13, in root
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'new_table_name'
+[2023-12-20T18:14:17.067+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1518, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1647, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2285, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1243, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 701, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 155, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 655, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 112, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 289, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 284, in render_template
+    return "".join(nodes)
+  File "<template>", line 13, in root
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'new_table_name'
+[2023-12-20T18:14:17.074+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Health_Insurance_Cross_Sell_Pred-v01, task_id=create_copy_of_postgres_table, execution_date=20231201T000000, start_date=20231220T181416, end_date=20231220T181417
+[2023-12-20T18:14:17.080+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 3 for task create_copy_of_postgres_table ('dict object' has no attribute 'new_table_name'; 315)
+[2023-12-20T18:14:17.092+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-20T18:14:17.111+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

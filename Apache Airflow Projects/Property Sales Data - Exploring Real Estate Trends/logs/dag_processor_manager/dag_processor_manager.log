@@ -1,0 +1,758 @@
+[2023-12-21T20:32:00.064+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-21T20:32:00.065+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-21T20:32:00.065+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-21T20:32:00.065+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T20:32:00.075+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T20:32:00.151+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    170  0.02s             0           0
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py           167  0.03s             0           0
+================================================================================
+[2023-12-21T20:32:30.392+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    210  0.01s             0           0  0.03s           2023-12-21T20:32:00
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:32:00
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-21T20:32:00
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:32:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              213  0.00s             0           0  0.03s           2023-12-21T20:32:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T20:32:00
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.98s           2023-12-21T20:32:01
+================================================================================
+[2023-12-21T20:33:00.820+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    271  0.02s             0           0  0.05s           2023-12-21T20:32:30
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:32:30
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:32:30
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.02s           2023-12-21T20:32:30
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              274  0.00s             0           0  0.04s           2023-12-21T20:32:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:32:30
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.33s           2023-12-21T20:32:31
+================================================================================
+[2023-12-21T20:33:31.274+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    314  0.01s             0           0  0.06s           2023-12-21T20:33:00
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:33:00
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:33:00
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:33:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              317  0.00s             0           0  0.05s           2023-12-21T20:33:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:33:00
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.37s           2023-12-21T20:33:02
+================================================================================
+[2023-12-21T20:34:01.699+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    369  0.02s             0           0  0.05s           2023-12-21T20:33:31
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:33:31
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:33:31
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:33:31
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              372  0.00s             0           0  0.04s           2023-12-21T20:33:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:33:31
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:33:32
+================================================================================
+[2023-12-21T20:34:32.218+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    412  0.02s             0           0  0.06s           2023-12-21T20:34:01
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:34:01
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:34:01
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:34:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              415  0.00s             0           0  0.05s           2023-12-21T20:34:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:34:01
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.34s           2023-12-21T20:34:03
+================================================================================
+[2023-12-21T20:35:02.706+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    461  0.02s             0           0  0.06s           2023-12-21T20:34:32
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:34:32
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:34:32
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:34:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              464  0.00s             0           0  0.05s           2023-12-21T20:34:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:34:32
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:34:33
+================================================================================
+[2023-12-21T20:35:33.261+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    504  0.02s             0           0  0.06s           2023-12-21T20:35:02
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:35:02
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:35:02
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:35:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              507  0.00s             0           0  0.05s           2023-12-21T20:35:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:35:02
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:35:04
+================================================================================
+[2023-12-21T20:36:03.754+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    547  0.02s             0           0  0.05s           2023-12-21T20:35:33
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:35:33
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:35:33
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:35:33
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              550  0.00s             0           0  0.05s           2023-12-21T20:35:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:35:33
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:35:34
+================================================================================
+[2023-12-21T20:36:34.279+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    590  0.01s             0           0  0.06s           2023-12-21T20:36:03
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:36:03
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:36:03
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:36:03
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              593  0.00s             0           0  0.05s           2023-12-21T20:36:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:36:03
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:36:05
+================================================================================
+[2023-12-21T20:37:00.676+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T20:37:00.688+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T20:37:04.740+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    633  0.01s             0           0  0.03s           2023-12-21T20:36:34
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:36:34
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-21T20:36:34
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:36:34
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              636  0.00s             0           0  0.03s           2023-12-21T20:36:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T20:36:34
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.34s           2023-12-21T20:36:35
+================================================================================
+[2023-12-21T20:37:35.160+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    688  0.02s             0           0  0.03s           2023-12-21T20:37:04
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:37:04
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:37:04
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:37:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              691  0.00s             0           0  0.03s           2023-12-21T20:37:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:37:04
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.34s           2023-12-21T20:37:06
+================================================================================
+[2023-12-21T20:38:05.541+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    731  0.01s             0           0  0.05s           2023-12-21T20:37:35
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:37:35
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:37:35
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:37:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              734  0.00s             0           0  0.04s           2023-12-21T20:37:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:37:35
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.37s           2023-12-21T20:37:36
+================================================================================
+[2023-12-21T20:38:35.996+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    792  0.02s             0           0  0.04s           2023-12-21T20:38:05
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.02s           2023-12-21T20:38:05
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:38:05
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:38:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              795  0.00s             0           0  0.04s           2023-12-21T20:38:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:38:05
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:38:06
+================================================================================
+[2023-12-21T20:39:06.518+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    835  0.02s             0           0  0.06s           2023-12-21T20:38:36
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:38:36
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:38:36
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:38:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              838  0.00s             0           0  0.05s           2023-12-21T20:38:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:38:36
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.37s           2023-12-21T20:38:37
+================================================================================
+[2023-12-21T20:39:36.900+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    896  0.01s             0           0  0.05s           2023-12-21T20:39:06
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:39:06
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:39:06
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:39:06
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              899  0.00s             0           0  0.05s           2023-12-21T20:39:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:39:06
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:39:07
+================================================================================
+[2023-12-21T20:40:07.382+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    939  0.01s             0           0  0.04s           2023-12-21T20:39:36
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.02s           2023-12-21T20:39:36
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:39:36
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:39:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              942  0.00s             0           0  0.04s           2023-12-21T20:39:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:39:37
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:39:38
+================================================================================
+[2023-12-21T20:40:37.892+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1000  0.02s             0           0  0.05s           2023-12-21T20:40:07
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:40:07
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:40:07
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:40:07
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1003  0.00s             0           0  0.04s           2023-12-21T20:40:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:40:07
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:40:08
+================================================================================
+[2023-12-21T20:41:08.406+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1043  0.02s             0           0  0.06s           2023-12-21T20:40:37
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:40:37
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:40:37
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:40:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1046  0.01s             0           0  0.05s           2023-12-21T20:40:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:40:38
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:40:39
+================================================================================
+[2023-12-21T20:41:38.864+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1086  0.02s             0           0  0.06s           2023-12-21T20:41:08
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:41:08
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:41:08
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:41:08
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1089  0.01s             0           0  0.05s           2023-12-21T20:41:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:41:08
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.33s           2023-12-21T20:41:09
+================================================================================
+[2023-12-21T20:42:01.226+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T20:42:01.263+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T20:42:09.394+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1129  0.02s             0           0  0.06s           2023-12-21T20:41:38
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:41:38
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:41:38
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:41:38
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1132  0.00s             0           0  0.05s           2023-12-21T20:41:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:41:38
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:41:40
+================================================================================
+[2023-12-21T20:42:39.902+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1172  0.02s             0           0  0.06s           2023-12-21T20:42:09
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:42:09
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:42:09
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:42:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1175  0.01s             0           0  0.05s           2023-12-21T20:42:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:42:09
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.34s           2023-12-21T20:42:10
+================================================================================
+[2023-12-21T20:43:10.462+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1215  0.02s             0           0  0.06s           2023-12-21T20:42:39
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:42:39
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:42:39
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:42:39
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1218  0.01s             0           0  0.05s           2023-12-21T20:42:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:42:40
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:42:41
+================================================================================
+[2023-12-21T20:43:41.004+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1258  0.02s             0           0  0.06s           2023-12-21T20:43:10
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:43:10
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:43:10
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:43:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1261  0.01s             0           0  0.05s           2023-12-21T20:43:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:43:10
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:43:11
+================================================================================
+[2023-12-21T20:44:11.544+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1301  0.02s             0           0  0.06s           2023-12-21T20:43:41
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:43:41
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:43:41
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:43:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1304  0.01s             0           0  0.05s           2023-12-21T20:43:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:43:41
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:43:42
+================================================================================
+[2023-12-21T20:44:42.047+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1344  0.02s             0           0  0.06s           2023-12-21T20:44:11
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:44:11
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:44:11
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:44:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1347  0.01s             0           0  0.05s           2023-12-21T20:44:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:44:11
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:44:13
+================================================================================
+[2023-12-21T20:45:12.621+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1387  0.02s             0           0  0.06s           2023-12-21T20:44:42
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:44:42
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:44:42
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:44:42
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1390  0.00s             0           0  0.05s           2023-12-21T20:44:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:44:42
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.34s           2023-12-21T20:44:43
+================================================================================
+[2023-12-21T20:45:43.167+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1430  0.02s             0           0  0.05s           2023-12-21T20:45:12
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:45:12
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:45:12
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:45:12
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1433  0.01s             0           0  0.05s           2023-12-21T20:45:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:45:12
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:45:14
+================================================================================
+[2023-12-21T20:46:13.733+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1473  0.02s             0           0  0.06s           2023-12-21T20:45:43
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:45:43
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:45:43
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:45:43
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1476  0.01s             0           0  0.05s           2023-12-21T20:45:43
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:45:43
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:45:44
+================================================================================
+[2023-12-21T20:46:44.251+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1516  0.02s             0           0  0.06s           2023-12-21T20:46:13
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:46:13
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:46:13
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:46:13
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1519  0.01s             0           0  0.05s           2023-12-21T20:46:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:46:13
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.34s           2023-12-21T20:46:15
+================================================================================
+[2023-12-21T20:47:01.612+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T20:47:01.653+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T20:47:14.872+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1559  0.02s             0           0  0.06s           2023-12-21T20:46:44
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:46:44
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:46:44
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:46:44
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1562  0.00s             0           0  0.05s           2023-12-21T20:46:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:46:44
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.32s           2023-12-21T20:46:45
+================================================================================
+[2023-12-21T20:47:45.435+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1602  0.02s             0           0  0.06s           2023-12-21T20:47:14
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:47:14
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:47:14
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:47:14
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1605  0.01s             0           0  0.05s           2023-12-21T20:47:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:47:14
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:47:16
+================================================================================
+[2023-12-21T20:48:16.013+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1645  0.02s             0           0  0.06s           2023-12-21T20:47:45
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:47:45
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:47:45
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:47:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1648  0.00s             0           0  0.05s           2023-12-21T20:47:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:47:45
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:47:46
+================================================================================
+[2023-12-21T20:48:46.577+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1688  0.02s             0           0  0.06s           2023-12-21T20:48:16
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:48:16
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:48:16
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:48:16
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1691  0.00s             0           0  0.05s           2023-12-21T20:48:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:48:16
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.34s           2023-12-21T20:48:17
+================================================================================
+[2023-12-21T20:49:17.183+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1731  0.02s             0           0  0.06s           2023-12-21T20:48:46
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:48:46
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:48:46
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:48:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1734  0.00s             0           0  0.05s           2023-12-21T20:48:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:48:46
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:48:48
+================================================================================
+[2023-12-21T20:49:47.758+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1774  0.02s             0           0  0.06s           2023-12-21T20:49:17
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:49:17
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:49:17
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:49:17
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1777  0.01s             0           0  0.05s           2023-12-21T20:49:17
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:49:17
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:49:18
+================================================================================
+[2023-12-21T20:50:18.220+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1817  0.02s             0           0  0.06s           2023-12-21T20:49:47
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:49:47
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:49:47
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:49:47
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1820  0.00s             0           0  0.05s           2023-12-21T20:49:47
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:49:47
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.34s           2023-12-21T20:49:49
+================================================================================
+[2023-12-21T20:50:48.782+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1860  0.02s             0           0  0.05s           2023-12-21T20:50:18
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:50:18
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:50:18
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:50:18
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1863  0.01s             0           0  0.05s           2023-12-21T20:50:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:50:18
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:50:19
+================================================================================
+[2023-12-21T20:51:19.355+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1903  0.02s             0           0  0.06s           2023-12-21T20:50:48
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:50:48
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:50:48
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:50:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1906  0.01s             0           0  0.05s           2023-12-21T20:50:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:50:48
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:50:50
+================================================================================
+[2023-12-21T20:51:49.883+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1946  0.02s             0           0  0.06s           2023-12-21T20:51:19
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:51:19
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:51:19
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:51:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1949  0.00s             0           0  0.05s           2023-12-21T20:51:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:51:19
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:51:20
+================================================================================
+[2023-12-21T20:52:02.145+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T20:52:02.160+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T20:52:20.454+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1989  0.01s             0           0  0.06s           2023-12-21T20:51:49
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:51:49
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:51:49
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:51:49
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1992  0.00s             0           0  0.05s           2023-12-21T20:51:49
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:51:50
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:51:51
+================================================================================
+[2023-12-21T20:52:51.062+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2032  0.02s             0           0  0.05s           2023-12-21T20:52:20
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:52:20
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:52:20
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:52:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2035  0.01s             0           0  0.04s           2023-12-21T20:52:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:52:20
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:52:21
+================================================================================
+[2023-12-21T20:53:21.644+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2075  0.01s             0           0  0.06s           2023-12-21T20:52:51
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:52:51
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:52:51
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:52:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2078  0.00s             0           0  0.05s           2023-12-21T20:52:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:52:51
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:52:52
+================================================================================
+[2023-12-21T20:53:52.154+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2118  0.02s             0           0  0.04s           2023-12-21T20:53:21
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.02s           2023-12-21T20:53:21
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:53:21
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:53:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2121  0.00s             0           0  0.04s           2023-12-21T20:53:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:53:21
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.33s           2023-12-21T20:53:23
+================================================================================
+[2023-12-21T20:54:22.713+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2161  0.02s             0           0  0.06s           2023-12-21T20:53:52
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:53:52
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:53:52
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:53:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2164  0.01s             0           0  0.05s           2023-12-21T20:53:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:53:52
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:53:53
+================================================================================
+[2023-12-21T20:54:53.243+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2204  0.01s             0           0  0.06s           2023-12-21T20:54:22
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:54:22
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:54:22
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:54:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2207  0.00s             0           0  0.05s           2023-12-21T20:54:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:54:22
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:54:24
+================================================================================
+[2023-12-21T20:55:23.822+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2247  0.02s             0           0  0.04s           2023-12-21T20:54:53
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:54:53
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:54:53
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:54:53
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2250  0.00s             0           0  0.04s           2023-12-21T20:54:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:54:53
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:54:54
+================================================================================
+[2023-12-21T20:55:54.362+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2290  0.02s             0           0  0.06s           2023-12-21T20:55:23
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:55:23
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:55:23
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:55:23
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2293  0.01s             0           0  0.05s           2023-12-21T20:55:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:55:23
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:55:25
+================================================================================
+[2023-12-21T20:56:24.890+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2333  0.02s             0           0  0.06s           2023-12-21T20:55:54
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:55:54
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:55:54
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:55:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2336  0.00s             0           0  0.05s           2023-12-21T20:55:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:55:54
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.34s           2023-12-21T20:55:55
+================================================================================
+[2023-12-21T20:56:55.416+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2376  0.01s             0           0  0.06s           2023-12-21T20:56:24
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:56:24
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:56:24
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:56:24
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2379  0.00s             0           0  0.05s           2023-12-21T20:56:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:56:25
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:56:26
+================================================================================
+[2023-12-21T20:57:02.633+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T20:57:02.672+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T20:57:26.051+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2419  0.02s             0           0  0.04s           2023-12-21T20:56:55
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.02s           2023-12-21T20:56:55
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:56:55
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:56:55
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2422  0.01s             0           0  0.04s           2023-12-21T20:56:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:56:55
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.35s           2023-12-21T20:56:56
+================================================================================
+[2023-12-21T20:57:56.701+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2462  0.02s             0           0  0.06s           2023-12-21T20:57:26
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:57:26
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:57:26
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:57:26
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2465  0.01s             0           0  0.05s           2023-12-21T20:57:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:57:26
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.38s           2023-12-21T20:57:27
+================================================================================
+[2023-12-21T20:58:27.236+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2505  0.01s             0           0  0.06s           2023-12-21T20:57:56
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-21T20:57:56
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T20:57:56
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T20:57:56
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2508  0.00s             0           0  0.05s           2023-12-21T20:57:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T20:57:56
+/opt/airflow/dags/Prop_Sales_Data_Real_Estate_Trends.py                                  7           0  0.36s           2023-12-21T20:57:58
+================================================================================
+[2023-12-21T20:58:43.040+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

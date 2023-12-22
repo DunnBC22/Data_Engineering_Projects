@@ -1,0 +1,386 @@
+[2023-12-20T17:31:32.224+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-20T17:31:32.225+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-20T17:31:32.225+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-20T17:31:32.226+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T17:31:32.247+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
+[2023-12-20T17:31:32.403+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/Employee Dataset.py                       168  0.06s             0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0
+/opt/airflow/dags/create_star_schema_part_2.py              171  0.04s             0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0
+================================================================================
+[2023-12-20T17:32:02.889+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.07s           2023-12-20T17:31:32
+/opt/airflow/dags/create_star_schema_part_2.py              197  0.00s             0           0  0.08s           2023-12-20T17:31:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.06s           2023-12-20T17:31:32
+/opt/airflow/dags/Employee Dataset.py                       195  0.02s             4           0  0.40s           2023-12-20T17:31:32
+================================================================================
+[2023-12-20T17:32:33.415+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.05s           2023-12-20T17:32:03
+/opt/airflow/dags/create_star_schema_part_2.py              225  0.01s             0           0  0.07s           2023-12-20T17:32:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.04s           2023-12-20T17:32:03
+/opt/airflow/dags/Employee Dataset.py                       222  0.03s             4           0  0.26s           2023-12-20T17:32:03
+================================================================================
+[2023-12-20T17:33:03.855+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.05s           2023-12-20T17:32:33
+/opt/airflow/dags/create_star_schema_part_2.py              252  0.01s             0           0  0.09s           2023-12-20T17:32:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.04s           2023-12-20T17:32:33
+/opt/airflow/dags/Employee Dataset.py                       249  0.04s             4           0  0.24s           2023-12-20T17:32:33
+================================================================================
+[2023-12-20T17:33:34.353+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T17:33:03
+/opt/airflow/dags/create_star_schema_part_2.py              279  0.00s             0           0  0.05s           2023-12-20T17:33:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:33:03
+/opt/airflow/dags/Employee Dataset.py                       276  0.02s             4           0  0.17s           2023-12-20T17:33:03
+================================================================================
+[2023-12-20T17:34:04.797+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T17:33:34
+/opt/airflow/dags/create_star_schema_part_2.py              306  0.00s             0           0  0.05s           2023-12-20T17:33:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:33:34
+/opt/airflow/dags/Employee Dataset.py                       303  0.02s             4           0  0.15s           2023-12-20T17:33:34
+================================================================================
+[2023-12-20T17:34:35.194+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T17:34:04
+/opt/airflow/dags/create_star_schema_part_2.py              335  0.00s             0           0  0.04s           2023-12-20T17:34:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:34:04
+/opt/airflow/dags/Employee Dataset.py                       332  0.01s             4           0  0.14s           2023-12-20T17:34:04
+================================================================================
+[2023-12-20T17:35:05.856+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              372  0.00s             0           0  0.03s           2023-12-20T17:34:35
+/opt/airflow/dags/create_star_schema_part_2.py              369  0.01s             0           0  0.04s           2023-12-20T17:34:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:34:35
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.11s           2023-12-20T17:34:49
+================================================================================
+[2023-12-20T17:35:36.270+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              399  0.01s             0           0  0.04s           2023-12-20T17:35:05
+/opt/airflow/dags/create_star_schema_part_2.py              396  0.02s             0           0  0.04s           2023-12-20T17:35:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:35:05
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:35:20
+================================================================================
+[2023-12-20T17:36:06.622+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              426  0.00s             0           0  0.05s           2023-12-20T17:35:36
+/opt/airflow/dags/create_star_schema_part_2.py              423  0.02s             0           0  0.06s           2023-12-20T17:35:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:35:36
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.13s           2023-12-20T17:35:50
+================================================================================
+[2023-12-20T17:36:32.950+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T17:36:32.977+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
+[2023-12-20T17:36:37.030+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              469  0.00s             0           0  0.05s           2023-12-20T17:36:06
+/opt/airflow/dags/create_star_schema_part_2.py              466  0.01s             0           0  0.06s           2023-12-20T17:36:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:36:06
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:36:20
+================================================================================
+[2023-12-20T17:37:07.381+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              496  0.00s             0           0  0.03s           2023-12-20T17:36:37
+/opt/airflow/dags/create_star_schema_part_2.py              493  0.01s             0           0  0.03s           2023-12-20T17:36:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:36:37
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.13s           2023-12-20T17:36:51
+================================================================================
+[2023-12-20T17:37:37.808+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              525  0.00s             0           0  0.03s           2023-12-20T17:37:07
+/opt/airflow/dags/create_star_schema_part_2.py              522  0.01s             0           0  0.03s           2023-12-20T17:37:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:37:07
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.13s           2023-12-20T17:37:21
+================================================================================
+[2023-12-20T17:38:08.189+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              552  0.00s             0           0  0.03s           2023-12-20T17:37:37
+/opt/airflow/dags/create_star_schema_part_2.py              549  0.01s             0           0  0.03s           2023-12-20T17:37:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:37:37
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:37:52
+================================================================================
+[2023-12-20T17:38:38.637+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              579  0.01s             0           0  0.03s           2023-12-20T17:38:08
+/opt/airflow/dags/create_star_schema_part_2.py              576  0.02s             0           0  0.03s           2023-12-20T17:38:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:38:08
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:38:22
+================================================================================
+[2023-12-20T17:39:09.085+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              606  0.00s             0           0  0.05s           2023-12-20T17:38:38
+/opt/airflow/dags/create_star_schema_part_2.py              603  0.02s             0           0  0.06s           2023-12-20T17:38:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:38:38
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:38:52
+================================================================================
+[2023-12-20T17:39:39.527+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              633  0.00s             0           0  0.05s           2023-12-20T17:39:09
+/opt/airflow/dags/create_star_schema_part_2.py              630  0.02s             0           0  0.06s           2023-12-20T17:39:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:39:09
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:39:23
+================================================================================
+[2023-12-20T17:40:09.895+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              660  0.00s             0           0  0.05s           2023-12-20T17:39:39
+/opt/airflow/dags/create_star_schema_part_2.py              657  0.02s             0           0  0.06s           2023-12-20T17:39:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:39:39
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:39:53
+================================================================================
+[2023-12-20T17:40:40.284+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              687  0.00s             0           0  0.05s           2023-12-20T17:40:09
+/opt/airflow/dags/create_star_schema_part_2.py              684  0.01s             0           0  0.06s           2023-12-20T17:40:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:40:09
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.13s           2023-12-20T17:40:24
+================================================================================
+[2023-12-20T17:41:10.668+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              714  0.01s             0           0  0.04s           2023-12-20T17:40:40
+/opt/airflow/dags/create_star_schema_part_2.py              711  0.02s             0           0  0.05s           2023-12-20T17:40:40
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:40:40
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.13s           2023-12-20T17:40:54
+================================================================================
+[2023-12-20T17:41:32.964+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T17:41:32.989+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
+[2023-12-20T17:41:41.094+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              741  0.00s             0           0  0.05s           2023-12-20T17:41:10
+/opt/airflow/dags/create_star_schema_part_2.py              738  0.01s             0           0  0.06s           2023-12-20T17:41:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:41:10
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:41:25
+================================================================================
+[2023-12-20T17:42:11.452+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              768  0.00s             0           0  0.05s           2023-12-20T17:41:41
+/opt/airflow/dags/create_star_schema_part_2.py              765  0.01s             0           0  0.05s           2023-12-20T17:41:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:41:41
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:41:55
+================================================================================
+[2023-12-20T17:42:41.789+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              795  0.00s             0           0  0.04s           2023-12-20T17:42:11
+/opt/airflow/dags/create_star_schema_part_2.py              792  0.02s             0           0  0.05s           2023-12-20T17:42:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:42:11
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.12s           2023-12-20T17:42:25
+================================================================================
+[2023-12-20T17:43:12.191+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              822  0.01s             0           0  0.05s           2023-12-20T17:42:41
+/opt/airflow/dags/create_star_schema_part_2.py              819  0.02s             0           0  0.05s           2023-12-20T17:42:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:42:41
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:42:56
+================================================================================
+[2023-12-20T17:43:42.522+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              849  0.01s             0           0  0.05s           2023-12-20T17:43:12
+/opt/airflow/dags/create_star_schema_part_2.py              846  0.02s             0           0  0.06s           2023-12-20T17:43:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:43:12
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:43:26
+================================================================================
+[2023-12-20T17:44:12.861+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              876  0.00s             0           0  0.05s           2023-12-20T17:43:42
+/opt/airflow/dags/create_star_schema_part_2.py              873  0.01s             0           0  0.06s           2023-12-20T17:43:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:43:42
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:43:56
+================================================================================
+[2023-12-20T17:44:43.287+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              903  0.00s             0           0  0.03s           2023-12-20T17:44:12
+/opt/airflow/dags/create_star_schema_part_2.py              900  0.02s             0           0  0.04s           2023-12-20T17:44:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:44:12
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:44:27
+================================================================================
+[2023-12-20T17:45:13.641+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              930  0.01s             0           0  0.05s           2023-12-20T17:44:43
+/opt/airflow/dags/create_star_schema_part_2.py              927  0.02s             0           0  0.05s           2023-12-20T17:44:43
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:44:43
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.11s           2023-12-20T17:44:57
+================================================================================
+[2023-12-20T17:45:44.061+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              957  0.00s             0           0  0.06s           2023-12-20T17:45:13
+/opt/airflow/dags/create_star_schema_part_2.py              954  0.02s             0           0  0.07s           2023-12-20T17:45:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:45:13
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.15s           2023-12-20T17:45:28
+================================================================================
+[2023-12-20T17:46:14.435+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py              998  0.00s             0           0  0.05s           2023-12-20T17:45:44
+/opt/airflow/dags/create_star_schema_part_2.py              995  0.02s             0           0  0.06s           2023-12-20T17:45:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:45:44
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.10s           2023-12-20T17:45:58
+================================================================================
+[2023-12-20T17:46:33.714+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T17:46:33.736+0000] {manager.py:758} INFO - There are 4 files in /opt/airflow/dags
+[2023-12-20T17:46:44.924+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py             1025  0.01s             0           0  0.04s           2023-12-20T17:46:14
+/opt/airflow/dags/create_star_schema_part_2.py             1022  0.02s             0           0  0.05s           2023-12-20T17:46:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:46:14
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:46:28
+================================================================================
+[2023-12-20T17:47:15.263+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py             1066  0.01s             0           0  0.05s           2023-12-20T17:46:44
+/opt/airflow/dags/create_star_schema_part_2.py             1063  0.02s             0           0  0.06s           2023-12-20T17:46:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:46:44
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.11s           2023-12-20T17:46:59
+================================================================================
+[2023-12-20T17:47:45.633+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py             1093  0.01s             0           0  0.05s           2023-12-20T17:47:15
+/opt/airflow/dags/create_star_schema_part_2.py             1090  0.02s             0           0  0.06s           2023-12-20T17:47:15
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:47:15
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.10s           2023-12-20T17:47:29
+================================================================================
+[2023-12-20T17:48:16.040+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py             1120  0.01s             0           0  0.04s           2023-12-20T17:47:45
+/opt/airflow/dags/create_star_schema_part_2.py             1117  0.02s             0           0  0.05s           2023-12-20T17:47:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T17:47:45
+/opt/airflow/dags/Employee Dataset.py                                              4           0  0.14s           2023-12-20T17:47:59
+================================================================================
+[2023-12-20T17:48:18.063+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

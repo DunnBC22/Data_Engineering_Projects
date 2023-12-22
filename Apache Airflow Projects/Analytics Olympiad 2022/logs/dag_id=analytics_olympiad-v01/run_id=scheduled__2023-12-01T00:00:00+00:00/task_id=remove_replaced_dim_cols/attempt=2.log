@@ -1,0 +1,25 @@
+[2023-12-19T04:26:23.752+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: analytics_olympiad-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:26:23.757+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: analytics_olympiad-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:26:23.757+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 6
+[2023-12-19T04:26:23.763+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): remove_replaced_dim_cols> on 2023-12-01 00:00:00+00:00
+[2023-12-19T04:26:23.766+0000] {standard_task_runner.py:57} INFO - Started process 2536 to run task
+[2023-12-19T04:26:23.768+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'analytics_olympiad-v01', 'remove_replaced_dim_cols', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/Analytics Olympiad 2022.py', '--cfg-path', '/tmp/tmpecki9889']
+[2023-12-19T04:26:23.770+0000] {standard_task_runner.py:85} INFO - Job 40: Subtask remove_replaced_dim_cols
+[2023-12-19T04:26:23.801+0000] {task_command.py:416} INFO - Running <TaskInstance: analytics_olympiad-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [running]> on host 7b1718a25f0c
+[2023-12-19T04:26:23.840+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='analytics_olympiad-v01' AIRFLOW_CTX_TASK_ID='remove_replaced_dim_cols' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T04:26:23.843+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-19T04:26:23.850+0000] {subdag.py:174} INFO - Found existing DagRun: backfill__2023-12-01T00:00:00+00:00
+[2023-12-19T04:27:54.555+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2023-12-19T04:27:54.556+0000] {process_utils.py:131} INFO - Sending 15 to group 2536. PIDs of all processes in the group: [2536]
+[2023-12-19T04:27:54.556+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 2536
+[2023-12-19T04:27:54.557+0000] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-12-19T04:27:54.563+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-12-19T04:27:54.565+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=analytics_olympiad-v01, task_id=remove_replaced_dim_cols, execution_date=20231201T000000, start_date=20231219T042623, end_date=20231219T042754
+[2023-12-19T04:27:54.571+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 40 for task remove_replaced_dim_cols (Task received SIGTERM signal; 2536)
+[2023-12-19T04:27:54.583+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=2536, status='terminated', exitcode=1, started='04:26:23') (2536) terminated with exit code 1

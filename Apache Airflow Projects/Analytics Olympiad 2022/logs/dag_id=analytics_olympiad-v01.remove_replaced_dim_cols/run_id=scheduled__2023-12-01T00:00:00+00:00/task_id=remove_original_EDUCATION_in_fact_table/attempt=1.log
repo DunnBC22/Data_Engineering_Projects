@@ -1,0 +1,20 @@
+[2023-12-19T04:29:57.083+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: analytics_olympiad-v01.remove_replaced_dim_cols.remove_original_EDUCATION_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:29:57.088+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: analytics_olympiad-v01.remove_replaced_dim_cols.remove_original_EDUCATION_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:29:57.089+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T04:29:57.102+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_original_EDUCATION_in_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-19T04:29:57.108+0000] {standard_task_runner.py:57} INFO - Started process 2860 to run task
+[2023-12-19T04:29:57.111+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'analytics_olympiad-v01.remove_replaced_dim_cols', 'remove_original_EDUCATION_in_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/Analytics Olympiad 2022.py', '--cfg-path', '/tmp/tmpxu48oyx7']
+[2023-12-19T04:29:57.116+0000] {standard_task_runner.py:85} INFO - Job 48: Subtask remove_original_EDUCATION_in_fact_table
+[2023-12-19T04:29:57.177+0000] {task_command.py:416} INFO - Running <TaskInstance: analytics_olympiad-v01.remove_replaced_dim_cols.remove_original_EDUCATION_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 7b1718a25f0c
+[2023-12-19T04:29:57.253+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='analytics_olympiad-v01.remove_replaced_dim_cols' AIRFLOW_CTX_TASK_ID='remove_original_EDUCATION_in_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T04:29:57.256+0000] {sql.py:274} INFO - Executing: -- table_name, column_name
+ALTER TABLE analytics_olympiad_pipeline
+DROP COLUMN EDUCATION;
+[2023-12-19T04:29:57.265+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:29:57.272+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:29:57.278+0000] {sql.py:418} INFO - Running statement: -- table_name, column_name
+ALTER TABLE analytics_olympiad_pipeline
+DROP COLUMN EDUCATION;, parameters: None
+[2023-12-19T04:29:57.297+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=analytics_olympiad-v01.remove_replaced_dim_cols, task_id=remove_original_EDUCATION_in_fact_table, execution_date=20231201T000000, start_date=20231219T042957, end_date=20231219T042957
+[2023-12-19T04:29:57.336+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T04:29:57.382+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

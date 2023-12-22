@@ -1,0 +1,58 @@
+[2023-12-19T19:22:53.462+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Auto_Insurance-v01.generate_date_parts scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T19:22:53.467+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Auto_Insurance-v01.generate_date_parts scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T19:22:53.467+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 6
+[2023-12-19T19:22:53.474+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): generate_date_parts> on 2023-12-01 00:00:00+00:00
+[2023-12-19T19:22:53.476+0000] {standard_task_runner.py:57} INFO - Started process 897 to run task
+[2023-12-19T19:22:53.478+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Auto_Insurance-v01', 'generate_date_parts', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/Auto_Insurance.py', '--cfg-path', '/tmp/tmpjsbdjxlk']
+[2023-12-19T19:22:53.480+0000] {standard_task_runner.py:85} INFO - Job 10: Subtask generate_date_parts
+[2023-12-19T19:22:53.511+0000] {task_command.py:416} INFO - Running <TaskInstance: Auto_Insurance-v01.generate_date_parts scheduled__2023-12-01T00:00:00+00:00 [running]> on host 757899fef296
+[2023-12-19T19:22:53.558+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Auto_Insurance-v01' AIRFLOW_CTX_TASK_ID='generate_date_parts' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T19:22:53.559+0000] {sql.py:274} INFO - Executing: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE auto_insurance_pipe
+ADD COLUMN IF NOT EXISTS Month_of_Effective_To_Date INTEGER, 
+ADD COLUMN IF NOT EXISTS Year_of_Effective_To_Date INTEGER, 
+ADD COLUMN IF NOT EXISTS D_o_M_of_Effective_To_Date INTEGER;
+
+-- fill columns with their proper values
+UPDATE auto_insurance_pipe
+SET 
+    Month_of_Effective_To_Date = EXTRACT(MONTH FROM Effective_To_Date),
+    Year_of_Effective_To_Date = EXTRACT(YEAR FROM Effective_To_Date)
+    D_o_M_of_Effective_To_Date = EXTRACT(DAY FROM Effective_To_Date);
+[2023-12-19T19:22:53.565+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T19:22:53.572+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T19:22:53.578+0000] {sql.py:418} INFO - Running statement: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE auto_insurance_pipe
+ADD COLUMN IF NOT EXISTS Month_of_Effective_To_Date INTEGER, 
+ADD COLUMN IF NOT EXISTS Year_of_Effective_To_Date INTEGER, 
+ADD COLUMN IF NOT EXISTS D_o_M_of_Effective_To_Date INTEGER;
+
+-- fill columns with their proper values
+UPDATE auto_insurance_pipe
+SET 
+    Month_of_Effective_To_Date = EXTRACT(MONTH FROM Effective_To_Date),
+    Year_of_Effective_To_Date = EXTRACT(YEAR FROM Effective_To_Date)
+    D_o_M_of_Effective_To_Date = EXTRACT(DAY FROM Effective_To_Date);, parameters: None
+[2023-12-19T19:22:53.579+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "D_o_M_of_Effective_To_Date"
+LINE 14:     D_o_M_of_Effective_To_Date = EXTRACT(DAY FROM Effective_...
+             ^
+
+[2023-12-19T19:22:53.586+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Auto_Insurance-v01, task_id=generate_date_parts, execution_date=20231201T000000, start_date=20231219T192253, end_date=20231219T192253
+[2023-12-19T19:22:53.591+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 10 for task generate_date_parts (syntax error at or near "D_o_M_of_Effective_To_Date"
+LINE 14:     D_o_M_of_Effective_To_Date = EXTRACT(DAY FROM Effective_...
+             ^
+; 897)
+[2023-12-19T19:22:53.615+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-19T19:22:53.637+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

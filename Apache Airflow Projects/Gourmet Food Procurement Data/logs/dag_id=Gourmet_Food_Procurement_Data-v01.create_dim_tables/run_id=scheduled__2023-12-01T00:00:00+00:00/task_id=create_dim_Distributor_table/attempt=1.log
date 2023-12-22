@@ -1,0 +1,94 @@
+[2023-12-20T02:58:52.155+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.create_dim_tables.create_dim_Distributor_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:58:52.163+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.create_dim_tables.create_dim_Distributor_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:58:52.164+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T02:58:52.174+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_dim_Distributor_table> on 2023-12-01 00:00:00+00:00
+[2023-12-20T02:58:52.179+0000] {standard_task_runner.py:57} INFO - Started process 2172 to run task
+[2023-12-20T02:58:52.184+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01.create_dim_tables', 'create_dim_Distributor_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '38', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpr39xrw09']
+[2023-12-20T02:58:52.186+0000] {standard_task_runner.py:85} INFO - Job 38: Subtask create_dim_Distributor_table
+[2023-12-20T02:58:52.235+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.create_dim_tables.create_dim_Distributor_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 069170cec93a
+[2023-12-20T02:58:52.295+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01.create_dim_tables' AIRFLOW_CTX_TASK_ID='create_dim_Distributor_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T02:58:52.297+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_Distributor AS
+SELECT DISTINCT Distributor FROM gourmet_food_procurement_data_pipeline;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_Distributor;
+CREATE TABLE dimension_table_Distributor (
+    id SERIAL PRIMARY KEY,
+    Distributor VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_Distributor (Distributor)
+SELECT * FROM unique_values_Distributor;
+[2023-12-20T02:58:52.306+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T02:58:52.314+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T02:58:52.324+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_Distributor AS
+SELECT DISTINCT Distributor FROM gourmet_food_procurement_data_pipeline;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_Distributor;
+CREATE TABLE dimension_table_Distributor (
+    id SERIAL PRIMARY KEY,
+    Distributor VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_Distributor (Distributor)
+SELECT * FROM unique_values_Distributor;, parameters: None
+[2023-12-20T02:58:52.344+0000] {sql.py:427} INFO - Rows affected: 46
+[2023-12-20T02:58:52.352+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Gourmet_Food_Procurement_Data-v01.create_dim_tables, task_id=create_dim_Distributor_table, execution_date=20231201T000000, start_date=20231220T025852, end_date=20231220T025852
+[2023-12-20T02:58:52.396+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T02:58:52.424+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-20T18:05:56.372+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.create_dim_tables.create_dim_Distributor_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:05:56.384+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.create_dim_tables.create_dim_Distributor_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:05:56.385+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T18:05:56.399+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_dim_Distributor_table> on 2023-12-01 00:00:00+00:00
+[2023-12-20T18:05:56.405+0000] {standard_task_runner.py:57} INFO - Started process 1792 to run task
+[2023-12-20T18:05:56.407+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01.create_dim_tables', 'create_dim_Distributor_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmp30dtljti']
+[2023-12-20T18:05:56.411+0000] {standard_task_runner.py:85} INFO - Job 30: Subtask create_dim_Distributor_table
+[2023-12-20T18:05:56.522+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.create_dim_tables.create_dim_Distributor_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 064e84e7d61d
+[2023-12-20T18:05:56.614+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01.create_dim_tables' AIRFLOW_CTX_TASK_ID='create_dim_Distributor_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T18:05:56.615+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_Distributor AS
+SELECT DISTINCT Distributor FROM gourmet_food_procurement_data_pipeline;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_Distributor;
+CREATE TABLE dimension_table_Distributor (
+    id SERIAL PRIMARY KEY,
+    Distributor VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_Distributor (Distributor)
+SELECT * FROM unique_values_Distributor;
+[2023-12-20T18:05:56.628+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T18:05:56.636+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T18:05:56.648+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_Distributor AS
+SELECT DISTINCT Distributor FROM gourmet_food_procurement_data_pipeline;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_Distributor;
+CREATE TABLE dimension_table_Distributor (
+    id SERIAL PRIMARY KEY,
+    Distributor VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_Distributor (Distributor)
+SELECT * FROM unique_values_Distributor;, parameters: None
+[2023-12-20T18:05:56.665+0000] {sql.py:427} INFO - Rows affected: 46
+[2023-12-20T18:05:56.687+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Gourmet_Food_Procurement_Data-v01.create_dim_tables, task_id=create_dim_Distributor_table, execution_date=20231201T000000, start_date=20231220T180556, end_date=20231220T180556
+[2023-12-20T18:05:56.744+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T18:05:56.787+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

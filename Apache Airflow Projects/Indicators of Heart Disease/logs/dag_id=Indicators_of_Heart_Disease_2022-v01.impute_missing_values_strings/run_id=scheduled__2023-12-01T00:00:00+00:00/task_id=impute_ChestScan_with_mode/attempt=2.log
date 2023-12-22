@@ -1,0 +1,58 @@
+[2023-12-21T16:55:00.086+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings.impute_ChestScan_with_mode scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:55:00.093+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings.impute_ChestScan_with_mode scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:55:00.094+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 6
+[2023-12-21T16:55:00.108+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): impute_ChestScan_with_mode> on 2023-12-01 00:00:00+00:00
+[2023-12-21T16:55:00.114+0000] {standard_task_runner.py:57} INFO - Started process 1196 to run task
+[2023-12-21T16:55:00.117+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings', 'impute_ChestScan_with_mode', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/Indicators_of_Heart_Disease_2022.py', '--cfg-path', '/tmp/tmp78397qxt']
+[2023-12-21T16:55:00.120+0000] {standard_task_runner.py:85} INFO - Job 66: Subtask impute_ChestScan_with_mode
+[2023-12-21T16:55:00.171+0000] {task_command.py:416} INFO - Running <TaskInstance: Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings.impute_ChestScan_with_mode scheduled__2023-12-01T00:00:00+00:00 [running]> on host 8e01071a5eb3
+[2023-12-21T16:55:00.244+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings' AIRFLOW_CTX_TASK_ID='impute_ChestScan_with_mode' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-21T16:55:00.246+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+
+UPDATE indicators_of_heart_disease_2022_pipe
+SET ChestScan = (
+    SELECT ChestScan 
+    FROM indicators_of_heart_disease_2022_pipe
+    WHERE ChestScan IS NOT NULL
+    GROUP BY ChestScan
+    ORDER BY COUNT(*) DESC
+    LIMIT 1
+)
+WHERE ChestScan IS NULL;
+[2023-12-21T16:55:00.258+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T16:55:00.267+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T16:55:00.276+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+
+UPDATE indicators_of_heart_disease_2022_pipe
+SET ChestScan = (
+    SELECT ChestScan 
+    FROM indicators_of_heart_disease_2022_pipe
+    WHERE ChestScan IS NOT NULL
+    GROUP BY ChestScan
+    ORDER BY COUNT(*) DESC
+    LIMIT 1
+)
+WHERE ChestScan IS NULL;, parameters: None
+[2023-12-21T16:55:06.507+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.DeadlockDetected: deadlock detected
+DETAIL:  Process 74268 waits for ShareLock on transaction 1141772; blocked by process 74275.
+Process 74275 waits for ShareLock on transaction 1141767; blocked by process 74268.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (19397,8) in relation "indicators_of_heart_disease_2022_pipe"
+
+[2023-12-21T16:55:06.514+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings, task_id=impute_ChestScan_with_mode, execution_date=20231201T000000, start_date=20231221T165500, end_date=20231221T165506
+[2023-12-21T16:55:06.519+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 66 for task impute_ChestScan_with_mode (deadlock detected
+DETAIL:  Process 74268 waits for ShareLock on transaction 1141772; blocked by process 74275.
+Process 74275 waits for ShareLock on transaction 1141767; blocked by process 74268.
+HINT:  See server log for query details.
+CONTEXT:  while updating tuple (19397,8) in relation "indicators_of_heart_disease_2022_pipe"
+; 1196)
+[2023-12-21T16:55:06.536+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-21T16:55:06.565+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

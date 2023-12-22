@@ -1,0 +1,40 @@
+[2023-12-21T16:11:05.982+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Insurance_Fraud-v01.remove_samples_with_outliers.process_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:11:05.986+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Insurance_Fraud-v01.remove_samples_with_outliers.process_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:11:05.987+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-21T16:11:05.993+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): process_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-21T16:11:05.997+0000] {standard_task_runner.py:57} INFO - Started process 416 to run task
+[2023-12-21T16:11:05.999+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'process_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/Insurance_Fraud.py', '--cfg-path', '/tmp/tmpgea2jp7l']
+[2023-12-21T16:11:06.000+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask process_fact_table
+[2023-12-21T16:11:06.029+0000] {task_command.py:416} INFO - Running <TaskInstance: Insurance_Fraud-v01.remove_samples_with_outliers.process_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 8e15cdf87c56
+[2023-12-21T16:11:06.069+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Insurance_Fraud-v01.remove_samples_with_outliers' AIRFLOW_CTX_TASK_ID='process_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-21T16:11:06.076+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T16:11:06.213+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Age'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/remove_outliers_1_5_iqr.py", line 198, in process_fact_table
+    outliers_df = detect_outliers(
+  File "/opt/airflow/dags/remove_outliers_1_5_iqr.py", line 120, in detect_outliers
+    q1 = df[column].quantile(0.25)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Age'
+[2023-12-21T16:11:06.222+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Insurance_Fraud-v01.remove_samples_with_outliers, task_id=process_fact_table, execution_date=20231201T000000, start_date=20231221T161105, end_date=20231221T161106
+[2023-12-21T16:11:06.228+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 8 for task process_fact_table ('Age'; 416)
+[2023-12-21T16:11:06.259+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-21T16:11:06.282+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

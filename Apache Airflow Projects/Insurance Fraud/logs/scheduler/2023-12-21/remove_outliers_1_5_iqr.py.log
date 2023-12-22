@@ -1,0 +1,45 @@
+[2023-12-21T16:13:05.638+0000] {processor.py:157} INFO - Started process (PID=575) to work on /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:13:05.639+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-21T16:13:05.639+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:05.639+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:13:05.643+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:13:05.652+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/remove_outliers_1_5_iqr.py took 0.017 seconds
+[2023-12-21T16:13:36.089+0000] {processor.py:157} INFO - Started process (PID=621) to work on /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:13:36.091+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-21T16:13:36.092+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:36.092+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:13:36.101+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:13:36.118+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/remove_outliers_1_5_iqr.py took 0.034 seconds
+[2023-12-21T16:14:06.585+0000] {processor.py:157} INFO - Started process (PID=667) to work on /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:14:06.586+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-21T16:14:06.587+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:06.587+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:14:06.594+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:14:06.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/remove_outliers_1_5_iqr.py took 0.028 seconds
+[2023-12-21T16:14:37.116+0000] {processor.py:157} INFO - Started process (PID=791) to work on /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:14:37.117+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-21T16:14:37.118+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:37.118+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:14:37.123+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:14:37.137+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/remove_outliers_1_5_iqr.py took 0.024 seconds
+[2023-12-21T16:15:07.622+0000] {processor.py:157} INFO - Started process (PID=834) to work on /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:15:07.624+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-21T16:15:07.624+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:07.624+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:15:07.630+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:15:07.644+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/remove_outliers_1_5_iqr.py took 0.025 seconds
+[2023-12-21T16:15:37.751+0000] {processor.py:157} INFO - Started process (PID=958) to work on /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:15:37.752+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-21T16:15:37.754+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:37.753+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:15:37.762+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:15:37.780+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/remove_outliers_1_5_iqr.py took 0.034 seconds
+[2023-12-21T16:16:08.184+0000] {processor.py:157} INFO - Started process (PID=1001) to work on /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:16:08.184+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-21T16:16:08.185+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:08.185+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:16:08.189+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:16:08.201+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/remove_outliers_1_5_iqr.py took 0.020 seconds
+[2023-12-21T16:16:38.625+0000] {processor.py:157} INFO - Started process (PID=1125) to work on /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:16:38.627+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-21T16:16:38.628+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:38.627+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:16:38.634+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:16:38.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/remove_outliers_1_5_iqr.py took 0.027 seconds
+[2023-12-21T16:17:09.069+0000] {processor.py:157} INFO - Started process (PID=1168) to work on /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:17:09.070+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/remove_outliers_1_5_iqr.py for tasks to queue
+[2023-12-21T16:17:09.072+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:09.071+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:17:09.079+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/remove_outliers_1_5_iqr.py
+[2023-12-21T16:17:09.097+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/remove_outliers_1_5_iqr.py took 0.033 seconds

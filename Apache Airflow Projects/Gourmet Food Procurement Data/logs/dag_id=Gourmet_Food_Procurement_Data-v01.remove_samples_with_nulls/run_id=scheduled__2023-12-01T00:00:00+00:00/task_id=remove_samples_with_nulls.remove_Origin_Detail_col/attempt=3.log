@@ -1,0 +1,38 @@
+[2023-12-20T02:54:52.429+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_Origin_Detail_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:54:52.439+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_Origin_Detail_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:54:52.439+0000] {taskinstance.py:1361} INFO - Starting attempt 3 of 6
+[2023-12-20T02:54:52.450+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_with_nulls.remove_Origin_Detail_col> on 2023-12-01 00:00:00+00:00
+[2023-12-20T02:54:52.456+0000] {standard_task_runner.py:57} INFO - Started process 1714 to run task
+[2023-12-20T02:54:52.460+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls', 'remove_samples_with_nulls.remove_Origin_Detail_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpxnsgwrab']
+[2023-12-20T02:54:52.462+0000] {standard_task_runner.py:85} INFO - Job 30: Subtask remove_samples_with_nulls.remove_Origin_Detail_col
+[2023-12-20T02:54:52.511+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_Origin_Detail_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 069170cec93a
+[2023-12-20T02:54:52.571+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls' AIRFLOW_CTX_TASK_ID='remove_samples_with_nulls.remove_Origin_Detail_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T02:54:52.572+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+DELETE FROM gourmet_food_procurement_data_pipeline
+WHERE Origin_Detail is NULL;
+[2023-12-20T02:54:52.582+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T02:54:52.590+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T02:54:52.599+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+DELETE FROM gourmet_food_procurement_data_pipeline
+WHERE Origin_Detail is NULL;, parameters: None
+[2023-12-20T02:54:52.602+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedColumn: column "origin_detail" does not exist
+LINE 3: WHERE Origin_Detail is NULL;
+              ^
+HINT:  Perhaps you meant to reference the column "gourmet_food_procurement_data_pipeline.origindetail".
+
+[2023-12-20T02:54:52.610+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls, task_id=remove_samples_with_nulls.remove_Origin_Detail_col, execution_date=20231201T000000, start_date=20231220T025452, end_date=20231220T025452
+[2023-12-20T02:54:52.618+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 30 for task remove_samples_with_nulls.remove_Origin_Detail_col (column "origin_detail" does not exist
+LINE 3: WHERE Origin_Detail is NULL;
+              ^
+HINT:  Perhaps you meant to reference the column "gourmet_food_procurement_data_pipeline.origindetail".
+; 1714)
+[2023-12-20T02:54:52.633+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-20T02:54:52.663+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,23 @@
+[2023-12-19T04:55:09.304+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bank_and_cc_complaints-v01.handle_nulls_in_consumer_disputed scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:55:09.308+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bank_and_cc_complaints-v01.handle_nulls_in_consumer_disputed scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:55:09.308+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T04:55:09.314+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): handle_nulls_in_consumer_disputed> on 2023-12-01 00:00:00+00:00
+[2023-12-19T04:55:09.317+0000] {standard_task_runner.py:57} INFO - Started process 570 to run task
+[2023-12-19T04:55:09.319+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'bank_and_cc_complaints-v01', 'handle_nulls_in_consumer_disputed', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/bank_and_cc_complaints.py', '--cfg-path', '/tmp/tmpqbt_bqrm']
+[2023-12-19T04:55:09.320+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask handle_nulls_in_consumer_disputed
+[2023-12-19T04:55:09.352+0000] {task_command.py:416} INFO - Running <TaskInstance: bank_and_cc_complaints-v01.handle_nulls_in_consumer_disputed scheduled__2023-12-01T00:00:00+00:00 [running]> on host 2ee4b7dc3cc7
+[2023-12-19T04:55:09.402+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='bank_and_cc_complaints-v01' AIRFLOW_CTX_TASK_ID='handle_nulls_in_consumer_disputed' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T04:55:09.402+0000] {sql.py:274} INFO - Executing: -- params: table_name: ***_complaints, col_name: Consumer_disputed
+UPDATE ***_complaints 
+SET Consumer_disputed = 'NA'
+WHERE Consumer_disputed IS NULL;
+[2023-12-19T04:55:09.408+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:55:09.415+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:55:09.420+0000] {sql.py:418} INFO - Running statement: -- params: table_name: ***_complaints, col_name: Consumer_disputed
+UPDATE ***_complaints 
+SET Consumer_disputed = 'NA'
+WHERE Consumer_disputed IS NULL;, parameters: None
+[2023-12-19T04:55:09.476+0000] {sql.py:427} INFO - Rows affected: 7841
+[2023-12-19T04:55:09.486+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=bank_and_cc_complaints-v01, task_id=handle_nulls_in_consumer_disputed, execution_date=20231201T000000, start_date=20231219T045509, end_date=20231219T045509
+[2023-12-19T04:55:09.498+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T04:55:09.522+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

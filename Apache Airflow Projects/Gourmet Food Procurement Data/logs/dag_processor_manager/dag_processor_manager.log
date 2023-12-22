@@ -1,0 +1,1324 @@
+[2023-12-20T02:39:58.151+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-20T02:39:58.151+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-20T02:39:58.152+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-20T02:39:58.152+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T02:39:58.213+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-12-20T02:39:58.423+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0
+/opt/airflow/dags/impute_with_median.py                           171  0.05s             0           0
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                168  0.06s             0           0
+================================================================================
+[2023-12-20T02:40:29.234+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.04s           2023-12-20T02:39:58
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2023-12-20T02:39:58
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.06s           2023-12-20T02:39:58
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.06s           2023-12-20T02:39:58
+/opt/airflow/dags/impute_with_median.py                           207  0.01s             0           1  0.11s           2023-12-20T02:39:58
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                206  0.04s             0           1  0.12s           2023-12-20T02:39:58
+================================================================================
+[2023-12-20T02:40:59.765+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:40:29
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:40:29
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.06s           2023-12-20T02:40:29
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.07s           2023-12-20T02:40:29
+/opt/airflow/dags/impute_with_median.py                           245  0.01s             0           1  0.10s           2023-12-20T02:40:29
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                243  0.03s             0           1  0.12s           2023-12-20T02:40:29
+================================================================================
+[2023-12-20T02:41:30.540+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.06s           2023-12-20T02:41:00
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.07s           2023-12-20T02:41:00
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.08s           2023-12-20T02:41:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.12s           2023-12-20T02:41:00
+/opt/airflow/dags/impute_with_median.py                           283  0.00s             0           1  0.15s           2023-12-20T02:40:59
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                280  0.02s             0           1  0.20s           2023-12-20T02:40:59
+================================================================================
+[2023-12-20T02:42:01.063+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.04s           2023-12-20T02:41:30
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-20T02:41:30
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.04s           2023-12-20T02:41:30
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              325  0.01s             0           0  0.04s           2023-12-20T02:41:30
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:41:52
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                322  0.02s             0           1  0.07s           2023-12-20T02:41:30
+================================================================================
+[2023-12-20T02:42:31.490+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T02:42:01
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.02s           2023-12-20T02:42:01
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T02:42:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              362  0.00s             0           0  0.04s           2023-12-20T02:42:01
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-20T02:42:23
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                359  0.02s             0           1  0.07s           2023-12-20T02:42:01
+================================================================================
+[2023-12-20T02:43:01.936+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:42:31
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:42:31
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T02:42:31
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              399  0.00s             0           0  0.04s           2023-12-20T02:42:31
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-20T02:42:43
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                396  0.02s             0           1  0.07s           2023-12-20T02:42:31
+================================================================================
+[2023-12-20T02:43:32.411+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T02:43:02
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:43:02
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T02:43:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              436  0.01s             0           0  0.04s           2023-12-20T02:43:01
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:43:14
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                433  0.02s             0           1  0.06s           2023-12-20T02:43:01
+================================================================================
+[2023-12-20T02:44:02.703+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:43:32
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:43:32
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                      479  0.00s             0           0  0.03s           2023-12-20T02:43:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              476  0.02s             0           0  0.05s           2023-12-20T02:43:32
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-20T02:43:44
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       0           1  0.88s           2023-12-20T02:43:58
+================================================================================
+[2023-12-20T02:44:33.089+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T02:44:02
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:44:02
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                      517  0.01s             0           0  0.05s           2023-12-20T02:44:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              514  0.02s             0           0  0.06s           2023-12-20T02:44:02
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.03s           2023-12-20T02:44:14
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.48s           2023-12-20T02:44:17
+================================================================================
+[2023-12-20T02:44:58.475+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T02:44:58.490+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2023-12-20T02:45:03.620+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.04s           2023-12-20T02:44:33
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:44:33
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                      582  0.00s             0           0  0.05s           2023-12-20T02:44:33
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:44:58
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.05s           2023-12-20T02:44:58
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              579  0.01s             0           0  0.06s           2023-12-20T02:44:33
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:44:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:44:58
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.36s           2023-12-20T02:44:48
+================================================================================
+[2023-12-20T02:45:34.059+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:45:03
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:45:03
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                      635  0.00s             0           0  0.04s           2023-12-20T02:45:03
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T02:45:28
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.04s           2023-12-20T02:45:28
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              632  0.01s             0           0  0.04s           2023-12-20T02:45:03
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:45:15
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-20T02:45:29
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T02:45:19
+================================================================================
+[2023-12-20T02:46:04.611+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T02:45:34
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.02s           2023-12-20T02:45:34
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                      694  0.01s             0           0  0.03s           2023-12-20T02:45:34
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:45:59
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:45:59
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              691  0.02s             0           0  0.04s           2023-12-20T02:45:34
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:45:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:45:59
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.36s           2023-12-20T02:45:49
+================================================================================
+[2023-12-20T02:46:35.140+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:46:04
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:46:04
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                      747  0.00s             0           0  0.05s           2023-12-20T02:46:04
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:46:30
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:46:30
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              744  0.02s             0           0  0.06s           2023-12-20T02:46:04
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-20T02:46:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:46:30
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.37s           2023-12-20T02:46:20
+================================================================================
+[2023-12-20T02:47:05.675+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:46:35
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:46:35
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                      809  0.00s             0           0  0.04s           2023-12-20T02:46:35
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:47:00
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:47:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              806  0.02s             0           0  0.05s           2023-12-20T02:46:35
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:46:47
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:47:00
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.37s           2023-12-20T02:46:50
+================================================================================
+[2023-12-20T02:47:35.833+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:47:05
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:47:05
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                      874  0.00s             0           0  0.05s           2023-12-20T02:47:05
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:47:31
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:47:31
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              871  0.01s             0           0  0.06s           2023-12-20T02:47:05
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:47:17
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:47:31
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.32s           2023-12-20T02:47:34
+================================================================================
+[2023-12-20T02:48:06.321+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:47:35
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:47:35
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                      927  0.00s             0           0  0.04s           2023-12-20T02:47:35
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:48:02
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.05s           2023-12-20T02:48:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              924  0.01s             0           0  0.05s           2023-12-20T02:47:35
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:47:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:48:02
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.41s           2023-12-20T02:48:05
+================================================================================
+[2023-12-20T02:48:36.811+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:48:06
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:48:06
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                      980  0.00s             0           0  0.04s           2023-12-20T02:48:06
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:48:32
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:48:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              977  0.01s             0           0  0.04s           2023-12-20T02:48:06
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:48:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:48:32
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.37s           2023-12-20T02:48:36
+================================================================================
+[2023-12-20T02:49:07.284+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:48:36
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:48:36
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1036  0.00s             0           0  0.03s           2023-12-20T02:48:36
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T02:49:03
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.05s           2023-12-20T02:49:03
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1033  0.02s             0           0  0.03s           2023-12-20T02:48:36
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:48:49
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:49:03
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T02:49:06
+================================================================================
+[2023-12-20T02:49:37.824+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T02:49:07
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:49:07
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1089  0.01s             0           0  0.05s           2023-12-20T02:49:07
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:49:33
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:49:33
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1086  0.02s             0           0  0.06s           2023-12-20T02:49:07
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-20T02:49:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:49:33
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.34s           2023-12-20T02:49:37
+================================================================================
+[2023-12-20T02:49:59.105+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T02:49:59.131+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2023-12-20T02:50:08.365+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:49:37
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:49:37
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1154  0.00s             0           0  0.05s           2023-12-20T02:49:37
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:50:04
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.07s           2023-12-20T02:50:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1151  0.02s             0           0  0.06s           2023-12-20T02:49:37
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:49:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:50:04
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.45s           2023-12-20T02:50:07
+================================================================================
+[2023-12-20T02:50:38.888+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:50:08
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-20T02:50:08
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1207  0.00s             0           0  0.04s           2023-12-20T02:50:08
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:50:34
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.05s           2023-12-20T02:50:34
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1204  0.02s             0           0  0.05s           2023-12-20T02:50:08
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:50:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:50:34
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.37s           2023-12-20T02:50:38
+================================================================================
+[2023-12-20T02:51:09.396+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:50:38
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-20T02:50:38
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1281  0.01s             0           0  0.04s           2023-12-20T02:50:38
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:51:05
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:51:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1278  0.02s             0           0  0.05s           2023-12-20T02:50:38
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.07s           2023-12-20T02:50:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:51:05
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.37s           2023-12-20T02:51:08
+================================================================================
+[2023-12-20T02:51:39.912+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T02:51:09
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:51:09
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1334  0.00s             0           0  0.05s           2023-12-20T02:51:09
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:51:35
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:51:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1331  0.02s             0           0  0.06s           2023-12-20T02:51:09
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-20T02:51:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:51:35
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.37s           2023-12-20T02:51:39
+================================================================================
+[2023-12-20T02:52:10.476+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:51:40
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:52:07
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1392  0.00s             0           0  0.05s           2023-12-20T02:51:39
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:52:06
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:52:06
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1389  0.02s             0           0  0.06s           2023-12-20T02:51:39
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-20T02:51:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:52:06
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.43s           2023-12-20T02:52:09
+================================================================================
+[2023-12-20T02:52:41.013+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:52:10
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:52:37
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1445  0.01s             0           0  0.04s           2023-12-20T02:52:10
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:52:36
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:52:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1442  0.03s             0           0  0.06s           2023-12-20T02:52:10
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:52:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:52:36
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.39s           2023-12-20T02:52:40
+================================================================================
+[2023-12-20T02:53:11.534+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:52:41
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:53:08
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1516  0.01s             0           0  0.05s           2023-12-20T02:52:41
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T02:53:07
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.05s           2023-12-20T02:53:07
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1513  0.02s             0           0  0.07s           2023-12-20T02:52:41
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-20T02:52:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:53:07
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.40s           2023-12-20T02:53:10
+================================================================================
+[2023-12-20T02:53:41.966+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:53:11
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-20T02:53:38
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1569  0.00s             0           0  0.04s           2023-12-20T02:53:11
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T02:53:37
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.04s           2023-12-20T02:53:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1566  0.01s             0           0  0.05s           2023-12-20T02:53:11
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-20T02:53:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:53:37
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T02:53:41
+================================================================================
+[2023-12-20T02:54:12.413+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T02:53:42
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-20T02:54:09
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1622  0.00s             0           0  0.03s           2023-12-20T02:53:41
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T02:54:08
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.04s           2023-12-20T02:54:08
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1619  0.02s             0           0  0.03s           2023-12-20T02:53:41
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-20T02:53:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:54:08
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.43s           2023-12-20T02:53:46
+================================================================================
+[2023-12-20T02:54:42.820+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:54:12
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-20T02:54:39
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1675  0.01s             0           0  0.04s           2023-12-20T02:54:12
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T02:54:38
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.04s           2023-12-20T02:54:38
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1672  0.02s             0           0  0.06s           2023-12-20T02:54:12
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.03s           2023-12-20T02:54:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:54:38
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.35s           2023-12-20T02:54:16
+================================================================================
+[2023-12-20T02:55:00.061+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T02:55:00.083+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2023-12-20T02:55:13.343+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:54:42
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:55:10
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1746  0.01s             0           0  0.04s           2023-12-20T02:54:42
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T02:55:09
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:55:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1743  0.02s             0           0  0.06s           2023-12-20T02:54:42
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:54:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:55:09
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T02:54:47
+================================================================================
+[2023-12-20T02:55:43.853+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:55:13
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:55:40
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1799  0.01s             0           0  0.05s           2023-12-20T02:55:13
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:55:39
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:55:39
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1796  0.02s             0           0  0.06s           2023-12-20T02:55:13
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-20T02:55:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:55:39
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.39s           2023-12-20T02:55:17
+================================================================================
+[2023-12-20T02:56:14.364+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:55:43
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:56:11
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1859  0.01s             0           0  0.04s           2023-12-20T02:55:43
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:56:10
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:56:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1856  0.02s             0           0  0.05s           2023-12-20T02:55:43
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:55:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:56:10
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.43s           2023-12-20T02:55:48
+================================================================================
+[2023-12-20T02:56:44.867+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:56:14
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2023-12-20T02:56:41
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1918  0.00s             0           0  0.05s           2023-12-20T02:56:14
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:56:40
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:56:40
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1915  0.01s             0           0  0.06s           2023-12-20T02:56:14
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-20T02:56:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:56:40
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.44s           2023-12-20T02:56:44
+================================================================================
+[2023-12-20T02:57:15.347+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:56:44
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:57:12
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     1980  0.01s             0           0  0.04s           2023-12-20T02:56:44
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:57:11
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:57:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1977  0.02s             0           0  0.04s           2023-12-20T02:56:44
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-20T02:56:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:57:11
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T02:57:14
+================================================================================
+[2023-12-20T02:57:45.845+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:57:15
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:57:42
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     2033  0.01s             0           0  0.05s           2023-12-20T02:57:15
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:57:41
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:57:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2030  0.02s             0           0  0.06s           2023-12-20T02:57:15
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.03s           2023-12-20T02:57:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:57:41
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T02:57:45
+================================================================================
+[2023-12-20T02:58:16.079+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:57:45
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:58:13
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     2092  0.00s             0           0  0.04s           2023-12-20T02:57:45
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:58:11
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:58:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2089  0.02s             0           0  0.05s           2023-12-20T02:57:45
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.03s           2023-12-20T02:57:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:58:12
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.32s           2023-12-20T02:57:56
+================================================================================
+[2023-12-20T02:58:46.591+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:58:16
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:58:43
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     2145  0.00s             0           0  0.05s           2023-12-20T02:58:16
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T02:58:42
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:58:42
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2142  0.01s             0           0  0.06s           2023-12-20T02:58:16
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:58:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:58:42
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.42s           2023-12-20T02:58:27
+================================================================================
+[2023-12-20T02:59:17.062+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T02:58:46
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T02:59:14
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     2219  0.00s             0           0  0.04s           2023-12-20T02:58:46
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T02:59:12
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T02:59:12
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2216  0.01s             0           0  0.04s           2023-12-20T02:58:46
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:58:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:59:13
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.36s           2023-12-20T02:58:58
+================================================================================
+[2023-12-20T02:59:47.492+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:59:17
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-20T02:59:44
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     2272  0.00s             0           0  0.04s           2023-12-20T02:59:17
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T02:59:43
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.04s           2023-12-20T02:59:43
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2269  0.02s             0           0  0.05s           2023-12-20T02:59:17
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-20T02:59:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T02:59:43
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T02:59:28
+================================================================================
+[2023-12-20T03:00:00.714+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T03:00:00.755+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2023-12-20T03:00:18.115+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T02:59:47
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T03:00:15
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     2346  0.00s             0           0  0.04s           2023-12-20T02:59:47
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T03:00:14
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T03:00:13
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2343  0.03s             0           0  0.05s           2023-12-20T02:59:47
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T02:59:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T03:00:14
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.36s           2023-12-20T02:59:59
+================================================================================
+[2023-12-20T03:00:48.693+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T03:00:18
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T03:00:45
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     2399  0.01s             0           0  0.05s           2023-12-20T03:00:18
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T03:00:44
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.05s           2023-12-20T03:00:44
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2396  0.02s             0           0  0.06s           2023-12-20T03:00:18
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T03:00:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T03:00:44
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.36s           2023-12-20T03:00:29
+================================================================================
+[2023-12-20T03:01:19.200+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T03:00:48
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T03:01:16
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     2473  0.01s             0           0  0.04s           2023-12-20T03:00:48
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T03:01:15
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.05s           2023-12-20T03:01:15
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2470  0.02s             0           0  0.06s           2023-12-20T03:00:48
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-20T03:01:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T03:01:15
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.36s           2023-12-20T03:01:00
+================================================================================
+[2023-12-20T03:01:49.678+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T03:01:19
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-20T03:01:46
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                     2526  0.01s             0           0  0.04s           2023-12-20T03:01:19
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.05s           2023-12-20T03:01:45
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T03:01:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2523  0.02s             0           0  0.06s           2023-12-20T03:01:19
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-20T03:01:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T03:01:45
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T03:01:30
+================================================================================
+[2023-12-20T03:02:12.531+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15
+[2023-12-20T17:51:14.669+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-20T17:51:14.669+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-20T17:51:14.669+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-20T17:51:14.670+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T17:51:14.689+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2023-12-20T17:51:14.790+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    170  0.02s             0           0
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0
+/opt/airflow/dags/impute_with_median.py                                                  0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                167  0.03s             0           0
+================================================================================
+[2023-12-20T17:51:45.142+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T17:51:15
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    220  0.02s             0           0  0.03s           2023-12-20T17:51:14
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.09s           2023-12-20T17:51:14
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:51:15
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:51:15
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.04s           2023-12-20T17:51:14
+/opt/airflow/dags/impute_with_median.py                           223  0.01s             0           0  0.03s           2023-12-20T17:51:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:51:15
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  1.07s           2023-12-20T17:51:15
+================================================================================
+[2023-12-20T17:52:15.668+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T17:51:45
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    273  0.02s             0           0  0.05s           2023-12-20T17:51:45
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:51:45
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:51:45
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:51:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:51:45
+/opt/airflow/dags/impute_with_median.py                           276  0.01s             0           0  0.05s           2023-12-20T17:51:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:51:45
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.36s           2023-12-20T17:51:46
+================================================================================
+[2023-12-20T17:52:46.216+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.06s           2023-12-20T17:52:15
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    332  0.02s             0           0  0.05s           2023-12-20T17:52:15
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:52:15
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:52:15
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:52:15
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:52:15
+/opt/airflow/dags/impute_with_median.py                           335  0.01s             0           0  0.05s           2023-12-20T17:52:15
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.06s           2023-12-20T17:52:15
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.37s           2023-12-20T17:52:17
+================================================================================
+[2023-12-20T17:53:16.753+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T17:52:46
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    391  0.02s             0           0  0.06s           2023-12-20T17:52:46
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:52:46
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T17:52:46
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:52:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:52:46
+/opt/airflow/dags/impute_with_median.py                           394  0.00s             0           0  0.05s           2023-12-20T17:52:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:52:46
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.37s           2023-12-20T17:52:47
+================================================================================
+[2023-12-20T17:53:47.227+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T17:53:16
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    447  0.01s             0           0  0.05s           2023-12-20T17:53:16
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:53:16
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T17:53:16
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:53:16
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:53:16
+/opt/airflow/dags/impute_with_median.py                           450  0.00s             0           0  0.04s           2023-12-20T17:53:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:53:16
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.35s           2023-12-20T17:53:18
+================================================================================
+[2023-12-20T17:54:17.660+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T17:53:47
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    503  0.01s             0           0  0.05s           2023-12-20T17:53:47
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:53:47
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:53:47
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:53:47
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:53:47
+/opt/airflow/dags/impute_with_median.py                           506  0.00s             0           0  0.05s           2023-12-20T17:53:47
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:53:47
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.35s           2023-12-20T17:53:48
+================================================================================
+[2023-12-20T17:54:48.089+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T17:54:17
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    556  0.01s             0           0  0.03s           2023-12-20T17:54:17
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:54:17
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T17:54:17
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:54:17
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-20T17:54:17
+/opt/airflow/dags/impute_with_median.py                           559  0.00s             0           0  0.03s           2023-12-20T17:54:17
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:54:17
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.36s           2023-12-20T17:54:19
+================================================================================
+[2023-12-20T17:55:18.558+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T17:54:48
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    609  0.02s             0           0  0.04s           2023-12-20T17:54:48
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:54:48
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:54:48
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:54:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:54:48
+/opt/airflow/dags/impute_with_median.py                           612  0.00s             0           0  0.04s           2023-12-20T17:54:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:54:48
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.39s           2023-12-20T17:54:49
+================================================================================
+[2023-12-20T17:55:49.101+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T17:55:18
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    664  0.01s             0           0  0.06s           2023-12-20T17:55:18
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:55:18
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:55:18
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:55:18
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:55:18
+/opt/airflow/dags/impute_with_median.py                           668  0.00s             0           0  0.05s           2023-12-20T17:55:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:55:18
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.39s           2023-12-20T17:55:20
+================================================================================
+[2023-12-20T17:56:14.856+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T17:56:14.876+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2023-12-20T17:56:19.582+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T17:55:49
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    718  0.01s             0           0  0.03s           2023-12-20T17:55:49
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.04s           2023-12-20T17:55:49
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:55:49
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.04s           2023-12-20T17:55:49
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-20T17:55:49
+/opt/airflow/dags/impute_with_median.py                           721  0.00s             0           0  0.03s           2023-12-20T17:55:49
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:55:49
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.41s           2023-12-20T17:55:50
+================================================================================
+[2023-12-20T17:56:50.039+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T17:56:19
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    771  0.01s             0           0  0.05s           2023-12-20T17:56:19
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:56:19
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:56:19
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:56:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-20T17:56:19
+/opt/airflow/dags/impute_with_median.py                           774  0.00s             0           0  0.05s           2023-12-20T17:56:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:56:19
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.37s           2023-12-20T17:56:21
+================================================================================
+[2023-12-20T17:57:20.557+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.04s           2023-12-20T17:56:50
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    824  0.02s             0           0  0.05s           2023-12-20T17:56:50
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.05s           2023-12-20T17:56:50
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-20T17:56:50
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.06s           2023-12-20T17:56:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.09s           2023-12-20T17:56:50
+/opt/airflow/dags/impute_with_median.py                           827  0.01s             0           0  0.06s           2023-12-20T17:56:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.04s           2023-12-20T17:56:50
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.40s           2023-12-20T17:56:51
+================================================================================
+[2023-12-20T17:57:50.954+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T17:57:20
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    880  0.02s             0           0  0.05s           2023-12-20T17:57:20
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:57:20
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:57:20
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:57:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:57:20
+/opt/airflow/dags/impute_with_median.py                           883  0.01s             0           0  0.04s           2023-12-20T17:57:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:57:20
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.43s           2023-12-20T17:57:22
+================================================================================
+[2023-12-20T17:58:21.348+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T17:57:51
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    933  0.02s             0           0  0.04s           2023-12-20T17:57:50
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:57:51
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:57:51
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:57:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:57:51
+/opt/airflow/dags/impute_with_median.py                           936  0.01s             0           0  0.04s           2023-12-20T17:57:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:57:51
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.40s           2023-12-20T17:57:53
+================================================================================
+[2023-12-20T17:58:51.816+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T17:58:21
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py    986  0.01s             0           0  0.06s           2023-12-20T17:58:21
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:58:21
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:58:21
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:58:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:58:21
+/opt/airflow/dags/impute_with_median.py                           989  0.00s             0           0  0.06s           2023-12-20T17:58:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:58:21
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.46s           2023-12-20T17:58:23
+================================================================================
+[2023-12-20T17:59:22.273+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T17:58:51
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1039  0.02s             0           0  0.04s           2023-12-20T17:58:51
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:58:51
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:58:51
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:58:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:58:51
+/opt/airflow/dags/impute_with_median.py                          1042  0.01s             0           0  0.04s           2023-12-20T17:58:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:58:51
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T17:58:54
+================================================================================
+[2023-12-20T17:59:52.701+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T17:59:22
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1095  0.02s             0           0  0.05s           2023-12-20T17:59:22
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:59:22
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:59:22
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:59:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:59:22
+/opt/airflow/dags/impute_with_median.py                          1098  0.01s             0           0  0.05s           2023-12-20T17:59:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:59:22
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.39s           2023-12-20T17:59:24
+================================================================================
+[2023-12-20T18:00:23.185+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T17:59:52
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1148  0.02s             0           0  0.04s           2023-12-20T17:59:52
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T17:59:52
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T17:59:52
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T17:59:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T17:59:52
+/opt/airflow/dags/impute_with_median.py                          1151  0.01s             0           0  0.04s           2023-12-20T17:59:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T17:59:52
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.41s           2023-12-20T17:59:55
+================================================================================
+[2023-12-20T18:00:53.748+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:00:23
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1201  0.03s             0           0  0.06s           2023-12-20T18:00:23
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:00:23
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:00:23
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:00:23
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:00:23
+/opt/airflow/dags/impute_with_median.py                          1204  0.01s             0           0  0.05s           2023-12-20T18:00:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:00:23
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.41s           2023-12-20T18:00:25
+================================================================================
+[2023-12-20T18:01:15.126+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T18:01:15.160+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2023-12-20T18:01:24.283+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:00:53
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1254  0.02s             0           0  0.07s           2023-12-20T18:00:53
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:00:53
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:00:53
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:00:53
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:00:53
+/opt/airflow/dags/impute_with_median.py                          1257  0.01s             0           0  0.05s           2023-12-20T18:00:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:00:53
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.40s           2023-12-20T18:00:56
+================================================================================
+[2023-12-20T18:01:54.704+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:01:24
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1310  0.01s             0           0  0.06s           2023-12-20T18:01:24
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:01:24
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T18:01:24
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:01:24
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:01:24
+/opt/airflow/dags/impute_with_median.py                          1313  0.00s             0           0  0.05s           2023-12-20T18:01:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:01:24
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.36s           2023-12-20T18:01:26
+================================================================================
+[2023-12-20T18:02:25.139+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:01:54
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1363  0.01s             0           0  0.03s           2023-12-20T18:01:54
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:01:54
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T18:01:54
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:01:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:01:54
+/opt/airflow/dags/impute_with_median.py                          1366  0.00s             0           0  0.04s           2023-12-20T18:01:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:01:54
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.41s           2023-12-20T18:01:57
+================================================================================
+[2023-12-20T18:02:55.550+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:02:25
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1425  0.02s             0           0  0.04s           2023-12-20T18:02:25
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:02:25
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:02:25
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:02:25
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.02s           2023-12-20T18:02:25
+/opt/airflow/dags/impute_with_median.py                          1428  0.01s             0           0  0.04s           2023-12-20T18:02:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:02:25
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T18:02:27
+================================================================================
+[2023-12-20T18:03:26.039+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:02:55
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1478  0.02s             0           0  0.05s           2023-12-20T18:02:55
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:02:55
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T18:02:55
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:02:55
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:02:55
+/opt/airflow/dags/impute_with_median.py                          1481  0.01s             0           0  0.05s           2023-12-20T18:02:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:02:55
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T18:02:58
+================================================================================
+[2023-12-20T18:03:56.475+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:03:26
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1543  0.01s             0           0  0.05s           2023-12-20T18:03:26
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:03:26
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T18:03:26
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:03:26
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.04s           2023-12-20T18:03:26
+/opt/airflow/dags/impute_with_median.py                          1546  0.00s             0           0  0.04s           2023-12-20T18:03:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:03:26
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T18:03:28
+================================================================================
+[2023-12-20T18:04:27.017+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T18:03:56
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1596  0.02s             0           0  0.05s           2023-12-20T18:03:56
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:03:56
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:03:56
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:03:56
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:03:56
+/opt/airflow/dags/impute_with_median.py                          1599  0.01s             0           0  0.05s           2023-12-20T18:03:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:03:56
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T18:03:59
+================================================================================
+[2023-12-20T18:04:57.503+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:04:27
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1667  0.03s             0           0  0.06s           2023-12-20T18:04:27
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:04:27
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T18:04:27
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:04:27
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:04:27
+/opt/airflow/dags/impute_with_median.py                          1670  0.01s             0           0  0.05s           2023-12-20T18:04:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:04:27
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T18:04:29
+================================================================================
+[2023-12-20T18:05:28.057+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:04:57
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1720  0.02s             0           0  0.07s           2023-12-20T18:04:57
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:04:57
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:04:57
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:04:57
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:04:57
+/opt/airflow/dags/impute_with_median.py                          1723  0.01s             0           0  0.04s           2023-12-20T18:04:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:04:57
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.41s           2023-12-20T18:05:00
+================================================================================
+[2023-12-20T18:05:58.542+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T18:05:28
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1794  0.02s             0           0  0.06s           2023-12-20T18:05:28
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:05:28
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:05:28
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:05:28
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:05:28
+/opt/airflow/dags/impute_with_median.py                          1797  0.01s             0           0  0.05s           2023-12-20T18:05:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:05:28
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.39s           2023-12-20T18:05:30
+================================================================================
+[2023-12-20T18:06:15.242+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T18:06:15.267+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2023-12-20T18:06:29.034+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:05:58
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1847  0.02s             0           0  0.05s           2023-12-20T18:05:58
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:05:58
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T18:05:58
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:05:58
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:05:58
+/opt/airflow/dags/impute_with_median.py                          1850  0.01s             0           0  0.05s           2023-12-20T18:05:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:05:58
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.39s           2023-12-20T18:06:01
+================================================================================
+[2023-12-20T18:06:59.508+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:06:29
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1921  0.02s             0           0  0.06s           2023-12-20T18:06:29
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:06:29
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:06:29
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:06:29
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:06:29
+/opt/airflow/dags/impute_with_median.py                          1924  0.01s             0           0  0.05s           2023-12-20T18:06:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:06:29
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.36s           2023-12-20T18:06:31
+================================================================================
+[2023-12-20T18:07:29.993+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:06:59
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   1974  0.02s             0           0  0.06s           2023-12-20T18:06:59
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:06:59
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:06:59
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:06:59
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:06:59
+/opt/airflow/dags/impute_with_median.py                          1977  0.00s             0           0  0.05s           2023-12-20T18:06:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:06:59
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T18:07:02
+================================================================================
+[2023-12-20T18:08:00.509+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:07:30
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2048  0.02s             0           0  0.07s           2023-12-20T18:07:30
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:07:30
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:07:30
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:07:30
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:07:30
+/opt/airflow/dags/impute_with_median.py                          2051  0.01s             0           0  0.06s           2023-12-20T18:07:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:07:30
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.34s           2023-12-20T18:07:32
+================================================================================
+[2023-12-20T18:08:31.097+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.02s           2023-12-20T18:08:00
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2101  0.02s             0           0  0.06s           2023-12-20T18:08:00
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:08:00
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T18:08:00
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:08:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:08:00
+/opt/airflow/dags/impute_with_median.py                          2104  0.01s             0           0  0.05s           2023-12-20T18:08:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:08:00
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.37s           2023-12-20T18:08:03
+================================================================================
+[2023-12-20T18:09:01.656+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:08:31
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2154  0.02s             0           0  0.06s           2023-12-20T18:08:31
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:08:31
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-20T18:08:31
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:08:31
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:08:31
+/opt/airflow/dags/impute_with_median.py                          2157  0.01s             0           0  0.05s           2023-12-20T18:08:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:08:31
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.38s           2023-12-20T18:08:33
+================================================================================
+[2023-12-20T18:09:32.178+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:09:01
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2207  0.02s             0           0  0.07s           2023-12-20T18:09:01
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:09:01
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:09:01
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:09:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:09:01
+/opt/airflow/dags/impute_with_median.py                          2210  0.01s             0           0  0.05s           2023-12-20T18:09:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:09:01
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.40s           2023-12-20T18:09:04
+================================================================================
+[2023-12-20T18:10:02.713+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:09:32
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2260  0.02s             0           0  0.06s           2023-12-20T18:09:32
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:09:32
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:09:32
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:09:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:09:32
+/opt/airflow/dags/impute_with_median.py                          2263  0.01s             0           0  0.05s           2023-12-20T18:09:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:09:32
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.39s           2023-12-20T18:09:34
+================================================================================
+[2023-12-20T18:10:33.194+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_neg_vals.py                                0           0  0.03s           2023-12-20T18:10:02
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py   2313  0.02s             0           0  0.06s           2023-12-20T18:10:02
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                                             0           0  0.03s           2023-12-20T18:10:02
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-20T18:10:02
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-20T18:10:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                                     0           0  0.03s           2023-12-20T18:10:02
+/opt/airflow/dags/impute_with_median.py                          2316  0.00s             0           0  0.05s           2023-12-20T18:10:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-20T18:10:02
+/opt/airflow/dags/Gourmet_Food_Procurement_Data.py                                       9           0  0.39s           2023-12-20T18:10:05
+================================================================================
+[2023-12-20T18:10:39.610+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

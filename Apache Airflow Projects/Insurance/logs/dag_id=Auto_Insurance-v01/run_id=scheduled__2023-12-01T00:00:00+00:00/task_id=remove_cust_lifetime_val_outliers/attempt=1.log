@@ -1,0 +1,36 @@
+[2023-12-19T19:24:55.287+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Auto_Insurance-v01.remove_cust_lifetime_val_outliers scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T19:24:55.291+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Auto_Insurance-v01.remove_cust_lifetime_val_outliers scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T19:24:55.291+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T19:24:55.297+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_cust_lifetime_val_outliers> on 2023-12-01 00:00:00+00:00
+[2023-12-19T19:24:55.299+0000] {standard_task_runner.py:57} INFO - Started process 1029 to run task
+[2023-12-19T19:24:55.301+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Auto_Insurance-v01', 'remove_cust_lifetime_val_outliers', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/Auto_Insurance.py', '--cfg-path', '/tmp/tmpab7ocw52']
+[2023-12-19T19:24:55.303+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask remove_cust_lifetime_val_outliers
+[2023-12-19T19:24:55.332+0000] {task_command.py:416} INFO - Running <TaskInstance: Auto_Insurance-v01.remove_cust_lifetime_val_outliers scheduled__2023-12-01T00:00:00+00:00 [running]> on host 757899fef296
+[2023-12-19T19:24:55.373+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Auto_Insurance-v01' AIRFLOW_CTX_TASK_ID='remove_cust_lifetime_val_outliers' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T19:24:55.374+0000] {sql.py:274} INFO - Executing: -- params: table_name, col_name, bool_value_gt
+DELETE FROM Auto_Insurance-v01
+WHERE Customer_Lifetime_Value > 35000;
+[2023-12-19T19:24:55.379+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T19:24:55.386+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T19:24:55.391+0000] {sql.py:418} INFO - Running statement: -- params: table_name, col_name, bool_value_gt
+DELETE FROM Auto_Insurance-v01
+WHERE Customer_Lifetime_Value > 35000;, parameters: None
+[2023-12-19T19:24:55.393+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "-"
+LINE 2: DELETE FROM Auto_Insurance-v01
+                                  ^
+
+[2023-12-19T19:24:55.399+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Auto_Insurance-v01, task_id=remove_cust_lifetime_val_outliers, execution_date=20231201T000000, start_date=20231219T192455, end_date=20231219T192455
+[2023-12-19T19:24:55.404+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 12 for task remove_cust_lifetime_val_outliers (syntax error at or near "-"
+LINE 2: DELETE FROM Auto_Insurance-v01
+                                  ^
+; 1029)
+[2023-12-19T19:24:55.435+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-19T19:24:55.457+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

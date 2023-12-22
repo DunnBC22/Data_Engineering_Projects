@@ -1,0 +1,886 @@
+[2023-12-20T03:06:54.769+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-20T03:06:54.769+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-20T03:06:54.770+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-20T03:06:54.770+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T03:06:54.786+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-20T03:06:54.892+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                171  0.03s             0           0
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py    168  0.04s             0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0
+================================================================================
+[2023-12-20T03:07:25.843+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           1  0.05s           2023-12-20T03:06:55
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                211  0.04s             0           0  0.07s           2023-12-20T03:06:54
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py    210  0.13s             0           1  0.10s           2023-12-20T03:06:54
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.05s           2023-12-20T03:06:55
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-20T03:06:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-20T03:06:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.04s           2023-12-20T03:06:55
+================================================================================
+[2023-12-20T03:07:56.624+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           1  0.08s           2023-12-20T03:07:26
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                255  0.00s             0           0  0.37s           2023-12-20T03:07:26
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py    252  0.01s             0           1  0.56s           2023-12-20T03:07:26
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.06s           2023-12-20T03:07:26
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.07s           2023-12-20T03:07:26
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-20T03:07:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.06s           2023-12-20T03:07:26
+================================================================================
+[2023-12-20T03:08:26.948+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           1  0.04s           2023-12-20T03:07:56
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                297  0.00s             0           0  0.04s           2023-12-20T03:07:56
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py    294  0.01s             0           1  0.06s           2023-12-20T03:07:56
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-20T03:07:56
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:07:56
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:07:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:07:56
+================================================================================
+[2023-12-20T03:08:57.440+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           1  0.03s           2023-12-20T03:08:27
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                339  0.01s             0           0  0.03s           2023-12-20T03:08:26
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py    336  0.03s             0           1  0.05s           2023-12-20T03:08:26
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:08:27
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:08:27
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:08:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:08:27
+================================================================================
+[2023-12-20T03:09:27.898+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:09:08
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                386  0.00s             0           0  0.05s           2023-12-20T03:08:57
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py    383  0.02s             0           1  0.08s           2023-12-20T03:08:57
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:08:57
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:08:57
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:08:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:08:57
+================================================================================
+[2023-12-20T03:09:58.400+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:09:42
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                431  0.02s             0           0  0.04s           2023-12-20T03:09:27
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:09:27
+/opt/airflow/dags/create_star_schema_part_2.py              434  0.00s             0           0  0.03s           2023-12-20T03:09:27
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:09:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:09:28
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  1.16s           2023-12-20T03:09:29
+================================================================================
+[2023-12-20T03:10:28.824+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:10:12
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                477  0.02s             0           0  0.06s           2023-12-20T03:09:58
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:09:58
+/opt/airflow/dags/create_star_schema_part_2.py              480  0.01s             0           0  0.05s           2023-12-20T03:09:58
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:09:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:09:58
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.38s           2023-12-20T03:09:59
+================================================================================
+[2023-12-20T03:10:59.315+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:10:43
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                535  0.02s             0           0  0.05s           2023-12-20T03:10:28
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:10:28
+/opt/airflow/dags/create_star_schema_part_2.py              538  0.00s             0           0  0.04s           2023-12-20T03:10:28
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-20T03:10:28
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.04s           2023-12-20T03:10:28
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.37s           2023-12-20T03:10:30
+================================================================================
+[2023-12-20T03:11:29.753+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:11:13
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                578  0.02s             0           0  0.06s           2023-12-20T03:10:59
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:10:59
+/opt/airflow/dags/create_star_schema_part_2.py              581  0.00s             0           0  0.05s           2023-12-20T03:10:59
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:10:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:10:59
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.34s           2023-12-20T03:11:00
+================================================================================
+[2023-12-20T03:11:55.066+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T03:11:55.101+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-20T03:12:00.190+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:11:44
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                621  0.02s             0           0  0.06s           2023-12-20T03:11:29
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:11:29
+/opt/airflow/dags/create_star_schema_part_2.py              624  0.01s             0           0  0.05s           2023-12-20T03:11:29
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.02s           2023-12-20T03:11:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:11:29
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.34s           2023-12-20T03:11:31
+================================================================================
+[2023-12-20T03:12:30.559+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:12:14
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                664  0.01s             0           0  0.06s           2023-12-20T03:12:00
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:12:00
+/opt/airflow/dags/create_star_schema_part_2.py              667  0.00s             0           0  0.05s           2023-12-20T03:12:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:12:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:12:00
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.34s           2023-12-20T03:12:01
+================================================================================
+[2023-12-20T03:13:00.959+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:12:44
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                713  0.02s             0           0  0.03s           2023-12-20T03:12:30
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:12:30
+/opt/airflow/dags/create_star_schema_part_2.py              716  0.00s             0           0  0.03s           2023-12-20T03:12:30
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:12:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:12:30
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.34s           2023-12-20T03:12:32
+================================================================================
+[2023-12-20T03:13:31.396+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:13:15
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                756  0.01s             0           0  0.06s           2023-12-20T03:13:00
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:13:01
+/opt/airflow/dags/create_star_schema_part_2.py              759  0.00s             0           0  0.05s           2023-12-20T03:13:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:13:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:13:01
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.34s           2023-12-20T03:13:02
+================================================================================
+[2023-12-20T03:14:01.811+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:13:45
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                799  0.02s             0           0  0.04s           2023-12-20T03:13:31
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:13:31
+/opt/airflow/dags/create_star_schema_part_2.py              802  0.01s             0           0  0.04s           2023-12-20T03:13:31
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:13:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:13:31
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.32s           2023-12-20T03:13:32
+================================================================================
+[2023-12-20T03:14:32.260+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:14:16
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                842  0.03s             0           0  0.04s           2023-12-20T03:14:01
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:14:01
+/opt/airflow/dags/create_star_schema_part_2.py              845  0.00s             0           0  0.04s           2023-12-20T03:14:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-20T03:14:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.04s           2023-12-20T03:14:01
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.34s           2023-12-20T03:14:03
+================================================================================
+[2023-12-20T03:15:02.773+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:14:46
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                885  0.01s             0           0  0.08s           2023-12-20T03:14:32
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:14:32
+/opt/airflow/dags/create_star_schema_part_2.py              888  0.00s             0           0  0.06s           2023-12-20T03:14:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-20T03:14:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.04s           2023-12-20T03:14:32
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.39s           2023-12-20T03:14:33
+================================================================================
+[2023-12-20T03:15:33.244+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:15:17
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                928  0.02s             0           0  0.05s           2023-12-20T03:15:02
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:15:02
+/opt/airflow/dags/create_star_schema_part_2.py              931  0.01s             0           0  0.04s           2023-12-20T03:15:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:15:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:15:02
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.36s           2023-12-20T03:15:04
+================================================================================
+[2023-12-20T03:16:04.039+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:15:47
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                982  0.01s             0           0  0.06s           2023-12-20T03:15:33
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:15:33
+/opt/airflow/dags/create_star_schema_part_2.py              985  0.00s             0           0  0.05s           2023-12-20T03:15:33
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:15:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:15:33
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.43s           2023-12-20T03:15:37
+================================================================================
+[2023-12-20T03:16:34.468+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:16:18
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1025  0.01s             0           0  0.04s           2023-12-20T03:16:04
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:16:04
+/opt/airflow/dags/create_star_schema_part_2.py             1028  0.00s             0           0  0.04s           2023-12-20T03:16:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:16:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:16:04
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.32s           2023-12-20T03:16:08
+================================================================================
+[2023-12-20T03:16:55.775+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T03:16:55.807+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-20T03:17:04.933+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:16:48
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1068  0.01s             0           0  0.04s           2023-12-20T03:16:34
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:16:34
+/opt/airflow/dags/create_star_schema_part_2.py             1071  0.01s             0           0  0.04s           2023-12-20T03:16:34
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:16:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:16:34
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.39s           2023-12-20T03:16:38
+================================================================================
+[2023-12-20T03:17:35.374+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:17:19
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1111  0.02s             0           0  0.04s           2023-12-20T03:17:04
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:17:04
+/opt/airflow/dags/create_star_schema_part_2.py             1114  0.01s             0           0  0.04s           2023-12-20T03:17:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:17:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:17:05
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.33s           2023-12-20T03:17:09
+================================================================================
+[2023-12-20T03:18:05.860+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:17:49
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1154  0.02s             0           0  0.06s           2023-12-20T03:17:35
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:17:35
+/opt/airflow/dags/create_star_schema_part_2.py             1157  0.00s             0           0  0.05s           2023-12-20T03:17:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.02s           2023-12-20T03:17:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:17:35
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.31s           2023-12-20T03:17:39
+================================================================================
+[2023-12-20T03:18:36.359+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:18:20
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1197  0.02s             0           0  0.06s           2023-12-20T03:18:05
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:18:05
+/opt/airflow/dags/create_star_schema_part_2.py             1200  0.01s             0           0  0.04s           2023-12-20T03:18:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:18:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:18:05
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.34s           2023-12-20T03:18:10
+================================================================================
+[2023-12-20T03:19:06.830+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:18:50
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1246  0.02s             0           0  0.05s           2023-12-20T03:18:36
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:18:36
+/opt/airflow/dags/create_star_schema_part_2.py             1249  0.00s             0           0  0.04s           2023-12-20T03:18:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:18:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:18:36
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.35s           2023-12-20T03:19:00
+================================================================================
+[2023-12-20T03:19:37.330+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:19:21
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1302  0.01s             0           0  0.06s           2023-12-20T03:19:06
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:19:06
+/opt/airflow/dags/create_star_schema_part_2.py             1305  0.00s             0           0  0.05s           2023-12-20T03:19:06
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:19:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:19:06
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.32s           2023-12-20T03:19:26
+================================================================================
+[2023-12-20T03:20:07.780+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:19:51
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1346  0.02s             0           0  0.03s           2023-12-20T03:19:37
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:19:37
+/opt/airflow/dags/create_star_schema_part_2.py             1349  0.01s             0           0  0.03s           2023-12-20T03:19:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:19:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:19:37
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.47s           2023-12-20T03:19:57
+================================================================================
+[2023-12-20T03:20:38.192+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:20:22
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1391  0.01s             0           0  0.05s           2023-12-20T03:20:07
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:20:07
+/opt/airflow/dags/create_star_schema_part_2.py             1394  0.00s             0           0  0.05s           2023-12-20T03:20:07
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:20:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:20:07
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.37s           2023-12-20T03:20:28
+================================================================================
+[2023-12-20T03:21:08.542+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:20:52
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1444  0.01s             0           0  0.03s           2023-12-20T03:20:38
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:20:38
+/opt/airflow/dags/create_star_schema_part_2.py             1447  0.00s             0           0  0.03s           2023-12-20T03:20:38
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:20:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:20:38
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.43s           2023-12-20T03:20:58
+================================================================================
+[2023-12-20T03:21:38.834+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:21:22
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1487  0.01s             0           0  0.05s           2023-12-20T03:21:08
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:21:08
+/opt/airflow/dags/create_star_schema_part_2.py             1490  0.00s             0           0  0.05s           2023-12-20T03:21:08
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:21:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:21:08
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  1.09s           2023-12-20T03:21:30
+================================================================================
+[2023-12-20T03:21:56.004+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T03:21:56.019+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-20T03:22:09.103+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:21:53
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1530  0.01s             0           0  0.03s           2023-12-20T03:21:38
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:21:38
+/opt/airflow/dags/create_star_schema_part_2.py             1533  0.00s             0           0  0.04s           2023-12-20T03:21:38
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:21:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:21:38
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.39s           2023-12-20T03:22:01
+================================================================================
+[2023-12-20T03:22:39.368+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:22:23
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1573  0.01s             0           0  0.05s           2023-12-20T03:22:09
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:22:09
+/opt/airflow/dags/create_star_schema_part_2.py             1576  0.00s             0           0  0.05s           2023-12-20T03:22:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:22:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:22:09
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.40s           2023-12-20T03:22:32
+================================================================================
+[2023-12-20T03:23:09.603+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:22:53
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1616  0.01s             0           0  0.04s           2023-12-20T03:22:39
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:22:39
+/opt/airflow/dags/create_star_schema_part_2.py             1619  0.00s             0           0  0.04s           2023-12-20T03:22:39
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:22:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:22:39
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.37s           2023-12-20T03:23:03
+================================================================================
+[2023-12-20T03:23:39.837+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:23:23
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1659  0.01s             0           0  0.04s           2023-12-20T03:23:09
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:23:09
+/opt/airflow/dags/create_star_schema_part_2.py             1662  0.00s             0           0  0.04s           2023-12-20T03:23:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:23:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:23:09
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.36s           2023-12-20T03:23:35
+================================================================================
+[2023-12-20T03:24:10.070+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:23:54
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1702  0.01s             0           0  0.03s           2023-12-20T03:23:39
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:23:39
+/opt/airflow/dags/create_star_schema_part_2.py             1705  0.00s             0           0  0.03s           2023-12-20T03:23:39
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:23:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:23:39
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.42s           2023-12-20T03:24:06
+================================================================================
+[2023-12-20T03:24:40.293+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:24:24
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1745  0.01s             0           0  0.04s           2023-12-20T03:24:10
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-20T03:24:10
+/opt/airflow/dags/create_star_schema_part_2.py             1748  0.00s             0           0  0.04s           2023-12-20T03:24:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:24:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:24:10
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.38s           2023-12-20T03:24:37
+================================================================================
+[2023-12-20T03:25:10.620+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:24:54
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1788  0.02s             0           0  0.03s           2023-12-20T03:24:40
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:24:40
+/opt/airflow/dags/create_star_schema_part_2.py             1791  0.01s             0           0  0.03s           2023-12-20T03:24:40
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:24:40
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:24:40
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.37s           2023-12-20T03:25:08
+================================================================================
+[2023-12-20T03:25:41.070+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:25:24
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1831  0.02s             0           0  0.06s           2023-12-20T03:25:10
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:25:10
+/opt/airflow/dags/create_star_schema_part_2.py             1834  0.01s             0           0  0.05s           2023-12-20T03:25:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:25:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:25:10
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.35s           2023-12-20T03:25:39
+================================================================================
+[2023-12-20T03:26:11.505+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:25:55
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1886  0.02s             0           0  0.06s           2023-12-20T03:25:41
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:25:41
+/opt/airflow/dags/create_star_schema_part_2.py             1889  0.01s             0           0  0.05s           2023-12-20T03:25:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:25:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:25:41
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.44s           2023-12-20T03:26:09
+================================================================================
+[2023-12-20T03:26:41.956+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:26:25
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1929  0.02s             0           0  0.06s           2023-12-20T03:26:11
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:26:11
+/opt/airflow/dags/create_star_schema_part_2.py             1932  0.01s             0           0  0.05s           2023-12-20T03:26:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:26:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:26:11
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.32s           2023-12-20T03:26:40
+================================================================================
+[2023-12-20T03:26:56.160+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T03:26:56.182+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-20T03:27:12.387+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:26:56
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1981  0.01s             0           0  0.05s           2023-12-20T03:26:41
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:26:42
+/opt/airflow/dags/create_star_schema_part_2.py             1984  0.00s             0           0  0.05s           2023-12-20T03:26:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:26:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:26:42
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.34s           2023-12-20T03:27:10
+================================================================================
+[2023-12-20T03:27:42.755+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:27:26
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2024  0.01s             0           0  0.04s           2023-12-20T03:27:12
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:27:12
+/opt/airflow/dags/create_star_schema_part_2.py             2027  0.00s             0           0  0.03s           2023-12-20T03:27:12
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:27:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:27:12
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.35s           2023-12-20T03:27:41
+================================================================================
+[2023-12-20T03:28:13.145+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:27:56
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2067  0.01s             0           0  0.03s           2023-12-20T03:27:42
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:27:42
+/opt/airflow/dags/create_star_schema_part_2.py             2070  0.00s             0           0  0.03s           2023-12-20T03:27:42
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:27:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:27:42
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.38s           2023-12-20T03:28:11
+================================================================================
+[2023-12-20T03:28:43.575+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:28:27
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2110  0.02s             0           0  0.03s           2023-12-20T03:28:13
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:28:13
+/opt/airflow/dags/create_star_schema_part_2.py             2113  0.01s             0           0  0.03s           2023-12-20T03:28:13
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:28:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:28:13
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.37s           2023-12-20T03:28:41
+================================================================================
+[2023-12-20T03:29:13.991+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:28:57
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2153  0.02s             0           0  0.04s           2023-12-20T03:28:43
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:28:43
+/opt/airflow/dags/create_star_schema_part_2.py             2156  0.00s             0           0  0.04s           2023-12-20T03:28:43
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:28:43
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:28:43
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.36s           2023-12-20T03:29:12
+================================================================================
+[2023-12-20T03:29:44.425+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:29:28
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2196  0.01s             0           0  0.04s           2023-12-20T03:29:14
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:29:14
+/opt/airflow/dags/create_star_schema_part_2.py             2199  0.00s             0           0  0.05s           2023-12-20T03:29:14
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:29:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:29:14
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.55s           2023-12-20T03:29:42
+================================================================================
+[2023-12-20T03:30:14.828+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:29:58
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2239  0.02s             0           0  0.03s           2023-12-20T03:29:44
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:29:44
+/opt/airflow/dags/create_star_schema_part_2.py             2242  0.01s             0           0  0.03s           2023-12-20T03:29:44
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:29:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:29:44
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py                           7           0  0.38s           2023-12-20T03:30:14
+================================================================================
+[2023-12-20T03:30:45.176+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:30:29
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2279  0.00s             0           0  0.04s           2023-12-20T03:30:14
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:30:14
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:30:14
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:30:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:30:14
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2276  0.01s             7           0  0.38s           2023-12-20T03:30:14
+================================================================================
+[2023-12-20T03:31:15.631+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:30:59
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2322  0.00s             0           0  0.03s           2023-12-20T03:30:45
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:30:45
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:30:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:30:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:30:45
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2319  0.01s             7           0  0.37s           2023-12-20T03:30:45
+================================================================================
+[2023-12-20T03:31:46.166+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:31:30
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2365  0.00s             0           0  0.04s           2023-12-20T03:31:15
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-20T03:31:15
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-20T03:31:15
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-20T03:31:15
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.04s           2023-12-20T03:31:15
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2362  0.01s             7           0  0.44s           2023-12-20T03:31:16
+================================================================================
+[2023-12-20T03:31:56.426+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T03:31:56.456+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-20T03:32:16.701+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:32:00
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2407  0.00s             0           0  0.03s           2023-12-20T03:31:46
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:31:46
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:31:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:31:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:31:46
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2404  0.02s             7           0  0.42s           2023-12-20T03:31:46
+================================================================================
+[2023-12-20T03:32:47.114+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:32:31
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2457  0.00s             0           0  0.03s           2023-12-20T03:32:16
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:32:16
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:32:16
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-20T03:32:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:32:16
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2454  0.01s             7           0  0.41s           2023-12-20T03:32:17
+================================================================================
+[2023-12-20T03:33:17.986+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:33:01
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2500  0.00s             0           0  0.03s           2023-12-20T03:32:47
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:32:47
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:32:47
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:32:47
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:32:47
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2497  0.02s             7           0  0.46s           2023-12-20T03:32:47
+================================================================================
+[2023-12-20T03:33:48.428+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-20T03:33:32
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2543  0.01s             0           0  0.03s           2023-12-20T03:33:18
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:33:18
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:33:18
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:33:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:33:18
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2540  0.02s             7           0  0.37s           2023-12-20T03:33:18
+================================================================================
+[2023-12-20T03:34:18.882+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-20T03:34:02
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2586  0.01s             0           0  0.03s           2023-12-20T03:33:48
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:33:48
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:33:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:33:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:33:48
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2583  0.02s             7           0  0.36s           2023-12-20T03:33:48
+================================================================================
+[2023-12-20T03:34:49.405+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:34:33
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2629  0.01s             0           0  0.05s           2023-12-20T03:34:18
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:34:18
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:34:18
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-20T03:34:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:34:19
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2626  0.02s             7           0  0.42s           2023-12-20T03:34:19
+================================================================================
+[2023-12-20T03:35:19.915+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:35:03
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2681  0.01s             0           0  0.05s           2023-12-20T03:34:49
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:34:49
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:34:49
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:34:49
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:34:49
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2678  0.02s             7           0  0.36s           2023-12-20T03:34:49
+================================================================================
+[2023-12-20T03:35:50.424+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:35:34
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2724  0.01s             0           0  0.04s           2023-12-20T03:35:19
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:35:20
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:35:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:35:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:35:20
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2721  0.02s             7           0  0.35s           2023-12-20T03:35:20
+================================================================================
+[2023-12-20T03:36:20.963+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-20T03:36:04
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2767  0.01s             0           0  0.05s           2023-12-20T03:35:50
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:35:50
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:35:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:35:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:35:50
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2764  0.02s             7           0  0.37s           2023-12-20T03:35:50
+================================================================================
+[2023-12-20T03:36:51.469+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:36:35
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2810  0.01s             0           0  0.05s           2023-12-20T03:36:21
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:36:21
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:36:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:36:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:36:21
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2807  0.02s             7           0  0.37s           2023-12-20T03:36:21
+================================================================================
+[2023-12-20T03:36:56.711+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-20T03:36:56.741+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-20T03:37:22.060+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-20T03:37:05
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2853  0.01s             0           0  0.05s           2023-12-20T03:36:51
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:36:51
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:36:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-20T03:36:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:36:51
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2850  0.02s             7           0  0.40s           2023-12-20T03:36:51
+================================================================================
+[2023-12-20T03:37:52.607+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.07s           2023-12-20T03:37:36
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               2896  0.01s             0           0  0.05s           2023-12-20T03:37:22
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-20T03:37:22
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-20T03:37:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-20T03:37:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-20T03:37:22
+/opt/airflow/dags/Facebook_Google_Store_Reviews_4_1_M.py   2893  0.02s             7           0  0.42s           2023-12-20T03:37:22
+================================================================================
+[2023-12-20T03:38:17.136+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

@@ -1,0 +1,51 @@
+[2023-12-21T19:35:20.914+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: med_ins_prem_pred-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PatientWeight scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T19:35:20.919+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: med_ins_prem_pred-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PatientWeight scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T19:35:20.920+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-21T19:35:20.926+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_PatientWeight> on 2023-12-01 00:00:00+00:00
+[2023-12-21T19:35:20.929+0000] {standard_task_runner.py:57} INFO - Started process 825 to run task
+[2023-12-21T19:35:20.932+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'med_ins_prem_pred-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_PatientWeight', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/med_insurance_prem_pred.py', '--cfg-path', '/tmp/tmpd3p5qwii']
+[2023-12-21T19:35:20.934+0000] {standard_task_runner.py:85} INFO - Job 13: Subtask insert_fk_col_in_fact_table_PatientWeight
+[2023-12-21T19:35:20.971+0000] {task_command.py:416} INFO - Running <TaskInstance: med_ins_prem_pred-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PatientWeight scheduled__2023-12-01T00:00:00+00:00 [running]> on host 265bbf0c3730
+[2023-12-21T19:35:21.020+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='med_ins_prem_pred-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_PatientWeight' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-21T19:35:21.021+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE med_ins_prem_pred_pipe
+ADD COLUMN PatientWeight_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE med_ins_prem_pred_pipe
+SET PatientWeight_id = dimension_table_PatientWeight.id
+FROM dimension_table_PatientWeight
+WHERE COALESCE(med_ins_prem_pred_pipe.PatientWeight::text, '') = COALESCE(dimension_table_PatientWeight.PatientWeight::text, '');
+[2023-12-21T19:35:21.027+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T19:35:21.034+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T19:35:21.040+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE med_ins_prem_pred_pipe
+ADD COLUMN PatientWeight_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE med_ins_prem_pred_pipe
+SET PatientWeight_id = dimension_table_PatientWeight.id
+FROM dimension_table_PatientWeight
+WHERE COALESCE(med_ins_prem_pred_pipe.PatientWeight::text, '') = COALESCE(dimension_table_PatientWeight.PatientWeight::text, '');, parameters: None
+[2023-12-21T19:35:21.069+0000] {sql.py:427} INFO - Rows affected: 970
+[2023-12-21T19:35:21.075+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=med_ins_prem_pred-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_PatientWeight, execution_date=20231201T000000, start_date=20231221T193520, end_date=20231221T193521
+[2023-12-21T19:35:21.108+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-21T19:35:21.133+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

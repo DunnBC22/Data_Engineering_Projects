@@ -1,0 +1,343 @@
+[2023-12-21T16:08:05.767+0000] {processor.py:157} INFO - Started process (PID=168) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:08:05.768+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:08:05.770+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:08:05.769+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:08:05.809+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:08:05.802+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Insurance_Fraud.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Insurance_Fraud.py", line 44, in <module>
+    import remove_outliers_1_5_iqr as iqr
+ModuleNotFoundError: No module named 'remove_outliers_1_5_iqr'
+[2023-12-21T16:08:05.813+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:08:05.852+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.088 seconds
+[2023-12-21T16:08:36.943+0000] {processor.py:157} INFO - Started process (PID=205) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:08:36.950+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:08:36.961+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:08:36.954+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:08:37.071+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:08:37.061+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Insurance_Fraud.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Insurance_Fraud.py", line 44, in <module>
+    import remove_outliers_1_5_iqr as iqr
+ModuleNotFoundError: No module named 'remove_outliers_1_5_iqr'
+[2023-12-21T16:08:37.072+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:08:37.243+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.394 seconds
+[2023-12-21T16:09:07.703+0000] {processor.py:157} INFO - Started process (PID=242) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:09:07.705+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:09:07.706+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:07.705+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:09:09.127+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:09:09.340+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.340+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-21T16:09:09.346+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.346+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-21T16:09:09.349+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.349+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-21T16:09:09.349+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.349+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:09:09.355+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.354+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Fraud-v01.remove_replaced_dim_cols
+[2023-12-21T16:09:09.355+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.355+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Fraud-v01.remove_unnecessary_columns
+[2023-12-21T16:09:09.355+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.355+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Fraud-v01.remove_samples_with_outliers
+[2023-12-21T16:09:09.356+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.356+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Fraud-v01.insert_fk_into_fact_table
+[2023-12-21T16:09:09.356+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.356+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Fraud-v01
+[2023-12-21T16:09:09.356+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.356+0000] {dag.py:2963} INFO - Creating ORM DAG for Insurance_Fraud-v01.create_dim_tables
+[2023-12-21T16:09:09.361+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.361+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-21T16:09:09.362+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.362+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:09:09.362+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.362+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:09:09.362+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.362+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:09:09.362+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.362+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:09:09.363+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.363+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:09:09.370+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.370+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:09:09.373+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.373+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:09:09.375+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.375+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:09:09.375+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.375+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:09:09.376+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.376+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:09:09.376+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:09.376+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:09:09.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 1.690 seconds
+[2023-12-21T16:09:40.279+0000] {processor.py:157} INFO - Started process (PID=305) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:09:40.280+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:09:40.281+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.281+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:09:40.775+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:09:40.886+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.885+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:09:40.897+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.897+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-21T16:09:40.899+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.899+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:09:40.900+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.900+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:09:40.900+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.900+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:09:40.901+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.901+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:09:40.902+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.902+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:09:40.906+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.906+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:09:40.909+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.909+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:09:40.909+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.909+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:09:40.909+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.909+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:09:40.909+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.909+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:09:40.910+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:09:40.910+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:09:40.916+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.640 seconds
+[2023-12-21T16:10:11.815+0000] {processor.py:157} INFO - Started process (PID=352) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:10:11.816+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:10:11.818+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:11.817+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:10:12.106+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:10:12.212+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.211+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:10:12.222+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.222+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:10:12.224+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.224+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:10:12.225+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.225+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:10:12.225+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.225+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:10:12.226+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.226+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:10:12.227+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.227+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:10:12.231+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.231+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:10:12.233+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.233+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:10:12.234+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.234+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:10:12.234+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.234+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:10:12.234+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.234+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:10:12.234+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:12.234+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:10:12.240+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.430 seconds
+[2023-12-21T16:10:43.242+0000] {processor.py:157} INFO - Started process (PID=390) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:10:43.243+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:10:43.244+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.244+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:10:43.539+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:10:43.653+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.653+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:10:43.664+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.663+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:10:43.665+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.665+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:10:43.666+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.666+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:10:43.667+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.666+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:10:43.667+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.667+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:10:43.668+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.668+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:10:43.672+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.672+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:10:43.674+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.674+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:10:43.675+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.675+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:10:43.675+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.675+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:10:43.675+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.675+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:10:43.675+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:10:43.675+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:10:43.681+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.443 seconds
+[2023-12-21T16:11:14.721+0000] {processor.py:157} INFO - Started process (PID=437) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:11:14.723+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:11:14.724+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:14.723+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:11:14.998+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:11:15.103+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.102+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:11:15.111+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.111+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:11:15.113+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.112+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:11:15.113+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.113+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:11:15.114+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.114+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:11:15.114+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.114+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:11:15.115+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.115+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:11:15.119+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.119+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:11:15.121+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.121+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:11:15.121+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.121+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:11:15.121+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.121+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:11:15.122+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.122+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:11:15.122+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:15.122+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:11:15.127+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.410 seconds
+[2023-12-21T16:11:46.128+0000] {processor.py:157} INFO - Started process (PID=475) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:11:46.130+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:11:46.131+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.131+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:11:46.410+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:11:46.513+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.512+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:11:46.521+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.521+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:11:46.523+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.523+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:11:46.524+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.524+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:11:46.524+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.524+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:11:46.525+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.525+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:11:46.526+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.526+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:11:46.529+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.529+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:11:46.532+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.532+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:11:46.532+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.532+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:11:46.532+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.532+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:11:46.532+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.532+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:11:46.533+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:11:46.533+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:11:46.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.414 seconds
+[2023-12-21T16:12:17.513+0000] {processor.py:157} INFO - Started process (PID=513) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:12:17.515+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:12:17.516+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.516+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:12:17.794+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:12:17.895+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.894+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:12:17.903+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.903+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:12:17.905+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.905+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:12:17.906+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.905+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:12:17.906+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.906+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:12:17.907+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.907+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:12:17.907+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.907+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:12:17.911+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.911+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:12:17.913+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.913+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:12:17.913+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.913+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:12:17.914+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.914+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:12:17.914+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.914+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:12:17.914+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:17.914+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:12:17.920+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.412 seconds
+[2023-12-21T16:12:48.913+0000] {processor.py:157} INFO - Started process (PID=551) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:12:48.915+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:12:48.916+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:48.915+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:12:49.195+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:12:49.298+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.298+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:12:49.306+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.306+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:12:49.308+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.308+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:12:49.309+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.309+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:12:49.309+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.309+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:12:49.310+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.310+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:12:49.310+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.310+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:12:49.314+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.314+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:12:49.317+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.316+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:12:49.317+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.317+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:12:49.317+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.317+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:12:49.317+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.317+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:12:49.317+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:49.317+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:12:49.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.413 seconds
+[2023-12-21T16:12:59.067+0000] {processor.py:157} INFO - Started process (PID=569) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:12:59.068+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:12:59.068+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.068+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:12:59.345+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:12:59.484+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.483+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:12:59.492+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.492+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:12:59.493+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.493+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:12:59.494+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.494+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:12:59.494+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.494+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:12:59.496+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.496+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:12:59.496+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.496+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:12:59.507+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.507+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:12:59.509+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.509+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:12:59.509+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.509+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:12:59.510+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.509+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:12:59.510+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.510+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:12:59.510+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:12:59.510+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:12:59.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.452 seconds
+[2023-12-21T16:13:29.985+0000] {processor.py:157} INFO - Started process (PID=615) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:13:29.987+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:13:29.988+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:29.987+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:13:30.284+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:13:30.391+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.391+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:13:30.401+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.401+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:13:30.403+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.403+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:13:30.404+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.404+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:13:30.405+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.405+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:13:30.406+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.406+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:13:30.407+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.407+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:13:30.411+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.411+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:13:30.414+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.414+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:13:30.414+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.414+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:13:30.415+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.415+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:13:30.415+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.415+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:13:30.415+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:13:30.415+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:13:30.421+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.441 seconds
+[2023-12-21T16:14:00.474+0000] {processor.py:157} INFO - Started process (PID=658) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:14:00.476+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:14:00.477+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.477+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:14:00.796+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:14:00.901+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.901+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:14:00.910+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.910+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:14:00.913+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.912+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:14:00.913+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.913+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:14:00.914+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.914+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:14:00.915+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.914+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:14:00.915+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.915+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:14:00.919+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.919+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:14:00.922+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.922+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:14:00.922+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.922+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:14:00.922+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.922+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:14:00.922+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.922+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:14:00.922+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:00.922+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:14:00.928+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.461 seconds
+[2023-12-21T16:14:31.045+0000] {processor.py:157} INFO - Started process (PID=785) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:14:31.046+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:14:31.048+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.047+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:14:31.326+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:14:31.429+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.429+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:14:31.438+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.438+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:14:31.440+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.440+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:14:31.440+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.440+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:14:31.441+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.441+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:14:31.442+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.442+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:14:31.442+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.442+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:14:31.446+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.446+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:14:31.448+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.448+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:14:31.449+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.449+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:14:31.449+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.449+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:14:31.449+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.449+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:14:31.449+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:14:31.449+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:14:31.455+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.415 seconds
+[2023-12-21T16:15:01.521+0000] {processor.py:157} INFO - Started process (PID=828) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:15:01.523+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:15:01.524+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.523+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:15:01.802+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:15:01.905+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.905+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:15:01.914+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.914+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:15:01.916+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.916+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:15:01.917+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.916+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:15:01.917+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.917+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:15:01.918+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.918+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:15:01.919+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.918+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:15:01.922+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.922+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:15:01.925+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.925+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:15:01.925+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.925+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:15:01.925+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.925+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:15:01.926+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.926+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:15:01.926+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:01.926+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:15:01.931+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.415 seconds
+[2023-12-21T16:15:32.169+0000] {processor.py:157} INFO - Started process (PID=952) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:15:32.170+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:15:32.171+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.171+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:15:32.455+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:15:32.573+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.573+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:15:32.583+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.583+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:15:32.585+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.585+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:15:32.587+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.587+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:15:32.587+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.587+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:15:32.588+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.588+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:15:32.589+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.589+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:15:32.594+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.594+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:15:32.597+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.597+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:15:32.597+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.597+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:15:32.597+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.597+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:15:32.598+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.598+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:15:32.598+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:15:32.598+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:15:32.609+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.444 seconds
+[2023-12-21T16:16:03.118+0000] {processor.py:157} INFO - Started process (PID=995) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:16:03.119+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:16:03.120+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.120+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:16:03.401+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:16:03.502+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.502+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:16:03.510+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.510+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:16:03.512+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.512+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:16:03.513+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.513+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:16:03.513+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.513+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:16:03.514+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.514+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:16:03.514+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.514+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:16:03.518+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.518+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:16:03.521+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.521+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:16:03.521+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.521+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:16:03.521+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.521+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:16:03.521+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.521+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:16:03.522+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:03.522+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:16:03.527+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.415 seconds
+[2023-12-21T16:16:33.576+0000] {processor.py:157} INFO - Started process (PID=1119) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:16:33.577+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:16:33.578+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.578+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:16:33.855+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:16:33.967+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.967+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:16:33.980+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.980+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:16:33.983+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.983+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:16:33.984+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.983+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:16:33.984+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.984+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:16:33.985+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.985+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:16:33.985+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.985+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:16:33.990+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.990+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:16:33.992+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.992+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:16:33.993+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.993+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:16:33.993+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.993+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:16:33.993+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.993+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:16:33.993+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:16:33.993+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:16:34.000+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.429 seconds
+[2023-12-21T16:17:04.991+0000] {processor.py:157} INFO - Started process (PID=1162) to work on /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:17:04.992+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Insurance_Fraud.py for tasks to queue
+[2023-12-21T16:17:04.994+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:04.993+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:17:05.271+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Insurance_Fraud-v01.remove_unnecessary_columns', 'Insurance_Fraud-v01.remove_samples_with_outliers', 'Insurance_Fraud-v01.create_dim_tables', 'Insurance_Fraud-v01.insert_fk_into_fact_table', 'Insurance_Fraud-v01.remove_replaced_dim_cols', 'Insurance_Fraud-v01']) retrieved from /opt/airflow/dags/Insurance_Fraud.py
+[2023-12-21T16:17:05.379+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.379+0000] {dag.py:2941} INFO - Sync 6 DAGs
+[2023-12-21T16:17:05.388+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.388+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01 to None, run_after=None
+[2023-12-21T16:17:05.390+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.390+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:17:05.390+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.390+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:17:05.391+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.391+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:17:05.392+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.392+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:17:05.392+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.392+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:17:05.396+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.396+0000] {dag.py:2941} INFO - Sync 5 DAGs
+[2023-12-21T16:17:05.399+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.399+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.create_dim_tables to None, run_after=None
+[2023-12-21T16:17:05.399+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.399+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.insert_fk_into_fact_table to None, run_after=None
+[2023-12-21T16:17:05.399+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.399+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_replaced_dim_cols to None, run_after=None
+[2023-12-21T16:17:05.399+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.399+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_samples_with_outliers to None, run_after=None
+[2023-12-21T16:17:05.400+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:17:05.400+0000] {dag.py:3722} INFO - Setting next_dagrun for Insurance_Fraud-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-21T16:17:05.405+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Insurance_Fraud.py took 0.419 seconds

@@ -1,0 +1,749 @@
+[2023-12-20T01:50:16.637+0000] {processor.py:157} INFO - Started process (PID=168) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:50:16.638+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:50:16.640+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:50:16.639+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:50:16.655+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:50:16.653+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 48, in <module>
+    import remove_single_value_columns as rsvc
+  File "/opt/airflow/dags/remove_single_value_columns.py", line 135
+    f"SELECT column_name
+                        ^
+SyntaxError: EOL while scanning string literal
+[2023-12-20T01:50:16.655+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:50:16.675+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.040 seconds
+[2023-12-20T01:50:46.929+0000] {processor.py:157} INFO - Started process (PID=190) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:50:46.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:50:46.932+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:50:46.932+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:50:46.944+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:50:46.943+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 48, in <module>
+    import remove_single_value_columns as rsvc
+  File "/opt/airflow/dags/remove_single_value_columns.py", line 135
+    f"SELECT column_name
+                        ^
+SyntaxError: EOL while scanning string literal
+[2023-12-20T01:50:46.944+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:50:46.963+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.038 seconds
+[2023-12-20T01:51:17.236+0000] {processor.py:157} INFO - Started process (PID=212) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:51:17.238+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:51:17.239+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:17.238+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:51:17.249+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:17.248+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 48, in <module>
+    import remove_single_value_columns as rsvc
+  File "/opt/airflow/dags/remove_single_value_columns.py", line 135
+    f"SELECT column_name
+                        ^
+SyntaxError: EOL while scanning string literal
+[2023-12-20T01:51:17.250+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:51:17.269+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.038 seconds
+[2023-12-20T01:51:47.552+0000] {processor.py:157} INFO - Started process (PID=239) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:51:47.559+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:51:47.560+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:47.560+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:51:48.224+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:51:48.320+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.320+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-20T01:51:48.331+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.331+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-20T01:51:48.345+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.345+0000] {manager.py:499} INFO - Created Permission View: %s
+[2023-12-20T01:51:48.346+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.346+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:51:48.360+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.360+0000] {dag.py:2963} INFO - Creating ORM DAG for Caravan_Insurance_Challenge_Project-v01
+[2023-12-20T01:51:48.360+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.360+0000] {dag.py:2963} INFO - Creating ORM DAG for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns
+[2023-12-20T01:51:48.361+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.361+0000] {dag.py:2963} INFO - Creating ORM DAG for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns
+[2023-12-20T01:51:48.365+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.365+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-20T01:51:48.366+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.366+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:51:48.366+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.366+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:51:48.372+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.372+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:51:48.375+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.375+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:51:48.376+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:51:48.376+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:51:48.383+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.834 seconds
+[2023-12-20T01:52:18.865+0000] {processor.py:157} INFO - Started process (PID=267) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:52:18.866+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:52:18.867+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:18.867+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:52:19.134+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:52:19.144+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:19.144+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:52:19.156+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:19.156+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-20T01:52:19.158+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:19.158+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:52:19.159+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:19.159+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:52:19.163+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:19.163+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:52:19.166+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:19.165+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:52:19.166+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:19.166+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:52:19.171+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.311 seconds
+[2023-12-20T01:52:49.206+0000] {processor.py:157} INFO - Started process (PID=290) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:52:49.208+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:52:49.209+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:49.208+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:52:49.447+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:52:49.457+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:49.457+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:52:49.471+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:49.471+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to 2023-12-01T00:00:00+00:00, run_after=2023-12-01T00:00:00+00:00
+[2023-12-20T01:52:49.474+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:49.474+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:52:49.475+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:49.475+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:52:49.479+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:49.479+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:52:49.481+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:49.481+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:52:49.482+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:52:49.482+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:52:49.487+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.285 seconds
+[2023-12-20T01:53:20.500+0000] {processor.py:157} INFO - Started process (PID=316) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:53:20.501+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:53:20.502+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:20.502+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:53:20.745+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:53:20.754+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:20.754+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:53:20.763+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:20.763+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:53:20.764+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:20.764+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:53:20.765+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:20.765+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:53:20.769+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:20.769+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:53:20.771+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:20.771+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:53:20.772+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:20.772+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:53:20.777+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.282 seconds
+[2023-12-20T01:53:50.849+0000] {processor.py:157} INFO - Started process (PID=339) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:53:50.850+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:53:50.851+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:50.851+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:53:51.086+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:53:51.094+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:51.094+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:53:51.103+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:51.103+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:53:51.105+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:51.105+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:53:51.106+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:51.106+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:53:51.109+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:51.109+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:53:51.111+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:51.111+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:53:51.111+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:53:51.111+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:53:51.116+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.271 seconds
+[2023-12-20T01:54:19.108+0000] {processor.py:157} INFO - Started process (PID=356) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:54:19.109+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:54:19.110+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:19.109+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:54:19.457+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:54:19.469+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:19.468+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:54:19.481+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:19.481+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:54:19.484+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:19.483+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:54:19.485+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:19.485+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:54:19.492+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:19.492+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:54:19.495+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:19.495+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:54:19.495+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:19.495+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:54:19.502+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.396 seconds
+[2023-12-20T01:54:50.465+0000] {processor.py:157} INFO - Started process (PID=384) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:54:50.465+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:54:50.466+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:50.466+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:54:50.722+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:54:50.730+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:50.730+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:54:50.739+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:50.739+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:54:50.740+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:50.740+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:54:50.741+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:50.741+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:54:50.744+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:50.744+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:54:50.746+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:50.746+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:54:50.747+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:54:50.747+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:54:50.751+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.288 seconds
+[2023-12-20T01:55:03.631+0000] {processor.py:157} INFO - Started process (PID=393) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:55:03.633+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:55:03.635+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:03.634+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:55:03.882+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:55:03.926+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:03.925+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:55:03.934+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:03.934+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:55:03.936+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:03.936+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:55:03.937+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:03.937+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:55:03.942+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:03.942+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:55:03.945+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:03.945+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:55:03.945+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:03.945+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:55:03.950+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.324 seconds
+[2023-12-20T01:55:34.234+0000] {processor.py:157} INFO - Started process (PID=416) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:55:34.235+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:55:34.236+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:34.236+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:55:34.485+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:55:34.494+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:34.493+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:55:34.502+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:34.502+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:55:34.504+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:34.504+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:55:34.504+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:34.504+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:55:34.508+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:34.508+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:55:34.510+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:34.510+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:55:34.510+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:55:34.510+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:55:34.515+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.286 seconds
+[2023-12-20T01:56:05.532+0000] {processor.py:157} INFO - Started process (PID=439) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:56:05.533+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:56:05.534+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:05.533+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:56:05.789+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:56:05.798+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:05.798+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:56:05.807+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:05.806+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:56:05.808+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:05.808+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:56:05.809+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:05.809+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:56:05.812+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:05.812+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:56:05.815+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:05.815+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:56:05.815+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:05.815+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:56:05.820+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.291 seconds
+[2023-12-20T01:56:36.823+0000] {processor.py:157} INFO - Started process (PID=462) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:56:36.824+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:56:36.824+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:36.824+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:56:37.098+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:56:37.108+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:37.108+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:56:37.119+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:37.119+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:56:37.123+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:37.123+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:56:37.124+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:37.124+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:56:37.128+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:37.128+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:56:37.131+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:37.130+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:56:37.131+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:56:37.131+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:56:37.135+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.315 seconds
+[2023-12-20T01:57:08.120+0000] {processor.py:157} INFO - Started process (PID=494) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:57:08.122+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:57:08.124+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:08.123+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:57:08.419+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:57:08.430+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:08.429+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:57:08.439+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:08.439+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:57:08.441+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:08.441+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:57:08.441+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:08.441+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:57:08.446+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:08.446+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:57:08.450+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:08.450+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:57:08.451+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:08.450+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:57:08.456+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.341 seconds
+[2023-12-20T01:57:39.442+0000] {processor.py:157} INFO - Started process (PID=517) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:57:39.444+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:57:39.444+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:39.444+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:57:39.694+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:57:39.705+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:39.704+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:57:39.715+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:39.715+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:57:39.717+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:39.717+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:57:39.718+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:39.718+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:57:39.724+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:39.724+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:57:39.727+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:39.727+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:57:39.727+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:57:39.727+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:57:39.733+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.295 seconds
+[2023-12-20T01:58:09.786+0000] {processor.py:157} INFO - Started process (PID=551) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:58:09.787+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:58:09.788+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:09.788+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:58:10.023+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:58:10.031+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:10.031+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:58:10.041+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:10.041+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:58:10.043+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:10.043+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:58:10.043+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:10.043+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:58:10.047+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:10.047+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:58:10.049+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:10.049+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:58:10.049+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:10.049+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:58:10.054+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.270 seconds
+[2023-12-20T01:58:41.039+0000] {processor.py:157} INFO - Started process (PID=581) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:58:41.040+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:58:41.041+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:41.040+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:58:41.284+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:58:41.292+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:41.292+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:58:41.301+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:41.301+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:58:41.302+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:41.302+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:58:41.303+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:41.303+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:58:41.306+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:41.306+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:58:41.308+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:41.308+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:58:41.308+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:58:41.308+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:58:41.313+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.277 seconds
+[2023-12-20T01:59:11.356+0000] {processor.py:157} INFO - Started process (PID=604) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:11.356+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:59:11.357+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:11.357+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:11.597+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:11.606+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:11.606+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T01:59:11.614+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:11.614+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T01:59:11.616+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:11.616+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:59:11.617+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:11.617+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:59:11.620+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:11.620+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T01:59:11.622+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:11.622+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T01:59:11.623+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:11.623+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T01:59:11.627+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.275 seconds
+[2023-12-20T01:59:32.602+0000] {processor.py:157} INFO - Started process (PID=615) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:32.603+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:59:32.605+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:32.604+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:32.612+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:32.610+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 151
+    table_name: str,
+                   ^
+SyntaxError: invalid syntax
+[2023-12-20T01:59:32.612+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:32.633+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.036 seconds
+[2023-12-20T01:59:37.680+0000] {processor.py:157} INFO - Started process (PID=620) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:37.682+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:59:37.683+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:37.682+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:37.689+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:37.689+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 151
+    table_name: str,
+                   ^
+SyntaxError: invalid syntax
+[2023-12-20T01:59:37.690+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:37.709+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.033 seconds
+[2023-12-20T01:59:58.952+0000] {processor.py:157} INFO - Started process (PID=642) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:58.953+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T01:59:58.954+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:58.954+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:58.959+0000] {logging_mixin.py:154} INFO - [2023-12-20T01:59:58.958+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 151
+    table_name: str,
+                   ^
+SyntaxError: invalid syntax
+[2023-12-20T01:59:58.959+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T01:59:58.977+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.030 seconds
+[2023-12-20T02:00:01.980+0000] {processor.py:157} INFO - Started process (PID=648) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:01.981+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:00:01.981+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:01.981+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:01.986+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:01.985+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 839, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 976, in get_code
+  File "<frozen importlib._bootstrap_external>", line 906, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 151
+    table_name: str,
+                   ^
+SyntaxError: invalid syntax
+[2023-12-20T02:00:01.986+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:01.999+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.022 seconds
+[2023-12-20T02:00:23.252+0000] {processor.py:157} INFO - Started process (PID=665) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:23.253+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:00:23.254+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:23.254+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:23.503+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:23.546+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:23.545+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:00:23.555+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:23.555+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:00:23.556+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:23.556+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:00:23.557+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:23.557+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:00:23.562+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:23.562+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:00:23.564+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:23.564+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:00:23.564+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:23.564+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:00:23.570+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.322 seconds
+[2023-12-20T02:00:27.340+0000] {processor.py:157} INFO - Started process (PID=676) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:27.341+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:00:27.342+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:27.342+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:27.607+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:27.608+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:27.608+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:00:27.617+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:27.617+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:00:27.619+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:27.619+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:00:27.621+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:27.621+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:00:27.625+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:27.625+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:00:27.628+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:27.628+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:00:27.628+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:27.628+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:00:27.634+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.298 seconds
+[2023-12-20T02:00:58.019+0000] {processor.py:157} INFO - Started process (PID=699) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:58.019+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:00:58.020+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:58.020+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:58.281+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:00:58.291+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:58.290+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:00:58.301+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:58.300+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:00:58.304+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:58.304+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:00:58.305+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:58.305+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:00:58.309+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:58.309+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:00:58.311+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:58.311+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:00:58.312+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:00:58.312+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:00:58.317+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.304 seconds
+[2023-12-20T02:01:29.323+0000] {processor.py:157} INFO - Started process (PID=722) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:01:29.324+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:01:29.325+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:29.325+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:01:29.563+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:01:29.572+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:29.571+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:01:29.580+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:29.580+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:01:29.581+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:29.581+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:01:29.582+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:29.582+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:01:29.585+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:29.585+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:01:29.588+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:29.588+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:01:29.588+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:29.588+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:01:29.592+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.273 seconds
+[2023-12-20T02:01:59.641+0000] {processor.py:157} INFO - Started process (PID=745) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:01:59.643+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:01:59.644+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:59.643+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:01:59.928+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:01:59.945+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:59.945+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:01:59.955+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:59.955+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:01:59.957+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:59.957+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:01:59.958+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:59.957+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:01:59.961+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:59.961+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:01:59.964+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:59.964+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:01:59.964+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:01:59.964+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:01:59.969+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.332 seconds
+[2023-12-20T02:02:30.982+0000] {processor.py:157} INFO - Started process (PID=771) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:02:30.984+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:02:30.985+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:02:30.985+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:02:31.233+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:02:31.242+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:02:31.242+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:02:31.250+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:02:31.250+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:02:31.252+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:02:31.252+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:02:31.253+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:02:31.253+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:02:31.257+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:02:31.257+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:02:31.260+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:02:31.260+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:02:31.260+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:02:31.260+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:02:31.265+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.288 seconds
+[2023-12-20T02:03:01.518+0000] {processor.py:157} INFO - Started process (PID=809) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:03:01.519+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:03:01.520+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:01.520+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:03:01.793+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:03:01.803+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:01.803+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:03:01.812+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:01.812+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:03:01.813+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:01.813+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:03:01.814+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:01.814+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:03:01.817+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:01.817+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:03:01.820+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:01.820+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:03:01.820+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:01.820+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:03:01.825+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.311 seconds
+[2023-12-20T02:03:31.865+0000] {processor.py:157} INFO - Started process (PID=832) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:03:31.866+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:03:31.868+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:31.867+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:03:32.122+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:03:32.131+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:32.131+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:03:32.140+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:32.140+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:03:32.141+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:32.141+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:03:32.142+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:32.142+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:03:32.145+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:32.145+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:03:32.148+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:32.148+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:03:32.148+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:03:32.148+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:03:32.153+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.294 seconds
+[2023-12-20T02:04:02.212+0000] {processor.py:157} INFO - Started process (PID=855) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:02.214+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:04:02.215+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:02.215+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:02.466+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:02.475+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:02.475+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:04:02.483+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:02.483+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:04:02.485+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:02.485+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:04:02.486+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:02.485+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:04:02.489+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:02.489+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:04:02.491+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:02.491+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:04:02.491+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:02.491+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:04:02.496+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.288 seconds
+[2023-12-20T02:04:16.350+0000] {processor.py:157} INFO - Started process (PID=868) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:16.351+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:04:16.353+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:16.352+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:16.595+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:16.604+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:16.604+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:04:16.613+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:16.613+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:04:16.614+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:16.614+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:04:16.615+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:16.615+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:04:16.619+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:16.619+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:04:16.622+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:16.622+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:04:16.622+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:16.622+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:04:16.627+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.282 seconds
+[2023-12-20T02:04:17.644+0000] {processor.py:157} INFO - Started process (PID=874) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:17.646+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:04:17.647+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:17.647+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:17.908+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:17.917+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:17.917+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:04:17.927+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:17.927+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:04:17.928+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:17.928+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:04:17.929+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:17.929+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:04:17.933+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:17.933+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:04:17.936+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:17.936+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:04:17.936+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:17.936+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:04:17.942+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.303 seconds
+[2023-12-20T02:04:48.009+0000] {processor.py:157} INFO - Started process (PID=897) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:48.011+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:04:48.012+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:48.012+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:48.248+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:04:48.256+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:48.256+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:04:48.264+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:48.264+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:04:48.266+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:48.266+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:04:48.267+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:48.267+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:04:48.270+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:48.270+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:04:48.273+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:48.273+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:04:48.273+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:04:48.273+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:04:48.278+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.273 seconds
+[2023-12-20T02:05:18.324+0000] {processor.py:157} INFO - Started process (PID=920) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:05:18.325+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:05:18.326+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:18.326+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:05:18.591+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:05:18.599+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:18.599+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:05:18.609+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:18.609+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:05:18.611+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:18.611+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:05:18.612+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:18.612+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:05:18.616+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:18.616+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:05:18.619+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:18.618+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:05:18.619+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:18.619+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:05:18.625+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.304 seconds
+[2023-12-20T02:05:48.675+0000] {processor.py:157} INFO - Started process (PID=943) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:05:48.677+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:05:48.678+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:48.677+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:05:48.917+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:05:48.926+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:48.925+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:05:48.934+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:48.934+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:05:48.936+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:48.936+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:05:48.936+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:48.936+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:05:48.940+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:48.940+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:05:48.942+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:48.942+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:05:48.942+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:05:48.942+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:05:48.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.276 seconds
+[2023-12-20T02:06:19.293+0000] {processor.py:157} INFO - Started process (PID=966) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:06:19.294+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:06:19.295+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:06:19.295+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:06:19.551+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:06:19.560+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:06:19.560+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:06:19.568+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:06:19.568+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:06:19.570+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:06:19.570+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:06:19.571+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:06:19.571+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:06:19.574+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:06:19.574+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:06:19.576+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:06:19.576+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:06:19.577+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:06:19.577+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:06:19.581+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.291 seconds
+[2023-12-20T02:06:49.657+0000] {processor.py:157} INFO - Started process (PID=992) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:06:49.658+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:06:49.658+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:06:49.658+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:06:49.903+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:06:49.902+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 153, in <module>
+    subdag=rsvc.sub_dag_remove_single_val_cols(
+  File "/opt/airflow/dags/remove_single_value_columns.py", line 158, in sub_dag_remove_single_val_cols
+    op_args=[table_name, column_name, postgres_conn_name],
+NameError: name 'column_name' is not defined
+[2023-12-20T02:06:49.903+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:06:49.907+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.253 seconds
+[2023-12-20T02:07:19.976+0000] {processor.py:157} INFO - Started process (PID=1017) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:07:19.976+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:07:19.977+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:07:19.977+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:07:20.202+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:07:20.201+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 153, in <module>
+    subdag=rsvc.sub_dag_remove_single_val_cols(
+  File "/opt/airflow/dags/remove_single_value_columns.py", line 158, in sub_dag_remove_single_val_cols
+    op_args=[table_name, column_name, postgres_conn_name],
+NameError: name 'column_name' is not defined
+[2023-12-20T02:07:20.203+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:07:20.206+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.234 seconds
+[2023-12-20T02:07:50.267+0000] {processor.py:157} INFO - Started process (PID=1040) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:07:50.268+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:07:50.268+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:07:50.268+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:07:50.527+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:07:50.526+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 153, in <module>
+    subdag=rsvc.sub_dag_remove_single_val_cols(
+  File "/opt/airflow/dags/remove_single_value_columns.py", line 158, in sub_dag_remove_single_val_cols
+    op_args=[table_name, column_name, postgres_conn_name],
+NameError: name 'column_name' is not defined
+[2023-12-20T02:07:50.527+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:07:50.531+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.266 seconds
+[2023-12-20T02:08:20.631+0000] {processor.py:157} INFO - Started process (PID=1063) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:08:20.631+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:08:20.632+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:08:20.632+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:08:20.886+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:08:20.885+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 153, in <module>
+    subdag=rsvc.sub_dag_remove_single_val_cols(
+  File "/opt/airflow/dags/remove_single_value_columns.py", line 158, in sub_dag_remove_single_val_cols
+    op_args=[table_name, column_name, postgres_conn_name],
+NameError: name 'column_name' is not defined
+[2023-12-20T02:08:20.887+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:08:20.891+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.262 seconds
+[2023-12-20T02:08:50.982+0000] {processor.py:157} INFO - Started process (PID=1086) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:08:50.983+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:08:50.984+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:08:50.984+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:08:51.222+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:08:51.221+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 153, in <module>
+    subdag=rsvc.sub_dag_remove_single_val_cols(
+  File "/opt/airflow/dags/remove_single_value_columns.py", line 158, in sub_dag_remove_single_val_cols
+    op_args=[table_name, column_name, postgres_conn_name],
+NameError: name 'column_name' is not defined
+[2023-12-20T02:08:51.222+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:08:51.226+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.248 seconds
+[2023-12-20T02:09:21.333+0000] {processor.py:157} INFO - Started process (PID=1109) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:09:21.334+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:09:21.335+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:09:21.335+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:09:21.571+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:09:21.570+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/Caravan Insurance Challenge.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/Caravan Insurance Challenge.py", line 153, in <module>
+    subdag=rsvc.sub_dag_remove_single_val_cols(
+  File "/opt/airflow/dags/remove_single_value_columns.py", line 158, in sub_dag_remove_single_val_cols
+    op_args=[table_name, column_name, postgres_conn_name],
+NameError: name 'column_name' is not defined
+[2023-12-20T02:09:21.572+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:09:21.576+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.248 seconds
+[2023-12-20T02:09:51.706+0000] {processor.py:157} INFO - Started process (PID=1134) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:09:51.707+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:09:51.708+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:09:51.708+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:09:51.953+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:09:51.995+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:09:51.995+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:09:52.004+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:09:52.004+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:09:52.005+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:09:52.005+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:09:52.006+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:09:52.006+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:09:52.011+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:09:52.011+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:09:52.014+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:09:52.014+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:09:52.014+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:09:52.014+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:09:52.020+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.318 seconds
+[2023-12-20T02:10:22.123+0000] {processor.py:157} INFO - Started process (PID=1160) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:10:22.124+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:10:22.125+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:22.125+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:10:22.364+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:10:22.373+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:22.373+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:10:22.381+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:22.381+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:10:22.382+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:22.382+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:10:22.383+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:22.383+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:10:22.387+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:22.387+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:10:22.389+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:22.389+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:10:22.390+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:22.389+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:10:22.395+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.276 seconds
+[2023-12-20T02:10:52.537+0000] {processor.py:157} INFO - Started process (PID=1193) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:10:52.539+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:10:52.539+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:52.539+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:10:52.789+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:10:52.798+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:52.797+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:10:52.807+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:52.807+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:10:52.808+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:52.808+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:10:52.809+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:52.809+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:10:52.812+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:52.812+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:10:52.815+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:52.814+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:10:52.815+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:10:52.815+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:10:52.821+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.289 seconds
+[2023-12-20T02:11:23.858+0000] {processor.py:157} INFO - Started process (PID=1216) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:11:23.859+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:11:23.860+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:23.860+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:11:24.108+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:11:24.117+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:24.117+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:11:24.126+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:24.126+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:11:24.127+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:24.127+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:11:24.128+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:24.128+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:11:24.131+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:24.131+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:11:24.134+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:24.134+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:11:24.134+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:24.134+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:11:24.139+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.286 seconds
+[2023-12-20T02:11:54.197+0000] {processor.py:157} INFO - Started process (PID=1239) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:11:54.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:11:54.199+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:54.199+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:11:54.440+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:11:54.449+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:54.449+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:11:54.458+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:54.458+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:11:54.459+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:54.459+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:11:54.460+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:54.460+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:11:54.463+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:54.463+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:11:54.466+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:54.465+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:11:54.466+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:11:54.466+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:11:54.472+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.280 seconds
+[2023-12-20T02:12:25.417+0000] {processor.py:157} INFO - Started process (PID=1262) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:12:25.418+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:12:25.419+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:25.419+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:12:25.663+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:12:25.673+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:25.672+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:12:25.682+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:25.681+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:12:25.683+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:25.683+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:12:25.684+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:25.684+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:12:25.688+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:25.688+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:12:25.690+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:25.690+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:12:25.690+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:25.690+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:12:25.695+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.280 seconds
+[2023-12-20T02:12:55.775+0000] {processor.py:157} INFO - Started process (PID=1293) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:12:55.777+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:12:55.778+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:55.777+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:12:56.019+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:12:56.027+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:56.027+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:12:56.036+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:56.035+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:12:56.037+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:56.037+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:12:56.038+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:56.038+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:12:56.042+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:56.042+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:12:56.044+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:56.044+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:12:56.044+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:12:56.044+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:12:56.049+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.278 seconds
+[2023-12-20T02:13:26.097+0000] {processor.py:157} INFO - Started process (PID=1316) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:13:26.098+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:13:26.098+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:26.098+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:13:26.335+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:13:26.344+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:26.343+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:13:26.354+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:26.354+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:13:26.355+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:26.355+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:13:26.356+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:26.356+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:13:26.360+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:26.359+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:13:26.362+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:26.362+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:13:26.362+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:26.362+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:13:26.367+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.273 seconds
+[2023-12-20T02:13:56.427+0000] {processor.py:157} INFO - Started process (PID=1339) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:13:56.433+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:13:56.434+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:56.434+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:13:56.719+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:13:56.729+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:56.729+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:13:56.740+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:56.740+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:13:56.742+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:56.742+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:13:56.742+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:56.742+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:13:56.746+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:56.746+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:13:56.748+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:56.748+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:13:56.749+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:13:56.749+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:13:56.754+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.332 seconds
+[2023-12-20T02:14:27.685+0000] {processor.py:157} INFO - Started process (PID=1362) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:14:27.687+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:14:27.688+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:27.688+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:14:28.105+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:14:28.115+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:28.115+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:14:28.125+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:28.125+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:14:28.126+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:28.126+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:14:28.127+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:28.127+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:14:28.132+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:28.131+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:14:28.134+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:28.134+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:14:28.134+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:28.134+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:14:28.139+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.459 seconds
+[2023-12-20T02:14:59.076+0000] {processor.py:157} INFO - Started process (PID=1388) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:14:59.077+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:14:59.078+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:59.078+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:14:59.379+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:14:59.392+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:59.392+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:14:59.402+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:59.402+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:14:59.403+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:59.403+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:14:59.404+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:59.404+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:14:59.408+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:59.408+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:14:59.411+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:59.411+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:14:59.411+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:14:59.411+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:14:59.416+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.346 seconds
+[2023-12-20T02:15:30.421+0000] {processor.py:157} INFO - Started process (PID=1414) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:15:30.422+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:15:30.423+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:15:30.423+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:15:30.663+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:15:30.672+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:15:30.672+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:15:30.682+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:15:30.682+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:15:30.684+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:15:30.684+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:15:30.684+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:15:30.684+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:15:30.689+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:15:30.689+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:15:30.691+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:15:30.691+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:15:30.692+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:15:30.692+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:15:30.697+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.279 seconds
+[2023-12-20T02:16:00.725+0000] {processor.py:157} INFO - Started process (PID=1437) to work on /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:16:00.726+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/Caravan Insurance Challenge.py for tasks to queue
+[2023-12-20T02:16:00.727+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:16:00.727+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:16:00.964+0000] {processor.py:839} INFO - DAG(s) dict_keys(['Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns', 'Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns', 'Caravan_Insurance_Challenge_Project-v01']) retrieved from /opt/airflow/dags/Caravan Insurance Challenge.py
+[2023-12-20T02:16:00.973+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:16:00.972+0000] {dag.py:2941} INFO - Sync 3 DAGs
+[2023-12-20T02:16:00.982+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:16:00.982+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01 to None, run_after=None
+[2023-12-20T02:16:00.983+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:16:00.983+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:16:00.984+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:16:00.984+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:16:00.987+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:16:00.987+0000] {dag.py:2941} INFO - Sync 2 DAGs
+[2023-12-20T02:16:00.990+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:16:00.989+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_single_value_columns to None, run_after=None
+[2023-12-20T02:16:00.990+0000] {logging_mixin.py:154} INFO - [2023-12-20T02:16:00.990+0000] {dag.py:3722} INFO - Setting next_dagrun for Caravan_Insurance_Challenge_Project-v01.remove_unnecessary_columns to None, run_after=None
+[2023-12-20T02:16:00.995+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/Caravan Insurance Challenge.py took 0.273 seconds

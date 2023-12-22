@@ -1,0 +1,47 @@
+[2023-12-21T16:14:10.446+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Insurance_Fraud-v01.create_dim_tables.create_dim_BasePolicy_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:14:10.458+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Insurance_Fraud-v01.create_dim_tables.create_dim_BasePolicy_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:14:10.463+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-21T16:14:10.504+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_dim_BasePolicy_table> on 2023-12-01 00:00:00+00:00
+[2023-12-21T16:14:10.512+0000] {standard_task_runner.py:57} INFO - Started process 713 to run task
+[2023-12-21T16:14:10.520+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Insurance_Fraud-v01.create_dim_tables', 'create_dim_BasePolicy_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/Insurance_Fraud.py', '--cfg-path', '/tmp/tmpxg25dh54']
+[2023-12-21T16:14:10.526+0000] {standard_task_runner.py:85} INFO - Job 17: Subtask create_dim_BasePolicy_table
+[2023-12-21T16:14:10.624+0000] {task_command.py:416} INFO - Running <TaskInstance: Insurance_Fraud-v01.create_dim_tables.create_dim_BasePolicy_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 8e15cdf87c56
+[2023-12-21T16:14:10.733+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Insurance_Fraud-v01.create_dim_tables' AIRFLOW_CTX_TASK_ID='create_dim_BasePolicy_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-21T16:14:10.740+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_BasePolicy AS
+SELECT DISTINCT BasePolicy FROM insurance_fraud_pipeline;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_BasePolicy;
+CREATE TABLE dimension_table_BasePolicy (
+    id SERIAL PRIMARY KEY,
+    BasePolicy VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_BasePolicy (BasePolicy)
+SELECT * FROM unique_values_BasePolicy;
+[2023-12-21T16:14:10.766+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T16:14:10.782+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T16:14:10.795+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_BasePolicy AS
+SELECT DISTINCT BasePolicy FROM insurance_fraud_pipeline;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_BasePolicy;
+CREATE TABLE dimension_table_BasePolicy (
+    id SERIAL PRIMARY KEY,
+    BasePolicy VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_BasePolicy (BasePolicy)
+SELECT * FROM unique_values_BasePolicy;, parameters: None
+[2023-12-21T16:14:10.815+0000] {sql.py:427} INFO - Rows affected: 3
+[2023-12-21T16:14:10.833+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Insurance_Fraud-v01.create_dim_tables, task_id=create_dim_BasePolicy_table, execution_date=20231201T000000, start_date=20231221T161410, end_date=20231221T161410
+[2023-12-21T16:14:10.880+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-21T16:14:10.943+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

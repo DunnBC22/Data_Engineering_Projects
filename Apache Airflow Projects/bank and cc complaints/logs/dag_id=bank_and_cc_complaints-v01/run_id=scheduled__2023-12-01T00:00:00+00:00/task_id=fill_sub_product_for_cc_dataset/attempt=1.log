@@ -1,0 +1,31 @@
+[2023-12-19T04:55:07.133+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bank_and_cc_complaints-v01.fill_sub_product_for_cc_dataset scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:55:07.137+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bank_and_cc_complaints-v01.fill_sub_product_for_cc_dataset scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:55:07.137+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T04:55:07.143+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): fill_sub_product_for_cc_dataset> on 2023-12-01 00:00:00+00:00
+[2023-12-19T04:55:07.146+0000] {standard_task_runner.py:57} INFO - Started process 566 to run task
+[2023-12-19T04:55:07.148+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'bank_and_cc_complaints-v01', 'fill_sub_product_for_cc_dataset', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/bank_and_cc_complaints.py', '--cfg-path', '/tmp/tmpikuvsuox']
+[2023-12-19T04:55:07.150+0000] {standard_task_runner.py:85} INFO - Job 10: Subtask fill_sub_product_for_cc_dataset
+[2023-12-19T04:55:07.183+0000] {task_command.py:416} INFO - Running <TaskInstance: bank_and_cc_complaints-v01.fill_sub_product_for_cc_dataset scheduled__2023-12-01T00:00:00+00:00 [running]> on host 2ee4b7dc3cc7
+[2023-12-19T04:55:07.250+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='bank_and_cc_complaints-v01' AIRFLOW_CTX_TASK_ID='fill_sub_product_for_cc_dataset' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T04:55:07.251+0000] {sql.py:274} INFO - Executing: -- params: "table_name": "***_complaints", 
+-- "set_col_vals": "Sub_product", 
+-- "other_col_ref": "product", 
+-- "value_to_set_null_to": "Credit card"
+UPDATE ***_complaints
+SET Sub_product = 'Credit card'
+WHERE Sub_product IS NULL
+AND product = 'Credit card';
+[2023-12-19T04:55:07.258+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:55:07.267+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:55:07.273+0000] {sql.py:418} INFO - Running statement: -- params: "table_name": "***_complaints", 
+-- "set_col_vals": "Sub_product", 
+-- "other_col_ref": "product", 
+-- "value_to_set_null_to": "Credit card"
+UPDATE ***_complaints
+SET Sub_product = 'Credit card'
+WHERE Sub_product IS NULL
+AND product = 'Credit card';, parameters: None
+[2023-12-19T04:55:07.642+0000] {sql.py:427} INFO - Rows affected: 87718
+[2023-12-19T04:55:07.666+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=bank_and_cc_complaints-v01, task_id=fill_sub_product_for_cc_dataset, execution_date=20231201T000000, start_date=20231219T045507, end_date=20231219T045507
+[2023-12-19T04:55:07.712+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T04:55:07.753+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

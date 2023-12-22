@@ -1,0 +1,145 @@
+[2023-12-19T04:50:47.200+0000] {processor.py:157} INFO - Started process (PID=171) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:50:47.204+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:50:47.206+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:50:47.206+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:50:47.272+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:50:47.293+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.097 seconds
+[2023-12-19T04:51:18.226+0000] {processor.py:157} INFO - Started process (PID=213) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:51:18.227+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:51:18.244+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:51:18.244+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:51:18.297+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:51:18.342+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.120 seconds
+[2023-12-19T04:51:49.028+0000] {processor.py:157} INFO - Started process (PID=255) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:51:49.029+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:51:49.030+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:51:49.030+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:51:49.036+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:51:49.058+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.035 seconds
+[2023-12-19T04:52:19.378+0000] {processor.py:157} INFO - Started process (PID=297) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:52:19.379+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:52:19.379+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:52:19.379+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:52:19.383+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:52:19.396+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.020 seconds
+[2023-12-19T04:52:49.909+0000] {processor.py:157} INFO - Started process (PID=339) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:52:49.910+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:52:49.911+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:52:49.911+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:52:49.917+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:52:49.933+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.027 seconds
+[2023-12-19T04:53:20.430+0000] {processor.py:157} INFO - Started process (PID=381) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:53:20.431+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:53:20.432+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:53:20.432+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:53:20.438+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:53:20.454+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.028 seconds
+[2023-12-19T04:53:50.830+0000] {processor.py:157} INFO - Started process (PID=425) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:53:50.831+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:53:50.832+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:53:50.832+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:53:50.840+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:53:50.857+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.033 seconds
+[2023-12-19T04:54:21.214+0000] {processor.py:157} INFO - Started process (PID=481) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:54:21.215+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:54:21.216+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:54:21.215+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:54:21.219+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:54:21.230+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.018 seconds
+[2023-12-19T04:54:51.638+0000] {processor.py:157} INFO - Started process (PID=523) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:54:51.639+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:54:51.640+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:54:51.640+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:54:51.645+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:54:51.660+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.027 seconds
+[2023-12-19T04:55:22.042+0000] {processor.py:157} INFO - Started process (PID=577) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:55:22.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:55:22.044+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:55:22.044+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:55:22.051+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:55:22.067+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.030 seconds
+[2023-12-19T04:55:52.484+0000] {processor.py:157} INFO - Started process (PID=619) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:55:52.485+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:55:52.486+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:55:52.486+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:55:52.489+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:55:52.502+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.021 seconds
+[2023-12-19T04:56:22.849+0000] {processor.py:157} INFO - Started process (PID=661) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:56:22.849+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:56:22.850+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:56:22.850+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:56:22.854+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:56:22.864+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.018 seconds
+[2023-12-19T04:56:53.265+0000] {processor.py:157} INFO - Started process (PID=703) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:56:53.266+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:56:53.267+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:56:53.267+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:56:53.274+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:56:53.288+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.027 seconds
+[2023-12-19T04:57:23.857+0000] {processor.py:157} INFO - Started process (PID=755) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:57:23.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:57:23.859+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:57:23.859+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:57:23.868+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:57:23.885+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.032 seconds
+[2023-12-19T04:57:54.389+0000] {processor.py:157} INFO - Started process (PID=797) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:57:54.390+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:57:54.391+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:57:54.390+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:57:54.396+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:57:54.413+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.027 seconds
+[2023-12-19T04:58:24.870+0000] {processor.py:157} INFO - Started process (PID=845) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:58:24.871+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:58:24.872+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:58:24.872+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:58:24.877+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:58:24.894+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.028 seconds
+[2023-12-19T04:58:55.409+0000] {processor.py:157} INFO - Started process (PID=889) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:58:55.411+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:58:55.413+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:58:55.412+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:58:55.420+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:58:55.438+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.034 seconds
+[2023-12-19T04:59:25.851+0000] {processor.py:157} INFO - Started process (PID=947) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:59:25.852+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:59:25.852+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:59:25.852+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:59:25.857+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:59:25.869+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.022 seconds
+[2023-12-19T04:59:56.232+0000] {processor.py:157} INFO - Started process (PID=989) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:59:56.233+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T04:59:56.233+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:59:56.233+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:59:56.237+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T04:59:56.249+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.021 seconds
+[2023-12-19T05:00:26.629+0000] {processor.py:157} INFO - Started process (PID=1047) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:00:26.631+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T05:00:26.632+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:00:26.632+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:00:26.639+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:00:26.659+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.034 seconds
+[2023-12-19T05:00:57.125+0000] {processor.py:157} INFO - Started process (PID=1089) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:00:57.125+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T05:00:57.126+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:00:57.126+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:00:57.131+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:00:57.146+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.024 seconds
+[2023-12-19T05:01:27.520+0000] {processor.py:157} INFO - Started process (PID=1133) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:01:27.522+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T05:01:27.523+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:01:27.522+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:01:27.530+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:01:27.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.032 seconds
+[2023-12-19T05:01:57.973+0000] {processor.py:157} INFO - Started process (PID=1175) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:01:57.974+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T05:01:57.975+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:01:57.974+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:01:57.980+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:01:57.994+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.026 seconds
+[2023-12-19T05:02:28.430+0000] {processor.py:157} INFO - Started process (PID=1217) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:02:28.431+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T05:02:28.432+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:02:28.432+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:02:28.438+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:02:28.455+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.028 seconds
+[2023-12-19T05:02:58.869+0000] {processor.py:157} INFO - Started process (PID=1259) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:02:58.870+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T05:02:58.872+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:02:58.871+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:02:58.879+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:02:58.897+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.034 seconds
+[2023-12-19T05:03:29.275+0000] {processor.py:157} INFO - Started process (PID=1301) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:03:29.277+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T05:03:29.278+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:03:29.277+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:03:29.285+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:03:29.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.029 seconds
+[2023-12-19T05:03:59.711+0000] {processor.py:157} INFO - Started process (PID=1343) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:03:59.712+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T05:03:59.714+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:03:59.714+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:03:59.722+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:03:59.739+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.034 seconds
+[2023-12-19T05:04:30.205+0000] {processor.py:157} INFO - Started process (PID=1401) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:04:30.206+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T05:04:30.207+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:04:30.207+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:04:30.215+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:04:30.232+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.031 seconds
+[2023-12-19T05:05:00.596+0000] {processor.py:157} INFO - Started process (PID=1443) to work on /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:05:00.596+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py for tasks to queue
+[2023-12-19T05:05:00.597+0000] {logging_mixin.py:154} INFO - [2023-12-19T05:05:00.597+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:05:00.599+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py
+[2023-12-19T05:05:00.611+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_clean_vals_and_update_dtypes.py took 0.017 seconds

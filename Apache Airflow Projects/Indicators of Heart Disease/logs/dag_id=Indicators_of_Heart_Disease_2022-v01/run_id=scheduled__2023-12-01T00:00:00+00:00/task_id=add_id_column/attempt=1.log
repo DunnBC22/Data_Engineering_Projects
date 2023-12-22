@@ -1,0 +1,22 @@
+[2023-12-21T17:01:00.851+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Indicators_of_Heart_Disease_2022-v01.add_id_column scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T17:01:00.855+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Indicators_of_Heart_Disease_2022-v01.add_id_column scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T17:01:00.855+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-21T17:01:00.861+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): add_id_column> on 2023-12-01 00:00:00+00:00
+[2023-12-21T17:01:00.864+0000] {standard_task_runner.py:57} INFO - Started process 1914 to run task
+[2023-12-21T17:01:00.866+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Indicators_of_Heart_Disease_2022-v01', 'add_id_column', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '94', '--raw', '--subdir', 'DAGS_FOLDER/Indicators_of_Heart_Disease_2022.py', '--cfg-path', '/tmp/tmps5wi_6ys']
+[2023-12-21T17:01:00.867+0000] {standard_task_runner.py:85} INFO - Job 94: Subtask add_id_column
+[2023-12-21T17:01:00.897+0000] {task_command.py:416} INFO - Running <TaskInstance: Indicators_of_Heart_Disease_2022-v01.add_id_column scheduled__2023-12-01T00:00:00+00:00 [running]> on host 8e01071a5eb3
+[2023-12-21T17:01:00.938+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Indicators_of_Heart_Disease_2022-v01' AIRFLOW_CTX_TASK_ID='add_id_column' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-21T17:01:00.938+0000] {sql.py:274} INFO - Executing: 
+        ALTER TABLE indicators_of_heart_disease_2022_pipe
+        ADD COLUMN id_col SERIAL PRIMARY KEY;
+        
+[2023-12-21T17:01:00.944+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T17:01:00.949+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T17:01:00.956+0000] {sql.py:418} INFO - Running statement: 
+        ALTER TABLE indicators_of_heart_disease_2022_pipe
+        ADD COLUMN id_col SERIAL PRIMARY KEY;
+        , parameters: None
+[2023-12-21T17:01:03.429+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Indicators_of_Heart_Disease_2022-v01, task_id=add_id_column, execution_date=20231201T000000, start_date=20231221T170100, end_date=20231221T170103
+[2023-12-21T17:01:03.457+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-21T17:01:03.504+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

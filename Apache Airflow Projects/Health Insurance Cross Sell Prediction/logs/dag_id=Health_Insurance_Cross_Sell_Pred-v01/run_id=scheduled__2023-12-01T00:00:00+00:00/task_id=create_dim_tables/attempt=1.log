@@ -1,0 +1,16 @@
+[2023-12-20T18:26:25.711+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Health_Insurance_Cross_Sell_Pred-v01.create_dim_tables scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:26:25.715+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Health_Insurance_Cross_Sell_Pred-v01.create_dim_tables scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:26:25.715+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T18:26:25.720+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): create_dim_tables> on 2023-12-01 00:00:00+00:00
+[2023-12-20T18:26:25.723+0000] {standard_task_runner.py:57} INFO - Started process 1280 to run task
+[2023-12-20T18:26:25.725+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Health_Insurance_Cross_Sell_Pred-v01', 'create_dim_tables', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/Health_Insurance_Cross_Sell_Pred.py', '--cfg-path', '/tmp/tmpxvxg9gqz']
+[2023-12-20T18:26:25.727+0000] {standard_task_runner.py:85} INFO - Job 15: Subtask create_dim_tables
+[2023-12-20T18:26:25.754+0000] {task_command.py:416} INFO - Running <TaskInstance: Health_Insurance_Cross_Sell_Pred-v01.create_dim_tables scheduled__2023-12-01T00:00:00+00:00 [running]> on host 480138c1cef4
+[2023-12-20T18:26:25.793+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Health_Insurance_Cross_Sell_Pred-v01' AIRFLOW_CTX_TASK_ID='create_dim_tables' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T18:26:25.796+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-20T18:26:25.812+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-20T18:27:25.855+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-20T18:27:25.867+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-20T18:27:25.878+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Health_Insurance_Cross_Sell_Pred-v01, task_id=create_dim_tables, execution_date=20231201T000000, start_date=20231220T182625, end_date=20231220T182725
+[2023-12-20T18:27:25.896+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T18:27:25.919+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

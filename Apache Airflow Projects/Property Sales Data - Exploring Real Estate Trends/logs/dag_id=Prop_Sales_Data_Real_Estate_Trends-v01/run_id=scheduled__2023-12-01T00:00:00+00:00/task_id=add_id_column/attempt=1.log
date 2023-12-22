@@ -1,0 +1,22 @@
+[2023-12-21T20:33:53.877+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Prop_Sales_Data_Real_Estate_Trends-v01.add_id_column scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T20:33:53.881+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Prop_Sales_Data_Real_Estate_Trends-v01.add_id_column scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T20:33:53.881+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-21T20:33:53.886+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): add_id_column> on 2023-12-01 00:00:00+00:00
+[2023-12-21T20:33:53.889+0000] {standard_task_runner.py:57} INFO - Started process 355 to run task
+[2023-12-21T20:33:53.891+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Prop_Sales_Data_Real_Estate_Trends-v01', 'add_id_column', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/Prop_Sales_Data_Real_Estate_Trends.py', '--cfg-path', '/tmp/tmpq_xdgdct']
+[2023-12-21T20:33:53.893+0000] {standard_task_runner.py:85} INFO - Job 10: Subtask add_id_column
+[2023-12-21T20:33:53.921+0000] {task_command.py:416} INFO - Running <TaskInstance: Prop_Sales_Data_Real_Estate_Trends-v01.add_id_column scheduled__2023-12-01T00:00:00+00:00 [running]> on host aab5f6d62a77
+[2023-12-21T20:33:53.961+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Prop_Sales_Data_Real_Estate_Trends-v01' AIRFLOW_CTX_TASK_ID='add_id_column' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-21T20:33:53.962+0000] {sql.py:274} INFO - Executing: 
+        ALTER TABLE prop_sales_data_real_estate_trends_pipe
+        ADD COLUMN id_col SERIAL PRIMARY KEY;
+        
+[2023-12-21T20:33:53.967+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T20:33:53.972+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T20:33:53.977+0000] {sql.py:418} INFO - Running statement: 
+        ALTER TABLE prop_sales_data_real_estate_trends_pipe
+        ADD COLUMN id_col SERIAL PRIMARY KEY;
+        , parameters: None
+[2023-12-21T20:33:54.078+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Prop_Sales_Data_Real_Estate_Trends-v01, task_id=add_id_column, execution_date=20231201T000000, start_date=20231221T203353, end_date=20231221T203354
+[2023-12-21T20:33:54.108+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-21T20:33:54.132+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

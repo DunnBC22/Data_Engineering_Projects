@@ -1,0 +1,25 @@
+[2023-12-20T17:37:28.296+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: employee_dataset-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T17:37:28.301+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: employee_dataset-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T17:37:28.301+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T17:37:28.306+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): insert_fk_into_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-20T17:37:28.309+0000] {standard_task_runner.py:57} INFO - Started process 521 to run task
+[2023-12-20T17:37:28.311+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'employee_dataset-v01', 'insert_fk_into_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/Employee Dataset.py', '--cfg-path', '/tmp/tmp9g4ig8mq']
+[2023-12-20T17:37:28.313+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask insert_fk_into_fact_table
+[2023-12-20T17:37:28.341+0000] {task_command.py:416} INFO - Running <TaskInstance: employee_dataset-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host b5c835cae1ba
+[2023-12-20T17:37:28.380+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='employee_dataset-v01' AIRFLOW_CTX_TASK_ID='insert_fk_into_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T17:37:28.383+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-20T17:37:28.388+0000] {subdag.py:174} INFO - Found existing DagRun: backfill__2023-12-01T00:00:00+00:00
+[2023-12-20T17:43:57.480+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2023-12-20T17:43:57.483+0000] {process_utils.py:131} INFO - Sending 15 to group 521. PIDs of all processes in the group: [521]
+[2023-12-20T17:43:57.483+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 521
+[2023-12-20T17:43:57.483+0000] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-12-20T17:43:57.496+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-12-20T17:43:57.501+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=employee_dataset-v01, task_id=insert_fk_into_fact_table, execution_date=20231201T000000, start_date=20231220T173728, end_date=20231220T174357
+[2023-12-20T17:43:57.512+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 12 for task insert_fk_into_fact_table (Task received SIGTERM signal; 521)
+[2023-12-20T17:43:57.539+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=521, status='terminated', exitcode=1, started='17:37:27') (521) terminated with exit code 1

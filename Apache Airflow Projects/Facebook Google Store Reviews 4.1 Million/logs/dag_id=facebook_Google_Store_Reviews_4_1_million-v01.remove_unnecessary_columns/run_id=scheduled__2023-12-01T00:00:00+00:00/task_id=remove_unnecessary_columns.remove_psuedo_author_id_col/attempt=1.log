@@ -1,0 +1,32 @@
+[2023-12-20T03:10:36.116+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: facebook_Google_Store_Reviews_4_1_million-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_psuedo_author_id_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T03:10:36.120+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: facebook_Google_Store_Reviews_4_1_million-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_psuedo_author_id_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T03:10:36.121+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T03:10:36.128+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_unnecessary_columns.remove_psuedo_author_id_col> on 2023-12-01 00:00:00+00:00
+[2023-12-20T03:10:36.132+0000] {standard_task_runner.py:57} INFO - Started process 521 to run task
+[2023-12-20T03:10:36.135+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'facebook_Google_Store_Reviews_4_1_million-v01.remove_unnecessary_columns', 'remove_unnecessary_columns.remove_psuedo_author_id_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/Facebook_Google_Store_Reviews_4_1_M.py', '--cfg-path', '/tmp/tmp4250pa14']
+[2023-12-20T03:10:36.139+0000] {standard_task_runner.py:85} INFO - Job 5: Subtask remove_unnecessary_columns.remove_psuedo_author_id_col
+[2023-12-20T03:10:36.184+0000] {task_command.py:416} INFO - Running <TaskInstance: facebook_Google_Store_Reviews_4_1_million-v01.remove_unnecessary_columns.remove_unnecessary_columns.remove_psuedo_author_id_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 73e2c4cb0331
+[2023-12-20T03:10:36.238+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='facebook_Google_Store_Reviews_4_1_million-v01.remove_unnecessary_columns' AIRFLOW_CTX_TASK_ID='remove_unnecessary_columns.remove_psuedo_author_id_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T03:10:36.239+0000] {sql.py:274} INFO - Executing: -- table_name, column_name
+ALTER TABLE fb_gs_reviews_pipeline
+DROP COLUMN psuedo_author_id;
+[2023-12-20T03:10:36.248+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T03:10:36.256+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T03:10:36.264+0000] {sql.py:418} INFO - Running statement: -- table_name, column_name
+ALTER TABLE fb_gs_reviews_pipeline
+DROP COLUMN psuedo_author_id;, parameters: None
+[2023-12-20T03:10:36.266+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedColumn: column "psuedo_author_id" of relation "fb_gs_reviews_pipeline" does not exist
+
+[2023-12-20T03:10:36.273+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=facebook_Google_Store_Reviews_4_1_million-v01.remove_unnecessary_columns, task_id=remove_unnecessary_columns.remove_psuedo_author_id_col, execution_date=20231201T000000, start_date=20231220T031036, end_date=20231220T031036
+[2023-12-20T03:10:36.279+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 5 for task remove_unnecessary_columns.remove_psuedo_author_id_col (column "psuedo_author_id" of relation "fb_gs_reviews_pipeline" does not exist
+; 521)
+[2023-12-20T03:10:36.309+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-20T03:10:36.323+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

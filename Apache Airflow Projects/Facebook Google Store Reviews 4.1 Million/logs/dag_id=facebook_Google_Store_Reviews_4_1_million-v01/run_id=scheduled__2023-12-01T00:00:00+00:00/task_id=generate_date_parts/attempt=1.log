@@ -1,0 +1,16 @@
+[2023-12-20T03:19:36.736+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: facebook_Google_Store_Reviews_4_1_million-v01.generate_date_parts scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T03:19:36.741+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: facebook_Google_Store_Reviews_4_1_million-v01.generate_date_parts scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T03:19:36.742+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T03:19:36.748+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): generate_date_parts> on 2023-12-01 00:00:00+00:00
+[2023-12-20T03:19:36.752+0000] {standard_task_runner.py:57} INFO - Started process 1299 to run task
+[2023-12-20T03:19:36.754+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'facebook_Google_Store_Reviews_4_1_million-v01', 'generate_date_parts', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/Facebook_Google_Store_Reviews_4_1_M.py', '--cfg-path', '/tmp/tmpb_ezdjvw']
+[2023-12-20T03:19:36.757+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask generate_date_parts
+[2023-12-20T03:19:36.792+0000] {task_command.py:416} INFO - Running <TaskInstance: facebook_Google_Store_Reviews_4_1_million-v01.generate_date_parts scheduled__2023-12-01T00:00:00+00:00 [running]> on host 73e2c4cb0331
+[2023-12-20T03:19:36.832+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='facebook_Google_Store_Reviews_4_1_million-v01' AIRFLOW_CTX_TASK_ID='generate_date_parts' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T03:19:36.836+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-20T03:19:36.852+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-20T03:20:36.948+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-20T03:20:36.959+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-20T03:20:36.970+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=facebook_Google_Store_Reviews_4_1_million-v01, task_id=generate_date_parts, execution_date=20231201T000000, start_date=20231220T031936, end_date=20231220T032036
+[2023-12-20T03:20:36.988+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T03:20:37.019+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

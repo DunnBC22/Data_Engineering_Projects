@@ -1,0 +1,51 @@
+[2023-12-21T17:04:02.960+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Indicators_of_Heart_Disease_2022-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PhysicalActivities scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T17:04:02.967+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Indicators_of_Heart_Disease_2022-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PhysicalActivities scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T17:04:02.967+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-21T17:04:02.973+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_PhysicalActivities> on 2023-12-01 00:00:00+00:00
+[2023-12-21T17:04:02.976+0000] {standard_task_runner.py:57} INFO - Started process 2439 to run task
+[2023-12-21T17:04:02.979+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Indicators_of_Heart_Disease_2022-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_PhysicalActivities', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '163', '--raw', '--subdir', 'DAGS_FOLDER/Indicators_of_Heart_Disease_2022.py', '--cfg-path', '/tmp/tmpjlbgbj9r']
+[2023-12-21T17:04:02.981+0000] {standard_task_runner.py:85} INFO - Job 163: Subtask insert_fk_col_in_fact_table_PhysicalActivities
+[2023-12-21T17:04:03.023+0000] {task_command.py:416} INFO - Running <TaskInstance: Indicators_of_Heart_Disease_2022-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_PhysicalActivities scheduled__2023-12-01T00:00:00+00:00 [running]> on host 8e01071a5eb3
+[2023-12-21T17:04:03.067+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Indicators_of_Heart_Disease_2022-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_PhysicalActivities' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-21T17:04:03.068+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE indicators_of_heart_disease_2022_pipe
+ADD COLUMN PhysicalActivities_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE indicators_of_heart_disease_2022_pipe
+SET PhysicalActivities_id = dimension_table_PhysicalActivities.id
+FROM dimension_table_PhysicalActivities
+WHERE COALESCE(indicators_of_heart_disease_2022_pipe.PhysicalActivities::text, '') = COALESCE(dimension_table_PhysicalActivities.PhysicalActivities::text, '');
+[2023-12-21T17:04:03.074+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T17:04:03.080+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T17:04:03.084+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE indicators_of_heart_disease_2022_pipe
+ADD COLUMN PhysicalActivities_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE indicators_of_heart_disease_2022_pipe
+SET PhysicalActivities_id = dimension_table_PhysicalActivities.id
+FROM dimension_table_PhysicalActivities
+WHERE COALESCE(indicators_of_heart_disease_2022_pipe.PhysicalActivities::text, '') = COALESCE(dimension_table_PhysicalActivities.PhysicalActivities::text, '');, parameters: None
+[2023-12-21T17:05:20.528+0000] {sql.py:427} INFO - Rows affected: 361325
+[2023-12-21T17:05:20.566+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Indicators_of_Heart_Disease_2022-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_PhysicalActivities, execution_date=20231201T000000, start_date=20231221T170402, end_date=20231221T170520
+[2023-12-21T17:05:20.628+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-21T17:05:20.672+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,310 @@
+[2023-12-21T19:26:05.451+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-21T19:26:05.452+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-21T19:26:05.452+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-21T19:26:05.452+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T19:26:05.461+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-21T19:26:05.561+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                172  0.03s             0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0
+/opt/airflow/dags/med_insurance_prem_pred.py                169  0.04s             0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0
+================================================================================
+[2023-12-21T19:26:35.915+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                202  0.02s             0           0  0.04s           2023-12-21T19:26:05
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:26:05
+/opt/airflow/dags/create_star_schema_part_2.py              205  0.01s             0           0  0.03s           2023-12-21T19:26:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T19:26:05
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  1.10s           2023-12-21T19:26:06
+================================================================================
+[2023-12-21T19:27:06.333+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                235  0.02s             0           0  0.06s           2023-12-21T19:26:35
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:26:35
+/opt/airflow/dags/create_star_schema_part_2.py              238  0.01s             0           0  0.05s           2023-12-21T19:26:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:26:36
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.33s           2023-12-21T19:26:37
+================================================================================
+[2023-12-21T19:27:36.764+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                268  0.02s             0           0  0.06s           2023-12-21T19:27:06
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:27:06
+/opt/airflow/dags/create_star_schema_part_2.py              271  0.00s             0           0  0.05s           2023-12-21T19:27:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:27:06
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.33s           2023-12-21T19:27:07
+================================================================================
+[2023-12-21T19:28:07.187+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                301  0.02s             0           0  0.05s           2023-12-21T19:27:36
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:27:36
+/opt/airflow/dags/create_star_schema_part_2.py              304  0.00s             0           0  0.05s           2023-12-21T19:27:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:27:36
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.32s           2023-12-21T19:27:38
+================================================================================
+[2023-12-21T19:28:37.622+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                334  0.02s             0           0  0.06s           2023-12-21T19:28:07
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:28:07
+/opt/airflow/dags/create_star_schema_part_2.py              337  0.00s             0           0  0.05s           2023-12-21T19:28:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:28:07
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.32s           2023-12-21T19:28:08
+================================================================================
+[2023-12-21T19:29:08.048+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                367  0.02s             0           0  0.05s           2023-12-21T19:28:37
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:28:37
+/opt/airflow/dags/create_star_schema_part_2.py              370  0.00s             0           0  0.05s           2023-12-21T19:28:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:28:37
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.33s           2023-12-21T19:28:39
+================================================================================
+[2023-12-21T19:29:38.434+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                400  0.02s             0           0  0.06s           2023-12-21T19:29:08
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:29:08
+/opt/airflow/dags/create_star_schema_part_2.py              403  0.01s             0           0  0.05s           2023-12-21T19:29:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:29:08
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.32s           2023-12-21T19:29:09
+================================================================================
+[2023-12-21T19:30:08.828+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                433  0.02s             0           0  0.06s           2023-12-21T19:29:38
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:29:38
+/opt/airflow/dags/create_star_schema_part_2.py              436  0.00s             0           0  0.05s           2023-12-21T19:29:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:29:38
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.32s           2023-12-21T19:29:39
+================================================================================
+[2023-12-21T19:30:39.260+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                466  0.01s             0           0  0.06s           2023-12-21T19:30:08
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:30:08
+/opt/airflow/dags/create_star_schema_part_2.py              469  0.00s             0           0  0.05s           2023-12-21T19:30:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:30:08
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.32s           2023-12-21T19:30:10
+================================================================================
+[2023-12-21T19:31:05.618+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T19:31:05.641+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-21T19:31:09.714+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                499  0.01s             0           0  0.03s           2023-12-21T19:30:39
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:30:39
+/opt/airflow/dags/create_star_schema_part_2.py              502  0.00s             0           0  0.03s           2023-12-21T19:30:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T19:30:39
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.33s           2023-12-21T19:30:40
+================================================================================
+[2023-12-21T19:31:40.204+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                532  0.02s             0           0  0.04s           2023-12-21T19:31:09
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:31:09
+/opt/airflow/dags/create_star_schema_part_2.py              535  0.01s             0           0  0.04s           2023-12-21T19:31:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:31:09
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.28s           2023-12-21T19:31:11
+================================================================================
+[2023-12-21T19:32:10.654+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                565  0.02s             0           0  0.06s           2023-12-21T19:31:40
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:31:40
+/opt/airflow/dags/create_star_schema_part_2.py              568  0.00s             0           0  0.05s           2023-12-21T19:31:40
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:31:40
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.32s           2023-12-21T19:31:41
+================================================================================
+[2023-12-21T19:32:41.024+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                598  0.02s             0           0  0.06s           2023-12-21T19:32:10
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:32:10
+/opt/airflow/dags/create_star_schema_part_2.py              601  0.01s             0           0  0.05s           2023-12-21T19:32:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:32:10
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.33s           2023-12-21T19:32:12
+================================================================================
+[2023-12-21T19:33:11.456+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                631  0.02s             0           0  0.05s           2023-12-21T19:32:41
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:32:41
+/opt/airflow/dags/create_star_schema_part_2.py              634  0.01s             0           0  0.05s           2023-12-21T19:32:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:32:41
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.32s           2023-12-21T19:32:42
+================================================================================
+[2023-12-21T19:33:41.844+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                676  0.02s             0           0  0.06s           2023-12-21T19:33:11
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:33:11
+/opt/airflow/dags/create_star_schema_part_2.py              679  0.00s             0           0  0.05s           2023-12-21T19:33:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:33:11
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.33s           2023-12-21T19:33:12
+================================================================================
+[2023-12-21T19:34:12.195+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                709  0.02s             0           0  0.06s           2023-12-21T19:33:41
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-21T19:33:41
+/opt/airflow/dags/create_star_schema_part_2.py              712  0.01s             0           0  0.05s           2023-12-21T19:33:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:33:41
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.35s           2023-12-21T19:33:43
+================================================================================
+[2023-12-21T19:34:42.623+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                757  0.02s             0           0  0.06s           2023-12-21T19:34:12
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:34:12
+/opt/airflow/dags/create_star_schema_part_2.py              760  0.01s             0           0  0.05s           2023-12-21T19:34:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T19:34:12
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.42s           2023-12-21T19:34:13
+================================================================================
+[2023-12-21T19:35:13.080+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                790  0.02s             0           0  0.07s           2023-12-21T19:34:42
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:34:42
+/opt/airflow/dags/create_star_schema_part_2.py              793  0.00s             0           0  0.06s           2023-12-21T19:34:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T19:34:42
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.33s           2023-12-21T19:34:44
+================================================================================
+[2023-12-21T19:35:43.480+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                835  0.02s             0           0  0.05s           2023-12-21T19:35:13
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:35:13
+/opt/airflow/dags/create_star_schema_part_2.py              838  0.00s             0           0  0.05s           2023-12-21T19:35:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:35:13
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.35s           2023-12-21T19:35:14
+================================================================================
+[2023-12-21T19:36:05.767+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T19:36:05.791+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-21T19:36:13.908+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                868  0.02s             0           0  0.05s           2023-12-21T19:35:43
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:35:43
+/opt/airflow/dags/create_star_schema_part_2.py              871  0.00s             0           0  0.05s           2023-12-21T19:35:43
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:35:43
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.33s           2023-12-21T19:35:44
+================================================================================
+[2023-12-21T19:36:44.295+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                913  0.02s             0           0  0.05s           2023-12-21T19:36:13
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:36:13
+/opt/airflow/dags/create_star_schema_part_2.py              916  0.00s             0           0  0.05s           2023-12-21T19:36:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:36:13
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.32s           2023-12-21T19:36:15
+================================================================================
+[2023-12-21T19:37:14.724+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                946  0.02s             0           0  0.05s           2023-12-21T19:36:44
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:36:44
+/opt/airflow/dags/create_star_schema_part_2.py              949  0.00s             0           0  0.04s           2023-12-21T19:36:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T19:36:44
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.34s           2023-12-21T19:36:45
+================================================================================
+[2023-12-21T19:37:45.148+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py                979  0.02s             0           0  0.06s           2023-12-21T19:37:14
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:37:14
+/opt/airflow/dags/create_star_schema_part_2.py              982  0.01s             0           0  0.05s           2023-12-21T19:37:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:37:14
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.33s           2023-12-21T19:37:16
+================================================================================
+[2023-12-21T19:38:15.791+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/remove_outliers_1_5_iqr.py               1018  0.01s             0           0  0.06s           2023-12-21T19:37:45
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T19:37:45
+/opt/airflow/dags/create_star_schema_part_2.py             1021  0.00s             0           0  0.05s           2023-12-21T19:37:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-21T19:37:45
+/opt/airflow/dags/med_insurance_prem_pred.py                                       5           0  0.33s           2023-12-21T19:38:09
+================================================================================
+[2023-12-21T19:38:32.371+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

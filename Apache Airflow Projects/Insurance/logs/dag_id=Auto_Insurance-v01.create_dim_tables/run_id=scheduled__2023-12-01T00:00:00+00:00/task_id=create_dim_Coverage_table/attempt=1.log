@@ -1,0 +1,47 @@
+[2023-12-19T19:33:34.172+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Auto_Insurance-v01.create_dim_tables.create_dim_Coverage_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T19:33:34.201+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Auto_Insurance-v01.create_dim_tables.create_dim_Coverage_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T19:33:34.205+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T19:33:34.241+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_dim_Coverage_table> on 2023-12-01 00:00:00+00:00
+[2023-12-19T19:33:34.256+0000] {standard_task_runner.py:57} INFO - Started process 1623 to run task
+[2023-12-19T19:33:34.259+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Auto_Insurance-v01.create_dim_tables', 'create_dim_Coverage_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/Auto_Insurance.py', '--cfg-path', '/tmp/tmpqcm3wff9']
+[2023-12-19T19:33:34.281+0000] {standard_task_runner.py:85} INFO - Job 30: Subtask create_dim_Coverage_table
+[2023-12-19T19:33:34.504+0000] {task_command.py:416} INFO - Running <TaskInstance: Auto_Insurance-v01.create_dim_tables.create_dim_Coverage_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 757899fef296
+[2023-12-19T19:33:34.694+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Auto_Insurance-v01.create_dim_tables' AIRFLOW_CTX_TASK_ID='create_dim_Coverage_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T19:33:34.699+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_Coverage AS
+SELECT DISTINCT Coverage FROM auto_insurance_pipe;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_Coverage;
+CREATE TABLE dimension_table_Coverage (
+    id SERIAL PRIMARY KEY,
+    Coverage VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_Coverage (Coverage)
+SELECT * FROM unique_values_Coverage;
+[2023-12-19T19:33:34.729+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T19:33:34.744+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T19:33:34.759+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col, data_type
+
+-- Step 1: Extract Unique Values
+CREATE TEMPORARY TABLE unique_values_Coverage AS
+SELECT DISTINCT Coverage FROM auto_insurance_pipe;
+
+-- Step 2: Create Dimension Table
+DROP TABLE IF EXISTS dimension_table_Coverage;
+CREATE TABLE dimension_table_Coverage (
+    id SERIAL PRIMARY KEY,
+    Coverage VARCHAR
+);
+
+-- Step 3: Insert unique values into dimension table
+INSERT INTO dimension_table_Coverage (Coverage)
+SELECT * FROM unique_values_Coverage;, parameters: None
+[2023-12-19T19:33:34.775+0000] {sql.py:427} INFO - Rows affected: 3
+[2023-12-19T19:33:34.785+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Auto_Insurance-v01.create_dim_tables, task_id=create_dim_Coverage_table, execution_date=20231201T000000, start_date=20231219T193334, end_date=20231219T193334
+[2023-12-19T19:33:34.821+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T19:33:34.931+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

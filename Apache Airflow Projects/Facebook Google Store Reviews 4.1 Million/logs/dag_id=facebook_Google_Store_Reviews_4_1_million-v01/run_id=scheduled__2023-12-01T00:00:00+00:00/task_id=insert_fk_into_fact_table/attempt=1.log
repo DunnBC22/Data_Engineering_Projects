@@ -1,0 +1,16 @@
+[2023-12-20T03:26:55.894+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: facebook_Google_Store_Reviews_4_1_million-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T03:26:55.899+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: facebook_Google_Store_Reviews_4_1_million-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T03:26:55.899+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T03:26:55.905+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): insert_fk_into_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-20T03:26:55.908+0000] {standard_task_runner.py:57} INFO - Started process 1963 to run task
+[2023-12-20T03:26:55.910+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'facebook_Google_Store_Reviews_4_1_million-v01', 'insert_fk_into_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/Facebook_Google_Store_Reviews_4_1_M.py', '--cfg-path', '/tmp/tmp_l8i8byr']
+[2023-12-20T03:26:55.912+0000] {standard_task_runner.py:85} INFO - Job 22: Subtask insert_fk_into_fact_table
+[2023-12-20T03:26:55.942+0000] {task_command.py:416} INFO - Running <TaskInstance: facebook_Google_Store_Reviews_4_1_million-v01.insert_fk_into_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 73e2c4cb0331
+[2023-12-20T03:26:55.982+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='facebook_Google_Store_Reviews_4_1_million-v01' AIRFLOW_CTX_TASK_ID='insert_fk_into_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T03:26:55.985+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-20T03:26:56.002+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-20T03:34:56.549+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-20T03:34:56.566+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-20T03:34:56.582+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=facebook_Google_Store_Reviews_4_1_million-v01, task_id=insert_fk_into_fact_table, execution_date=20231201T000000, start_date=20231220T032655, end_date=20231220T033456
+[2023-12-20T03:34:56.642+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T03:34:56.666+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

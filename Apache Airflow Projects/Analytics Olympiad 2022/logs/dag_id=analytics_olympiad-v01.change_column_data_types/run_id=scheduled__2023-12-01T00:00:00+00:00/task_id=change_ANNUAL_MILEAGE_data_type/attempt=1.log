@@ -1,0 +1,26 @@
+[2023-12-19T04:18:58.686+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: analytics_olympiad-v01.change_column_data_types.change_ANNUAL_MILEAGE_data_type scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:18:58.698+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: analytics_olympiad-v01.change_column_data_types.change_ANNUAL_MILEAGE_data_type scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:18:58.698+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T04:18:58.706+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): change_ANNUAL_MILEAGE_data_type> on 2023-12-01 00:00:00+00:00
+[2023-12-19T04:18:58.710+0000] {standard_task_runner.py:57} INFO - Started process 1872 to run task
+[2023-12-19T04:18:58.713+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'analytics_olympiad-v01.change_column_data_types', 'change_ANNUAL_MILEAGE_data_type', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/Analytics Olympiad 2022.py', '--cfg-path', '/tmp/tmpv2g6lo3u']
+[2023-12-19T04:18:58.717+0000] {standard_task_runner.py:85} INFO - Job 21: Subtask change_ANNUAL_MILEAGE_data_type
+[2023-12-19T04:18:58.769+0000] {task_command.py:416} INFO - Running <TaskInstance: analytics_olympiad-v01.change_column_data_types.change_ANNUAL_MILEAGE_data_type scheduled__2023-12-01T00:00:00+00:00 [running]> on host 7b1718a25f0c
+[2023-12-19T04:18:58.827+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='analytics_olympiad-v01.change_column_data_types' AIRFLOW_CTX_TASK_ID='change_ANNUAL_MILEAGE_data_type' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T04:18:58.828+0000] {sql.py:274} INFO - Executing: -- params: table_name, col_name_to_update, new_data_type
+
+-- ALTER COLUMN in TABLE
+ALTER TABLE analytics_olympiad_pipeline
+ALTER COLUMN ANNUAL_MILEAGE 
+SET DATA TYPE INTEGER;
+[2023-12-19T04:18:58.838+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:18:58.846+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:18:58.853+0000] {sql.py:418} INFO - Running statement: -- params: table_name, col_name_to_update, new_data_type
+
+-- ALTER COLUMN in TABLE
+ALTER TABLE analytics_olympiad_pipeline
+ALTER COLUMN ANNUAL_MILEAGE 
+SET DATA TYPE INTEGER;, parameters: None
+[2023-12-19T04:18:59.411+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=analytics_olympiad-v01.change_column_data_types, task_id=change_ANNUAL_MILEAGE_data_type, execution_date=20231201T000000, start_date=20231219T041858, end_date=20231219T041859
+[2023-12-19T04:18:59.441+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T04:18:59.457+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

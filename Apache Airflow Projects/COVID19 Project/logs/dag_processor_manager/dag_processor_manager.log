@@ -1,0 +1,599 @@
+[2023-12-19T05:13:05.629+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-19T05:13:05.631+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-19T05:13:05.632+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-19T05:13:05.634+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T05:13:05.686+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-12-19T05:13:05.800+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        168  0.02s             0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0
+/opt/airflow/dags/covid19_project.py                        167  0.03s             0           0
+================================================================================
+[2023-12-19T05:13:36.325+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           1  0.07s           2023-12-19T05:13:06
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.06s           2023-12-19T05:13:05
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.07s           2023-12-19T05:13:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        206  0.00s             0           0  0.10s           2023-12-19T05:13:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.05s           2023-12-19T05:13:06
+/opt/airflow/dags/covid19_project.py                        203  0.02s             0           1  0.15s           2023-12-19T05:13:05
+================================================================================
+[2023-12-19T05:14:06.899+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           1  0.05s           2023-12-19T05:13:36
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.06s           2023-12-19T05:13:36
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.06s           2023-12-19T05:13:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        243  0.01s             0           0  0.06s           2023-12-19T05:13:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.05s           2023-12-19T05:13:36
+/opt/airflow/dags/covid19_project.py                        240  0.03s             0           1  0.09s           2023-12-19T05:13:36
+================================================================================
+[2023-12-19T05:14:37.579+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:14:36
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.13s           2023-12-19T05:14:07
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.07s           2023-12-19T05:14:07
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        290  0.00s             0           0  0.16s           2023-12-19T05:14:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.15s           2023-12-19T05:14:07
+/opt/airflow/dags/covid19_project.py                        287  0.01s             0           1  0.25s           2023-12-19T05:14:07
+================================================================================
+[2023-12-19T05:15:08.039+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-19T05:15:07
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:14:37
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:14:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        327  0.00s             0           0  0.03s           2023-12-19T05:14:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:14:37
+/opt/airflow/dags/covid19_project.py                        324  0.01s             5           0  0.39s           2023-12-19T05:14:37
+================================================================================
+[2023-12-19T05:15:38.509+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:15:37
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:15:08
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:15:08
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        366  0.00s             0           0  0.03s           2023-12-19T05:15:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:15:08
+/opt/airflow/dags/covid19_project.py                        363  0.02s             5           0  0.16s           2023-12-19T05:15:08
+================================================================================
+[2023-12-19T05:16:09.072+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:16:08
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:15:38
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:15:38
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        403  0.00s             0           0  0.05s           2023-12-19T05:15:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:15:38
+/opt/airflow/dags/covid19_project.py                        400  0.02s             5           0  0.16s           2023-12-19T05:15:38
+================================================================================
+[2023-12-19T05:16:39.596+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:16:38
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:16:09
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:16:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        440  0.01s             0           0  0.04s           2023-12-19T05:16:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:16:09
+/opt/airflow/dags/covid19_project.py                        437  0.02s             5           0  0.16s           2023-12-19T05:16:09
+================================================================================
+[2023-12-19T05:17:10.053+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:17:09
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:16:39
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:16:39
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        477  0.01s             0           0  0.05s           2023-12-19T05:16:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:16:39
+/opt/airflow/dags/covid19_project.py                        474  0.02s             5           0  0.18s           2023-12-19T05:16:39
+================================================================================
+[2023-12-19T05:17:40.514+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:17:39
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:17:10
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:17:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        521  0.01s             0           0  0.04s           2023-12-19T05:17:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:17:10
+/opt/airflow/dags/covid19_project.py                        518  0.02s             5           0  0.16s           2023-12-19T05:17:10
+================================================================================
+[2023-12-19T05:18:05.887+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T05:18:05.896+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-12-19T05:18:10.994+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-19T05:18:10
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:17:40
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:17:40
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        558  0.01s             0           0  0.04s           2023-12-19T05:17:40
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:17:40
+/opt/airflow/dags/covid19_project.py                        555  0.02s             5           0  0.17s           2023-12-19T05:17:40
+================================================================================
+[2023-12-19T05:18:41.447+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:18:40
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:18:11
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:18:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        595  0.00s             0           0  0.04s           2023-12-19T05:18:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:18:11
+/opt/airflow/dags/covid19_project.py                        592  0.02s             5           0  0.16s           2023-12-19T05:18:11
+================================================================================
+[2023-12-19T05:19:11.857+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-19T05:19:10
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:18:41
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:18:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        632  0.00s             0           0  0.04s           2023-12-19T05:18:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:18:41
+/opt/airflow/dags/covid19_project.py                        629  0.01s             5           0  0.21s           2023-12-19T05:18:41
+================================================================================
+[2023-12-19T05:19:42.308+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-19T05:19:41
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:19:11
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:19:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        671  0.00s             0           0  0.03s           2023-12-19T05:19:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:19:11
+/opt/airflow/dags/covid19_project.py                        668  0.01s             5           0  0.15s           2023-12-19T05:19:12
+================================================================================
+[2023-12-19T05:20:12.742+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:20:11
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:19:42
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:19:42
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        708  0.00s             0           0  0.03s           2023-12-19T05:19:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:19:42
+/opt/airflow/dags/covid19_project.py                        705  0.01s             5           0  0.13s           2023-12-19T05:19:42
+================================================================================
+[2023-12-19T05:20:43.216+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:20:42
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:20:12
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:20:12
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        745  0.01s             0           0  0.03s           2023-12-19T05:20:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:20:12
+/opt/airflow/dags/covid19_project.py                        742  0.02s             5           0  0.14s           2023-12-19T05:20:12
+================================================================================
+[2023-12-19T05:21:13.699+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:21:12
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:20:43
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:20:43
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        782  0.01s             0           0  0.04s           2023-12-19T05:20:43
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:20:43
+/opt/airflow/dags/covid19_project.py                        779  0.02s             5           0  0.17s           2023-12-19T05:20:43
+================================================================================
+[2023-12-19T05:21:44.163+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:21:43
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:21:13
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:21:13
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        821  0.01s             0           0  0.04s           2023-12-19T05:21:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:21:13
+/opt/airflow/dags/covid19_project.py                        818  0.02s             5           0  0.16s           2023-12-19T05:21:13
+================================================================================
+[2023-12-19T05:22:14.614+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:22:13
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:21:44
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T05:21:44
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        858  0.00s             0           0  0.04s           2023-12-19T05:21:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:21:44
+/opt/airflow/dags/covid19_project.py                        855  0.01s             5           0  0.17s           2023-12-19T05:21:44
+================================================================================
+[2023-12-19T05:22:45.088+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-19T05:22:44
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:22:14
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:22:14
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        895  0.01s             0           0  0.04s           2023-12-19T05:22:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:22:14
+/opt/airflow/dags/covid19_project.py                        892  0.02s             5           0  0.16s           2023-12-19T05:22:14
+================================================================================
+[2023-12-19T05:23:06.443+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T05:23:06.472+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-12-19T05:23:15.626+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:23:14
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:22:45
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:22:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        932  0.01s             0           0  0.04s           2023-12-19T05:22:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:22:45
+/opt/airflow/dags/covid19_project.py                        929  0.02s             5           0  0.17s           2023-12-19T05:22:45
+================================================================================
+[2023-12-19T05:23:46.214+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-19T05:23:43
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:23:15
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:23:15
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        976  0.01s             0           0  0.05s           2023-12-19T05:23:15
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:23:15
+/opt/airflow/dags/covid19_project.py                        973  0.02s             5           0  0.17s           2023-12-19T05:23:15
+================================================================================
+[2023-12-19T05:24:16.672+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-19T05:24:13
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:23:46
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:23:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1013  0.00s             0           0  0.05s           2023-12-19T05:23:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:23:46
+/opt/airflow/dags/covid19_project.py                       1010  0.02s             5           0  0.21s           2023-12-19T05:23:46
+================================================================================
+[2023-12-19T05:24:47.118+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.03s           2023-12-19T05:24:44
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:24:16
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T05:24:16
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1050  0.01s             0           0  0.04s           2023-12-19T05:24:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:24:16
+/opt/airflow/dags/covid19_project.py                       1047  0.02s             5           0  0.17s           2023-12-19T05:24:16
+================================================================================
+[2023-12-19T05:25:17.572+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:25:14
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:24:47
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:24:47
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1087  0.01s             0           0  0.04s           2023-12-19T05:24:47
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:24:47
+/opt/airflow/dags/covid19_project.py                       1084  0.02s             5           0  0.17s           2023-12-19T05:24:47
+================================================================================
+[2023-12-19T05:25:48.001+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:25:44
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:25:17
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:25:17
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1126  0.01s             0           0  0.04s           2023-12-19T05:25:17
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:25:17
+/opt/airflow/dags/covid19_project.py                       1123  0.02s             5           0  0.16s           2023-12-19T05:25:17
+================================================================================
+[2023-12-19T05:26:18.476+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:26:15
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-19T05:25:48
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:25:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1163  0.01s             0           0  0.05s           2023-12-19T05:25:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:25:48
+/opt/airflow/dags/covid19_project.py                       1160  0.01s             5           0  0.18s           2023-12-19T05:25:48
+================================================================================
+[2023-12-19T05:26:48.960+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:26:45
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:26:18
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:26:18
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1220  0.00s             0           0  0.04s           2023-12-19T05:26:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:26:18
+/opt/airflow/dags/covid19_project.py                       1217  0.02s             5           0  0.16s           2023-12-19T05:26:18
+================================================================================
+[2023-12-19T05:27:19.475+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-19T05:27:16
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:26:49
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:26:49
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1257  0.00s             0           0  0.04s           2023-12-19T05:26:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:26:49
+/opt/airflow/dags/covid19_project.py                       1254  0.02s             5           0  0.17s           2023-12-19T05:26:49
+================================================================================
+[2023-12-19T05:27:49.950+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:27:46
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:27:19
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T05:27:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1314  0.00s             0           0  0.04s           2023-12-19T05:27:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:27:19
+/opt/airflow/dags/covid19_project.py                       1311  0.01s             5           0  0.19s           2023-12-19T05:27:19
+================================================================================
+[2023-12-19T05:28:07.238+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T05:28:07.261+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-12-19T05:28:20.418+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:28:17
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:27:50
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:27:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1351  0.01s             0           0  0.05s           2023-12-19T05:27:49
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:27:50
+/opt/airflow/dags/covid19_project.py                       1348  0.02s             5           0  0.16s           2023-12-19T05:27:50
+================================================================================
+[2023-12-19T05:28:50.870+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:28:47
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:28:20
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:28:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1390  0.00s             0           0  0.04s           2023-12-19T05:28:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:28:20
+/opt/airflow/dags/covid19_project.py                       1387  0.01s             5           0  0.16s           2023-12-19T05:28:20
+================================================================================
+[2023-12-19T05:29:21.319+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:29:18
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:28:50
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:28:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1427  0.00s             0           0  0.04s           2023-12-19T05:28:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:28:51
+/opt/airflow/dags/covid19_project.py                       1424  0.02s             5           0  0.17s           2023-12-19T05:28:51
+================================================================================
+[2023-12-19T05:29:51.781+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:29:48
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:29:21
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:29:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1464  0.01s             0           0  0.04s           2023-12-19T05:29:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:29:21
+/opt/airflow/dags/covid19_project.py                       1461  0.02s             5           0  0.16s           2023-12-19T05:29:21
+================================================================================
+[2023-12-19T05:30:22.289+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:30:19
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:29:51
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:29:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1501  0.01s             0           0  0.04s           2023-12-19T05:29:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:29:51
+/opt/airflow/dags/covid19_project.py                       1498  0.02s             5           0  0.17s           2023-12-19T05:29:51
+================================================================================
+[2023-12-19T05:30:52.790+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-19T05:30:49
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:30:22
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:30:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1538  0.00s             0           0  0.04s           2023-12-19T05:30:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:30:22
+/opt/airflow/dags/covid19_project.py                       1535  0.02s             5           0  0.16s           2023-12-19T05:30:22
+================================================================================
+[2023-12-19T05:31:23.253+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:31:20
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:30:52
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:30:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1575  0.00s             0           0  0.05s           2023-12-19T05:30:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:30:52
+/opt/airflow/dags/covid19_project.py                       1572  0.01s             5           0  0.17s           2023-12-19T05:30:52
+================================================================================
+[2023-12-19T05:31:53.755+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-19T05:31:50
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:31:23
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:31:23
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1612  0.00s             0           0  0.04s           2023-12-19T05:31:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:31:23
+/opt/airflow/dags/covid19_project.py                       1609  0.02s             5           0  0.16s           2023-12-19T05:31:23
+================================================================================
+[2023-12-19T05:32:24.261+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.07s           2023-12-19T05:32:21
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:31:53
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:31:53
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1649  0.01s             0           0  0.04s           2023-12-19T05:31:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:31:53
+/opt/airflow/dags/covid19_project.py                       1646  0.02s             5           0  0.18s           2023-12-19T05:31:53
+================================================================================
+[2023-12-19T05:32:54.777+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-19T05:32:51
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:32:24
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:32:24
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1693  0.00s             0           0  0.05s           2023-12-19T05:32:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:32:24
+/opt/airflow/dags/covid19_project.py                       1690  0.02s             5           0  0.18s           2023-12-19T05:32:24
+================================================================================
+[2023-12-19T05:33:08.066+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T05:33:08.093+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-12-19T05:33:25.313+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.06s           2023-12-19T05:33:22
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:32:54
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:32:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1750  0.01s             0           0  0.05s           2023-12-19T05:32:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:32:54
+/opt/airflow/dags/covid19_project.py                       1747  0.02s             5           0  0.17s           2023-12-19T05:32:54
+================================================================================
+[2023-12-19T05:33:55.757+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:33:52
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:33:25
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:33:25
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1787  0.00s             0           0  0.03s           2023-12-19T05:33:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:33:25
+/opt/airflow/dags/covid19_project.py                       1784  0.01s             5           0  0.16s           2023-12-19T05:33:25
+================================================================================
+[2023-12-19T05:34:26.202+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:34:23
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:33:55
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:33:55
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1824  0.01s             0           0  0.04s           2023-12-19T05:33:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:33:55
+/opt/airflow/dags/covid19_project.py                       1821  0.02s             5           0  0.16s           2023-12-19T05:33:55
+================================================================================
+[2023-12-19T05:34:56.680+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.04s           2023-12-19T05:34:53
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:34:26
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:34:26
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1861  0.01s             0           0  0.04s           2023-12-19T05:34:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:34:26
+/opt/airflow/dags/covid19_project.py                       1858  0.02s             5           0  0.16s           2023-12-19T05:34:26
+================================================================================
+[2023-12-19T05:35:27.135+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_generate_month_dom_year.py                               0           0  0.05s           2023-12-19T05:35:24
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T05:34:56
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T05:34:56
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py       1898  0.01s             0           0  0.04s           2023-12-19T05:34:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T05:34:56
+/opt/airflow/dags/covid19_project.py                       1895  0.02s             5           0  0.16s           2023-12-19T05:34:56
+================================================================================
+[2023-12-19T05:35:33.647+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

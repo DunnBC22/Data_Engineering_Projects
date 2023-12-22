@@ -1,0 +1,32 @@
+[2023-12-20T02:45:59.916+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:45:59.922+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:45:59.922+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T02:45:59.930+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): impute_missing_values> on 2023-12-01 00:00:00+00:00
+[2023-12-20T02:45:59.933+0000] {standard_task_runner.py:57} INFO - Started process 687 to run task
+[2023-12-20T02:45:59.935+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01', 'impute_missing_values', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpzzi7avfj']
+[2023-12-20T02:45:59.936+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask impute_missing_values
+[2023-12-20T02:45:59.969+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values scheduled__2023-12-01T00:00:00+00:00 [running]> on host 069170cec93a
+[2023-12-20T02:46:00.010+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01' AIRFLOW_CTX_TASK_ID='impute_missing_values' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T02:46:00.014+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-20T02:46:00.030+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-20T02:46:50.380+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2023-12-20T02:46:50.383+0000] {process_utils.py:131} INFO - Sending 15 to group 687. PIDs of all processes in the group: [687]
+[2023-12-20T02:46:50.383+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 687
+[2023-12-20T02:46:50.384+0000] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-12-20T02:46:50.411+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=687, status='terminated', exitcode=0, started='02:45:59') (687) terminated with exit code 0
+[2023-12-20T17:53:46.465+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T17:53:46.470+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T17:53:46.470+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T17:53:46.476+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): impute_missing_values> on 2023-12-01 00:00:00+00:00
+[2023-12-20T17:53:46.478+0000] {standard_task_runner.py:57} INFO - Started process 446 to run task
+[2023-12-20T17:53:46.480+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01', 'impute_missing_values', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmp0u3am8a6']
+[2023-12-20T17:53:46.482+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask impute_missing_values
+[2023-12-20T17:53:46.513+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values scheduled__2023-12-01T00:00:00+00:00 [running]> on host 064e84e7d61d
+[2023-12-20T17:53:46.551+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01' AIRFLOW_CTX_TASK_ID='impute_missing_values' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T17:53:46.554+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-20T17:53:46.569+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-20T18:02:46.983+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-20T18:02:46.995+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-20T18:02:47.010+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Gourmet_Food_Procurement_Data-v01, task_id=impute_missing_values, execution_date=20231201T000000, start_date=20231220T175346, end_date=20231220T180247
+[2023-12-20T18:02:47.030+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T18:02:47.061+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

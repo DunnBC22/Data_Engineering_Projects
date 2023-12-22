@@ -1,0 +1,152 @@
+[2023-12-20T02:46:01.373+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values.impute_Total_Cost_with_median scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:46:01.377+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values.impute_Total_Cost_with_median scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:46:01.378+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T02:46:01.384+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): impute_Total_Cost_with_median> on 2023-12-01 00:00:00+00:00
+[2023-12-20T02:46:01.387+0000] {standard_task_runner.py:57} INFO - Started process 690 to run task
+[2023-12-20T02:46:01.390+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01.impute_missing_values', 'impute_Total_Cost_with_median', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmp9tk5o299']
+[2023-12-20T02:46:01.392+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask impute_Total_Cost_with_median
+[2023-12-20T02:46:01.429+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values.impute_Total_Cost_with_median scheduled__2023-12-01T00:00:00+00:00 [running]> on host 069170cec93a
+[2023-12-20T02:46:01.472+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01.impute_missing_values' AIRFLOW_CTX_TASK_ID='impute_Total_Cost_with_median' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T02:46:01.473+0000] {sql.py:274} INFO - Executing: -- params: schema_name, table_name, column_name
+
+UPDATE gourmet_food_procurement_data_pipeline
+SET Total_Cost = subquery.median_value
+FROM (
+    SELECT 
+        Total_Cost, 
+        percentile_cont(0.5) WITHIN GROUP (ORDER BY Total_Cost) OVER () AS median_value
+    FROM gourmet_food_procurement_data_pipeline
+) AS subquery
+WHERE Total_Cost IS NULL;
+[2023-12-20T02:46:01.479+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T02:46:01.485+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T02:46:01.493+0000] {sql.py:418} INFO - Running statement: -- params: schema_name, table_name, column_name
+
+UPDATE gourmet_food_procurement_data_pipeline
+SET Total_Cost = subquery.median_value
+FROM (
+    SELECT 
+        Total_Cost, 
+        percentile_cont(0.5) WITHIN GROUP (ORDER BY Total_Cost) OVER () AS median_value
+    FROM gourmet_food_procurement_data_pipeline
+) AS subquery
+WHERE Total_Cost IS NULL;, parameters: None
+[2023-12-20T02:46:01.498+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.FeatureNotSupported: OVER is not supported for ordered-set aggregate percentile_cont
+LINE 8:         percentile_cont(0.5) WITHIN GROUP (ORDER BY Total_Co...
+                ^
+
+[2023-12-20T02:46:01.504+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Gourmet_Food_Procurement_Data-v01.impute_missing_values, task_id=impute_Total_Cost_with_median, execution_date=20231201T000000, start_date=20231220T024601, end_date=20231220T024601
+[2023-12-20T02:46:01.509+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 8 for task impute_Total_Cost_with_median (OVER is not supported for ordered-set aggregate percentile_cont
+LINE 8:         percentile_cont(0.5) WITHIN GROUP (ORDER BY Total_Co...
+                ^
+; 690)
+[2023-12-20T02:46:01.524+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-20T02:46:01.541+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-20T17:53:47.589+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values.impute_Total_Cost_with_median scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T17:53:47.595+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values.impute_Total_Cost_with_median scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T17:53:47.595+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T17:53:47.607+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): impute_Total_Cost_with_median> on 2023-12-01 00:00:00+00:00
+[2023-12-20T17:53:47.612+0000] {standard_task_runner.py:57} INFO - Started process 489 to run task
+[2023-12-20T17:53:47.615+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01.impute_missing_values', 'impute_Total_Cost_with_median', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpph8clcqm']
+[2023-12-20T17:53:47.618+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask impute_Total_Cost_with_median
+[2023-12-20T17:53:47.652+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.impute_missing_values.impute_Total_Cost_with_median scheduled__2023-12-01T00:00:00+00:00 [running]> on host 064e84e7d61d
+[2023-12-20T17:53:47.693+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01.impute_missing_values' AIRFLOW_CTX_TASK_ID='impute_Total_Cost_with_median' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T17:53:47.694+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+
+UPDATE gourmet_food_procurement_data_pipeline
+SET Total_Cost = subquery.median_value
+FROM (
+    SELECT 
+        Total_Cost,
+        CASE 
+            WHEN COUNT(*) % 2 = 1 THEN percentile_cont(0.5) WITHIN GROUP (ORDER BY Total_Cost::numeric) 
+            ELSE AVG(CASE WHEN Total_Cost ~ E'^\\d+(\\.\\d+)?$' THEN Total_Cost::numeric END) 
+            --ELSE AVG(Total_Cost::numeric) 
+        END AS median_value
+    FROM gourmet_food_procurement_data_pipeline
+    WHERE gourmet_food_procurement_data_pipeline.Total_Cost IS NOT NULL
+        AND Total_Cost ~ E'^\\d+(\\.\\d+)?$' -- Exclude non-numeric values
+    GROUP BY gourmet_food_procurement_data_pipeline.Total_Cost
+) AS subquery
+WHERE gourmet_food_procurement_data_pipeline.Total_Cost IS NULL;
+
+
+--SET Total_Cost = subquery.median_value
+--FROM (
+  --  SELECT 
+    --    Total_Cost,
+      --  CASE 
+        --    WHEN COUNT(*) % 2 = 1 THEN percentile_cont(0.5) WITHIN GROUP (ORDER BY Total_Cost::numeric) 
+            --ELSE AVG(CASE WHEN Total_Cost ~ E'^\\d+(\\.\\d+)?$' THEN Total_Cost::numeric END) 
+        --END AS median_value
+    --FROM gourmet_food_procurement_data_pipeline
+    --WHERE gourmet_food_procurement_data_pipeline.Total_Cost IS NOT NULL
+      --AND Total_Cost ~ E'^\\d+(\\.\\d+)?$' -- Exclude non-numeric values
+    --GROUP BY gourmet_food_procurement_data_pipeline.Total_Cost
+--) AS subquery
+--WHERE gourmet_food_procurement_data_pipeline.Total_Cost IS NULL;
+[2023-12-20T17:53:47.699+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T17:53:47.705+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T17:53:47.710+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+
+UPDATE gourmet_food_procurement_data_pipeline
+SET Total_Cost = subquery.median_value
+FROM (
+    SELECT 
+        Total_Cost,
+        CASE 
+            WHEN COUNT(*) % 2 = 1 THEN percentile_cont(0.5) WITHIN GROUP (ORDER BY Total_Cost::numeric) 
+            ELSE AVG(CASE WHEN Total_Cost ~ E'^\\d+(\\.\\d+)?$' THEN Total_Cost::numeric END) 
+            --ELSE AVG(Total_Cost::numeric) 
+        END AS median_value
+    FROM gourmet_food_procurement_data_pipeline
+    WHERE gourmet_food_procurement_data_pipeline.Total_Cost IS NOT NULL
+        AND Total_Cost ~ E'^\\d+(\\.\\d+)?$' -- Exclude non-numeric values
+    GROUP BY gourmet_food_procurement_data_pipeline.Total_Cost
+) AS subquery
+WHERE gourmet_food_procurement_data_pipeline.Total_Cost IS NULL;
+
+
+--SET Total_Cost = subquery.median_value
+--FROM (
+  --  SELECT 
+    --    Total_Cost,
+      --  CASE 
+        --    WHEN COUNT(*) % 2 = 1 THEN percentile_cont(0.5) WITHIN GROUP (ORDER BY Total_Cost::numeric) 
+            --ELSE AVG(CASE WHEN Total_Cost ~ E'^\\d+(\\.\\d+)?$' THEN Total_Cost::numeric END) 
+        --END AS median_value
+    --FROM gourmet_food_procurement_data_pipeline
+    --WHERE gourmet_food_procurement_data_pipeline.Total_Cost IS NOT NULL
+      --AND Total_Cost ~ E'^\\d+(\\.\\d+)?$' -- Exclude non-numeric values
+    --GROUP BY gourmet_food_procurement_data_pipeline.Total_Cost
+--) AS subquery
+--WHERE gourmet_food_procurement_data_pipeline.Total_Cost IS NULL;, parameters: None
+[2023-12-20T17:53:47.714+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedFunction: operator does not exist: integer ~ unknown
+LINE 10:             ELSE AVG(CASE WHEN Total_Cost ~ E'^\\d+(\\.\\d+)...
+                                                   ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+
+[2023-12-20T17:53:47.720+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Gourmet_Food_Procurement_Data-v01.impute_missing_values, task_id=impute_Total_Cost_with_median, execution_date=20231201T000000, start_date=20231220T175347, end_date=20231220T175347
+[2023-12-20T17:53:47.724+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 8 for task impute_Total_Cost_with_median (operator does not exist: integer ~ unknown
+LINE 10:             ELSE AVG(CASE WHEN Total_Cost ~ E'^\\d+(\\.\\d+)...
+                                                   ^
+HINT:  No operator matches the given name and argument types. You might need to add explicit type casts.
+; 489)
+[2023-12-20T17:53:47.748+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-20T17:53:47.764+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

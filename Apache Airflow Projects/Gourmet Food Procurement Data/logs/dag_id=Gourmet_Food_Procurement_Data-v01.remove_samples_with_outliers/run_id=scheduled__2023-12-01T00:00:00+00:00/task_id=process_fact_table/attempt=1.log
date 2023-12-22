@@ -1,0 +1,55 @@
+[2023-12-20T02:46:46.213+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers.process_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:46:46.216+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers.process_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:46:46.217+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T02:46:46.223+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): process_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-20T02:46:46.226+0000] {standard_task_runner.py:57} INFO - Started process 779 to run task
+[2023-12-20T02:46:46.228+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers', 'process_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpof4s0kzj']
+[2023-12-20T02:46:46.231+0000] {standard_task_runner.py:85} INFO - Job 11: Subtask process_fact_table
+[2023-12-20T02:46:46.267+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers.process_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 069170cec93a
+[2023-12-20T02:46:46.310+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers' AIRFLOW_CTX_TASK_ID='process_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T02:46:46.317+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T02:46:46.394+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'Total_Weight_in_lbs'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/remove_outliers_1_5_iqr.py", line 198, in process_fact_table
+    outliers_df = detect_outliers(
+  File "/opt/airflow/dags/remove_outliers_1_5_iqr.py", line 120, in detect_outliers
+    q1 = df[column].quantile(0.25)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/frame.py", line 3761, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/home/airflow/.local/lib/python3.8/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'Total_Weight_in_lbs'
+[2023-12-20T02:46:46.405+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers, task_id=process_fact_table, execution_date=20231201T000000, start_date=20231220T024646, end_date=20231220T024646
+[2023-12-20T02:46:46.412+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 11 for task process_fact_table ('Total_Weight_in_lbs'; 779)
+[2023-12-20T02:46:46.444+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-20T02:46:46.461+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-20T18:02:49.993+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers.process_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:02:49.997+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers.process_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:02:49.998+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T18:02:50.004+0000] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): process_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-20T18:02:50.009+0000] {standard_task_runner.py:57} INFO - Started process 1424 to run task
+[2023-12-20T18:02:50.011+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers', 'process_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpn4wtv0ii']
+[2023-12-20T18:02:50.014+0000] {standard_task_runner.py:85} INFO - Job 15: Subtask process_fact_table
+[2023-12-20T18:02:50.048+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers.process_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 064e84e7d61d
+[2023-12-20T18:02:50.091+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers' AIRFLOW_CTX_TASK_ID='process_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T18:02:50.099+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T18:02:52.010+0000] {logging_mixin.py:154} INFO - Outliers processed and deleted.
+[2023-12-20T18:02:52.012+0000] {python.py:194} INFO - Done. Returned value was: None
+[2023-12-20T18:02:52.020+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Gourmet_Food_Procurement_Data-v01.remove_samples_with_outliers, task_id=process_fact_table, execution_date=20231201T000000, start_date=20231220T180249, end_date=20231220T180252
+[2023-12-20T18:02:52.071+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T18:02:52.089+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

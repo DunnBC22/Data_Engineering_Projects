@@ -1,0 +1,25 @@
+[2023-12-21T16:39:40.793+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Loan_Prediction-v01.create_dim_tables scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:39:40.798+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Loan_Prediction-v01.create_dim_tables scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:39:40.798+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-21T16:39:40.804+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): create_dim_tables> on 2023-12-01 00:00:00+00:00
+[2023-12-21T16:39:40.806+0000] {standard_task_runner.py:57} INFO - Started process 1905 to run task
+[2023-12-21T16:39:40.808+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Loan_Prediction-v01', 'create_dim_tables', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/Loan_Prediction.py', '--cfg-path', '/tmp/tmp8so6nxe5']
+[2023-12-21T16:39:40.810+0000] {standard_task_runner.py:85} INFO - Job 27: Subtask create_dim_tables
+[2023-12-21T16:39:40.840+0000] {task_command.py:416} INFO - Running <TaskInstance: Loan_Prediction-v01.create_dim_tables scheduled__2023-12-01T00:00:00+00:00 [running]> on host 56b600c92613
+[2023-12-21T16:39:40.880+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Loan_Prediction-v01' AIRFLOW_CTX_TASK_ID='create_dim_tables' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-21T16:39:40.883+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-21T16:39:40.888+0000] {subdag.py:174} INFO - Found existing DagRun: backfill__2023-12-01T00:00:00+00:00
+[2023-12-21T16:40:31.304+0000] {local_task_job_runner.py:294} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2023-12-21T16:40:31.306+0000] {process_utils.py:131} INFO - Sending 15 to group 1905. PIDs of all processes in the group: [1905]
+[2023-12-21T16:40:31.307+0000] {process_utils.py:86} INFO - Sending the signal 15 to group 1905
+[2023-12-21T16:40:31.307+0000] {taskinstance.py:1632} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-12-21T16:40:31.316+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/sensors/base.py", line 285, in execute
+    time.sleep(self._get_next_poke_interval(started_at, run_duration, try_number))
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1634, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2023-12-21T16:40:31.319+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Loan_Prediction-v01, task_id=create_dim_tables, execution_date=20231201T000000, start_date=20231221T163940, end_date=20231221T164031
+[2023-12-21T16:40:31.325+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 27 for task create_dim_tables (Task received SIGTERM signal; 1905)
+[2023-12-21T16:40:31.334+0000] {process_utils.py:79} INFO - Process psutil.Process(pid=1905, status='terminated', exitcode=1, started='16:39:40') (1905) terminated with exit code 1

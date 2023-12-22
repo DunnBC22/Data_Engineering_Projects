@@ -1,0 +1,58 @@
+[2023-12-19T04:39:24.150+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Automobile_Insurance-v01.generate_date_parts.generate-date-parts-of-incident_date scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:39:24.154+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Automobile_Insurance-v01.generate_date_parts.generate-date-parts-of-incident_date scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T04:39:24.155+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T04:39:24.161+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): generate-date-parts-of-incident_date> on 2023-12-01 00:00:00+00:00
+[2023-12-19T04:39:24.163+0000] {standard_task_runner.py:57} INFO - Started process 670 to run task
+[2023-12-19T04:39:24.166+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Automobile_Insurance-v01.generate_date_parts', 'generate-date-parts-of-incident_date', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '12', '--raw', '--subdir', 'DAGS_FOLDER/Automobile Insurance.py', '--cfg-path', '/tmp/tmpzusjda5t']
+[2023-12-19T04:39:24.168+0000] {standard_task_runner.py:85} INFO - Job 12: Subtask generate-date-parts-of-incident_date
+[2023-12-19T04:39:24.202+0000] {task_command.py:416} INFO - Running <TaskInstance: Automobile_Insurance-v01.generate_date_parts.generate-date-parts-of-incident_date scheduled__2023-12-01T00:00:00+00:00 [running]> on host 07f4bc2fb49b
+[2023-12-19T04:39:24.250+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Automobile_Insurance-v01.generate_date_parts' AIRFLOW_CTX_TASK_ID='generate-date-parts-of-incident_date' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T04:39:24.251+0000] {sql.py:274} INFO - Executing: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE automobile_insurance
+ADD COLUMN IF NOT EXISTS incident_date_month INTEGER, 
+ADD COLUMN IF NOT EXISTS incident_date_year INTEGER, 
+ADD COLUMN IF NOT EXISTS incident_date_day_of_month INTEGER;
+
+-- fill columns with their proper values
+UPDATE automobile_insurance
+SET 
+    incident_date_month = EXTRACT(MONTH FROM incident_date),
+    incident_date_year = EXTRACT(YEAR FROM incident_date)
+    incident_date_day_of_month = EXTRACT(DAY FROM incident_date);
+[2023-12-19T04:39:24.258+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:39:24.265+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T04:39:24.271+0000] {sql.py:418} INFO - Running statement: -- params: table_name, col_name, month_col_name, year_col_name, dom_col_name
+
+-- Add columns
+ALTER TABLE automobile_insurance
+ADD COLUMN IF NOT EXISTS incident_date_month INTEGER, 
+ADD COLUMN IF NOT EXISTS incident_date_year INTEGER, 
+ADD COLUMN IF NOT EXISTS incident_date_day_of_month INTEGER;
+
+-- fill columns with their proper values
+UPDATE automobile_insurance
+SET 
+    incident_date_month = EXTRACT(MONTH FROM incident_date),
+    incident_date_year = EXTRACT(YEAR FROM incident_date)
+    incident_date_day_of_month = EXTRACT(DAY FROM incident_date);, parameters: None
+[2023-12-19T04:39:24.273+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "incident_date_day_of_month"
+LINE 14:     incident_date_day_of_month = EXTRACT(DAY FROM incident_d...
+             ^
+
+[2023-12-19T04:39:24.280+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Automobile_Insurance-v01.generate_date_parts, task_id=generate-date-parts-of-incident_date, execution_date=20231201T000000, start_date=20231219T043924, end_date=20231219T043924
+[2023-12-19T04:39:24.287+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 12 for task generate-date-parts-of-incident_date (syntax error at or near "incident_date_day_of_month"
+LINE 14:     incident_date_day_of_month = EXTRACT(DAY FROM incident_d...
+             ^
+; 670)
+[2023-12-19T04:39:24.300+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-19T04:39:24.322+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

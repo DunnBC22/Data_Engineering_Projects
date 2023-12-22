@@ -1,0 +1,273 @@
+[2023-12-21T16:20:00.697+0000] {processor.py:157} INFO - Started process (PID=178) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:20:00.715+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:20:00.718+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:20:00.717+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:20:00.749+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:20:00.745+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/impute_with_median.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/impute_with_median.py", line 26, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-21T16:20:00.751+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:20:00.795+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.101 seconds
+[2023-12-21T16:20:30.930+0000] {processor.py:157} INFO - Started process (PID=217) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:20:30.933+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:20:30.942+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:20:30.940+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:20:30.986+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:20:30.971+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/impute_with_median.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/impute_with_median.py", line 26, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-21T16:20:30.989+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:20:31.026+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.107 seconds
+[2023-12-21T16:20:53.769+0000] {processor.py:157} INFO - Started process (PID=246) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:20:53.869+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:20:53.911+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:20:53.898+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:20:54.163+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:20:54.533+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.928 seconds
+[2023-12-21T16:21:25.061+0000] {processor.py:157} INFO - Started process (PID=283) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:21:25.062+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:21:25.063+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:21:25.063+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:21:25.068+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:21:25.080+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.022 seconds
+[2023-12-21T16:21:55.571+0000] {processor.py:157} INFO - Started process (PID=330) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:21:55.573+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:21:55.574+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:21:55.574+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:21:55.582+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:21:55.600+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.035 seconds
+[2023-12-21T16:22:26.040+0000] {processor.py:157} INFO - Started process (PID=367) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:22:26.041+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:22:26.041+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:22:26.041+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:22:26.045+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:22:26.060+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.023 seconds
+[2023-12-21T16:22:56.547+0000] {processor.py:157} INFO - Started process (PID=409) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:22:56.549+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:22:56.550+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:22:56.550+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:22:56.558+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:22:56.575+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.033 seconds
+[2023-12-21T16:23:27.031+0000] {processor.py:157} INFO - Started process (PID=446) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:23:27.032+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:23:27.034+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:23:27.033+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:23:27.041+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:23:27.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.032 seconds
+[2023-12-21T16:23:57.474+0000] {processor.py:157} INFO - Started process (PID=483) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:23:57.476+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:23:57.477+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:23:57.477+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:23:57.485+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:23:57.510+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.041 seconds
+[2023-12-21T16:24:27.964+0000] {processor.py:157} INFO - Started process (PID=530) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:24:27.966+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:24:27.967+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:24:27.967+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:24:27.975+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:24:27.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.037 seconds
+[2023-12-21T16:24:58.515+0000] {processor.py:157} INFO - Started process (PID=567) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:24:58.516+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:24:58.517+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:24:58.517+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:24:58.524+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:24:58.540+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.030 seconds
+[2023-12-21T16:25:29.085+0000] {processor.py:157} INFO - Started process (PID=614) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:25:29.087+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:25:29.088+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:25:29.088+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:25:29.096+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:25:29.114+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.033 seconds
+[2023-12-21T16:25:59.730+0000] {processor.py:157} INFO - Started process (PID=676) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:25:59.731+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:25:59.732+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:25:59.732+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:25:59.738+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:25:59.752+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.027 seconds
+[2023-12-21T16:26:30.266+0000] {processor.py:157} INFO - Started process (PID=718) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:26:30.268+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:26:30.269+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:26:30.269+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:26:30.276+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:26:30.294+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.032 seconds
+[2023-12-21T16:27:01.007+0000] {processor.py:157} INFO - Started process (PID=775) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:27:01.009+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:27:01.010+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:27:01.010+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:27:01.018+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:27:01.036+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.035 seconds
+[2023-12-21T16:27:31.748+0000] {processor.py:157} INFO - Started process (PID=827) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:27:31.750+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:27:31.751+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:27:31.751+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:27:31.759+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:27:31.778+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.035 seconds
+[2023-12-21T16:28:02.419+0000] {processor.py:157} INFO - Started process (PID=874) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:28:02.421+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:28:02.422+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:28:02.422+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:28:02.430+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:28:02.449+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.036 seconds
+[2023-12-21T16:28:33.003+0000] {processor.py:157} INFO - Started process (PID=921) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:28:33.004+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:28:33.004+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:28:33.004+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:28:33.007+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:28:33.020+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.019 seconds
+[2023-12-21T16:29:03.511+0000] {processor.py:157} INFO - Started process (PID=963) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:29:03.513+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:29:03.514+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:29:03.514+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:29:03.522+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:29:03.541+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.034 seconds
+[2023-12-21T16:29:34.041+0000] {processor.py:157} INFO - Started process (PID=1005) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:29:34.042+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:29:34.043+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:29:34.043+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:29:34.051+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:29:34.067+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.031 seconds
+[2023-12-21T16:30:04.578+0000] {processor.py:157} INFO - Started process (PID=1063) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:30:04.580+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:30:04.581+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:30:04.581+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:30:04.589+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:30:04.606+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.033 seconds
+[2023-12-21T16:30:35.035+0000] {processor.py:157} INFO - Started process (PID=1105) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:30:35.036+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:30:35.037+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:30:35.037+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:30:35.042+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:30:35.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.026 seconds
+[2023-12-21T16:31:05.527+0000] {processor.py:157} INFO - Started process (PID=1155) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:31:05.528+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:31:05.529+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:31:05.529+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:31:05.535+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:31:05.551+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.027 seconds
+[2023-12-21T16:31:36.049+0000] {processor.py:157} INFO - Started process (PID=1197) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:31:36.051+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:31:36.052+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:31:36.052+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:31:36.059+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:31:36.076+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.032 seconds
+[2023-12-21T16:32:06.646+0000] {processor.py:157} INFO - Started process (PID=1245) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:32:06.647+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:32:06.647+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:32:06.647+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:32:06.652+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:32:06.664+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.020 seconds
+[2023-12-21T16:32:37.081+0000] {processor.py:157} INFO - Started process (PID=1287) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:32:37.082+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:32:37.083+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:32:37.083+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:32:37.091+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:32:37.110+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.035 seconds
+[2023-12-21T16:33:07.523+0000] {processor.py:157} INFO - Started process (PID=1335) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:33:07.525+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:33:07.526+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:33:07.526+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:33:07.535+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:33:07.549+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.033 seconds
+[2023-12-21T16:33:37.908+0000] {processor.py:157} INFO - Started process (PID=1377) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:33:37.910+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:33:37.911+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:33:37.911+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:33:37.920+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:33:37.938+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.035 seconds
+[2023-12-21T16:34:08.361+0000] {processor.py:157} INFO - Started process (PID=1419) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:34:08.362+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:34:08.364+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:34:08.363+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:34:08.373+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:34:08.389+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.033 seconds
+[2023-12-21T16:34:38.771+0000] {processor.py:157} INFO - Started process (PID=1461) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:34:38.772+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:34:38.773+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:34:38.772+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:34:38.777+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:34:38.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.024 seconds
+[2023-12-21T16:35:09.248+0000] {processor.py:157} INFO - Started process (PID=1509) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:35:09.250+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:35:09.250+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:35:09.250+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:35:09.256+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:35:09.270+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.025 seconds
+[2023-12-21T16:35:39.709+0000] {processor.py:157} INFO - Started process (PID=1551) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:35:39.713+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:35:39.714+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:35:39.714+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:35:39.718+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:35:39.728+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.022 seconds
+[2023-12-21T16:36:10.184+0000] {processor.py:157} INFO - Started process (PID=1593) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:36:10.184+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:36:10.185+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:36:10.185+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:36:10.188+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:36:10.197+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.015 seconds
+[2023-12-21T16:36:40.732+0000] {processor.py:157} INFO - Started process (PID=1635) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:36:40.733+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:36:40.735+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:36:40.734+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:36:40.742+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:36:40.757+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.029 seconds
+[2023-12-21T16:37:11.234+0000] {processor.py:157} INFO - Started process (PID=1683) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:37:11.236+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:37:11.237+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:37:11.237+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:37:11.245+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:37:11.263+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.034 seconds
+[2023-12-21T16:37:41.780+0000] {processor.py:157} INFO - Started process (PID=1725) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:37:41.781+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:37:41.782+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:37:41.782+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:37:41.790+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:37:41.806+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.031 seconds
+[2023-12-21T16:38:12.215+0000] {processor.py:157} INFO - Started process (PID=1767) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:38:12.216+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:38:12.217+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:38:12.217+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:38:12.227+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:38:12.246+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.036 seconds
+[2023-12-21T16:38:42.780+0000] {processor.py:157} INFO - Started process (PID=1809) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:38:42.781+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:38:42.782+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:38:42.782+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:38:42.788+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:38:42.802+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.026 seconds
+[2023-12-21T16:39:13.254+0000] {processor.py:157} INFO - Started process (PID=1857) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:39:13.255+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:39:13.256+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:39:13.256+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:39:13.262+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:39:13.276+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.024 seconds
+[2023-12-21T16:39:43.742+0000] {processor.py:157} INFO - Started process (PID=1906) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:39:43.743+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:39:43.744+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:39:43.744+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:39:43.751+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:39:43.767+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.030 seconds
+[2023-12-21T16:40:14.103+0000] {processor.py:157} INFO - Started process (PID=1948) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:40:14.104+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:40:14.105+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:40:14.105+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:40:14.111+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:40:14.127+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.027 seconds
+[2023-12-21T16:40:44.577+0000] {processor.py:157} INFO - Started process (PID=1990) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:40:44.578+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:40:44.578+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:40:44.578+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:40:44.583+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:40:44.597+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.027 seconds
+[2023-12-21T16:41:15.116+0000] {processor.py:157} INFO - Started process (PID=2032) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:41:15.118+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:41:15.119+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:41:15.119+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:41:15.127+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:41:15.146+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.035 seconds
+[2023-12-21T16:41:45.619+0000] {processor.py:157} INFO - Started process (PID=2074) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:41:45.620+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:41:45.622+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:41:45.621+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:41:45.628+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:41:45.646+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.032 seconds
+[2023-12-21T16:42:16.144+0000] {processor.py:157} INFO - Started process (PID=2116) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:42:16.145+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:42:16.145+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:42:16.145+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:42:16.148+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:42:16.158+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.015 seconds
+[2023-12-21T16:42:46.633+0000] {processor.py:157} INFO - Started process (PID=2172) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:42:46.634+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:42:46.635+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:42:46.634+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:42:46.638+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:42:46.648+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.017 seconds
+[2023-12-21T16:43:17.172+0000] {processor.py:157} INFO - Started process (PID=2214) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:43:17.173+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:43:17.174+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:43:17.174+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:43:17.182+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:43:17.199+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.032 seconds
+[2023-12-21T16:43:47.656+0000] {processor.py:157} INFO - Started process (PID=2270) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:43:47.658+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:43:47.659+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:43:47.659+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:43:47.665+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:43:47.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.028 seconds
+[2023-12-21T16:44:18.102+0000] {processor.py:157} INFO - Started process (PID=2312) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:44:18.103+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:44:18.104+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:44:18.103+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:44:18.109+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:44:18.122+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.025 seconds
+[2023-12-21T16:44:48.477+0000] {processor.py:157} INFO - Started process (PID=2368) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:44:48.478+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:44:48.479+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:44:48.479+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:44:48.485+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:44:48.499+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.027 seconds
+[2023-12-21T16:45:18.973+0000] {processor.py:157} INFO - Started process (PID=2410) to work on /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:45:18.973+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/impute_with_median.py for tasks to queue
+[2023-12-21T16:45:18.974+0000] {logging_mixin.py:154} INFO - [2023-12-21T16:45:18.974+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:45:18.978+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/impute_with_median.py
+[2023-12-21T16:45:18.989+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/impute_with_median.py took 0.020 seconds

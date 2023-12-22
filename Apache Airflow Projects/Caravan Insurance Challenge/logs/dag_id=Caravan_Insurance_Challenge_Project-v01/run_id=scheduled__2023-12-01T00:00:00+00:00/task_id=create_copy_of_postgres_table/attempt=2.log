@@ -1,0 +1,54 @@
+[2023-12-20T01:54:54.072+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Caravan_Insurance_Challenge_Project-v01.create_copy_of_postgres_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T01:54:54.076+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Caravan_Insurance_Challenge_Project-v01.create_copy_of_postgres_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T01:54:54.076+0000] {taskinstance.py:1361} INFO - Starting attempt 2 of 6
+[2023-12-20T01:54:54.081+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_copy_of_postgres_table> on 2023-12-01 00:00:00+00:00
+[2023-12-20T01:54:54.084+0000] {standard_task_runner.py:57} INFO - Started process 392 to run task
+[2023-12-20T01:54:54.086+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Caravan_Insurance_Challenge_Project-v01', 'create_copy_of_postgres_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/Caravan Insurance Challenge.py', '--cfg-path', '/tmp/tmpcgjqb50c']
+[2023-12-20T01:54:54.088+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask create_copy_of_postgres_table
+[2023-12-20T01:54:54.115+0000] {task_command.py:416} INFO - Running <TaskInstance: Caravan_Insurance_Challenge_Project-v01.create_copy_of_postgres_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 32d3fe7a7987
+[2023-12-20T01:54:54.154+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Caravan_Insurance_Challenge_Project-v01' AIRFLOW_CTX_TASK_ID='create_copy_of_postgres_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T01:54:54.155+0000] {sql.py:274} INFO - Executing: -- params: new_table_name, orig_table_name
+
+-- Drop the copy of the table, if it already exists
+DROP TABLE IF EXISTS pipeline_caravan_insurance;
+
+-- Create copy of table
+CREATE TABLE pipeline_caravan_insurance AS
+SELECT * 
+FROM ;
+
+-- Grant additional permissions on the table
+GRANT SELECT, INSERT, UPDATE, DELETE ON pipeline_caravan_insurance TO ***;
+[2023-12-20T01:54:54.161+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T01:54:54.166+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T01:54:54.172+0000] {sql.py:418} INFO - Running statement: -- params: new_table_name, orig_table_name
+
+-- Drop the copy of the table, if it already exists
+DROP TABLE IF EXISTS pipeline_caravan_insurance;
+
+-- Create copy of table
+CREATE TABLE pipeline_caravan_insurance AS
+SELECT * 
+FROM ;
+
+-- Grant additional permissions on the table
+GRANT SELECT, INSERT, UPDATE, DELETE ON pipeline_caravan_insurance TO ***;, parameters: None
+[2023-12-20T01:54:54.173+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/operators/sql.py", line 280, in execute
+    output = hook.run(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 392, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/providers/common/sql/hooks/sql.py", line 423, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near ";"
+LINE 9: FROM ;
+             ^
+
+[2023-12-20T01:54:54.178+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Caravan_Insurance_Challenge_Project-v01, task_id=create_copy_of_postgres_table, execution_date=20231201T000000, start_date=20231220T015454, end_date=20231220T015454
+[2023-12-20T01:54:54.183+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 4 for task create_copy_of_postgres_table (syntax error at or near ";"
+LINE 9: FROM ;
+             ^
+; 392)
+[2023-12-20T01:54:54.221+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-20T01:54:54.234+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

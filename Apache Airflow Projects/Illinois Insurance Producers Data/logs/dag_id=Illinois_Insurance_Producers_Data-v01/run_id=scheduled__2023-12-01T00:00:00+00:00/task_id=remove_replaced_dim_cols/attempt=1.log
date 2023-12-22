@@ -1,0 +1,16 @@
+[2023-12-19T16:37:21.854+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Illinois_Insurance_Producers_Data-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T16:37:21.859+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Illinois_Insurance_Producers_Data-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T16:37:21.859+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T16:37:21.864+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): remove_replaced_dim_cols> on 2023-12-01 00:00:00+00:00
+[2023-12-19T16:37:21.867+0000] {standard_task_runner.py:57} INFO - Started process 1295 to run task
+[2023-12-19T16:37:21.869+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Illinois_Insurance_Producers_Data-v01', 'remove_replaced_dim_cols', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '33', '--raw', '--subdir', 'DAGS_FOLDER/il_insurance_producers.py', '--cfg-path', '/tmp/tmphpmm9rmv']
+[2023-12-19T16:37:21.870+0000] {standard_task_runner.py:85} INFO - Job 33: Subtask remove_replaced_dim_cols
+[2023-12-19T16:37:21.899+0000] {task_command.py:416} INFO - Running <TaskInstance: Illinois_Insurance_Producers_Data-v01.remove_replaced_dim_cols scheduled__2023-12-01T00:00:00+00:00 [running]> on host 4ef4480639fc
+[2023-12-19T16:37:21.949+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Illinois_Insurance_Producers_Data-v01' AIRFLOW_CTX_TASK_ID='remove_replaced_dim_cols' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T16:37:21.952+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-19T16:37:21.968+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-19T16:38:22.049+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-19T16:38:22.064+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-19T16:38:22.077+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Illinois_Insurance_Producers_Data-v01, task_id=remove_replaced_dim_cols, execution_date=20231201T000000, start_date=20231219T163721, end_date=20231219T163822
+[2023-12-19T16:38:22.113+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T16:38:22.124+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

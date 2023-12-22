@@ -1,0 +1,720 @@
+[2023-12-21T16:20:00.294+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-21T16:20:00.296+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-21T16:20:00.297+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-21T16:20:00.298+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T16:20:00.399+0000] {manager.py:758} INFO - There are 6 files in /opt/airflow/dags
+[2023-12-21T16:20:00.628+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/Loan_Prediction.py                        168  0.09s             0           0
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        171  0.07s             0           0
+/opt/airflow/dags/impute_with_median.py                                            0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0
+================================================================================
+[2023-12-21T16:20:30.909+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/Loan_Prediction.py                                               0           1  0.18s           2023-12-21T16:20:27
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.11s           2023-12-21T16:20:00
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.13s           2023-12-21T16:20:00
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        214  0.03s             0           0  0.11s           2023-12-21T16:20:00
+/opt/airflow/dags/impute_with_median.py                     217  0.01s             0           1  0.17s           2023-12-21T16:20:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.11s           2023-12-21T16:20:01
+================================================================================
+[2023-12-21T16:21:01.797+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/Loan_Prediction.py                                               0           1  0.20s           2023-12-21T16:20:58
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.11s           2023-12-21T16:20:31
+/opt/airflow/dags/create_star_schema_part_2.py              259  0.01s             0           0  0.11s           2023-12-21T16:20:31
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        256  0.02s             0           0  0.14s           2023-12-21T16:20:31
+/opt/airflow/dags/impute_with_median.py                                            0           0  1.07s           2023-12-21T16:20:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.12s           2023-12-21T16:20:31
+================================================================================
+[2023-12-21T16:21:32.152+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/Loan_Prediction.py                                               0           1  0.09s           2023-12-21T16:21:29
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-21T16:21:01
+/opt/airflow/dags/create_star_schema_part_2.py              296  0.00s             0           0  0.10s           2023-12-21T16:21:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        293  0.02s             0           0  0.10s           2023-12-21T16:21:01
+/opt/airflow/dags/impute_with_median.py                                            0           0  0.04s           2023-12-21T16:21:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T16:21:01
+================================================================================
+[2023-12-21T16:22:02.722+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/Loan_Prediction.py                                               0           1  0.05s           2023-12-21T16:21:57
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-21T16:21:32
+/opt/airflow/dags/create_star_schema_part_2.py              343  0.00s             0           0  0.04s           2023-12-21T16:21:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        340  0.02s             0           0  0.05s           2023-12-21T16:21:32
+/opt/airflow/dags/impute_with_median.py                                            0           0  0.06s           2023-12-21T16:21:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.04s           2023-12-21T16:21:32
+================================================================================
+[2023-12-21T16:22:33.176+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T16:22:02
+/opt/airflow/dags/create_star_schema_part_2.py              385  0.01s             0           0  0.04s           2023-12-21T16:22:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        382  0.02s             0           0  0.05s           2023-12-21T16:22:02
+/opt/airflow/dags/impute_with_median.py                                            0           0  0.04s           2023-12-21T16:22:26
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T16:22:02
+/opt/airflow/dags/Loan_Prediction.py                                               6           0  0.38s           2023-12-21T16:22:29
+================================================================================
+[2023-12-21T16:23:03.662+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T16:22:33
+/opt/airflow/dags/create_star_schema_part_2.py              422  0.00s             0           0  0.05s           2023-12-21T16:22:33
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        419  0.01s             0           0  0.05s           2023-12-21T16:22:33
+/opt/airflow/dags/impute_with_median.py                                            0           0  0.06s           2023-12-21T16:22:56
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T16:22:33
+/opt/airflow/dags/Loan_Prediction.py                                               6           0  0.14s           2023-12-21T16:22:59
+================================================================================
+[2023-12-21T16:23:34.138+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T16:23:03
+/opt/airflow/dags/create_star_schema_part_2.py              459  0.00s             0           0  0.04s           2023-12-21T16:23:03
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        456  0.01s             0           0  0.04s           2023-12-21T16:23:03
+/opt/airflow/dags/impute_with_median.py                                            0           0  0.06s           2023-12-21T16:23:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T16:23:03
+/opt/airflow/dags/Loan_Prediction.py                                               6           0  0.14s           2023-12-21T16:23:30
+================================================================================
+[2023-12-21T16:24:04.593+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T16:23:34
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-21T16:23:34
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        496  0.00s             0           0  0.03s           2023-12-21T16:23:34
+/opt/airflow/dags/impute_with_median.py                                            0           0  0.07s           2023-12-21T16:23:57
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T16:23:34
+/opt/airflow/dags/Loan_Prediction.py                        493  0.01s             6           0  0.13s           2023-12-21T16:24:00
+================================================================================
+[2023-12-21T16:24:35.115+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/Loan_Prediction.py                        535  0.02s             0           1  0.06s           2023-12-21T16:24:15
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-21T16:24:04
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-21T16:24:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        538  0.01s             0           0  0.03s           2023-12-21T16:24:04
+/opt/airflow/dags/impute_with_median.py                                            0           0  0.06s           2023-12-21T16:24:27
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-21T16:24:04
+================================================================================
+[2023-12-21T16:25:00.531+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T16:25:00.553+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T16:25:05.663+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/Loan_Prediction.py                              577  0.02s             0           1  0.07s           2023-12-21T16:24:35
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-21T16:25:00
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:24:35
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T16:24:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              580  0.00s             0           0  0.05s           2023-12-21T16:24:35
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:24:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:24:35
+================================================================================
+[2023-12-21T16:25:36.255+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/Loan_Prediction.py                                                     0           1  0.06s           2023-12-21T16:25:35
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:25:31
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:25:05
+/opt/airflow/dags/create_star_schema_part_2.py                    632  0.01s             0           0  0.03s           2023-12-21T16:25:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              629  0.02s             0           0  0.05s           2023-12-21T16:25:05
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:25:29
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:25:05
+================================================================================
+[2023-12-21T16:26:06.907+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/Loan_Prediction.py                                                     0           1  0.06s           2023-12-21T16:26:03
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:26:01
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.04s           2023-12-21T16:25:36
+/opt/airflow/dags/create_star_schema_part_2.py                    694  0.00s             0           0  0.05s           2023-12-21T16:25:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              691  0.01s             0           0  0.05s           2023-12-21T16:25:36
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:25:59
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:25:36
+================================================================================
+[2023-12-21T16:26:37.472+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/Loan_Prediction.py                                                     0           1  0.06s           2023-12-21T16:26:36
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:26:32
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:26:06
+/opt/airflow/dags/create_star_schema_part_2.py                    741  0.00s             0           0  0.03s           2023-12-21T16:26:06
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              738  0.02s             0           0  0.03s           2023-12-21T16:26:06
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-21T16:26:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:26:06
+================================================================================
+[2023-12-21T16:27:08.169+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:27:03
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:26:37
+/opt/airflow/dags/create_star_schema_part_2.py                    793  0.01s             0           0  0.05s           2023-12-21T16:26:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              790  0.02s             0           0  0.06s           2023-12-21T16:26:37
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:27:01
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:26:37
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.13s           2023-12-21T16:27:02
+================================================================================
+[2023-12-21T16:27:38.877+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:27:33
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:27:08
+/opt/airflow/dags/create_star_schema_part_2.py                    840  0.01s             0           0  0.05s           2023-12-21T16:27:08
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              837  0.02s             0           0  0.06s           2023-12-21T16:27:08
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:27:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:27:08
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.12s           2023-12-21T16:27:28
+================================================================================
+[2023-12-21T16:28:09.563+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:28:04
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:27:38
+/opt/airflow/dags/create_star_schema_part_2.py                    887  0.01s             0           0  0.05s           2023-12-21T16:27:38
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              884  0.02s             0           0  0.05s           2023-12-21T16:27:38
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:28:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:27:38
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.12s           2023-12-21T16:28:01
+================================================================================
+[2023-12-21T16:28:40.121+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:28:35
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:28:09
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.05s           2023-12-21T16:28:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              934  0.00s             0           0  0.06s           2023-12-21T16:28:09
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.03s           2023-12-21T16:28:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:28:09
+/opt/airflow/dags/Loan_Prediction.py                              931  0.01s             7           0  0.19s           2023-12-21T16:28:28
+================================================================================
+[2023-12-21T16:29:10.619+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-21T16:29:05
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:28:40
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T16:28:40
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py              976  0.00s             0           0  0.05s           2023-12-21T16:28:40
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:29:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:28:40
+/opt/airflow/dags/Loan_Prediction.py                              973  0.01s             7           0  0.13s           2023-12-21T16:28:40
+================================================================================
+[2023-12-21T16:29:41.137+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:29:36
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:29:10
+/opt/airflow/dags/create_star_schema_part_2.py                                           0           0  0.03s           2023-12-21T16:29:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1034  0.00s             0           0  0.03s           2023-12-21T16:29:10
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:29:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:29:10
+/opt/airflow/dags/Loan_Prediction.py                             1031  0.01s             7           0  0.18s           2023-12-21T16:29:10
+================================================================================
+[2023-12-21T16:30:01.470+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T16:30:01.502+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T16:30:11.734+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:30:06
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:29:41
+/opt/airflow/dags/create_star_schema_part_2.py                   1081  0.00s             0           0  0.03s           2023-12-21T16:29:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1078  0.02s             0           0  0.03s           2023-12-21T16:29:41
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:30:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:29:41
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.17s           2023-12-21T16:30:06
+================================================================================
+[2023-12-21T16:30:42.192+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2023-12-21T16:30:37
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:30:11
+/opt/airflow/dags/create_star_schema_part_2.py                   1131  0.00s             0           0  0.05s           2023-12-21T16:30:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1128  0.02s             0           0  0.06s           2023-12-21T16:30:11
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:30:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:30:11
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.16s           2023-12-21T16:30:37
+================================================================================
+[2023-12-21T16:31:12.710+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-21T16:31:07
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:30:42
+/opt/airflow/dags/create_star_schema_part_2.py                   1173  0.00s             0           0  0.05s           2023-12-21T16:30:42
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1170  0.02s             0           0  0.06s           2023-12-21T16:30:42
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:31:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:30:42
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:31:07
+================================================================================
+[2023-12-21T16:31:43.296+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2023-12-21T16:31:38
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:31:12
+/opt/airflow/dags/create_star_schema_part_2.py                   1221  0.01s             0           0  0.05s           2023-12-21T16:31:12
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1218  0.02s             0           0  0.05s           2023-12-21T16:31:12
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:31:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:31:12
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.19s           2023-12-21T16:31:42
+================================================================================
+[2023-12-21T16:32:13.794+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:32:08
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:31:43
+/opt/airflow/dags/create_star_schema_part_2.py                   1263  0.01s             0           0  0.05s           2023-12-21T16:31:43
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1260  0.02s             0           0  0.06s           2023-12-21T16:31:43
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:32:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:31:43
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.13s           2023-12-21T16:32:12
+================================================================================
+[2023-12-21T16:32:44.201+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:32:39
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:32:13
+/opt/airflow/dags/create_star_schema_part_2.py                   1311  0.00s             0           0  0.05s           2023-12-21T16:32:13
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1308  0.01s             0           0  0.06s           2023-12-21T16:32:13
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:32:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:32:13
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:32:43
+================================================================================
+[2023-12-21T16:33:14.629+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:33:09
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:32:44
+/opt/airflow/dags/create_star_schema_part_2.py                   1353  0.00s             0           0  0.04s           2023-12-21T16:32:44
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1350  0.01s             0           0  0.05s           2023-12-21T16:32:44
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:33:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:32:44
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.11s           2023-12-21T16:33:13
+================================================================================
+[2023-12-21T16:33:45.061+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:33:39
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-21T16:33:14
+/opt/airflow/dags/create_star_schema_part_2.py                   1395  0.00s             0           0  0.03s           2023-12-21T16:33:14
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1392  0.02s             0           0  0.03s           2023-12-21T16:33:14
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.07s           2023-12-21T16:33:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:33:14
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.14s           2023-12-21T16:33:44
+================================================================================
+[2023-12-21T16:34:15.496+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2023-12-21T16:34:10
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:33:45
+/opt/airflow/dags/create_star_schema_part_2.py                   1437  0.00s             0           0  0.05s           2023-12-21T16:33:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1434  0.02s             0           0  0.06s           2023-12-21T16:33:45
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-21T16:34:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:33:45
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.12s           2023-12-21T16:34:14
+================================================================================
+[2023-12-21T16:34:45.894+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-21T16:34:40
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:34:15
+/opt/airflow/dags/create_star_schema_part_2.py                   1485  0.01s             0           0  0.05s           2023-12-21T16:34:15
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1482  0.02s             0           0  0.06s           2023-12-21T16:34:15
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-21T16:34:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:34:15
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.14s           2023-12-21T16:34:44
+================================================================================
+[2023-12-21T16:35:02.125+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T16:35:02.154+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T16:35:16.378+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2023-12-21T16:35:11
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:34:45
+/opt/airflow/dags/create_star_schema_part_2.py                   1527  0.01s             0           0  0.05s           2023-12-21T16:34:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1524  0.02s             0           0  0.05s           2023-12-21T16:34:45
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:35:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:34:45
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.13s           2023-12-21T16:35:15
+================================================================================
+[2023-12-21T16:35:46.851+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2023-12-21T16:35:41
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:35:16
+/opt/airflow/dags/create_star_schema_part_2.py                   1569  0.01s             0           0  0.05s           2023-12-21T16:35:16
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1566  0.02s             0           0  0.06s           2023-12-21T16:35:16
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:35:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:35:16
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:35:45
+================================================================================
+[2023-12-21T16:36:17.362+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:36:12
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:35:46
+/opt/airflow/dags/create_star_schema_part_2.py                   1611  0.01s             0           0  0.06s           2023-12-21T16:35:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1608  0.02s             0           0  0.06s           2023-12-21T16:35:46
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.02s           2023-12-21T16:36:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:35:46
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:36:16
+================================================================================
+[2023-12-21T16:36:47.872+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.02s           2023-12-21T16:36:42
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:36:17
+/opt/airflow/dags/create_star_schema_part_2.py                   1659  0.00s             0           0  0.05s           2023-12-21T16:36:17
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1656  0.02s             0           0  0.06s           2023-12-21T16:36:17
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-21T16:36:40
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:36:17
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:36:46
+================================================================================
+[2023-12-21T16:37:18.404+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:37:13
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:36:47
+/opt/airflow/dags/create_star_schema_part_2.py                   1701  0.01s             0           0  0.05s           2023-12-21T16:36:47
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1698  0.02s             0           0  0.06s           2023-12-21T16:36:47
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:37:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:36:47
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.19s           2023-12-21T16:37:17
+================================================================================
+[2023-12-21T16:37:48.943+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:37:43
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:37:18
+/opt/airflow/dags/create_star_schema_part_2.py                   1743  0.00s             0           0  0.05s           2023-12-21T16:37:18
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1740  0.02s             0           0  0.06s           2023-12-21T16:37:18
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:37:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:37:18
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.16s           2023-12-21T16:37:48
+================================================================================
+[2023-12-21T16:38:19.404+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:38:14
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:37:49
+/opt/airflow/dags/create_star_schema_part_2.py                   1785  0.00s             0           0  0.05s           2023-12-21T16:37:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1782  0.02s             0           0  0.06s           2023-12-21T16:37:48
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:38:12
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:37:49
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:38:18
+================================================================================
+[2023-12-21T16:38:49.925+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-21T16:38:44
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:38:19
+/opt/airflow/dags/create_star_schema_part_2.py                   1833  0.01s             0           0  0.05s           2023-12-21T16:38:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1830  0.02s             0           0  0.06s           2023-12-21T16:38:19
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:38:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:38:19
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.14s           2023-12-21T16:38:49
+================================================================================
+[2023-12-21T16:39:20.408+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:39:15
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:38:49
+/opt/airflow/dags/create_star_schema_part_2.py                   1875  0.00s             0           0  0.05s           2023-12-21T16:38:49
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1872  0.02s             0           0  0.06s           2023-12-21T16:38:49
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:39:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:38:50
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.13s           2023-12-21T16:39:19
+================================================================================
+[2023-12-21T16:39:50.831+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-21T16:39:45
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:39:20
+/opt/airflow/dags/create_star_schema_part_2.py                   1919  0.00s             0           0  0.05s           2023-12-21T16:39:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1916  0.02s             0           0  0.06s           2023-12-21T16:39:20
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-21T16:39:43
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:39:20
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:39:24
+================================================================================
+[2023-12-21T16:40:02.138+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T16:40:02.167+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T16:40:21.223+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2023-12-21T16:40:16
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:39:50
+/opt/airflow/dags/create_star_schema_part_2.py                   1961  0.01s             0           0  0.05s           2023-12-21T16:39:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             1958  0.02s             0           0  0.06s           2023-12-21T16:39:50
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:40:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:39:50
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.14s           2023-12-21T16:39:55
+================================================================================
+[2023-12-21T16:40:51.711+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-21T16:40:46
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:40:21
+/opt/airflow/dags/create_star_schema_part_2.py                   2003  0.00s             0           0  0.06s           2023-12-21T16:40:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2000  0.02s             0           0  0.06s           2023-12-21T16:40:21
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-21T16:40:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:40:21
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:40:25
+================================================================================
+[2023-12-21T16:41:22.252+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2023-12-21T16:41:17
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:40:51
+/opt/airflow/dags/create_star_schema_part_2.py                   2045  0.00s             0           0  0.05s           2023-12-21T16:40:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2042  0.02s             0           0  0.06s           2023-12-21T16:40:51
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:41:15
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:40:51
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:40:55
+================================================================================
+[2023-12-21T16:41:52.775+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:41:47
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:41:22
+/opt/airflow/dags/create_star_schema_part_2.py                   2087  0.00s             0           0  0.05s           2023-12-21T16:41:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2084  0.02s             0           0  0.05s           2023-12-21T16:41:22
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:41:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:41:22
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:41:26
+================================================================================
+[2023-12-21T16:42:23.256+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-21T16:42:18
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:41:52
+/opt/airflow/dags/create_star_schema_part_2.py                   2136  0.00s             0           0  0.05s           2023-12-21T16:41:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2133  0.01s             0           0  0.06s           2023-12-21T16:41:52
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.02s           2023-12-21T16:42:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:41:52
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:41:57
+================================================================================
+[2023-12-21T16:42:53.749+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-21T16:42:48
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:42:23
+/opt/airflow/dags/create_star_schema_part_2.py                   2192  0.00s             0           0  0.03s           2023-12-21T16:42:23
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2189  0.02s             0           0  0.04s           2023-12-21T16:42:23
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.03s           2023-12-21T16:42:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:42:23
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:42:27
+================================================================================
+[2023-12-21T16:43:24.298+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.06s           2023-12-21T16:43:19
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:42:53
+/opt/airflow/dags/create_star_schema_part_2.py                   2234  0.00s             0           0  0.05s           2023-12-21T16:42:53
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2231  0.02s             0           0  0.05s           2023-12-21T16:42:53
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.06s           2023-12-21T16:43:17
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:42:53
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:42:58
+================================================================================
+[2023-12-21T16:43:54.769+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.02s           2023-12-21T16:43:49
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:43:24
+/opt/airflow/dags/create_star_schema_part_2.py                   2290  0.01s             0           0  0.05s           2023-12-21T16:43:24
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2287  0.02s             0           0  0.06s           2023-12-21T16:43:24
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.05s           2023-12-21T16:43:47
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:43:24
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:43:28
+================================================================================
+[2023-12-21T16:44:25.173+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-21T16:44:20
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:43:54
+/opt/airflow/dags/create_star_schema_part_2.py                   2332  0.00s             0           0  0.06s           2023-12-21T16:43:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2329  0.02s             0           0  0.06s           2023-12-21T16:43:54
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:44:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.03s           2023-12-21T16:43:54
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.16s           2023-12-21T16:43:59
+================================================================================
+[2023-12-21T16:44:55.572+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2023-12-21T16:44:50
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.03s           2023-12-21T16:44:25
+/opt/airflow/dags/create_star_schema_part_2.py                   2388  0.00s             0           0  0.05s           2023-12-21T16:44:25
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2385  0.01s             0           0  0.06s           2023-12-21T16:44:25
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.04s           2023-12-21T16:44:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:44:25
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.15s           2023-12-21T16:44:29
+================================================================================
+[2023-12-21T16:45:02.720+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-21T16:45:02.756+0000] {manager.py:758} INFO - There are 7 files in /opt/airflow/dags
+[2023-12-21T16:45:26.073+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.04s           2023-12-21T16:45:21
+/opt/airflow/dags/create_star_schema_part_1.py                                           0           0  0.02s           2023-12-21T16:44:55
+/opt/airflow/dags/create_star_schema_part_2.py                   2430  0.00s             0           0  0.03s           2023-12-21T16:44:55
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py             2427  0.02s             0           0  0.03s           2023-12-21T16:44:55
+/opt/airflow/dags/impute_with_median.py                                                  0           0  0.03s           2023-12-21T16:45:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                                 0           0  0.02s           2023-12-21T16:44:55
+/opt/airflow/dags/Loan_Prediction.py                                                     7           0  0.17s           2023-12-21T16:44:59
+================================================================================
+[2023-12-21T16:45:43.423+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

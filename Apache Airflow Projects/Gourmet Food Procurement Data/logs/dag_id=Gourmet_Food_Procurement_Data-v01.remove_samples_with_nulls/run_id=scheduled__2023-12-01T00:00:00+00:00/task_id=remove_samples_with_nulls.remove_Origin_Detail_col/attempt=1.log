@@ -1,0 +1,58 @@
+[2023-12-20T02:50:49.571+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_Origin_Detail_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:50:49.578+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_Origin_Detail_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:50:49.578+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T02:50:49.593+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_with_nulls.remove_Origin_Detail_col> on 2023-12-01 00:00:00+00:00
+[2023-12-20T02:50:49.602+0000] {standard_task_runner.py:57} INFO - Started process 1251 to run task
+[2023-12-20T02:50:49.610+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls', 'remove_samples_with_nulls.remove_Origin_Detail_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '23', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpx2cmlot7']
+[2023-12-20T02:50:49.614+0000] {standard_task_runner.py:85} INFO - Job 23: Subtask remove_samples_with_nulls.remove_Origin_Detail_col
+[2023-12-20T02:50:49.668+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_Origin_Detail_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 069170cec93a
+[2023-12-20T02:50:49.704+0000] {abstractoperator.py:709} ERROR - Exception rendering Jinja template for task 'remove_samples_with_nulls.remove_Origin_Detail_col', field 'sql'. Template: '-- params: table_name, column_name\nDELETE FROM {{ params.table_name }}\nWHERE {{ params.column_name }} is NULL;'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 701, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 155, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 655, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 112, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 289, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 284, in render_template
+    return "".join(nodes)
+  File "<template>", line 13, in root
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'table_name'
+[2023-12-20T02:50:49.707+0000] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1518, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode, session=session)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 1647, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 2285, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/baseoperator.py", line 1243, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/session.py", line 79, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 701, in _do_render_template_fields
+    rendered_content = self.render_template(
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 155, in render_template
+    return self._render(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/abstractoperator.py", line 655, in _render
+    return super()._render(template, context, dag=dag)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/template/templater.py", line 112, in _render
+    return render_template_to_string(template, context)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 289, in render_template_to_string
+    return render_template(template, cast(MutableMapping[str, Any], context), native=False)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/utils/helpers.py", line 284, in render_template
+    return "".join(nodes)
+  File "<template>", line 13, in root
+  File "/home/airflow/.local/lib/python3.8/site-packages/jinja2/runtime.py", line 852, in _fail_with_undefined_error
+    raise self._undefined_exception(self._undefined_message)
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'table_name'
+[2023-12-20T02:50:49.720+0000] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=Gourmet_Food_Procurement_Data-v01.remove_samples_with_nulls, task_id=remove_samples_with_nulls.remove_Origin_Detail_col, execution_date=20231201T000000, start_date=20231220T025049, end_date=20231220T025049
+[2023-12-20T02:50:49.727+0000] {standard_task_runner.py:104} ERROR - Failed to execute job 23 for task remove_samples_with_nulls.remove_Origin_Detail_col ('dict object' has no attribute 'table_name'; 1251)
+[2023-12-20T02:50:49.739+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2023-12-20T02:50:49.786+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

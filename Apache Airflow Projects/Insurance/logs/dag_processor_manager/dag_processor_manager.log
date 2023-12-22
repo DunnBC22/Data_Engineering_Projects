@@ -1,0 +1,738 @@
+[2023-12-19T19:11:58.610+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2023-12-19T19:11:58.612+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2023-12-19T19:11:58.613+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2023-12-19T19:11:58.618+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T19:11:58.678+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-19T19:11:58.897+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0
+/opt/airflow/dags/Auto_Insurance.py                         168  0.09s             0           0
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        171  0.07s             0           0
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0
+================================================================================
+[2023-12-19T19:12:29.767+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                   PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.06s           2023-12-19T19:11:59
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.10s           2023-12-19T19:11:59
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py        201  0.02s             0           0  0.15s           2023-12-19T19:11:58
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.08s           2023-12-19T19:11:59
+/opt/airflow/dags/Auto_Insurance.py                         200  0.07s             5           0  0.74s           2023-12-19T19:11:59
+================================================================================
+[2023-12-19T19:12:59.897+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.11s           2023-12-19T19:12:30
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.12s           2023-12-19T19:12:30
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.32s           2023-12-19T19:12:30
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.10s           2023-12-19T19:12:30
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  1.00s           2023-12-19T19:12:30
+================================================================================
+[2023-12-19T19:13:30.402+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.04s           2023-12-19T19:13:01
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.09s           2023-12-19T19:13:01
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:13:00
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.05s           2023-12-19T19:13:01
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.54s           2023-12-19T19:13:01
+================================================================================
+[2023-12-19T19:14:00.956+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:13:31
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.10s           2023-12-19T19:13:31
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.13s           2023-12-19T19:13:31
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:13:31
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.23s           2023-12-19T19:13:31
+================================================================================
+[2023-12-19T19:14:31.402+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:14:02
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:14:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:14:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:14:02
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:14:02
+================================================================================
+[2023-12-19T19:15:01.824+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:14:32
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:14:32
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-19T19:14:32
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:14:32
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:14:32
+================================================================================
+[2023-12-19T19:15:32.253+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:15:02
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:15:02
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-19T19:15:02
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:15:02
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:15:03
+================================================================================
+[2023-12-19T19:16:02.645+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:15:33
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:15:33
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-19T19:15:33
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:15:33
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:15:33
+================================================================================
+[2023-12-19T19:16:33.107+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:16:03
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:16:03
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:16:03
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:16:03
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:16:03
+================================================================================
+[2023-12-19T19:16:59.549+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T19:16:59.575+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-19T19:17:03.623+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:16:34
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:16:34
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:16:34
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:16:34
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:16:34
+================================================================================
+[2023-12-19T19:17:34.088+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:17:04
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:17:04
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:17:04
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:17:04
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:17:04
+================================================================================
+[2023-12-19T19:18:04.547+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:17:35
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:17:35
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-19T19:17:35
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:17:35
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.17s           2023-12-19T19:17:35
+================================================================================
+[2023-12-19T19:18:35.026+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:18:05
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:18:05
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:18:05
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:18:05
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.20s           2023-12-19T19:18:05
+================================================================================
+[2023-12-19T19:19:05.677+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:18:36
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:18:36
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:18:36
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:18:36
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.23s           2023-12-19T19:18:45
+================================================================================
+[2023-12-19T19:19:36.081+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:19:06
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:19:06
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:19:06
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:19:06
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:19:16
+================================================================================
+[2023-12-19T19:20:06.482+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:19:37
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:19:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:19:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:19:37
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:19:46
+================================================================================
+[2023-12-19T19:20:36.880+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:20:07
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:20:07
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:20:07
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:20:07
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:20:16
+================================================================================
+[2023-12-19T19:21:07.313+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:20:37
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:20:37
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:20:37
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:20:38
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:20:47
+================================================================================
+[2023-12-19T19:21:37.786+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:21:08
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:21:08
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:21:08
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:21:08
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:21:17
+================================================================================
+[2023-12-19T19:22:00.126+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T19:22:00.153+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-19T19:22:08.235+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:21:38
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:21:38
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:21:38
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:21:38
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.16s           2023-12-19T19:21:48
+================================================================================
+[2023-12-19T19:22:38.637+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:22:09
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:22:09
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:22:09
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:22:09
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:22:18
+================================================================================
+[2023-12-19T19:23:09.041+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:22:39
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:22:39
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:22:39
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:22:39
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.17s           2023-12-19T19:22:48
+================================================================================
+[2023-12-19T19:23:39.462+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:23:10
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:23:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:23:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:23:10
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:23:19
+================================================================================
+[2023-12-19T19:24:09.880+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:23:40
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:23:40
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:23:40
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:23:40
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.16s           2023-12-19T19:23:49
+================================================================================
+[2023-12-19T19:24:40.318+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:24:10
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:24:10
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:24:10
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:24:11
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.16s           2023-12-19T19:24:20
+================================================================================
+[2023-12-19T19:25:10.703+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.02s           2023-12-19T19:24:41
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:24:41
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-19T19:24:41
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:24:41
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.22s           2023-12-19T19:24:50
+================================================================================
+[2023-12-19T19:25:41.532+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:25:11
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:25:11
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:25:11
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:25:11
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.12s           2023-12-19T19:25:38
+================================================================================
+[2023-12-19T19:26:12.012+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:25:42
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:25:42
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:25:42
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:25:42
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.21s           2023-12-19T19:26:09
+================================================================================
+[2023-12-19T19:26:42.457+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:26:13
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:26:13
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:26:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:26:13
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:26:39
+================================================================================
+[2023-12-19T19:27:00.708+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T19:27:00.733+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-19T19:27:12.880+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:26:43
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:26:43
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:26:43
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:26:43
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.16s           2023-12-19T19:27:09
+================================================================================
+[2023-12-19T19:27:43.255+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:27:13
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:27:13
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:27:13
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:27:14
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.17s           2023-12-19T19:27:40
+================================================================================
+[2023-12-19T19:28:13.667+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:27:44
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:27:44
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:27:44
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:27:44
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:28:10
+================================================================================
+[2023-12-19T19:28:44.051+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:28:14
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:28:14
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:28:14
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:28:14
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:28:41
+================================================================================
+[2023-12-19T19:29:14.532+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:28:45
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:28:45
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:28:45
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:28:45
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:29:11
+================================================================================
+[2023-12-19T19:29:44.981+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:29:15
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:29:15
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:29:15
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:29:15
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:29:42
+================================================================================
+[2023-12-19T19:30:15.433+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:29:46
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:29:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:29:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:29:46
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:30:12
+================================================================================
+[2023-12-19T19:30:45.918+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:30:16
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:30:16
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:30:16
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:30:16
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:30:43
+================================================================================
+[2023-12-19T19:31:16.321+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:30:47
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:30:46
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:30:46
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:30:47
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.20s           2023-12-19T19:31:13
+================================================================================
+[2023-12-19T19:31:46.697+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:31:17
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:31:17
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:31:17
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:31:17
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.17s           2023-12-19T19:31:43
+================================================================================
+[2023-12-19T19:32:00.923+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T19:32:00.949+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-19T19:32:17.161+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:31:47
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:31:47
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:31:47
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:31:47
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:32:14
+================================================================================
+[2023-12-19T19:32:47.582+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:32:18
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:32:18
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:32:18
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:32:18
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:32:44
+================================================================================
+[2023-12-19T19:33:17.959+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:32:48
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:32:48
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:32:48
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:32:48
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:33:15
+================================================================================
+[2023-12-19T19:33:48.336+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:33:19
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:33:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:33:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:33:19
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:33:45
+================================================================================
+[2023-12-19T19:34:18.761+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:33:49
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:33:49
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:33:49
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.07s           2023-12-19T19:33:49
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.15s           2023-12-19T19:34:15
+================================================================================
+[2023-12-19T19:34:49.159+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:34:19
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:34:19
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:34:19
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:34:19
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:34:46
+================================================================================
+[2023-12-19T19:35:19.608+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:34:50
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:34:50
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:34:50
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:34:50
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.17s           2023-12-19T19:35:16
+================================================================================
+[2023-12-19T19:35:50.011+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:35:20
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:35:20
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:35:20
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:35:20
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.15s           2023-12-19T19:35:47
+================================================================================
+[2023-12-19T19:36:20.416+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:35:51
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:35:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:35:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:35:51
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.16s           2023-12-19T19:36:17
+================================================================================
+[2023-12-19T19:36:50.809+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:36:21
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:36:21
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:36:21
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:36:21
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:36:47
+================================================================================
+[2023-12-19T19:37:00.996+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T19:37:01.024+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-19T19:37:21.225+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:36:51
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:36:51
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:36:51
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:36:51
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.16s           2023-12-19T19:37:18
+================================================================================
+[2023-12-19T19:37:51.617+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:37:22
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:37:22
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:37:22
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:37:22
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:37:48
+================================================================================
+[2023-12-19T19:38:22.004+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:37:52
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:37:52
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:37:52
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:37:52
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:38:19
+================================================================================
+[2023-12-19T19:38:52.381+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:38:23
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:38:23
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:38:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:38:23
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:38:49
+================================================================================
+[2023-12-19T19:39:22.757+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:38:53
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.03s           2023-12-19T19:38:53
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.03s           2023-12-19T19:38:53
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:38:53
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.17s           2023-12-19T19:39:19
+================================================================================
+[2023-12-19T19:39:53.199+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:39:23
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.05s           2023-12-19T19:39:23
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.06s           2023-12-19T19:39:23
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.02s           2023-12-19T19:39:23
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:39:50
+================================================================================
+[2023-12-19T19:40:23.589+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:39:54
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:39:54
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:39:54
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:39:54
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:40:20
+================================================================================
+[2023-12-19T19:40:53.999+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:40:24
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:40:24
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:40:24
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:40:24
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.18s           2023-12-19T19:40:51
+================================================================================
+[2023-12-19T19:41:24.400+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:40:55
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:40:55
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.04s           2023-12-19T19:40:55
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:40:55
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:41:21
+================================================================================
+[2023-12-19T19:41:54.831+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                 PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/create_star_schema_part_1.py                                     0           0  0.03s           2023-12-19T19:41:25
+/opt/airflow/dags/create_star_schema_part_2.py                                     0           0  0.04s           2023-12-19T19:41:25
+/opt/airflow/dags/sub_dag_remove_multiple_columns.py                               0           0  0.05s           2023-12-19T19:41:25
+/opt/airflow/dags/clean_up_after_star_schema_creation.py                           0           0  0.03s           2023-12-19T19:41:25
+/opt/airflow/dags/Auto_Insurance.py                                                5           0  0.19s           2023-12-19T19:41:51
+================================================================================
+[2023-12-19T19:42:01.002+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2023-12-19T19:42:01.012+0000] {manager.py:758} INFO - There are 5 files in /opt/airflow/dags
+[2023-12-19T19:42:24.610+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

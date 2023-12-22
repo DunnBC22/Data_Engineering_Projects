@@ -1,0 +1,32 @@
+[2023-12-20T02:44:58.630+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:44:58.634+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:44:58.634+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T02:44:58.640+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): remove_unnecessary_columns> on 2023-12-01 00:00:00+00:00
+[2023-12-20T02:44:58.643+0000] {standard_task_runner.py:57} INFO - Started process 572 to run task
+[2023-12-20T02:44:58.646+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01', 'remove_unnecessary_columns', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpn3m4zzx3']
+[2023-12-20T02:44:58.648+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask remove_unnecessary_columns
+[2023-12-20T02:44:58.684+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [running]> on host 069170cec93a
+[2023-12-20T02:44:58.726+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01' AIRFLOW_CTX_TASK_ID='remove_unnecessary_columns' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T02:44:58.730+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-20T02:44:58.747+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-20T02:45:58.788+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-20T02:45:58.805+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-20T02:45:58.818+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Gourmet_Food_Procurement_Data-v01, task_id=remove_unnecessary_columns, execution_date=20231201T000000, start_date=20231220T024458, end_date=20231220T024558
+[2023-12-20T02:45:58.849+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T02:45:58.876+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-12-20T17:52:45.749+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T17:52:45.753+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T17:52:45.753+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T17:52:45.759+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): remove_unnecessary_columns> on 2023-12-01 00:00:00+00:00
+[2023-12-20T17:52:45.762+0000] {standard_task_runner.py:57} INFO - Started process 331 to run task
+[2023-12-20T17:52:45.764+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01', 'remove_unnecessary_columns', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpyswow7ly']
+[2023-12-20T17:52:45.766+0000] {standard_task_runner.py:85} INFO - Job 4: Subtask remove_unnecessary_columns
+[2023-12-20T17:52:45.797+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [running]> on host 064e84e7d61d
+[2023-12-20T17:52:45.835+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01' AIRFLOW_CTX_TASK_ID='remove_unnecessary_columns' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T17:52:45.838+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-20T17:52:45.853+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-20T17:53:45.925+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-20T17:53:45.932+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-20T17:53:45.938+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Gourmet_Food_Procurement_Data-v01, task_id=remove_unnecessary_columns, execution_date=20231201T000000, start_date=20231220T175245, end_date=20231220T175345
+[2023-12-20T17:53:45.958+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T17:53:45.981+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

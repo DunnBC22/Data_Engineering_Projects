@@ -1,0 +1,39 @@
+[2023-12-21T16:53:00.203+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings.impute_HadAsthma_with_mode scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:53:00.207+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings.impute_HadAsthma_with_mode scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:53:00.207+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-21T16:53:00.214+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): impute_HadAsthma_with_mode> on 2023-12-01 00:00:00+00:00
+[2023-12-21T16:53:00.217+0000] {standard_task_runner.py:57} INFO - Started process 949 to run task
+[2023-12-21T16:53:00.219+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings', 'impute_HadAsthma_with_mode', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '55', '--raw', '--subdir', 'DAGS_FOLDER/Indicators_of_Heart_Disease_2022.py', '--cfg-path', '/tmp/tmp0nmg3jqt']
+[2023-12-21T16:53:00.221+0000] {standard_task_runner.py:85} INFO - Job 55: Subtask impute_HadAsthma_with_mode
+[2023-12-21T16:53:00.253+0000] {task_command.py:416} INFO - Running <TaskInstance: Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings.impute_HadAsthma_with_mode scheduled__2023-12-01T00:00:00+00:00 [running]> on host 8e01071a5eb3
+[2023-12-21T16:53:00.294+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings' AIRFLOW_CTX_TASK_ID='impute_HadAsthma_with_mode' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-21T16:53:00.295+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+
+UPDATE indicators_of_heart_disease_2022_pipe
+SET HadAsthma = (
+    SELECT HadAsthma 
+    FROM indicators_of_heart_disease_2022_pipe
+    WHERE HadAsthma IS NOT NULL
+    GROUP BY HadAsthma
+    ORDER BY COUNT(*) DESC
+    LIMIT 1
+)
+WHERE HadAsthma IS NULL;
+[2023-12-21T16:53:00.300+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T16:53:00.306+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T16:53:00.311+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+
+UPDATE indicators_of_heart_disease_2022_pipe
+SET HadAsthma = (
+    SELECT HadAsthma 
+    FROM indicators_of_heart_disease_2022_pipe
+    WHERE HadAsthma IS NOT NULL
+    GROUP BY HadAsthma
+    ORDER BY COUNT(*) DESC
+    LIMIT 1
+)
+WHERE HadAsthma IS NULL;, parameters: None
+[2023-12-21T16:53:00.398+0000] {sql.py:427} INFO - Rows affected: 0
+[2023-12-21T16:53:00.406+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Indicators_of_Heart_Disease_2022-v01.impute_missing_values_strings, task_id=impute_HadAsthma_with_mode, execution_date=20231201T000000, start_date=20231221T165300, end_date=20231221T165300
+[2023-12-21T16:53:00.439+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-21T16:53:00.471+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

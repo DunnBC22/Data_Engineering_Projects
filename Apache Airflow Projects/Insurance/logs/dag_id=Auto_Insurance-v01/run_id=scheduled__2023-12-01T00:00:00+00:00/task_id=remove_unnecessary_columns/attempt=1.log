@@ -1,0 +1,16 @@
+[2023-12-19T19:19:52.387+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Auto_Insurance-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T19:19:52.391+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Auto_Insurance-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T19:19:52.391+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T19:19:52.396+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): remove_unnecessary_columns> on 2023-12-01 00:00:00+00:00
+[2023-12-19T19:19:52.399+0000] {standard_task_runner.py:57} INFO - Started process 699 to run task
+[2023-12-19T19:19:52.401+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Auto_Insurance-v01', 'remove_unnecessary_columns', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/Auto_Insurance.py', '--cfg-path', '/tmp/tmp5dj242ha']
+[2023-12-19T19:19:52.403+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask remove_unnecessary_columns
+[2023-12-19T19:19:52.432+0000] {task_command.py:416} INFO - Running <TaskInstance: Auto_Insurance-v01.remove_unnecessary_columns scheduled__2023-12-01T00:00:00+00:00 [running]> on host 757899fef296
+[2023-12-19T19:19:52.475+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Auto_Insurance-v01' AIRFLOW_CTX_TASK_ID='remove_unnecessary_columns' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T19:19:52.478+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2023-12-19T19:19:52.493+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2023-12-01T00:00:00+00:00
+[2023-12-19T19:20:52.513+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2023-12-19T19:20:52.525+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2023-12-19T19:20:52.534+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Auto_Insurance-v01, task_id=remove_unnecessary_columns, execution_date=20231201T000000, start_date=20231219T191952, end_date=20231219T192052
+[2023-12-19T19:20:52.551+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T19:20:52.582+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

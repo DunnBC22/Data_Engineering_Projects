@@ -1,0 +1,21 @@
+[2023-12-19T22:26:09.967+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hosp_insur_claim_fraud-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_Area_Service_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T22:26:09.974+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hosp_insur_claim_fraud-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_Area_Service_col scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T22:26:09.974+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T22:26:09.985+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_samples_with_nulls.remove_Area_Service_col> on 2023-12-01 00:00:00+00:00
+[2023-12-19T22:26:09.992+0000] {standard_task_runner.py:57} INFO - Started process 525 to run task
+[2023-12-19T22:26:09.999+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'hosp_insur_claim_fraud-v01.remove_samples_with_nulls', 'remove_samples_with_nulls.remove_Area_Service_col', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/Hospital_Insurance_Claim_Fraud.py', '--cfg-path', '/tmp/tmpocweu20_']
+[2023-12-19T22:26:10.007+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask remove_samples_with_nulls.remove_Area_Service_col
+[2023-12-19T22:26:10.077+0000] {task_command.py:416} INFO - Running <TaskInstance: hosp_insur_claim_fraud-v01.remove_samples_with_nulls.remove_samples_with_nulls.remove_Area_Service_col scheduled__2023-12-01T00:00:00+00:00 [running]> on host 183042dfa495
+[2023-12-19T22:26:10.152+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='hosp_insur_claim_fraud-v01.remove_samples_with_nulls' AIRFLOW_CTX_TASK_ID='remove_samples_with_nulls.remove_Area_Service_col' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T22:26:10.155+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+DELETE FROM hosp_insur_claim_fraud_pipeline
+WHERE Area_Service is NULL;
+[2023-12-19T22:26:10.169+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T22:26:10.179+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T22:26:10.189+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+DELETE FROM hosp_insur_claim_fraud_pipeline
+WHERE Area_Service is NULL;, parameters: None
+[2023-12-19T22:26:10.278+0000] {sql.py:427} INFO - Rows affected: 2456
+[2023-12-19T22:26:10.290+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=hosp_insur_claim_fraud-v01.remove_samples_with_nulls, task_id=remove_samples_with_nulls.remove_Area_Service_col, execution_date=20231201T000000, start_date=20231219T222609, end_date=20231219T222610
+[2023-12-19T22:26:10.334+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T22:26:10.354+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

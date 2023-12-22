@@ -1,0 +1,20 @@
+[2023-12-19T23:04:22.765+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: hosp_insur_claim_fraud-v01.remove_replaced_dim_cols.remove_original_apr_drg_description_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T23:04:22.782+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: hosp_insur_claim_fraud-v01.remove_replaced_dim_cols.remove_original_apr_drg_description_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T23:04:22.788+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T23:04:22.806+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): remove_original_apr_drg_description_in_fact_table> on 2023-12-01 00:00:00+00:00
+[2023-12-19T23:04:22.821+0000] {standard_task_runner.py:57} INFO - Started process 3931 to run task
+[2023-12-19T23:04:22.830+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'hosp_insur_claim_fraud-v01.remove_replaced_dim_cols', 'remove_original_apr_drg_description_in_fact_table', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/Hospital_Insurance_Claim_Fraud.py', '--cfg-path', '/tmp/tmpyfmorp84']
+[2023-12-19T23:04:22.838+0000] {standard_task_runner.py:85} INFO - Job 48: Subtask remove_original_apr_drg_description_in_fact_table
+[2023-12-19T23:04:22.935+0000] {task_command.py:416} INFO - Running <TaskInstance: hosp_insur_claim_fraud-v01.remove_replaced_dim_cols.remove_original_apr_drg_description_in_fact_table scheduled__2023-12-01T00:00:00+00:00 [running]> on host 183042dfa495
+[2023-12-19T23:04:23.072+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='hosp_insur_claim_fraud-v01.remove_replaced_dim_cols' AIRFLOW_CTX_TASK_ID='remove_original_apr_drg_description_in_fact_table' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T23:04:23.077+0000] {sql.py:274} INFO - Executing: -- table_name, column_name
+ALTER TABLE hosp_insur_claim_fraud_pipeline
+DROP COLUMN apr_drg_description;
+[2023-12-19T23:04:23.110+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T23:04:23.130+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T23:04:23.156+0000] {sql.py:418} INFO - Running statement: -- table_name, column_name
+ALTER TABLE hosp_insur_claim_fraud_pipeline
+DROP COLUMN apr_drg_description;, parameters: None
+[2023-12-19T23:04:24.193+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=hosp_insur_claim_fraud-v01.remove_replaced_dim_cols, task_id=remove_original_apr_drg_description_in_fact_table, execution_date=20231201T000000, start_date=20231219T230422, end_date=20231219T230424
+[2023-12-19T23:04:24.285+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T23:04:24.409+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

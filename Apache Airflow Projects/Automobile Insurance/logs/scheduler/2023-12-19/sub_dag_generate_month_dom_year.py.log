@@ -1,0 +1,192 @@
+[2023-12-19T04:33:38.482+0000] {processor.py:157} INFO - Started process (PID=175) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:33:38.485+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:33:38.487+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:33:38.486+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:33:38.497+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:33:38.495+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-19T04:33:38.498+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:33:38.538+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.061 seconds
+[2023-12-19T04:34:09.082+0000] {processor.py:157} INFO - Started process (PID=212) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:09.108+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:34:09.110+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:34:09.109+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:09.122+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:34:09.118+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-19T04:34:09.125+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:09.160+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.085 seconds
+[2023-12-19T04:34:39.857+0000] {processor.py:157} INFO - Started process (PID=249) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:39.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:34:39.860+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:34:39.860+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:39.870+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:34:39.867+0000] {dagbag.py:346} ERROR - Failed to import: /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/dagbag.py", line 342, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/sub_dag_generate_month_dom_year.py", line 29, in <module>
+    from airflow.providers.operators.postgres import PostgresOperator
+ModuleNotFoundError: No module named 'airflow.providers.operators'
+[2023-12-19T04:34:39.872+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:39.891+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.038 seconds
+[2023-12-19T04:34:43.041+0000] {processor.py:157} INFO - Started process (PID=271) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:43.043+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:34:43.044+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:34:43.044+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:43.057+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:43.079+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.041 seconds
+[2023-12-19T04:34:58.174+0000] {processor.py:157} INFO - Started process (PID=283) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:58.176+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:34:58.177+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:34:58.177+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:58.190+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:34:58.227+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.057 seconds
+[2023-12-19T04:35:10.232+0000] {processor.py:157} INFO - Started process (PID=288) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:35:10.232+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:35:10.233+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:35:10.233+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:35:10.238+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:35:10.248+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.018 seconds
+[2023-12-19T04:35:34.598+0000] {processor.py:157} INFO - Started process (PID=325) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:35:34.600+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:35:34.601+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:35:34.601+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:35:34.607+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:35:34.621+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.026 seconds
+[2023-12-19T04:35:35.665+0000] {processor.py:157} INFO - Started process (PID=330) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:35:35.666+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:35:35.667+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:35:35.667+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:35:35.675+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:35:35.692+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.032 seconds
+[2023-12-19T04:36:06.180+0000] {processor.py:157} INFO - Started process (PID=367) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:36:06.181+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:36:06.182+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:36:06.182+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:36:06.189+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:36:06.204+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.028 seconds
+[2023-12-19T04:36:36.653+0000] {processor.py:157} INFO - Started process (PID=414) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:36:36.654+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:36:36.655+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:36:36.655+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:36:36.658+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:36:36.667+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.016 seconds
+[2023-12-19T04:37:07.156+0000] {processor.py:157} INFO - Started process (PID=451) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:37:07.157+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:37:07.158+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:37:07.158+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:37:07.165+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:37:07.182+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.031 seconds
+[2023-12-19T04:37:37.725+0000] {processor.py:157} INFO - Started process (PID=503) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:37:37.726+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:37:37.727+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:37:37.727+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:37:37.731+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:37:37.752+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.032 seconds
+[2023-12-19T04:38:08.527+0000] {processor.py:157} INFO - Started process (PID=560) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:38:08.529+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:38:08.530+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:38:08.529+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:38:08.537+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:38:08.554+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.032 seconds
+[2023-12-19T04:38:38.938+0000] {processor.py:157} INFO - Started process (PID=603) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:38:38.939+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:38:38.940+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:38:38.940+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:38:38.944+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:38:38.957+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.022 seconds
+[2023-12-19T04:39:09.341+0000] {processor.py:157} INFO - Started process (PID=640) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:39:09.342+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:39:09.343+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:39:09.343+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:39:09.348+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:39:09.362+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.024 seconds
+[2023-12-19T04:39:39.736+0000] {processor.py:157} INFO - Started process (PID=683) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:39:39.737+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:39:39.738+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:39:39.738+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:39:39.742+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:39:39.754+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.021 seconds
+[2023-12-19T04:40:10.121+0000] {processor.py:157} INFO - Started process (PID=720) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:40:10.123+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:40:10.124+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:40:10.123+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:40:10.131+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:40:10.149+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.033 seconds
+[2023-12-19T04:40:40.508+0000] {processor.py:157} INFO - Started process (PID=757) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:40:40.509+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:40:40.510+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:40:40.510+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:40:40.515+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:40:40.529+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.024 seconds
+[2023-12-19T04:41:10.856+0000] {processor.py:157} INFO - Started process (PID=794) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:41:10.857+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:41:10.858+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:41:10.858+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:41:10.863+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:41:10.880+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.029 seconds
+[2023-12-19T04:41:41.215+0000] {processor.py:157} INFO - Started process (PID=835) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:41:41.216+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:41:41.217+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:41:41.217+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:41:41.224+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:41:41.241+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.031 seconds
+[2023-12-19T04:42:11.655+0000] {processor.py:157} INFO - Started process (PID=872) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:42:11.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:42:11.658+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:42:11.657+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:42:11.665+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:42:11.684+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.034 seconds
+[2023-12-19T04:42:42.083+0000] {processor.py:157} INFO - Started process (PID=911) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:42:42.084+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:42:42.085+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:42:42.085+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:42:42.091+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:42:42.108+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.029 seconds
+[2023-12-19T04:43:12.484+0000] {processor.py:157} INFO - Started process (PID=948) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:43:12.485+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:43:12.486+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:43:12.486+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:43:12.494+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:43:12.513+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.034 seconds
+[2023-12-19T04:43:42.943+0000] {processor.py:157} INFO - Started process (PID=985) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:43:42.944+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:43:42.946+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:43:42.945+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:43:42.953+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:43:42.973+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.035 seconds
+[2023-12-19T04:44:13.401+0000] {processor.py:157} INFO - Started process (PID=1022) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:44:13.402+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:44:13.403+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:44:13.403+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:44:13.410+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:44:13.427+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.032 seconds
+[2023-12-19T04:44:44.295+0000] {processor.py:157} INFO - Started process (PID=1076) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:44:44.296+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:44:44.297+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:44:44.297+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:44:44.303+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:44:44.320+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.029 seconds
+[2023-12-19T04:45:14.781+0000] {processor.py:157} INFO - Started process (PID=1113) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:45:14.782+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:45:14.783+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:45:14.782+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:45:14.787+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:45:14.800+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.023 seconds
+[2023-12-19T04:45:45.498+0000] {processor.py:157} INFO - Started process (PID=1192) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:45:45.500+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:45:45.501+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:45:45.501+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:45:45.508+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:45:45.527+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.034 seconds
+[2023-12-19T04:46:15.890+0000] {processor.py:157} INFO - Started process (PID=1229) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:46:15.891+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:46:15.892+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:46:15.892+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:46:15.898+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:46:15.915+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.028 seconds
+[2023-12-19T04:46:46.425+0000] {processor.py:157} INFO - Started process (PID=1308) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:46:46.426+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:46:46.426+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:46:46.426+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:46:46.431+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:46:46.443+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.022 seconds
+[2023-12-19T04:47:16.856+0000] {processor.py:157} INFO - Started process (PID=1345) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:47:16.858+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:47:16.859+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:47:16.858+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:47:16.866+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:47:16.883+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.031 seconds
+[2023-12-19T04:47:47.317+0000] {processor.py:157} INFO - Started process (PID=1424) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:47:47.319+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:47:47.320+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:47:47.319+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:47:47.327+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:47:47.343+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.031 seconds
+[2023-12-19T04:48:17.832+0000] {processor.py:157} INFO - Started process (PID=1461) to work on /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:48:17.833+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/sub_dag_generate_month_dom_year.py for tasks to queue
+[2023-12-19T04:48:17.834+0000] {logging_mixin.py:154} INFO - [2023-12-19T04:48:17.834+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:48:17.842+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/sub_dag_generate_month_dom_year.py
+[2023-12-19T04:48:17.860+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/sub_dag_generate_month_dom_year.py took 0.032 seconds

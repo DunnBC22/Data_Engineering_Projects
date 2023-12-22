@@ -1,0 +1,102 @@
+[2023-12-20T02:59:52.942+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Agency scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:59:52.947+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Agency scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T02:59:52.950+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T02:59:52.957+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_Agency> on 2023-12-01 00:00:00+00:00
+[2023-12-20T02:59:52.962+0000] {standard_task_runner.py:57} INFO - Started process 2299 to run task
+[2023-12-20T02:59:52.967+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_Agency', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpvst_wtlb']
+[2023-12-20T02:59:52.969+0000] {standard_task_runner.py:85} INFO - Job 45: Subtask insert_fk_col_in_fact_table_Agency
+[2023-12-20T02:59:53.032+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Agency scheduled__2023-12-01T00:00:00+00:00 [running]> on host 069170cec93a
+[2023-12-20T02:59:53.143+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_Agency' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T02:59:53.145+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE gourmet_food_procurement_data_pipeline
+ADD COLUMN Agency_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE gourmet_food_procurement_data_pipeline
+SET Agency_id = dimension_table_Agency.id
+FROM dimension_table_Agency
+WHERE COALESCE(gourmet_food_procurement_data_pipeline.Agency::text, '') = COALESCE(dimension_table_Agency.Agency::text, '');
+[2023-12-20T02:59:53.170+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T02:59:53.186+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T02:59:53.200+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE gourmet_food_procurement_data_pipeline
+ADD COLUMN Agency_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE gourmet_food_procurement_data_pipeline
+SET Agency_id = dimension_table_Agency.id
+FROM dimension_table_Agency
+WHERE COALESCE(gourmet_food_procurement_data_pipeline.Agency::text, '') = COALESCE(dimension_table_Agency.Agency::text, '');, parameters: None
+[2023-12-20T02:59:53.260+0000] {sql.py:427} INFO - Rows affected: 13000
+[2023-12-20T02:59:53.281+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_Agency, execution_date=20231201T000000, start_date=20231220T025952, end_date=20231220T025953
+[2023-12-20T02:59:53.313+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T02:59:53.334+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-12-20T18:06:57.081+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Agency scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:06:57.088+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Agency scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-20T18:06:57.089+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-20T18:06:57.097+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_Agency> on 2023-12-01 00:00:00+00:00
+[2023-12-20T18:06:57.105+0000] {standard_task_runner.py:57} INFO - Started process 1917 to run task
+[2023-12-20T18:06:57.109+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_Agency', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/Gourmet_Food_Procurement_Data.py', '--cfg-path', '/tmp/tmpwai6bwpy']
+[2023-12-20T18:06:57.112+0000] {standard_task_runner.py:85} INFO - Job 37: Subtask insert_fk_col_in_fact_table_Agency
+[2023-12-20T18:06:57.156+0000] {task_command.py:416} INFO - Running <TaskInstance: Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_Agency scheduled__2023-12-01T00:00:00+00:00 [running]> on host 064e84e7d61d
+[2023-12-20T18:06:57.218+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_Agency' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-20T18:06:57.220+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE gourmet_food_procurement_data_pipeline
+ADD COLUMN Agency_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE gourmet_food_procurement_data_pipeline
+SET Agency_id = dimension_table_Agency.id
+FROM dimension_table_Agency
+WHERE COALESCE(gourmet_food_procurement_data_pipeline.Agency::text, '') = COALESCE(dimension_table_Agency.Agency::text, '');
+[2023-12-20T18:06:57.232+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T18:06:57.241+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-20T18:06:57.255+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE gourmet_food_procurement_data_pipeline
+ADD COLUMN Agency_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE gourmet_food_procurement_data_pipeline
+SET Agency_id = dimension_table_Agency.id
+FROM dimension_table_Agency
+WHERE COALESCE(gourmet_food_procurement_data_pipeline.Agency::text, '') = COALESCE(dimension_table_Agency.Agency::text, '');, parameters: None
+[2023-12-20T18:06:57.283+0000] {sql.py:427} INFO - Rows affected: 11163
+[2023-12-20T18:06:57.293+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Gourmet_Food_Procurement_Data-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_Agency, execution_date=20231201T000000, start_date=20231220T180657, end_date=20231220T180657
+[2023-12-20T18:06:57.322+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-20T18:06:57.341+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

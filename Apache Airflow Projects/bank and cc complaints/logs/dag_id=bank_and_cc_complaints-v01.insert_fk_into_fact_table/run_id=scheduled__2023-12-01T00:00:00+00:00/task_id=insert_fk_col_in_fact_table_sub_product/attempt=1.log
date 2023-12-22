@@ -1,0 +1,51 @@
+[2023-12-19T05:00:15.773+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: bank_and_cc_complaints-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_sub_product scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T05:00:15.786+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: bank_and_cc_complaints-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_sub_product scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-19T05:00:15.786+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2023-12-19T05:00:15.797+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): insert_fk_col_in_fact_table_sub_product> on 2023-12-01 00:00:00+00:00
+[2023-12-19T05:00:15.804+0000] {standard_task_runner.py:57} INFO - Started process 1043 to run task
+[2023-12-19T05:00:15.809+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'bank_and_cc_complaints-v01.insert_fk_into_fact_table', 'insert_fk_col_in_fact_table_sub_product', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/bank_and_cc_complaints.py', '--cfg-path', '/tmp/tmpm34jqw_9']
+[2023-12-19T05:00:15.817+0000] {standard_task_runner.py:85} INFO - Job 30: Subtask insert_fk_col_in_fact_table_sub_product
+[2023-12-19T05:00:15.884+0000] {task_command.py:416} INFO - Running <TaskInstance: bank_and_cc_complaints-v01.insert_fk_into_fact_table.insert_fk_col_in_fact_table_sub_product scheduled__2023-12-01T00:00:00+00:00 [running]> on host 2ee4b7dc3cc7
+[2023-12-19T05:00:15.962+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='bank_and_cc_complaints-v01.insert_fk_into_fact_table' AIRFLOW_CTX_TASK_ID='insert_fk_col_in_fact_table_sub_product' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-19T05:00:15.965+0000] {sql.py:274} INFO - Executing: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE ***_complaints
+ADD COLUMN sub_product_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE ***_complaints
+SET sub_product_id = dimension_table_sub_product.id
+FROM dimension_table_sub_product
+WHERE COALESCE(***_complaints.sub_product::text, '') = COALESCE(dimension_table_sub_product.sub_product::text, '');
+[2023-12-19T05:00:15.975+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T05:00:15.989+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-19T05:00:15.998+0000] {sql.py:418} INFO - Running statement: -- params: table_name, dimension_col
+
+/*
+Steps 1-3 were completed in the create_dim_table.sql 
+file & associated PostgresOperator
+*/
+
+
+-- Step 4: Add foreign key column to fact table
+ALTER TABLE ***_complaints
+ADD COLUMN sub_product_id INTEGER;
+
+-- Step 4: Update foreign key column to fact table with 
+-- appropriate id (that matches with dim table)
+UPDATE ***_complaints
+SET sub_product_id = dimension_table_sub_product.id
+FROM dimension_table_sub_product
+WHERE COALESCE(***_complaints.sub_product::text, '') = COALESCE(dimension_table_sub_product.sub_product::text, '');, parameters: None
+[2023-12-19T05:00:20.217+0000] {sql.py:427} INFO - Rows affected: 170241
+[2023-12-19T05:00:20.242+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=bank_and_cc_complaints-v01.insert_fk_into_fact_table, task_id=insert_fk_col_in_fact_table_sub_product, execution_date=20231201T000000, start_date=20231219T050015, end_date=20231219T050020
+[2023-12-19T05:00:20.291+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-19T05:00:20.311+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

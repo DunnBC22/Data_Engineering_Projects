@@ -1,0 +1,47 @@
+[2023-12-21T16:38:42.975+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Loan_Prediction-v01.impute_missing_values.impute_missing_values_in_Loan_Amount_Term_with_median scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:38:42.980+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Loan_Prediction-v01.impute_missing_values.impute_missing_values_in_Loan_Amount_Term_with_median scheduled__2023-12-01T00:00:00+00:00 [queued]>
+[2023-12-21T16:38:42.980+0000] {taskinstance.py:1361} INFO - Starting attempt 5 of 6
+[2023-12-21T16:38:42.987+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): impute_missing_values_in_Loan_Amount_Term_with_median> on 2023-12-01 00:00:00+00:00
+[2023-12-21T16:38:42.989+0000] {standard_task_runner.py:57} INFO - Started process 1817 to run task
+[2023-12-21T16:38:42.992+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'Loan_Prediction-v01.impute_missing_values', 'impute_missing_values_in_Loan_Amount_Term_with_median', 'scheduled__2023-12-01T00:00:00+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/Loan_Prediction.py', '--cfg-path', '/tmp/tmp7hdb32sp']
+[2023-12-21T16:38:42.994+0000] {standard_task_runner.py:85} INFO - Job 25: Subtask impute_missing_values_in_Loan_Amount_Term_with_median
+[2023-12-21T16:38:43.028+0000] {task_command.py:416} INFO - Running <TaskInstance: Loan_Prediction-v01.impute_missing_values.impute_missing_values_in_Loan_Amount_Term_with_median scheduled__2023-12-01T00:00:00+00:00 [running]> on host 56b600c92613
+[2023-12-21T16:38:43.075+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='Loan_Prediction-v01.impute_missing_values' AIRFLOW_CTX_TASK_ID='impute_missing_values_in_Loan_Amount_Term_with_median' AIRFLOW_CTX_EXECUTION_DATE='2023-12-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-12-01T00:00:00+00:00'
+[2023-12-21T16:38:43.076+0000] {sql.py:274} INFO - Executing: -- params: table_name, column_name
+
+UPDATE loan_prediction_pipe
+SET Loan_Amount_Term = subquery.median_value
+FROM (
+    SELECT 
+        Loan_Amount_Term,
+        CASE 
+            WHEN COUNT(*) % 2 = 1 THEN percentile_cont(0.5) WITHIN GROUP (ORDER BY CAST(Loan_Amount_Term AS NUMERIC)) 
+            ELSE AVG(CASE WHEN Loan_Amount_Term IS NOT NULL THEN CAST(Loan_Amount_Term AS NUMERIC) END)
+        END AS median_value
+    FROM loan_prediction_pipe
+    WHERE loan_prediction_pipe.Loan_Amount_Term IS NOT NULL
+    GROUP BY loan_prediction_pipe.Loan_Amount_Term
+) AS subquery
+WHERE loan_prediction_pipe.Loan_Amount_Term IS NULL;
+[2023-12-21T16:38:43.082+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T16:38:43.090+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2023-12-21T16:38:43.095+0000] {sql.py:418} INFO - Running statement: -- params: table_name, column_name
+
+UPDATE loan_prediction_pipe
+SET Loan_Amount_Term = subquery.median_value
+FROM (
+    SELECT 
+        Loan_Amount_Term,
+        CASE 
+            WHEN COUNT(*) % 2 = 1 THEN percentile_cont(0.5) WITHIN GROUP (ORDER BY CAST(Loan_Amount_Term AS NUMERIC)) 
+            ELSE AVG(CASE WHEN Loan_Amount_Term IS NOT NULL THEN CAST(Loan_Amount_Term AS NUMERIC) END)
+        END AS median_value
+    FROM loan_prediction_pipe
+    WHERE loan_prediction_pipe.Loan_Amount_Term IS NOT NULL
+    GROUP BY loan_prediction_pipe.Loan_Amount_Term
+) AS subquery
+WHERE loan_prediction_pipe.Loan_Amount_Term IS NULL;, parameters: None
+[2023-12-21T16:38:43.102+0000] {sql.py:427} INFO - Rows affected: 12
+[2023-12-21T16:38:43.109+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=Loan_Prediction-v01.impute_missing_values, task_id=impute_missing_values_in_Loan_Amount_Term_with_median, execution_date=20231201T000000, start_date=20231221T163842, end_date=20231221T163843
+[2023-12-21T16:38:43.124+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2023-12-21T16:38:43.149+0000] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
