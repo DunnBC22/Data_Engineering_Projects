@@ -18,21 +18,37 @@ To demonstrate my skill using Apache Airflow, I thought I would complete a pleth
 ## Project Listings
 
 - Allegheny Co Property Sale Transactions
+- Analytics Olympiad 2022
+- Automobile Insurance
 - CA Housing Data
+- COVID19 Project
+- Caravan Insurance Challenge
 - Consumer Behavior and Shopping Habits Dataset
 - Customer Shopping Trends
 - Cyclistic Summary Data (Cyclistic_All_Year_Summary)
 - Diamonds
 - Different Store Sales
 - Electric Vehicle Population
+- Employee Dataset
+- Facebook Google Store Reviews 4.1 Million
+- Gourmet Food Procurement Data
+- Health Insurance Cross Sell Prediction
 - Healthcare Insurance
 - Home Insurance Dataset
+- Hospital Insurance Claim Fraud
 - House Price Prediction - Zameen.com Dataset
+- Illinois Insurance Producers Data
+- Indicators of Heart Disease
+- Insurance Fraud
 - Insurance Product Purchase Prediction
+- Insurance
+- Loan Predication
+- Market Segmentation in Insurance Unsupervised
+- Medical Insurance Premium Prediction
 - New York Motor Vehicle Collisions
 - Online Shopping Dataset
 - PPP via FOIA
 - Predict Accident Risk Score for Unique postcodes
+- Property Sales Data - Exploring Real Estate Trends
 - Travel Insurance
-
-
+- bank and cc complaints
