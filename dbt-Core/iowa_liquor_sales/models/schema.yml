@@ -1,0 +1,85 @@
+version: 2
+
+models:
+  - name: iowa_liquor_sales_dbt_model
+    description: "This model retrieves data from the source table & 
+    makes the initial data transformations"
+    columns:
+      - name: id
+        description: "This is the unique identifier for records in this table"
+      - name: sales_year
+        description: "This is the year of the sale"
+        tests:
+          - not_null
+      - name: sales_month
+        description: "This is the month of the sale"
+        tests:
+          - not_null
+      - name: sales_day
+        description: "This is the day of the month the sale took place."
+        tests:
+          - not_null
+      - name: store_number
+        description: "This is the store number as coded in the system."
+        tests:
+          - not_null
+      - name: store_name
+        description: "This is the name of the store."
+        tests:
+          - not_null
+      - name: store_address
+        description: "This is the street address of the store."
+      - name: store_city
+        description: "This is the city in which the store is"
+      - name: store_zip_code
+        description: "This is the zip code in which the store is"
+      - name: store_location
+        description: "This is the geographical location of the store (longitude & latitude)."
+      - name: store_county_number
+        description: "This is the number coded in the system to represent the 
+        county in which the store is"
+      - name: store_county
+        description: "This is the county in which the store is"
+      - name: item_category
+        description: "This is the item/product category number as coded in the system."
+      - name: category_name
+        description: "This is the item/product category name."
+      - name: vendor_number
+        description: "This is the vendors number as coded in the system."
+      - name: vendor_name
+        description: "This is the vendor name."
+      - name: pack
+        description: "This is the number of items in the package of containers 
+        (i.e.- 6-pack or 12-pack)"
+        tests:
+          - not_null
+      - name: bottle_volume
+        description: "This is the volume of the bottles sold."
+        tests:
+          - not_null
+      - name: state_bottle_cost
+        description: "This is the stated bottle cost."
+      - name: state_bottle_retail
+        description: "This is the stated retail price of the bottle."
+      - name: bottles_sold
+        description: "This is the the number of bottles sold."
+        tests:
+          - not_null
+      - name: sales_dollars
+        description: "This is the sales total (in dollars)"
+        tests:
+          - not_null
+      - name: volume_sold_gallons
+        description: "This is the volume (in gallons) sold for the record"
+        tests:
+          - not_null
+      - name: iowa_zipcode_tab_areas
+        description: "This is the Iowa ZIP Code Tabulation Areas feature."
+      - name: iowa_watershed_sub_basins
+        description: "This is the Iowa Watershed Sub-Basins (HUC 08) feature"
+      - name: iowa_watersheds
+        description: "This is the Iowa Watersheds (HUC 10) feature."
+      - name: iowa_county_boundaries
+        description: "This is the Iowa county boundaries feature."
+      - name: us_counties
+        description: "This is us counties feature."

@@ -1,0 +1,1619 @@
+[0m11:59:21.374412 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd019593220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd01aefc1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd01aed2c70>]}
+
+
+============================== 11:59:21.378540 | b2588238-355c-4ae5-b56c-ccd504dfcf90 ==============================
+[0m11:59:21.378540 [info ] [MainThread]: Running with dbt=1.7.4
+[0m11:59:21.379054 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/briandunn/.dbt', 'log_path': '/Users/briandunn/Desktop/dbt Projects/iowa_liquor_sales/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init my_project', 'send_anonymous_usage_stats': 'True'}
+[0m11:59:21.381177 [info ] [MainThread]: Setting up your profile.
+[0m11:59:26.802468 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 5.5061164, "process_user_time": 1.690496, "process_kernel_time": 0.170631, "process_mem_max_rss": "101228544", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:59:26.805019 [debug] [MainThread]: Command `dbt init` succeeded at 11:59:26.804057 after 5.51 seconds
+[0m11:59:26.806190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd019593220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd01aefcd60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd01aefc730>]}
+[0m11:59:26.807288 [debug] [MainThread]: Flushing usage events
+[0m11:59:32.738809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2a9c6b220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2aae90070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2aae90490>]}
+
+
+============================== 11:59:32.742704 | 7dfbd0d4-dabc-4d76-98d1-a7628aed8842 ==============================
+[0m11:59:32.742704 [info ] [MainThread]: Running with dbt=1.7.4
+[0m11:59:32.743220 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/briandunn/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/briandunn/Desktop/dbt Projects/iowa_liquor_sales/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:59:33.354463 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7dfbd0d4-dabc-4d76-98d1-a7628aed8842', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2aaf0cf70>]}
+[0m11:59:33.465433 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7dfbd0d4-dabc-4d76-98d1-a7628aed8842', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2880fc5b0>]}
+[0m11:59:33.466943 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m11:59:33.493931 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m11:59:33.545431 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m11:59:33.545915 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '7dfbd0d4-dabc-4d76-98d1-a7628aed8842', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb28837dc70>]}
+[0m11:59:34.548071 [error] [MainThread]: Encountered an error:
+Compilation Error in model iowa_liquor_sales_dbt_model_5 (models/iowa_liquor_sales_dbt_model_5.sql)
+  Invalid inline model config
+  
+  > in macro remove_single_value_columns (macros/remove_single_value_columns.sql)
+  > called by model iowa_liquor_sales_dbt_model_5 (models/iowa_liquor_sales_dbt_model_5.sql)
+[0m11:59:34.549823 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 1.8840637, "process_user_time": 3.043475, "process_kernel_time": 0.197318, "process_mem_max_rss": "116621312", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:59:34.550436 [debug] [MainThread]: Command `dbt run` failed at 11:59:34.550193 after 1.88 seconds
+[0m11:59:34.550783 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2a9c6b220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb2ab0895e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fb288411370>]}
+[0m11:59:34.551138 [debug] [MainThread]: Flushing usage events
+[0m12:00:00.760639 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d7991bd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d7aba18e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d7aba1520>]}
+
+
+============================== 12:00:00.764449 | 1fd14c5d-a3ab-446c-891e-79fc8ee32a9c ==============================
+[0m12:00:00.764449 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:00:00.764977 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/Users/briandunn/Desktop/dbt Projects/iowa_liquor_sales/logs', 'profiles_dir': '/Users/briandunn/.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:00:00.982657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '1fd14c5d-a3ab-446c-891e-79fc8ee32a9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d68168910>]}
+[0m12:00:01.093386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '1fd14c5d-a3ab-446c-891e-79fc8ee32a9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d7ae5b220>]}
+[0m12:00:01.094012 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m12:00:01.119320 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m12:00:01.170610 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m12:00:01.171170 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '1fd14c5d-a3ab-446c-891e-79fc8ee32a9c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d7ade35b0>]}
+[0m12:00:02.176009 [error] [MainThread]: Encountered an error:
+Compilation Error in model iowa_liquor_sales_dbt_model_5 (models/iowa_liquor_sales_dbt_model_5.sql)
+  Invalid inline model config
+  
+  > in macro remove_single_value_columns (macros/remove_single_value_columns.sql)
+  > called by model iowa_liquor_sales_dbt_model_5 (models/iowa_liquor_sales_dbt_model_5.sql)
+[0m12:00:02.177880 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 1.4907261, "process_user_time": 3.030001, "process_kernel_time": 0.193743, "process_mem_max_rss": "118104064", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:00:02.178516 [debug] [MainThread]: Command `dbt run` failed at 12:00:02.178265 after 1.49 seconds
+[0m12:00:02.178878 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d7991bd90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d7b17cfa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7d68201340>]}
+[0m12:00:02.179223 [debug] [MainThread]: Flushing usage events
+[0m12:00:59.463793 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b39bfb3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b386a8580>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b249760>]}
+
+
+============================== 12:00:59.467635 | 3e870034-f3b7-4e28-86a1-3573d3f5641c ==============================
+[0m12:00:59.467635 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:00:59.468156 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/Users/briandunn/.dbt', 'log_path': '/Users/briandunn/Desktop/dbt Projects/iowa_liquor_sales/logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:00:59.688000 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '3e870034-f3b7-4e28-86a1-3573d3f5641c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b28f0a0>]}
+[0m12:00:59.801017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '3e870034-f3b7-4e28-86a1-3573d3f5641c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b249160>]}
+[0m12:00:59.801747 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m12:00:59.826959 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m12:00:59.879499 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m12:00:59.880017 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '3e870034-f3b7-4e28-86a1-3573d3f5641c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b403ca0>]}
+[0m12:01:01.436066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '3e870034-f3b7-4e28-86a1-3573d3f5641c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b4dd0d0>]}
+[0m12:01:01.452471 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '3e870034-f3b7-4e28-86a1-3573d3f5641c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b4034f0>]}
+[0m12:01:01.452959 [info ] [MainThread]: Found 3 models, 1 snapshot, 3 analyses, 10 tests, 0 sources, 0 exposures, 0 metrics, 648 macros, 0 groups, 0 semantic models
+[0m12:01:01.453299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3e870034-f3b7-4e28-86a1-3573d3f5641c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b18307430>]}
+[0m12:01:01.454613 [info ] [MainThread]: 
+[0m12:01:01.455328 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m12:01:01.456272 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dbt_ils'
+[0m12:01:01.464743 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils"
+[0m12:01:01.465098 [debug] [ThreadPool]: On list_dbt_ils: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m12:01:01.465382 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:01:01.578116 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.0 seconds
+[0m12:01:01.579567 [debug] [ThreadPool]: On list_dbt_ils: Close
+[0m12:01:01.581013 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_ils, now list_dbt_ils_snapshots)
+[0m12:01:01.586797 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_snapshots"
+[0m12:01:01.587179 [debug] [ThreadPool]: On list_dbt_ils_snapshots: BEGIN
+[0m12:01:01.587486 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:01:01.593047 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:01.593403 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_snapshots"
+[0m12:01:01.593748 [debug] [ThreadPool]: On list_dbt_ils_snapshots: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils_snapshots"} */
+select
+      'dbt_ils' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'snapshots'
+    union all
+    select
+      'dbt_ils' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'snapshots'
+    union all
+    select
+      'dbt_ils' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'snapshots'
+  
+[0m12:01:01.603255 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m12:01:01.604410 [debug] [ThreadPool]: On list_dbt_ils_snapshots: ROLLBACK
+[0m12:01:01.604845 [debug] [ThreadPool]: On list_dbt_ils_snapshots: Close
+[0m12:01:01.605846 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_ils_snapshots, now list_dbt_ils_public)
+[0m12:01:01.609146 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_public"
+[0m12:01:01.609508 [debug] [ThreadPool]: On list_dbt_ils_public: BEGIN
+[0m12:01:01.609819 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:01:01.613534 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:01.613921 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_public"
+[0m12:01:01.614285 [debug] [ThreadPool]: On list_dbt_ils_public: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils_public"} */
+select
+      'dbt_ils' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbt_ils' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbt_ils' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m12:01:01.616160 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.0 seconds
+[0m12:01:01.617354 [debug] [ThreadPool]: On list_dbt_ils_public: ROLLBACK
+[0m12:01:01.617841 [debug] [ThreadPool]: On list_dbt_ils_public: Close
+[0m12:01:01.623567 [debug] [MainThread]: Using postgres connection "master"
+[0m12:01:01.623978 [debug] [MainThread]: On master: BEGIN
+[0m12:01:01.624288 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:01:01.628898 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:01.629246 [debug] [MainThread]: Using postgres connection "master"
+[0m12:01:01.629663 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m12:01:01.641215 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m12:01:01.642591 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '3e870034-f3b7-4e28-86a1-3573d3f5641c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b4ddb50>]}
+[0m12:01:01.643047 [debug] [MainThread]: On master: ROLLBACK
+[0m12:01:01.643478 [debug] [MainThread]: Using postgres connection "master"
+[0m12:01:01.643810 [debug] [MainThread]: On master: BEGIN
+[0m12:01:01.644285 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:01.644618 [debug] [MainThread]: On master: COMMIT
+[0m12:01:01.644944 [debug] [MainThread]: Using postgres connection "master"
+[0m12:01:01.645265 [debug] [MainThread]: On master: COMMIT
+[0m12:01:01.645686 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m12:01:01.646030 [debug] [MainThread]: On master: Close
+[0m12:01:01.646708 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:01:01.647064 [info ] [MainThread]: 
+[0m12:01:01.648984 [debug] [Thread-1  ]: Began running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:01:01.649485 [info ] [Thread-1  ]: 1 of 3 START sql view model public.iowa_liquor_sales_dbt_model ................. [RUN]
+[0m12:01:01.650147 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_dbt_ils_public, now model.iowa_liquor_sales.iowa_liquor_sales_dbt_model)
+[0m12:01:01.650524 [debug] [Thread-1  ]: Began compiling node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:01:01.658943 [debug] [Thread-1  ]: Writing injected SQL for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:01.660039 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model (compile): 12:01:01.650751 => 12:01:01.659779
+[0m12:01:01.660432 [debug] [Thread-1  ]: Began executing node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:01:01.689491 [debug] [Thread-1  ]: Writing runtime sql for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:01.690272 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:01.690616 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: BEGIN
+[0m12:01:01.690928 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m12:01:01.695004 [debug] [Thread-1  ]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:01.695371 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:01.695865 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"} */
+
+  create view "dbt_ils"."public"."iowa_liquor_sales_dbt_model__dbt_tmp"
+    
+    
+  as (
+    /*
+    Title: Iowa Liquor Sales Pipeline
+
+    Author: Brian Dunn
+
+    Date: 01/26/2024
+
+    Summary: Retrieve table and prepare it for analysis.
+
+    Data Source: https://www.kaggle.com/datasets/prattayds/iowa-liquor-sales-full-dataset
+*/
+
+
+
+with source_data as (
+    SELECT 
+        ROW_NUMBER() OVER () as id,
+        invoice_item_number,
+        date_of_sale,
+        CAST(COALESCE(EXTRACT(YEAR FROM date_of_sale), -1) AS INTEGER) AS sales_year,
+        CAST(COALESCE(EXTRACT(MONTH FROM date_of_sale), -1) AS INTEGER) AS sales_month,
+        CAST(COALESCE(EXTRACT(DAY FROM date_of_sale), -1) AS INTEGER) AS sales_day,
+        store_number,
+        TRIM(BOTH ' ' FROM store_name) AS store_name,
+        TRIM(BOTH ' ' FROM store_address) AS store_address,
+        TRIM(BOTH ' ' FROM store_city) AS store_city,
+        CASE
+            WHEN store_number = '4307' THEN '51529'
+            ELSE COALESCE(REGEXP_REPLACE(store_zip_code, '[,"]', '', 'g'), '00000')
+        END AS store_zip_code,
+        store_location,
+        store_county_number,
+        TRIM(BOTH ' ' FROM store_county) AS store_county,
+        TRIM(BOTH ' ' FROM item_category) AS item_category,
+        TRIM(BOTH ' ' FROM category_name) AS category_name,
+        vendor_number,
+        TRIM(BOTH ' ' FROM vendor_name) AS vendor_name,
+        item_number,
+        item_description,
+        COALESCE(pack, -1) AS pack,
+        CAST(COALESCE(REGEXP_REPLACE(bottle_volume, '[,"]', '', 'g'), '-1') AS INTEGER) AS bottle_volume,
+        CAST(COALESCE(REGEXP_REPLACE(state_bottle_cost, '[,"]', '', 'g'), '-1') AS FLOAT) AS state_bottle_cost,
+        CAST(COALESCE(REGEXP_REPLACE(state_bottle_retail, '[,"]', '', 'g'), '-1') AS FLOAT) AS state_bottle_retail,
+        CAST(COALESCE(REGEXP_REPLACE(bottles_sold, '[,"]', '', 'g'), '-1') AS INTEGER) AS bottles_sold,
+        CAST(COALESCE(REGEXP_REPLACE(sale_dollars, '[,"]', '', 'g'), '-1') AS FLOAT) AS sales_dollars,
+        CAST(COALESCE(REGEXP_REPLACE(volume_sold_liters, '[,"]', '', 'g'), '-1') AS FLOAT) AS volume_sold_liters,
+        CAST(COALESCE(REGEXP_REPLACE(volume_sold_gallons, '[,"]', '', 'g'), '-1') AS FLOAT) AS volume_sold_gallons,
+        CAST(COALESCE(REGEXP_REPLACE(iowa_zip_code_tabulation_areas, '[,"]', '', 'g'), '-1') AS FLOAT) AS iowa_zipcode_tab_areas,
+        CAST(COALESCE(REGEXP_REPLACE(iowa_watershed_sub_basins, '[,"]', '', 'g'), '-1') AS FLOAT) AS iowa_watershed_sub_basins,
+        CAST(COALESCE(REGEXP_REPLACE(iowa_watersheds, '[,"]', '', 'g'), '-1') AS FLOAT) AS iowa_watersheds,
+        CAST(COALESCE(county_boundaries_of_iowa, '-1') AS FLOAT) AS iowa_county_boundaries,
+        CAST(COALESCE(REGEXP_REPLACE(us_counties, '[,"]', '', 'g'), '-1') AS INTEGER) AS us_counties
+    FROM iowa_liquor_sales
+)
+select
+    id,
+    store_number,
+    store_name,
+    store_city,
+    store_zip_code,
+    store_county,
+    item_category,
+    category_name,
+    vendor_name,
+    pack,
+    bottle_volume,
+    state_bottle_cost,
+    state_bottle_retail,
+    bottles_sold,
+    sales_dollars,
+    volume_sold_gallons,
+    iowa_zipcode_tab_areas,
+    iowa_watershed_sub_basins,
+    iowa_watersheds,
+    iowa_county_boundaries,
+    us_counties,
+    sales_year,
+    sales_month,
+    sales_day
+from source_data
+  );
+[0m12:01:01.715657 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.0 seconds
+[0m12:01:01.723600 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:01.724100 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"} */
+alter table "dbt_ils"."public"."iowa_liquor_sales_dbt_model" rename to "iowa_liquor_sales_dbt_model__dbt_backup"
+[0m12:01:01.725514 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m12:01:01.728993 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:01.729508 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"} */
+alter table "dbt_ils"."public"."iowa_liquor_sales_dbt_model__dbt_tmp" rename to "iowa_liquor_sales_dbt_model"
+[0m12:01:01.730552 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m12:01:01.744926 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: COMMIT
+[0m12:01:01.745328 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:01.745667 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: COMMIT
+[0m12:01:01.747953 [debug] [Thread-1  ]: SQL status: COMMIT in 0.0 seconds
+[0m12:01:01.753820 [debug] [Thread-1  ]: Applying DROP to: "dbt_ils"."public"."iowa_liquor_sales_dbt_model__dbt_backup"
+[0m12:01:01.757661 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:01.758100 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"} */
+drop view if exists "dbt_ils"."public"."iowa_liquor_sales_dbt_model__dbt_backup" cascade
+[0m12:01:01.763674 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.0 seconds
+[0m12:01:01.765033 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model (execute): 12:01:01.660652 => 12:01:01.764818
+[0m12:01:01.765426 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: Close
+[0m12:01:01.766120 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e870034-f3b7-4e28-86a1-3573d3f5641c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b4894ce20>]}
+[0m12:01:01.766877 [info ] [Thread-1  ]: 1 of 3 OK created sql view model public.iowa_liquor_sales_dbt_model ............ [[32mCREATE VIEW[0m in 0.12s]
+[0m12:01:01.767444 [debug] [Thread-1  ]: Finished running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:01:01.768137 [debug] [Thread-1  ]: Began running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:01:01.768622 [info ] [Thread-1  ]: 2 of 3 START sql table model public.iowa_liquor_sales_dbt_model_2 .............. [RUN]
+[0m12:01:01.769240 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.iowa_liquor_sales.iowa_liquor_sales_dbt_model, now model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2)
+[0m12:01:01.769608 [debug] [Thread-1  ]: Began compiling node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:01:01.774284 [debug] [Thread-1  ]: Writing injected SQL for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:01:01.775094 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2 (compile): 12:01:01.769831 => 12:01:01.774876
+[0m12:01:01.775460 [debug] [Thread-1  ]: Began executing node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:01:01.795510 [debug] [Thread-1  ]: Writing runtime sql for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:01:01.796276 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:01:01.796621 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: BEGIN
+[0m12:01:01.796938 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m12:01:01.801220 [debug] [Thread-1  ]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:01.801574 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:01:01.801987 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"} */
+
+  
+    
+
+  create  table "dbt_ils"."public"."iowa_liquor_sales_dbt_model_2__dbt_tmp"
+  
+  
+    as
+  
+  (
+    /*
+    Title: Iowa Liquor Sales Pipeline
+
+    Author: Brian Dunn
+
+    Date: 01/26/2024
+
+    Summary: Retrieve table and prepare it for analysis.
+
+    Data Source: https://www.kaggle.com/datasets/prattayds/iowa-liquor-sales-full-dataset
+*/
+
+
+
+with cleaned_data as (
+    select
+        *
+    from "dbt_ils"."public"."iowa_liquor_sales_dbt_model"
+    where
+        (
+            
+                store_number is not null
+                 and 
+            
+                store_name is not null
+                 and 
+            
+                store_city is not null
+                 and 
+            
+                store_zip_code is not null
+                 and 
+            
+                store_county is not null
+                 and 
+            
+                item_category is not null
+                 and 
+            
+                category_name is not null
+                 and 
+            
+                vendor_name is not null
+                 and 
+            
+                state_bottle_cost is not null
+                 and 
+            
+                state_bottle_retail is not null
+                 and 
+            
+                sales_dollars is not null
+                 and 
+            
+                iowa_zipcode_tab_areas is not null
+                 and 
+            
+                iowa_watershed_sub_basins is not null
+                 and 
+            
+                iowa_watersheds is not null
+                 and 
+            
+                iowa_county_boundaries is not null
+                 and 
+            
+                us_counties is not null
+                
+            
+        )
+)
+
+select * from cleaned_data;
+  );
+  
+[0m12:01:01.802738 [debug] [Thread-1  ]: Postgres adapter: Postgres error: syntax error at or near ";"
+LINE 84: select * from cleaned_data;
+                                   ^
+
+[0m12:01:01.803135 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: ROLLBACK
+[0m12:01:01.803735 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2 (execute): 12:01:01.775675 => 12:01:01.803534
+[0m12:01:01.804083 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: Close
+[0m12:01:01.808484 [debug] [Thread-1  ]: Database Error in model iowa_liquor_sales_dbt_model_2 (models/iowa_liquor_sales_dbt_model_2.sql)
+  syntax error at or near ";"
+  LINE 84: select * from cleaned_data;
+                                     ^
+  compiled Code at target/run/iowa_liquor_sales/models/iowa_liquor_sales_dbt_model_2.sql
+[0m12:01:01.809018 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '3e870034-f3b7-4e28-86a1-3573d3f5641c', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b4ec8e0>]}
+[0m12:01:01.809551 [error] [Thread-1  ]: 2 of 3 ERROR creating sql table model public.iowa_liquor_sales_dbt_model_2 ..... [[31mERROR[0m in 0.04s]
+[0m12:01:01.810100 [debug] [Thread-1  ]: Finished running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:01:01.810743 [debug] [Thread-1  ]: Began running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3
+[0m12:01:01.811206 [info ] [Thread-1  ]: 3 of 3 SKIP relation public.iowa_liquor_sales_dbt_model_3 ...................... [[33mSKIP[0m]
+[0m12:01:01.811654 [debug] [Thread-1  ]: Finished running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3
+[0m12:01:01.812582 [debug] [MainThread]: Using postgres connection "master"
+[0m12:01:01.812881 [debug] [MainThread]: On master: BEGIN
+[0m12:01:01.813151 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m12:01:01.818885 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:01.819211 [debug] [MainThread]: On master: COMMIT
+[0m12:01:01.819494 [debug] [MainThread]: Using postgres connection "master"
+[0m12:01:01.819771 [debug] [MainThread]: On master: COMMIT
+[0m12:01:01.820169 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m12:01:01.820451 [debug] [MainThread]: On master: Close
+[0m12:01:01.820981 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:01:01.821257 [debug] [MainThread]: Connection 'model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2' was properly closed.
+[0m12:01:01.821582 [info ] [MainThread]: 
+[0m12:01:01.821900 [info ] [MainThread]: Finished running 1 view model, 2 table models in 0 hours 0 minutes and 0.37 seconds (0.37s).
+[0m12:01:01.822610 [debug] [MainThread]: Command end result
+[0m12:01:01.833117 [info ] [MainThread]: 
+[0m12:01:01.833547 [info ] [MainThread]: [31mCompleted with 1 error and 0 warnings:[0m
+[0m12:01:01.833851 [info ] [MainThread]: 
+[0m12:01:01.834146 [error] [MainThread]:   Database Error in model iowa_liquor_sales_dbt_model_2 (models/iowa_liquor_sales_dbt_model_2.sql)
+  syntax error at or near ";"
+  LINE 84: select * from cleaned_data;
+                                     ^
+  compiled Code at target/run/iowa_liquor_sales/models/iowa_liquor_sales_dbt_model_2.sql
+[0m12:01:01.834448 [info ] [MainThread]: 
+[0m12:01:01.834753 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=1 SKIP=1 TOTAL=3
+[0m12:01:01.836496 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 2.446081, "process_user_time": 3.812152, "process_kernel_time": 0.246642, "process_mem_max_rss": "138244096", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:01:01.837037 [debug] [MainThread]: Command `dbt run` failed at 12:01:01.836914 after 2.45 seconds
+[0m12:01:01.837399 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b39bfb3d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b28f0a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7b3b249160>]}
+[0m12:01:01.837768 [debug] [MainThread]: Flushing usage events
+[0m12:01:29.588810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f07fb0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f8f60e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f8f60cd0>]}
+
+
+============================== 12:01:29.592685 | 43e02ac6-5ada-4231-8577-02c98fcefe5f ==============================
+[0m12:01:29.592685 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:01:29.593203 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/briandunn/Desktop/dbt Projects/iowa_liquor_sales/logs', 'profiles_dir': '/Users/briandunn/.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt run', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:01:29.809056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '43e02ac6-5ada-4231-8577-02c98fcefe5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7e96e3220>]}
+[0m12:01:29.920240 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '43e02ac6-5ada-4231-8577-02c98fcefe5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7e96dbee0>]}
+[0m12:01:29.920897 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m12:01:29.946904 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m12:01:29.998176 [info ] [MainThread]: Unable to do partial parsing because of a version mismatch
+[0m12:01:29.998677 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '43e02ac6-5ada-4231-8577-02c98fcefe5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7e9947640>]}
+[0m12:01:31.509722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '43e02ac6-5ada-4231-8577-02c98fcefe5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa8088570d0>]}
+[0m12:01:31.523988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '43e02ac6-5ada-4231-8577-02c98fcefe5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7e9b87b80>]}
+[0m12:01:31.524443 [info ] [MainThread]: Found 3 models, 1 snapshot, 3 analyses, 10 tests, 0 sources, 0 exposures, 0 metrics, 648 macros, 0 groups, 0 semantic models
+[0m12:01:31.524778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '43e02ac6-5ada-4231-8577-02c98fcefe5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7e9c4cf40>]}
+[0m12:01:31.526027 [info ] [MainThread]: 
+[0m12:01:31.526683 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m12:01:31.527638 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dbt_ils'
+[0m12:01:31.536838 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils"
+[0m12:01:31.537294 [debug] [ThreadPool]: On list_dbt_ils: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m12:01:31.537592 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:01:31.560667 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.0 seconds
+[0m12:01:31.561951 [debug] [ThreadPool]: On list_dbt_ils: Close
+[0m12:01:31.563288 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_ils, now list_dbt_ils_public)
+[0m12:01:31.568427 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_public"
+[0m12:01:31.568779 [debug] [ThreadPool]: On list_dbt_ils_public: BEGIN
+[0m12:01:31.569062 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:01:31.575924 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:31.576253 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_public"
+[0m12:01:31.576571 [debug] [ThreadPool]: On list_dbt_ils_public: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils_public"} */
+select
+      'dbt_ils' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbt_ils' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbt_ils' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m12:01:31.581619 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.0 seconds
+[0m12:01:31.582758 [debug] [ThreadPool]: On list_dbt_ils_public: ROLLBACK
+[0m12:01:31.583298 [debug] [ThreadPool]: On list_dbt_ils_public: Close
+[0m12:01:31.584243 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_ils_public, now list_dbt_ils_snapshots)
+[0m12:01:31.588199 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_snapshots"
+[0m12:01:31.588556 [debug] [ThreadPool]: On list_dbt_ils_snapshots: BEGIN
+[0m12:01:31.588857 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:01:31.595094 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:31.595506 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_snapshots"
+[0m12:01:31.595883 [debug] [ThreadPool]: On list_dbt_ils_snapshots: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils_snapshots"} */
+select
+      'dbt_ils' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'snapshots'
+    union all
+    select
+      'dbt_ils' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'snapshots'
+    union all
+    select
+      'dbt_ils' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'snapshots'
+  
+[0m12:01:31.600558 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m12:01:31.601852 [debug] [ThreadPool]: On list_dbt_ils_snapshots: ROLLBACK
+[0m12:01:31.602398 [debug] [ThreadPool]: On list_dbt_ils_snapshots: Close
+[0m12:01:31.607084 [debug] [MainThread]: Using postgres connection "master"
+[0m12:01:31.607552 [debug] [MainThread]: On master: BEGIN
+[0m12:01:31.607842 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:01:31.613759 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:31.614118 [debug] [MainThread]: Using postgres connection "master"
+[0m12:01:31.614529 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m12:01:31.631395 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m12:01:31.632810 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '43e02ac6-5ada-4231-8577-02c98fcefe5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa808857880>]}
+[0m12:01:31.633257 [debug] [MainThread]: On master: ROLLBACK
+[0m12:01:31.633727 [debug] [MainThread]: Using postgres connection "master"
+[0m12:01:31.634039 [debug] [MainThread]: On master: BEGIN
+[0m12:01:31.634652 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:31.634972 [debug] [MainThread]: On master: COMMIT
+[0m12:01:31.635272 [debug] [MainThread]: Using postgres connection "master"
+[0m12:01:31.635564 [debug] [MainThread]: On master: COMMIT
+[0m12:01:31.635968 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m12:01:31.636280 [debug] [MainThread]: On master: Close
+[0m12:01:31.636915 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:01:31.637247 [info ] [MainThread]: 
+[0m12:01:31.638908 [debug] [Thread-1  ]: Began running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:01:31.639385 [info ] [Thread-1  ]: 1 of 3 START sql view model public.iowa_liquor_sales_dbt_model ................. [RUN]
+[0m12:01:31.640005 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_dbt_ils_snapshots, now model.iowa_liquor_sales.iowa_liquor_sales_dbt_model)
+[0m12:01:31.640372 [debug] [Thread-1  ]: Began compiling node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:01:31.648424 [debug] [Thread-1  ]: Writing injected SQL for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:31.649225 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model (compile): 12:01:31.640594 => 12:01:31.648994
+[0m12:01:31.649587 [debug] [Thread-1  ]: Began executing node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:01:31.677752 [debug] [Thread-1  ]: Writing runtime sql for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:31.678497 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:31.678842 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: BEGIN
+[0m12:01:31.679156 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m12:01:31.683842 [debug] [Thread-1  ]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:31.684216 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:31.684718 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"} */
+
+  create view "dbt_ils"."public"."iowa_liquor_sales_dbt_model__dbt_tmp"
+    
+    
+  as (
+    /*
+    Title: Iowa Liquor Sales Pipeline
+
+    Author: Brian Dunn
+
+    Date: 01/26/2024
+
+    Summary: Retrieve table and prepare it for analysis.
+
+    Data Source: https://www.kaggle.com/datasets/prattayds/iowa-liquor-sales-full-dataset
+*/
+
+
+
+with source_data as (
+    SELECT 
+        ROW_NUMBER() OVER () as id,
+        invoice_item_number,
+        date_of_sale,
+        CAST(COALESCE(EXTRACT(YEAR FROM date_of_sale), -1) AS INTEGER) AS sales_year,
+        CAST(COALESCE(EXTRACT(MONTH FROM date_of_sale), -1) AS INTEGER) AS sales_month,
+        CAST(COALESCE(EXTRACT(DAY FROM date_of_sale), -1) AS INTEGER) AS sales_day,
+        store_number,
+        TRIM(BOTH ' ' FROM store_name) AS store_name,
+        TRIM(BOTH ' ' FROM store_address) AS store_address,
+        TRIM(BOTH ' ' FROM store_city) AS store_city,
+        CASE
+            WHEN store_number = '4307' THEN '51529'
+            ELSE COALESCE(REGEXP_REPLACE(store_zip_code, '[,"]', '', 'g'), '00000')
+        END AS store_zip_code,
+        store_location,
+        store_county_number,
+        TRIM(BOTH ' ' FROM store_county) AS store_county,
+        TRIM(BOTH ' ' FROM item_category) AS item_category,
+        TRIM(BOTH ' ' FROM category_name) AS category_name,
+        vendor_number,
+        TRIM(BOTH ' ' FROM vendor_name) AS vendor_name,
+        item_number,
+        item_description,
+        COALESCE(pack, -1) AS pack,
+        CAST(COALESCE(REGEXP_REPLACE(bottle_volume, '[,"]', '', 'g'), '-1') AS INTEGER) AS bottle_volume,
+        CAST(COALESCE(REGEXP_REPLACE(state_bottle_cost, '[,"]', '', 'g'), '-1') AS FLOAT) AS state_bottle_cost,
+        CAST(COALESCE(REGEXP_REPLACE(state_bottle_retail, '[,"]', '', 'g'), '-1') AS FLOAT) AS state_bottle_retail,
+        CAST(COALESCE(REGEXP_REPLACE(bottles_sold, '[,"]', '', 'g'), '-1') AS INTEGER) AS bottles_sold,
+        CAST(COALESCE(REGEXP_REPLACE(sale_dollars, '[,"]', '', 'g'), '-1') AS FLOAT) AS sales_dollars,
+        CAST(COALESCE(REGEXP_REPLACE(volume_sold_liters, '[,"]', '', 'g'), '-1') AS FLOAT) AS volume_sold_liters,
+        CAST(COALESCE(REGEXP_REPLACE(volume_sold_gallons, '[,"]', '', 'g'), '-1') AS FLOAT) AS volume_sold_gallons,
+        CAST(COALESCE(REGEXP_REPLACE(iowa_zip_code_tabulation_areas, '[,"]', '', 'g'), '-1') AS FLOAT) AS iowa_zipcode_tab_areas,
+        CAST(COALESCE(REGEXP_REPLACE(iowa_watershed_sub_basins, '[,"]', '', 'g'), '-1') AS FLOAT) AS iowa_watershed_sub_basins,
+        CAST(COALESCE(REGEXP_REPLACE(iowa_watersheds, '[,"]', '', 'g'), '-1') AS FLOAT) AS iowa_watersheds,
+        CAST(COALESCE(county_boundaries_of_iowa, '-1') AS FLOAT) AS iowa_county_boundaries,
+        CAST(COALESCE(REGEXP_REPLACE(us_counties, '[,"]', '', 'g'), '-1') AS INTEGER) AS us_counties
+    FROM iowa_liquor_sales
+)
+select
+    id,
+    store_number,
+    store_name,
+    store_city,
+    store_zip_code,
+    store_county,
+    item_category,
+    category_name,
+    vendor_name,
+    pack,
+    bottle_volume,
+    state_bottle_cost,
+    state_bottle_retail,
+    bottles_sold,
+    sales_dollars,
+    volume_sold_gallons,
+    iowa_zipcode_tab_areas,
+    iowa_watershed_sub_basins,
+    iowa_watersheds,
+    iowa_county_boundaries,
+    us_counties,
+    sales_year,
+    sales_month,
+    sales_day
+from source_data
+  );
+[0m12:01:31.691239 [debug] [Thread-1  ]: SQL status: CREATE VIEW in 0.0 seconds
+[0m12:01:31.698353 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:31.698772 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"} */
+alter table "dbt_ils"."public"."iowa_liquor_sales_dbt_model" rename to "iowa_liquor_sales_dbt_model__dbt_backup"
+[0m12:01:31.700165 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m12:01:31.703210 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:31.703644 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"} */
+alter table "dbt_ils"."public"."iowa_liquor_sales_dbt_model__dbt_tmp" rename to "iowa_liquor_sales_dbt_model"
+[0m12:01:31.704934 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m12:01:31.718254 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: COMMIT
+[0m12:01:31.718659 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:31.718994 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: COMMIT
+[0m12:01:31.720296 [debug] [Thread-1  ]: SQL status: COMMIT in 0.0 seconds
+[0m12:01:31.725644 [debug] [Thread-1  ]: Applying DROP to: "dbt_ils"."public"."iowa_liquor_sales_dbt_model__dbt_backup"
+[0m12:01:31.729168 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:01:31.729528 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"} */
+drop view if exists "dbt_ils"."public"."iowa_liquor_sales_dbt_model__dbt_backup" cascade
+[0m12:01:31.731887 [debug] [Thread-1  ]: SQL status: DROP VIEW in 0.0 seconds
+[0m12:01:31.733076 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model (execute): 12:01:31.649797 => 12:01:31.732881
+[0m12:01:31.733444 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model: Close
+[0m12:01:31.734074 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '43e02ac6-5ada-4231-8577-02c98fcefe5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa80893ea00>]}
+[0m12:01:31.734753 [info ] [Thread-1  ]: 1 of 3 OK created sql view model public.iowa_liquor_sales_dbt_model ............ [[32mCREATE VIEW[0m in 0.09s]
+[0m12:01:31.735275 [debug] [Thread-1  ]: Finished running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:01:31.735962 [debug] [Thread-1  ]: Began running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:01:31.736376 [info ] [Thread-1  ]: 2 of 3 START sql table model public.iowa_liquor_sales_dbt_model_2 .............. [RUN]
+[0m12:01:31.736958 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.iowa_liquor_sales.iowa_liquor_sales_dbt_model, now model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2)
+[0m12:01:31.737302 [debug] [Thread-1  ]: Began compiling node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:01:31.741433 [debug] [Thread-1  ]: Writing injected SQL for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:01:31.742141 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2 (compile): 12:01:31.737527 => 12:01:31.741932
+[0m12:01:31.742497 [debug] [Thread-1  ]: Began executing node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:01:31.761565 [debug] [Thread-1  ]: Writing runtime sql for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:01:31.762278 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:01:31.762615 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: BEGIN
+[0m12:01:31.762921 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m12:01:31.767197 [debug] [Thread-1  ]: SQL status: BEGIN in 0.0 seconds
+[0m12:01:31.767534 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:01:31.767944 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"} */
+
+  
+    
+
+  create  table "dbt_ils"."public"."iowa_liquor_sales_dbt_model_2__dbt_tmp"
+  
+  
+    as
+  
+  (
+    /*
+    Title: Iowa Liquor Sales Pipeline
+
+    Author: Brian Dunn
+
+    Date: 01/26/2024
+
+    Summary: Retrieve table and prepare it for analysis.
+
+    Data Source: https://www.kaggle.com/datasets/prattayds/iowa-liquor-sales-full-dataset
+*/
+
+
+
+with cleaned_data as (
+    select
+        *
+    from "dbt_ils"."public"."iowa_liquor_sales_dbt_model"
+    where
+        (
+            
+                store_number is not null
+                 and 
+            
+                store_name is not null
+                 and 
+            
+                store_city is not null
+                 and 
+            
+                store_zip_code is not null
+                 and 
+            
+                store_county is not null
+                 and 
+            
+                item_category is not null
+                 and 
+            
+                category_name is not null
+                 and 
+            
+                vendor_name is not null
+                 and 
+            
+                state_bottle_cost is not null
+                 and 
+            
+                state_bottle_retail is not null
+                 and 
+            
+                sales_dollars is not null
+                 and 
+            
+                iowa_zipcode_tab_areas is not null
+                 and 
+            
+                iowa_watershed_sub_basins is not null
+                 and 
+            
+                iowa_watersheds is not null
+                 and 
+            
+                iowa_county_boundaries is not null
+                 and 
+            
+                us_counties is not null
+                
+            
+        )
+)
+
+select * from cleaned_data
+  );
+  
+[0m12:04:25.329489 [debug] [Thread-1  ]: SQL status: SELECT 27305576 in 174.0 seconds
+[0m12:04:25.348700 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:04:25.349828 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"} */
+alter table "dbt_ils"."public"."iowa_liquor_sales_dbt_model_2" rename to "iowa_liquor_sales_dbt_model_2__dbt_backup"
+[0m12:04:25.351129 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m12:04:25.355540 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:04:25.356001 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"} */
+alter table "dbt_ils"."public"."iowa_liquor_sales_dbt_model_2__dbt_tmp" rename to "iowa_liquor_sales_dbt_model_2"
+[0m12:04:25.419247 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m12:04:25.425143 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: COMMIT
+[0m12:04:25.425593 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:04:25.425932 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: COMMIT
+[0m12:04:25.429167 [debug] [Thread-1  ]: SQL status: COMMIT in 0.0 seconds
+[0m12:04:25.432252 [debug] [Thread-1  ]: Applying DROP to: "dbt_ils"."public"."iowa_liquor_sales_dbt_model_2__dbt_backup"
+[0m12:04:25.437122 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:04:25.438160 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"} */
+drop table if exists "dbt_ils"."public"."iowa_liquor_sales_dbt_model_2__dbt_backup" cascade
+[0m12:04:25.620861 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+[0m12:04:25.628483 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2 (execute): 12:01:31.742712 => 12:04:25.627364
+[0m12:04:25.630557 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2: Close
+[0m12:04:25.631950 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '43e02ac6-5ada-4231-8577-02c98fcefe5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7e9e8dcd0>]}
+[0m12:04:25.632924 [info ] [Thread-1  ]: 2 of 3 OK created sql table model public.iowa_liquor_sales_dbt_model_2 ......... [[32mSELECT 27305576[0m in 173.89s]
+[0m12:04:25.633547 [debug] [Thread-1  ]: Finished running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:04:25.634955 [debug] [Thread-1  ]: Began running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3
+[0m12:04:25.635489 [info ] [Thread-1  ]: 3 of 3 START sql table model public.iowa_liquor_sales_dbt_model_3 .............. [RUN]
+[0m12:04:25.636178 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2, now model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3)
+[0m12:04:25.636535 [debug] [Thread-1  ]: Began compiling node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3
+[0m12:04:25.643034 [debug] [Thread-1  ]: Writing injected SQL for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"
+[0m12:04:25.644980 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3 (compile): 12:04:25.636757 => 12:04:25.644751
+[0m12:04:25.645369 [debug] [Thread-1  ]: Began executing node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3
+[0m12:04:25.652644 [debug] [Thread-1  ]: Writing runtime sql for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"
+[0m12:04:25.653783 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"
+[0m12:04:25.654285 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3: BEGIN
+[0m12:04:25.654724 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m12:04:25.661128 [debug] [Thread-1  ]: SQL status: BEGIN in 0.0 seconds
+[0m12:04:25.661646 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"
+[0m12:04:25.662080 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"} */
+
+  
+    
+
+  create  table "dbt_ils"."public"."iowa_liquor_sales_dbt_model_3__dbt_tmp"
+  
+  
+    as
+  
+  (
+    /*
+    Title: Iowa Liquor Sales Pipeline
+
+    Author: Brian Dunn
+
+    Date: 01/26/2024
+
+    Summary: Retrieve table and prepare it for analysis.
+
+    Data Source: https://www.kaggle.com/datasets/prattayds/iowa-liquor-sales-full-dataset
+*/
+
+
+
+WITH filtered_data AS (
+    SELECT *
+    FROM "dbt_ils"."public"."iowa_liquor_sales_dbt_model_2"
+    WHERE sales_dollars < 10001
+)
+
+SELECT *
+FROM filtered_data
+  );
+  
+[0m12:06:19.628163 [debug] [Thread-1  ]: SQL status: SELECT 27295943 in 114.0 seconds
+[0m12:06:19.646580 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"
+[0m12:06:19.648110 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"} */
+alter table "dbt_ils"."public"."iowa_liquor_sales_dbt_model_3" rename to "iowa_liquor_sales_dbt_model_3__dbt_backup"
+[0m12:06:19.650410 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 0.0 seconds
+[0m12:06:19.657742 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"
+[0m12:06:19.658245 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"} */
+alter table "dbt_ils"."public"."iowa_liquor_sales_dbt_model_3__dbt_tmp" rename to "iowa_liquor_sales_dbt_model_3"
+[0m12:06:20.376448 [debug] [Thread-1  ]: SQL status: ALTER TABLE in 1.0 seconds
+[0m12:06:20.387644 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3: COMMIT
+[0m12:06:20.390000 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"
+[0m12:06:20.391916 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3: COMMIT
+[0m12:06:20.395344 [debug] [Thread-1  ]: SQL status: COMMIT in 0.0 seconds
+[0m12:06:20.408573 [debug] [Thread-1  ]: Applying DROP to: "dbt_ils"."public"."iowa_liquor_sales_dbt_model_3__dbt_backup"
+[0m12:06:20.410979 [debug] [Thread-1  ]: Using postgres connection "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"
+[0m12:06:20.412058 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"} */
+drop table if exists "dbt_ils"."public"."iowa_liquor_sales_dbt_model_3__dbt_backup" cascade
+[0m12:06:20.794921 [debug] [Thread-1  ]: SQL status: DROP TABLE in 0.0 seconds
+[0m12:06:20.800291 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3 (execute): 12:04:25.645595 => 12:06:20.799491
+[0m12:06:20.802094 [debug] [Thread-1  ]: On model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3: Close
+[0m12:06:20.804926 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '43e02ac6-5ada-4231-8577-02c98fcefe5f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7e9ea4f70>]}
+[0m12:06:20.806970 [info ] [Thread-1  ]: 3 of 3 OK created sql table model public.iowa_liquor_sales_dbt_model_3 ......... [[32mSELECT 27295943[0m in 115.17s]
+[0m12:06:20.808928 [debug] [Thread-1  ]: Finished running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3
+[0m12:06:20.815508 [debug] [MainThread]: Using postgres connection "master"
+[0m12:06:20.815971 [debug] [MainThread]: On master: BEGIN
+[0m12:06:20.816278 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m12:06:20.823038 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m12:06:20.823465 [debug] [MainThread]: On master: COMMIT
+[0m12:06:20.823772 [debug] [MainThread]: Using postgres connection "master"
+[0m12:06:20.824066 [debug] [MainThread]: On master: COMMIT
+[0m12:06:20.824460 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m12:06:20.824759 [debug] [MainThread]: On master: Close
+[0m12:06:20.825398 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:06:20.825692 [debug] [MainThread]: Connection 'model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3' was properly closed.
+[0m12:06:20.826722 [info ] [MainThread]: 
+[0m12:06:20.827112 [info ] [MainThread]: Finished running 1 view model, 2 table models in 0 hours 4 minutes and 49.30 seconds (289.30s).
+[0m12:06:20.827980 [debug] [MainThread]: Command end result
+[0m12:06:20.842843 [info ] [MainThread]: 
+[0m12:06:20.843323 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:06:20.843659 [info ] [MainThread]: 
+[0m12:06:20.844036 [info ] [MainThread]: Done. PASS=3 WARN=0 ERROR=0 SKIP=0 TOTAL=3
+[0m12:06:20.855406 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 291.34546, "process_user_time": 3.896194, "process_kernel_time": 0.226431, "process_mem_max_rss": "134623232", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:06:20.856270 [debug] [MainThread]: Command `dbt run` succeeded at 12:06:20.856119 after 291.35 seconds
+[0m12:06:20.856762 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa7f07fb0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa80886bb80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa80886bcd0>]}
+[0m12:06:20.857188 [debug] [MainThread]: Flushing usage events
+[0m12:06:36.477467 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee183fa0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2b0488e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2b048520>]}
+
+
+============================== 12:06:36.481832 | 99d319d3-a8dc-4f92-9a44-4c6ce341e839 ==============================
+[0m12:06:36.481832 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:06:36.482351 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/briandunn/.dbt', 'log_path': '/Users/briandunn/Desktop/dbt Projects/iowa_liquor_sales/logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --models snapshots.iowa_liquor_sales_snapshot', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m12:06:36.739694 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '99d319d3-a8dc-4f92-9a44-4c6ce341e839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2b073d60>]}
+[0m12:06:36.850312 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '99d319d3-a8dc-4f92-9a44-4c6ce341e839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2b1ee0a0>]}
+[0m12:06:36.851236 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m12:06:36.878406 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m12:06:36.967460 [debug] [MainThread]: Partial parsing enabled: 2 files deleted, 0 files added, 0 files changed.
+[0m12:06:36.967905 [debug] [MainThread]: Partial parsing: deleted file: iowa_liquor_sales://macros/macro_remove_outliers.sql
+[0m12:06:36.968186 [debug] [MainThread]: Partial parsing: deleted file: iowa_liquor_sales://macros/remove_single_value_columns.sql
+[0m12:06:36.978966 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '99d319d3-a8dc-4f92-9a44-4c6ce341e839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2b33d0d0>]}
+[0m12:06:36.994332 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '99d319d3-a8dc-4f92-9a44-4c6ce341e839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee083c0520>]}
+[0m12:06:36.994795 [info ] [MainThread]: Found 3 models, 1 snapshot, 3 analyses, 10 tests, 0 sources, 0 exposures, 0 metrics, 646 macros, 0 groups, 0 semantic models
+[0m12:06:36.995153 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '99d319d3-a8dc-4f92-9a44-4c6ce341e839', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee083c04c0>]}
+[0m12:06:36.995714 [warn ] [MainThread]: The selection criterion 'snapshots.iowa_liquor_sales_snapshot' does not match any nodes
+[0m12:06:36.996485 [info ] [MainThread]: 
+[0m12:06:36.996787 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m12:06:36.997235 [debug] [MainThread]: Command end result
+[0m12:06:37.006932 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.6089295, "process_user_time": 2.07761, "process_kernel_time": 0.412771, "process_mem_max_rss": "115859456", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:06:37.007686 [debug] [MainThread]: Command `dbt run` succeeded at 12:06:37.007393 after 0.61 seconds
+[0m12:06:37.008064 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee183fa0d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2b267490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fee2b073430>]}
+[0m12:06:37.008413 [debug] [MainThread]: Flushing usage events
+[0m12:09:33.587288 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6099f33d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa60b3f0820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa60b3f0340>]}
+
+
+============================== 12:09:33.592031 | 7fed2118-a9dd-4d05-aea4-592f6e2ad4ce ==============================
+[0m12:09:33.592031 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:09:33.592626 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/Users/briandunn/.dbt', 'log_path': '/Users/briandunn/Desktop/dbt Projects/iowa_liquor_sales/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --models -h', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:09:33.862941 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '7fed2118-a9dd-4d05-aea4-592f6e2ad4ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa60b3d1bb0>]}
+[0m12:09:33.974230 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '7fed2118-a9dd-4d05-aea4-592f6e2ad4ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa609eb9430>]}
+[0m12:09:33.975695 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m12:09:34.003757 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m12:09:34.103203 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:09:34.103602 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:09:34.109091 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '7fed2118-a9dd-4d05-aea4-592f6e2ad4ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa60b912f40>]}
+[0m12:09:34.125022 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '7fed2118-a9dd-4d05-aea4-592f6e2ad4ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa60b7d8040>]}
+[0m12:09:34.125476 [info ] [MainThread]: Found 3 models, 1 snapshot, 3 analyses, 10 tests, 0 sources, 0 exposures, 0 metrics, 646 macros, 0 groups, 0 semantic models
+[0m12:09:34.125809 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '7fed2118-a9dd-4d05-aea4-592f6e2ad4ce', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa60b7d8100>]}
+[0m12:09:34.126368 [warn ] [MainThread]: The selection criterion '-h' does not match any nodes
+[0m12:09:34.127126 [info ] [MainThread]: 
+[0m12:09:34.127435 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m12:09:34.127885 [debug] [MainThread]: Command end result
+[0m12:09:34.139128 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 0.6354996, "process_user_time": 2.121359, "process_kernel_time": 0.209543, "process_mem_max_rss": "117522432", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:09:34.139888 [debug] [MainThread]: Command `dbt run` succeeded at 12:09:34.139592 after 0.64 seconds
+[0m12:09:34.140306 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa6099f33d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa609eb9430>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fa60b7d8040>]}
+[0m12:09:34.140667 [debug] [MainThread]: Flushing usage events
+[0m12:11:08.713145 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1997f3220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc19adc22b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc19adc2220>]}
+
+
+============================== 12:11:08.717909 | 0c1571ae-2195-4b73-b5d8-bd46bedb2c51 ==============================
+[0m12:11:08.717909 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:11:08.718489 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/briandunn/.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/Users/briandunn/Desktop/dbt Projects/iowa_liquor_sales/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt snapshot', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:11:08.985689 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '0c1571ae-2195-4b73-b5d8-bd46bedb2c51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc19adfa280>]}
+[0m12:11:09.097264 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '0c1571ae-2195-4b73-b5d8-bd46bedb2c51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc19af2e9a0>]}
+[0m12:11:09.098764 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m12:11:09.126310 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m12:11:09.224633 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:11:09.225021 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:11:09.230320 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '0c1571ae-2195-4b73-b5d8-bd46bedb2c51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc19b221f10>]}
+[0m12:11:09.245533 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '0c1571ae-2195-4b73-b5d8-bd46bedb2c51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc188282070>]}
+[0m12:11:09.245992 [info ] [MainThread]: Found 3 models, 1 snapshot, 3 analyses, 10 tests, 0 sources, 0 exposures, 0 metrics, 646 macros, 0 groups, 0 semantic models
+[0m12:11:09.246331 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0c1571ae-2195-4b73-b5d8-bd46bedb2c51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc188282130>]}
+[0m12:11:09.247574 [info ] [MainThread]: 
+[0m12:11:09.248214 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m12:11:09.249116 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dbt_ils'
+[0m12:11:09.258193 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils"
+[0m12:11:09.258622 [debug] [ThreadPool]: On list_dbt_ils: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m12:11:09.258916 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:11:09.299489 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.0 seconds
+[0m12:11:09.300817 [debug] [ThreadPool]: On list_dbt_ils: Close
+[0m12:11:09.302213 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_ils, now list_dbt_ils_public)
+[0m12:11:09.307542 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_public"
+[0m12:11:09.307855 [debug] [ThreadPool]: On list_dbt_ils_public: BEGIN
+[0m12:11:09.308124 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:11:09.315591 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m12:11:09.315907 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_public"
+[0m12:11:09.316228 [debug] [ThreadPool]: On list_dbt_ils_public: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils_public"} */
+select
+      'dbt_ils' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbt_ils' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbt_ils' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m12:11:09.322793 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.0 seconds
+[0m12:11:09.323838 [debug] [ThreadPool]: On list_dbt_ils_public: ROLLBACK
+[0m12:11:09.324326 [debug] [ThreadPool]: On list_dbt_ils_public: Close
+[0m12:11:09.325118 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_ils_public, now list_dbt_ils_snapshots)
+[0m12:11:09.328482 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_snapshots"
+[0m12:11:09.328845 [debug] [ThreadPool]: On list_dbt_ils_snapshots: BEGIN
+[0m12:11:09.329164 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:11:09.334031 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m12:11:09.334386 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_snapshots"
+[0m12:11:09.334762 [debug] [ThreadPool]: On list_dbt_ils_snapshots: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils_snapshots"} */
+select
+      'dbt_ils' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'snapshots'
+    union all
+    select
+      'dbt_ils' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'snapshots'
+    union all
+    select
+      'dbt_ils' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'snapshots'
+  
+[0m12:11:09.340965 [debug] [ThreadPool]: SQL status: SELECT 0 in 0.0 seconds
+[0m12:11:09.342024 [debug] [ThreadPool]: On list_dbt_ils_snapshots: ROLLBACK
+[0m12:11:09.342523 [debug] [ThreadPool]: On list_dbt_ils_snapshots: Close
+[0m12:11:09.347906 [debug] [MainThread]: Using postgres connection "master"
+[0m12:11:09.348278 [debug] [MainThread]: On master: BEGIN
+[0m12:11:09.348605 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:11:09.355258 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m12:11:09.355599 [debug] [MainThread]: Using postgres connection "master"
+[0m12:11:09.356074 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m12:11:09.372294 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m12:11:09.373765 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '0c1571ae-2195-4b73-b5d8-bd46bedb2c51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1a8db62b0>]}
+[0m12:11:09.374264 [debug] [MainThread]: On master: ROLLBACK
+[0m12:11:09.374775 [debug] [MainThread]: Using postgres connection "master"
+[0m12:11:09.375135 [debug] [MainThread]: On master: BEGIN
+[0m12:11:09.375762 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m12:11:09.376130 [debug] [MainThread]: On master: COMMIT
+[0m12:11:09.376476 [debug] [MainThread]: Using postgres connection "master"
+[0m12:11:09.376819 [debug] [MainThread]: On master: COMMIT
+[0m12:11:09.377268 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m12:11:09.377635 [debug] [MainThread]: On master: Close
+[0m12:11:09.378308 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:11:09.378660 [info ] [MainThread]: 
+[0m12:11:09.380967 [debug] [Thread-1  ]: Began running node snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot
+[0m12:11:09.381512 [info ] [Thread-1  ]: 1 of 1 START snapshot snapshots.iowa_liquor_sales_snapshot ..................... [RUN]
+[0m12:11:09.382398 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_dbt_ils_snapshots, now snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot)
+[0m12:11:09.382849 [debug] [Thread-1  ]: Began compiling node snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot
+[0m12:11:09.391353 [debug] [Thread-1  ]: Timing info for snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot (compile): 12:11:09.383119 => 12:11:09.391027
+[0m12:11:09.391847 [debug] [Thread-1  ]: Began executing node snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot
+[0m12:11:09.441295 [debug] [Thread-1  ]: Writing runtime sql for node "snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot"
+[0m12:11:09.442108 [debug] [Thread-1  ]: Using postgres connection "snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot"
+[0m12:11:09.442450 [debug] [Thread-1  ]: On snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot: BEGIN
+[0m12:11:09.442767 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m12:11:09.449124 [debug] [Thread-1  ]: SQL status: BEGIN in 0.0 seconds
+[0m12:11:09.449510 [debug] [Thread-1  ]: Using postgres connection "snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot"
+[0m12:11:09.449909 [debug] [Thread-1  ]: On snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "node_id": "snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot"} */
+
+      
+  
+    
+
+  create  table "dbt_ils"."snapshots"."iowa_liquor_sales_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(id as varchar ), '')
+         || '|' || coalesce(cast(now()::timestamp without time zone as varchar ), '')
+        ) as dbt_scd_id,
+        now()::timestamp without time zone as dbt_updated_at,
+        now()::timestamp without time zone as dbt_valid_from,
+        nullif(now()::timestamp without time zone, now()::timestamp without time zone) as dbt_valid_to
+    from (
+        
+
+
+
+select * from "dbt_ils"."public"."iowa_liquor_sales_dbt_model_3"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m12:13:58.300842 [debug] [Thread-1  ]: SQL status: SELECT 27295943 in 169.0 seconds
+[0m12:13:58.334301 [debug] [Thread-1  ]: On snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot: COMMIT
+[0m12:13:58.334796 [debug] [Thread-1  ]: Using postgres connection "snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot"
+[0m12:13:58.335150 [debug] [Thread-1  ]: On snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot: COMMIT
+[0m12:13:58.339478 [debug] [Thread-1  ]: SQL status: COMMIT in 0.0 seconds
+[0m12:13:58.340334 [debug] [Thread-1  ]: Timing info for snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot (execute): 12:11:09.392102 => 12:13:58.340135
+[0m12:13:58.340685 [debug] [Thread-1  ]: On snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot: Close
+[0m12:13:58.341386 [debug] [Thread-1  ]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '0c1571ae-2195-4b73-b5d8-bd46bedb2c51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1a8ddae80>]}
+[0m12:13:58.342423 [info ] [Thread-1  ]: 1 of 1 OK snapshotted snapshots.iowa_liquor_sales_snapshot ..................... [[32mSELECT 27295943[0m in 168.96s]
+[0m12:13:58.343039 [debug] [Thread-1  ]: Finished running node snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot
+[0m12:13:58.344426 [debug] [MainThread]: Using postgres connection "master"
+[0m12:13:58.344741 [debug] [MainThread]: On master: BEGIN
+[0m12:13:58.345045 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m12:13:58.376227 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m12:13:58.376695 [debug] [MainThread]: On master: COMMIT
+[0m12:13:58.377010 [debug] [MainThread]: Using postgres connection "master"
+[0m12:13:58.377303 [debug] [MainThread]: On master: COMMIT
+[0m12:13:58.377788 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m12:13:58.378164 [debug] [MainThread]: On master: Close
+[0m12:13:58.378816 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:13:58.379125 [debug] [MainThread]: Connection 'snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot' was properly closed.
+[0m12:13:58.379464 [info ] [MainThread]: 
+[0m12:13:58.379844 [info ] [MainThread]: Finished running 1 snapshot in 0 hours 2 minutes and 49.13 seconds (169.13s).
+[0m12:13:58.380488 [debug] [MainThread]: Command end result
+[0m12:13:58.406226 [info ] [MainThread]: 
+[0m12:13:58.406698 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m12:13:58.407001 [info ] [MainThread]: 
+[0m12:13:58.407318 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
+[0m12:13:58.441839 [debug] [MainThread]: Resource report: {"command_name": "snapshot", "command_success": true, "command_wall_clock_time": 169.81058, "process_user_time": 2.276595, "process_kernel_time": 0.23213, "process_mem_max_rss": "120684544", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:13:58.446536 [debug] [MainThread]: Command `dbt snapshot` succeeded at 12:13:58.446393 after 169.82 seconds
+[0m12:13:58.446992 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1997f3220>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc19b0a9b20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fc1a8dafa90>]}
+[0m12:13:58.447499 [debug] [MainThread]: Flushing usage events
+[0m12:17:07.683629 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7f99a3d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7fb2d1880>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7fb2d19a0>]}
+
+
+============================== 12:17:07.688357 | 95e540f1-5122-4d84-beff-30f22df9f0ac ==============================
+[0m12:17:07.688357 [info ] [MainThread]: Running with dbt=1.7.4
+[0m12:17:07.688918 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/briandunn/.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/Users/briandunn/Desktop/dbt Projects/iowa_liquor_sales/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'invocation_command': 'dbt compile', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m12:17:07.965424 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '95e540f1-5122-4d84-beff-30f22df9f0ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7f86a9610>]}
+[0m12:17:08.077519 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '95e540f1-5122-4d84-beff-30f22df9f0ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7c82d3d30>]}
+[0m12:17:08.078567 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m12:17:08.107385 [debug] [MainThread]: checksum: 248e8aba381ba2d577dce7ab50d2010c2aac45d2b27e6e6214cdd96d2d41fabc, vars: {}, profile: , target: , version: 1.7.4
+[0m12:17:08.210607 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m12:17:08.210999 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m12:17:08.216604 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '95e540f1-5122-4d84-beff-30f22df9f0ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7fb551f40>]}
+[0m12:17:08.234535 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '95e540f1-5122-4d84-beff-30f22df9f0ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7e842a0d0>]}
+[0m12:17:08.235016 [info ] [MainThread]: Found 3 models, 1 snapshot, 3 analyses, 10 tests, 0 sources, 0 exposures, 0 metrics, 646 macros, 0 groups, 0 semantic models
+[0m12:17:08.235373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '95e540f1-5122-4d84-beff-30f22df9f0ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7e842a100>]}
+[0m12:17:08.236893 [info ] [MainThread]: 
+[0m12:17:08.237542 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m12:17:08.238535 [debug] [ThreadPool]: Acquiring new postgres connection 'list_dbt_ils_public'
+[0m12:17:08.247719 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_public"
+[0m12:17:08.248096 [debug] [ThreadPool]: On list_dbt_ils_public: BEGIN
+[0m12:17:08.248375 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m12:17:08.271032 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m12:17:08.271462 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_public"
+[0m12:17:08.271780 [debug] [ThreadPool]: On list_dbt_ils_public: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils_public"} */
+select
+      'dbt_ils' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbt_ils' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'public'
+    union all
+    select
+      'dbt_ils' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'public'
+  
+[0m12:17:08.275499 [debug] [ThreadPool]: SQL status: SELECT 4 in 0.0 seconds
+[0m12:17:08.276805 [debug] [ThreadPool]: On list_dbt_ils_public: ROLLBACK
+[0m12:17:08.277262 [debug] [ThreadPool]: On list_dbt_ils_public: Close
+[0m12:17:08.278070 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_dbt_ils_public, now list_dbt_ils_snapshots)
+[0m12:17:08.281140 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_snapshots"
+[0m12:17:08.281437 [debug] [ThreadPool]: On list_dbt_ils_snapshots: BEGIN
+[0m12:17:08.281705 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m12:17:08.286785 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m12:17:08.287194 [debug] [ThreadPool]: Using postgres connection "list_dbt_ils_snapshots"
+[0m12:17:08.287550 [debug] [ThreadPool]: On list_dbt_ils_snapshots: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "list_dbt_ils_snapshots"} */
+select
+      'dbt_ils' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'snapshots'
+    union all
+    select
+      'dbt_ils' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'snapshots'
+    union all
+    select
+      'dbt_ils' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'snapshots'
+  
+[0m12:17:08.292966 [debug] [ThreadPool]: SQL status: SELECT 1 in 0.0 seconds
+[0m12:17:08.294075 [debug] [ThreadPool]: On list_dbt_ils_snapshots: ROLLBACK
+[0m12:17:08.294553 [debug] [ThreadPool]: On list_dbt_ils_snapshots: Close
+[0m12:17:08.299161 [debug] [MainThread]: Using postgres connection "master"
+[0m12:17:08.299549 [debug] [MainThread]: On master: BEGIN
+[0m12:17:08.299864 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m12:17:08.305948 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m12:17:08.306309 [debug] [MainThread]: Using postgres connection "master"
+[0m12:17:08.306750 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.7.4", "profile_name": "iowa_liquor_sales", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m12:17:08.325363 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m12:17:08.326906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '95e540f1-5122-4d84-beff-30f22df9f0ac', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7c82aafd0>]}
+[0m12:17:08.327393 [debug] [MainThread]: On master: ROLLBACK
+[0m12:17:08.327896 [debug] [MainThread]: On master: Close
+[0m12:17:08.328616 [info ] [MainThread]: Concurrency: 1 threads (target='dev')
+[0m12:17:08.329006 [info ] [MainThread]: 
+[0m12:17:08.331328 [debug] [Thread-1  ]: Began running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:17:08.331999 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_dbt_ils_snapshots, now model.iowa_liquor_sales.iowa_liquor_sales_dbt_model)
+[0m12:17:08.332421 [debug] [Thread-1  ]: Began compiling node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:17:08.341527 [debug] [Thread-1  ]: Writing injected SQL for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model"
+[0m12:17:08.343177 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model (compile): 12:17:08.332671 => 12:17:08.342911
+[0m12:17:08.343575 [debug] [Thread-1  ]: Began executing node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:17:08.344015 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model (execute): 12:17:08.343803 => 12:17:08.343814
+[0m12:17:08.344864 [debug] [Thread-1  ]: Finished running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model
+[0m12:17:08.345686 [debug] [Thread-1  ]: Began running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:17:08.346384 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.iowa_liquor_sales.iowa_liquor_sales_dbt_model, now model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2)
+[0m12:17:08.346779 [debug] [Thread-1  ]: Began compiling node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:17:08.350972 [debug] [Thread-1  ]: Writing injected SQL for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2"
+[0m12:17:08.351784 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2 (compile): 12:17:08.347019 => 12:17:08.351556
+[0m12:17:08.352158 [debug] [Thread-1  ]: Began executing node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:17:08.352564 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2 (execute): 12:17:08.352372 => 12:17:08.352379
+[0m12:17:08.353356 [debug] [Thread-1  ]: Finished running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2
+[0m12:17:08.353750 [debug] [Thread-1  ]: Began running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottle_volume.d79a74fa6c
+[0m12:17:08.354414 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_2, now test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottle_volume.d79a74fa6c)
+[0m12:17:08.354769 [debug] [Thread-1  ]: Began compiling node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottle_volume.d79a74fa6c
+[0m12:17:08.364764 [debug] [Thread-1  ]: Writing injected SQL for node "test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottle_volume.d79a74fa6c"
+[0m12:17:08.366923 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottle_volume.d79a74fa6c (compile): 12:17:08.354992 => 12:17:08.366654
+[0m12:17:08.367361 [debug] [Thread-1  ]: Began executing node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottle_volume.d79a74fa6c
+[0m12:17:08.367790 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottle_volume.d79a74fa6c (execute): 12:17:08.367586 => 12:17:08.367594
+[0m12:17:08.368564 [debug] [Thread-1  ]: Finished running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottle_volume.d79a74fa6c
+[0m12:17:08.368967 [debug] [Thread-1  ]: Began running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottles_sold.f46edba25e
+[0m12:17:08.369573 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottle_volume.d79a74fa6c, now test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottles_sold.f46edba25e)
+[0m12:17:08.369936 [debug] [Thread-1  ]: Began compiling node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottles_sold.f46edba25e
+[0m12:17:08.374198 [debug] [Thread-1  ]: Writing injected SQL for node "test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottles_sold.f46edba25e"
+[0m12:17:08.375335 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottles_sold.f46edba25e (compile): 12:17:08.370139 => 12:17:08.375075
+[0m12:17:08.375746 [debug] [Thread-1  ]: Began executing node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottles_sold.f46edba25e
+[0m12:17:08.376179 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottles_sold.f46edba25e (execute): 12:17:08.375983 => 12:17:08.375990
+[0m12:17:08.377013 [debug] [Thread-1  ]: Finished running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottles_sold.f46edba25e
+[0m12:17:08.377425 [debug] [Thread-1  ]: Began running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_pack.6a2746297e
+[0m12:17:08.378040 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_bottles_sold.f46edba25e, now test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_pack.6a2746297e)
+[0m12:17:08.378525 [debug] [Thread-1  ]: Began compiling node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_pack.6a2746297e
+[0m12:17:08.382884 [debug] [Thread-1  ]: Writing injected SQL for node "test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_pack.6a2746297e"
+[0m12:17:08.384349 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_pack.6a2746297e (compile): 12:17:08.378777 => 12:17:08.384075
+[0m12:17:08.384738 [debug] [Thread-1  ]: Began executing node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_pack.6a2746297e
+[0m12:17:08.385146 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_pack.6a2746297e (execute): 12:17:08.384958 => 12:17:08.384967
+[0m12:17:08.385921 [debug] [Thread-1  ]: Finished running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_pack.6a2746297e
+[0m12:17:08.386292 [debug] [Thread-1  ]: Began running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_day.542bb15a72
+[0m12:17:08.386881 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_pack.6a2746297e, now test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_day.542bb15a72)
+[0m12:17:08.387254 [debug] [Thread-1  ]: Began compiling node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_day.542bb15a72
+[0m12:17:08.391986 [debug] [Thread-1  ]: Writing injected SQL for node "test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_day.542bb15a72"
+[0m12:17:08.392928 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_day.542bb15a72 (compile): 12:17:08.387464 => 12:17:08.392733
+[0m12:17:08.393267 [debug] [Thread-1  ]: Began executing node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_day.542bb15a72
+[0m12:17:08.393670 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_day.542bb15a72 (execute): 12:17:08.393480 => 12:17:08.393486
+[0m12:17:08.394363 [debug] [Thread-1  ]: Finished running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_day.542bb15a72
+[0m12:17:08.394721 [debug] [Thread-1  ]: Began running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_dollars.9c26a2b781
+[0m12:17:08.395228 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_day.542bb15a72, now test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_dollars.9c26a2b781)
+[0m12:17:08.395558 [debug] [Thread-1  ]: Began compiling node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_dollars.9c26a2b781
+[0m12:17:08.399338 [debug] [Thread-1  ]: Writing injected SQL for node "test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_dollars.9c26a2b781"
+[0m12:17:08.400471 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_dollars.9c26a2b781 (compile): 12:17:08.395765 => 12:17:08.400188
+[0m12:17:08.400863 [debug] [Thread-1  ]: Began executing node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_dollars.9c26a2b781
+[0m12:17:08.401269 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_dollars.9c26a2b781 (execute): 12:17:08.401080 => 12:17:08.401086
+[0m12:17:08.402073 [debug] [Thread-1  ]: Finished running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_dollars.9c26a2b781
+[0m12:17:08.402449 [debug] [Thread-1  ]: Began running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_month.8cd69f4e75
+[0m12:17:08.403030 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_dollars.9c26a2b781, now test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_month.8cd69f4e75)
+[0m12:17:08.403385 [debug] [Thread-1  ]: Began compiling node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_month.8cd69f4e75
+[0m12:17:08.407218 [debug] [Thread-1  ]: Writing injected SQL for node "test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_month.8cd69f4e75"
+[0m12:17:08.408170 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_month.8cd69f4e75 (compile): 12:17:08.403590 => 12:17:08.407940
+[0m12:17:08.408533 [debug] [Thread-1  ]: Began executing node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_month.8cd69f4e75
+[0m12:17:08.408937 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_month.8cd69f4e75 (execute): 12:17:08.408744 => 12:17:08.408749
+[0m12:17:08.409649 [debug] [Thread-1  ]: Finished running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_month.8cd69f4e75
+[0m12:17:08.410012 [debug] [Thread-1  ]: Began running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_year.2c186ea066
+[0m12:17:08.410586 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_month.8cd69f4e75, now test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_year.2c186ea066)
+[0m12:17:08.410934 [debug] [Thread-1  ]: Began compiling node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_year.2c186ea066
+[0m12:17:08.414675 [debug] [Thread-1  ]: Writing injected SQL for node "test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_year.2c186ea066"
+[0m12:17:08.415363 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_year.2c186ea066 (compile): 12:17:08.411138 => 12:17:08.415154
+[0m12:17:08.415724 [debug] [Thread-1  ]: Began executing node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_year.2c186ea066
+[0m12:17:08.416110 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_year.2c186ea066 (execute): 12:17:08.415937 => 12:17:08.415943
+[0m12:17:08.416858 [debug] [Thread-1  ]: Finished running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_year.2c186ea066
+[0m12:17:08.417257 [debug] [Thread-1  ]: Began running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_name.de2d8f2fb7
+[0m12:17:08.417792 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_sales_year.2c186ea066, now test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_name.de2d8f2fb7)
+[0m12:17:08.418168 [debug] [Thread-1  ]: Began compiling node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_name.de2d8f2fb7
+[0m12:17:08.421969 [debug] [Thread-1  ]: Writing injected SQL for node "test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_name.de2d8f2fb7"
+[0m12:17:08.422594 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_name.de2d8f2fb7 (compile): 12:17:08.418369 => 12:17:08.422400
+[0m12:17:08.422924 [debug] [Thread-1  ]: Began executing node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_name.de2d8f2fb7
+[0m12:17:08.423315 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_name.de2d8f2fb7 (execute): 12:17:08.423125 => 12:17:08.423131
+[0m12:17:08.424040 [debug] [Thread-1  ]: Finished running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_name.de2d8f2fb7
+[0m12:17:08.424401 [debug] [Thread-1  ]: Began running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_number.ce8c61e73e
+[0m12:17:08.424919 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_name.de2d8f2fb7, now test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_number.ce8c61e73e)
+[0m12:17:08.425243 [debug] [Thread-1  ]: Began compiling node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_number.ce8c61e73e
+[0m12:17:08.429746 [debug] [Thread-1  ]: Writing injected SQL for node "test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_number.ce8c61e73e"
+[0m12:17:08.430609 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_number.ce8c61e73e (compile): 12:17:08.425447 => 12:17:08.430394
+[0m12:17:08.430955 [debug] [Thread-1  ]: Began executing node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_number.ce8c61e73e
+[0m12:17:08.431337 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_number.ce8c61e73e (execute): 12:17:08.431157 => 12:17:08.431163
+[0m12:17:08.432031 [debug] [Thread-1  ]: Finished running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_number.ce8c61e73e
+[0m12:17:08.432423 [debug] [Thread-1  ]: Began running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_volume_sold_gallons.addbc43764
+[0m12:17:08.433003 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_store_number.ce8c61e73e, now test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_volume_sold_gallons.addbc43764)
+[0m12:17:08.433344 [debug] [Thread-1  ]: Began compiling node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_volume_sold_gallons.addbc43764
+[0m12:17:08.437063 [debug] [Thread-1  ]: Writing injected SQL for node "test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_volume_sold_gallons.addbc43764"
+[0m12:17:08.437689 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_volume_sold_gallons.addbc43764 (compile): 12:17:08.433536 => 12:17:08.437488
+[0m12:17:08.438022 [debug] [Thread-1  ]: Began executing node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_volume_sold_gallons.addbc43764
+[0m12:17:08.438430 [debug] [Thread-1  ]: Timing info for test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_volume_sold_gallons.addbc43764 (execute): 12:17:08.438232 => 12:17:08.438238
+[0m12:17:08.439166 [debug] [Thread-1  ]: Finished running node test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_volume_sold_gallons.addbc43764
+[0m12:17:08.439533 [debug] [Thread-1  ]: Began running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3
+[0m12:17:08.440052 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly test.iowa_liquor_sales.not_null_iowa_liquor_sales_dbt_model_volume_sold_gallons.addbc43764, now model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3)
+[0m12:17:08.440375 [debug] [Thread-1  ]: Began compiling node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3
+[0m12:17:08.443118 [debug] [Thread-1  ]: Writing injected SQL for node "model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3"
+[0m12:17:08.444332 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3 (compile): 12:17:08.440573 => 12:17:08.444118
+[0m12:17:08.444673 [debug] [Thread-1  ]: Began executing node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3
+[0m12:17:08.445054 [debug] [Thread-1  ]: Timing info for model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3 (execute): 12:17:08.444875 => 12:17:08.444880
+[0m12:17:08.445809 [debug] [Thread-1  ]: Finished running node model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3
+[0m12:17:08.446434 [debug] [Thread-1  ]: Began running node analysis.iowa_liquor_sales.iowa_liquor_sales_1
+[0m12:17:08.447023 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.iowa_liquor_sales.iowa_liquor_sales_dbt_model_3, now analysis.iowa_liquor_sales.iowa_liquor_sales_1)
+[0m12:17:08.447362 [debug] [Thread-1  ]: Began compiling node analysis.iowa_liquor_sales.iowa_liquor_sales_1
+[0m12:17:08.450080 [debug] [Thread-1  ]: Writing injected SQL for node "analysis.iowa_liquor_sales.iowa_liquor_sales_1"
+[0m12:17:08.450740 [debug] [Thread-1  ]: Timing info for analysis.iowa_liquor_sales.iowa_liquor_sales_1 (compile): 12:17:08.447564 => 12:17:08.450546
+[0m12:17:08.451073 [debug] [Thread-1  ]: Began executing node analysis.iowa_liquor_sales.iowa_liquor_sales_1
+[0m12:17:08.451461 [debug] [Thread-1  ]: Timing info for analysis.iowa_liquor_sales.iowa_liquor_sales_1 (execute): 12:17:08.451287 => 12:17:08.451293
+[0m12:17:08.452139 [debug] [Thread-1  ]: Finished running node analysis.iowa_liquor_sales.iowa_liquor_sales_1
+[0m12:17:08.452488 [debug] [Thread-1  ]: Began running node analysis.iowa_liquor_sales.iowa_liquor_sales_2
+[0m12:17:08.453015 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly analysis.iowa_liquor_sales.iowa_liquor_sales_1, now analysis.iowa_liquor_sales.iowa_liquor_sales_2)
+[0m12:17:08.453338 [debug] [Thread-1  ]: Began compiling node analysis.iowa_liquor_sales.iowa_liquor_sales_2
+[0m12:17:08.455892 [debug] [Thread-1  ]: Writing injected SQL for node "analysis.iowa_liquor_sales.iowa_liquor_sales_2"
+[0m12:17:08.456484 [debug] [Thread-1  ]: Timing info for analysis.iowa_liquor_sales.iowa_liquor_sales_2 (compile): 12:17:08.453548 => 12:17:08.456294
+[0m12:17:08.456818 [debug] [Thread-1  ]: Began executing node analysis.iowa_liquor_sales.iowa_liquor_sales_2
+[0m12:17:08.457216 [debug] [Thread-1  ]: Timing info for analysis.iowa_liquor_sales.iowa_liquor_sales_2 (execute): 12:17:08.457035 => 12:17:08.457041
+[0m12:17:08.457891 [debug] [Thread-1  ]: Finished running node analysis.iowa_liquor_sales.iowa_liquor_sales_2
+[0m12:17:08.458261 [debug] [Thread-1  ]: Began running node analysis.iowa_liquor_sales.iowa_liquor_sales_3
+[0m12:17:08.458804 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly analysis.iowa_liquor_sales.iowa_liquor_sales_2, now analysis.iowa_liquor_sales.iowa_liquor_sales_3)
+[0m12:17:08.459135 [debug] [Thread-1  ]: Began compiling node analysis.iowa_liquor_sales.iowa_liquor_sales_3
+[0m12:17:08.461731 [debug] [Thread-1  ]: Writing injected SQL for node "analysis.iowa_liquor_sales.iowa_liquor_sales_3"
+[0m12:17:08.462322 [debug] [Thread-1  ]: Timing info for analysis.iowa_liquor_sales.iowa_liquor_sales_3 (compile): 12:17:08.459339 => 12:17:08.462131
+[0m12:17:08.462655 [debug] [Thread-1  ]: Began executing node analysis.iowa_liquor_sales.iowa_liquor_sales_3
+[0m12:17:08.463043 [debug] [Thread-1  ]: Timing info for analysis.iowa_liquor_sales.iowa_liquor_sales_3 (execute): 12:17:08.462857 => 12:17:08.462863
+[0m12:17:08.463736 [debug] [Thread-1  ]: Finished running node analysis.iowa_liquor_sales.iowa_liquor_sales_3
+[0m12:17:08.464097 [debug] [Thread-1  ]: Began running node snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot
+[0m12:17:08.464661 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly analysis.iowa_liquor_sales.iowa_liquor_sales_3, now snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot)
+[0m12:17:08.466027 [debug] [Thread-1  ]: Began compiling node snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot
+[0m12:17:08.469145 [debug] [Thread-1  ]: Timing info for snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot (compile): 12:17:08.466225 => 12:17:08.468924
+[0m12:17:08.469506 [debug] [Thread-1  ]: Began executing node snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot
+[0m12:17:08.469885 [debug] [Thread-1  ]: Timing info for snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot (execute): 12:17:08.469705 => 12:17:08.469711
+[0m12:17:08.470607 [debug] [Thread-1  ]: Finished running node snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot
+[0m12:17:08.471312 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m12:17:08.471596 [debug] [MainThread]: Connection 'snapshot.iowa_liquor_sales.iowa_liquor_sales_snapshot' was properly closed.
+[0m12:17:08.473615 [debug] [MainThread]: Command end result
+[0m12:17:08.484785 [debug] [MainThread]: Resource report: {"command_name": "compile", "command_success": true, "command_wall_clock_time": 0.88378745, "process_user_time": 2.314568, "process_kernel_time": 0.244076, "process_mem_max_rss": "120582144", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m12:17:08.485513 [debug] [MainThread]: Command `dbt compile` succeeded at 12:17:08.485244 after 0.88 seconds
+[0m12:17:08.485889 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7f99a3d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7c8230d60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd7c82d3d30>]}
+[0m12:17:08.486232 [debug] [MainThread]: Flushing usage events
