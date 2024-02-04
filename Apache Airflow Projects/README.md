@@ -17,13 +17,17 @@ To demonstrate my skill using Apache Airflow, I thought I would complete a pleth
 
 ## Project Listings
 
+### From Postgres Database to MySQL Database
+- Flight Files
+
+### From Postgres Database
 - Allegheny Co Property Sale Transactions
 - Analytics Olympiad 2022
 - Automobile Insurance
 - CA Housing Data
 - COVID19 Project
 - Caravan Insurance Challenge
-- Consumer Behavior and Shopping Habits Dataset
+- Consumer Behavior & Shopping Habits Dataset
 - Customer Shopping Trends
 - Cyclistic Summary Data (Cyclistic_All_Year_Summary)
 - Diamonds
@@ -51,4 +55,4 @@ To demonstrate my skill using Apache Airflow, I thought I would complete a pleth
 - Predict Accident Risk Score for Unique postcodes
 - Property Sales Data - Exploring Real Estate Trends
 - Travel Insurance
-- bank and cc complaints
+- Bank & Credit Card Complaints
