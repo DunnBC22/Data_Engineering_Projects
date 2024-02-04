@@ -1,0 +1,16 @@
+[2024-02-02T17:13:17.853+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_data_postgres_to_mysql.remove_unneeded_cols scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-02-02T17:13:17.857+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_data_postgres_to_mysql.remove_unneeded_cols scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-02-02T17:13:17.857+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2024-02-02T17:13:17.862+0000] {taskinstance.py:1382} INFO - Executing <Task(SubDagOperator): remove_unneeded_cols> on 2024-01-01 00:00:00+00:00
+[2024-02-02T17:13:17.864+0000] {standard_task_runner.py:57} INFO - Started process 535 to run task
+[2024-02-02T17:13:17.866+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'flight_data_postgres_to_mysql', 'remove_unneeded_cols', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/Flight_Files_Analysis.py', '--cfg-path', '/tmp/tmpe5x53y9v']
+[2024-02-02T17:13:17.868+0000] {standard_task_runner.py:85} INFO - Job 8: Subtask remove_unneeded_cols
+[2024-02-02T17:13:17.894+0000] {task_command.py:416} INFO - Running <TaskInstance: flight_data_postgres_to_mysql.remove_unneeded_cols scheduled__2024-01-01T00:00:00+00:00 [running]> on host 122144057b92
+[2024-02-02T17:13:17.932+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='flight_data_postgres_to_mysql' AIRFLOW_CTX_TASK_ID='remove_unneeded_cols' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-02-02T17:13:17.935+0000] {logging_mixin.py:154} WARNING - /home/***/.local/lib/python3.8/site-packages/***/utils/context.py:206 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2024-02-02T17:13:17.949+0000] {subdag.py:172} INFO - Created DagRun: scheduled__2024-01-01T00:00:00+00:00
+[2024-02-02T17:14:18.007+0000] {base.py:287} INFO - Success criteria met. Exiting.
+[2024-02-02T17:14:18.023+0000] {subdag.py:187} INFO - Execution finished. State is success
+[2024-02-02T17:14:18.035+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=flight_data_postgres_to_mysql, task_id=remove_unneeded_cols, execution_date=20240101T000000, start_date=20240202T171317, end_date=20240202T171418
+[2024-02-02T17:14:18.052+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-02-02T17:14:18.078+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

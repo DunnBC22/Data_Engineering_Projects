@@ -1,0 +1,944 @@
+[2024-02-02T17:09:54.568+0000] {manager.py:487} INFO - Processing files using up to 2 processes at a time 
+[2024-02-02T17:09:54.568+0000] {manager.py:488} INFO - Process each file at most once every 30 seconds
+[2024-02-02T17:09:54.568+0000] {manager.py:489} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2024-02-02T17:09:54.569+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2024-02-02T17:09:54.580+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-02T17:09:54.670+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0
+/opt/airflow/dags/Flight_Files_Analysis.py                        167  0.03s             0           0
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  170  0.02s             0           0
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0
+================================================================================
+[2024-02-02T17:10:25.225+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:09:54
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:09:54
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:09:54
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:09:54
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:09:54
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:09:54
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  222  0.00s             0           0  0.05s           2024-02-02T17:09:54
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:09:54
+/opt/airflow/dags/Flight_Files_Analysis.py                        219  0.02s             8           0  0.26s           2024-02-02T17:09:54
+================================================================================
+[2024-02-02T17:10:55.803+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:10:25
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:10:25
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:10:25
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:10:25
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:10:25
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:10:25
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  274  0.00s             0           0  0.05s           2024-02-02T17:10:25
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:10:25
+/opt/airflow/dags/Flight_Files_Analysis.py                        271  0.02s             8           0  0.13s           2024-02-02T17:10:25
+================================================================================
+[2024-02-02T17:11:26.374+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:10:55
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:10:55
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:10:55
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:10:55
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:10:55
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:10:55
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  326  0.01s             0           0  0.07s           2024-02-02T17:10:55
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:10:56
+/opt/airflow/dags/Flight_Files_Analysis.py                        323  0.02s             8           0  0.15s           2024-02-02T17:10:55
+================================================================================
+[2024-02-02T17:11:56.950+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:11:26
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:11:26
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:11:26
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:11:26
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:11:26
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:11:26
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  378  0.00s             0           0  0.05s           2024-02-02T17:11:26
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.03s           2024-02-02T17:11:26
+/opt/airflow/dags/Flight_Files_Analysis.py                        375  0.01s             8           0  0.13s           2024-02-02T17:11:26
+================================================================================
+[2024-02-02T17:12:27.404+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:11:57
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:11:57
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:11:57
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:11:57
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:11:57
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:11:57
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  438  0.00s             0           0  0.05s           2024-02-02T17:11:56
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:11:57
+/opt/airflow/dags/Flight_Files_Analysis.py                        435  0.02s             8           0  0.13s           2024-02-02T17:11:57
+================================================================================
+[2024-02-02T17:12:57.926+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:12:27
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:12:27
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:12:27
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:12:27
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:12:27
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:12:27
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  490  0.00s             0           0  0.03s           2024-02-02T17:12:27
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.03s           2024-02-02T17:12:27
+/opt/airflow/dags/Flight_Files_Analysis.py                        487  0.02s             8           0  0.11s           2024-02-02T17:12:27
+================================================================================
+[2024-02-02T17:13:28.463+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:12:58
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:12:58
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:12:58
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:12:58
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:12:58
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:12:57
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  550  0.00s             0           0  0.05s           2024-02-02T17:12:57
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:12:58
+/opt/airflow/dags/Flight_Files_Analysis.py                        547  0.02s             8           0  0.13s           2024-02-02T17:12:58
+================================================================================
+[2024-02-02T17:13:59.056+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:13:28
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:13:28
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:13:28
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:13:28
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:13:28
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:13:28
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  602  0.01s             0           0  0.05s           2024-02-02T17:13:28
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:13:28
+/opt/airflow/dags/Flight_Files_Analysis.py                        599  0.02s             8           0  0.13s           2024-02-02T17:13:28
+================================================================================
+[2024-02-02T17:14:29.551+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:13:59
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:13:59
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:13:59
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:13:59
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:13:59
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:13:59
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  658  0.00s             0           0  0.05s           2024-02-02T17:13:59
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:13:59
+/opt/airflow/dags/Flight_Files_Analysis.py                        655  0.02s             8           0  0.13s           2024-02-02T17:13:59
+================================================================================
+[2024-02-02T17:14:55.071+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2024-02-02T17:14:55.111+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-02T17:15:00.197+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:14:29
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:14:29
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:14:29
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:14:29
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:14:29
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:14:29
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  710  0.01s             0           0  0.05s           2024-02-02T17:14:29
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:14:29
+/opt/airflow/dags/Flight_Files_Analysis.py                        707  0.02s             8           0  0.13s           2024-02-02T17:14:29
+================================================================================
+[2024-02-02T17:15:30.654+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:15:00
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:15:00
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:15:00
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:15:00
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:15:00
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:15:00
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  772  0.00s             0           0  0.05s           2024-02-02T17:15:00
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:15:00
+/opt/airflow/dags/Flight_Files_Analysis.py                        769  0.01s             8           0  0.13s           2024-02-02T17:15:00
+================================================================================
+[2024-02-02T17:16:01.252+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.06s           2024-02-02T17:15:30
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2024-02-02T17:15:30
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.04s           2024-02-02T17:15:30
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:15:30
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.06s           2024-02-02T17:15:30
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.04s           2024-02-02T17:15:30
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  824  0.00s             0           0  0.04s           2024-02-02T17:15:30
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.03s           2024-02-02T17:15:30
+/opt/airflow/dags/Flight_Files_Analysis.py                        821  0.01s             8           0  0.14s           2024-02-02T17:15:30
+================================================================================
+[2024-02-02T17:16:31.862+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:16:01
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:16:01
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:16:01
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:16:01
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:16:01
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:16:01
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  878  0.01s             0           0  0.03s           2024-02-02T17:16:01
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.03s           2024-02-02T17:16:01
+/opt/airflow/dags/Flight_Files_Analysis.py                        875  0.02s             8           0  0.11s           2024-02-02T17:16:01
+================================================================================
+[2024-02-02T17:17:02.354+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:16:31
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:16:32
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:16:32
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:16:31
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:16:31
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:16:31
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  930  0.00s             0           0  0.05s           2024-02-02T17:16:31
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:16:32
+/opt/airflow/dags/Flight_Files_Analysis.py                        927  0.01s             8           0  0.13s           2024-02-02T17:16:31
+================================================================================
+[2024-02-02T17:17:32.876+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:17:02
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:17:02
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:17:02
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:17:02
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:17:02
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:17:02
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                  982  0.01s             0           0  0.04s           2024-02-02T17:17:02
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:17:02
+/opt/airflow/dags/Flight_Files_Analysis.py                        979  0.02s             8           0  0.12s           2024-02-02T17:17:02
+================================================================================
+[2024-02-02T17:18:03.419+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.04s           2024-02-02T17:17:33
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:17:33
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:17:33
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.04s           2024-02-02T17:17:32
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.04s           2024-02-02T17:17:33
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:17:32
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1038  0.00s             0           0  0.05s           2024-02-02T17:17:32
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:17:33
+/opt/airflow/dags/Flight_Files_Analysis.py                       1035  0.02s             8           0  0.15s           2024-02-02T17:17:33
+================================================================================
+[2024-02-02T17:18:33.993+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:18:03
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:18:03
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:18:03
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:18:03
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:18:03
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:18:03
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1090  0.00s             0           0  0.05s           2024-02-02T17:18:03
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.03s           2024-02-02T17:18:03
+/opt/airflow/dags/Flight_Files_Analysis.py                       1087  0.02s             8           0  0.14s           2024-02-02T17:18:03
+================================================================================
+[2024-02-02T17:19:04.550+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:18:34
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:18:34
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:18:34
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:18:34
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:18:34
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:18:34
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1142  0.00s             0           0  0.04s           2024-02-02T17:18:34
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:18:34
+/opt/airflow/dags/Flight_Files_Analysis.py                       1139  0.01s             8           0  0.13s           2024-02-02T17:18:34
+================================================================================
+[2024-02-02T17:19:35.038+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:19:04
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:19:04
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:19:04
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:19:04
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:19:04
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:19:04
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1194  0.00s             0           0  0.04s           2024-02-02T17:19:04
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:19:04
+/opt/airflow/dags/Flight_Files_Analysis.py                       1191  0.02s             8           0  0.11s           2024-02-02T17:19:04
+================================================================================
+[2024-02-02T17:19:55.462+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2024-02-02T17:19:55.505+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-02T17:20:05.647+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:19:35
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:19:35
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:19:35
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:19:35
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:19:35
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:19:35
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1248  0.01s             0           0  0.05s           2024-02-02T17:19:35
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:19:35
+/opt/airflow/dags/Flight_Files_Analysis.py                       1245  0.02s             8           0  0.14s           2024-02-02T17:19:35
+================================================================================
+[2024-02-02T17:20:36.161+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:20:05
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:20:05
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:20:05
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:20:05
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:20:05
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:20:05
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1300  0.00s             0           0  0.05s           2024-02-02T17:20:05
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:20:05
+/opt/airflow/dags/Flight_Files_Analysis.py                       1297  0.01s             8           0  0.13s           2024-02-02T17:20:05
+================================================================================
+[2024-02-02T17:21:06.660+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.04s           2024-02-02T17:20:36
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:20:36
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:20:36
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:20:36
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.04s           2024-02-02T17:20:36
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:20:36
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1352  0.00s             0           0  0.03s           2024-02-02T17:20:36
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:20:36
+/opt/airflow/dags/Flight_Files_Analysis.py                       1349  0.01s             8           0  0.11s           2024-02-02T17:20:36
+================================================================================
+[2024-02-02T17:21:37.234+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:21:06
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:21:06
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:21:06
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:21:06
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:21:06
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:21:06
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1404  0.01s             0           0  0.04s           2024-02-02T17:21:06
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:21:06
+/opt/airflow/dags/Flight_Files_Analysis.py                       1401  0.02s             8           0  0.12s           2024-02-02T17:21:06
+================================================================================
+[2024-02-02T17:22:07.813+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:21:37
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:21:37
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:21:37
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:21:37
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:21:37
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:21:37
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1456  0.01s             0           0  0.05s           2024-02-02T17:21:37
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:21:37
+/opt/airflow/dags/Flight_Files_Analysis.py                       1453  0.02s             8           0  0.13s           2024-02-02T17:21:37
+================================================================================
+[2024-02-02T17:22:38.388+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:22:07
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:22:07
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:22:07
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:22:07
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:22:07
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:22:07
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1508  0.00s             0           0  0.05s           2024-02-02T17:22:07
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:22:08
+/opt/airflow/dags/Flight_Files_Analysis.py                       1505  0.02s             8           0  0.13s           2024-02-02T17:22:07
+================================================================================
+[2024-02-02T17:23:08.940+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:22:38
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.05s           2024-02-02T17:22:38
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.05s           2024-02-02T17:22:38
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.04s           2024-02-02T17:22:38
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:22:38
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:22:38
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1560  0.00s             0           0  0.04s           2024-02-02T17:22:38
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.03s           2024-02-02T17:22:38
+/opt/airflow/dags/Flight_Files_Analysis.py                       1557  0.01s             8           0  0.13s           2024-02-02T17:22:38
+================================================================================
+[2024-02-02T17:23:39.470+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:23:09
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:23:09
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:23:09
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:23:09
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:23:09
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:23:08
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1612  0.01s             0           0  0.03s           2024-02-02T17:23:08
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:23:09
+/opt/airflow/dags/Flight_Files_Analysis.py                       1609  0.02s             8           0  0.11s           2024-02-02T17:23:09
+================================================================================
+[2024-02-02T17:24:10.071+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:23:39
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:23:39
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:23:39
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:23:39
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:23:39
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:23:39
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1664  0.00s             0           0  0.05s           2024-02-02T17:23:39
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:23:39
+/opt/airflow/dags/Flight_Files_Analysis.py                       1661  0.02s             8           0  0.13s           2024-02-02T17:23:39
+================================================================================
+[2024-02-02T17:24:40.610+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:24:10
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:24:10
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:24:10
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:24:10
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:24:10
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:24:10
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1716  0.00s             0           0  0.05s           2024-02-02T17:24:10
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:24:10
+/opt/airflow/dags/Flight_Files_Analysis.py                       1713  0.01s             8           0  0.13s           2024-02-02T17:24:10
+================================================================================
+[2024-02-02T17:24:55.947+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2024-02-02T17:24:55.987+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-02T17:25:11.202+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:24:40
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:24:40
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:24:40
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:24:40
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:24:40
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:24:40
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1768  0.01s             0           0  0.03s           2024-02-02T17:24:40
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:24:40
+/opt/airflow/dags/Flight_Files_Analysis.py                       1765  0.02s             8           0  0.10s           2024-02-02T17:24:40
+================================================================================
+[2024-02-02T17:25:41.713+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:25:11
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:25:11
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:25:11
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:25:11
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:25:11
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:25:11
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1820  0.00s             0           0  0.05s           2024-02-02T17:25:11
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:25:11
+/opt/airflow/dags/Flight_Files_Analysis.py                       1817  0.01s             8           0  0.13s           2024-02-02T17:25:11
+================================================================================
+[2024-02-02T17:26:12.315+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:25:41
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:25:41
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:25:41
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:25:41
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:25:41
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:25:41
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1872  0.01s             0           0  0.04s           2024-02-02T17:25:41
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:25:41
+/opt/airflow/dags/Flight_Files_Analysis.py                       1869  0.02s             8           0  0.12s           2024-02-02T17:25:41
+================================================================================
+[2024-02-02T17:26:42.851+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:26:12
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:26:12
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:26:12
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:26:12
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:26:12
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:26:12
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1924  0.01s             0           0  0.05s           2024-02-02T17:26:12
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:26:12
+/opt/airflow/dags/Flight_Files_Analysis.py                       1921  0.02s             8           0  0.13s           2024-02-02T17:26:12
+================================================================================
+[2024-02-02T17:27:13.435+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:26:42
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:26:43
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:26:43
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:26:42
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:26:42
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:26:42
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 1976  0.00s             0           0  0.05s           2024-02-02T17:26:42
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:26:43
+/opt/airflow/dags/Flight_Files_Analysis.py                       1973  0.01s             8           0  0.13s           2024-02-02T17:26:42
+================================================================================
+[2024-02-02T17:27:43.999+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:27:13
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:27:13
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:27:13
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:27:13
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:27:13
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:27:13
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2028  0.01s             0           0  0.03s           2024-02-02T17:27:13
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:27:13
+/opt/airflow/dags/Flight_Files_Analysis.py                       2025  0.02s             8           0  0.10s           2024-02-02T17:27:13
+================================================================================
+[2024-02-02T17:28:14.582+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:27:44
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:27:44
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:27:44
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:27:44
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:27:44
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:27:44
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2080  0.00s             0           0  0.05s           2024-02-02T17:27:44
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:27:44
+/opt/airflow/dags/Flight_Files_Analysis.py                       2077  0.01s             8           0  0.13s           2024-02-02T17:27:44
+================================================================================
+[2024-02-02T17:28:45.079+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:28:14
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:28:14
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:28:14
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:28:14
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:28:14
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:28:14
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2132  0.00s             0           0  0.04s           2024-02-02T17:28:14
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:28:14
+/opt/airflow/dags/Flight_Files_Analysis.py                       2129  0.02s             8           0  0.12s           2024-02-02T17:28:14
+================================================================================
+[2024-02-02T17:29:15.657+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:28:45
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:28:45
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:28:45
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:28:45
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:28:45
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:28:45
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2184  0.00s             0           0  0.05s           2024-02-02T17:28:45
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:28:45
+/opt/airflow/dags/Flight_Files_Analysis.py                       2181  0.02s             8           0  0.13s           2024-02-02T17:28:45
+================================================================================
+[2024-02-02T17:29:46.198+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:29:15
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:29:15
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:29:15
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:29:15
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:29:15
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:29:15
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2236  0.01s             0           0  0.05s           2024-02-02T17:29:15
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:29:15
+/opt/airflow/dags/Flight_Files_Analysis.py                       2233  0.02s             8           0  0.13s           2024-02-02T17:29:15
+================================================================================
+[2024-02-02T17:29:56.492+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2024-02-02T17:29:56.512+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-02T17:30:16.705+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.04s           2024-02-02T17:29:46
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:29:46
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:29:46
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:29:46
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.05s           2024-02-02T17:29:46
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:29:46
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2290  0.00s             0           0  0.05s           2024-02-02T17:29:46
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:29:46
+/opt/airflow/dags/Flight_Files_Analysis.py                       2287  0.01s             8           0  0.13s           2024-02-02T17:29:46
+================================================================================
+[2024-02-02T17:30:47.136+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:30:16
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:30:16
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:30:16
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:30:16
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:30:16
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:30:16
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2346  0.00s             0           0  0.03s           2024-02-02T17:30:16
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:30:16
+/opt/airflow/dags/Flight_Files_Analysis.py                       2343  0.01s             8           0  0.11s           2024-02-02T17:30:16
+================================================================================
+[2024-02-02T17:31:17.596+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:30:47
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:30:47
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:30:47
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:30:47
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:30:47
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:30:47
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2398  0.00s             0           0  0.03s           2024-02-02T17:30:47
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:30:47
+/opt/airflow/dags/Flight_Files_Analysis.py                       2395  0.01s             8           0  0.10s           2024-02-02T17:30:47
+================================================================================
+[2024-02-02T17:31:48.075+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:31:17
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:31:17
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:31:17
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:31:17
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:31:17
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:31:17
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2450  0.00s             0           0  0.03s           2024-02-02T17:31:17
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.03s           2024-02-02T17:31:17
+/opt/airflow/dags/Flight_Files_Analysis.py                       2447  0.01s             8           0  0.11s           2024-02-02T17:31:17
+================================================================================
+[2024-02-02T17:32:18.579+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:31:48
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:31:48
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:31:48
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:31:48
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:31:48
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:31:48
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2502  0.00s             0           0  0.03s           2024-02-02T17:31:48
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.03s           2024-02-02T17:31:48
+/opt/airflow/dags/Flight_Files_Analysis.py                       2499  0.02s             8           0  0.11s           2024-02-02T17:31:48
+================================================================================
+[2024-02-02T17:32:49.109+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:32:18
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:32:18
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:32:18
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:32:18
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:32:18
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:32:18
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2558  0.00s             0           0  0.05s           2024-02-02T17:32:18
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:32:18
+/opt/airflow/dags/Flight_Files_Analysis.py                       2555  0.01s             8           0  0.13s           2024-02-02T17:32:18
+================================================================================
+[2024-02-02T17:33:19.616+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:32:49
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:32:49
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:32:49
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:32:49
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:32:49
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:32:49
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2610  0.00s             0           0  0.03s           2024-02-02T17:32:49
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:32:49
+/opt/airflow/dags/Flight_Files_Analysis.py                       2607  0.01s             8           0  0.11s           2024-02-02T17:32:49
+================================================================================
+[2024-02-02T17:33:50.086+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:33:19
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:33:19
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:33:19
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:33:19
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:33:19
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:33:19
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2662  0.00s             0           0  0.03s           2024-02-02T17:33:19
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:33:19
+/opt/airflow/dags/Flight_Files_Analysis.py                       2659  0.01s             8           0  0.11s           2024-02-02T17:33:19
+================================================================================
+[2024-02-02T17:34:20.614+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:33:50
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:33:50
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:33:50
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:33:50
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:33:50
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:33:50
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2714  0.00s             0           0  0.04s           2024-02-02T17:33:50
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:33:50
+/opt/airflow/dags/Flight_Files_Analysis.py                       2711  0.02s             8           0  0.11s           2024-02-02T17:33:50
+================================================================================
+[2024-02-02T17:34:51.190+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:34:20
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:34:20
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:34:20
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:34:20
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:34:20
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:34:20
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2773  0.00s             0           0  0.05s           2024-02-02T17:34:20
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.03s           2024-02-02T17:34:20
+/opt/airflow/dags/Flight_Files_Analysis.py                       2769  0.01s             8           0  0.13s           2024-02-02T17:34:20
+================================================================================
+[2024-02-02T17:34:57.433+0000] {manager.py:755} INFO - Searching for files in /opt/airflow/dags
+[2024-02-02T17:34:57.462+0000] {manager.py:758} INFO - There are 9 files in /opt/airflow/dags
+[2024-02-02T17:35:21.837+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:34:51
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:34:51
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:34:51
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:34:51
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:34:51
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:34:51
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2825  0.01s             0           0  0.04s           2024-02-02T17:34:51
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:34:51
+/opt/airflow/dags/Flight_Files_Analysis.py                       2822  0.02s             8           0  0.11s           2024-02-02T17:34:51
+================================================================================
+[2024-02-02T17:35:52.430+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:35:21
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:35:22
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:35:22
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:35:21
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:35:21
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:35:21
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2877  0.00s             0           0  0.05s           2024-02-02T17:35:21
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:35:22
+/opt/airflow/dags/Flight_Files_Analysis.py                       2874  0.02s             8           0  0.13s           2024-02-02T17:35:21
+================================================================================
+[2024-02-02T17:36:23.030+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:35:52
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:35:52
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:35:52
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:35:52
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:35:52
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:35:52
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2929  0.00s             0           0  0.05s           2024-02-02T17:35:52
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:35:52
+/opt/airflow/dags/Flight_Files_Analysis.py                       2926  0.02s             8           0  0.13s           2024-02-02T17:35:52
+================================================================================
+[2024-02-02T17:36:53.673+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:36:23
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:36:23
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:36:23
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:36:23
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:36:23
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:36:23
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 2981  0.00s             0           0  0.05s           2024-02-02T17:36:23
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:36:23
+/opt/airflow/dags/Flight_Files_Analysis.py                       2978  0.01s             8           0  0.13s           2024-02-02T17:36:23
+================================================================================
+[2024-02-02T17:37:24.318+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:36:53
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:36:53
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:36:53
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:36:53
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:36:53
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:36:53
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 3033  0.01s             0           0  0.03s           2024-02-02T17:36:53
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:36:53
+/opt/airflow/dags/Flight_Files_Analysis.py                       3030  0.02s             8           0  0.10s           2024-02-02T17:36:53
+================================================================================
+[2024-02-02T17:37:54.921+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:37:24
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:37:24
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:37:24
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:37:24
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:37:24
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:37:24
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 3085  0.01s             0           0  0.05s           2024-02-02T17:37:24
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:37:24
+/opt/airflow/dags/Flight_Files_Analysis.py                       3082  0.02s             8           0  0.13s           2024-02-02T17:37:24
+================================================================================
+[2024-02-02T17:38:25.589+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:37:55
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:37:55
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:37:55
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:37:55
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:37:55
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:37:54
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 3137  0.00s             0           0  0.05s           2024-02-02T17:37:54
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:37:55
+/opt/airflow/dags/Flight_Files_Analysis.py                       3134  0.02s             8           0  0.13s           2024-02-02T17:37:55
+================================================================================
+[2024-02-02T17:38:56.228+0000] {manager.py:887} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+--------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/mysql_bulk_load.py                                                     0           0  0.03s           2024-02-02T17:38:25
+/opt/airflow/dags/sub_dag_remove_samples_with_nulls_in_cols.py                           0           0  0.03s           2024-02-02T17:38:25
+/opt/airflow/dags/postgres_bulk_dump.py                                                  0           0  0.03s           2024-02-02T17:38:25
+/opt/airflow/dags/drop_cols_w_all_nulls.py                                               0           0  0.03s           2024-02-02T17:38:25
+/opt/airflow/dags/retrieve_joined_tables.py                                              0           0  0.03s           2024-02-02T17:38:25
+/opt/airflow/dags/drop_single_value_columns.py                                           0           0  0.03s           2024-02-02T17:38:25
+/opt/airflow/dags/fill_nulls_with_fixed_value.py                 3189  0.00s             0           0  0.05s           2024-02-02T17:38:25
+/opt/airflow/dags/remove_multiple_columns.py                                             0           0  0.02s           2024-02-02T17:38:25
+/opt/airflow/dags/Flight_Files_Analysis.py                       3186  0.02s             8           0  0.13s           2024-02-02T17:38:25
+================================================================================
+[2024-02-02T17:39:24.066+0000] {manager.py:469} INFO - Exiting gracefully upon receiving signal 15

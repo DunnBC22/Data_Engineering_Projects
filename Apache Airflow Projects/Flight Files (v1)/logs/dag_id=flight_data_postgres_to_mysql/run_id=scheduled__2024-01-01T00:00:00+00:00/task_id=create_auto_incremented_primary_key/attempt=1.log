@@ -1,0 +1,22 @@
+[2024-02-02T17:13:07.753+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: flight_data_postgres_to_mysql.create_auto_incremented_primary_key scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-02-02T17:13:07.758+0000] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: flight_data_postgres_to_mysql.create_auto_incremented_primary_key scheduled__2024-01-01T00:00:00+00:00 [queued]>
+[2024-02-02T17:13:07.758+0000] {taskinstance.py:1361} INFO - Starting attempt 1 of 6
+[2024-02-02T17:13:07.763+0000] {taskinstance.py:1382} INFO - Executing <Task(PostgresOperator): create_auto_incremented_primary_key> on 2024-01-01 00:00:00+00:00
+[2024-02-02T17:13:07.765+0000] {standard_task_runner.py:57} INFO - Started process 533 to run task
+[2024-02-02T17:13:07.767+0000] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'flight_data_postgres_to_mysql', 'create_auto_incremented_primary_key', 'scheduled__2024-01-01T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/Flight_Files_Analysis.py', '--cfg-path', '/tmp/tmpzophc1ez']
+[2024-02-02T17:13:07.769+0000] {standard_task_runner.py:85} INFO - Job 7: Subtask create_auto_incremented_primary_key
+[2024-02-02T17:13:07.796+0000] {task_command.py:416} INFO - Running <TaskInstance: flight_data_postgres_to_mysql.create_auto_incremented_primary_key scheduled__2024-01-01T00:00:00+00:00 [running]> on host 122144057b92
+[2024-02-02T17:13:07.835+0000] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='dunnbc22' AIRFLOW_CTX_DAG_ID='flight_data_postgres_to_mysql' AIRFLOW_CTX_TASK_ID='create_auto_incremented_primary_key' AIRFLOW_CTX_EXECUTION_DATE='2024-01-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-01-01T00:00:00+00:00'
+[2024-02-02T17:13:07.835+0000] {sql.py:274} INFO - Executing: 
+        ALTER TABLE flight_data_pipe
+        ADD COLUMN flight_id SERIAL PRIMARY KEY;
+        
+[2024-02-02T17:13:07.841+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2024-02-02T17:13:07.846+0000] {base.py:73} INFO - Using connection ID 'postgres_conn' for task execution.
+[2024-02-02T17:13:07.855+0000] {sql.py:418} INFO - Running statement: 
+        ALTER TABLE flight_data_pipe
+        ADD COLUMN flight_id SERIAL PRIMARY KEY;
+        , parameters: None
+[2024-02-02T17:13:16.719+0000] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=flight_data_postgres_to_mysql, task_id=create_auto_incremented_primary_key, execution_date=20240101T000000, start_date=20240202T171307, end_date=20240202T171316
+[2024-02-02T17:13:16.750+0000] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2024-02-02T17:13:16.777+0000] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

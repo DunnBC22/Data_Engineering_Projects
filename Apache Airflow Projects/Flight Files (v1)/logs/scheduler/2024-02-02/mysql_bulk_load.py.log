@@ -1,0 +1,290 @@
+[2024-02-02T17:09:54.806+0000] {processor.py:157} INFO - Started process (PID=190) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:09:54.806+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:09:54.807+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:09:54.807+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:09:54.812+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:09:54.824+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.020 seconds
+[2024-02-02T17:10:25.344+0000] {processor.py:157} INFO - Started process (PID=242) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:10:25.348+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:10:25.349+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:10:25.348+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:10:25.355+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:10:25.365+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.023 seconds
+[2024-02-02T17:10:55.940+0000] {processor.py:157} INFO - Started process (PID=294) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:10:55.941+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:10:55.941+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:10:55.941+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:10:55.947+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:10:55.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.017 seconds
+[2024-02-02T17:11:26.497+0000] {processor.py:157} INFO - Started process (PID=346) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:11:26.497+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:11:26.498+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:11:26.498+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:11:26.503+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:11:26.514+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.019 seconds
+[2024-02-02T17:11:57.071+0000] {processor.py:157} INFO - Started process (PID=398) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:11:57.072+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:11:57.072+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:11:57.072+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:11:57.077+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:11:57.086+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.017 seconds
+[2024-02-02T17:12:27.511+0000] {processor.py:157} INFO - Started process (PID=458) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:12:27.512+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:12:27.513+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:12:27.513+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:12:27.518+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:12:27.528+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:12:58.042+0000] {processor.py:157} INFO - Started process (PID=510) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:12:58.042+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:12:58.043+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:12:58.043+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:12:58.048+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:12:58.057+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.017 seconds
+[2024-02-02T17:13:28.582+0000] {processor.py:157} INFO - Started process (PID=570) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:13:28.582+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:13:28.583+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:13:28.583+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:13:28.588+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:13:28.597+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:13:59.171+0000] {processor.py:157} INFO - Started process (PID=622) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:13:59.172+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:13:59.173+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:13:59.172+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:13:59.178+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:13:59.187+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:14:29.673+0000] {processor.py:157} INFO - Started process (PID=678) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:14:29.673+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:14:29.674+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:14:29.674+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:14:29.679+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:14:29.688+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:15:00.321+0000] {processor.py:157} INFO - Started process (PID=730) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:15:00.321+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:15:00.322+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:15:00.322+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:15:00.329+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:15:00.340+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.022 seconds
+[2024-02-02T17:15:30.863+0000] {processor.py:157} INFO - Started process (PID=794) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:15:30.864+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:15:30.865+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:15:30.865+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:15:30.878+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:15:30.896+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.037 seconds
+[2024-02-02T17:16:01.400+0000] {processor.py:157} INFO - Started process (PID=846) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:16:01.401+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:16:01.402+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:16:01.402+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:16:01.408+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:16:01.420+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.022 seconds
+[2024-02-02T17:16:31.978+0000] {processor.py:157} INFO - Started process (PID=898) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:16:31.978+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:16:31.979+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:16:31.978+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:16:31.984+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:16:31.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:17:02.473+0000] {processor.py:157} INFO - Started process (PID=950) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:17:02.474+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:17:02.474+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:17:02.474+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:17:02.480+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:17:02.489+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:17:33.021+0000] {processor.py:157} INFO - Started process (PID=1002) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:17:33.030+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:17:33.031+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:17:33.031+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:17:33.038+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:17:33.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.032 seconds
+[2024-02-02T17:18:03.550+0000] {processor.py:157} INFO - Started process (PID=1058) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:18:03.551+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:18:03.551+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:18:03.551+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:18:03.559+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:18:03.569+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.020 seconds
+[2024-02-02T17:18:34.109+0000] {processor.py:157} INFO - Started process (PID=1110) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:18:34.109+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:18:34.110+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:18:34.110+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:18:34.116+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:18:34.126+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.019 seconds
+[2024-02-02T17:19:04.656+0000] {processor.py:157} INFO - Started process (PID=1162) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:19:04.656+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:19:04.657+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:19:04.657+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:19:04.662+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:19:04.672+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:19:35.168+0000] {processor.py:157} INFO - Started process (PID=1214) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:19:35.168+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:19:35.169+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:19:35.169+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:19:35.174+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:19:35.184+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.019 seconds
+[2024-02-02T17:20:05.768+0000] {processor.py:157} INFO - Started process (PID=1268) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:20:05.768+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:20:05.769+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:20:05.769+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:20:05.774+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:20:05.784+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:20:36.276+0000] {processor.py:157} INFO - Started process (PID=1320) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:20:36.277+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:20:36.278+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:20:36.278+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:20:36.287+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:20:36.301+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.028 seconds
+[2024-02-02T17:21:06.777+0000] {processor.py:157} INFO - Started process (PID=1372) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:21:06.778+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:21:06.778+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:21:06.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:21:06.784+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:21:06.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:21:37.352+0000] {processor.py:157} INFO - Started process (PID=1424) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:21:37.352+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:21:37.353+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:21:37.353+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:21:37.358+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:21:37.368+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:22:07.930+0000] {processor.py:157} INFO - Started process (PID=1476) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:22:07.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:22:07.931+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:22:07.931+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:22:07.937+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:22:07.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:22:38.518+0000] {processor.py:157} INFO - Started process (PID=1528) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:22:38.519+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:22:38.519+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:22:38.519+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:22:38.525+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:22:38.534+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.019 seconds
+[2024-02-02T17:23:09.067+0000] {processor.py:157} INFO - Started process (PID=1582) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:23:09.068+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:23:09.069+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:23:09.069+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:23:09.075+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:23:09.085+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.020 seconds
+[2024-02-02T17:23:39.589+0000] {processor.py:157} INFO - Started process (PID=1632) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:23:39.589+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:23:39.590+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:23:39.590+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:23:39.595+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:23:39.605+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:24:10.189+0000] {processor.py:157} INFO - Started process (PID=1684) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:24:10.190+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:24:10.191+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:24:10.190+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:24:10.196+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:24:10.205+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:24:40.711+0000] {processor.py:157} INFO - Started process (PID=1736) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:24:40.712+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:24:40.712+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:24:40.712+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:24:40.718+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:24:40.727+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:25:11.318+0000] {processor.py:157} INFO - Started process (PID=1788) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:25:11.319+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:25:11.320+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:25:11.319+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:25:11.325+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:25:11.335+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:25:41.825+0000] {processor.py:157} INFO - Started process (PID=1840) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:25:41.826+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:25:41.826+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:25:41.826+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:25:41.832+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:25:41.841+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:26:12.431+0000] {processor.py:157} INFO - Started process (PID=1892) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:26:12.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:26:12.432+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:26:12.432+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:26:12.438+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:26:12.447+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:26:42.971+0000] {processor.py:157} INFO - Started process (PID=1944) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:26:42.972+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:26:42.972+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:26:42.972+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:26:42.978+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:26:42.987+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:27:13.539+0000] {processor.py:157} INFO - Started process (PID=1996) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:27:13.539+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:27:13.540+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:27:13.540+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:27:13.546+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:27:13.555+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:27:44.117+0000] {processor.py:157} INFO - Started process (PID=2048) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:27:44.118+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:27:44.118+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:27:44.118+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:27:44.124+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:27:44.133+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:28:14.699+0000] {processor.py:157} INFO - Started process (PID=2100) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:28:14.700+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:28:14.701+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:28:14.700+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:28:14.706+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:28:14.715+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:28:45.197+0000] {processor.py:157} INFO - Started process (PID=2152) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:28:45.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:28:45.198+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:28:45.198+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:28:45.204+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:28:45.214+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.019 seconds
+[2024-02-02T17:29:15.775+0000] {processor.py:157} INFO - Started process (PID=2204) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:29:15.776+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:29:15.776+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:29:15.776+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:29:15.782+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:29:15.791+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:29:46.334+0000] {processor.py:157} INFO - Started process (PID=2256) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:29:46.335+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:29:46.336+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:29:46.336+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:29:46.342+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:29:46.353+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.021 seconds
+[2024-02-02T17:30:16.834+0000] {processor.py:157} INFO - Started process (PID=2312) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:30:16.835+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:30:16.836+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:30:16.835+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:30:16.841+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:30:16.851+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:30:47.244+0000] {processor.py:157} INFO - Started process (PID=2366) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:30:47.245+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:30:47.246+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:30:47.245+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:30:47.252+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:30:47.262+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.019 seconds
+[2024-02-02T17:31:17.702+0000] {processor.py:157} INFO - Started process (PID=2418) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:31:17.702+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:31:17.703+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:31:17.703+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:31:17.709+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:31:17.719+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.019 seconds
+[2024-02-02T17:31:48.206+0000] {processor.py:157} INFO - Started process (PID=2472) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:31:48.207+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:31:48.208+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:31:48.208+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:31:48.214+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:31:48.224+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.020 seconds
+[2024-02-02T17:32:18.698+0000] {processor.py:157} INFO - Started process (PID=2522) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:32:18.699+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:32:18.699+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:32:18.699+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:32:18.705+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:32:18.714+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:32:49.216+0000] {processor.py:157} INFO - Started process (PID=2578) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:32:49.217+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:32:49.217+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:32:49.217+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:32:49.223+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:32:49.233+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.019 seconds
+[2024-02-02T17:33:19.725+0000] {processor.py:157} INFO - Started process (PID=2630) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:33:19.725+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:33:19.726+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:33:19.726+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:33:19.732+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:33:19.741+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.019 seconds
+[2024-02-02T17:33:50.198+0000] {processor.py:157} INFO - Started process (PID=2682) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:33:50.198+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:33:50.199+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:33:50.199+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:33:50.204+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:33:50.213+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:34:20.732+0000] {processor.py:157} INFO - Started process (PID=2734) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:34:20.733+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:34:20.733+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:34:20.733+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:34:20.739+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:34:20.748+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:34:51.302+0000] {processor.py:157} INFO - Started process (PID=2793) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:34:51.303+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:34:51.303+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:34:51.303+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:34:51.308+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:34:51.318+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:35:21.956+0000] {processor.py:157} INFO - Started process (PID=2845) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:35:21.956+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:35:21.957+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:35:21.957+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:35:21.962+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:35:21.971+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:35:52.548+0000] {processor.py:157} INFO - Started process (PID=2897) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:35:52.549+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:35:52.550+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:35:52.549+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:35:52.555+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:35:52.564+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:36:23.149+0000] {processor.py:157} INFO - Started process (PID=2949) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:36:23.149+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:36:23.150+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:36:23.150+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:36:23.156+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:36:23.165+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:36:53.777+0000] {processor.py:157} INFO - Started process (PID=3001) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:36:53.777+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:36:53.778+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:36:53.778+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:36:53.783+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:36:53.793+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:37:24.438+0000] {processor.py:157} INFO - Started process (PID=3053) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:37:24.439+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:37:24.439+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:37:24.439+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:37:24.445+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:37:24.454+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:37:55.039+0000] {processor.py:157} INFO - Started process (PID=3105) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:37:55.040+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:37:55.041+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:37:55.040+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:37:55.046+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:37:55.055+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:38:25.707+0000] {processor.py:157} INFO - Started process (PID=3157) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:38:25.708+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:38:25.708+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:38:25.708+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:38:25.714+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:38:25.724+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds
+[2024-02-02T17:38:56.348+0000] {processor.py:157} INFO - Started process (PID=3209) to work on /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:38:56.348+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/mysql_bulk_load.py for tasks to queue
+[2024-02-02T17:38:56.349+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:38:56.349+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:38:56.354+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/mysql_bulk_load.py
+[2024-02-02T17:38:56.364+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/mysql_bulk_load.py took 0.018 seconds

@@ -1,0 +1,290 @@
+[2024-02-02T17:09:54.737+0000] {processor.py:157} INFO - Started process (PID=180) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:09:54.738+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:09:54.738+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:09:54.738+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:09:54.744+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:09:54.756+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.021 seconds
+[2024-02-02T17:10:25.306+0000] {processor.py:157} INFO - Started process (PID=232) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:10:25.307+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:10:25.307+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:10:25.307+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:10:25.314+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:10:25.323+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:10:55.902+0000] {processor.py:157} INFO - Started process (PID=284) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:10:55.903+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:10:55.903+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:10:55.903+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:10:55.909+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:10:55.918+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.017 seconds
+[2024-02-02T17:11:26.453+0000] {processor.py:157} INFO - Started process (PID=336) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:11:26.453+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:11:26.454+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:11:26.454+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:11:26.460+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:11:26.469+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:11:57.034+0000] {processor.py:157} INFO - Started process (PID=388) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:11:57.034+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:11:57.035+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:11:57.035+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:11:57.041+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:11:57.050+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:12:27.470+0000] {processor.py:157} INFO - Started process (PID=448) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:12:27.470+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:12:27.471+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:12:27.471+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:12:27.477+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:12:27.486+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:12:58.005+0000] {processor.py:157} INFO - Started process (PID=500) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:12:58.005+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:12:58.006+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:12:58.006+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:12:58.012+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:12:58.021+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:13:28.542+0000] {processor.py:157} INFO - Started process (PID=560) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:13:28.543+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:13:28.543+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:13:28.543+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:13:28.549+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:13:28.558+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:13:59.133+0000] {processor.py:157} INFO - Started process (PID=612) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:13:59.133+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:13:59.134+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:13:59.134+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:13:59.140+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:13:59.148+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:14:29.633+0000] {processor.py:157} INFO - Started process (PID=668) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:14:29.633+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:14:29.634+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:14:29.634+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:14:29.640+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:14:29.649+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:15:00.279+0000] {processor.py:157} INFO - Started process (PID=720) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:15:00.279+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:15:00.280+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:15:00.280+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:15:00.286+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:15:00.296+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:15:30.750+0000] {processor.py:157} INFO - Started process (PID=782) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:15:30.751+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:15:30.752+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:15:30.752+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:15:30.758+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:15:30.769+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.020 seconds
+[2024-02-02T17:16:01.330+0000] {processor.py:157} INFO - Started process (PID=834) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:16:01.330+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:16:01.331+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:16:01.331+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:16:01.337+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:16:01.348+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.020 seconds
+[2024-02-02T17:16:31.940+0000] {processor.py:157} INFO - Started process (PID=888) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:16:31.941+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:16:31.941+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:16:31.941+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:16:31.947+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:16:31.956+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:17:02.431+0000] {processor.py:157} INFO - Started process (PID=940) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:17:02.432+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:17:02.433+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:17:02.432+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:17:02.438+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:17:02.449+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.020 seconds
+[2024-02-02T17:17:32.971+0000] {processor.py:157} INFO - Started process (PID=992) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:17:32.972+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:17:32.973+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:17:32.973+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:17:32.982+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:17:32.993+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.025 seconds
+[2024-02-02T17:18:03.507+0000] {processor.py:157} INFO - Started process (PID=1048) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:18:03.507+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:18:03.508+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:18:03.508+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:18:03.514+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:18:03.524+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.020 seconds
+[2024-02-02T17:18:34.071+0000] {processor.py:157} INFO - Started process (PID=1100) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:18:34.072+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:18:34.073+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:18:34.073+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:18:34.079+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:18:34.087+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:19:04.619+0000] {processor.py:157} INFO - Started process (PID=1152) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:19:04.619+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:19:04.620+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:19:04.620+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:19:04.626+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:19:04.635+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:19:35.125+0000] {processor.py:157} INFO - Started process (PID=1204) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:19:35.126+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:19:35.127+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:19:35.127+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:19:35.134+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:19:35.143+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:20:05.728+0000] {processor.py:157} INFO - Started process (PID=1258) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:20:05.728+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:20:05.729+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:20:05.729+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:20:05.734+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:20:05.744+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:20:36.232+0000] {processor.py:157} INFO - Started process (PID=1310) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:20:36.232+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:20:36.233+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:20:36.233+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:20:36.239+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:20:36.248+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:21:06.735+0000] {processor.py:157} INFO - Started process (PID=1362) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:21:06.736+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:21:06.736+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:21:06.736+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:21:06.742+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:21:06.752+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:21:37.314+0000] {processor.py:157} INFO - Started process (PID=1414) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:21:37.314+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:21:37.315+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:21:37.315+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:21:37.321+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:21:37.330+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:22:07.892+0000] {processor.py:157} INFO - Started process (PID=1466) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:22:07.893+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:22:07.894+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:22:07.893+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:22:07.899+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:22:07.908+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:22:38.468+0000] {processor.py:157} INFO - Started process (PID=1518) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:22:38.469+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:22:38.469+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:22:38.469+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:22:38.476+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:22:38.488+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.022 seconds
+[2024-02-02T17:23:09.006+0000] {processor.py:157} INFO - Started process (PID=1570) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:23:09.007+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:23:09.008+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:23:09.008+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:23:09.013+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:23:09.023+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:23:39.551+0000] {processor.py:157} INFO - Started process (PID=1622) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:23:39.551+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:23:39.552+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:23:39.552+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:23:39.557+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:23:39.567+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:24:10.151+0000] {processor.py:157} INFO - Started process (PID=1674) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:24:10.152+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:24:10.152+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:24:10.152+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:24:10.158+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:24:10.167+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:24:40.674+0000] {processor.py:157} INFO - Started process (PID=1726) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:24:40.675+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:24:40.675+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:24:40.675+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:24:40.681+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:24:40.690+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:25:11.281+0000] {processor.py:157} INFO - Started process (PID=1778) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:25:11.282+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:25:11.282+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:25:11.282+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:25:11.288+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:25:11.297+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:25:41.787+0000] {processor.py:157} INFO - Started process (PID=1830) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:25:41.788+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:25:41.788+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:25:41.788+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:25:41.794+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:25:41.803+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:26:12.394+0000] {processor.py:157} INFO - Started process (PID=1882) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:26:12.395+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:26:12.395+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:26:12.395+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:26:12.401+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:26:12.410+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:26:42.930+0000] {processor.py:157} INFO - Started process (PID=1934) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:26:42.931+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:26:42.931+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:26:42.931+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:26:42.937+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:26:42.946+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:27:13.501+0000] {processor.py:157} INFO - Started process (PID=1986) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:27:13.502+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:27:13.502+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:27:13.502+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:27:13.508+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:27:13.517+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:27:44.079+0000] {processor.py:157} INFO - Started process (PID=2038) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:27:44.080+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:27:44.081+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:27:44.080+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:27:44.086+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:27:44.095+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:28:14.661+0000] {processor.py:157} INFO - Started process (PID=2090) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:28:14.662+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:28:14.662+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:28:14.662+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:28:14.668+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:28:14.677+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:28:45.158+0000] {processor.py:157} INFO - Started process (PID=2142) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:28:45.158+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:28:45.159+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:28:45.159+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:28:45.165+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:28:45.174+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:29:15.738+0000] {processor.py:157} INFO - Started process (PID=2194) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:29:15.739+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:29:15.739+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:29:15.739+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:29:15.745+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:29:15.754+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:29:46.279+0000] {processor.py:157} INFO - Started process (PID=2246) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:29:46.280+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:29:46.281+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:29:46.280+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:29:46.286+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:29:46.296+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:30:16.775+0000] {processor.py:157} INFO - Started process (PID=2300) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:30:16.775+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:30:16.776+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:30:16.776+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:30:16.782+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:30:16.791+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:30:47.205+0000] {processor.py:157} INFO - Started process (PID=2356) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:30:47.206+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:30:47.206+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:30:47.206+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:30:47.212+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:30:47.222+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:31:17.663+0000] {processor.py:157} INFO - Started process (PID=2408) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:31:17.664+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:31:17.665+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:31:17.665+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:31:17.671+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:31:17.680+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:31:48.143+0000] {processor.py:157} INFO - Started process (PID=2460) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:31:48.144+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:31:48.145+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:31:48.145+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:31:48.151+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:31:48.161+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:32:18.658+0000] {processor.py:157} INFO - Started process (PID=2512) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:32:18.659+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:32:18.659+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:32:18.659+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:32:18.665+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:32:18.674+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:32:49.177+0000] {processor.py:157} INFO - Started process (PID=2568) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:32:49.177+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:32:49.178+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:32:49.178+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:32:49.184+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:32:49.194+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:33:19.684+0000] {processor.py:157} INFO - Started process (PID=2620) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:33:19.685+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:33:19.685+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:33:19.685+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:33:19.691+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:33:19.702+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.021 seconds
+[2024-02-02T17:33:50.160+0000] {processor.py:157} INFO - Started process (PID=2672) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:33:50.160+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:33:50.161+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:33:50.161+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:33:50.166+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:33:50.176+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:34:20.693+0000] {processor.py:157} INFO - Started process (PID=2724) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:34:20.693+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:34:20.694+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:34:20.694+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:34:20.700+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:34:20.709+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:34:51.264+0000] {processor.py:157} INFO - Started process (PID=2783) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:34:51.265+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:34:51.265+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:34:51.265+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:34:51.271+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:34:51.281+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:35:21.918+0000] {processor.py:157} INFO - Started process (PID=2835) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:35:21.919+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:35:21.919+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:35:21.919+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:35:21.925+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:35:21.934+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:35:52.510+0000] {processor.py:157} INFO - Started process (PID=2887) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:35:52.511+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:35:52.511+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:35:52.511+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:35:52.517+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:35:52.526+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.019 seconds
+[2024-02-02T17:36:23.110+0000] {processor.py:157} INFO - Started process (PID=2939) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:36:23.111+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:36:23.111+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:36:23.111+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:36:23.117+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:36:23.127+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:36:53.739+0000] {processor.py:157} INFO - Started process (PID=2991) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:36:53.740+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:36:53.740+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:36:53.740+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:36:53.746+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:36:53.755+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:37:24.401+0000] {processor.py:157} INFO - Started process (PID=3043) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:37:24.401+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:37:24.402+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:37:24.402+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:37:24.408+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:37:24.417+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:37:55.002+0000] {processor.py:157} INFO - Started process (PID=3095) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:37:55.003+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:37:55.003+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:37:55.003+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:37:55.009+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:37:55.018+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:38:25.669+0000] {processor.py:157} INFO - Started process (PID=3147) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:38:25.670+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:38:25.671+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:38:25.670+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:38:25.676+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:38:25.686+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
+[2024-02-02T17:38:56.310+0000] {processor.py:157} INFO - Started process (PID=3199) to work on /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:38:56.311+0000] {processor.py:829} INFO - Processing file /opt/airflow/dags/drop_cols_w_all_nulls.py for tasks to queue
+[2024-02-02T17:38:56.311+0000] {logging_mixin.py:154} INFO - [2024-02-02T17:38:56.311+0000] {dagbag.py:536} INFO - Filling up the DagBag from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:38:56.317+0000] {processor.py:841} WARNING - No viable dags retrieved from /opt/airflow/dags/drop_cols_w_all_nulls.py
+[2024-02-02T17:38:56.327+0000] {processor.py:179} INFO - Processing /opt/airflow/dags/drop_cols_w_all_nulls.py took 0.018 seconds
