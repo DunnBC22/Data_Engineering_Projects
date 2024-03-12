@@ -1,5 +1,0 @@
-INSERT INTO all_maang_stock SELECT 'GOOG' AS ticker_symbol, trading_date, trading_open, trading_high, trading_low, trading_close, trading_adj_close, trading_volume FROM maang_stock_google_stock;
-INSERT INTO all_maang_stock SELECT 'AMZN' AS ticker_symbol, trading_date, trading_open, trading_high, trading_low, trading_close, trading_adj_close, trading_volume FROM maang_stock_amazon_stock;
-INSERT INTO all_maang_stock SELECT 'AAPL' AS ticker_symbol, trading_date, trading_open, trading_high, trading_low, trading_close, trading_adj_close, trading_volume FROM maang_stock_apple_stock;
-INSERT INTO all_maang_stock SELECT 'META' AS ticker_symbol, trading_date, trading_open, trading_high, trading_low, trading_close, trading_adj_close, trading_volume FROM maang_stock_meta_stock;
-INSERT INTO all_maang_stock SELECT 'NFLX' AS ticker_symbol, trading_date, trading_open, trading_high, trading_low, trading_close, trading_adj_close, trading_volume FROM maang_stock_netflix_stock;
