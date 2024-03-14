@@ -1,0 +1,10 @@
+INSERT INTO companies (company_id, company_name, company_type, employees) VALUES (1, 'Adams-Rice', 'public', '500-1,000');
+INSERT INTO companies (company_id, company_name, company_type, employees) VALUES (2, 'Olson-Schneider', 'private', '1-10');
+INSERT INTO companies (company_id, company_name, company_type, employees) VALUES (3, 'Smith, Weber and Spence', 'non-profit', '101-500');
+INSERT INTO companies (company_id, company_name, company_type, employees) VALUES (4, 'Johnston and Sons', 'private', '500-1,000');
+INSERT INTO companies (company_id, company_name, company_type, employees) VALUES (5, 'Sullivan, Kirby and Smith', 'non-profit', '1-10');
+INSERT INTO companies (company_id, company_name, company_type, employees) VALUES (6, 'Davis Group', 'public', '101-500');
+INSERT INTO companies (company_id, company_name, company_type, employees) VALUES (7, 'Ryan PLC', 'private', '1-10');
+INSERT INTO companies (company_id, company_name, company_type, employees) VALUES (8, 'Jackson, Cabrera and Morales', 'private', '51-100');
+INSERT INTO companies (company_id, company_name, company_type, employees) VALUES (9, 'Lynch-Weaver', 'private', '51-100');
+INSERT INTO companies (company_id, company_name, company_type, employees) VALUES (10, 'Everett-Cline', 'private', '51-100');
