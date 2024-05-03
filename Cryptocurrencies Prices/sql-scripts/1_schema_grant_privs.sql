@@ -1,1 +1,0 @@
-GRANT ALL PRIVILEGES ON DATABASE crypto_prices TO pg;
