@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON DATABASE cpd_traffic_crashes_db TO pg;

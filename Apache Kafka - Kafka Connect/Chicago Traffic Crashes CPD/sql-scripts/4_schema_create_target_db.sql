@@ -1,0 +1,1 @@
+CREATE DATABASE output_cpd_traffic_crashes_db;
