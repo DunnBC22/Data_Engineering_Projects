@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON DATABASE output_hh_nrg_db TO pg;

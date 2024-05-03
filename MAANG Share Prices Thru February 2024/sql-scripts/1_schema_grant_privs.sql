@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON DATABASE maang_stock_source TO pg;

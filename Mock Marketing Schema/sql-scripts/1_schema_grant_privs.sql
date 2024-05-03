@@ -1,0 +1,1 @@
+GRANT ALL PRIVILEGES ON DATABASE mock_marketing_data TO pg;

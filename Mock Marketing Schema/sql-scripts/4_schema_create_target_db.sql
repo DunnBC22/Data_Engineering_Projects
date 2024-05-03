@@ -1,0 +1,1 @@
+CREATE DATABASE output_mock_marketing_data;
