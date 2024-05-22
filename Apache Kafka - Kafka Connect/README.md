@@ -27,14 +27,31 @@
 
 * Sometimes, I dropped the connectors, streams, and tables. I did not always do this, but I should have done this for all of the projects here.
 
-## List of Projects (With Specific Notes About Each)
+## List of Projects
+
+<!---
+| Project Name | Source Connector | Sink Connector | Notes |
+| --- | --- | --- | --- |
+| Analyzing the Impact | Postgres | Postgres | - Multiple tables with different schema |
+| Car_Spec_Dataset | Postgres | Postgres | + Since the INSERT INTO file was originally over 48 MB, I trimmed it to fit within 25 MB. That said, if you are looking for the full dataset, you will need to go to the URL, download the dataset, and convert the the CSV file to INSERT INTO statements. |
+| Chicago Traffic Crashes CPD | Postgres | Postgres | 1.) Single table with over 794,000 records/samples. 2.) Since the INSERT INTO file was originally over 1 GB, I trimmed it to fit within 25 MB. That said, if you are looking for the full dataset, you will need to go to the URL, download the dataset, and convert the the CSV file to INSERT INTO statements |
+| Cryptocurrencies Prices | Postgres | Postgres | + Multiple tables with the same schema |
+| Fuel Prices in Ontario | Postgres | Postgres |  |
+| Household Energy Data | Postgres | Postgres |  |
+| MAANG Share Prices Thru February 2024 | Postgres | Postgres | + Multiple tables with the same schema |
+| Mock Marketing Schema | Postgres | Postgres | - Multiple tables with different schema |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+
+--->
 
 + Analyzing the Impact
     + Multiple tables with different schema
 + Car_Spec_Dataset
     + Since the INSERT INTO file was originally over 48 MB, I trimmed it to fit within 25 MB. That said, if you are looking for the full dataset, you will need to go to the URL, download the dataset, and convert the the CSV file to INSERT INTO statements.
 + Chicago Traffic Crashes CPD
-    + Single table with over 794,000 records/samples
+    + Single table with over 794,000 records/samples.
     + Since the INSERT INTO file was originally over 1 GB, I trimmed it to fit within 25 MB. That said, if you are looking for the full dataset, you will need to go to the URL, download the dataset, and convert the the CSV file to INSERT INTO statements.
 + Cryptocurrencies Prices
     + Multiple tables with the same schema
