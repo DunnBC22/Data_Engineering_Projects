@@ -1,0 +1,1 @@
+GRANT SELECT ON impact_analysis.* TO 'mysql'@'%';
