@@ -1,0 +1,244 @@
+services:
+  sql-server: # source database
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: sql-server
+    hostname: sql-server
+    networks:
+      - flight_files_network
+    ports:
+      - 1433:1433
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: '1Secure*"Password1'
+      MSSQL_SA_PASSWORD: '1Secure*Password1'
+      MSSQL_TCP_PORT: 1433
+      MSSQL_PID: Developer
+      MSSQL_AGENT_ENABLED: True
+    mem_limit: 10g
+    cpus: 4
+    volumes:
+      - "./sql-server-source-scripts:/scripts/"
+    command:
+      - /bin/bash
+      - -c
+      - |
+        # Launch MSSQL and send to background
+        /opt/mssql/bin/sqlservr &
+        pid=$!
+        # Wait for it to be available
+        echo "Waiting for MS SQL to be available ⏳"
+        /opt/mssql-tools/bin/sqlcmd -l 30 -S localhost -h-1 -V1 -U sa -P $$SA_PASSWORD -Q "SET NOCOUNT ON SELECT \"YAY WE ARE UP\" , @@servername"
+        is_up=$$?
+        while [ $$is_up -ne 0 ] ; do 
+          echo -e $$(date) 
+          /opt/mssql-tools/bin/sqlcmd -l 30 -S localhost -h-1 -V1 -U sa -P $$SA_PASSWORD -Q "SET NOCOUNT ON SELECT \"YAY WE ARE UP\" , @@servername"
+          is_up=$$?
+          sleep 5 
+        done
+        # Check if initialization has already been done
+        if [ ! -f /var/opt/sqlserver/initialization.flag ]; then
+        # Run every script in /scripts
+          for foo in /scripts/*.sql
+            do /opt/mssql-tools/bin/sqlcmd -U sa -P $$SA_PASSWORD -l 30 -e -i $$foo
+          done  
+        # Create the initialization flag file 
+        touch /var/opt/sqlserver/initialization.flag 
+        fi
+        echo "All scripts have been executed. Waiting for MS SQL(pid $$pid) to terminate."
+        # Wait on the sqlserver process
+        wait $$pid
+        # So that the container doesn't shut down, sleep this thread
+        sleep infinity
+
+  postgres: # target database
+    image: postgres:14
+    container_name: postgres
+    hostname: postgres
+    networks:
+      - flight_files_network
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: pg
+      POSTGRES_PASSWORD: pg
+      POSTGRES_DB: flight_files_target
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.6.0
+    hostname: zookeeper
+    container_name: zookeeper
+    networks:
+      - flight_files_network
+    ports:
+      - "2181:2181"
+    volumes:
+      - "./data/zk-txn-logs:/var/lib/zookeeper/log"
+      - "./data/zk-data:/var/lib/zookeeper/data"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  broker:
+    image: confluentinc/cp-kafka:7.6.0
+    hostname: broker
+    container_name: broker
+    networks:
+      - flight_files_network
+    depends_on:
+      - zookeeper
+    ports:
+      - "29092:29092"
+      - "9092:9092"
+      - "9101:9101"
+    volumes:
+      - "./data/kafka-data:/var/lib/kafka/data"
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: "zookeeper:2181"
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://broker:29092,PLAINTEXT_HOST://localhost:9092
+      KAFKA_AUTO_CREATE_TOPICS_ENABLE: true
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+      KAFKA_TRANSACTION_STATE_LOG_MIN_ISR: 1
+      KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
+      KAFKA_GROUP_INITIAL_REBALANCE_DELAY_MS: 100
+
+  schema-registry:
+    image: confluentinc/cp-schema-registry:7.6.0
+    hostname: schema-registry
+    container_name: schema-registry
+    networks:
+      - flight_files_network
+    restart: always
+    depends_on:
+      - zookeeper
+      - broker
+    ports:
+      - 8081:8081
+    environment:
+      SCHEMA_REGISTRY_HOST_NAME: schema-registry
+      SCHEMA_REGISTRY_KAFKASTORE_BOOTSTRAP_SERVERS: "broker:29092"
+
+  connect:
+    image: confluentinc/cp-kafka-connect-base:7.6.0
+    hostname: connect
+    container_name: connect
+    networks:
+      - flight_files_network
+    depends_on:
+      - broker
+      - schema-registry
+      - sql-server
+      - postgres
+    ports:
+      - "8083:8083"
+    volumes:
+      - $PWD/data:/data
+    environment:
+      CONNECT_BOOTSTRAP_SERVERS: "broker:29092" 
+      CONNECT_REST_PORT: 8083
+      CONNECT_GROUP_ID: kafka-connect
+      CONNECT_CONFIG_STORAGE_TOPIC: _connect-configs
+      CONNECT_OFFSET_STORAGE_TOPIC: _connect-offsets
+      CONNECT_STATUS_STORAGE_TOPIC: _connect-status
+      CONNECT_KEY_CONVERTER: org.apache.kafka.connect.storage.StringConverter
+      CONNECT_KEY_CONVERTER_SCHEMA_REGISTRY_URL: 'http://schema-registry:8081'
+      CONNECT_VALUE_CONVERTER: io.confluent.connect.avro.AvroConverter
+      CONNECT_VALUE_CONVERTER_SCHEMA_REGISTRY_URL: 'http://schema-registry:8081'
+      CONNECT_REST_ADVERTISED_HOST_NAME: 'connect'
+      CONNECT_LOG4J_APPENDER_STDOUT_LAYOUT_CONVERSIONPATTERN: "[%d] %p %X{connector.context}%m (%c:%L)%n"
+      CONNECT_CONFIG_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_OFFSET_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_STATUS_STORAGE_REPLICATION_FACTOR: 1
+      CONNECT_LOG4J_LOGGERS: org.apache.zookeeper=DEBUG,org.I0Itec.zkclient=DEBUG,org.reflections=DEBUG
+      CONNECT_PLUGIN_PATH: '/usr/share/java,/usr/share/confluent-hub-components'
+    command:
+      - bash
+      - -c
+      - |
+        #
+        echo "Installing Kafka Confluent Connector"
+        confluent-hub install --no-prompt confluentinc/kafka-connect-jdbc:10.7.6
+        #
+        echo "Launching Kafka Connect worker"
+        /etc/confluent/docker/run &
+        #
+        echo "Waiting for Kafka Connect to start listening on 0.0.0.0:8083 ⏳"
+        while : ; do
+          curl_status=$$(curl -s -o /dev/null -w %{http_code} http://0.0.0.0:8083/connectors)
+          echo -e $$(date) " Kafka Connect listener HTTP state: " $$curl_status " (waiting for 200)"
+          if [ $$curl_status -eq 200 ] ; then
+          break
+          fi
+          sleep 20
+        done
+        sleep infinity
+
+  ksqldb-server:
+    image: confluentinc/cp-ksqldb-server:7.6.0
+    hostname: ksqldb-server
+    container_name: ksqldb-server
+    networks:
+      - flight_files_network
+    depends_on:
+      - broker
+      - connect
+    ports:
+      - "8088:8088"
+    environment:
+      KSQL_BOOTSTRAP_SERVERS: "broker:29092"
+      KSQL_HOST_NAME: ksqldb-server
+      KSQL_LISTENERS: "http://0.0.0.0:8088"
+      KSQL_CACHE_MAX_BYTES_BUFFERING: 0
+      KSQL_KSQL_SCHEMA_REGISTRY_URL: "http://schema-registry:8081"
+      KSQL_PRODUCER_INTERCEPTOR_CLASSES: "io.confluent.monitoring.clients.interceptor.MonitoringProducerInterceptor"
+      KSQL_CONSUMER_INTERCEPTOR_CLASSES: "io.confluent.monitoring.clients.interceptor.MonitoringConsumerInterceptor"
+      KSQL_KSQL_CONNECT_URL: "http://connect:8083"
+      KSQL_KSQL_LOGGING_PROCESSING_TOPIC_REPLICATION_FACTOR: 1
+      KSQL_KSQL_LOGGING_PROCESSING_TOPIC_AUTO_CREATE: true
+      KSQL_KSQL_LOGGING_PROCESSING_STREAM_AUTO_CREATE: true
+      KSQL_KSQL_SERVICE_ID: confluent_dunnbc22_01_
+      KSQL_KSQL_HIDDEN_TOPICS: "^_.*"
+
+  control-center:
+    image: confluentinc/cp-enterprise-control-center:7.6.0
+    hostname: control-center
+    container_name: control-center
+    networks:
+      - flight_files_network
+    depends_on:
+      - broker
+      - schema-registry
+      - connect
+      - ksqldb-server
+    ports:
+      - "9021:9021"
+    environment:
+      CONTROL_CENTER_BOOTSTRAP_SERVERS: "broker:29092"
+      CONTROL_CENTER_CONNECT_CONNECT-DEFAULT_CLUSTER: "http://connect:8083"
+      CONTROL_CENTER_KSQL_KSQLDB1_URL: "http://ksqldb-server:8088"
+      CONTROL_CENTER_KSQL_KSQLDB1_ADVERTISED_URL: "http://ksqldb-server:8088"
+      CONTROL_CENTER_SCHEMA_REGISTRY_URL: "http://schema-registry:8081"
+      CONTROL_CENTER_REPLICATION_FACTOR: 1
+      CONTROL_CENTER_INTERNAL_TOPICS_PARTITIONS: 1
+      CONTROL_CENTER_MONITORING_INTERCEPTOR_TOPIC_PARTITIONS: 1
+      CONTROL_CENTER_CONNECT_HEALTHCHECK_ENDPOINT: "/connectors"
+      CONFLUENT_METRICS_TOPIC_REPLICATION: 1
+      PORT: 9021
+
+  ksqldb-cli:
+    image: confluentinc/cp-ksqldb-cli:7.6.0
+    networks:
+      - flight_files_network
+    container_name: ksqldb-cli
+    depends_on:
+      - broker
+      - connect
+      - ksqldb-server
+    entrypoint: /bin/sh
+    tty: true
+
+networks:
+  flight_files_network:
+    driver: bridge
