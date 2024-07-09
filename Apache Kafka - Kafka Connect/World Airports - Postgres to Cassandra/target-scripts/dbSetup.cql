@@ -1,0 +1,33 @@
+CREATE KEYSPACE world_airports_keyspace WITH replication = {'class': 'SimpleStrategy', 'replication_factor': 1};
+
+CREATE TABLE world_airports_keyspace.world_airports_table (
+    x_coord DOUBLE,
+    y_coord DOUBLE,
+    object_id BIGINT,
+    id INT,
+    airport_identifier VARCHAR,
+    airport_type VARCHAR,
+    airport_name VARCHAR,
+    latitude_coord DOUBLE,
+    longitude_coord DOUBLE,
+    elevation_ft INT,
+    continent VARCHAR,
+    iso_country VARCHAR,
+    iso_region VARCHAR,
+    municipality VARCHAR,
+    scheduled_service VARCHAR,
+    gps_code VARCHAR,
+    iata_code VARCHAR,
+    local_code VARCHAR,
+    home_link VARCHAR,
+    wikipedia_link VARCHAR,
+    keywords TEXT,
+    communications_desc VARCHAR,
+    frequency_mhz FLOAT,
+    runway_length_ft INT,
+    runway_width_ft INT,
+    runway_surface VARCHAR,
+    runway_lighted INT,
+    runway_closed INT,
+    PRIMARY KEY (id)
+);
