@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="data-column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="monthly_charges"/>
+                <entry key="1" type="xstring" value="total_charges"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="125"/>
+                <entry key="0" type="xstring" value="target_churn"/>
+                <entry key="1" type="xstring" value="Male_gender"/>
+                <entry key="2" type="xstring" value="34_age"/>
+                <entry key="3" type="xstring" value="26_age"/>
+                <entry key="4" type="xstring" value="50_age"/>
+                <entry key="5" type="xstring" value="37_age"/>
+                <entry key="6" type="xstring" value="30_age"/>
+                <entry key="7" type="xstring" value="45_age"/>
+                <entry key="8" type="xstring" value="65_age"/>
+                <entry key="9" type="xstring" value="46_age"/>
+                <entry key="10" type="xstring" value="63_age"/>
+                <entry key="11" type="xstring" value="52_age"/>
+                <entry key="12" type="xstring" value="23_age"/>
+                <entry key="13" type="xstring" value="35_age"/>
+                <entry key="14" type="xstring" value="68_age"/>
+                <entry key="15" type="xstring" value="22_age"/>
+                <entry key="16" type="xstring" value="64_age"/>
+                <entry key="17" type="xstring" value="42_age"/>
+                <entry key="18" type="xstring" value="19_age"/>
+                <entry key="19" type="xstring" value="27_age"/>
+                <entry key="20" type="xstring" value="47_age"/>
+                <entry key="21" type="xstring" value="67_age"/>
+                <entry key="22" type="xstring" value="62_age"/>
+                <entry key="23" type="xstring" value="18_age"/>
+                <entry key="24" type="xstring" value="49_age"/>
+                <entry key="25" type="xstring" value="66_age"/>
+                <entry key="26" type="xstring" value="28_age"/>
+                <entry key="27" type="xstring" value="38_age"/>
+                <entry key="28" type="xstring" value="43_age"/>
+                <entry key="29" type="xstring" value="39_age"/>
+                <entry key="30" type="xstring" value="44_age"/>
+                <entry key="31" type="xstring" value="51_age"/>
+                <entry key="32" type="xstring" value="58_age"/>
+                <entry key="33" type="xstring" value="48_age"/>
+                <entry key="34" type="xstring" value="55_age"/>
+                <entry key="35" type="xstring" value="20_age"/>
+                <entry key="36" type="xstring" value="40_age"/>
+                <entry key="37" type="xstring" value="54_age"/>
+                <entry key="38" type="xstring" value="36_age"/>
+                <entry key="39" type="xstring" value="31_age"/>
+                <entry key="40" type="xstring" value="21_age"/>
+                <entry key="41" type="xstring" value="57_age"/>
+                <entry key="42" type="xstring" value="25_age"/>
+                <entry key="43" type="xstring" value="56_age"/>
+                <entry key="44" type="xstring" value="29_age"/>
+                <entry key="45" type="xstring" value="61_age"/>
+                <entry key="46" type="xstring" value="32_age"/>
+                <entry key="47" type="xstring" value="69_age"/>
+                <entry key="48" type="xstring" value="41_age"/>
+                <entry key="49" type="xstring" value="59_age"/>
+                <entry key="50" type="xstring" value="60_age"/>
+                <entry key="51" type="xstring" value="33_age"/>
+                <entry key="52" type="xstring" value="53_age"/>
+                <entry key="53" type="xstring" value="24_age"/>
+                <entry key="54" type="xstring" value="France_geography"/>
+                <entry key="55" type="xstring" value="Spain_geography"/>
+                <entry key="56" type="xstring" value="Germany_geography"/>
+                <entry key="57" type="xstring" value="Italy_geography"/>
+                <entry key="58" type="xstring" value="UK_geography"/>
+                <entry key="59" type="xstring" value="14_tenure"/>
+                <entry key="60" type="xstring" value="57_tenure"/>
+                <entry key="61" type="xstring" value="34_tenure"/>
+                <entry key="62" type="xstring" value="53_tenure"/>
+                <entry key="63" type="xstring" value="20_tenure"/>
+                <entry key="64" type="xstring" value="11_tenure"/>
+                <entry key="65" type="xstring" value="16_tenure"/>
+                <entry key="66" type="xstring" value="51_tenure"/>
+                <entry key="67" type="xstring" value="31_tenure"/>
+                <entry key="68" type="xstring" value="55_tenure"/>
+                <entry key="69" type="xstring" value="6_tenure"/>
+                <entry key="70" type="xstring" value="56_tenure"/>
+                <entry key="71" type="xstring" value="19_tenure"/>
+                <entry key="72" type="xstring" value="37_tenure"/>
+                <entry key="73" type="xstring" value="58_tenure"/>
+                <entry key="74" type="xstring" value="4_tenure"/>
+                <entry key="75" type="xstring" value="47_tenure"/>
+                <entry key="76" type="xstring" value="10_tenure"/>
+                <entry key="77" type="xstring" value="24_tenure"/>
+                <entry key="78" type="xstring" value="54_tenure"/>
+                <entry key="79" type="xstring" value="35_tenure"/>
+                <entry key="80" type="xstring" value="26_tenure"/>
+                <entry key="81" type="xstring" value="38_tenure"/>
+                <entry key="82" type="xstring" value="21_tenure"/>
+                <entry key="83" type="xstring" value="40_tenure"/>
+                <entry key="84" type="xstring" value="39_tenure"/>
+                <entry key="85" type="xstring" value="46_tenure"/>
+                <entry key="86" type="xstring" value="45_tenure"/>
+                <entry key="87" type="xstring" value="17_tenure"/>
+                <entry key="88" type="xstring" value="7_tenure"/>
+                <entry key="89" type="xstring" value="29_tenure"/>
+                <entry key="90" type="xstring" value="3_tenure"/>
+                <entry key="91" type="xstring" value="52_tenure"/>
+                <entry key="92" type="xstring" value="30_tenure"/>
+                <entry key="93" type="xstring" value="18_tenure"/>
+                <entry key="94" type="xstring" value="49_tenure"/>
+                <entry key="95" type="xstring" value="22_tenure"/>
+                <entry key="96" type="xstring" value="12_tenure"/>
+                <entry key="97" type="xstring" value="36_tenure"/>
+                <entry key="98" type="xstring" value="48_tenure"/>
+                <entry key="99" type="xstring" value="33_tenure"/>
+                <entry key="100" type="xstring" value="59_tenure"/>
+                <entry key="101" type="xstring" value="28_tenure"/>
+                <entry key="102" type="xstring" value="27_tenure"/>
+                <entry key="103" type="xstring" value="15_tenure"/>
+                <entry key="104" type="xstring" value="9_tenure"/>
+                <entry key="105" type="xstring" value="5_tenure"/>
+                <entry key="106" type="xstring" value="50_tenure"/>
+                <entry key="107" type="xstring" value="13_tenure"/>
+                <entry key="108" type="xstring" value="43_tenure"/>
+                <entry key="109" type="xstring" value="42_tenure"/>
+                <entry key="110" type="xstring" value="1_tenure"/>
+                <entry key="111" type="xstring" value="41_tenure"/>
+                <entry key="112" type="xstring" value="44_tenure"/>
+                <entry key="113" type="xstring" value="25_tenure"/>
+                <entry key="114" type="xstring" value="32_tenure"/>
+                <entry key="115" type="xstring" value="23_tenure"/>
+                <entry key="116" type="xstring" value="2_tenure"/>
+                <entry key="117" type="xstring" value="8_tenure"/>
+                <entry key="118" type="xstring" value="Two-year_contract"/>
+                <entry key="119" type="xstring" value="One-year_contract"/>
+                <entry key="120" type="xstring" value="Bank transfer_payment_method"/>
+                <entry key="121" type="xstring" value="Credit card_payment_method"/>
+                <entry key="122" type="xstring" value="Direct debit_payment_method"/>
+                <entry key="123" type="xstring" value="Electronic check_payment_method"/>
+                <entry key="124" type="xstring" value="Y_is_active_member"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="false"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="true"/>
+                </config>
+            </config>
+        </config>
+        <entry key="mode" type="xstring" value="Z_SCORE"/>
+        <entry key="new-min" type="xdouble" value="0.0"/>
+        <entry key="new-max" type="xdouble" value="1.0"/>
+    </config>
+    <config key="variables"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Z-Score Normalization"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.normalize3.Normalizer3NodeFactory"/>
+    <entry key="node-name" type="xstring" value="Normalizer"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202412040959"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.0.v202412040959"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Normalizer"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

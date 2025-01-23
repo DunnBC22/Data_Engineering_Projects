@@ -1,0 +1,33 @@
+services:
+  postgres: # Source DB
+    image: postgres:14
+    container_name: postgres
+    hostname: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./postgres:/docker-entrypoint-initdb.d
+      - pg_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=pg
+      - POSTGRES_PASSWORD=pg
+      - POSTGRES_DB=lccd_pg_db
+  
+  mysql: # Target DB
+    image: mysql:8.0
+    container_name: mysql
+    hostname: mysql
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d
+      - mysql_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=mysql-root-pw
+      - MYSQL_USER=mysql
+      - MYSQL_PASSWORD=mysql
+      - MYSQL_DATABASE=lccd_mysql_db
+
+volumes:
+  mysql_data:
+  pg_data:

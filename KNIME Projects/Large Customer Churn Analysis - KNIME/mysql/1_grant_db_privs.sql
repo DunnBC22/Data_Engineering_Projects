@@ -1,0 +1,2 @@
+GRANT INSERT, UPDATE, DELETE, SELECT, CREATE ON lccd_mysql_db.* TO 'mysql'@'%';
+FLUSH PRIVILEGES;

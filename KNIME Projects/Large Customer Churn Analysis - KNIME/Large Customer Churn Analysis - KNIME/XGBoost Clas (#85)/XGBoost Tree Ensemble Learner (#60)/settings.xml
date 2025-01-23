@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="options">
+            <config key="objective">
+                <entry key="identifier" type="xstring" value="multi:softprob"/>
+            </config>
+            <entry key="targetColumn" type="xstring" value="target_churn"/>
+            <entry key="weightColumn" type="xstring" isnull="true" value=""/>
+            <config key="featureFilter">
+                <entry key="filter-type" type="xstring" value="STANDARD"/>
+                <config key="included_names">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+                <config key="excluded_names">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+                <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+                <config key="name_pattern">
+                    <entry key="pattern" type="xstring" value=""/>
+                    <entry key="type" type="xstring" value="Wildcard"/>
+                    <entry key="caseSensitive" type="xboolean" value="true"/>
+                    <entry key="excludeMatching" type="xboolean" value="false"/>
+                </config>
+                <config key="datatype">
+                    <config key="typelist"/>
+                </config>
+            </config>
+            <entry key="boostingRounds" type="xint" value="100"/>
+            <entry key="numThreads" type="xint" value="4"/>
+            <entry key="manualNumThreads" type="xboolean" value="false"/>
+            <entry key="useStaticSeed" type="xboolean" value="false"/>
+            <entry key="staticSeed" type="xint" value="0"/>
+            <entry key="baseScore" type="xdouble" value="0.5"/>
+        </config>
+        <config key="booster">
+            <entry key="booster" type="xstring" value="Tree"/>
+            <entry key="eta" type="xdouble" value="0.3"/>
+            <entry key="gamma" type="xdouble" value="0.0"/>
+            <entry key="maxDepth" type="xint" value="6"/>
+            <entry key="minChildWeight" type="xdouble" value="1.0"/>
+            <entry key="maxDeltaStep" type="xdouble" value="0.0"/>
+            <entry key="subsample" type="xdouble" value="1.0"/>
+            <entry key="colSampleByTree" type="xdouble" value="1.0"/>
+            <entry key="colSampleByLevel" type="xdouble" value="1.0"/>
+            <entry key="colSampleByNode" type="xdouble" value="1.0"/>
+            <entry key="lambda" type="xdouble" value="1.0"/>
+            <entry key="alpha" type="xdouble" value="1.0"/>
+            <entry key="treeMethod" type="xstring" value="Auto"/>
+            <entry key="sketchEps" type="xdouble" value="0.03"/>
+            <entry key="scalePosWeight" type="xdouble" value="1.0"/>
+            <entry key="growPolicy" type="xstring" value="DepthWise"/>
+            <entry key="maxLeaves" type="xint" value="0"/>
+            <entry key="maxBin" type="xint" value="256"/>
+            <entry key="sampleType" type="xstring" value="Uniform"/>
+            <entry key="normalizeType" type="xstring" value="Tree"/>
+            <entry key="rateDrop" type="xdouble" value="0.0"/>
+            <entry key="oneDrop" type="xboolean" value="false"/>
+            <entry key="skipDrop" type="xdouble" value="0.0"/>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Train XGBoost Model"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.xgboost.base.nodes.learner.classification.XGBTreeClassificationLearnerNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="XGBoost Tree Ensemble Learner"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME XGBoost Integration"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.xgboost"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202411131247"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME XGBoost Integration"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.xgboost.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.0.v202411131247"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="XGBoost Tree Ensemble Learner"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
