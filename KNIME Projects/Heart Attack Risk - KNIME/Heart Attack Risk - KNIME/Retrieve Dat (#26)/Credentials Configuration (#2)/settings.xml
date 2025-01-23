@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Postgres_Credentials"/>
+            <entry key="class" type="xstring" value="CREDENTIALS"/>
+            <config key="value">
+                <entry key="name" type="xstring" value="Postgres_Credentials"/>
+                <entry key="login" type="xstring" value="pg"/>
+            </config>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Postgres_Credentials"/>
+            <entry key="class" type="xstring" value="CREDENTIALS"/>
+            <config key="value">
+                <entry key="name" type="xstring" value="Postgres_Credentials"/>
+                <entry key="login" type="xstring" value="pg"/>
+            </config>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="defaultValue">
+            <entry key="isSavePassword" type="xboolean" value="false"/>
+            <config key="credentialsValue">
+                <entry key="isCredentials_Internals" type="xboolean" value="true"/>
+                <entry key="name" type="xstring" value=""/>
+                <entry key="login" type="xstring" value="pg"/>
+            </config>
+            <entry key="useServerLoginCredentials" type="xboolean" value="false"/>
+        </config>
+        <entry key="hideInDialog" type="xboolean" value="false"/>
+        <entry key="parameterName" type="xstring" value="Postgres_Credentials"/>
+        <entry key="label" type="xstring" value="Postgres_Credentials"/>
+        <entry key="description" type="xstring" value="The login credentials for Postgres database."/>
+        <entry key="required" type="xboolean" value="true"/>
+        <entry key="flowVariableName" type="xstring" value="Postgres_Credentials"/>
+        <entry key="error_message" type="xstring" value=""/>
+        <entry key="prompt_username" type="xboolean" value="true"/>
+        <entry key="use_server_login" type="xboolean" value="false"/>
+        <entry key="no_display" type="xboolean" value="false"/>
+        <entry key="usernameLabel" type="xstring" value="User"/>
+        <entry key="passwordLabel" type="xstring" value="Password"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Postgres Credentials"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.js.base.node.configuration.input.credentials.CredentialsDialogNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Credentials Configuration"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202411271644"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.0.v202411271644"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Credentials Configuration"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Variables connection"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="fbaf3fa2-bd3e-47a4-a792-a0620312f497"/>
+    </config>
+</config>
