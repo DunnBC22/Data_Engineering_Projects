@@ -1,0 +1,2 @@
+GRANT INSERT, UPDATE, DELETE, SELECT, CREATE ON beverage_sales_mysql_db.* TO 'mysql'@'%';
+FLUSH PRIVILEGES;
