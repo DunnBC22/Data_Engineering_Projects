@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="python3_command" type="xstring" value=""/>
+        <entry key="script" type="xstring" value="import knime.scripting.io as knio%%00010import pandas as pd%%00010%%00010# Input Table%%00010input_table = knio.input_tables[0]%%00010%%00010# Convert table to Pandas DataFrame%%00010df = input_table.to_pandas()%%00010%%00010mappings = {%%00010    &quot;Africa&quot;: [%%00010        &quot;Angola&quot;, %%00010        &quot;Botswana&quot;,%%00010        &quot;Congo, DRC&quot;, %%00010        &quot;Côte d'Ivoire&quot;, %%00010        &quot;Ethiopia&quot;, %%00010        &quot;Ghana&quot;, %%00010        &quot;Tanzania&quot;, %%00010        &quot;Senegal&quot;, %%00010        &quot;Sierra Leone&quot;, %%00010        &quot;South Africa&quot;, %%00010        &quot;South Sudan&quot;, %%00010        &quot;Sudan&quot;, %%00010        &quot;Kenya&quot;, %%00010        &quot;Mozambique&quot;, %%00010        &quot;Namibia&quot;, %%00010        &quot;Nigeria&quot;, %%00010        &quot;Liberia&quot;, %%00010        &quot;Libya&quot;, %%00010        &quot;Zambia&quot;, %%00010        &quot;Zimbabwe&quot;, %%00010        &quot;Rwanda&quot;, %%00010        &quot;Togo&quot;, %%00010        &quot;Swaziland&quot;, %%00010        &quot;Uganda&quot;, %%00010        &quot;Malawi&quot;, %%00010        &quot;Mali&quot;, %%00010        &quot;Benin&quot;, %%00010        &quot;Burkina Faso&quot;, %%00010        &quot;Lesotho&quot;, %%00010        &quot;Guinea&quot;, %%00010        &quot;Burundi&quot;%%00010        ],%%00010    &quot;Asia&quot;: [%%00010        &quot;Afghanistan&quot;, %%00010        &quot;Kazakhstan&quot;, %%00010        &quot;Lebanon&quot;, %%00010        &quot;Vietnam&quot;, %%00010        &quot;Pakistan&quot;, %%00010        &quot;Kyrgyzstan&quot;%%00010        ], %%00010    &quot;North America&quot;: [%%00010        &quot;Belize&quot;, %%00010        &quot;Dominican Republic&quot;, %%00010        &quot;Guatemala&quot;, %%00010        &quot;Haiti&quot;, %%00010        &quot;Cameroon&quot;%%00010        ],%%00010    &quot;South America&quot;: [%%00010        &quot;Guyana&quot;%%00010        ]%%00010}%%00010%%00010def map_values_to_column(df: pd.DataFrame, mapping: dict, col1: str, new_col: str) -&gt; pd.DataFrame:%%00010    &quot;&quot;&quot;%%00010    Applies a dictionary mapping to a DataFrame to assign a new column based on the values of an existing column.%%00010%%00010    Parameters:%%00010        df (pd.DataFrame): The input DataFrame.%%00010        mapping (dict): A dictionary where keys are the new column's values, and values are lists of strings to match in col1.%%00010        col1 (str): The column to check for matches.%%00010        new_col (str): The name of the new column to create.%%00010%%00010    Returns:%%00010        pd.DataFrame: The modified DataFrame with the new column.%%00010    &quot;&quot;&quot;%%00010    # Create an inverse mapping for faster lookups%%00010    inverse_mapping = {v: k for k, values in mapping.items() for v in values}%%00010    %%00010    # Map the values of col1 to the keys in the dictionary using the inverse mapping%%00010    df[new_col] = df[col1].map(inverse_mapping)%%00010    %%00010    return df%%00010%%00010# Apply function to dataframe%%00010df = map_values_to_column(df, mappings, col1='country_name', new_col='contintent')%%00010%%00010# Output Table%%00010knio.output_tables[0] = knio.Table.from_pandas(df)"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="python3_command">
+                <entry key="used_variable" type="xstring" value=""/>
+                <entry key="used_variable_flawed" type="xboolean" value="false"/>
+                <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.python3.scripting.nodes2.script.PythonScriptNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Python Script"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Python 3 - Scripting Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python3.scripting.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202411270736"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python3.scripting.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.0.v202411270736"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Input object (pickled)"/>
+        <config key="Input table">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="Output table">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="Output image"/>
+        <config key="Output object (pickled)"/>
+    </config>
+    <entry key="name" type="xstring" value="Python Script"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="outputFileV2">
+            <config key="path">
+                <entry key="location_present" type="xboolean" value="true"/>
+                <entry key="file_system_type" type="xstring" value="RELATIVE"/>
+                <entry key="file_system_specifier" type="xstring" value="knime.space"/>
+                <entry key="path" type="xstring" value="Supply Chain Shipment Pricing Data - KNIME/pdf_report.pdf"/>
+            </config>
+        </config>
+        <entry key="existingFileHandlingMode" type="xstring" value="OVERWRITE"/>
+        <entry key="selectedBrowser" type="xstring" value="CEF"/>
+        <entry key="timeoutSeconds" type="xint" value="30"/>
+    </config>
+    <config key="variables"/>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.reporting2.nodes.pdfwriter.ReportPdfWriterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Report PDF Writer"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Reporting 2"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.reporting2"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202412031746"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Reporting"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.reporting2.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.0.v202412031746"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Report PDF Writer"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
