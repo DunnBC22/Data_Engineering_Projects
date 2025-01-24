@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="workflow.knime">
+    <entry key="created_by" type="xstring" value="5.4.0.v202411251357"/>
+    <entry key="created_by_nightly" type="xboolean" value="false"/>
+    <entry key="version" type="xstring" value="5.1.0"/>
+    <entry key="name" type="xstring" isnull="true" value=""/>
+    <config key="authorInformation">
+        <entry key="authored-by" type="xstring" value="briandunn"/>
+        <entry key="authored-when" type="xstring" value="2025-01-11 16:21:34 -0600"/>
+        <entry key="lastEdited-by" type="xstring" value="briandunn"/>
+        <entry key="lastEdited-when" type="xstring" value="2025-01-23 21:15:20 -0600"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <config key="workflow_credentials"/>
+    <config key="annotations">
+        <config key="annotation_0">
+            <entry key="text" type="xstring" value="&lt;h1 style=&quot;text-align: center&quot;&gt;Top Scientists &amp;amp; Researchers&lt;/h1&gt;&lt;hr&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Retrieve dataset from CSV file&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Clean/Prepare data&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Streamline the Data formatting of Personal Titles&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Convert 'None' values in otherwise numeric columns to 0 so that data type can be converted to numeric&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Split Full Names to Title and Names&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Remove Rows with No Name&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Remove the original Name (or the full name) column&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Convert has_award values from integers to string values&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Impute fixed values in missing values for select columns&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Remove any and all leading whitespace and commas from the newly created Name columns&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Remove all leading and trailing whitespace from all string features&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Replace all instances of multiple spaces within text with single space&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Prepare Visualizations&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;p&gt;Distribution of Title (Bar Chart &amp;amp; Statistics View)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Distribution of Highest Qualification (Bar Chart &amp;amp; Statistics View)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Distribution of Haw Award (Bar Chart &amp;amp; Statistics View)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Distribution of Start Year (Bar Chart &amp;amp; Statistics View)&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Distribution of Years of Experience (Histogram &amp;amp; Statistics View)&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Create dashboard from visualizations&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Save cleaned to MongoDB collection&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p&gt;Save cleaned to XML file&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: center&quot;&gt;&lt;a target=&quot;_blank&quot; rel=&quot;ugc noopener noreferrer nofollow&quot; href=&quot;https://www.kaggle.com/datasets/mannacharya/vidwan-indian-faculty-and-researcher-dataset&quot; draggable=&quot;false&quot; title=&quot;Use &amp;quot;⌘ click&amp;quot; to follow link&quot;&gt;This is the dataset I used for this pipeline.&lt;/a&gt;&lt;/p&gt;"/>
+            <entry key="contentType" type="xstring" value="text/html"/>
+            <entry key="bgcolor" type="xint" value="16777215"/>
+            <entry key="x-coordinate" type="xint" value="-330"/>
+            <entry key="y-coordinate" type="xint" value="-940"/>
+            <entry key="width" type="xint" value="675"/>
+            <entry key="height" type="xint" value="540"/>
+            <entry key="alignment" type="xstring" value="LEFT"/>
+            <entry key="borderSize" type="xint" value="10"/>
+            <entry key="borderColor" type="xint" value="12633286"/>
+            <entry key="defFontSize" type="xint" value="-1"/>
+            <entry key="annotation-version" type="xint" value="20230412"/>
+            <config key="styles"/>
+        </config>
+    </config>
+    <config key="nodes">
+        <config key="node_11">
+            <entry key="id" type="xint" value="11"/>
+            <entry key="node_settings_file" type="xstring" value="CSV Reader (#11)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="-305"/>
+                    <entry key="1" type="xint" value="-191"/>
+                    <entry key="2" type="xint" value="-1"/>
+                    <entry key="3" type="xint" value="-1"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_54">
+            <entry key="id" type="xint" value="54"/>
+            <entry key="node_settings_file" type="xstring" value="Clean Datase (#54)/workflow.knime"/>
+            <entry key="node_is_meta" type="xboolean" value="true"/>
+            <entry key="node_type" type="xstring" value="MetaNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="-163"/>
+                    <entry key="1" type="xint" value="-189"/>
+                    <entry key="2" type="xint" value="-1"/>
+                    <entry key="3" type="xint" value="-1"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_55">
+            <entry key="id" type="xint" value="55"/>
+            <entry key="node_settings_file" type="xstring" value="Export Data (#55)/workflow.knime"/>
+            <entry key="node_is_meta" type="xboolean" value="true"/>
+            <entry key="node_type" type="xstring" value="MetaNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="-10"/>
+                    <entry key="1" type="xint" value="-111"/>
+                    <entry key="2" type="xint" value="-1"/>
+                    <entry key="3" type="xint" value="-1"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_58">
+            <entry key="id" type="xint" value="58"/>
+            <entry key="node_settings_file" type="xstring" value="Data Visuali (#58)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="true"/>
+            <entry key="node_type" type="xstring" value="SubNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="150"/>
+                    <entry key="1" type="xint" value="-336"/>
+                    <entry key="2" type="xint" value="-1"/>
+                    <entry key="3" type="xint" value="-1"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_59">
+            <entry key="id" type="xint" value="59"/>
+            <entry key="node_settings_file" type="xstring" value="Report Template Creator (#59)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="10"/>
+                    <entry key="1" type="xint" value="-261"/>
+                    <entry key="2" type="xint" value="-1"/>
+                    <entry key="3" type="xint" value="-1"/>
+                </config>
+            </config>
+        </config>
+        <config key="node_60">
+            <entry key="id" type="xint" value="60"/>
+            <entry key="node_settings_file" type="xstring" value="Report PDF Writer (#60)/settings.xml"/>
+            <entry key="node_is_meta" type="xboolean" value="false"/>
+            <entry key="node_type" type="xstring" value="NativeNode"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+            <config key="ui_settings">
+                <config key="extrainfo.node.bounds">
+                    <entry key="array-size" type="xint" value="4"/>
+                    <entry key="0" type="xint" value="280"/>
+                    <entry key="1" type="xint" value="-336"/>
+                    <entry key="2" type="xint" value="-1"/>
+                    <entry key="3" type="xint" value="-1"/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="connections">
+        <config key="connection_0">
+            <entry key="sourceID" type="xint" value="11"/>
+            <entry key="destID" type="xint" value="54"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="0"/>
+        </config>
+        <config key="connection_1">
+            <entry key="sourceID" type="xint" value="54"/>
+            <entry key="destID" type="xint" value="55"/>
+            <entry key="sourcePort" type="xint" value="0"/>
+            <entry key="destPort" type="xint" value="0"/>
+        </config>
+        <config key="connection_2">
+            <entry key="sourceID" type="xint" value="54"/>
+            <entry key="destID" type="xint" value="58"/>
+            <entry key="sourcePort" type="xint" value="0"/>
+            <entry key="destPort" type="xint" value="1"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="1"/>
+                <config key="extrainfo.conn.bendpoints_0">
+                    <entry key="array-size" type="xint" value="2"/>
+                    <entry key="0" type="xint" value="1"/>
+                    <entry key="1" type="xint" value="-325"/>
+                </config>
+            </config>
+        </config>
+        <config key="connection_3">
+            <entry key="sourceID" type="xint" value="58"/>
+            <entry key="destID" type="xint" value="60"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="1"/>
+        </config>
+        <config key="connection_4">
+            <entry key="sourceID" type="xint" value="59"/>
+            <entry key="destID" type="xint" value="58"/>
+            <entry key="sourcePort" type="xint" value="1"/>
+            <entry key="destPort" type="xint" value="2"/>
+            <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
+            <config key="ui_settings">
+                <entry key="extrainfo.conn.bendpoints_size" type="xint" value="0"/>
+            </config>
+        </config>
+    </config>
+    <config key="workflow_editor_settings">
+        <entry key="workflow.editor.snapToGrid" type="xboolean" value="false"/>
+        <entry key="workflow.editor.ShowGrid" type="xboolean" value="false"/>
+        <entry key="workflow.editor.gridX" type="xint" value="-1"/>
+        <entry key="workflow.editor.gridY" type="xint" value="-1"/>
+        <entry key="workflow.editor.zoomLevel" type="xdouble" value="1.0"/>
+        <entry key="workflow.editor.curvedConnections" type="xboolean" value="false"/>
+        <entry key="workflow.editor.connectionWidth" type="xint" value="1"/>
+    </config>
+</config>

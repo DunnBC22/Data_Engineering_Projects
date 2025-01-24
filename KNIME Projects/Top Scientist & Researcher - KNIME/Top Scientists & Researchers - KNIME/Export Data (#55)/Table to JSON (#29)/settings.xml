@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="selectedColumns">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="16"/>
+                <entry key="0" type="xstring" value="id"/>
+                <entry key="1" type="xstring" value="Position"/>
+                <entry key="2" type="xstring" value="Department"/>
+                <entry key="3" type="xstring" value="University"/>
+                <entry key="4" type="xstring" value="Location"/>
+                <entry key="5" type="xstring" value="Profile URL"/>
+                <entry key="6" type="xstring" value="Expertise"/>
+                <entry key="7" type="xstring" value="Experience"/>
+                <entry key="8" type="xstring" value="Qualification"/>
+                <entry key="9" type="xstring" value="Honours and Awards"/>
+                <entry key="10" type="xstring" value="Highest Qualification"/>
+                <entry key="11" type="xstring" value="Has Awards"/>
+                <entry key="12" type="xstring" value="Start Year"/>
+                <entry key="13" type="xstring" value="Years of Experience"/>
+                <entry key="14" type="xstring" value="Title"/>
+                <entry key="15" type="xstring" value="Name_Without_Title"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <entry key="rowkey.key" type="xstring" value="key"/>
+        <entry key="direction" type="xstring" value="KeepRows"/>
+        <entry key="column.name.separator" type="xstring" value="."/>
+        <entry key="output.column.name" type="xstring" value="JSON"/>
+        <entry key="row.key.option" type="xstring" value="omit"/>
+        <entry key="column.names.as.path" type="xboolean" value="false"/>
+        <entry key="remove.source.columns" type="xboolean" value="true"/>
+        <entry key="output.boolean.asNumbers" type="xboolean" value="false"/>
+        <entry key="missing.values.are.omitted" type="xboolean" value="false"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="factory" type="xstring" value="org.knime.json.node.fromtable.TableToJsonNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Table to JSON"/>
+    <entry key="node-bundle-name" type="xstring" value="JSON related functionality for KNIME"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.json"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202411251149"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME JSON-Processing"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.json.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.0.v202411251149"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Table to JSON"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

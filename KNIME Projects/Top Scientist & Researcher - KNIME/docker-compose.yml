@@ -1,0 +1,25 @@
+services:
+  mongo: # target database
+    image: mongo:8.0.0-rc11
+    hostname: mongodb
+    container_name: mongodb
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongodb_user
+      MONGO_INITDB_ROOT_PASSWORD: mongodb_password
+    volumes:
+      - mongo_data:/data/db
+      - ./mongo:/docker-entrypoint-initdb.d
+    command: mongod --bind_ip_all
+    # ------------------------------------------------------------
+    #   To Check if startup scripts worked as expected:
+    #     docker exec -it mongodb mongosh
+    #     db.auth("mongodb_user", "mongodb_password")
+    #     show dbs
+    #     use top_sci_researchers_db_mongo
+    #     top_sci_researchers_mongo_col
+    # ------------------------------------------------------------
+
+volumes:
+  mongo_data:

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="mongoCollection_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_mongodbmetadata"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="mongoCollection">
+            <entry key="database" type="xstring" value="top_sci_researchers_db_mongo"/>
+            <entry key="collection" type="xstring" value="top_sci_researchers_mongo_col"/>
+        </config>
+        <config key="inputColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="inputColumn" type="xstring" value="JSON"/>
+        <config key="dropCollection_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="dropCollection" type="xboolean" value="true"/>
+        <config key="bulkSize_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="bulkSize" type="xint" value="100"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="factory" type="xstring" value="org.knime.mongodb2.write.MongoDB2WriterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="MongoDB Writer"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME MongoDB Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.mongodb2"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202407231410"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME MongoDB Integration"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.mongodb.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.0.v202407231410"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="input"/>
+        <config key="MongoDB Input Connection"/>
+        <config key="MongoDB Connection"/>
+    </config>
+    <entry key="name" type="xstring" value="MongoDB Writer"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
