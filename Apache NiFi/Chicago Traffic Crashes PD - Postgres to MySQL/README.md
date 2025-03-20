@@ -1,0 +1,196 @@
+# Chicago Traffic Crashes PD - Apache NiFi Pipeline
+
+This project retrieves data from a Postgres table, makes transformations and then sends it to a table in MySQL. Apache NiFi, Postgres, and MySQL are all in their own docker containers.
+
+I have included the Flow Definition Files (both with and without exernal services).
+
+## Notes
+
+- Converting Discrete/Categorical features to integer values using these charts:
+    - crash_date_estimate
+        - 'Y'  -> 1
+        - nan  -> -1
+        - 'N' -> 0
+    - traffic_control_device
+        - 'TRAFFIC SIGNAL' -> 0
+        - 'NO CONTROLS' -> 1
+        - 'OTHER' -> 2
+        - 'UNKNOWN' -> 3
+        - 'OTHER WARNING SIGN' -> 4
+        - 'STOP SIGN/FLASHER' -> 5
+        - 'PEDESTRIAN CROSSING SIGN' -> 6
+        - 'OTHER REG. SIGN' -> 7
+        - 'YIELD' -> 8
+        - 'LANE USE MARKING' -> 9
+        - 'RAILROAD CROSSING GATE' -> 10
+        - 'FLASHING CONTROL SIGNAL' -> 11
+        - 'SCHOOL ZONE' -> 12
+        - 'POLICE/FLAGMAN' -> 13
+        - 'DELINEATORS' -> 14
+        - 'OTHER RAILROAD CROSSING' -> 15
+        - 'RR CROSSING SIGN' -> 16
+        - 'NO PASSING' -> 17
+        - 'BICYCLE CROSSING SIGN' -> 18
+    - device_condition
+        - 'FUNCTIONING PROPERLY' -> 0
+        - 'NO CONTROLS' -> 1
+        - 'FUNCTIONING IMPROPERLY' -> 2
+        - 'UNKNOWN' -> 3
+        - 'OTHER' -> 4
+        - 'NOT FUNCTIONING' -> 5
+        - 'MISSING' -> 6
+        - 'WORN REFLECTIVE MATERIAL' -> 7
+    - weather_condition
+        - 'CLEAR' -> 0
+        - 'SNOW' -> 1
+        - 'RAIN' -> 2
+        - 'UNKNOWN' -> 3
+        - 'CLOUDY/OVERCAST' -> 4
+        - 'FOG/SMOKE/HAZE' -> 5
+        - 'BLOWING SNOW' -> 6
+        - 'FREEZING RAIN/DRIZZLE' -> 7
+        - 'OTHER' -> 8
+        - 'SEVERE CROSS WIND GATE' -> 9
+        - 'SLEET/HAIL' -> 10
+        - 'BLOWING SAND, SOIL, DIRT' -> 11
+    - lighting_condition
+        - 'DUSK' -> 0
+        - 'DARKNESS, LIGHTED ROAD' -> 1
+        - 'DAYLIGHT' -> 2
+        - 'DARKNESS' -> 3
+        - 'UNKNOWN' -> 4
+        - 'DAWN' -> 5
+    - first_crash_type
+        - 'ANGLE' -> 0
+        - 'REAR END' -> 1
+        - 'PARKED MOTOR VEHICLE' -> 2
+        - 'SIDESWIPE SAME DIRECTION' -> 3
+        - 'PEDESTRIAN' -> 4
+        - 'FIXED OBJECT' -> 5
+        - 'TURNING' -> 6
+        - 'SIDESWIPE OPPOSITE DIRECTION' -> 7
+        - 'REAR TO FRONT' -> 8
+        - 'HEAD ON' -> 9
+        - 'REAR TO SIDE' -> 10
+        - 'PEDALCYCLIST' -> 11
+        - 'OTHER OBJECT' -> 12
+        - 'ANIMAL' -> 13
+        - 'REAR TO REAR' -> 14
+        - 'OTHER NONCOLLISION' -> 15
+        - 'OVERTURNED' -> 16
+        - 'TRAIN' -> 17
+    - trafficway_type
+        - 'FIVE POINT, OR MORE' -> 0
+        - 'DIVIDED - W/MEDIAN BARRIER' -> 1
+        - 'DIVIDED - W/MEDIAN (NOT RAISED)' -> 2
+        - 'NOT DIVIDED' -> 3
+        - 'OTHER' -> 4
+        - 'ONE-WAY' -> 5
+        - 'PARKING LOT' -> 6
+        - 'T-INTERSECTION' -> 7
+        - 'RAMP' -> 8
+        - 'FOUR WAY' -> 9
+        - 'UNKNOWN' -> 10
+        - 'ALLEY' -> 11
+        - 'UNKNOWN INTERSECTION TYPE' -> 12
+        - 'DRIVEWAY' -> 13
+        - 'TRAFFIC ROUTE' -> 14
+        - 'NOT REPORTED' -> 15
+        - 'CENTER TURN LANE' -> 16
+        - 'L-INTERSECTION' -> 17
+        - 'Y-INTERSECTION' -> 18
+        - 'ROUNDABOUT' -> 19
+    - alignment
+        - 'STRAIGHT AND LEVEL' -> 0
+        - 'CURVE ON GRADE' -> 1
+        - 'CURVE, LEVEL' -> 2
+        - 'STRAIGHT ON GRADE' -> 3
+        - 'STRAIGHT ON HILLCREST' -> 4
+        - 'CURVE ON HILLCREST' -> 5
+    - roadway_surface_condition
+        - 'DRY' -> 0
+        - 'SNOW OR SLUSH' -> 1
+        - 'WET' -> 2
+        - 'UNKNOWN' -> 3
+        - 'OTHER' -> 4
+        - 'ICE' -> 5
+        - 'SAND, MUD, DIRT' -> 6
+    - road_defect
+        - 'NO DEFECTS' -> 0
+        - 'UNKNOWN' -> 1
+        - 'DEBRIS ON ROADWAY' -> 2
+        - 'OTHER' -> 3
+        - 'WORN SURFACE' -> 4
+        - 'SHOULDER DEFECT' -> 5
+        - 'RUT, HOLES' -> 6
+    - report_type
+        - 'ON SCENE' -> 0
+        - 'NOT ON SCENE (DESK REPORT)' -> 1
+        - nan -> 2
+        - 'AMENDED' -> 3
+    - crash_type
+        - 'INJURY AND / OR TOW DUE TO CRASH' -> 0
+        - 'NO INJURY / DRIVE AWAY' -> 1
+    - intersection_related
+        - 'Y'  -> 1
+        - nan  -> -1
+        - 'N' -> 0
+    - not_right_of_way
+        - 'Y'  -> 1
+        - nan  -> -1
+        - 'N' -> 0
+    - hit_and_run
+        - 'Y'  -> 1
+        - nan  -> -1
+        - 'N' -> 0
+    - damage
+        - 'OVER $1,500' -> 0
+        - '$501 - $1,500' -> 1
+        - '$500 OR LESS' -> 2
+    - street_direction
+        - 'S' -> 0
+        - 'W' -> 1
+        - 'E' -> 2
+        - 'N' -> 3
+        - nan -> 4
+    - photos_taken
+        - 'Y'  -> 1
+        - nan  -> -1
+        - 'N' -> 0
+    - statements_taken
+        - 'Y'  -> 1
+        - nan  -> -1
+        - 'N' -> 0
+    - dooring
+        - 'Y'  -> 1
+        - nan  -> -1
+        - 'N' -> 0
+    - work_zone
+        - 'Y'  -> 1
+        - nan  -> -1
+        - 'N' -> 0
+    - work_zone_type
+        - nan -> 0
+        - 'CONSTRUCTION' -> 1
+        - 'UTILITY' -> 2
+        - 'UNKNOWN' -> 3
+        - 'MAINTENANCE' -> 4
+    - workers_present
+        - 'Y'  -> 1
+        - nan  -> -1
+        - 'N' -> 0
+    - most_severe_injury
+        - 'INCAPACITATING INJURY' -> 0
+        - 'NO INDICATION OF INJURY' -> 1
+        - 'NONINCAPACITATING INJURY' -> 2
+        - 'FATAL' -> 3
+        - 'REPORTED, NOT EVIDENT'  -> 4
+        - nan -> 5
+    - injuries_unknown
+        - 0.  -> 0
+        - nan -> 1
+- Remove injuries_unknown column (data is one value or missing), crash_location (duplicative with the longitude and latitude columns), as well as crash_day_of_week and crash_month
+- Remove records that include a missing value for longitude and/or latitude.
+
+## Dataset Source
+https://www.kaggle.com/datasets/anoopjohny/traffic-crashes-crashes
