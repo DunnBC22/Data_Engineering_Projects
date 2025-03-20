@@ -1,0 +1,139 @@
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.28
+    container_name: elasticsearch
+    environment:
+      - NIFI_JVM_OPTS=-Djava.awt.headless=true -XX:+UseContainerSupport -XX:-UseContainerCgroup
+      - discovery.type=single-node
+      - xpack.security.enabled=true
+      - ELASTIC_PASSWORD=es_nifi_pass
+      # (Optional) Disable SSL for HTTP for testing purposes:
+      - xpack.security.http.ssl.enabled=false
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsSL http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=10s || exit 1"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 10s
+    networks:
+      - project_network
+
+  data-loader:
+    build: ./data-loader
+    container_name: data-loader
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    volumes:
+      - ./data-loader/data:/data
+    networks:
+      - project_network
+    # Run the index creation script followed by the bulk upload script.
+    command: sh -c "python /app/create_index.py && python /app/bulk_loader.py"
+    
+  sftp:
+    image: atmoz/sftp
+    container_name: sftp
+    hostname: sftp
+    platform: linux/amd64
+    ports:
+      - "2222:22"
+    volumes:
+      - sftp_data:/home/nifi/upload
+    environment:
+      SFTP_USERS: "nifi_user:nifi_password:1001"
+      SFTP_UID: "1001"
+    command: nifi_user:nifi_password:1001::upload
+    restart: unless-stopped
+    networks:
+      - project_network
+    
+  zookeeper:
+    image: bitnami/zookeeper:3.9.2
+    hostname: zookeeper
+    container_name: zookeeper
+    restart: on-failure
+    environment:
+      - ALLOW_ANONYMOUS_LOGIN=yes
+    networks:
+      - project_network
+    ports:
+      - '2181:2181'
+  
+  nifi:
+    hostname: nifi
+    container_name: nifi
+    image: apache/nifi:1.27.0
+    restart: on-failure
+    ports:
+      - '8090:8080'
+    environment:
+      - NIFI_JVM_OPTS=-Djava.awt.headless=true -XX:-UseContainerSupport
+      - NIFI_WEB_HTTP_PORT=8080
+      - NIFI_CLUSTER_IS_NODE=true
+      - NIFI_CLUSTER_NODE_PROTOCOL_PORT=8082
+      - NIFI_ZK_CONNECT_STRING=zookeeper:2181
+      - NIFI_ELECTION_MAX_WAIT=30 sec
+      - NIFI_SENSITIVE_PROPS_KEY='12345678901234567890A'
+      - NIFI_HEAP_INIT=4g
+      - NIFI_HEAP_MAX=8g
+      - NIFI_JVM_OPTS=-Dorg.apache.nifi.content.repository.archive.max.retention=10GB
+      - NIFI_JVM_OPTS=-Dnifi.provenance.repository.max.storage=10GB
+      - NIFI_JVM_OPTS=-Dnifi.flowfile.repository.rocksdb.block.cache.size=512MB
+      - NIFI_JVM_OPTS=-Dnifi.flowfile.repository.rocksdb.write.buffer.size=32MB
+    healthcheck:
+      test: "${DOCKER_HEALTHCHECK_TEST:-curl localhost:8091/nifi/}"
+      interval: "15s"
+      timeout: "3s"
+      start_period: "5s"
+      retries: 5
+    volumes:
+      - nifi_data:/opt/nifi/nifi-current/data
+      - ./nifi/database_repository:/opt/nifi/nifi-current/database_repository
+      - ./nifi/flowfile_repository:/opt/nifi/nifi-current/flowfile_repository
+      - ./nifi/content_repository:/opt/nifi/nifi-current/content_repository
+      - ./nifi/provenance_repository:/opt/nifi/nifi-current/provenance_repository
+      - ./nifi/state:/opt/nifi/nifi-current/state
+      - ./nifi/conf:/opt/nifi/nifi-current/conf
+      - ./nifi/logs:/opt/nifi/nifi-current/logs
+    networks:
+      - project_network
+
+volumes:
+  nifi_data:
+  es_data:
+  sftp_data:
+  
+
+networks:
+  project_network:
+    driver: bridge
+
+# -------------------------------------------------
+# Startup notes:
+
+# docker compose up -d
+
+# docker ps -a
+
+# docker cp <docker_container_id>:/opt/nifi/nifi-current/conf ./nifi/
+
+# Uncomment the last line in the nifi volumes after copying the /conf directory 
+# from the container to your local directory to persist NiFi flows.
+
+# docker compose up --force-recreate -d
+
+# http://localhost:8090/nifi/
+
+# -------------------------------------------------
+
+
+
+# With this configuration, Apache NiFi can retrieve data from Elasticsearch at http://<host>:9200 using credentials:
+# Username: elastic
+# Password: es_nifi_pass
