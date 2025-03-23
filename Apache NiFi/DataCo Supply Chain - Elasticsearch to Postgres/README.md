@@ -1,0 +1,143 @@
+# DataCo Supply Chain - Apache NiFi Pipeline
+
+This project retrieves data from Elasticsearch, makes transformations and then sends them to a Postgres table. Apache NiFi, Elasticsearch, and Postgres are all in their own docker containers.
+
+I have included the Flow Definition Files (both with and without exernal services).
+
+## Notes
+
+- Missing values in each column
+    - customer_lname -> 'no last name provided'
+    - customer_zipcode -> 00000
+    - order_zipcode -> 00000
+    - product_desc -> 'No Product Description Provided'
+- Convert Discrete/Categorical features to integer values according to these charts:
+    - transaction_type:
+        - 'CASH' -> 0
+        - 'DEBIT' -> 1
+        - 'PAYMENT' -> 2
+        - 'TRANSFER' -> 3
+    - delivery_status:
+        - 'Advance shipping' -> 0
+        - 'Late delivery' -> 1
+        - 'Shipping canceled' -> 2
+        - 'Shipping on time' -> 3
+    - customer_country:
+        - 'EE. UU.' -> 0
+        - 'Puerto Rico' -> 1
+    - customer_state:
+        - 'AL' -> 0
+        - 'AR' -> 1
+        - 'AZ' -> 2
+        - 'CA' -> 3
+        - '91732'  -> 3
+        - '95758' -> 3
+        - 'CO' -> 4
+        - 'CT' -> 5
+        - 'DC' -> 6
+        - 'DE' -> 7
+        - 'FL' -> 8
+        - 'GA' -> 9
+        - 'HI' -> 10
+        - 'IA' -> 11
+        - 'ID' -> 12
+        - 'IL' -> 13
+        - 'IN' -> 14
+        - 'KS' -> 15
+        - 'KY' -> 16
+        - 'LA' -> 17
+        - 'MA' -> 18
+        - 'MD' -> 19
+        - 'MI' -> 20
+        - 'MN' -> 21
+        - 'MO' -> 22
+        - 'MT' -> 23
+        - 'NC' -> 24
+        - 'ND' -> 25
+        - 'NJ' -> 26
+        - 'NM' -> 27
+        - 'NV' -> 28
+        - 'NY' -> 29
+        - 'OH' -> 30
+        - 'OK' -> 31
+        - 'OR' -> 32
+        - 'PA' -> 33
+        - 'PR' -> 34
+        - 'RI' -> 35
+        - 'SC' -> 36
+        - 'TN' -> 37
+        - 'TX' -> 38
+        - 'UT' -> 39
+        - 'VA' -> 40
+        - 'WA' -> 41
+        - 'WI' -> 42
+        - 'WV' -> 43
+    - customer_segment:
+        - 'Consumer' -> 0
+        - 'Corporate' -> 1
+        - 'Home Office' -> 2
+    - department_name:
+        - 'Apparel' -> 0
+        - 'Book Shop' -> 1
+        - 'Discs Shop' -> 2
+        - 'Fan Shop' -> 3
+        - 'Fitness' -> 4
+        - 'Footwear' -> 5
+        - 'Golf' -> 6
+        - 'Health and Beauty ' -> 7
+        - 'Outdoors' -> 8
+        - 'Pet Shop' -> 9
+        - 'Technology' -> 10
+    - market:
+        - 'Africa' -> 0
+        - 'Europe' -> 1
+        - 'LATAM' -> 2
+        - 'Pacific Asia' -> 3
+        - 'USCA' -> 4
+    - order_region:
+        - 'Canada' -> 0
+        - 'Caribbean' -> 1
+        - 'Central Africa' -> 2
+        - 'Central America' -> 3
+        - 'Central Asia' -> 4
+        - 'East Africa' -> 5
+        - 'East of USA' -> 6
+        - 'Eastern Asia' -> 7
+        - 'Eastern Europe' -> 8
+        - 'North Africa' -> 9
+        - 'Northern Europe' -> 10
+        - 'Oceania' -> 11
+        - 'South America' -> 12
+        - 'South Asia' -> 13
+        - 'South of  USA ' -> 14
+        - 'Southeast Asia' -> 15
+        - 'Southern Africa' -> 16
+        - 'Southern Europe' -> 17
+        - 'US Center ' -> 18
+        - 'West Africa' -> 19
+        - 'West Asia' -> 20
+        - 'West of USA ' -> 21
+        - 'Western Europe' -> 22
+    - order_status:
+        - 'CANCELED' -> 0
+        - 'CLOSED' -> 1
+        - 'COMPLETE' -> 2
+        - 'ON_HOLD' -> 3
+        - 'PAYMENT_REVIEW' -> 4
+        - 'PENDING' -> 5
+        - 'PENDING_PAYMENT' -> 6
+        - 'PROCESSING' -> 7
+        - 'SUSPECTED_FRAUD' -> 8
+    - shipping_mode: 
+        - 'First Class' -> 0
+        - 'Same Day' -> 1
+        - 'Second Class' -> 2
+        - 'Standard Class' -> 3
+- Columns to remove:
+    - customer_email (single value column)
+    - customer_password (single value column)
+    - product_desc (single value column)
+    - product_status (single value column)
+
+## Dataset Source
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis?select=DataCoSupplyChainDataset.csv
