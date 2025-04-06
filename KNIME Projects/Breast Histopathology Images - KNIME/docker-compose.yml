@@ -1,0 +1,37 @@
+services:
+  sftp-input: # Source
+    image: atmoz/sftp
+    container_name: sftp-input
+    hostname: sftp-input
+    platform: linux/amd64
+    ports:
+      - "2222:22"
+    volumes:
+      - ./sftp-input-data:/home/knime_user/upload
+    environment:
+      SFTP_USERS: "knime_user:knime_password:1001"
+      SFTP_UID: "1001"
+    command: knime_user:knime_password:1001::upload
+    restart: unless-stopped
+    networks:
+      - project_network
+
+  sftp-output: # Target
+    image: atmoz/sftp
+    container_name: sftp-output
+    hostname: sftp-output
+    platform: linux/amd64
+    ports:
+      - "2223:22"
+    volumes:
+      - ./sftp-output-data:/home/knime_user/output
+    environment:
+      SFTP_USERS: "knime_user:knime_password:1001"
+      SFTP_UID: "1001"
+    command: knime_user:knime_password:1001::output
+    restart: unless-stopped
+    networks:
+      - project_network
+
+networks:
+  project_network:

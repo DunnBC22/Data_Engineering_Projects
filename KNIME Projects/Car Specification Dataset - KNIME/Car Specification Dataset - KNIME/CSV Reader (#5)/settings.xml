@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="settings">
+            <config key="file_selection_Internals">
+                <entry key="SettingsModelID" type="xstring" value="SMID_ReaderFileChooser"/>
+                <entry key="EnabledStatus" type="xboolean" value="true"/>
+            </config>
+            <config key="file_selection">
+                <config key="file_system_chooser__Internals">
+                    <entry key="has_fs_port" type="xboolean" value="true"/>
+                    <entry key="overwritten_by_variable" type="xboolean" value="false"/>
+                    <entry key="convenience_fs_category" type="xstring" value="LOCAL"/>
+                    <entry key="relative_to" type="xstring" value="knime.workflow.data"/>
+                    <entry key="mountpoint" type="xstring" value="knime-temp-space"/>
+                    <entry key="spaceId" type="xstring" value=""/>
+                    <entry key="spaceName" type="xstring" value=""/>
+                    <entry key="custom_url_timeout" type="xint" value="10000"/>
+                    <entry key="connected_fs" type="xboolean" value="true"/>
+                </config>
+                <config key="path">
+                    <entry key="location_present" type="xboolean" value="true"/>
+                    <entry key="file_system_type" type="xstring" value="CONNECTED"/>
+                    <entry key="file_system_specifier" type="xstring" value="local"/>
+                    <entry key="path" type="xstring" value="/Users/briandunn/Desktop/KNIME/Projects/Car Specification Dataset - KNIME/data/tmp_folder/cars-dataset.csv"/>
+                </config>
+                <config key="filter_mode_Internals">
+                    <entry key="SettingsModelID" type="xstring" value="SMID_FilterMode"/>
+                    <entry key="EnabledStatus" type="xboolean" value="true"/>
+                </config>
+                <config key="filter_mode">
+                    <entry key="filter_mode" type="xstring" value="FILE"/>
+                    <entry key="include_subfolders" type="xboolean" value="false"/>
+                    <config key="filter_options">
+                        <entry key="filter_files_extension" type="xboolean" value="false"/>
+                        <entry key="files_extension_expression" type="xstring" value=""/>
+                        <entry key="files_extension_case_sensitive" type="xboolean" value="false"/>
+                        <entry key="filter_files_name" type="xboolean" value="false"/>
+                        <entry key="files_name_expression" type="xstring" value="*"/>
+                        <entry key="files_name_case_sensitive" type="xboolean" value="false"/>
+                        <entry key="files_name_filter_type" type="xstring" value="WILDCARD"/>
+                        <entry key="include_hidden_files" type="xboolean" value="false"/>
+                        <entry key="include_special_files" type="xboolean" value="true"/>
+                        <entry key="filter_folders_name" type="xboolean" value="false"/>
+                        <entry key="folders_name_expression" type="xstring" value="*"/>
+                        <entry key="folders_name_case_sensitive" type="xboolean" value="false"/>
+                        <entry key="folders_name_filter_type" type="xstring" value="WILDCARD"/>
+                        <entry key="include_hidden_folders" type="xboolean" value="false"/>
+                        <entry key="follow_links" type="xboolean" value="true"/>
+                    </config>
+                </config>
+            </config>
+            <entry key="has_column_header" type="xboolean" value="true"/>
+            <entry key="has_row_id" type="xboolean" value="false"/>
+            <entry key="support_short_data_rows" type="xboolean" value="false"/>
+            <entry key="skip_empty_data_rows" type="xboolean" value="false"/>
+            <entry key="prepend_file_idx_to_row_id" type="xboolean" value="false"/>
+            <entry key="comment_char" type="xstring" value="#"/>
+            <entry key="column_delimiter" type="xstring" value=","/>
+            <entry key="quote_char" type="xstring" value="&quot;"/>
+            <entry key="quote_escape_char" type="xstring" value="&quot;"/>
+            <entry key="use_line_break_row_delimiter" type="xboolean" value="true"/>
+            <entry key="row_delimiter" type="xstring" value="%%00010"/>
+            <entry key="autodetect_buffer_size" type="xint" value="1048576"/>
+        </config>
+        <config key="table_spec_config_Internals">
+            <entry key="version" type="xstring" value="V4_4"/>
+            <config key="individual_specs">
+                <config key="/Users/briandunn/Desktop/KNIME/Projects/Car Specification Dataset - KNIME/data/tmp_folder/cars-dataset.csv">
+                    <entry key="num_columns" type="xint" value="56"/>
+                    <config key="0">
+                        <entry key="name" type="xstring" value="id"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.Integer"/>
+                        </config>
+                    </config>
+                    <config key="1">
+                        <entry key="name" type="xstring" value="Model"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="2">
+                        <entry key="name" type="xstring" value="Serie"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="3">
+                        <entry key="name" type="xstring" value="Company"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="4">
+                        <entry key="name" type="xstring" value="Body_style"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="5">
+                        <entry key="name" type="xstring" value="Segment"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="6">
+                        <entry key="name" type="xstring" value="Production_years"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="7">
+                        <entry key="name" type="xstring" value="Cylinders"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="8">
+                        <entry key="name" type="xstring" value="Displacement"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="9">
+                        <entry key="name" type="xstring" value="Power_HP"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="10">
+                        <entry key="name" type="xstring" value="Power_BHP"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="11">
+                        <entry key="name" type="xstring" value="Power_KW"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="12">
+                        <entry key="name" type="xstring" value="Torque_lb-ft"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="13">
+                        <entry key="name" type="xstring" value="Torque_Nm"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="14">
+                        <entry key="name" type="xstring" value="Electrical_motor_power"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="15">
+                        <entry key="name" type="xstring" value="Electrical_motor_torque"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="16">
+                        <entry key="name" type="xstring" value="Fuel_System"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="17">
+                        <entry key="name" type="xstring" value="Fuel"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="18">
+                        <entry key="name" type="xstring" value="Fuel_capacity"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="19">
+                        <entry key="name" type="xstring" value="Top_Speed"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="20">
+                        <entry key="name" type="xstring" value="Acceleration_0-62_Mph"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="21">
+                        <entry key="name" type="xstring" value="Drive_Type"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="22">
+                        <entry key="name" type="xstring" value="Gearbox"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="23">
+                        <entry key="name" type="xstring" value="Front_brake"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="24">
+                        <entry key="name" type="xstring" value="Rear_brake"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="25">
+                        <entry key="name" type="xstring" value="Tire_Size"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="26">
+                        <entry key="name" type="xstring" value="Length"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="27">
+                        <entry key="name" type="xstring" value="Width"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="28">
+                        <entry key="name" type="xstring" value="Height"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="29">
+                        <entry key="name" type="xstring" value="Front_rear_Track"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="30">
+                        <entry key="name" type="xstring" value="Wheelbase"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="31">
+                        <entry key="name" type="xstring" value="Ground_Clearance"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="32">
+                        <entry key="name" type="xstring" value="Aerodynamics_Cd"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="33">
+                        <entry key="name" type="xstring" value="Aerodynamics_frontal_area"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="34">
+                        <entry key="name" type="xstring" value="Turning_circle"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="35">
+                        <entry key="name" type="xstring" value="Cargo_Volume"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="36">
+                        <entry key="name" type="xstring" value="Unladen_Weight"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="37">
+                        <entry key="name" type="xstring" value="Gross_Weight_Limit"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="38">
+                        <entry key="name" type="xstring" value="Combined_mpg"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="39">
+                        <entry key="name" type="xstring" value="City_mpg"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="40">
+                        <entry key="name" type="xstring" value="Highway_mpg"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="41">
+                        <entry key="name" type="xstring" value="CO2_Emissions"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="42">
+                        <entry key="name" type="xstring" value="CO2_Emissions_Combined"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="43">
+                        <entry key="name" type="xstring" value="Turning_circle_curb_to_curb"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="44">
+                        <entry key="name" type="xstring" value="Total_maximum_power"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="45">
+                        <entry key="name" type="xstring" value="Power_pack"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="46">
+                        <entry key="name" type="xstring" value="Nominal_Capacity"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="47">
+                        <entry key="name" type="xstring" value="Top_speed_electrical"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="48">
+                        <entry key="name" type="xstring" value="EV_Range"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="49">
+                        <entry key="name" type="xstring" value="High_mpg"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="50">
+                        <entry key="name" type="xstring" value="Extra_high_mpg"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="51">
+                        <entry key="name" type="xstring" value="Medium_mpg"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="52">
+                        <entry key="name" type="xstring" value="Low_mpg"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="53">
+                        <entry key="name" type="xstring" value="Total_maximum_torque"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="54">
+                        <entry key="name" type="xstring" value="Maximum_Capacity"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                    <config key="55">
+                        <entry key="name" type="xstring" value="Specification_summary"/>
+                        <entry key="has_type" type="xboolean" value="true"/>
+                        <config key="type">
+                            <entry key="class" type="xstring" value="java.lang.String"/>
+                        </config>
+                    </config>
+                </config>
+            </config>
+            <config key="table_transformation">
+                <config key="columns">
+                    <config key="0">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="id"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.Integer"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Id"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="0"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.IntCell$IntCellFactory.create(class java.lang.Integer)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_converter_dst" type="xstring" value="Number (integer)"/>
+                            <entry key="_converter_name" type="xstring" value="Integer"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.Integer-&gt;java.lang.Integer"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.Integer"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.Integer"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="1">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Model"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="VehicleModel"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="1"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="2">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Serie"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="VehicleSeries"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="2"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="3">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Company"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="VehicleManufacturer"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="3"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="4">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Body_style"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="VehicleBodyStyle"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="4"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="5">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Segment"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="VehicleSegment"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="5"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="6">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Production_years"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="ProductionYears"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="6"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="7">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Cylinders"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="EngineCylinderCount"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="7"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="8">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Displacement"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="EngineDisplacement"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="8"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="9">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Power_HP"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="PowerInHP"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="9"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="10">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Power_BHP"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="PowerInBHP"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="10"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="11">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Power_KW"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="PowerInKW"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="11"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="12">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Torque_lb-ft"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="TorqueInIbFt"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="12"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="13">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Torque_Nm"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="TorqueNm"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="13"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="14">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Electrical_motor_power"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="EletricalMotorPower"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="14"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="15">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Electrical_motor_torque"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="EletricalMotorTorque"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="15"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="16">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Fuel_System"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="FuelSystem"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="16"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="17">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Fuel"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="FuelType"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="17"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="18">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Fuel_capacity"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="FuelCapacity"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="18"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="19">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Top_Speed"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="TopSpeed"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="19"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="20">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Acceleration_0-62_Mph"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Acceleration0To62Mph"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="20"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="21">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Drive_Type"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="DriveType"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="21"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="22">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Gearbox"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Gearbox"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="22"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="23">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Front_brake"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="FrontBrake"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="23"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="24">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Rear_brake"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="RearBrake"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="24"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="25">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Tire_Size"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="TireSize"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="25"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="26">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Length"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="VehicleLength"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="26"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="27">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Width"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="VehicleWidth"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="27"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="28">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Height"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="VehicleHeight"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="28"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="29">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Front_rear_Track"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="FrontRearTrack"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="29"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="30">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Wheelbase"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="VehicleWheelbase"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="30"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="31">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Ground_Clearance"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="VehicleGroundClearance"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="31"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="32">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Aerodynamics_Cd"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Aerodynamics_Cd"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="32"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="33">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Aerodynamics_frontal_area"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="AerodynamicsFrontalArea"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="33"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="34">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Turning_circle"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="TurningCircle"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="34"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="35">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Cargo_Volume"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="CargoVolume"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="35"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="36">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Unladen_Weight"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="UnladenWeight"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="36"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="37">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Gross_Weight_Limit"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="GrossWeightLimit"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="37"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="38">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Combined_mpg"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="MpgCombined"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="38"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="39">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="City_mpg"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="MpgCity"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="39"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="40">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Highway_mpg"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="MpgHighway"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="40"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="41">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="CO2_Emissions"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Co2Emissions"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="41"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="42">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="CO2_Emissions_Combined"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="Co2EmissionsCombined"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="42"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="43">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Turning_circle_curb_to_curb"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="TurningCircleCurbToCurb"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="43"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="44">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Total_maximum_power"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="MaximumPower"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="44"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="45">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Power_pack"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="PowerPack"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="45"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="46">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Nominal_Capacity"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="NominalCapacity"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="46"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="47">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Top_speed_electrical"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="TopSpeedElectrical"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="47"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="48">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="EV_Range"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="EvRange"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="48"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="49">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="High_mpg"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="MpgHigh"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="49"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="50">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Extra_high_mpg"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="MpgExtraHigh"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="50"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="51">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Medium_mpg"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="MpgMedium"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="51"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="52">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Low_mpg"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="MpgLow"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="52"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="53">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Total_maximum_torque"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="MaximumTorque"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="53"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="54">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Maximum_Capacity"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="MaximumCapacity"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="54"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <config key="55">
+                        <config key="external_spec">
+                            <entry key="name" type="xstring" value="Specification_summary"/>
+                            <entry key="has_type" type="xboolean" value="true"/>
+                            <config key="type">
+                                <entry key="class" type="xstring" value="java.lang.String"/>
+                            </config>
+                        </config>
+                        <entry key="name" type="xstring" value="SpecSummary"/>
+                        <entry key="keep" type="xboolean" value="true"/>
+                        <entry key="position" type="xint" value="55"/>
+                        <config key="production_path">
+                            <entry key="_converter" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+                            <entry key="_converter_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_converter_dst" type="xstring" value="String"/>
+                            <entry key="_converter_name" type="xstring" value="String"/>
+                            <config key="_converter_config"/>
+                            <entry key="_producer" type="xstring" value="class java.lang.String-&gt;java.lang.String"/>
+                            <entry key="_producer_src" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_dst" type="xstring" value="java.lang.String"/>
+                            <entry key="_producer_name" type="xstring" value="java.lang.String"/>
+                            <config key="_producer_config"/>
+                        </config>
+                    </config>
+                    <entry key="num_columns" type="xint" value="56"/>
+                    <config key="intersection_indices">
+                        <entry key="array-size" type="xint" value="56"/>
+                        <entry key="0" type="xint" value="0"/>
+                        <entry key="1" type="xint" value="1"/>
+                        <entry key="2" type="xint" value="2"/>
+                        <entry key="3" type="xint" value="3"/>
+                        <entry key="4" type="xint" value="4"/>
+                        <entry key="5" type="xint" value="5"/>
+                        <entry key="6" type="xint" value="6"/>
+                        <entry key="7" type="xint" value="7"/>
+                        <entry key="8" type="xint" value="8"/>
+                        <entry key="9" type="xint" value="9"/>
+                        <entry key="10" type="xint" value="10"/>
+                        <entry key="11" type="xint" value="11"/>
+                        <entry key="12" type="xint" value="12"/>
+                        <entry key="13" type="xint" value="13"/>
+                        <entry key="14" type="xint" value="14"/>
+                        <entry key="15" type="xint" value="15"/>
+                        <entry key="16" type="xint" value="16"/>
+                        <entry key="17" type="xint" value="17"/>
+                        <entry key="18" type="xint" value="18"/>
+                        <entry key="19" type="xint" value="19"/>
+                        <entry key="20" type="xint" value="20"/>
+                        <entry key="21" type="xint" value="21"/>
+                        <entry key="22" type="xint" value="22"/>
+                        <entry key="23" type="xint" value="23"/>
+                        <entry key="24" type="xint" value="24"/>
+                        <entry key="25" type="xint" value="25"/>
+                        <entry key="26" type="xint" value="26"/>
+                        <entry key="27" type="xint" value="27"/>
+                        <entry key="28" type="xint" value="28"/>
+                        <entry key="29" type="xint" value="29"/>
+                        <entry key="30" type="xint" value="30"/>
+                        <entry key="31" type="xint" value="31"/>
+                        <entry key="32" type="xint" value="32"/>
+                        <entry key="33" type="xint" value="33"/>
+                        <entry key="34" type="xint" value="34"/>
+                        <entry key="35" type="xint" value="35"/>
+                        <entry key="36" type="xint" value="36"/>
+                        <entry key="37" type="xint" value="37"/>
+                        <entry key="38" type="xint" value="38"/>
+                        <entry key="39" type="xint" value="39"/>
+                        <entry key="40" type="xint" value="40"/>
+                        <entry key="41" type="xint" value="41"/>
+                        <entry key="42" type="xint" value="42"/>
+                        <entry key="43" type="xint" value="43"/>
+                        <entry key="44" type="xint" value="44"/>
+                        <entry key="45" type="xint" value="45"/>
+                        <entry key="46" type="xint" value="46"/>
+                        <entry key="47" type="xint" value="47"/>
+                        <entry key="48" type="xint" value="48"/>
+                        <entry key="49" type="xint" value="49"/>
+                        <entry key="50" type="xint" value="50"/>
+                        <entry key="51" type="xint" value="51"/>
+                        <entry key="52" type="xint" value="52"/>
+                        <entry key="53" type="xint" value="53"/>
+                        <entry key="54" type="xint" value="54"/>
+                        <entry key="55" type="xint" value="55"/>
+                    </config>
+                </config>
+                <entry key="skip_empty_columns" type="xboolean" value="false"/>
+                <entry key="enforce_types" type="xboolean" value="true"/>
+                <entry key="column_filter_mode" type="xstring" value="UNION"/>
+                <config key="unknown_columns_transformation">
+                    <entry key="position" type="xint" value="56"/>
+                    <entry key="keep" type="xboolean" value="true"/>
+                    <entry key="force_type" type="xboolean" value="false"/>
+                </config>
+            </config>
+            <entry key="source_group_id" type="xstring" value="/Users/briandunn/Desktop/KNIME/Projects/Car Specification Dataset - KNIME/data/tmp_folder/cars-dataset.csv"/>
+            <config key="config_id">
+                <config key="multi_table_read">
+                    <config key="settings">
+                        <entry key="has_column_header" type="xboolean" value="true"/>
+                        <entry key="has_row_id" type="xboolean" value="false"/>
+                        <entry key="comment_char" type="xstring" value="#"/>
+                        <entry key="column_delimiter" type="xstring" value=","/>
+                        <entry key="quote_char" type="xstring" value="&quot;"/>
+                        <entry key="quote_escape_char" type="xstring" value="&quot;"/>
+                        <entry key="row_delimiter" type="xstring" value="%%00010"/>
+                        <entry key="use_line_break_row_delimiter" type="xboolean" value="true"/>
+                    </config>
+                    <config key="advanced_settings">
+                        <entry key="quote_option" type="xstring" value="REMOVE_QUOTES_AND_TRIM"/>
+                        <entry key="replace_empty_quotes_with_missing" type="xboolean" value="true"/>
+                        <entry key="limit_data_rows_scanned" type="xboolean" value="true"/>
+                        <entry key="max_data_rows_scanned" type="xlong" value="10000"/>
+                        <entry key="thousands_separator" type="xstring" value="%%00000"/>
+                        <entry key="decimal_separator" type="xstring" value="."/>
+                    </config>
+                    <config key="encoding">
+                        <entry key="charset" type="xstring" value="UTF-8"/>
+                    </config>
+                    <config key="limit_rows">
+                        <entry key="skip_lines" type="xboolean" value="false"/>
+                        <entry key="number_of_lines_to_skip" type="xlong" value="1"/>
+                        <entry key="skip_data_rows" type="xboolean" value="false"/>
+                        <entry key="number_of_rows_to_skip" type="xlong" value="1"/>
+                    </config>
+                </config>
+            </config>
+        </config>
+        <config key="advanced_settings">
+            <entry key="spec_merge_mode_Internals" type="xstring" value="UNION"/>
+            <entry key="fail_on_differing_specs" type="xboolean" value="true"/>
+            <entry key="append_path_column_Internals" type="xboolean" value="false"/>
+            <entry key="path_column_name_Internals" type="xstring" value="File Path"/>
+            <entry key="limit_data_rows_scanned" type="xboolean" value="true"/>
+            <entry key="max_data_rows_scanned" type="xlong" value="10000"/>
+            <entry key="save_table_spec_config_Internals" type="xboolean" value="true"/>
+            <entry key="check_table_spec" type="xboolean" value="true"/>
+            <entry key="limit_memory_per_column" type="xboolean" value="true"/>
+            <entry key="maximum_number_of_columns" type="xint" value="8192"/>
+            <entry key="quote_option" type="xstring" value="REMOVE_QUOTES_AND_TRIM"/>
+            <entry key="replace_empty_quotes_with_missing" type="xboolean" value="true"/>
+            <entry key="no_row_delimiters_in_quotes" type="xboolean" value="false"/>
+            <entry key="min_chunk_size_in_bytes" type="xlong" value="67108864"/>
+            <entry key="max_num_chunks_per_file" type="xint" value="4"/>
+            <entry key="thousands_separator" type="xstring" value="%%00000"/>
+            <entry key="decimal_separator" type="xstring" value="."/>
+        </config>
+        <config key="limit_rows">
+            <entry key="skip_lines" type="xboolean" value="false"/>
+            <entry key="number_of_lines_to_skip" type="xlong" value="1"/>
+            <entry key="skip_data_rows" type="xboolean" value="false"/>
+            <entry key="number_of_rows_to_skip" type="xlong" value="1"/>
+            <entry key="limit_data_rows" type="xboolean" value="false"/>
+            <entry key="max_rows" type="xlong" value="50"/>
+        </config>
+        <config key="encoding">
+            <entry key="charset" type="xstring" value="UTF-8"/>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Read File of%%00010Data From%%00010Temp Folder"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <config key="nodecontainer_message">
+        <entry key="type" type="xstring" value="WARNING"/>
+        <entry key="message" type="xstring" value="No connection available. Execute the connector node first."/>
+    </config>
+    <entry key="factory" type="xstring" value="org.knime.base.node.io.filehandling.csv.reader.CSVTableReaderNodeFactory"/>
+    <entry key="node-name" type="xstring" value="CSV Reader"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.1.v202503071316"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.1.v202503071316"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="File System Connection">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.filehandling.core.port.FileSystemPortObject"/>
+            </config>
+        </config>
+        <config key="Data Table"/>
+    </config>
+    <entry key="name" type="xstring" value="CSV Reader"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

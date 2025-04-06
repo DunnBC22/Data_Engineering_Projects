@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="dbTable_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_dbmetadata"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="dbTable">
+            <entry key="database" type="xstring" value=""/>
+            <entry key="schema" type="xstring" value="public"/>
+            <entry key="table" type="xstring" value="car_specs_table_pg"/>
+        </config>
+        <config key="setColumns">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="127"/>
+                <entry key="0" type="xstring" value="Id"/>
+                <entry key="1" type="xstring" value="Convertible_VehicleBodyStyle"/>
+                <entry key="2" type="xstring" value="Coupe_VehicleBodyStyle"/>
+                <entry key="3" type="xstring" value="Suv_VehicleBodyStyle"/>
+                <entry key="4" type="xstring" value="Na_VehicleBodyStyle"/>
+                <entry key="5" type="xstring" value="Hatchback_VehicleBodyStyle"/>
+                <entry key="6" type="xstring" value="Wagon_VehicleBodyStyle"/>
+                <entry key="7" type="xstring" value="Van_VehicleBodyStyle"/>
+                <entry key="8" type="xstring" value="Truck_VehicleBodyStyle"/>
+                <entry key="9" type="xstring" value="Coupecabrio_VehicleSegment"/>
+                <entry key="10" type="xstring" value="Coupe_VehicleSegment"/>
+                <entry key="11" type="xstring" value="Mediumsuv_VehicleSegment"/>
+                <entry key="12" type="xstring" value="Premiumsuv_VehicleSegment"/>
+                <entry key="13" type="xstring" value="Medium_VehicleSegment"/>
+                <entry key="14" type="xstring" value="Compact_VehicleSegment"/>
+                <entry key="15" type="xstring" value="Large_VehicleSegment"/>
+                <entry key="16" type="xstring" value="Luxury_VehicleSegment"/>
+                <entry key="17" type="xstring" value="Largesuv_VehicleSegment"/>
+                <entry key="18" type="xstring" value="Exotic_VehicleSegment"/>
+                <entry key="19" type="xstring" value="Premiumcoupe_VehicleSegment"/>
+                <entry key="20" type="xstring" value="Entrypremium_VehicleSegment"/>
+                <entry key="21" type="xstring" value="Upperpremium_VehicleSegment"/>
+                <entry key="22" type="xstring" value="Mediumpremium_VehicleSegment"/>
+                <entry key="23" type="xstring" value="Lowerpremium_VehicleSegment"/>
+                <entry key="24" type="xstring" value="Small_VehicleSegment"/>
+                <entry key="25" type="xstring" value="Mini_VehicleSegment"/>
+                <entry key="26" type="xstring" value="Smallsuv_VehicleSegment"/>
+                <entry key="27" type="xstring" value="Crossover_VehicleSegment"/>
+                <entry key="28" type="xstring" value="Smallmpv_VehicleSegment"/>
+                <entry key="29" type="xstring" value="Heavydutypickup_VehicleSegment"/>
+                <entry key="30" type="xstring" value="Fullsizepickup_VehicleSegment"/>
+                <entry key="31" type="xstring" value="Midsizepickup_VehicleSegment"/>
+                <entry key="32" type="xstring" value="Largempv_VehicleSegment"/>
+                <entry key="33" type="xstring" value="Mediummpv_VehicleSegment"/>
+                <entry key="34" type="xstring" value="Smallpickup_VehicleSegment"/>
+                <entry key="35" type="xstring" value="Compactsuv_VehicleSegment"/>
+                <entry key="36" type="xstring" value="Gasoline_FuelType"/>
+                <entry key="37" type="xstring" value="Hybrid_FuelType"/>
+                <entry key="38" type="xstring" value="Na_FuelType"/>
+                <entry key="39" type="xstring" value="Electric_FuelType"/>
+                <entry key="40" type="xstring" value="Diesel_FuelType"/>
+                <entry key="41" type="xstring" value="Naturalgas_FuelType"/>
+                <entry key="42" type="xstring" value="Hybridgasoline_FuelType"/>
+                <entry key="43" type="xstring" value="Mildhybrid_FuelType"/>
+                <entry key="44" type="xstring" value="Mildhybriddiesel_FuelType"/>
+                <entry key="45" type="xstring" value="PlugInHybrid_FuelType"/>
+                <entry key="46" type="xstring" value="Ethanol_FuelType"/>
+                <entry key="47" type="xstring" value="Hybriddiesel_FuelType"/>
+                <entry key="48" type="xstring" value="Liquefiedpetroleumgas_lpg_FuelType"/>
+                <entry key="49" type="xstring" value="Rearwheeldrive_DriveType"/>
+                <entry key="50" type="xstring" value="Frontwheeldrive_DriveType"/>
+                <entry key="51" type="xstring" value="Allwheeldrive_DriveType"/>
+                <entry key="52" type="xstring" value="Na_DriveType"/>
+                <entry key="53" type="xstring" value="Na_PowerPack"/>
+                <entry key="54" type="xstring" value="Lithium_PowerPack"/>
+                <entry key="55" type="xstring" value="Lithiumion_PowerPack"/>
+                <entry key="56" type="xstring" value="Lithiumionpouchconfiguration_PowerPack"/>
+                <entry key="57" type="xstring" value="Lithiummanganesenickel_PowerPack"/>
+                <entry key="58" type="xstring" value="Nickelhydride_PowerPack"/>
+                <entry key="59" type="xstring" value="Lithiumironphosphate_PowerPack"/>
+                <entry key="60" type="xstring" value="Lithiumnickelmanganesecobaltoxides_PowerPack"/>
+                <entry key="61" type="xstring" value="VehicleModel"/>
+                <entry key="62" type="xstring" value="VehicleSeries"/>
+                <entry key="63" type="xstring" value="VehicleManufacturer"/>
+                <entry key="64" type="xstring" value="ProductionYears"/>
+                <entry key="65" type="xstring" value="EngineCylinderCount"/>
+                <entry key="66" type="xstring" value="EngineDisplacement"/>
+                <entry key="67" type="xstring" value="PowerInHP"/>
+                <entry key="68" type="xstring" value="PowerInBHP"/>
+                <entry key="69" type="xstring" value="PowerInKW"/>
+                <entry key="70" type="xstring" value="TorqueInIbFt"/>
+                <entry key="71" type="xstring" value="TorqueNm"/>
+                <entry key="72" type="xstring" value="EletricalMotorPower"/>
+                <entry key="73" type="xstring" value="EletricalMotorTorque"/>
+                <entry key="74" type="xstring" value="FuelSystem"/>
+                <entry key="75" type="xstring" value="FuelCapacity"/>
+                <entry key="76" type="xstring" value="TopSpeed"/>
+                <entry key="77" type="xstring" value="Acceleration0To62Mph"/>
+                <entry key="78" type="xstring" value="Gearbox"/>
+                <entry key="79" type="xstring" value="FrontBrake"/>
+                <entry key="80" type="xstring" value="RearBrake"/>
+                <entry key="81" type="xstring" value="TireSize"/>
+                <entry key="82" type="xstring" value="VehicleLength"/>
+                <entry key="83" type="xstring" value="VehicleWidth"/>
+                <entry key="84" type="xstring" value="VehicleHeight"/>
+                <entry key="85" type="xstring" value="FrontRearTrack"/>
+                <entry key="86" type="xstring" value="VehicleWheelbase"/>
+                <entry key="87" type="xstring" value="VehicleGroundClearance"/>
+                <entry key="88" type="xstring" value="Aerodynamics_Cd"/>
+                <entry key="89" type="xstring" value="AerodynamicsFrontalArea"/>
+                <entry key="90" type="xstring" value="TurningCircle"/>
+                <entry key="91" type="xstring" value="CargoVolume"/>
+                <entry key="92" type="xstring" value="UnladenWeight"/>
+                <entry key="93" type="xstring" value="GrossWeightLimit"/>
+                <entry key="94" type="xstring" value="MpgCombined"/>
+                <entry key="95" type="xstring" value="MpgCity"/>
+                <entry key="96" type="xstring" value="MpgHighway"/>
+                <entry key="97" type="xstring" value="Co2Emissions"/>
+                <entry key="98" type="xstring" value="Co2EmissionsCombined"/>
+                <entry key="99" type="xstring" value="TurningCircleCurbToCurb"/>
+                <entry key="100" type="xstring" value="MaximumPower"/>
+                <entry key="101" type="xstring" value="NominalCapacity"/>
+                <entry key="102" type="xstring" value="TopSpeedElectrical"/>
+                <entry key="103" type="xstring" value="EvRange"/>
+                <entry key="104" type="xstring" value="MpgHigh"/>
+                <entry key="105" type="xstring" value="MpgMedium"/>
+                <entry key="106" type="xstring" value="MpgLow"/>
+                <entry key="107" type="xstring" value="MaximumTorque"/>
+                <entry key="108" type="xstring" value="MaximumCapacity"/>
+                <entry key="109" type="xstring" value="SpecSummary"/>
+                <entry key="110" type="xstring" value="RoadsterAndConvertible_VehicleSegment"/>
+                <entry key="111" type="xstring" value="Lithium_ion_PowerPack"/>
+                <entry key="112" type="xstring" value="Lithium_ionbattery_PowerPack"/>
+                <entry key="113" type="xstring" value="Lithium_ionncmacathodeblendedgraphiteanode_PowerPack"/>
+                <entry key="114" type="xstring" value="Lithiummanganese_oxidebattery_PowerPack"/>
+                <entry key="115" type="xstring" value="Li_ion_PowerPack"/>
+                <entry key="116" type="xstring" value="Lithium_ionpouchwithinternalbatterymanagementliquidcooled_PowerPack"/>
+                <entry key="117" type="xstring" value="Lithium_ionpolymer_PowerPack"/>
+                <entry key="118" type="xstring" value="High_outputlaminatedlithium_ionli_ion_PowerPack"/>
+                <entry key="119" type="xstring" value="Lithium_ionhighspecificpowerbatterywhitpouchcells_PowerPack"/>
+                <entry key="120" type="xstring" value="Nickel_metalhydride_PowerPack"/>
+                <entry key="121" type="xstring" value="Lithium_ion288cell_PowerPack"/>
+                <entry key="122" type="xstring" value="Nickel_metalhydridni_mh_PowerPack"/>
+                <entry key="123" type="xstring" value="Lithiumnickelmanganesecobaltoxidesli_nmc_PowerPack"/>
+                <entry key="124" type="xstring" value="Lithium_ionnickel_meta_PowerPack"/>
+                <entry key="125" type="xstring" value="Sealednickel_metalhydrideni_mh34cellmodules_PowerPack"/>
+                <entry key="126" type="xstring" value="Sealednickel_metalhydrideni_mh_PowerPack"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="0"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist">
+                    <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+                    <entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+                </config>
+            </config>
+        </config>
+        <config key="knime_to_external_mapping_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_dataTypeMapping"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="knime_to_external_mapping"/>
+        <config key="batchSize_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="batchSize" type="xint" value="1000"/>
+        <config key="failOnError_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="failOnError" type="xboolean" value="true"/>
+        <config key="showStatus_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="showStatus" type="xboolean" value="true"/>
+        <config key="disableDbDataPort_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="disableDbDataPort" type="xboolean" value="false"/>
+        <config key="dropExisting_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="dropExisting" type="xboolean" value="false"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Write%%00010Transformed Data%%00010to Postgres Table"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.database.node.io.write.DBWriteNodeFactory"/>
+    <entry key="node-name" type="xstring" value="DB Writer"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.1.v202501291459"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Database"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.1.v202503051052"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="DB Writer"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

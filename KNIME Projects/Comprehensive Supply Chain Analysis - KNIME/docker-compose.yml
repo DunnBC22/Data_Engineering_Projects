@@ -1,0 +1,43 @@
+services:
+  mysql: # Source
+    image: mysql:8.0
+    container_name: mysql
+    hostname: mysql
+    ports:
+      - 3306:3306
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d
+      - mysql_data:/var/lib/mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=mysql-root-pw
+      - MYSQL_USER=mysql
+      - MYSQL_PASSWORD=mysql
+      - MYSQL_DATABASE=csca_mysql_db
+    command: --local-infile=1
+    networks:
+      - project_network
+
+  postgres: # Target
+    image: postgres:15
+    container_name: postgres
+    hostname: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./pg_scripts:/docker-entrypoint-initdb.d
+      - pg_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=pg
+      - POSTGRES_PASSWORD=pg
+      - POSTGRES_DB=csca_pg_db
+    networks:
+      - project_network
+
+networks:
+  project_network:
+    driver: bridge
+
+volumes:
+  pg_data:
+  mysql_data:
+  

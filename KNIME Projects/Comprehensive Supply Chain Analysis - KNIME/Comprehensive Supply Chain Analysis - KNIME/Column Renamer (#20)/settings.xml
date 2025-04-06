@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="renamings">
+            <config key="0">
+                <entry key="oldName" type="xstring" value="order_number"/>
+                <entry key="newName" type="xstring" value="OrderNumber"/>
+            </config>
+            <config key="1">
+                <entry key="oldName" type="xstring" value="sales_channel"/>
+                <entry key="newName" type="xstring" value="SalesChannel"/>
+            </config>
+            <config key="2">
+                <entry key="oldName" type="xstring" value="warehouse_code"/>
+                <entry key="newName" type="xstring" value="WarehouseCode"/>
+            </config>
+            <config key="3">
+                <entry key="oldName" type="xstring" value="procured_date"/>
+                <entry key="newName" type="xstring" value="ProcuredDate"/>
+            </config>
+            <config key="4">
+                <entry key="oldName" type="xstring" value="order_date"/>
+                <entry key="newName" type="xstring" value="OrderDate"/>
+            </config>
+            <config key="5">
+                <entry key="oldName" type="xstring" value="ship_date"/>
+                <entry key="newName" type="xstring" value="ShipDate"/>
+            </config>
+            <config key="6">
+                <entry key="oldName" type="xstring" value="delivery_date"/>
+                <entry key="newName" type="xstring" value="DeliveryDate"/>
+            </config>
+            <config key="7">
+                <entry key="oldName" type="xstring" value="sales_team_id"/>
+                <entry key="newName" type="xstring" value="SalesTeamId"/>
+            </config>
+            <config key="8">
+                <entry key="oldName" type="xstring" value="customer_id"/>
+                <entry key="newName" type="xstring" value="CustomerId"/>
+            </config>
+            <config key="9">
+                <entry key="oldName" type="xstring" value="store_id"/>
+                <entry key="newName" type="xstring" value="StoreId"/>
+            </config>
+            <config key="10">
+                <entry key="oldName" type="xstring" value="product_id"/>
+                <entry key="newName" type="xstring" value="ProductId"/>
+            </config>
+            <config key="11">
+                <entry key="oldName" type="xstring" value="order_quantity"/>
+                <entry key="newName" type="xstring" value="OrderQuantity"/>
+            </config>
+            <config key="12">
+                <entry key="oldName" type="xstring" value="discount_applied"/>
+                <entry key="newName" type="xstring" value="DiscountApplied"/>
+            </config>
+            <config key="13">
+                <entry key="oldName" type="xstring" value="unit_cost"/>
+                <entry key="newName" type="xstring" value="UnitCost"/>
+            </config>
+            <config key="14">
+                <entry key="oldName" type="xstring" value="unit_price"/>
+                <entry key="newName" type="xstring" value="UnitPrice"/>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Rename%%00010Columns"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.column.renamer.ColumnRenamerNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Renamer"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.1.v202503071316"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.1.v202503071316"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Renamer"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

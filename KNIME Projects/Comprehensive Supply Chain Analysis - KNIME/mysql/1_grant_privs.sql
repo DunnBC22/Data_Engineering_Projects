@@ -1,0 +1,5 @@
+GRANT INSERT, UPDATE, DELETE, SELECT, CREATE ON csca_mysql_db.* TO 'mysql'@'%';
+FLUSH PRIVILEGES;
+
+GRANT FILE ON *.* TO 'mysql'@'%';
+FLUSH PRIVILEGES;
