@@ -1,0 +1,2 @@
+GRANT INSERT, UPDATE, DELETE, SELECT, CREATE ON ecomm_web_logs_mysql_db.* TO 'mysql'@'%';
+FLUSH PRIVILEGES;

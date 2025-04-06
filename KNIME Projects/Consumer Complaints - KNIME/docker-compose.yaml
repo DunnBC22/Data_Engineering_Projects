@@ -1,0 +1,39 @@
+services:
+  sftp: # Source
+    image: atmoz/sftp
+    container_name: sftp
+    hostname: sftp
+    platform: linux/amd64
+    ports:
+      - "2222:22"
+    volumes:
+      - ./data:/home/knime_user/upload
+    environment:
+      SFTP_USERS: "knime_user:knime_password:1001"
+      SFTP_UID: "1001"
+    command: knime_user:knime_password:1001::upload
+    restart: unless-stopped
+    networks:
+      - project_network
+    
+  postgres: # Target
+    image: postgres:15
+    container_name: postgres
+    hostname: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./pg_scripts:/docker-entrypoint-initdb.d
+      - pg_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=pg
+      - POSTGRES_PASSWORD=pg
+      - POSTGRES_DB=consumer_complaints_db_pg
+    networks:
+      - project_network
+
+volumes:
+  pg_data:
+
+networks:
+  project_network:

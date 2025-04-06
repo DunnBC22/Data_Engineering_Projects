@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column-filter">
+            <entry key="filter-type" type="xstring" value="STANDARD"/>
+            <config key="included_names">
+                <entry key="array-size" type="xint" value="86"/>
+                <entry key="0" type="xstring" value="TCP_NetworkProtocol"/>
+                <entry key="1" type="xstring" value="ICMP_NetworkProtocol"/>
+                <entry key="2" type="xstring" value="HTTP_NetworkProtocol"/>
+                <entry key="3" type="xstring" value="UDP_NetworkProtocol"/>
+                <entry key="4" type="xstring" value="Chrome_BrowserAccessedFrom"/>
+                <entry key="5" type="xstring" value="MozillaFirefox_BrowserAccessedFrom"/>
+                <entry key="6" type="xstring" value="AndroidApp_BrowserAccessedFrom"/>
+                <entry key="7" type="xstring" value="IOSApp_BrowserAccessedFrom"/>
+                <entry key="8" type="xstring" value="MicrosoftEdge_BrowserAccessedFrom"/>
+                <entry key="9" type="xstring" value="Safari_BrowserAccessedFrom"/>
+                <entry key="10" type="xstring" value="Others_BrowserAccessedFrom"/>
+                <entry key="11" type="xstring" value="Female_UserGender"/>
+                <entry key="12" type="xstring" value="Male_UserGender"/>
+                <entry key="13" type="xstring" value="Unknown_UserGender"/>
+                <entry key="14" type="xstring" value="CA_UserCountry"/>
+                <entry key="15" type="xstring" value="AR_UserCountry"/>
+                <entry key="16" type="xstring" value="PL_UserCountry"/>
+                <entry key="17" type="xstring" value="IN_UserCountry"/>
+                <entry key="18" type="xstring" value="KR_UserCountry"/>
+                <entry key="19" type="xstring" value="CN_UserCountry"/>
+                <entry key="20" type="xstring" value="AT_UserCountry"/>
+                <entry key="21" type="xstring" value="US_UserCountry"/>
+                <entry key="22" type="xstring" value="SE_UserCountry"/>
+                <entry key="23" type="xstring" value="CH_UserCountry"/>
+                <entry key="24" type="xstring" value="NO_UserCountry"/>
+                <entry key="25" type="xstring" value="JP_UserCountry"/>
+                <entry key="26" type="xstring" value="GB_UserCountry"/>
+                <entry key="27" type="xstring" value="MX_UserCountry"/>
+                <entry key="28" type="xstring" value="IT_UserCountry"/>
+                <entry key="29" type="xstring" value="RU_UserCountry"/>
+                <entry key="30" type="xstring" value="DE_UserCountry"/>
+                <entry key="31" type="xstring" value="AU_UserCountry"/>
+                <entry key="32" type="xstring" value="FI_UserCountry"/>
+                <entry key="33" type="xstring" value="PR_UserCountry"/>
+                <entry key="34" type="xstring" value="DK_UserCountry"/>
+                <entry key="35" type="xstring" value="CO_UserCountry"/>
+                <entry key="36" type="xstring" value="AE_UserCountry"/>
+                <entry key="37" type="xstring" value="PE_UserCountry"/>
+                <entry key="38" type="xstring" value="IE_UserCountry"/>
+                <entry key="39" type="xstring" value="ZA_UserCountry"/>
+                <entry key="40" type="xstring" value="FR_UserCountry"/>
+                <entry key="41" type="xstring" value="Normal_UserMembershipStatus"/>
+                <entry key="42" type="xstring" value="Premium_UserMembershipStatus"/>
+                <entry key="43" type="xstring" value="NotLoggedIn_UserMembershipStatus"/>
+                <entry key="44" type="xstring" value="English_UserLanguage"/>
+                <entry key="45" type="xstring" value="Spanish_UserLanguage"/>
+                <entry key="46" type="xstring" value="Chinese_UserLanguage"/>
+                <entry key="47" type="xstring" value="Italian_UserLanguage"/>
+                <entry key="48" type="xstring" value="Persian_UserLanguage"/>
+                <entry key="49" type="xstring" value="German_UserLanguage"/>
+                <entry key="50" type="xstring" value="Russian_UserLanguage"/>
+                <entry key="51" type="xstring" value="French_UserLanguage"/>
+                <entry key="52" type="xstring" value="Malayalam_UserLanguage"/>
+                <entry key="53" type="xstring" value="Romanian_UserLanguage"/>
+                <entry key="54" type="xstring" value="Polish_UserLanguage"/>
+                <entry key="55" type="xstring" value="Urdu_UserLanguage"/>
+                <entry key="56" type="xstring" value="Swedish_UserLanguage"/>
+                <entry key="57" type="xstring" value="Arabic_UserLanguage"/>
+                <entry key="58" type="xstring" value="Portuguese_UserLanguage"/>
+                <entry key="59" type="xstring" value="Thai_UserLanguage"/>
+                <entry key="60" type="xstring" value="Japanese_UserLanguage"/>
+                <entry key="61" type="xstring" value="Nepali_UserLanguage"/>
+                <entry key="62" type="xstring" value="Dutch_UserLanguage"/>
+                <entry key="63" type="xstring" value="Mongolian_UserLanguage"/>
+                <entry key="64" type="xstring" value="Swahili_UserLanguage"/>
+                <entry key="65" type="xstring" value="Tegulu_UserLanguage"/>
+                <entry key="66" type="xstring" value="Slovak_UserLanguage"/>
+                <entry key="67" type="xstring" value="Norwegian_UserLanguage"/>
+                <entry key="68" type="xstring" value="Marathi_UserLanguage"/>
+                <entry key="69" type="xstring" value="Malay_UserLanguage"/>
+                <entry key="70" type="xstring" value="Macedonian_UserLanguage"/>
+                <entry key="71" type="xstring" value="Serbian_UserLanguage"/>
+                <entry key="72" type="xstring" value="Slovene_UserLanguage"/>
+                <entry key="73" type="xstring" value="No_WasAnItemReturn"/>
+                <entry key="74" type="xstring" value="Yes_WasAnItemReturn"/>
+                <entry key="75" type="xstring" value="CreditCard_PaymentMethod"/>
+                <entry key="76" type="xstring" value="DebitCard_PaymentMethod"/>
+                <entry key="77" type="xstring" value="Cash_PaymentMethod"/>
+                <entry key="78" type="xstring" value="Others_PaymentMethod"/>
+                <entry key="79" type="xstring" value="AccessedDateTime"/>
+                <entry key="80" type="xstring" value="WesbiteOpenedDurationInSeconds"/>
+                <entry key="81" type="xstring" value="UserIpAddress"/>
+                <entry key="82" type="xstring" value="TotalBytesUsed"/>
+                <entry key="83" type="xstring" value="UserAge"/>
+                <entry key="84" type="xstring" value="SaleAmount"/>
+                <entry key="85" type="xstring" value="ReturnedAmountInUSD"/>
+            </config>
+            <config key="excluded_names">
+                <entry key="array-size" type="xint" value="8"/>
+                <entry key="0" type="xstring" value="NetworkProtocol"/>
+                <entry key="1" type="xstring" value="BrowserAccessedFrom"/>
+                <entry key="2" type="xstring" value="UserGender"/>
+                <entry key="3" type="xstring" value="UserCountry"/>
+                <entry key="4" type="xstring" value="UserMembershipStatus"/>
+                <entry key="5" type="xstring" value="UserLanguage"/>
+                <entry key="6" type="xstring" value="WasAnItemReturn"/>
+                <entry key="7" type="xstring" value="PaymentMethod"/>
+            </config>
+            <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
+            <config key="name_pattern">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="type" type="xstring" value="Wildcard"/>
+                <entry key="caseSensitive" type="xboolean" value="true"/>
+                <entry key="excludeMatching" type="xboolean" value="false"/>
+            </config>
+            <config key="datatype">
+                <config key="typelist"/>
+            </config>
+        </config>
+    </config>
+    <config key="variables"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Remove Orignal%%00010OHE Columns"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Column Filter"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.1.v202503071316"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.1.v202503071316"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Column Filter"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

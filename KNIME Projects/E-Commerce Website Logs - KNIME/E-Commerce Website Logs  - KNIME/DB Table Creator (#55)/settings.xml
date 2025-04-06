@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="dbTable_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_dbmetadata"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <config key="dbTable">
+            <entry key="database" type="xstring" value=""/>
+            <entry key="schema" type="xstring" value=""/>
+            <entry key="table" type="xstring" value="ecomm_web_logs_mysql_table"/>
+        </config>
+        <config key="TempTable_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="TempTable" type="xboolean" value="false"/>
+        <config key="IfTableExists_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="IfTableExists" type="xstring" value="REPLACE"/>
+        <config key="UseDynamicSettings_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="UseDynamicSettings" type="xboolean" value="false"/>
+        <config key="AdditionalOptions_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="AdditionalOptions" type="xstring" value=""/>
+        <config key="Keys"/>
+        <config key="Columns">
+            <config key="Column0">
+                <entry key="columnName" type="xstring" value="TCP_NetworkProtocol"/>
+                <entry key="sqlType" type="xstring" value="INTEGER"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column1">
+                <entry key="columnName" type="xstring" value="ICMP_NetworkProtocol"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column2">
+                <entry key="columnName" type="xstring" value="HTTP_NetworkProtocol"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column3">
+                <entry key="columnName" type="xstring" value="UDP_NetworkProtocol"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column4">
+                <entry key="columnName" type="xstring" value="Chrome_BrowserAccessedFrom"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column5">
+                <entry key="columnName" type="xstring" value="MozillaFirefox_BrowserAccessedFrom"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column6">
+                <entry key="columnName" type="xstring" value="AndroidApp_BrowserAccessedFrom"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column7">
+                <entry key="columnName" type="xstring" value="IOSApp_BrowserAccessedFrom"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column8">
+                <entry key="columnName" type="xstring" value="MicrosoftEdge_BrowserAccessedFrom"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column9">
+                <entry key="columnName" type="xstring" value="Safari_BrowserAccessedFrom"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column10">
+                <entry key="columnName" type="xstring" value="Others_BrowserAccessedFrom"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column11">
+                <entry key="columnName" type="xstring" value="Female_UserGender"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column12">
+                <entry key="columnName" type="xstring" value="Male_UserGender"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column13">
+                <entry key="columnName" type="xstring" value="Unknown_UserGender"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column14">
+                <entry key="columnName" type="xstring" value="CA_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column15">
+                <entry key="columnName" type="xstring" value="AR_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column16">
+                <entry key="columnName" type="xstring" value="PL_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column17">
+                <entry key="columnName" type="xstring" value="IN_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column18">
+                <entry key="columnName" type="xstring" value="KR_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column19">
+                <entry key="columnName" type="xstring" value="CN_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column20">
+                <entry key="columnName" type="xstring" value="AT_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column21">
+                <entry key="columnName" type="xstring" value="US_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column22">
+                <entry key="columnName" type="xstring" value="SE_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column23">
+                <entry key="columnName" type="xstring" value="CH_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column24">
+                <entry key="columnName" type="xstring" value="NO_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column25">
+                <entry key="columnName" type="xstring" value="JP_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column26">
+                <entry key="columnName" type="xstring" value="GB_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column27">
+                <entry key="columnName" type="xstring" value="MX_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column28">
+                <entry key="columnName" type="xstring" value="IT_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column29">
+                <entry key="columnName" type="xstring" value="RU_UserCountry"/>
+                <entry key="sqlType" type="xstring" value="INTEGER"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column30">
+                <entry key="columnName" type="xstring" value="DE_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column31">
+                <entry key="columnName" type="xstring" value="AU_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column32">
+                <entry key="columnName" type="xstring" value="FI_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column33">
+                <entry key="columnName" type="xstring" value="PR_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column34">
+                <entry key="columnName" type="xstring" value="DK_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column35">
+                <entry key="columnName" type="xstring" value="CO_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column36">
+                <entry key="columnName" type="xstring" value="AE_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column37">
+                <entry key="columnName" type="xstring" value="PE_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column38">
+                <entry key="columnName" type="xstring" value="IE_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column39">
+                <entry key="columnName" type="xstring" value="ZA_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column40">
+                <entry key="columnName" type="xstring" value="FR_UserCountry"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column41">
+                <entry key="columnName" type="xstring" value="Normal_UserMembershipStatus"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column42">
+                <entry key="columnName" type="xstring" value="Premium_UserMembershipStatus"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column43">
+                <entry key="columnName" type="xstring" value="NotLoggedIn_UserMembershipStatus"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column44">
+                <entry key="columnName" type="xstring" value="English_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column45">
+                <entry key="columnName" type="xstring" value="Spanish_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column46">
+                <entry key="columnName" type="xstring" value="Chinese_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column47">
+                <entry key="columnName" type="xstring" value="Italian_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column48">
+                <entry key="columnName" type="xstring" value="Persian_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column49">
+                <entry key="columnName" type="xstring" value="German_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column50">
+                <entry key="columnName" type="xstring" value="Russian_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column51">
+                <entry key="columnName" type="xstring" value="French_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column52">
+                <entry key="columnName" type="xstring" value="Malayalam_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column53">
+                <entry key="columnName" type="xstring" value="Romanian_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column54">
+                <entry key="columnName" type="xstring" value="Polish_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column55">
+                <entry key="columnName" type="xstring" value="Urdu_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column56">
+                <entry key="columnName" type="xstring" value="Swedish_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column57">
+                <entry key="columnName" type="xstring" value="Arabic_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column58">
+                <entry key="columnName" type="xstring" value="Portuguese_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column59">
+                <entry key="columnName" type="xstring" value="Thai_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column60">
+                <entry key="columnName" type="xstring" value="Japanese_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column61">
+                <entry key="columnName" type="xstring" value="Nepali_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column62">
+                <entry key="columnName" type="xstring" value="Dutch_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column63">
+                <entry key="columnName" type="xstring" value="Mongolian_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column64">
+                <entry key="columnName" type="xstring" value="Swahili_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column65">
+                <entry key="columnName" type="xstring" value="Tegulu_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column66">
+                <entry key="columnName" type="xstring" value="Slovak_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column67">
+                <entry key="columnName" type="xstring" value="Norwegian_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column68">
+                <entry key="columnName" type="xstring" value="Marathi_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column69">
+                <entry key="columnName" type="xstring" value="Malay_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column70">
+                <entry key="columnName" type="xstring" value="Macedonian_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column71">
+                <entry key="columnName" type="xstring" value="Serbian_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column72">
+                <entry key="columnName" type="xstring" value="Slovene_UserLanguage"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column73">
+                <entry key="columnName" type="xstring" value="No_WasAnItemReturn"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column74">
+                <entry key="columnName" type="xstring" value="Yes_WasAnItemReturn"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column75">
+                <entry key="columnName" type="xstring" value="CreditCard_PaymentMethod"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column76">
+                <entry key="columnName" type="xstring" value="DebitCard_PaymentMethod"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column77">
+                <entry key="columnName" type="xstring" value="Cash_PaymentMethod"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column78">
+                <entry key="columnName" type="xstring" value="Others_PaymentMethod"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column79">
+                <entry key="columnName" type="xstring" value="AccessedDateTime"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(50)"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column80">
+                <entry key="columnName" type="xstring" value="WesbiteOpenedDurationInSeconds"/>
+                <entry key="sqlType" type="xstring" value="INTEGER"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column81">
+                <entry key="columnName" type="xstring" value="UserIpAddress"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(40)"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column82">
+                <entry key="columnName" type="xstring" value="TotalBytesUsed"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column83">
+                <entry key="columnName" type="xstring" value="UserAge"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column84">
+                <entry key="columnName" type="xstring" value="SaleAmount"/>
+                <entry key="sqlTypeString" type="xstring" value="float"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column85">
+                <entry key="columnName" type="xstring" value="ReturnedAmountInUSD"/>
+                <entry key="sqlType" type="xstring" value="FLOAT"/>
+                <entry key="sqlTypeString" type="xstring" value="float"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column86">
+                <entry key="columnName" type="xstring" value="AccessedDateTimeHour"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column87">
+                <entry key="columnName" type="xstring" value="AccessedDateTimeDayOfWeek"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column88">
+                <entry key="columnName" type="xstring" value="AccessedDateTimeDayOfMonth"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column89">
+                <entry key="columnName" type="xstring" value="AccessedDateTimeDayOfYear"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column90">
+                <entry key="columnName" type="xstring" value="AccessedDateTimeWeek"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column91">
+                <entry key="columnName" type="xstring" value="AccessedDateTimeMonth"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column92">
+                <entry key="columnName" type="xstring" value="AccessedDateTimeQuarter"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+            <config key="Column93">
+                <entry key="columnName" type="xstring" value="AccessedDateTimeYear"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="true"/>
+            </config>
+        </config>
+        <config key="NameBasedKeys"/>
+        <config key="KnimeBasedTypeMapping"/>
+        <config key="NameBasedTypeMapping"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="dbTable">
+                <config key="table">
+                    <entry key="used_variable" type="xstring" value="target_table_name"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Create Target%%00010MySQL Table"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.database.node.utility.tablecreator.DBTableCreateNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="DB Table Creator"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.1.v202501291459"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Database"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.1.v202503051052"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="KNIME Data Table"/>
+        <config key="DB Input">
+            <entry key="object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
+        </config>
+        <config key="DB Output">
+            <entry key="object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="DB Table Creator"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
