@@ -15,3 +15,4 @@
 | Large Customer Churn Analysis | Postgres | MySQL |
 | Supply Chain Shipment Pricing Data | Postgres | MySQL |
 | Top Scientist & Researcher | CSV File | MongoDB |
+| Iowa Liquor Sales | SFTP | MySQL |
