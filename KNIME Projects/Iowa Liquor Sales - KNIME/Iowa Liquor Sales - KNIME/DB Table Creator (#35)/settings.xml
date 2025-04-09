@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="dbTable_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_dbmetadata"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <config key="dbTable">
+            <entry key="database" type="xstring" value=""/>
+            <entry key="schema" type="xstring" value=""/>
+            <entry key="table" type="xstring" value="iowa_liquor_sales_mysql_table"/>
+        </config>
+        <config key="TempTable_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="TempTable" type="xboolean" value="false"/>
+        <config key="IfTableExists_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="IfTableExists" type="xstring" value="IGNORE"/>
+        <config key="UseDynamicSettings_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="UseDynamicSettings" type="xboolean" value="false"/>
+        <config key="AdditionalOptions_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="AdditionalOptions" type="xstring" value=""/>
+        <config key="Keys"/>
+        <config key="Columns">
+            <config key="Column0">
+                <entry key="columnName" type="xstring" value="InvoiceItemNumber"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(20)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column1">
+                <entry key="columnName" type="xstring" value="SaleDate"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(20)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column2">
+                <entry key="columnName" type="xstring" value="StoreNumber"/>
+                <entry key="sqlType" type="xstring" value="INTEGER"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column3">
+                <entry key="columnName" type="xstring" value="StoreName"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(75)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column4">
+                <entry key="columnName" type="xstring" value="StoreAddress"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(75)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column5">
+                <entry key="columnName" type="xstring" value="StoreCity"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(30)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column6">
+                <entry key="columnName" type="xstring" value="StoreZipCode"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column7">
+                <entry key="columnName" type="xstring" value="StoreLocation"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(75)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column8">
+                <entry key="columnName" type="xstring" value="StoreCountyNumber"/>
+                <entry key="sqlType" type="xstring" value="INTEGER"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column9">
+                <entry key="columnName" type="xstring" value="StoreCounty"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(30)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column10">
+                <entry key="columnName" type="xstring" value="ItemCategory"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column11">
+                <entry key="columnName" type="xstring" value="CategoryName"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(50)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column12">
+                <entry key="columnName" type="xstring" value="VendorNumber"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column13">
+                <entry key="columnName" type="xstring" value="VendorName"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(80)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column14">
+                <entry key="columnName" type="xstring" value="ItemNumber"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column15">
+                <entry key="columnName" type="xstring" value="ItemDescription"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(80)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column16">
+                <entry key="columnName" type="xstring" value="Pack"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column17">
+                <entry key="columnName" type="xstring" value="BottleVolume"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(20)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column18">
+                <entry key="columnName" type="xstring" value="StateBottleCost"/>
+                <entry key="sqlTypeString" type="xstring" value="double precision"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column19">
+                <entry key="columnName" type="xstring" value="StateBottleRetail"/>
+                <entry key="sqlTypeString" type="xstring" value="double precision"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column20">
+                <entry key="columnName" type="xstring" value="BottlesSold"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column21">
+                <entry key="columnName" type="xstring" value="SaleDollars"/>
+                <entry key="sqlTypeString" type="xstring" value="double precision"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column22">
+                <entry key="columnName" type="xstring" value="VolumeSoldLiters"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(50)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column23">
+                <entry key="columnName" type="xstring" value="VolumeSoldGallons"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(50)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column24">
+                <entry key="columnName" type="xstring" value="IowaZipCodeTabulationAreas"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column25">
+                <entry key="columnName" type="xstring" value="IowaWatershedsSubBasins"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column26">
+                <entry key="columnName" type="xstring" value="IowaWatersheds"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column27">
+                <entry key="columnName" type="xstring" value="CountyBoundariesOfIowa"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column28">
+                <entry key="columnName" type="xstring" value="USCounties"/>
+                <entry key="sqlTypeString" type="xstring" value="varchar(20)"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column29">
+                <entry key="columnName" type="xstring" value="SaleDateDayOfWeek"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column30">
+                <entry key="columnName" type="xstring" value="SaleDateDayOfMonth"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column31">
+                <entry key="columnName" type="xstring" value="SaleDateDayOfYear"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column32">
+                <entry key="columnName" type="xstring" value="SaleDateWeek"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column33">
+                <entry key="columnName" type="xstring" value="SaleDateMonth"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column34">
+                <entry key="columnName" type="xstring" value="SaleDateQuarter"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column35">
+                <entry key="columnName" type="xstring" value="SaleDateYear"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+            <config key="Column36">
+                <entry key="columnName" type="xstring" value="Id"/>
+                <entry key="sqlTypeString" type="xstring" value="integer"/>
+                <entry key="notNull" type="xboolean" value="false"/>
+            </config>
+        </config>
+        <config key="NameBasedKeys"/>
+        <config key="KnimeBasedTypeMapping"/>
+        <config key="NameBasedTypeMapping"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="dbTable">
+                <config key="table">
+                    <entry key="used_variable" type="xstring" value="target_table_name"/>
+                    <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+                </config>
+            </config>
+        </config>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Create%%00010MySQL%%00010Table"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.database.node.utility.tablecreator.DBTableCreateNodeFactory2"/>
+    <entry key="node-name" type="xstring" value="DB Table Creator"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME database nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.database.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.1.v202501291459"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Database"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.database.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.1.v202503051052"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="KNIME Data Table"/>
+        <config key="DB Input">
+            <entry key="object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
+        </config>
+        <config key="DB Output">
+            <entry key="object_class" type="xstring" value="org.knime.database.port.DBSessionPortObject"/>
+        </config>
+    </config>
+    <entry key="name" type="xstring" value="DB Table Creator"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

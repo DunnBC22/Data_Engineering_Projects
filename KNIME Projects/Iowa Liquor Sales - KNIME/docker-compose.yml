@@ -1,0 +1,44 @@
+services:
+  sftp: # Source
+    image: atmoz/sftp
+    container_name: sftp
+    hostname: sftp
+    platform: linux/amd64
+    ports:
+      - "2222:22"
+    volumes:
+      - ./data:/home/knime_user/upload
+    environment:
+      SFTP_USERS: "knime_user:knime_password:1001"
+      SFTP_UID: "1001"
+    command: knime_user:knime_password:1001::upload
+    restart: unless-stopped
+    networks:
+      - project_network
+
+  mysql: # target
+    image: mysql:8.0
+    container_name: mysql
+    hostname: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql-root-pw
+      MYSQL_USER: mysql
+      MYSQL_PASSWORD: mysql
+      MYSQL_DATABASE: iowa_liquor_sales_mysql_db
+    command: --local-infile=1
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql_scripts:/docker-entrypoint-initdb.d
+    networks:
+      - project_network
+
+  
+volumes:
+  mysql_data:
+
+networks:
+  project_network:
+    driver: bridge 

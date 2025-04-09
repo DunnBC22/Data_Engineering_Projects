@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="columnsToClean">
+            <config key="selected_Internals">
+                <entry key="array-size" type="xint" value="8"/>
+                <entry key="0" type="xstring" value="Store Name"/>
+                <entry key="1" type="xstring" value="Address"/>
+                <entry key="2" type="xstring" value="City"/>
+                <entry key="3" type="xstring" value="Store Location"/>
+                <entry key="4" type="xstring" value="County"/>
+                <entry key="5" type="xstring" value="Category Name"/>
+                <entry key="6" type="xstring" value="Vendor Name"/>
+                <entry key="7" type="xstring" value="Item Description"/>
+            </config>
+            <entry key="mode" type="xstring" value="MANUAL"/>
+            <config key="patternFilter">
+                <entry key="pattern" type="xstring" value=""/>
+                <entry key="isCaseSensitive" type="xboolean" value="false"/>
+                <entry key="isInverted" type="xboolean" value="false"/>
+            </config>
+            <config key="manualFilter">
+                <config key="manuallySelected">
+                    <entry key="array-size" type="xint" value="8"/>
+                    <entry key="0" type="xstring" value="Store Name"/>
+                    <entry key="1" type="xstring" value="Address"/>
+                    <entry key="2" type="xstring" value="City"/>
+                    <entry key="3" type="xstring" value="Store Location"/>
+                    <entry key="4" type="xstring" value="County"/>
+                    <entry key="5" type="xstring" value="Category Name"/>
+                    <entry key="6" type="xstring" value="Vendor Name"/>
+                    <entry key="7" type="xstring" value="Item Description"/>
+                </config>
+                <config key="manuallyDeselected">
+                    <entry key="array-size" type="xint" value="14"/>
+                    <entry key="0" type="xstring" value="Date"/>
+                    <entry key="1" type="xstring" value="Category"/>
+                    <entry key="2" type="xstring" value="Item Number"/>
+                    <entry key="3" type="xstring" value="Pack"/>
+                    <entry key="4" type="xstring" value="Bottle Volume (ml)"/>
+                    <entry key="5" type="xstring" value="State Bottle Cost"/>
+                    <entry key="6" type="xstring" value="State Bottle Retail"/>
+                    <entry key="7" type="xstring" value="Bottles Sold"/>
+                    <entry key="8" type="xstring" value="Sale (Dollars)"/>
+                    <entry key="9" type="xstring" value="Volume Sold (Liters)"/>
+                    <entry key="10" type="xstring" value="US Counties"/>
+                    <entry key="11" type="xstring" value="Invoice/Item Number"/>
+                    <entry key="12" type="xstring" value="Zip Code"/>
+                    <entry key="13" type="xstring" value="Volume Sold (Gallons)"/>
+                </config>
+                <entry key="includeUnknownColumns" type="xboolean" value="false"/>
+            </config>
+            <config key="typeFilter">
+                <config key="selectedTypes">
+                    <entry key="array-size" type="xint" value="0"/>
+                </config>
+            </config>
+        </config>
+        <entry key="removeAccents" type="xboolean" value="true"/>
+        <entry key="removeNonASCII" type="xboolean" value="true"/>
+        <entry key="removeNonPrintableChars" type="xboolean" value="true"/>
+        <entry key="removeLettersCategory" type="xstring" value="NONE"/>
+        <entry key="removeNumbers" type="xboolean" value="false"/>
+        <entry key="removePunctuation" type="xboolean" value="false"/>
+        <entry key="removeSymbols" type="xboolean" value="false"/>
+        <entry key="removeCustomCharactersString" type="xstring" value=""/>
+        <entry key="removeAllWhitespace" type="xboolean" value="false"/>
+        <entry key="removeLeadingWhitespace" type="xboolean" value="true"/>
+        <entry key="removeTrailingWhitespace" type="xboolean" value="true"/>
+        <entry key="removeDuplicateWhitespace" type="xboolean" value="true"/>
+        <entry key="replaceLinebreakStrategy" type="xstring" value="KEEP"/>
+        <entry key="replaceSpecialWhitespaceStrategy" type="xstring" value="REPLACE_WITH_STANDARDSPACE"/>
+        <entry key="changeCasing" type="xstring" value="CAPITALIZE"/>
+        <entry key="changeCasingCapitalizeAfter" type="xstring" value="WHITESPACE"/>
+        <entry key="changeCasingCapitalizeAfterCharacters" type="xstring" value=""/>
+        <entry key="changeCasingCapitalizeFirstCharacter" type="xboolean" value="true"/>
+        <entry key="pad" type="xstring" value="NO"/>
+        <entry key="padMinimumStringLength" type="xint" value="1"/>
+        <entry key="padFillCharacter" type="xstring" value="_"/>
+        <entry key="output" type="xstring" value="REPLACE"/>
+        <entry key="outputSuffix" type="xstring" value=" (Cleaned)"/>
+    </config>
+    <config key="variables"/>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Remove Leading%%00010&amp; Trailing Whitespace%%00010&amp; Title Case"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.preproc.stringcleaner.StringCleanerNodeFactory"/>
+    <entry key="node-name" type="xstring" value="String Cleaner"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.1.v202503071316"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.1.v202503071316"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="String Cleaner"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>
