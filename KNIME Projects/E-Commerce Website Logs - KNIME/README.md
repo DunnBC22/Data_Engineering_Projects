@@ -1,8 +1,8 @@
-#
+# E-Commerce Website Logs - KNIME Pipeline
 
 ## Description
 
--This pipeline:
+- This pipeline:
     - Retrieves data from MongoDB collection & convert it to table
     - Transforms data:
         - Remove $oid
