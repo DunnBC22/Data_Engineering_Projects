@@ -1,0 +1,50 @@
+services:
+  postgres: # Source
+    image: postgres:15
+    container_name: postgres
+    hostname: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./data:/data      
+      - ./pg_scripts:/docker-entrypoint-initdb.d
+      - pg_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=pg
+      - POSTGRES_PASSWORD=pg
+      - POSTGRES_DB=insurance_dispostion_clf_pg_db
+    networks:
+      - project_network
+
+  sftp: # Target
+    image: atmoz/sftp
+    container_name: sftp
+    hostname: sftp
+    platform: linux/amd64
+    ports:
+      - "2222:22"
+    volumes:
+      - sftp_data:/home/knime_user/upload
+    environment:
+      SFTP_USERS: "knime_user:knime_password:1001::upload"
+      SFTP_UID: "1001"
+      SFTP_GID: "1001"  # Adding GID to avoid any potential issues with file ownership
+      SFTP_HOMEDIR: "/home/knime_user"
+    command: |
+      sh -c "chmod -R 777 /home/knime_user/upload && /usr/sbin/sshd -D"
+    restart: unless-stopped
+    networks:
+      - project_network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  pg_data:
+  sftp_data:
+
+networks:
+  project_network:
+    driver: bridge
