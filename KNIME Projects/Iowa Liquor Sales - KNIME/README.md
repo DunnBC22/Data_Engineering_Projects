@@ -3,7 +3,7 @@
 
 ## Notes
 
-This pipeline:
+- This pipeline:
     - Retrieves data from zipped CSV file (& decompresses it)
     - Transforms data:
         - Handle/Impute missing data
