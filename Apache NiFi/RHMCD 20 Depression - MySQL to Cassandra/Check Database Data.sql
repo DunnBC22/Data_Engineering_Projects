@@ -2,10 +2,6 @@
 Code to check & make sure data is in database tables as expected
 */
 
-/* 
-variables:
-table_name 
-*/
 
 /* MySQL */
 --- Return the first 12 records from the 'rhmcd20_table_mysql'
