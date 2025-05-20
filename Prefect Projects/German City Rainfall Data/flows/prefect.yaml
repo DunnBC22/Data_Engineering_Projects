@@ -1,0 +1,7 @@
+# prefect.yaml
+
+blocks:
+  
+work_pools:
+  - name: "German-City-Rainfall-Data-work-pool"
+    infrastructure: "docker"  # Options: "docker", "process"

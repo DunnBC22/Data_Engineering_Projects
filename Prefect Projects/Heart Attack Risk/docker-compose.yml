@@ -1,0 +1,144 @@
+services:
+  postgres: # Source
+    image: postgres:14
+    container_name: postgres
+    hostname: postgres
+    ports:
+      - 5432:5432
+    volumes:
+      - ./pg_scripts:/docker-entrypoint-initdb.d
+      - pg_data:/var/lib/postgresql/data
+      - ./data/dataset.csv:/data/dataset.csv
+    networks:
+      - project_network
+    environment:
+      - POSTGRES_USER=pg
+      - POSTGRES_PASSWORD=pg
+      - POSTGRES_DB=ha_risk_pg_db
+  
+  mysql: # Target
+    image: mysql:8.0
+    container_name: mysql
+    hostname: mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: mysql-root-pw
+      MYSQL_USER: mysql
+      MYSQL_PASSWORD: mysql
+      MYSQL_DATABASE: ha_risk_mysql_db
+    # command: --local-infile=1
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql_scripts:/docker-entrypoint-initdb.d
+    networks:
+      - project_network
+
+  database: # Prefect Database
+    image: postgres:alpine
+    container_name: database
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=prefect
+    expose:
+      - 5432
+    volumes: 
+      - db:/var/lib/postgresql/data
+    profiles: ["server"]
+    networks:
+      - project_network
+
+  minio: # MinIO for flow storage
+    image: minio/minio:latest
+    container_name: minio
+    entrypoint: ["minio", "server", "--address", "0.0.0.0:9000", "--console-address", "0.0.0.0:9001", "/data"]
+    volumes:
+      - "minio:/data"
+    ports:
+      - 9000:9000
+      - 9001:9001
+    profiles: ["minio"]
+    networks:
+      - project_network
+
+  server: # Prefect Server API & UI
+    image: prefecthq/prefect:3-python3.12
+    container_name: prefect-server
+    restart: always
+    volumes:
+      - prefect:/root/.prefect
+    entrypoint: ["/opt/prefect/entrypoint.sh", "prefect", "server", "start"]
+    environment:
+      - PREFECT_UI_URL=http://127.0.0.1:4200/api
+      - PREFECT_API_URL=http://127.0.0.1:4200/api
+      - PREFECT_SERVER_API_HOST=0.0.0.0
+      - PREFECT_API_DATABASE_CONNECTION_URL=postgresql+asyncpg://postgres:postgres@database:5432/prefect
+    ports:
+      - 4200:4200
+    depends_on:
+      - database
+    profiles: ["server"]
+    networks:
+      - project_network
+
+  ## Prefect Worker
+  worker:
+    image: prefecthq/prefect:3-python3.12
+    container_name: prefect-worker-1
+    restart: always
+    entrypoint: ["/opt/prefect/entrypoint.sh", "prefect", "worker", "start", "-p", "HEART_ATTACK_RISK_QUEUE"]
+    environment:
+      - PREFECT_API_URL=http://server:4200/api
+    profiles: ["worker"]
+    networks:
+      - project_network
+
+  prefect-cli: # Prefect CLI Service
+    build: .  
+    image: prefect-cli:latest
+    container_name: prefect-cli
+    entrypoint: ["bash", "-c", "tail -f /dev/null"]
+    working_dir: "/root/flows"
+    volumes:
+      - "./flows:/root/flows"
+    environment:
+      - PREFECT_API_URL=http://server:4200/api
+    profiles: ["cli"]
+    networks:
+      - project_network
+
+volumes:
+  pg_data:
+  mysql_data:
+  prefect:
+  db:
+  minio:
+
+networks:
+  project_network:
+
+
+
+# Other helpful statements/commands
+
+# docker compose --profile server up -d
+# docker compose --profile worker up -d
+# docker compose --profile minio up -d
+# docker compose --profile cli up -d
+
+
+# docker compose up -d --no-deps --force-recreate --build prefect-cli
+
+
+# docker compose --profile server down -v
+# docker compose --profile worker down -v
+# docker compose --profile minio down -v
+# docker compose --profile cli down -v
+
+
+# Check that libraries were correctly installed:
+# >> docker exec -it prefect-cli bash
+# >> pip list

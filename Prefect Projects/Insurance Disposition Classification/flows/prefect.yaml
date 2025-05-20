@@ -1,0 +1,7 @@
+# prefect.yaml
+
+blocks:
+  
+work_pools:
+  - name: "Insurance-Disposition-Classification-work-pool"
+    infrastructure: "docker"  # Options: "docker", "process"

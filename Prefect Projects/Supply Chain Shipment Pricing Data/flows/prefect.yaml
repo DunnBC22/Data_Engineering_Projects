@@ -1,0 +1,8 @@
+# prefect.yaml
+
+blocks:
+
+  
+work_pools:
+  - name: "Top Scientists-Researchers-Data-work-pool"
+    infrastructure: "docker"  # Options: "docker", "process"

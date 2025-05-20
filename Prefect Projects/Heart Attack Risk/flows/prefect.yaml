@@ -1,0 +1,25 @@
+# prefect.yaml
+
+blocks:
+  - name: "postgres-connector"
+    type: "SqlAlchemyConnector"
+    connection_info:
+      driver: "SyncDriver.POSTGRESQL_PSYCOPG2"
+      username: "pg"
+      password: "pg"
+      host: "localhost"
+      port: 5432
+      database: "ha_risk_pg_db"
+
+  - name: "mysql-connector"
+    type: "SqlAlchemyConnector"
+    connection_info:
+      driver: "SyncDriver.MYSQL_PYMYSQL"
+      username: "mysql"
+      password: "mysql"
+      host: "localhost"
+      port: 3306
+      database: "ha_risk_mysql_db"  
+work_pools:
+  - name: "Heart-Attack-Risk-Data-work-pool"
+    infrastructure: "docker"  # Options: "docker", "process"

@@ -1,0 +1,4 @@
+\c ha_risk_pg_db;
+
+ALTER TABLE ha_risk_pg_table
+ADD COLUMN Id INTEGER GENERATED ALWAYS AS IDENTITY;
