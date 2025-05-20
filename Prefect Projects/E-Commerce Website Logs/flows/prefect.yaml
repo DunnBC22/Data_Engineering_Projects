@@ -1,0 +1,7 @@
+# prefect.yaml
+
+blocks:
+  
+work_pools:
+  - name: "E-Commerce-Website-Logs-Data-work-pool"
+    infrastructure: "docker"  # Options: "docker", "process"

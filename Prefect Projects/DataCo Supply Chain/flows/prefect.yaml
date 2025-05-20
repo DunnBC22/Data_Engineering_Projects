@@ -1,0 +1,25 @@
+# prefect.yaml
+
+blocks:
+  - name: "postgres-connector"
+    type: "SqlAlchemyConnector"
+    connection_info:
+      driver: "SyncDriver.POSTGRESQL_PSYCOPG2"
+      username: "pg"
+      password: "pg"
+      host: "localhost"
+      port: 5432
+      database: "dataco_sc_pg_db"
+  - name: "mariadb-connector"
+    type: "SqlAlchemyConnector"
+    connection_info:
+      driver: "SyncDriver.MYSQL_PYMYSQL"
+      username: "mariadb_user"
+      password: "mariadb_pass"
+      host: "localhost"
+      port: 3306
+      database: "dataco_sc_mariadb_db"  
+
+work_pools:
+  - name: "DataCo-Supply-Chain-Data-work-pool"
+    infrastructure: "docker"  # Options: "docker", "process"

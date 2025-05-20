@@ -1,0 +1,215 @@
+File: order_items_dataset.csv
+
+
+Column: 'order_id'
+  Max String Length: 32
+  Null Count: 0
+  Unique Values: 98666
+  First 12 of 98666 unique values:
+    00010242fe8c5a6d1ba2dd792cb16214
+    00018f77f2f0320c557190d7a144bdd3
+    000229ec398224ef6ca0657da4fc703e
+    00024acbcdf0a6daa1e931b038114c75
+    00042b26cf59d7ce69dfabb4e55b4fd9
+    00048cc3ae777c65dbb7d2a0634bc1ea
+    00054e8431b9d7675808bcb819fb4a32
+    000576fe39319847cbb9d288c5617fa6
+    0005a1a1728c9d785b8e2b08b904576c
+    0005f50442cb953dcd1d21e1fb923495
+    00061f2a7bc09da83e415a52dc8a4af1
+    00063b381e2406b52ad429470734ebd5
+  Last 12 of 98666 unique values:
+    fff8287bbae429a99bb7e8c21d151c41
+    fff90cdcb3b2e6cfb397d05d562fd3fe
+    fffa82886406ccf10c7b4e35c4ff2788
+    fffb0b1a50e65c449020434fa835e078
+    fffb2ef8874127f75b52b643880fd7e0
+    fffb9224b6fc7c43ebb0904318b10b5f
+    fffbee3b5462987e66fb49b1c5411df2
+    fffc94f6ce00a00581880bf54a75a037
+    fffcd46ef2263f404302a634eb57f7eb
+    fffce4705a9662cd70adb13d4a31832d
+    fffe18544ffabc95dfada21779c9644f
+    fffe41c64501cc87c801fd61db3f6244
+
+Column: 'order_item_id'
+  Max String Length: 2
+  Null Count: 0
+  Unique Values: 21
+  Unique Values List (21):
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    21
+
+Column: 'product_id'
+  Max String Length: 32
+  Null Count: 0
+  Unique Values: 32951
+  First 12 of 32951 unique values:
+    00066f42aeeb9f3007548bb9d3f33c38
+    00088930e925c41fd95ebfe695fd2655
+    0009406fd7479715e4bef61dd91f2462
+    000b8f95fcb9e0096488278317764d19
+    000d9be29b5207b54e86aa1b1ac54872
+    0011c512eb256aa0dbbb544d8dffcf6e
+    00126f27c813603687e6ce486d909d01
+    001795ec6f1b187d37335e1c4704762e
+    001b237c0e9bb435f2e54071129237e9
+    001b72dfd63e9833e8c02742adf472e3
+    001c5d71ac6ad696d22315953758fa04
+    00210e41887c2a8ef9f791ebc780cc36
+  Last 12 of 32951 unique values:
+    ffeb228c521d5464d1f71444da96c446
+    ffedbd68fa6f44e788ff6c2db8094715
+    ffef256879dbadcab7e77950f4f4a195
+    fff0a542c3c62682f23305214eaeaa24
+    fff1059cd247279f3726b7696c66e44e
+    fff28f91211774864a1000f918ed00cc
+    fff515ea94dbf35d54d256b3e39f0fea
+    fff6177642830a9a94a0f2cba5e476d1
+    fff81cc3158d2725c0655ab9ba0f712c
+    fff9553ac224cec9d15d49f5a263411f
+    fffdb2d0ec8d6a61f0a0a0db3f25b441
+    fffe9eeff12fcbd74a2f2b007dde0c58
+
+Column: 'seller_id'
+  Max String Length: 32
+  Null Count: 0
+  Unique Values: 3095
+  First 12 of 3095 unique values:
+    0015a82c2db000af6aaaf3ae2ecb0532
+    001cca7ae9ae17fb1caed9dfb1094831
+    001e6ad469a905060d959994f1b41e4f
+    002100f778ceb8431b7a1020ff7ab48f
+    003554e2dce176b5555353e4f3555ac8
+    004c9cd9d87a3c30c522c48c4fc07416
+    00720abe85ba0859807595bbf045a33b
+    00ab3eff1b5192e5f1a63bcecfee11c8
+    00d8b143d12632bad99c0ad66ad52825
+    00ee68308b45bc5e2660cd833c3f81cc
+    00fc707aaaad2d31347cf883cd2dfe10
+    010543a62bd80aa422851e79a3bc7540
+  Last 12 of 3095 unique values:
+    ff4e2d38692ce827b1a4f4b8196e680d
+    ff4ea69c2a729e83e63c7579e4ef8170
+    ff69aa92bb6b1bf9b8b7a51c2ed9cf8b
+    ff82e8873fba613f2261a9acc896fd84
+    ffa6adafb71b807dc13159e26431354c
+    ffad1e7127fb622cb64a900751590acd
+    ffc470761de7d0232558ba5e786e57b7
+    ffcfefa19b08742c5d315f2791395ee5
+    ffdd9f82b9a447f6f8d4b91554cc7dd3
+    ffeee66ac5d5a62fe688b9d26f83f534
+    fffd5413c0700ac820c7069d66d98c89
+    ffff564a4f9085cd26170f4732393726
+
+Column: 'shipping_limit_date'
+  Max String Length: 19
+  Null Count: 0
+  Unique Values: 93318
+  First 12 of 93318 unique values:
+    2016-09-19 00:15:34
+    2016-09-19 23:11:33
+    2016-10-08 10:34:01
+    2016-10-08 10:45:33
+    2016-10-08 13:26:12
+    2016-10-08 13:46:32
+    2016-10-08 13:47:45
+    2016-10-08 14:09:08
+    2016-10-08 14:27:50
+    2016-10-08 14:46:49
+    2016-10-09 02:45:17
+    2016-10-09 02:46:18
+  Last 12 of 93318 unique values:
+    2018-09-11 00:30:19
+    2018-09-11 13:30:23
+    2018-09-11 22:43:50
+    2018-09-12 03:15:36
+    2018-09-12 13:24:27
+    2018-09-13 14:55:28
+    2018-09-14 02:09:37
+    2018-09-14 12:30:56
+    2018-09-18 21:10:15
+    2020-02-03 20:23:22
+    2020-02-05 03:30:51
+    2020-04-09 22:35:08
+
+Column: 'price'
+  Max String Length: 7
+  Null Count: 0
+  Unique Values: 5968
+  First 12 of 5968 unique values:
+    0.85
+    1.2
+    2.2
+    2.29
+    2.9
+    2.99
+    3.0
+    3.06
+    3.49
+    3.5
+    3.54
+    3.85
+  Last 12 of 5968 unique values:
+    3980.0
+    3999.0
+    3999.9
+    4059.0
+    4099.99
+    4399.87
+    4590.0
+    4690.0
+    4799.0
+    6499.0
+    6729.0
+    6735.0
+
+Column: 'freight_value'
+  Max String Length: 6
+  Null Count: 0
+  Unique Values: 6999
+  First 12 of 6999 unique values:
+    0.0
+    0.01
+    0.02
+    0.03
+    0.04
+    0.05
+    0.06
+    0.07
+    0.08
+    0.09
+    0.1
+    0.11
+  Last 12 of 6999 unique values:
+    306.06
+    312.41
+    314.02
+    314.4
+    317.47
+    321.46
+    321.88
+    322.1
+    338.3
+    339.59
+    375.28
+    409.68

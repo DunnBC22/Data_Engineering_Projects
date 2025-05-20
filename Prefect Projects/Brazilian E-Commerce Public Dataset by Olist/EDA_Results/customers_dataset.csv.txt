@@ -1,0 +1,159 @@
+File: customers_dataset.csv
+
+
+Column: 'customer_id'
+  Max String Length: 32
+  Null Count: 0
+  Unique Values: 99441
+  First 12 of 99441 unique values:
+    00012a2ce6f8dcda20d059ce98491703
+    000161a058600d5901f007fab4c27140
+    0001fd6190edaaf884bcaf3d49edf079
+    0002414f95344307404f0ace7a26f1d5
+    000379cdec625522490c315e70c7a9fb
+    0004164d20a9e969af783496f3408652
+    000419c5494106c306a97b5635748086
+    00046a560d407e99b969756e0b10f282
+    00050bf6e01e69d5c0fd612f1bcfb69c
+    000598caf2ef4117407665ac33275130
+    0005aefbb696d34b3424dccd0a0e9fd0
+    00062b33cb9f6fe976afdcff967ea74d
+  Last 12 of 99441 unique values:
+    fff89c8ed4fcf69a823c1d149e429a0b
+    fff906ecb75de5809be384e0f8d65e45
+    fff93c1da78dafaaa304ff032abc6205
+    fffa0238b217e18a8adeeda0669923a3
+    fffb97495f78be80e2759335275df2aa
+    fffc22669ca576ae3f654ea64c8f36be
+    fffcb937e9dd47a13f05ecb8290f4d3e
+    fffecc9f79fd8c764f843e9951b11341
+    fffeda5b6d849fbd39689bb92087f431
+    ffff42319e9b2d713724ae527742af25
+    ffffa3172527f765de70084a7e53aae8
+    ffffe8b65bbe3087b653a978c870db99
+
+Column: 'customer_unique_id'
+  Max String Length: 32
+  Null Count: 0
+  Unique Values: 96096
+  First 12 of 96096 unique values:
+    0000366f3b9a7992bf8c76cfdf3221e2
+    0000b849f77a49e4a4ce2b2a4ca5be3f
+    0000f46a3911fa3c0805444483337064
+    0000f6ccb0745a6a4b88665a16c9f078
+    0004aac84e0df4da2b147fca70cf8255
+    0004bd2a26a76fe21f786e4fbd80607f
+    00050ab1314c0e55a6ca13cf7181fecf
+    00053a61a98854899e70ed204dd4bafe
+    0005e1862207bf6ccc02e4228effd9a0
+    0005ef4cd20d2893f0d9fbd94d3c0d97
+    0006fdc98a402fceb4eb0ee528f6a8d4
+    00082cbe03e478190aadbea78542e933
+  Last 12 of 96096 unique values:
+    fff699c184bcc967d62fa2c6171765f7
+    fff7219c86179ca6441b8f37823ba3d3
+    fff96bc586f78b1f070da28c4977e810
+    fffa431dd3fcdefea4b1777d114144f2
+    fffb09418989a0dbff854a28163e47c6
+    fffbf87b7a1a6fa8b03f081c5f51a201
+    fffcc512b7dfecaffd80f13614af1d16
+    fffcf5a5ff07b0908bd4e2dbc735a684
+    fffea47cd6d3cc0a88bd621562a9d061
+    ffff371b4d645b6ecea244b27531430a
+    ffff5962728ec6157033ef9805bacc48
+    ffffd2657e2aad2907e67c3e9daecbeb
+
+Column: 'customer_zip_code_prefix'
+  Max String Length: 5
+  Null Count: 0
+  Unique Values: 14994
+  First 12 of 14994 unique values:
+    1003
+    1004
+    1005
+    1006
+    1007
+    1008
+    1009
+    1011
+    1012
+    1013
+    1014
+    1015
+  Last 12 of 14994 unique values:
+    99900
+    99920
+    99925
+    99930
+    99940
+    99950
+    99955
+    99960
+    99965
+    99970
+    99980
+    99990
+
+Column: 'customer_city'
+  Max String Length: 32
+  Null Count: 0
+  Unique Values: 4119
+  First 12 of 4119 unique values:
+    abadia dos dourados
+    abadiania
+    abaete
+    abaetetuba
+    abaiara
+    abaira
+    abare
+    abatia
+    abdon batista
+    abelardo luz
+    abrantes
+    abre campo
+  Last 12 of 4119 unique values:
+    xambre
+    xangri-la
+    xanxere
+    xapuri
+    xavantina
+    xaxim
+    xexeu
+    xinguara
+    xique-xique
+    zacarias
+    ze doca
+    zortea
+
+Column: 'customer_state'
+  Max String Length: 2
+  Null Count: 0
+  Unique Values: 27
+  Unique Values List (27):
+    AC
+    AL
+    AM
+    AP
+    BA
+    CE
+    DF
+    ES
+    GO
+    MA
+    MG
+    MS
+    MT
+    PA
+    PB
+    PE
+    PI
+    PR
+    RJ
+    RN
+    RO
+    RR
+    RS
+    SC
+    SE
+    SP
+    TO

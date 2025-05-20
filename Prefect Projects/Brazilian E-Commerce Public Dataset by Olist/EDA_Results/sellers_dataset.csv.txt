@@ -1,0 +1,124 @@
+File: sellers_dataset.csv
+
+
+Column: 'seller_id'
+  Max String Length: 32
+  Null Count: 0
+  Unique Values: 3095
+  First 12 of 3095 unique values:
+    0015a82c2db000af6aaaf3ae2ecb0532
+    001cca7ae9ae17fb1caed9dfb1094831
+    001e6ad469a905060d959994f1b41e4f
+    002100f778ceb8431b7a1020ff7ab48f
+    003554e2dce176b5555353e4f3555ac8
+    004c9cd9d87a3c30c522c48c4fc07416
+    00720abe85ba0859807595bbf045a33b
+    00ab3eff1b5192e5f1a63bcecfee11c8
+    00d8b143d12632bad99c0ad66ad52825
+    00ee68308b45bc5e2660cd833c3f81cc
+    00fc707aaaad2d31347cf883cd2dfe10
+    010543a62bd80aa422851e79a3bc7540
+  Last 12 of 3095 unique values:
+    ff4e2d38692ce827b1a4f4b8196e680d
+    ff4ea69c2a729e83e63c7579e4ef8170
+    ff69aa92bb6b1bf9b8b7a51c2ed9cf8b
+    ff82e8873fba613f2261a9acc896fd84
+    ffa6adafb71b807dc13159e26431354c
+    ffad1e7127fb622cb64a900751590acd
+    ffc470761de7d0232558ba5e786e57b7
+    ffcfefa19b08742c5d315f2791395ee5
+    ffdd9f82b9a447f6f8d4b91554cc7dd3
+    ffeee66ac5d5a62fe688b9d26f83f534
+    fffd5413c0700ac820c7069d66d98c89
+    ffff564a4f9085cd26170f4732393726
+
+Column: 'seller_zip_code_prefix'
+  Max String Length: 5
+  Null Count: 0
+  Unique Values: 2246
+  First 12 of 2246 unique values:
+    1001
+    1021
+    1022
+    1023
+    1026
+    1031
+    1035
+    1039
+    1040
+    1041
+    1042
+    1044
+  Last 12 of 2246 unique values:
+    97502
+    98290
+    98780
+    98803
+    98910
+    98920
+    98975
+    99300
+    99500
+    99670
+    99700
+    99730
+
+Column: 'seller_city'
+  Max String Length: 40
+  Null Count: 0
+  Unique Values: 611
+  First 12 of 611 unique values:
+    04482255
+    abadia de goias
+    afonso claudio
+    aguas claras df
+    alambari
+    alfenas
+    almirante tamandare
+    alvares machado
+    alvorada
+    americana
+    amparo
+    ampere
+  Last 12 of 611 unique values:
+    viana
+    vicente de carvalho
+    vicosa
+    videira
+    vila velha
+    vitoria
+    vitoria de santo antao
+    volta redonda
+    votorantim
+    votuporanga
+    xanxere
+    xaxim
+
+Column: 'seller_state'
+  Max String Length: 2
+  Null Count: 0
+  Unique Values: 23
+  Unique Values List (23):
+    AC
+    AM
+    BA
+    CE
+    DF
+    ES
+    GO
+    MA
+    MG
+    MS
+    MT
+    PA
+    PB
+    PE
+    PI
+    PR
+    RJ
+    RN
+    RO
+    RS
+    SC
+    SE
+    SP

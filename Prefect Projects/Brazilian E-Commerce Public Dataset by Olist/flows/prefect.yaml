@@ -1,0 +1,26 @@
+# prefect.yaml
+
+blocks:      
+  - name: "mysql-connector"
+    type: "SqlAlchemyConnector"
+    connection_info:
+      driver: "SyncDriver.MYSQL_PYMYSQL"
+      username: "mysql"
+      password: "mysql"
+      host: "mysql"
+      port: 3306
+      database: "brazilian_ecomm_public_dataset_mysql_db"  
+
+  - name: "pg-connector"
+    type: "SqlAlchemyConnector"
+    connection_info:
+      driver: "SyncDriver.POSTGRESQL_PSYCOPG2"
+      username: "pg"
+      password: "pg"
+      host: "postgres"
+      port: 5432
+      database: "brazilian_ecomm_public_dataset_pg_db"
+
+work_pools:
+  - name: "Brazilian-E-Comm-Public-Dataset-Work-Pool"
+    infrastructure: "docker"  # Options: "docker", "process"

@@ -1,0 +1,140 @@
+File: order_payments_dataset.csv
+
+
+Column: 'order_id'
+  Max String Length: 32
+  Null Count: 0
+  Unique Values: 99440
+  First 12 of 99440 unique values:
+    00010242fe8c5a6d1ba2dd792cb16214
+    00018f77f2f0320c557190d7a144bdd3
+    000229ec398224ef6ca0657da4fc703e
+    00024acbcdf0a6daa1e931b038114c75
+    00042b26cf59d7ce69dfabb4e55b4fd9
+    00048cc3ae777c65dbb7d2a0634bc1ea
+    00054e8431b9d7675808bcb819fb4a32
+    000576fe39319847cbb9d288c5617fa6
+    0005a1a1728c9d785b8e2b08b904576c
+    0005f50442cb953dcd1d21e1fb923495
+    00061f2a7bc09da83e415a52dc8a4af1
+    00063b381e2406b52ad429470734ebd5
+  Last 12 of 99440 unique values:
+    fff8287bbae429a99bb7e8c21d151c41
+    fff90cdcb3b2e6cfb397d05d562fd3fe
+    fffa82886406ccf10c7b4e35c4ff2788
+    fffb0b1a50e65c449020434fa835e078
+    fffb2ef8874127f75b52b643880fd7e0
+    fffb9224b6fc7c43ebb0904318b10b5f
+    fffbee3b5462987e66fb49b1c5411df2
+    fffc94f6ce00a00581880bf54a75a037
+    fffcd46ef2263f404302a634eb57f7eb
+    fffce4705a9662cd70adb13d4a31832d
+    fffe18544ffabc95dfada21779c9644f
+    fffe41c64501cc87c801fd61db3f6244
+
+Column: 'payment_sequential'
+  Max String Length: 2
+  Null Count: 0
+  Unique Values: 29
+  Unique Values List (29):
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    19
+    20
+    21
+    22
+    23
+    24
+    25
+    26
+    27
+    28
+    29
+
+Column: 'payment_type'
+  Max String Length: 11
+  Null Count: 0
+  Unique Values: 5
+  Unique Values List (5):
+    boleto
+    credit_card
+    debit_card
+    not_defined
+    voucher
+
+Column: 'payment_installments'
+  Max String Length: 2
+  Null Count: 0
+  Unique Values: 24
+  Unique Values List (24):
+    0
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    13
+    14
+    15
+    16
+    17
+    18
+    20
+    21
+    22
+    23
+    24
+
+Column: 'payment_value'
+  Max String Length: 8
+  Null Count: 0
+  Unique Values: 29077
+  First 12 of 29077 unique values:
+    0.0
+    0.01
+    0.03
+    0.05
+    0.07
+    0.08
+    0.09
+    0.1
+    0.11
+    0.13
+    0.14
+    0.15
+  Last 12 of 29077 unique values:
+    4445.5
+    4513.32
+    4681.78
+    4764.34
+    4809.44
+    4950.34
+    6081.54
+    6726.66
+    6922.21
+    6929.31
+    7274.88
+    13664.08

@@ -1,0 +1,7 @@
+# prefect.yaml
+
+blocks:
+  
+work_pools:
+  - name: "Comprehensive-Supply-Chain-Analysis-Data-work-pool"
+    infrastructure: "docker"  # Options: "docker", "process"

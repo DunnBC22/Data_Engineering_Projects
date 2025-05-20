@@ -1,0 +1,159 @@
+File: geolocation_dataset.csv
+
+
+Column: 'geolocation_zip_code_prefix'
+  Max String Length: 5
+  Null Count: 0
+  Unique Values: 19015
+  First 12 of 19015 unique values:
+    1001
+    1002
+    1003
+    1004
+    1005
+    1006
+    1007
+    1008
+    1009
+    1010
+    1011
+    1012
+  Last 12 of 19015 unique values:
+    99920
+    99925
+    99930
+    99940
+    99950
+    99952
+    99955
+    99960
+    99965
+    99970
+    99980
+    99990
+
+Column: 'geolocation_lat'
+  Max String Length: 23
+  Null Count: 0
+  Unique Values: 717372
+  First 12 of 717372 unique values:
+    -36.6053744107061
+    -36.60383679197938
+    -34.622399716108134
+    -34.586422110664884
+    -33.692616193040195
+    -33.69250380197537
+    -33.69249127237908
+    -33.692290581879426
+    -33.69225535214563
+    -33.692195987180305
+    -33.69217666925071
+    -33.69213576773188
+  Last 12 of 717372 unique values:
+    38.99196259838999
+    39.057629417004364
+    41.14620290949943
+    41.38532754845633
+    41.61405150610495
+    42.166804640530444
+    42.16725082536653
+    42.18400274298598
+    42.42888405758768
+    42.43928591592116
+    43.68496096631822
+    45.06593318269697
+
+Column: 'geolocation_lng'
+  Max String Length: 19
+  Null Count: 0
+  Unique Values: 717615
+  First 12 of 717615 unique values:
+    -101.46676644931476
+    -98.48412074808029
+    -98.07854439291536
+    -98.07853309801159
+    -72.93074575443762
+    -72.92729629685648
+    -72.92560117489478
+    -72.90944364828704
+    -72.90821208080753
+    -72.90779002936502
+    -72.90339598143709
+    -72.78532999999999
+  Last 12 of 717615 unique values:
+    -8.411675312504059
+    -7.803885844521256
+    -7.411080413859842
+    -6.8985590510710155
+    -6.898530628106095
+    -6.873343870596927
+    -6.775035344018704
+    -6.328200272094753
+    -4.947823288649088
+    9.341527629906514
+    13.82021409761152
+    121.10539381057764
+
+Column: 'geolocation_city'
+  Max String Length: 38
+  Null Count: 0
+  Unique Values: 8011
+  First 12 of 8011 unique values:
+    * cidade
+    ...arraial do cabo
+    4o. centenario
+    4º centenario
+    abadia de goias
+    abadia dos dourados
+    abadiania
+    abadiânia
+    abaete
+    abaetetuba
+    abaeté
+    abaiara
+  Last 12 of 8011 unique values:
+    águas frias
+    águas lindas de goiás
+    águas vermelhas
+    águia branca
+    álvares florence
+    álvares machado
+    álvaro de carvalho
+    áurea
+    ângulo
+    érico cardoso
+    óbidos
+    óleo
+
+Column: 'geolocation_state'
+  Max String Length: 2
+  Null Count: 0
+  Unique Values: 27
+  Unique Values List (27):
+    AC
+    AL
+    AM
+    AP
+    BA
+    CE
+    DF
+    ES
+    GO
+    MA
+    MG
+    MS
+    MT
+    PA
+    PB
+    PE
+    PI
+    PR
+    RJ
+    RN
+    RO
+    RR
+    RS
+    SC
+    SE
+    SP
+    TO

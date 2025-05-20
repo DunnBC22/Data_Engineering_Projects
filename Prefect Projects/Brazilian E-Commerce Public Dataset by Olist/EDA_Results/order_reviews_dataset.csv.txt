@@ -1,0 +1,233 @@
+File: order_reviews_dataset.csv
+
+
+Column: 'review_id'
+  Max String Length: 32
+  Null Count: 0
+  Unique Values: 98410
+  First 12 of 98410 unique values:
+    0001239bc1de2e33cb583967c2ca4c67
+    0001cc6860aeaf5b9017fe4131a52e62
+    00020c7512a52e92212f12d3e37513c0
+    00032b0141443497c898b3093690af51
+    00034d88989f9a4c393bdcaec301537f
+    000359bceee1b6fe876b30d35b5f9ef2
+    00041b1f51e77a663df6db3f539d694f
+    00046a69550325aea5fb89f65c7387f2
+    0005534973388c830bb858cfba83b17b
+    00055e36e9608fe969231e551983a69c
+    0005949d4c047d64863a6874338139ba
+    0005bc906dfe3b73261020bf8e9b76cf
+  Last 12 of 98410 unique values:
+    fff74df1b8135a5b3d5999ff5ad39d25
+    fff77f9c0de9889e73143783c1f3dc15
+    fff7d7ac49bf1d954e8e7c333ecca559
+    fff7ee4c59951a0305fe49b194fc2389
+    fff879e16f5afcc79d31222c02801549
+    fff8f32dd0b6505fe0ea528c5fcbabb0
+    fffa632da3b685807ed568136eb6778b
+    fffcfa6087cd3b651c68252342f13cb9
+    fffd24e2cf1ca4ee917e2f05be3c01fb
+    fffd68e8a9fb73a56a2f504011b0f1f1
+    fffee432d53abd67b5b0fd4fc290d8c3
+    fffefe7a48d22f7b32046421062219d1
+
+Column: 'order_id'
+  Max String Length: 32
+  Null Count: 0
+  Unique Values: 98673
+  First 12 of 98673 unique values:
+    00010242fe8c5a6d1ba2dd792cb16214
+    00018f77f2f0320c557190d7a144bdd3
+    000229ec398224ef6ca0657da4fc703e
+    00024acbcdf0a6daa1e931b038114c75
+    00042b26cf59d7ce69dfabb4e55b4fd9
+    00048cc3ae777c65dbb7d2a0634bc1ea
+    00054e8431b9d7675808bcb819fb4a32
+    000576fe39319847cbb9d288c5617fa6
+    0005a1a1728c9d785b8e2b08b904576c
+    0005f50442cb953dcd1d21e1fb923495
+    00061f2a7bc09da83e415a52dc8a4af1
+    00063b381e2406b52ad429470734ebd5
+  Last 12 of 98673 unique values:
+    fff8287bbae429a99bb7e8c21d151c41
+    fff90cdcb3b2e6cfb397d05d562fd3fe
+    fffa82886406ccf10c7b4e35c4ff2788
+    fffb0b1a50e65c449020434fa835e078
+    fffb2ef8874127f75b52b643880fd7e0
+    fffb9224b6fc7c43ebb0904318b10b5f
+    fffbee3b5462987e66fb49b1c5411df2
+    fffc94f6ce00a00581880bf54a75a037
+    fffcd46ef2263f404302a634eb57f7eb
+    fffce4705a9662cd70adb13d4a31832d
+    fffe18544ffabc95dfada21779c9644f
+    fffe41c64501cc87c801fd61db3f6244
+
+Column: 'review_score'
+  Max String Length: 1
+  Null Count: 0
+  Unique Values: 5
+  Unique Values List (5):
+    1
+    2
+    3
+    4
+    5
+
+Column: 'review_comment_title'
+  Max String Length: 26
+  Null Count: 87656
+  Unique Values: 4528
+  First 12 of 4528 unique values:
+    None
+     
+     10
+     4 
+     5 estrelas
+     Avaliando
+     BOM , MENOS LOGISTICA
+     Bom
+     DUVIDA!
+     Entrega muito rápida
+     Entrega parcial
+     Muito bom
+  Last 12 of 4528 unique values:
+    ótimo produto!
+    ótimo produto. 
+    ótimo!
+    ótimo,super recomendo
+    ótimos produtos
+    🌟🌟🌟🌟🌟 super recomend
+    👍
+    👍🏼
+    👍🏽
+    👍👍👍👍👍
+    💥💥💥💥💥
+    🔟 
+
+Column: 'review_comment_message'
+  Max String Length: 208
+  Null Count: 58247
+  Unique Values: 36160
+  First 12 of 36160 unique values:
+    None
+    
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+De todo o pedido feito no site, este foi o que mais demorou para entregar!!!
+    
+
+Houve um impedimento relatado em outro e-mail justificando o atraso da entrega do produto .
+Nesse momento ainda não recebi a compra.
+Aguardo informações 
+Patrícia 
+    
+
+Pilha Recarregável Kit 4 Pilhas Aaa 2700 Mah 1.2v Ni Mh
+    
+
+Recomendo. 
+    
+.
+    
+Apesar de de ser entregue antes do previsto, prazo de entrega é muito longo.Enfim, mais por causa dos Correios mesmo que é um lixo. Tirando isso produto em perfeito estado. Recomendo!
+    
+Boa
+Demais
+A entrega
+
+    
+Comprei um produto e entregaram outro difetente do que pedi..... E mais solicitei a devolucao ou troca e ate agora nada.... Estam se fazendo de dezentendidos...
+E fazer pouco caso do cliente ne..
+  Last 12 of 36160 unique values:
+    👍👍👍👍👍👍👍👍👏👏👏👏👏👏👏👏
+    👎
+    👏🏾👏🏾👏🏾👏🏾
+    👏👏👏👏👏
+    👏👏👏👏👏👍😁
+    😀
+    😁😁😁😁😁🤗🤗🤗🤗🏇👏👏👏👏👏👏
+    😃 ótimo 👍 
+    😆😆😆😆😆
+    😆😆😆😆😆😆
+    😍😍👧💅 amei e chegou até antes do esperodo 
+    😡😡😡😡😡👎👎👎👎👎
+Empresa sem compromisso com o cliente
+
+Column: 'review_creation_date'
+  Max String Length: 19
+  Null Count: 0
+  Unique Values: 636
+  First 12 of 636 unique values:
+    2016-10-02 00:00:00
+    2016-10-06 00:00:00
+    2016-10-09 00:00:00
+    2016-10-15 00:00:00
+    2016-10-16 01:00:00
+    2016-10-18 00:00:00
+    2016-10-19 00:00:00
+    2016-10-20 00:00:00
+    2016-10-21 00:00:00
+    2016-10-22 00:00:00
+    2016-10-23 00:00:00
+    2016-10-24 00:00:00
+  Last 12 of 636 unique values:
+    2018-08-20 00:00:00
+    2018-08-21 00:00:00
+    2018-08-22 00:00:00
+    2018-08-23 00:00:00
+    2018-08-24 00:00:00
+    2018-08-25 00:00:00
+    2018-08-26 00:00:00
+    2018-08-27 00:00:00
+    2018-08-28 00:00:00
+    2018-08-29 00:00:00
+    2018-08-30 00:00:00
+    2018-08-31 00:00:00
+
+Column: 'review_answer_timestamp'
+  Max String Length: 19
+  Null Count: 0
+  Unique Values: 98248
+  First 12 of 98248 unique values:
+    2016-10-07 18:32:28
+    2016-10-11 14:31:29
+    2016-10-16 03:20:17
+    2016-10-16 15:45:11
+    2016-10-17 21:02:49
+    2016-10-18 18:07:44
+    2016-10-18 20:29:05
+    2016-10-19 00:49:06
+    2016-10-19 01:13:48
+    2016-10-19 11:53:10
+    2016-10-19 15:35:52
+    2016-10-19 19:15:49
+  Last 12 of 98248 unique values:
+    2018-10-17 15:10:18
+    2018-10-17 19:16:38
+    2018-10-18 12:22:20
+    2018-10-21 16:19:02
+    2018-10-21 23:03:07
+    2018-10-22 03:33:14
+    2018-10-23 04:31:28
+    2018-10-24 16:27:36
+    2018-10-24 18:26:25
+    2018-10-24 21:34:38
+    2018-10-26 21:36:41
+    2018-10-29 12:27:35
