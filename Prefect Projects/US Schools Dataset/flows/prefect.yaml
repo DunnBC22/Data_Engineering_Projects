@@ -1,0 +1,26 @@
+# prefect.yaml
+
+blocks:
+  - name: "mysql-connector"
+    type: "SqlAlchemyConnector"
+    connection_info:
+      driver: "SyncDriver.MYSQL_PYMYSQL"
+      username: "mysql"
+      password: "mysql"
+      host: "localhost"
+      port: 3306
+      database: "us_schools_geo_mysql_db"
+      
+  - name: "postgis-connector"
+    type: "SqlAlchemyConnector"
+    connection_info:
+      driver: "SyncDriver.POSTGRESQL_PSYCOPG2"
+      username: "pg"
+      password: "pg"
+      host: "localhost"
+      port: 5432
+      database: "us_schools_geo_db_pg"
+  
+work_pools:
+  - name: "local-us-schools-dataset-work-pool"
+    infrastructure: "docker"  # Options: "docker", "process"

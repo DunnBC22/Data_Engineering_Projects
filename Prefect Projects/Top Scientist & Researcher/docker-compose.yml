@@ -1,0 +1,167 @@
+services:
+  mongodb: # Source
+    image: mongo:8.0.0-rc11
+    hostname: mongodb
+    container_name: mongodb
+    networks:
+      - project_network
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongodb_user
+      MONGO_INITDB_ROOT_PASSWORD: mongodb_password
+    volumes:
+      - mongo_data:/data/db
+      - ./mongo_scripts:/docker-entrypoint-initdb.d
+      - ./data/dataset.csv:/data/dataset.csv
+    # command: mongod --bind_ip_all
+    # ------------------------------------------------------------
+    #   To Check if startup scripts worked as expected:
+    #     docker exec -it mongodb mongosh
+    #     db.auth("mongodb_user", "mongodb_password")
+    #     show dbs
+    #     use tsr_mongo_db
+    #     tsr_mongo_coll
+    # ------------------------------------------------------------
+  
+  elasticsearch: # Target
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.17.28
+    container_name: elasticsearch
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=true
+      - ELASTIC_PASSWORD=es_prefect_pass
+      # (Optional) Disable SSL for HTTP for testing purposes:
+      - xpack.security.http.ssl.enabled=false
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    volumes:
+      - es_data:/usr/share/elasticsearch/data
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsSL -u elastic:es_prefect_pass http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=10s || exit 1"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
+      timeout: 10s
+    networks:
+      - project_network
+
+  data-loader: # Target-adjacent
+    build: ./data-loader
+    container_name: data-loader
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    # volumes:
+    #   - ./data-loader/data:/data
+    networks:
+      - project_network
+    command: sh -c "python /app/create_index.py"
+    # INDEX_NAME = "top_scientists_researchers"
+
+  database: # Prefect Database
+    image: postgres:alpine
+    container_name: database
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=prefect
+    expose:
+      - 5432
+    volumes: 
+      - db:/var/lib/postgresql/data
+    profiles: ["server"]
+    networks:
+      - project_network
+
+  minio: # MinIO for flow storage
+    image: minio/minio:latest
+    container_name: minio
+    entrypoint: ["minio", "server", "--address", "0.0.0.0:9000", "--console-address", "0.0.0.0:9001", "/data"]
+    volumes:
+      - "minio:/data"
+    ports:
+      - 9000:9000
+      - 9001:9001
+    profiles: ["minio"]
+    networks:
+      - project_network
+
+  server: # Prefect Server API & UI
+    image: prefecthq/prefect:3-python3.12
+    container_name: prefect-server
+    restart: always
+    volumes:
+      - prefect:/root/.prefect
+    entrypoint: ["/opt/prefect/entrypoint.sh", "prefect", "server", "start"]
+    environment:
+      - PREFECT_UI_URL=http://127.0.0.1:4200/api
+      - PREFECT_API_URL=http://127.0.0.1:4200/api
+      - PREFECT_SERVER_API_HOST=0.0.0.0
+      - PREFECT_API_DATABASE_CONNECTION_URL=postgresql+asyncpg://postgres:postgres@database:5432/prefect
+    ports:
+      - 4200:4200
+    depends_on:
+      - database
+    profiles: ["server"]
+    networks:
+      - project_network
+
+  worker: # Prefect Worker
+    image: prefecthq/prefect:3-python3.12
+    container_name: prefect-worker-1
+    restart: always
+    entrypoint: ["/opt/prefect/entrypoint.sh", "prefect", "worker", "start", "-p", "TOP_RESEARCHERS_SCIENTISTS_QUEUE"]
+    environment:
+      - PREFECT_API_URL=http://server:4200/api
+    profiles: ["worker"]
+    networks:
+      - project_network
+
+  ## Prefect CLI Service
+  prefect-cli:
+    build: .
+    image: prefect-cli:latest
+    container_name: prefect-cli
+    working_dir: "/root/flows"
+    volumes:
+      - "./flows:/root/flows"
+    entrypoint: ["bash", "-c", "tail -f /dev/null"]
+    environment:
+      - PREFECT_API_URL=http://server:4200/api
+    profiles: ["cli"]
+    networks:
+      - project_network
+
+networks:
+  project_network:
+
+volumes:
+  mongo_data:
+  es_data:
+  prefect:
+  db:
+  minio:
+
+
+# Other helpful statements/commands
+
+# docker compose --profile server up -d
+# docker compose --profile worker up -d
+# docker compose --profile minio up -d
+# docker compose --profile cli up -d
+
+
+# docker compose up -d --no-deps --force-recreate --build prefect-cli
+
+
+# docker compose --profile server down -v
+# docker compose --profile worker down -v
+# docker compose --profile minio down -v
+# docker compose --profile cli down -v
+
+# Check that libraries were correctly installed:
+# >> docker exec -it prefect-cli bash
+# >> pip list

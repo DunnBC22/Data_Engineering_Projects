@@ -1,0 +1,2 @@
+GRANT INSERT, UPDATE, DELETE, SELECT, CREATE ON us_schools_geo_mysql_db.* TO 'mysql'@'%';
+FLUSH PRIVILEGES;

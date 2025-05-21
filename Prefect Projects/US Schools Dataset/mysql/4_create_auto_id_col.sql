@@ -1,0 +1,5 @@
+ALTER TABLE us_schools_geo_mysql_table_private
+ADD COLUMN Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
+
+ALTER TABLE us_schools_geo_mysql_table_public
+ADD COLUMN Id INT NOT NULL AUTO_INCREMENT PRIMARY KEY;
