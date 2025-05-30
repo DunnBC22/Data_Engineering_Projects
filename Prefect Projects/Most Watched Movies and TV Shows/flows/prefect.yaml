@@ -1,0 +1,16 @@
+# prefect.yaml
+
+blocks:      
+  - name: "mariadb-connector"
+    type: "SqlAlchemyConnector"
+    connection_info:
+      driver: "SyncDriver.MYSQL_PYMYSQL"
+      username: "mariadb_user"
+      password: "mariadb_pass"
+      host: "mariadb"
+      port: 3306
+      database: "most_watched_movies_and_tv_shows_mariadb_db"
+  
+work_pools:
+  - name: "Most-Watched-Movies-TV-Shows-work-pool"
+    infrastructure: "docker"  # Options: "docker", "process"

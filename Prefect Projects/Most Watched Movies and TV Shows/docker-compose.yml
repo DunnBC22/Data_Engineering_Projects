@@ -1,0 +1,172 @@
+services:  
+  mariadb: # Source
+    image: mariadb:11.8.1-ubi9-rc
+    container_name: mariadb
+    restart: unless-stopped
+    environment:
+      - MARIADB_ROOT_PASSWORD=mariadb_secret
+      - MARIADB_DATABASE=most_watched_movies_and_tv_shows_mariadb_db
+      - MARIADB_USER=mariadb_user
+      - MARIADB_PASSWORD=mariadb_pass
+    ports:
+      - "3306:3306"
+    volumes:
+      - mariadb_data:/var/lib/mysql
+      - ./mariadb_scripts:/docker-entrypoint-initdb.d
+    networks:
+      - project_network
+
+  mariadb_data_loader:
+    image: python:3.11-slim
+    container_name: mariadb_data_loader
+    depends_on:
+      - mariadb
+    volumes:
+      - ./data:/data
+      - ./mariadb_scripts:/load_data
+    mem_limit: 4g
+    command: >
+      sh -c "
+        apt-get update &&
+        apt-get install -y gcc default-libmysqlclient-dev pkg-config python3-dev build-essential &&
+        pip install --no-cache-dir pyarrow &&
+        pip install --no-cache-dir polars==0.20.26 sqlalchemy pymysql pandas mysqlclient &&
+        sleep 5 &&
+        python /load_data/1_create_table.py &&
+        sleep 5 &&
+        python /load_data/2_load_data.py &&
+        tail -f /dev/null
+      "
+    networks:
+      - project_network
+    
+  mongodb: # Target
+    image: mongo:8.0.0-rc11
+    hostname: mongodb
+    container_name: mongodb
+    networks:
+      - project_network
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: mongodb_user
+      MONGO_INITDB_ROOT_PASSWORD: mongodb_password
+    volumes:
+      - mongo_data:/data/db
+      - ./mongo_scripts:/docker-entrypoint-initdb.d
+    # command: mongod --bind_ip_all
+    # ------------------------------------------------------------
+    #   To Check if startup scripts worked as expected:
+    #     docker exec -it mongodb mongosh
+    #     db.auth("mongodb_user", "mongodb_password")
+    #     show dbs
+    #     use most_watched_movies_and_tv_shows_mongo_db
+    #     most_watched_movies_and_tv_shows_mongo_coll
+    #
+    # ------------------------------------------------------------
+  
+  database: # Prefect Database
+    image: postgres:alpine
+    container_name: database
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=prefect
+    expose:
+      - 5432
+    volumes: 
+      - db:/var/lib/postgresql/data
+    profiles: ["server"]
+    networks:
+      - project_network
+
+  minio: # MinIO for flow storage
+    image: minio/minio:latest
+    container_name: minio
+    entrypoint: ["minio", "server", "--address", "0.0.0.0:9000", "--console-address", "0.0.0.0:9001", "/data"]
+    volumes:
+      - "minio:/data"
+    ports:
+      - 9000:9000
+      - 9001:9001
+    profiles: ["minio"]
+    networks:
+      - project_network
+
+  server: # Prefect Server API & UI
+    image: prefecthq/prefect:3-python3.12
+    container_name: prefect-server
+    restart: always
+    volumes:
+      - prefect:/root/.prefect
+    entrypoint: ["/opt/prefect/entrypoint.sh", "prefect", "server", "start"]
+    environment:
+      - PREFECT_UI_URL=http://127.0.0.1:4200/api
+      - PREFECT_API_URL=http://127.0.0.1:4200/api
+      - PREFECT_SERVER_API_HOST=0.0.0.0
+      - PREFECT_API_DATABASE_CONNECTION_URL=postgresql+asyncpg://postgres:postgres@database:5432/prefect
+    ports:
+      - 4200:4200
+    depends_on:
+      - database
+    profiles: ["server"]
+    networks:
+      - project_network
+
+  ## Prefect Worker
+  worker:
+    image: prefecthq/prefect:3-python3.12
+    container_name: prefect-worker-1
+    restart: always
+    entrypoint: ["/opt/prefect/entrypoint.sh", "prefect", "worker", "start", "-p", "MOST_WATCHED_MOVIES_TV_SHOW_QUEUE"]
+    environment:
+      - PREFECT_API_URL=http://server:4200/api
+    profiles: ["worker"]
+    networks:
+      - project_network
+
+  prefect-cli: # Prefect CLI Service
+    build: .  
+    image: prefect-cli:latest
+    container_name: prefect-cli
+    entrypoint: ["bash", "-c", "tail -f /dev/null"]
+    working_dir: "/root/flows"
+    volumes:
+      - "./flows:/root/flows"
+    environment:
+      - PREFECT_API_URL=http://server:4200/api
+    profiles: ["cli"]
+    networks:
+      - project_network
+
+  
+volumes:
+  mariadb_data:
+  mongo_data:
+  prefect:
+  db:
+  minio:
+
+networks:
+  project_network:
+
+
+# Other helpful statements/commands
+
+# docker compose --profile server up -d
+# docker compose --profile worker up -d
+# docker compose --profile minio up -d
+# docker compose --profile cli up -d
+
+# docker compose up -d --no-deps --force-recreate --build prefect-cli
+
+# docker compose --profile server down -v
+# docker compose --profile worker down -v
+# docker compose --profile minio down -v
+# docker compose --profile cli down -v
+
+
+# Check that libraries were correctly installed:
+# >> docker exec -it prefect-cli bash
+# >> pip list

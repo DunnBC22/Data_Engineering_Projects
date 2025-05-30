@@ -1,0 +1,182 @@
+# Mock Marketing Schema - Prefect Pipeline
+
+
+## Description
+
+- Account
+	- Rename columns
+		- "CUST_ID": "CustomerId",
+		- "ACQUISITION_COST": "AcquisitionCost",
+		- "INTERNET_BANKING_INDICATOR": "InternetBankingIndicator",
+		- "DATE_FIRST_ACCOUNT_OPENED": "DateFirstAccountOpened",
+		- "DATE_LAST_ACCOUNT_OPENED": "DateLastAccountOpened",
+		- "PURSUIT": "Pursuit",
+		- "PRIMARY_ADVISOR_ORGANIZATION_ID": "PrimaryAdvisorOrgId",
+		- "PRIMARY_BRANCH_PROXIMITY": "PrimaryBranchProximity",
+		- "PRIMARY_SPOKEN_LANGUAGE": "PrimarySpokenLanguage",
+		- "PRIMARY_WRITTEN_LANGUAGE": "PrimaryWrittenLanguage",
+		- "SATISFACTION_RATING_FROM_SURVEY": "SatisfactionRatingFromSurvey",
+		- "SECONDARY_ADVISOR_ID": "SecondaryAdvisorId",
+		- "SECONDARY_ADVISOR_ORGANIZATION_ID": "SecondaryAdvisorOrgId",
+		- "SPECIAL_TERMS_INDICATOR": "SpecialTermsIndicator"
+	- Remove this/these column(s):
+		- PrimarySpokenLanguage (single value feature)
+     	- PrimaryWrittenLanguage (single value feature)
+	- Handle Dates (convert from string to date)
+		- DateFirstAccountOpened
+		- DateLastAccountOpened
+	- Titlecase values in these features:
+		- SatisfactionRatingFromSurvey
+	- Remove all whitespace (even in between words):
+		- Pursuit
+		- SatisfactionRatingFromSurvey
+- Customer
+	- Rename columns
+		- "CUST_ID": "CustomerId",
+		- "GENDER": "CustomerGender",
+		- "FIRST_NAME": "CustomerFirstName",
+		- "LAST_NAME": "CustomerLastName",
+		- "EMAIL": "CustomerEmail",
+		- "SSN": "CustomerSocSecNumLastFour",
+		- "AGE_RANGE": "CustomerAgeRange",
+		- "ANNUAL_INCOME": "CustomerAnnualIncome",
+		- "BIRTH_YEAR": "CustomerBirthYear",
+		- "CURRENT_EMPLOYMENT_START_DATE": "CustomerCurrentEmploymentStartDate",
+		- "CUSTOMER_BEHAVIOR": "CustomerBehavior",
+		- "EDUCATION_LEVEL": "CustomerEducationLevel",
+		- "EMPLOYMENT_STATUS": "CustomerEmploymentStatus",
+		- "MARITAL_STATUS": "CustomerMaritalStatus",
+		- "MONTHLY_NET_INCOME": "CustomerMonthlyNetIncome",
+		- "PROFESSION": "CustomerProfession",
+		- "RETIREMENT_AGE": "CustomerRetirementAge",
+		- "STATUS": "CustomerStatus",
+		- "WALLET_SHARE_PERCENTAGE": "CustomerWalletSharePercentage"
+	- Remove this/these column(s):
+		- CustomerRetirementAge (single value feature)
+	- Convert String Values as follows:
+		- CustomerGender
+			- "Female": "F"
+			- "Male": "M"
+		- CustomerAgeRange
+			- "25 to 29": "25-29",
+			- "30 to 39": "30-39",
+			- "40 to 54": "40-54",
+			- "55 to 64": "55-64",
+			- "65 and over": "65+"
+		- CustomerEducationLevel
+			- "PhD": "Doctoral"
+	- Titlecase & remove both leading and trailing whitespace:
+		- CustomerFirstName
+		- CustomerLastName
+		- CustomerProfession
+		- CustomerMaritalStatus
+		- CustomerEmploymentStatus
+		- CustomerEducationLevel
+		- CustomerBehavior
+	- Remove the prepended "XXX-XX-"
+		- CustomerSocSecNumLastFour
+	- Clean Currency feature(s)
+		- CustomerAnnualIncome
+			- remove '$' and ',', THEN convert to floating point numerical value
+- Financials
+	- Rename columns
+		- "CUST_ID": "CustomerId",
+		- "MONTHLY_HOUSING_COST": "MonthlyHousingCost",
+		- "CONTACT_PREFERENCE": "ContactPreference",
+		- "CREDIT_AUTHORITY_LEVEL": "CreditAuthorityLevel",
+		- "CREDIT_SCORE": "CreditScore",
+		- "CREDIT_UTILIZATION": "CreditUtilization",
+		- "DEBT_SERVICE_COVERAGE_RATIO": "DebtServiceCoverageRatio"
+	- Titlecase & Remove ALL whitespace:
+		- CreditAuthorityLevel
+		- ContactPreference
+- Household
+	- Rename columns
+		- "CUST_ID": "CustomerId",
+		- "HOUSEHOLD_ID": "HouseholdId",
+		- "ADDRESS": "HouseholdAddress",
+		- "CITY": "HouseholdCity",
+		- "COUNTRY": "HouseholdCountry",
+		- "STATE": "HouseholdState",
+		- "ZIP": "HouseholdZipCode",
+		- "ADDRESS_LAST_CHANGED_DATE": "HouseholdAddressLastChanged",
+		- "NUMBER_OF_DEPENDENT_ADULTS": "HouseholdNumOfDependentAdults",
+		- "NUMBER_OF_DEPENDENT_CHILDREN": "HouseholdNumOfDependentChildren",
+		- "FAMILY_SIZE": "HouseholdFamilySize",
+		- "HEAD_OF_HOUSEHOLD_INDICATOR": "HouseholdHeadOfHouseholdIndicator",
+		- "HOME_OWNER_INDICATOR": "HouseholdHomeOwnerIndicator",
+		- "URBAN_CODE": "UrbanCode",
+		- "PRIMARY_ADVISOR_ID": "PrimaryAdvisorId"
+	- Remove this/these column(s):
+		- HouseholdNumOfDependentAdults
+		- HouseholdId
+	- Handle dates (convert from string to date):
+		- HouseholdAddressLastChanged
+	- Titlecase & Remove all leading & trailing whitespace
+		- HouseholdCity
+		- HouseholdAddress
+	- Use dictionary to convert these values:
+		- HouseholdCountry
+			- "United States": "USA"
+		- HouseholdState
+			- 'Arizona': 'AZ',
+			- 'California': 'CA',
+			- 'Colorado': 'CO',
+			- 'Connecticut': 'CT',
+			- 'District of Columbia': 'DC',
+			- 'Florida': 'FL', 
+			- 'Georgia': 'GA',
+			- 'Illinois': 'IL',
+			- 'Indiana': 'IN',
+			- 'Iowa': 'IA',
+			- 'Kentucky': 'KY',
+			- 'Massachusetts': 'MA',
+			- 'Minnesota': 'MN',
+			- 'Missouri': 'MO',
+			- 'Nebraska': 'NE',
+			- 'Nevada': 'NV',
+			- 'New Jersey': 'NJ',
+			- 'New York': 'NY',
+			- 'Oklahoma': 'OK',
+			- 'Pennsylvania': 'PA',
+			- 'Saskatchewan': 'Sask',
+			- 'South Carolina': 'SC',
+			- 'South Dakota': 'SD',
+			- 'Texas': 'TX',
+			- 'Utah': 'UT',
+			- 'Washington': 'WA',
+			- 'West Virginia': 'WV', 
+			- 'Alberta': 'AB',
+			- 'British Columbia': 'BC',
+			- 'Manitoba': 'MB',
+			- 'New Brunswick': 'NB',
+			- 'Newfoundland and Labrador': 'NL',
+			- 'Nova Scotia': 'NS',
+			- 'Nunavut': 'NU',
+			- 'Ontario': 'ON',
+			- 'Prince Edward Island': 'PE',
+			- 'Québec': 'QC'
+- Marketing
+	- Rename columns
+		- "CUST_ID": "CustomerId",
+		- "ADVERTISING_INDICATOR": "AdvertisingIndicator",
+		- "ATTACHMENT_ALLOWED_INDICATOR": "AttachmentAllowedIndicator",
+		- "PREFERRED_COMMUNICATION_FORM": "PreferredCommunicationForm",
+		- "IMPORTANCE_LEVEL_CODE": "ImportanceLevelCode",
+		- "INFLUENCE_SCORE": "InfluenceScore",
+		- "MARKET_GROUP": "MarketGroup",
+		- "LOYALTY_RATING_CODE": "LoyaltyRatingCode",
+		- "RECORDED_VOICE_SAMPLE_ID": "RecordedVoiceSampleId",
+		- "REFERRALS_VALUE_CODE": "ReferralsValueCode",
+		- "RELATIONSHIP_START_DATE": "RelationshipStartDate"
+	- Titlecase & Remove ALL whitespace
+		- PreferredCommunicationForm
+		- ImportanceLevelCode
+		- MarketGroup
+		- ReferralsValueCode
+- Join DataFrames/datasets
+	- combine all 5 based on the CustomerId feature
+- Remove the duplicative CustomerId (all instances of it, first, last, etc since there is only one duplicate)
+
+## Dataset Source
+https://www.kaggle.com/datasets/taylorsegell/mock-marketing-schema

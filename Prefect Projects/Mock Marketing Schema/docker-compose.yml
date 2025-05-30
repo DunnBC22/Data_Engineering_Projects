@@ -1,0 +1,168 @@
+services:
+  postgres: # Source
+    image: postgres:15
+    container_name: postgres
+    hostname: postgres
+    ports:
+      - 5433:5432
+    volumes:
+      - ./data:/data
+      - ./pg_scripts:/docker-entrypoint-initdb.d
+      - pg_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=pg
+      - POSTGRES_PASSWORD=pg
+      - POSTGRES_DB=mock_marketing_pg_db
+    networks:
+      - project_network
+
+  cassandra: # Target
+    image: cassandra:5.0.3
+    container_name: cassandra
+    hostname: cassandra
+    restart: always
+    environment:
+      CASSANDRA_CLUSTER_NAME: "Test Cluster"
+      CASSANDRA_NUM_TOKENS: 256
+      CASSANDRA_START_RPC: "true"
+      CASSANDRA_USERNAME: cassandra_user
+      CASSANDRA_PASSWORD: cassandra_pass
+    ports:
+      - "9042:9042"
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+      - ./cassandra_scripts:/docker-entrypoint-initdb.d
+    # command: >
+    #   sh -c "
+    #   /usr/local/bin/docker-entrypoint.sh cassandra -f &
+    #   echo 'Waiting for Cassandra to be ready...';
+    #   until nc -z localhost 9042; do
+    #     sleep 5;
+    #   done;
+    #   sleep 10;  # optional extra wait for schema to be ready
+    #   cqlsh -f /docker-entrypoint-initdb.d/1_db_setup.cql;
+    #   wait
+    #   "
+    networks:
+      - project_network
+    command: >
+      sh -c "
+      /usr/local/bin/docker-entrypoint.sh cassandra -f &
+      until cqlsh -e 'describe cluster'; do
+        echo 'Waiting for Cassandra to be available...';
+        sleep 5;
+      done;
+      cqlsh -f /docker-entrypoint-initdb.d/1_db_setup.cql;
+      wait
+      "
+    healthcheck:
+      test: ["CMD-SHELL", "cqlsh -e 'describe cluster' || exit 1"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  database: # Prefect Database
+    image: postgres:alpine
+    container_name: database
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=prefect
+    expose:
+      - 5432
+    volumes: 
+      - db:/var/lib/postgresql/data
+    profiles: ["server"]
+    networks:
+      - project_network
+
+  minio: # MinIO for flow storage
+    image: minio/minio:latest
+    container_name: minio
+    entrypoint: ["minio", "server", "--address", "0.0.0.0:9000", "--console-address", "0.0.0.0:9001", "/data"]
+    volumes:
+      - "minio:/data"
+    ports:
+      - 9000:9000
+      - 9001:9001
+    profiles: ["minio"]
+    networks:
+      - project_network
+
+  server: # Prefect Server API & UI
+    image: prefecthq/prefect:3-python3.12
+    container_name: prefect-server
+    restart: always
+    volumes:
+      - prefect:/root/.prefect
+    entrypoint: ["/opt/prefect/entrypoint.sh", "prefect", "server", "start"]
+    environment:
+      - PREFECT_UI_URL=http://127.0.0.1:4200/api
+      - PREFECT_API_URL=http://127.0.0.1:4200/api
+      - PREFECT_SERVER_API_HOST=0.0.0.0
+      - PREFECT_API_DATABASE_CONNECTION_URL=postgresql+asyncpg://postgres:postgres@database:5432/prefect
+    ports:
+      - 4200:4200
+    depends_on:
+      - database
+    profiles: ["server"]
+    networks:
+      - project_network
+
+  ## Prefect Worker
+  worker:
+    image: prefecthq/prefect:3-python3.12
+    container_name: prefect-worker-1
+    restart: always
+    entrypoint: ["/opt/prefect/entrypoint.sh", "prefect", "worker", "start", "-p", "MOCK_MARKETING_QUEUE"]
+    environment:
+      - PREFECT_API_URL=http://server:4200/api
+    profiles: ["worker"]
+    networks:
+      - project_network
+
+  prefect-cli: # Prefect CLI Service
+    build: .  
+    image: prefect-cli:latest
+    container_name: prefect-cli
+    entrypoint: ["bash", "-c", "tail -f /dev/null"]
+    working_dir: "/root/flows"
+    volumes:
+      - "./flows:/root/flows"
+    environment:
+      - PREFECT_API_URL=http://server:4200/api
+    profiles: ["cli"]
+    networks:
+      - project_network
+
+  
+volumes:
+  pg_data:
+  cassandra_data:
+  prefect:
+  db:
+  minio:
+
+networks:
+  project_network:
+
+
+# Other helpful statements/commands
+
+# docker compose --profile server up -d
+# docker compose --profile worker up -d
+# docker compose --profile minio up -d
+# docker compose --profile cli up -d
+
+# docker compose up -d --no-deps --force-recreate --build prefect-cli
+
+# docker compose --profile server down -v
+# docker compose --profile worker down -v
+# docker compose --profile minio down -v
+# docker compose --profile cli down -v
+
+
+# Check that libraries were correctly installed:
+# >> docker exec -it prefect-cli bash
+# >> pip list

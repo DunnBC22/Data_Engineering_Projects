@@ -1,0 +1,16 @@
+# prefect.yaml
+
+blocks:      
+  - name: "pg-connector"
+    type: "SqlAlchemyConnector"
+    connection_info:
+      driver: "SyncDriver.POSTGRESQL_PSYCOPG2"
+      username: "pg"
+      password: "pg"
+      host: "postgres"
+      port: 5432
+      database: "mock_marketing_pg_db"
+  
+work_pools:
+  - name: "Mock-Marketing-work-pool"
+    infrastructure: "docker"  # Options: "docker", "process"
